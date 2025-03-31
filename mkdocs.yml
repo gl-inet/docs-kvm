@@ -1,0 +1,98 @@
+# Repository
+repo_name: gl-inet/docs-kvm
+repo_url: https://github.com/gl-inet/docs-kvm
+edit_uri: ""
+
+site_name: GL.iNet KVM Docs
+site_description: Documentation for GL.iNet KVM Productions
+site_author: GL.iNet
+site_url: https://docs.gl-inet.com/kvm/en/
+site_dir: /root/docs-build/kvm/en/
+copyright: Copyright &copy; 2025 GL Technologies & Microuter Technologies
+
+theme: 
+  name: material
+  logo: images/logo_white.svg
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+  # palette:
+  #   - scheme: default
+  #     primary: white
+  #     accent: indigo
+  #     toggle:
+  #       icon: material/toggle-switch-off-outline
+  #       name: Switch to dark mode
+  #   - scheme: slate
+  #     primary: cyan
+  #     accent: cyan
+  #     toggle:
+  #       icon: material/toggle-switch
+  #       name: Switch to light mode
+  favicon: images/favicon.png
+
+# Plugins
+plugins:
+  - search
+
+# Customization
+extra:
+  # analytics:
+  #   provider: google
+  #   property: G-34T6Q5NL0V
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.gl-inet.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/gl-inet/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/gl.inet.wifi/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GLiNetWiFi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gl-inet.com/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCBfNEzurltlIeFFCbUgHQyg
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/glinetWiFi/
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+
+  # we can use the cdn or files
+  # - stylesheets/photoswipe.min.css
+  # - stylesheets/default-skin.min.css
+  - stylesheets/extra.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  # we can use the cdn or files
+  # - javascripts/photoswipe.min.js
+  # - javascripts/photoswipe-ui-default.min.js
+  - javascripts/extra.js
+  - javascripts/cookieconsent.js
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - admonition
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Overview: user_guide/index.md
+    - GL-RM1 (Comet): user_guide/gl-rm1/index.md
+  - FAQ:
+    - Overview: faq/index.md
