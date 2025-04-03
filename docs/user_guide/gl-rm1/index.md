@@ -219,7 +219,7 @@ The FingerBot, acting as a physical button emulator, is designed to enable remot
 
 Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL-RM1. Then attach the FingerBot to the physical power button of the controlled device, it will be able to remote control the ON/OFF of the controlled device by physically pressing the power button.
 
-Then you can log in to GL-RM1, go to [Accessories](https://docs.gl-inet.com/kvm/user_guide/gl-rm1/#accessories) to set the FingerBot.
+Then you can log in to GL-RM1, go to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the FingerBot.
 
 **Note**: This product is not available yet.
 
@@ -295,7 +295,7 @@ Connect the external interface of ATX board to the USB-A interface of the GL-RM1
 
 ![connect usb cable to the KVM](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/connect_usb_cable_to_glkvm.png){class="glboxshadow"}
 
-Now you can log in to the GL-RM1, go to [Accessories](https://docs.gl-inet.com/kvm/user_guide/gl-rm1/#accessories) to set the ATX power.
+Now you can log in to the GL-RM1, go to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the ATX power.
 
 ---
 
