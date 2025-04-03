@@ -64,15 +64,15 @@ A1. Sure. You can control the power of the controlled devices in the following w
 
 - Wake on LAN (Built-in software service)
 
-- [ATX board](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#atx-package) (Accessories, additional purchase required)
+- [ATX board](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#atx-package) (Accessories, additional purchase required)
 
-- [FingerBot](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#fingerbot) (Accessories, additional purchase required, Not yet available for sale)
+- [FingerBot](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#fingerbot) (Accessories, additional purchase required, Not yet available for sale)
 
 ---
 
 **Q2. How to use ATX Board for remote power management?**
 
-A2. Please refer to this [User Guide](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#atx-package).
+A2. Please refer to this [User Guide](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#atx-package).
 
 ---
 
