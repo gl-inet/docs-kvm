@@ -151,7 +151,7 @@ In the top navigation bar, click  **Accessories**.
     - Time: The duration for which the Fingerbot presses.
     - Strength: Two levels of pressing strength are provided.
 
-    Click [here](https://docs.gl-inet.com/kvm/user_guide/gl-rm1/#fingerbot) to find more details about FingerBot.
+    Click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#fingerbot) to find more details about FingerBot.
 
 - ATX Power
 
@@ -160,7 +160,7 @@ In the top navigation bar, click  **Accessories**.
     - Power: Provides short press and long press functions.
     - Restart: Restart the device.
 
-    Click [here](https://docs.gl-inet.com/kvm/user_guide/gl-rm1/#atx-package) to find more details about ATX package.
+    Click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#atx-package) to find more details about ATX package.
 
 ### Virtual Media
 
