@@ -106,7 +106,13 @@ Move to the top navigation bar, click **Settings**, you will get a page as below
 
 - Video
 
-    It provides modifications of video quality and orientation. You can adjust the video quality according to the connection quality and resolution requirements, and adjust the viewing angles as well.
+    You can modify the video quality, orientation and EDID of GL-RM1 control page. 
+    
+    - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
+    - Orientation: Adjust the rotation degree of GL-RM1 control page.
+    - EDID: Extended Display Identification Data. It is the configuration used by GLKVM devices to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified.
+    
+        In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset mode (e.g., 1920*1280/AUO/60HZ), or enter the custom EDID code.
 
 - Remote Device Settings
 
