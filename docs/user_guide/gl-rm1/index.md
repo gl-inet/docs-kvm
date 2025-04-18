@@ -112,7 +112,7 @@ Move to the top navigation bar, click **Settings**, you will get a page as below
     - Orientation: Adjust the rotation degree of GL-RM1 control page.
     - EDID: Extended Display Identification Data. It is the configuration used by GLKVM devices to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified.
     
-        In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset mode (e.g., 1920*1280/AUO/60HZ), or enter the custom EDID code.
+        In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset mode (e.g., 1920*1280/AUO/60HZ), or enter the custom EDID code. Refer to [this link](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="blank"} for more details.
 
 - Remote Device Settings
 
