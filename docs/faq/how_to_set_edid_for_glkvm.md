@@ -18,7 +18,7 @@ In the GLKVM panel -> Settings -> EDID, there are some preset EDID configuration
 
 In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset value, e.g., 1920×1280/AUO/60HZ, or switch to Customize and enter the custom EDID code.
 
-You may refer to [this link](https://github.com/linuxhw/EDID){target="blank"} or steps below to customize EDID configuration.
+If you can't find a suitable code, you may refer to [this link](https://github.com/linuxhw/EDID){target="blank"} or steps below to customize EDID configuration.
 
 1. Find a suitable EDID configuration in [this link](https://github.com/linuxhw/EDID){target="blank"}.
 
