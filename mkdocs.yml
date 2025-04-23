@@ -99,3 +99,10 @@ nav:
     - Frequently Asked Questions about GL.iNet: faq/frequently_asked_questions_about_glinet_kvm.md
     - How to Fix Mouse Cursor Overlay Issue on macOS: faq/how_to_fix_mouse_cursor_overlay_issue_on_macOS.md
     - How to Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - How to Set EDID for GL.iNet KVM: tutorials/how_to_set_edid_for_glkvm.md
+  - Video Library:
+    - Overview: video_library/index.md
+    - Meet Our New Products: video_library/products.md
+    - Features: video_library/features.md
