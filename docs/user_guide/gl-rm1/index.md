@@ -292,7 +292,7 @@ There are some components in the ATX Package box:
 
 #### PIN-OUT of the ATX Board
 
-![pinout board](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/atx_board_pinout.png){class="glboxshadow"}
+![pinout board](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/atx_board_pinout.jpg){class="glboxshadow gl-80-desktop"}
 
 Explanation of Interfaces with Marked Numbers
 
