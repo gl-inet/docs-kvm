@@ -1,4 +1,4 @@
-# How to Fix Mouse Cursor Overlay Issue on macOS
+# How to Fix Mouse Cursor Overlay Issue on macOS?
 
 When using GL-RM1, sometimes you may get the issue that the mouse cursor can't be superimposed on macOS.
 
