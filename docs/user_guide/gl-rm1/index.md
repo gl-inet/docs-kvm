@@ -1,28 +1,16 @@
 # Comet (GL-RM1) User Guide
 
-GL-RM1 is an open-source remote KVM device with a wide range of applications. You can use it to remote control your home computer when away from home, access to local resources, etc. It supports remote control of offline devices, allowing you to handle computer boot failures and adjust BIOS settings. It also has a remote file transfer function, enabling easy data transfer for both online and offline computers. With audio support, it provides a more immersive remote interaction experience. In a word, it is an essential tool for remote work and device management.
+Comet (GL-RM1) is an open-source remote KVM device with a wide range of applications. You can use it to remote control your home computer when away from home, access to local resources, etc. It supports remote control of offline devices, allowing you to handle computer boot failures and adjust BIOS settings. It also has a remote file transfer function, enabling easy data transfer for both online and offline computers. With audio support, it provides a more immersive remote interaction experience. In a word, it is an essential tool for remote work and device management.
 
-## Quick Setup Guide
+## Product Overview
 
-This section will guide you how to set up GL-RM1 quickly. Connect the device, remote and local access to the controlled device.
+### Appearance
 
-### Connect the Devices
+![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance.jpg){class="glboxshadow"}
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
+### LED
 
-1. Connect the GL-RM1 to the power source to power it on.
-    ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
-
-2. Use an HDMI cable to connect the GL-RM1's HDMI-IN port to the HDMI-OUT port of the Device B.
-    ![HDMI cable to connect the GL-RM1's HDMI-IN port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/03_hdmi.jpg){class="glboxshadow"}
-
-3. Connect the GL-RM1's USB-Device port to the USB interface of the Device B using a USB cable.
-    ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/04_usb-cable.jpg){class="glboxshadow"}
-
-4. Plug the GL-RM1's Ethernet port to a network source.
-    ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
-
-### LED Explanation
+There is 1x LED on the top panel of Comet. Here's the LED explanation.
 
 | LED Status               | Indication                        |
 | :----------------------- | :-------------------------------- |
@@ -31,22 +19,60 @@ This section will guide you how to set up GL-RM1 quickly. Connect the device, re
 | Solid White              | Connected to Internet             |
 | Flashing Blue & White    | Firmware Upgrading                |
 
-### Button Explanation
+### Button
+
+There is 1x Button at the side panel of Comet. Here's the button explanation.
 
 | Function                   | Operation                                | LED Indication                        |
 | :------------------------- | :--------------------------------------- | :------------------------------------ |
 | Enter U-Boot Flashing Mode | With device powered on, press and hold <br>the button for more than 3s then release | Pressing the button: Flashing Blue <br>Entered U-Boot mode: Solid Blue      |
 | Reset                      | With device powered on, press and hold <br>the button for 8-20s then release        | Pressing for 1-8s: Slowly Flashing <br>Pressing for 8-20s: Quickly Flashing |
 
-### Remote Access to the Controlled Device
+## Quick Setup Guide
 
-Follow the steps below.
+### Connect the Devices
 
-1. Install the [App](https://link.gl-inet.com/label-rm1-app/){target="_blank"} on your remote controlling device.
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
+
+1. Connect the Comet to the power source to power it on.
+    ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
+
+2. Use an HDMI cable to connect the Comet's HDMI-IN port to the HDMI-OUT port of the Device B.
+    ![HDMI cable to connect the GL-RM1's HDMI-IN port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/03_hdmi.jpg){class="glboxshadow"}
+
+3. Connect the Comet's USB-Device port to the USB interface of the Device B using a USB cable.
+    ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/04_usb-cable.jpg){class="glboxshadow"}
+
+4. Plug the Comet's Ethernet port to a network source.
+    ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
+
+### Local Access to Comet
+
+**Method 1**. via Domain Name
+
+Open a browser, enter `glkvm.local`, you will enter the local management page.
+
+**Method 2**. via IP Address
+
+Find the IP address of Comet in the upper router, enter this IP address in the browser, you will be able to access the Comet locally, thus access the controlled device connected to Comet.
+
+Take GL-AXT1800 as an example. Here we connect the Comet to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
+
+![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
+
+Now we can use this IP to access Comet locally, thus access the controlled device.
+
+![local access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access.png){class="glboxshadow"}
+
+### Remote Access to Comet
+
+**Method 1**. via GLKVM Application
+
+1. Install the [GLKVM App](https://link.gl-inet.com/label-rm1-app/){target="_blank"} on your controlling device.
 
 2. Register an Account.
     
-    Register a glinet account. If you already have one, skip this step.
+    Register a GL.iNet account. If you already have one, skip this step.
 
     ![sign up](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/sign_up_account.png){class="glboxshadow gl-80-desktop"}
 
@@ -56,15 +82,15 @@ Follow the steps below.
     
     ![log in](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/log_in.png){class="glboxshadow gl-80-desktop"}
 
-4. Bind your GL-RM1.
+4. Bind your device.
 
-    There are two methods to bind GL-RM1 to your account.
+    There are two methods to bind Comet to your account.
 
     === "Bind via Local Area Network"
     
-        Please ensure that the current Controlling Device is in the same local area network as the GL-RM1.
+        Please ensure that the current Controlling Device is in the same local area network as the Comet.
 
-        Click "Add Device" and select your GL-RM1.
+        Click "Add Device", select your Comet.
 
         ![add device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_device.png){class="glboxshadow gl-80-desktop"}
 
@@ -80,21 +106,15 @@ Follow the steps below.
 
         ![add manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_manually.png){class="glboxshadow gl-80-desktop"}
 
-You can now start using GL-RM1 to remote access the controlled device.
+    You can now start using Comet to remote access the controlled device.
 
-### Local Access to the Controlled Device
+**Method 2**. via Tailscale
 
-**Method 1**. Open a browser, enter `glkvm.local`, you will enter the local management page.
+You can bind Comet to your Tailscale account, add it into your Tailscale virtual network. 
 
-**Method 2**. Find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
+In this way, you can directly access Comet by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
-Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of GL-RM1 can be found in the Client list, as shown below.
-
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
-
-Now you can use this IP to access your controlled device locally via GL-RM1.
-
-![local access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access.png){class="glboxshadow"}
+More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
 ## Function Introduction
 
@@ -110,7 +130,7 @@ Move to the top navigation bar, click **Settings**, you will get a page as below
     
     - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
     - Orientation: Adjust the rotation degree of GL-RM1 control page.
-    - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Refer to [this link](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="blank"} for more details.
+    - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Refer to [this link](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for more details.
 
 - Remote Device Settings
 
@@ -224,9 +244,13 @@ In the top navigation bar, click  **Apps Center**.
 
 ![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.png){class="glboxshadow"}
 
-- Tailscale: You can bind this device to your own Tailscale account to manage it under Tailscale network.
+#### Tailscale
 
-    More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="blank"}.
+This feature is available since firmware v1.1.0
+
+Bind Comet to your own Tailscale account, then you can remotly access it by its Tailscale virtual IP.
+
+More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
 ### Help
 
