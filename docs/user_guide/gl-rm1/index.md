@@ -6,7 +6,9 @@ Comet (GL-RM1) is an open-source remote KVM device with a wide range of applicat
 
 ### Appearance
 
-![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance.jpg){class="glboxshadow"}
+![appearance 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance_1.jpg){class="glboxshadow"}
+
+![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance_2.jpg){class="glboxshadow"}
 
 ### LED
 
