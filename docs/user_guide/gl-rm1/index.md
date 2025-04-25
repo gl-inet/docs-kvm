@@ -193,7 +193,7 @@ In the top navigation bar, click  **Accessories**.
     - Time: The duration for which the Fingerbot presses.
     - Strength: Two levels of pressing strength are provided.
 
-    Click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#fingerbot) to find more details about FingerBot.
+    Click [here](#fingerbot) to find more details about FingerBot.
 
 - ATX Power
 
@@ -202,7 +202,7 @@ In the top navigation bar, click  **Accessories**.
     - Power: Provides short press and long press functions.
     - Restart: Restart the device.
 
-    Click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#atx-package) to find more details about ATX package.
+    Click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"} to find more details about ATX board.
 
 ### Virtual Media
 
@@ -296,7 +296,7 @@ The FingerBot, acting as a physical button emulator, is designed to enable remot
 
 Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL-RM1. Then attach the FingerBot to the physical power button of the controlled device, it will be able to remote control the ON/OFF of the controlled device by physically pressing the power button.
 
-Then you can log in to GL-RM1, go to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the FingerBot.
+Then you can log in to GL-RM1, go to [Accessories](#accessories) to set the FingerBot.
 
 **Note**: This product is not available yet.
 
@@ -306,111 +306,7 @@ The ATX Board is an optional accessory. Like a smart power management module, it
 
 Unlike the FingerBot, which controls device through physical button presses, the ATX main board will be directly installed in the controlled device's host box, providing more concealed and stable power management.
 
-#### Components
-
-There are some components in the ATX Package:
-
-- ATX main board
-- USB-A to Type-C cable
-- 9 PIN Wire Set
-- Screw package
-- ATX Bracket Set
-
-![components](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/components.png){class="glboxshadow gl-60-desktop"}
-
-#### PIN-OUT of the ATX Board
-
-![pinout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/pinout.jpg){class="glboxshadow gl-80-desktop"}
-
-Explanation of Interfaces:
-
-1. Type-C Interface: Connect to the GL-RM1 device.
-2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
-3. Reset button.
-4. Connect to the control line of the computer panel.
-5. Connect to the F_PANEL interface of the computer.
-
-!!! note
-
-    Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the control line of the computer panel, and interface 4 can be connected to the F_PANEL. The LED status on the board is consistent with the Power LED status on the computer panel.
-
-Interfaces 4/5 diagram:
-
-![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/interface.png){class="glboxshadow gl-60-desktop"}
-
-#### ATX Main Board Installation
-
-Firstly, fix the ATX main board and the ATX Bracket Set with the screws provided.
-
-![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/screwing.png){class="glboxshadow gl-60-desktop"}
-
-Secondly, connect interfaces ④ and ⑤ respectively to the controlled computer's control line and F_PANEL interface. 
-
-The 9 PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
-    
-You need to use the wire set included in your computer host box to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
-
-Here are two examples of connecting one of the axt board interfaces 4/5 to the controlled computer's F_PANEL interface.
-
-**Example 1. For 20-5 pin PANEL**
-
-If the row of pins on the motherboard of your controlled computer for connecting to the control panel is 20-5 pin PANEL, as shown below.
-
-![20-5pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_1.jpg){class="glboxshadow"}
-
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) are visible facing outward and not obscured facing inward.
-
-![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_2.jpg){class="glboxshadow"}
-<small>Example of the front view</small>
-
-![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_3.png){class="glboxshadow"}
-<small>Example of the rear view</small>
-
-Then use the wire set included in your computer host box to connect another ATX board interface to the computer control line.
-
-**Example 2. For 10-1 pin PANEL**
-
-If the row of pins on the motherboard of your controlled computer for connecting to the control panel is 10-1 pin PANEL, as shown below.
-
-![10-1pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_1.png){class="glboxshadow"}
-
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) are visible facing outward and not obscured facing inward.
-
-![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_2.jpg){class="glboxshadow"}
-<small>Example of the front view</small>
-
-![10-1pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_3.jpg){class="glboxshadow"}
-<small>Example of the rear view</small>
-
-Then use the wire set included in your computer host box to connect another ATX board interface to the computer control line.
-
-The final connected AXT board is shown below.
-
-![axt board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install1.png){class="glboxshadow gl-60-desktop"}
-
-Detailed front view of AXT board
-
-![axt board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install2.jpg){class="glboxshadow"}
-
-Detailed rear view of AXT board
-
-![axt board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install3.jpg){class="glboxshadow"}
-
-Thirdly, place the ATX board bracket on the side frame of the computer host box.
-
-![axt board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install4.png){class="glboxshadow"}
-
-Finally, connect the Type-C interface of ATX board to the USB-A interface of the GL-RM1, using the included USB-A to Type-C cable.
-
-![axt board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install5.png){class="glboxshadow"}
-
-![axt board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install6.png){class="glboxshadow"}
-
-This completes the installation of the AXT board. You can log in to the GL-RM1, navigate to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the ATX power.
-
-!!! Note
-
-    If you can't turn on/off the controlled computer via GL-RM1 control page, please check the polarity of the wiring, try flipping the connector polarity to avoid wrong wiring.
+Please refer to [GL-ATX Board User Guide](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"} for details.
 
 ---
 
