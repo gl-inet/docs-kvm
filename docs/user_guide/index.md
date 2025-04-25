@@ -1,6 +1,6 @@
 # User Guide
 
-### Remote Control
+### Remote KVM over Internet
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -9,6 +9,20 @@
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rm1.jpg" >
         <div class="gl-product-model">GL-RM1</div>
         <div class="gl-product-model">(Comet)</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+### KVM Accessories
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-atx-board">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_atx-board.jpg" >
+        <div class="gl-product-model">GL-ATX Board</div>
+        <div class="gl-product-model"><br></div>
       </a>
     </div>
   </div>

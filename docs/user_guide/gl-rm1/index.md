@@ -300,15 +300,15 @@ Then you can log in to GL-RM1, go to [Accessories](https://docs.gl-inet.com/kvm/
 
 **Note**: This product is not available yet.
 
-### ATX Package
+### ATX Board
 
-The ATX package is an optional accessory, the most important part of which is the AXT main board. Like a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
+The ATX Board is an optional accessory. Like a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
 
 Unlike the FingerBot, which controls device through physical button presses, the ATX main board will be directly installed in the controlled device's host box, providing more concealed and stable power management.
 
 #### Components
 
-There are some components in the ATX Package box:
+There are some components in the ATX Package:
 
 - ATX main board
 - USB-A to Type-C cable

@@ -94,6 +94,7 @@ nav:
   - User Guide:
     - Overview: user_guide/index.md
     - GL-RM1 (Comet): user_guide/gl-rm1/index.md
+    - GL-ATX Board: user_guide/gl-atx-board/index.md
   - FAQ:
     - Overview: faq/index.md
     - General:
