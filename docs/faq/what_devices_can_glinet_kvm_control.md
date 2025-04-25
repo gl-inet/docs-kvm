@@ -8,13 +8,13 @@ As to the controlling device, whether software needs to be installed on it depen
 
 - Local Access
 
-    If you want to access the controlled device in the local area network (LAN), you can directly launch a browser on the controlling PC, enter `glkvm.local` in the address bar to access the glkvm local management page.
+    If you want to access the controlled device in the local area network (LAN), you can directly launch a browser on the controlling PC, enter `glkvm.local` in the address bar to access the glkvm local management page. No need to install any sofeware on the controlling device.
     
 - Remote Access
 
-    If your controlling device is Windows or macOS, you can install the [GLKVM application](https://www.gl-inet.com/app-rm/){target="_blank"} on it to access GL.iNet KVM and the controlled device. 
+    If your controlling device is Windows or macOS, you can install the [GLKVM application](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access GL.iNet KVM and the controlled device. 
 
-    Alternatively, if you cannot or don't want to install GLKVM application, you may use Tailscale to achieve remote access, which is integrated in Comet (GL-RM1). In this way, you can directly access Comet by typing its Tailscale virtual IP into a browser, without installing GLKVM app.
+    Alternatively, if you cannot or don't want to install GLKVM application, you may use **Tailscale** to achieve remote access, which is integrated in Comet (GL-RM1). In this way, simply type Comet's Tailscale virtual IP into a browser, you can directly access Comet and the controlled device without installing GLKVM app.
 
 ---
 

@@ -16,47 +16,61 @@ A1. GL.iNet KVM can be used to control any device that uses HDMI output and USB 
 
 A2. No software is required to be installed on the controlled device. 
 
-- When accessing the controlled device in the local area network (LAN), you can directly launch a browser on the controlling PC to access the KVM control panel; 
+As to the controlling device, whether software needs to be installed on it depends on the way you want to access the controlled device.
+
+- Local Access
+
+    If you want to access the controlled device in the local area network (LAN), you can directly launch a browser on the controlling PC, enter `glkvm.local` in the address bar to access the glkvm local management page. No need to install any sofeware on the controlling device.
     
-- For remote access, you need to install the GLKVM application on the controlling device, so as to access KVM and the controlled device.
+- Remote Access
+
+    If your controlling device is Windows or macOS, you can install the [GLKVM application](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access GL.iNet KVM and the controlled device. 
+
+    Alternatively, if you cannot or don't want to install GLKVM application, you may use **Tailscale** to achieve remote access, which is integrated in Comet (GL-RM1). In this way, simply type Comet's Tailscale virtual IP into a browser, you can directly access Comet and the controlled device without installing GLKVM app.
 
 ---
 
-**Q3. How do I access the device connected to GL-RM1 (Comet)? Through Web or a seperate application?**
+**Q3. How do I access the GL.iNet KVM and the controlled device connected to it?**
 
-A3. There are two methods: web or Application.
+A3. Take GL-RM1 (Comet) as an example. There are three ways to access the GL-RM1 and the controlled device: 
 
-- Web is suitable for local LAN access, which means that the controlling devices and Comet need to be connected to the same LAN. Then enter "glkvm.local" on the web browser, you will be taken to the local management page. Alternatively, search for Comet's LAN IP address through the router, enter its IP address in the browser, it will take you to the local management page as well.
+- Local access via Web browser
+- Remote access via GLKVM application
+- Remote access via Tailscale
 
-- Application is suitable for remote access. Install the GLKVM application on the controlling device, so as to access KVM and the controlled device.
+Click [here](how_to_access_the_controlled_device_connected_to_kvm.md) for more details.
 
 ---
 
-**Q4. Do I need open ports for Comet to work (exposed to WAN) when accessing KVM from remote location?**
+**Q4. Do I need to open ports (exposed to WAN) for GL.iNet KVM to achieve remote access?**
 
 A4. No. No open ports or even a public IP is needed.
 
 ---
 
-**Q5. Does it support Chrome OS?**
+**Q5. Does GLKVM application support ChromeOS/Linux?**
 
-A5. The GLKVM application currently does not support installation on Chrome OS, so if your controlling device is running Chrome OS, remote access to KVM is not supported. However, you can locally access the controlled device through a web browser in the local LAN network.
+A5. No. Currently the GLKVM app does not support installation on Chrome or Linux OS. 
+
+If your controlling device is running Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported.
+
+However, you may use **Tailscale** to achieve remote access, which is integrated in Comet (GL-RM1). In this way, you can directly access Comet by typing its Tailscale virtual IP into a browser, without installing GLKVM app.
+
+Alternatively, you can locally access the controlled device through a web browser in the local LAN network.
+
+As to the remotely-controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
 
 ---
 
-**Q6. Does it support Linux OS?**
-
-A6. Controlled devices running Linux operating system can be remotely accessed and controlled. If the controlling device runs Linux, installing the desktop application GLKVM is not supported, you can only access the controlled device using a web browser in the local LAN network.
-
----
-
-**Q7. Can GL.iNet KVM connect to wireless network?**
+**Q7. Can GL-RM1 (Comet) connect to wireless network?**
 
 A7. GL-RM1 (Comet) does not support connecting to wireless network.
 
+You need to connect it to a network device (such as a router) via an Ethernet cable to get Internet access.
+
 ---
 
-## Power Management Related
+## Power Control Related
 
 **Q1. Can GL.iNet KVM control the power of a computer?**
 
@@ -70,9 +84,9 @@ A1. Sure. You can control the power of the controlled devices in the following w
 
 ---
 
-**Q2. How to use ATX Board for remote power management?**
+**Q2. How to use ATX Board for remote power control?**
 
-A2. Please refer to this [User Guide](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#atx-package).
+A2. Please refer to [this tutorial](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#atx-package).
 
 ---
 
@@ -100,13 +114,17 @@ A3. Wake on LAN (WOL) is a technology that allows a computer or device to be rem
 
 **Q1. Why can't I control the keyboard and mouse even if I have all wires connected?**
 
-A1. Please confirm that the cable used is capable of data transmission, otherwise it will not be able to control the keyboard and mouse.
+A1. Please refer to [this document](cannot_control_the_mouse.md).
 
 ---
 
-**Q2. Why can't my mouse cursor overlap with that on the controlled device screen when using macOS to remotely connect to KVM?**
+**Q2. Why can't my mouse cursor overlap with that on the controlled device screen?**
 
-A2. You can modify the resolution of the controlled computer to the appropriate parameters, or modify the EDID of the KVM to adjust it.
+A2. It usually happens when the controlled device is macOS.
+
+You can modify the resolution of the controlled device to the appropriate parameters (recommended), or modify the EDID of the KVM to adjust it.
+
+Click [here](how_to_fix_mouse_cursor_overlay_issue_on_macOS.md) for more instructions.
 
 ---
 
