@@ -262,6 +262,8 @@ Comet integrates with Tailscale, allowing you to bind it to the Tailscale virtua
 
 In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
+![tailscale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/tailscale.png){class="glboxshadow"}
+
 More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
 ### Help
