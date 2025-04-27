@@ -2,7 +2,7 @@
 
 The ATX board is an optional accessory for GL.iNet KVM device. As a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
 
-The ATX board will be installed in the controlled device's host box, providing more concealed and stable power management.
+The ATX board will be installed in the controlled device's chassis, providing more concealed and stable power management.
 
 ## Components
 
@@ -22,7 +22,7 @@ There are some components in the ATX Package:
 
 Explanation of Interfaces:
 
-1. Type-C Interface: Connect to the GL-RM1 device.
+1. Type-C Interface: Connect to the KVM device.
 2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
 3. Reset button.
 4. Connect to the control line of the computer panel.
@@ -38,25 +38,25 @@ Interfaces 4/5 diagram:
 
 ## ATX Board Installation
 
-### Screwing
+### 1. Screw ATX Board and Bracket
 
-Firstly, fix the ATX main board and the ATX Bracket Set with the screws provided.
+Fix the ATX board and the ATX Bracket Set with the screws provided.
 
 ![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/screwing.png){class="glboxshadow gl-60-desktop"}
 
-### Connecting
+### 2. Install ATX Board into the Chassis
 
-Secondly, connect interfaces ④ and ⑤ respectively to the controlled computer's control line and F_PANEL interface. 
+Connect interfaces 4 and 5 respectively to the controlled computer's control line and F_PANEL interface. 
 
 The 9 PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
     
-You need to use the wire set included in your computer host box to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
+You need to use the wire set included in your computer chassis to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
 
 !!! Note
 
     The interface polarity may vary depending on different  PC chassis. Please double check it before installation.
 
-Here are two examples of connecting one of the axt board interfaces 4/5 to the controlled computer's F_PANEL interface.
+**Here are two examples of connecting one of the ATX board interfaces 4/5 to the controlled computer's F_PANEL interface.**
 
 **Example 1. For 10-1 pin PANEL**
 
@@ -72,7 +72,7 @@ Please refer to the diagram below for connection, make sure that the silkscreen 
 ![10-1pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_3.jpg){class="glboxshadow"}
 <small>Example of the rear view</small>
 
-Then use the wire set included in your computer host box to connect another ATX board interface to the computer control line.
+Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
 
 **Example 2. For 20-5 pin PANEL**
 
@@ -88,35 +88,31 @@ Please refer to the diagram below for connection, make sure that the silkscreen 
 ![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_3.png){class="glboxshadow"}
 <small>Example of the rear view</small>
 
-Then use the wire set included in your computer host box to connect another ATX board interface to the computer control line.
+Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
 
-The final connected AXT board is shown below.
+The final connected ATX board is shown below.
 
 ![axt board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install1.png){class="glboxshadow gl-60-desktop"}
 
-Detailed front view of AXT board
-
 ![axt board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install2.jpg){class="glboxshadow"}
-
-Detailed rear view of AXT board
+<small>Detailed front view of ATX board</small>
 
 ![axt board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install3.jpg){class="glboxshadow"}
+<small>Detailed rear view of ATX board</small>
 
-### Assembling
-
-Thirdly, place the ATX board bracket on the side frame of the computer host box.
+Then place the ATX board bracket on the side frame of the computer chassis.
 
 ![axt board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install4.png){class="glboxshadow"}
 
-### Powering
+### 3. Connect ATX Board and KVM
 
-Finally, connect the Type-C interface of ATX board to the USB-A interface of the GL-RM1, using the included USB-A to Type-C cable.
+Connect the Type-C interface of ATX board to the USB-A interface of the KVM device (such as Comet GL-RM1), using the included USB-A to Type-C cable.
 
 ![axt board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install5.png){class="glboxshadow"}
 
 ![axt board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install6.png){class="glboxshadow"}
 
-This completes the installation of the AXT board. You can log in to the GL-RM1, navigate to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the ATX power.
+This completes the installation of the ATX board. You can log in to the Comet, navigate to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the ATX power.
 
 !!! Note
 
