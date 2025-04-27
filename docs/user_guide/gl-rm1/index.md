@@ -112,9 +112,9 @@ Now we can use this IP to access Comet locally, thus access the controlled devic
 
 **Method 2**. via Tailscale
 
-You can bind Comet to your Tailscale account, add it into your Tailscale virtual network. 
+Comet integrates with Tailscale since firmware v1.1.0, allowing you to bind it to the Tailscale virtual network for remote access.
 
-In this way, you can directly access Comet by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
+In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
 More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
@@ -122,17 +122,17 @@ More instructions about Tailscale, please refer to [Tailscale documentation](htt
 
 ### Settings
 
-Move to the top navigation bar, click **Settings**, you will get a page as below.
+In the Comet's control page, navigate to **Settings**, you will get a page as below.
 
 ![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.png){class="glboxshadow"}
 
 - Video
 
-    You can modify the video quality, orientation and EDID of GL-RM1 control page. 
+    You can modify the video quality, orientation and EDID settings of Comet's control page. 
     
     - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
-    - Orientation: Adjust the rotation degree of GL-RM1 control page.
-    - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Refer to [this link](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for more details.
+    - Orientation: Adjust the control page rotation degree.
+    - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
 
 - Remote Device Settings
 
@@ -152,87 +152,95 @@ Move to the top navigation bar, click **Settings**, you will get a page as below
 
 ### Toolbox
 
-In the top navigation bar, click  **Toolbox**.
+In the Comet's control page, navigate to **Toolbox**.
 
 ![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
 
 - Clipboard
 
-    The clipboard allows you to paste the text content of the control end into the controlled device.
+    The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
 
 - Shortcut
 
-    Here are some common shortcut key options. Click "ALL" to show all options.
+    It shows some common shortcut key options. Click "ALL" to show all options.
 
     ![all shortcuts](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
 
 - Wake On Lan
 
-    Wake on LAN (WOL) is a technology that allows the controoled device to be remotely powered on or awakened from a low-power state.
+    Wake on LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
 
     Click Add Device to set it up.
 
 - Terminal
 
-    Access Terminal: You can access the terminal of GL-RM1 through this function.
+    Access Terminal: You can access the terminal of Comet through this function.
 
     ![access terminal](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
 
 ### Accessories
 
-GL.iNet provides optional accessories, which you can connect to the GL-RM1 for use.
+GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management. 
 
-In the top navigation bar, click  **Accessories**.
+Firstly, connect the accessories to the controlled device. For Fingerbot, please click [here](#fingerbot). For ATX board, please click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"}.
+
+Then log in to the Comet's control page, navigate to **Accessories**. 
 
 ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
 
-- Fingerbot
+**Note**: Accessory settings are only displayed after installation.
 
-    The FingerBot is an optional accessory. Acting as a physical button emulator, it is designed to enable remote control of physical power button on the controlled device.
+- Fingerbot
     
+    The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
+    
+    It works as per the following settings.
+
     - Time: The duration for which the Fingerbot presses.
     - Strength: Two levels of pressing strength are provided.
 
-    Click [here](#fingerbot) to find more details about FingerBot.
-
 - ATX Power
 
-    The ATX Board is another optional accessory. It is installed in the computer host box, enabling remote control of the controlled device's power supply (power on/off/reboot).
+    The ATX Board is installed in the computer host box to achieve remote control of the controlled device's power on/off/reboot.
+
+    It works as per the following settings.
 
     - Power: Provides short press and long press functions.
     - Restart: Restart the device.
 
-    Click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"} to find more details about ATX board.
-
 ### Virtual Media
 
-GL-RM1 allows you to transfer files from the host to GL-RM1, and then from GL-RM1 to the controlled device.
+Comet allows you to transfer files between the host controlling device and the controlled device.
 
 In the top navigation bar, click  **Virtual Media**.
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.png){class="glboxshadow"}
 
-You can drag or click the box to upload files from host or from URL. As an example, two images were uploaded from the host to the GL-RM1 here.
+Drag or click the box to upload files from host, or upload from URL. 
+
+As an example, two images were uploaded from the host controlling device to the Comet here.
 
 ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
 
-You can perform operations such as deletion and download.
-
 Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
     
-- File Sharing: Emulates a read-write USB drive. Upload the files to the KVM (GL-RM1) and transfer from the host to the remoted device.
+- File Sharing: Emulates a read-write USB drive. Upload the files from the host to the Comet and transfer to the controlled device.
 
     Click "File Sharing", a window will pop up in the upper right corner of the control page.
     
     ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
-    Check the GL-RM1 control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". Now you can view, move or delete the files in this drive.
+    Then turn to the Comet's control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
+    
+    Now you can view, move or delete the files in this drive.
 
     ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_2.jpg){class="glboxshadow"}
     
 - Image Mounting: Emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
 
-    GL-RM1 can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
+    Comet can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. 
+    
+    This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
     
     Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
 
@@ -242,7 +250,7 @@ Click **Mount To Remote**, two options are provided: **File Sharing** and **Imag
 
 ### Apps Center
 
-In the top navigation bar, click  **Apps Center**.
+In the top navigation bar, click **Apps Center**, the integrated applications can be found here.
 
 ![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.png){class="glboxshadow"}
 
@@ -250,7 +258,9 @@ In the top navigation bar, click  **Apps Center**.
 
 This feature is available since firmware v1.1.0
 
-Bind Comet to your own Tailscale account, then you can remotly access it by its Tailscale virtual IP.
+Comet integrates with Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
+
+In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
 More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
@@ -274,7 +284,7 @@ In the upper right corner, you can adjust the screen size, such as collapsing th
 
     GL.iNet KVM panel can be accessed locally, so as to manage the controlled device under local network. Click [here](#local-access-to-the-controlled-device) for more details.
 
-    If you want to access the controlled device remotely, please download the App to use Cloud service.
+    If you want to access the controlled device remotely, we suggest you download the App to use Cloud service.
 
     ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/cloud_service.png){class="glboxshadow"}
 
@@ -288,21 +298,23 @@ In the upper right corner, you can adjust the screen size, such as collapsing th
 
 ## Accessories
 
-GL.iNet provides standard accessories that you can connect to the GL-RM1.
+GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management.
 
 ### FingerBot
 
 The FingerBot, acting as a physical button emulator, is designed to enable remote control of physical power button on the controlled device. 
 
-Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL-RM1. Then attach the FingerBot to the physical power button of the controlled device, it will be able to remote control the ON/OFF of the controlled device by physically pressing the power button.
+Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of Comet. 
 
-Then you can log in to GL-RM1, go to [Accessories](#accessories) to set the FingerBot.
+Then attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
+
+Then you can log in to Comet's control page, go to [Accessories](#accessories) to set the FingerBot.
 
 **Note**: This product is not available yet.
 
 ### ATX Board
 
-The ATX Board is an optional accessory. Like a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
+The ATX Board, acting as a smart power management module, enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
 
 Unlike the FingerBot, which controls device through physical button presses, the ATX main board will be directly installed in the controlled device's host box, providing more concealed and stable power management.
 
