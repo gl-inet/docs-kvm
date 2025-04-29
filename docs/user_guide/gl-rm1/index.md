@@ -50,6 +50,8 @@ There is 1x Button at the side panel of Comet. Here's the button explanation.
 
 ### Local Access to Comet
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PlJ5JLt7aUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Method 1**. via Domain Name
 
 Open a browser, enter `glkvm.local`, you will enter the local management page.
