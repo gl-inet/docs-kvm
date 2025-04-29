@@ -8,6 +8,8 @@ Take GL-RM1 (Comet) as an example. There are three ways to access the controlled
 
 ## Local Access via Web browser
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PlJ5JLt7aUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 To locally access the controlled device via web browser, please ensure the controlling device (i.e. the host) and the controlled device are in the same LAN network.
 
 Then enter `glkvm.local` in the web browser, you will be taken to the glkvm local management page. 
