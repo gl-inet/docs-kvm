@@ -7,3 +7,7 @@ However, you may use Tailscale to achieve remote access, which is integrated in 
 Alternatively, you can locally access the controlled device through a web browser in the local LAN network. 
 
 As to the remotely-controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
