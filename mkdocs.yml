@@ -110,6 +110,7 @@ nav:
       - Features of GL.iNet KVM: faq/features.md
     - Troubleshooting:
       - What to do if no device is found in the GLKVM app: faq/what_to_do_if_no_device_is_found_in_the_glkvm_app.md
+      - Connection failed when remotely accessing via GLKVM application: faq/connection_failed_when_remotely_accessing_via_glkvm_app.md
       - Why can't I control the mouse even if I have all the cables connected: faq/cannot_control_the_mouse.md
       - How to Fix Mouse Cursor Overlay Issue on macOS: faq/how_to_fix_mouse_cursor_overlay_issue_on_macOS.md
       - How to Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
