@@ -1,22 +1,18 @@
 # What to do if no device is found in the GLKVM app?
 
-You may encounter an issue that no device is found in the GLKVM app when adding device for the first time.
+You may encounter an issue that no device is found in the GLKVM app when adding KVM device for the first time.
 
-![no device found](https://static.gl-inet.com/docs/kvm/faq/what_to_do_if_no_device_found_in_the_glkvm_app/no_device_found.png){class="glboxshadow gl-80-desktop"}
+![no device found](https://static.gl-inet.com/docs/kvm/faq/what_to_do_if_no_device_found_in_the_glkvm_app/no_device_found.png){class="glboxshadow"}
 
 Here are some troubleshooting tips:
 
-1. Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
+1. Make sure all cables, including Type-C cable for power input, HDMI cable, Ethernet cable, USB-A cable, are properly connected to the interfaces of your KVM device.
+
+2. Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
 
     For LED explanation of Comet (GL-RM1), please click [here](../user_guide/gl-rm1/index.md/#led){target="_blank"}.
 
-2. Make sure the KVM and the controlling device are connected to the same network when adding device.
-
-3. Check whether the controlled device has VPN enabled. Disable the VPN and try finding device again.
-
-4. Check whether the local firewall of the controlled device blocks the GLKVM app's access to the Internet, or intercepts GL.iNet-related domains' traffic (such as goodcloud.xyz, gl-inet.net, astrowarp.net, etc.). 
-
-    Disable the local firewall or add GL.iNet-related domains into the firewall allowlist, then try again.
+3. Make sure the KVM and the controlling device are connected to the same network when adding device.
 
 ---
 
