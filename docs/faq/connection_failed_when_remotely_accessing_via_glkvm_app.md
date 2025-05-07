@@ -6,7 +6,7 @@ When accessing remotely through the GLKVM app, sometimes you may encounter a pro
 
 ![connecting](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connecting.jpg){class="glboxshadow"}
 
-![connection failed](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connection_failed.png){class="glboxshadow"}
+![connection failed](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connection_failed.jpg){class="glboxshadow"}
 
 Here are some troubleshooting tips:
 
