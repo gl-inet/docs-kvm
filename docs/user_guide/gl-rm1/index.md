@@ -122,7 +122,7 @@ More instructions about Tailscale, please refer to [Tailscale documentation](htt
 
 ## Control Panel Introduction
 
-### 1. Settings
+### Settings
 
 In the Comet's control page, navigate to **Settings**, you will get a page as below.
 
@@ -160,7 +160,7 @@ You can adjust the relevant settings of the controlled device.
 
 - Reset KVM
 
-### 2. Toolbox
+### Toolbox
 
 In the Comet's control page, navigate to **Toolbox**.
 
@@ -188,7 +188,7 @@ Access Terminal: You can access the terminal of Comet through this function.
 
 ![access terminal](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
 
-### 3. Accessories
+### Accessories
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management. 
 
@@ -220,7 +220,7 @@ It works as per the following settings.
 
 - Restart: Restart the device.
 
-### 4. Virtual Media
+### Virtual Media
 
 Comet allows you to transfer files between the host controlling device and the controlled device.
 
@@ -264,7 +264,7 @@ Click "Image Mounting", in the Mount Settings, select the image you need and cli
 
 Then you can use this file on the controlled end.
 
-### 5. Apps Center
+### Apps Center
 
 In the top navigation bar, click **Apps Center**, the integrated applications can be found here.
 
@@ -282,13 +282,13 @@ In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to yo
 
 More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
-### 6. Help
+### Help
 
 Here you can find more information about GL.iNet KVM, or export log for troubleshooting.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.png){class="glboxshadow"}
 
-### 7. System
+### System
 
 In the upper right corner, you can adjust the screen size, such as collapsing the toolbar or enabling full-screen display. You can also upgrade firmware, enable Cloud service, change admin password, and restart/logout of your GL-RM1.
 
