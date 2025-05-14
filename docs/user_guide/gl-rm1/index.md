@@ -1,6 +1,6 @@
 # Comet (GL-RM1) User Guide
 
-Comet (GL-RM1) is an open-source remote KVM device with a wide range of applications. You can use it to remote control your home computer when away from home, access to local resources, etc. It supports remote control of offline devices, allowing you to handle computer boot failures and adjust BIOS settings. It also has a remote file transfer function, enabling easy data transfer for both online and offline computers. With audio support, it provides a more immersive remote interaction experience. In a word, it is an essential tool for remote work and device management.
+Comet (GL-RM1) is a remote KVM device with a wide range of applications. You can use it to remote control your home computer when away from home, access to local resources, etc. It supports remote control of offline devices, allowing you to handle computer boot failures and adjust BIOS settings. It also has a remote file transfer function, enabling easy data transfer for both online and offline computers. With audio support, it provides a more immersive remote interaction experience. In a word, it is an essential tool for remote work and device management.
 
 ## Product Overview
 
@@ -120,67 +120,75 @@ In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to yo
 
 More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
-## Function Introduction
+## Control Panel Introduction
 
-### Settings
+### 1. Settings
 
 In the Comet's control page, navigate to **Settings**, you will get a page as below.
 
 ![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.png){class="glboxshadow"}
 
-- Video
+#### Video
 
-    You can modify the video quality, orientation and EDID settings of Comet's control page. 
+You can modify the video quality, orientation and EDID settings of Comet's control page. 
     
-    - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
-    - Orientation: Adjust the control page rotation degree.
-    - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
+- Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
 
-- Remote Device Settings
+- Orientation: Adjust the control page rotation degree.
 
-    You can adjust the relevant settings of the controlled device.
+- EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
 
-    - Audio: Turn on or off the sound of the controlled device.
-    - Mouse: Turn on or off the mouse of the controlled device.
-    - Keyboard: Turn on or off the keyboard of the controlled device.
-    - Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
-    - Show Local Cursor: Whether to display the mouse of the current device on the screen.
+#### Remote Device Settings
 
-- System
+You can adjust the relevant settings of the controlled device.
 
-    - Language: Switch the language of control page. 
-    - Color Mode: Switch the theme color, including dark and light modes.
-    - Reset KVM
+- Audio: Turn on or off the sound of the controlled device.
 
-### Toolbox
+- Mouse: Turn on or off the mouse of the controlled device.
+
+- Keyboard: Turn on or off the keyboard of the controlled device.
+
+- Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
+
+- Show Local Cursor: Whether to display the mouse of the current device on the screen.
+
+#### System
+
+- Language: Switch the language of control page. 
+
+- Color Mode: Switch the theme color, including dark and light modes.
+
+- Reset KVM
+
+### 2. Toolbox
 
 In the Comet's control page, navigate to **Toolbox**.
 
 ![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
 
-- Clipboard
+#### Clipboard
 
-    The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
+The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
 
-- Shortcut
+#### Shortcut
 
-    It shows some common shortcut key options. Click "ALL" to show all options.
+It shows some common shortcut key options. Click "ALL" to show all options.
 
-    ![all shortcuts](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
+![all shortcuts](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
 
-- Wake On Lan
+#### Wake On Lan
 
-    Wake on LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
+Wake on LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
 
-    Click Add Device to set it up.
+Click Add Device to set it up.
 
-- Terminal
+#### Terminal
 
-    Access Terminal: You can access the terminal of Comet through this function.
+Access Terminal: You can access the terminal of Comet through this function.
 
-    ![access terminal](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
+![access terminal](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
 
-### Accessories
+### 3. Accessories
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management. 
 
@@ -192,25 +200,27 @@ Then log in to the Comet's control page, navigate to **Accessories**.
 
 **Note**: Accessory settings are only displayed after installation.
 
-- Fingerbot
+#### Fingerbot
     
-    The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
+The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
     
-    It works as per the following settings.
+It works as per the following settings.
 
-    - Time: The duration for which the Fingerbot presses.
-    - Strength: Two levels of pressing strength are provided.
+- Time: The duration for which the Fingerbot presses.
 
-- ATX Power
+- Strength: Two levels of pressing strength are provided.
 
-    The ATX Board is installed in the computer host box to achieve remote control of the controlled device's power on/off/reboot.
+#### ATX Power
 
-    It works as per the following settings.
+The ATX Board is installed in the computer host box to achieve remote control of the controlled device's power on/off/reboot.
 
-    - Power: Provides short press and long press functions.
-    - Restart: Restart the device.
+It works as per the following settings.
 
-### Virtual Media
+- Power: Provides short press and long press functions.
+
+- Restart: Restart the device.
+
+### 4. Virtual Media
 
 Comet allows you to transfer files between the host controlling device and the controlled device.
 
@@ -226,31 +236,35 @@ As an example, two images were uploaded from the host controlling device to the 
 
 Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
     
-- File Sharing: Emulates a read-write USB drive. Upload the files from the host to the Comet and transfer to the controlled device.
+#### File Sharing
 
-    Click "File Sharing", a window will pop up in the upper right corner of the control page.
+It Emulates a read-write USB drive. Upload the files from the host to the Comet and transfer to the controlled device.
+
+Click "File Sharing", a window will pop up in the upper right corner of the control page.
     
-    ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
+![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
-    Then turn to the Comet's control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
+Then turn to the Comet's control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
     
-    Now you can view, move or delete the files in this drive.
+Now you can view, move or delete the files in this drive.
 
-    ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_2.jpg){class="glboxshadow"}
+![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_2.jpg){class="glboxshadow"}
     
-- Image Mounting: Emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
+#### Image Mounting
 
-    Comet can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. 
+It emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
+
+Comet can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. 
     
-    This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
+This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
     
-    Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
+Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
 
-    ![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
+![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
 
-    Then you can use this file on the controlled end.
+Then you can use this file on the controlled end.
 
-### Apps Center
+### 5. Apps Center
 
 In the top navigation bar, click **Apps Center**, the integrated applications can be found here.
 
@@ -268,39 +282,39 @@ In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to yo
 
 More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="_blank"}.
 
-### Help
+### 6. Help
 
 Here you can find more information about GL.iNet KVM, or export log for troubleshooting.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.png){class="glboxshadow"}
 
-### System
+### 7. System
 
 In the upper right corner, you can adjust the screen size, such as collapsing the toolbar or enabling full-screen display. You can also upgrade firmware, enable Cloud service, change admin password, and restart/logout of your GL-RM1.
 
-- Upgrade
+#### Upgrade
 
-    Local and Online Upgrades are supported.
+Local and Online Upgrades are supported.
 
-    ![upgrade firmware](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
+![upgrade firmware](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
 
-- Cloud Service
+#### Cloud Service
 
-    GL.iNet KVM panel can be accessed locally, so as to manage the controlled device under local network. Click [here](#local-access-to-the-controlled-device) for more details.
+GL.iNet KVM panel can be accessed locally, so as to manage the controlled device under local network. Click [here](#local-access-to-the-controlled-device) for more details.
 
-    If you want to access the controlled device remotely, we suggest you download the App to use Cloud service.
+If you want to access the controlled device remotely, we suggest you download the App to use Cloud service.
 
-    ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/cloud_service.png){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/cloud_service.png){class="glboxshadow"}
 
-- Security
+#### Security
 
-    - Change Admin Password.
+- Change Admin Password.
 
-        ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
+    ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
 
-    - 2FA Code: Enable two-factor authentication to protect your account.
+- 2FA Code: Enable two-factor authentication to protect your account.
 
-## Accessories
+## Accessory Guide
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management.
 
