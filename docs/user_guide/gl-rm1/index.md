@@ -32,6 +32,10 @@ There is 1x Button at the side panel of Comet. Here's the button explanation.
 
 ## Quick Setup Guide
 
+Watch this setup video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ReI_UxkDyvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Connect the Devices
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
@@ -49,6 +53,8 @@ There is 1x Button at the side panel of Comet. Here's the button explanation.
     ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
 
 ### Local Access to Comet
+
+Watch this video to access Comet via LAN, or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PlJ5JLt7aUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
