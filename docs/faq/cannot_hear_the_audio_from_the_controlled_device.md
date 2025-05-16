@@ -8,4 +8,12 @@ After connecting the KVM and the controlled device, if you fail to hear the audi
 
 3. Check whether the controlling device and the controlled device are set to mute.
 
+    For macOS, you can go to Settings -> Sound -> Output & Input -> Output, switch the output device as GLKVM.
+
+    ![example masOS](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/example_macos.png){class="glboxshadow"}
+
 4. Check the graphics card driver of the controlled device. If the controlled computer does not have a graphics card driver, it will not be able to output audio, thus the sound cannot be heard at the controlling end.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
