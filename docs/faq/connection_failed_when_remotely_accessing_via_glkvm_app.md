@@ -1,4 +1,4 @@
-# Connection failed when remotely accessing via GLKVM application
+# Connection failed when remotely accessing via GLKVM app
 
 When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it shows "Connection Failed".
 
@@ -14,7 +14,7 @@ Here are some troubleshooting tips:
 
     For LED explanation of Comet (GL-RM1), please click [here](../user_guide/gl-rm1/index.md/#led){target="_blank"}.
 
-2. Check whether the controlling device (on which the GLKVM app is installed) has VPN enabled. Disable the VPN and try finding device again.
+2. Check if the controlling device (where the GLKVM app is installed) has VPN or proxy enabled. Disable the VPN and proxy, then try finding device again.
 
 3. Check whether the local firewall of the controlling device blocks the GLKVM app's access to the Internet, or intercepts GL.iNet-related domains' traffic (such as goodcloud.xyz, gl-inet.net, astrowarp.net, etc.). 
 
