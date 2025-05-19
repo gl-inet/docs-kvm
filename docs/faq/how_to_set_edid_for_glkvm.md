@@ -1,4 +1,4 @@
-# How to Set EDID for GL.iNet KVM?
+# How to set EDID for GL.iNet KVM?
 
 ## What is EDID
 
