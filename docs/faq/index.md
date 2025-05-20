@@ -34,5 +34,6 @@ Learn how to use our devices and how to solve some common problems.
 * [Privacy error when accessing KVM locally via browser](privacy_error_from_your_browser.md)
 * [Why can't I control the mouse even if I have all the cables connected?](cannot_control_the_mouse.md)
 * [Why can't I hear the audio from the controlled device?](cannot_hear_the_audio_from_the_controlled_device.md)
+* [What to do if I can only see desktop wallpaper when using GLKVM?](can_only_see_desktop_wallpaper_when_using_glkvm.md)
 * [How to fix mouse cursor overlay issue on macOS?](how_to_fix_mouse_cursor_overlay_issue_on_macOS.md)
 * [How to set EDID for GL.iNet KVM?](how_to_set_edid_for_glkvm.md)
