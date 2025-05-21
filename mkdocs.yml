@@ -120,6 +120,7 @@ nav:
   - Tutorials:
     - Overview: tutorials/index.md
     - How to set EDID for GL.iNet KVM: tutorials/how_to_set_edid_for_glkvm.md
+    - How to set a static IP for Comet: tutorials/how_to_set_static_ip_for_comet.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md
