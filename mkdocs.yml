@@ -117,7 +117,6 @@ nav:
       - Can only see desktop wallpaper when using GLKVM: faq/can_only_see_desktop_wallpaper_when_using_glkvm.md
       - Display black screen when using GLKVM: faq/display_black_screen_when_using_glkvm.md
       - Fix mouse cursor overlay issue on macOS: faq/how_to_fix_mouse_cursor_overlay_issue_on_macOS.md
-      - Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
   - Tutorials:
     - Overview: tutorials/index.md
     - How to set EDID for GL.iNet KVM: tutorials/how_to_set_edid_for_glkvm.md

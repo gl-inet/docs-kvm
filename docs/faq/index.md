@@ -37,4 +37,3 @@ Learn how to use our devices and how to solve some common problems.
 * [What should I do if I can only see desktop wallpaper when using GLKVM?](can_only_see_desktop_wallpaper_when_using_glkvm.md)
 * [What should I do if it displays black screen when using GLKVM](display_black_screen_when_using_glkvm.md)
 * [How to fix mouse cursor overlay issue on macOS?](how_to_fix_mouse_cursor_overlay_issue_on_macOS.md)
-* [How to set EDID for GL.iNet KVM?](how_to_set_edid_for_glkvm.md)
