@@ -1,4 +1,4 @@
-# Why can't I control the mouse even if I have all the cables connected?
+# What should I do if I cannot control the mouse?
 
 Sometimes you may find that even if all the cables are connected, you still cannot control the mouse on the remote controlled device through KVM.
 

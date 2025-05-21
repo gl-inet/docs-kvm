@@ -1,4 +1,4 @@
-# What to do if I can only see desktop wallpaper when using GLKVM?
+# What should I do if I can only see desktop wallpaper when using GLKVM?
 
 If you can only see desktop wallpaper when accessing the controlled device via GLKVM, it's likely that your controlled deivce has multiple displays and it's set to **Extend Displays**.
 

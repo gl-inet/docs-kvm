@@ -1,4 +1,4 @@
-# What to do if no device is found in the GLKVM app?
+# What should I do if no device is found in the GLKVM app?
 
 You may encounter an issue that no device is found in the GLKVM app when adding KVM device for the first time.
 

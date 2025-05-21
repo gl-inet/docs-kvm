@@ -29,12 +29,12 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Troubleshooting
 
-* [What to do if no device is found in the GLKVM app?](what_to_do_if_no_device_is_found_in_the_glkvm_app.md)
+* [What should I do if no device is found in the GLKVM app?](no_device_is_found_in_the_glkvm_app.md)
 * [Connection failed when remotely accessing via GLKVM app](connection_failed_when_remotely_accessing_via_glkvm_app.md)
 * [Privacy error when accessing KVM locally via browser](privacy_error_from_your_browser.md)
-* [Why can't I control the mouse even if I have all the cables connected?](cannot_control_the_mouse.md)
-* [Display black screen when accessing the controlled device using GLKVM](display_black_screen_when_using_glkvm.md)
-* [What should I do if I cannot hear the audio from the controlled device?](cannot_hear_the_audio_from_the_controlled_device.md)
-* [What to do if I can only see desktop wallpaper when using GLKVM?](can_only_see_desktop_wallpaper_when_using_glkvm.md)
+* [What should I do if I cannot control the mouse?](cannot_control_the_mouse.md)
+* [What should I do if I cannot hear audio from the controlled device?](cannot_hear_the_audio_from_the_controlled_device.md)
+* [What should I do if I can only see desktop wallpaper when using GLKVM?](can_only_see_desktop_wallpaper_when_using_glkvm.md)
+* [What should I do if it displays black screen when using GLKVM](display_black_screen_when_using_glkvm.md)
 * [How to fix mouse cursor overlay issue on macOS?](how_to_fix_mouse_cursor_overlay_issue_on_macOS.md)
 * [How to set EDID for GL.iNet KVM?](how_to_set_edid_for_glkvm.md)
