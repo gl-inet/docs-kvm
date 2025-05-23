@@ -12,23 +12,23 @@ If you need to set a static IP for Comet, but its upstream router cannot allocat
 
     - **Configure IP**: 
     
-        *connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` --ipv4 manual 192.168.113.131 255.255.255.0 192.168.113.1*
+        ```connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` --ipv4 manual 192.168.113.131 255.255.255.0 192.168.113.1```
 
-        Note: The three values are IP address, subnet mask, and gateway respectively.
+        (The three values are IP address, subnet mask, and gateway respectively.)
 
     - **Configure DNS**:
 
-        *connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` nameservers 8.8.8.8*
+        ```connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` nameservers 8.8.8.8```
 
-        Note: The above value 8.8.8.8 is the DNS server. 
+        (The above value 8.8.8.8 is the DNS server.) 
         
         If multiple DNS servers need to be configured, please separate them with spaces, e.g. 
         
-        *connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` nameservers 8.8.8.8 1.1.1.1*
+        ```connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` nameservers 8.8.8.8 1.1.1.1```
 
     - **Configure DHCP**:
 
-        *connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` --ipv4 dhcp*
+        ```connmanctl config `connmanctl services |grep ethernet|awk -F' '  '{print $3}'` --ipv4 dhcp```
 
 ---
 
