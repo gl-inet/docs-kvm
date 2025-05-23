@@ -115,7 +115,7 @@ nav:
       - Cannot control the mouse: faq/cannot_control_the_mouse.md
       - Cannot hear audio from the controlled device: faq/cannot_hear_the_audio_from_the_controlled_device.md
       - Can only see desktop wallpaper when using GLKVM: faq/can_only_see_desktop_wallpaper_when_using_glkvm.md
-      - Display black screen when using GLKVM: faq/display_black_screen_when_using_glkvm.md
+      - Display blank screen when using GLKVM: faq/display_blank_screen_when_using_glkvm.md
       - Fix mouse cursor overlay issue on macOS: faq/how_to_fix_mouse_cursor_overlay_issue_on_macOS.md
   - Tutorials:
     - Overview: tutorials/index.md
