@@ -10,6 +10,10 @@ When accessing the controlled device via GLKVM, if you encounter blank (white or
 
     Aging HDMI cables, oxidized connectors, or internal breaks can interrupt signal transmission. Replace with a high-quality HDMI cable.
 
+    You can also check the HDMI signal status in the GLKVM app. Navigate to the monitor icon in the bottom right corner and check if it says "No HDMI signal".
+
+    ![no HDMI signal](https://static.gl-inet.com/docs/kvm/faq/blank_screen/no_hdmi_signal.png){class="glboxshadow"}
+
 2. **Incorrect Connection**
 
     Take GL-RM1 as an example: The HDMI IN port of GL-RM1 must be connected to the HDMI OUT port of the controlled device's graphics card/motherboard. Ensure the plug is fully inserted and secure.
@@ -23,6 +27,16 @@ When accessing the controlled device via GLKVM, if you encounter blank (white or
     Using an HDMI-to-VGA adapter for this connection will fail to transmit video signals properly, resulting in a blank screen.
 
     ![adapter comparison](https://static.gl-inet.com/docs/kvm/faq/blank_screen/adapter_comparison.png){class="glboxshadow"}
+
+## Check Browser Settings
+
+If you access the controlled device via browser and encounter this blank screen issue, please try the following methods.
+
+1. Try multiple browsers to check if the issue is specific to a certain one.
+
+2. Disable WebRTC related plugins or restriction settings in the browser if any.
+
+    ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
 ## Check Controlled Device Status and Settings
 
