@@ -1,6 +1,8 @@
 # Display blank screen when accessing the controlled device using GLKVM
 
-If a blank (white or black) screen is displayed when accessing the controlled device via GLKVM, please check the following possible causes one by one:
+When accessing the controlled device via GLKVM, if you encounter blank (white or black) screen issue as shown below, please check the following possible causes one by one.
+
+![blank screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/blank_screen.jpg){class="glboxshadow"}
 
 ## Check Hardware Connection
 
