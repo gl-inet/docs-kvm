@@ -2,23 +2,23 @@
 
 If you can only see desktop wallpaper when accessing the controlled device via GLKVM, it's likely that your controlled deivce has multiple displays and it's set to **Extend Displays**.
 
-![extend display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/extend_displays.jpg){class="_blank"}
+![extend display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/extend_displays.jpg){class="glboxshadow"}
 
 Take Windows 1O as an example. 
 
 On the controlled device, go to **Settings** -> **System** -> **Display**.
 
-![win10 system settings](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/win10_system_settings.png){class="_blank"}
+![win10 system settings](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/win10_system_settings.png){class="glboxshadow"}
 
 On the Display page, scroll down to locate **Multiple displays**.
 
 Switch from Extend Displays to **Duplicate display**.
 
-![duplicate display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/duplicate_displays.jpg){class="_blank"}
+![duplicate display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/duplicate_displays.jpg){class="glboxshadow"}
 
 Click **Keep changes**.
 
-![keep changes](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/keep_changes.png){class="_blank"}
+![keep changes](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/keep_changes.png){class="glboxshadow"}
 
 Then check if you can access the controlled device normally.
 
