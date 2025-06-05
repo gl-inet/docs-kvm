@@ -30,11 +30,11 @@ When accessing the controlled device via GLKVM, if you encounter blank (white or
 
 ## Check Browser Settings
 
-If you access the controlled device via browser and encounter this blank screen issue, please try the following methods.
+If you access the controlled device via a browser and encounter a blank screen issue, try the following methods:
 
-1. Try multiple browsers to check if the issue is specific to a certain one.
+1. **Test with multiple browsers.** Try Chrome, Firefox, Edge, etc. to determine if the issue is browser-specific.
 
-2. Disable WebRTC related plugins or restriction settings in the browser if any.
+2. **Disable WebRTC-related components.** If the issue persists, go to the browser's Settings -> Privacy & Security and disable WebRTC (Web Real-Time Communication) plugins or security restrictions if enabled.  
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
