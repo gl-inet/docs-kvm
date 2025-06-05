@@ -120,11 +120,11 @@ A1. Please refer to [this document](cannot_control_the_mouse.md).
 
 **Q2. Why can't my mouse cursor overlap with that on the controlled device screen?**
 
-A2. It usually happens when the controlled device is macOS.
+A2. It usually happens when the controlled device is a laptop.
 
 You can modify the resolution of the controlled device to the appropriate parameters (recommended), or modify the EDID of the KVM to adjust it.
 
-Click [here](how_to_fix_mouse_cursor_overlay_issue_on_macOS.md) for more instructions.
+Click [here](mouse_cursors_fail_to_overlap_when_using_glkvm.md) for more instructions.
 
 ---
 
