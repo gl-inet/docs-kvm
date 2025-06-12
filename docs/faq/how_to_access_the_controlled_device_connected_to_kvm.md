@@ -12,7 +12,7 @@ Take GL-RM1 (Comet) as an example. There are three ways to access the controlled
 
 To locally access the controlled device via web browser, please ensure the controlling device (i.e. the host) and the controlled device are in the same LAN network.
 
-Then enter `glkvm.local` in the web browser, you will be taken to the glkvm local management page. 
+Then enter `glkvm.local` in the web browser (Chrome or Edge is recommended for better compatibility), and you will be directed to the GLKVM local management page.
 
 Alternatively, find the LAN IP address of your GL.iNet KVM device from the upper router, then enter its IP address in the browser, it will also take you to the local management page as well.
 
