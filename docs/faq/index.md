@@ -31,6 +31,7 @@ Learn how to use our devices and how to solve some common problems.
 ## Troubleshooting
 
 * [What should I do if no device is found in the GLKVM app?](no_device_is_found_in_the_glkvm_app.md)
+* [What should I do if I failed to bind device to the GLKVM app?](failed_to_bind_device_to_glkvm_app.md)
 * [Connection failed when remotely accessing via GLKVM app](connection_failed_when_remotely_accessing_via_glkvm_app.md)
 * [Privacy error when accessing KVM locally via browser](privacy_error_from_your_browser.md)
 * [What should I do if I cannot control the mouse?](cannot_control_the_mouse.md)
