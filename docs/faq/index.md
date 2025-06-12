@@ -11,6 +11,7 @@ Learn how to use our devices and how to solve some common problems.
 ## General
 
 * [Frequently Asked Questions about GL.iNet KVM](frequently_asked_questions_about_glinet_kvm.md)
+* [Download GLKVM App](glkvm_app.md)
 
 ## Basic Information
 
