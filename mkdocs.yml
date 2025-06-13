@@ -110,14 +110,15 @@ nav:
     - Features:
       - Features of GL.iNet KVM: faq/features.md
     - Troubleshooting:
+      - Power cable connected but device unpowered: faq/power_cable_connected_but_device_unpowered.md
       - No device is found in the GLKVM app: faq/no_device_is_found_in_the_glkvm_app.md
       - Failed to bind device to the GLKVM app: faq/failed_to_bind_device_to_glkvm_app.md
       - Connection failed when remotely accessing via GLKVM app: faq/connection_failed_when_remotely_accessing_via_glkvm_app.md
       - Privacy error when accessing KVM locally via browser: faq/privacy_error_from_your_browser.md
-      - Cannot control the mouse: faq/cannot_control_the_mouse.md
+      - Cannot control the mouse and keyboard: faq/cannot_control_the_mouse.md
       - Cannot hear audio from the controlled device: faq/cannot_hear_the_audio_from_the_controlled_device.md
-      - Can only see desktop wallpaper when using GLKVM: faq/can_only_see_desktop_wallpaper_when_using_glkvm.md
-      - Display blank screen when using GLKVM: faq/display_blank_screen_when_using_glkvm.md
+      - Only desktop wallpaper appears in GLKVM app: faq/can_only_see_desktop_wallpaper_when_using_glkvm.md
+      - Blank screen displayed when using GLKVM: faq/display_blank_screen_when_using_glkvm.md
       - Mouse cursors fail to overlap when using GLKVM: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
       - Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
   - Tutorials:
