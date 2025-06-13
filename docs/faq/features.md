@@ -28,7 +28,7 @@ A3. Wake on LAN (WOL) is a technology that allows a computer or device to be rem
 
 A4. Yes. Comet supports mouse jitter function from firmware v1.3.
 
-The mouse jitter function is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game afk to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
+The mouse jitter function is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game idle status (when users leave the keyboard temporarily) to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
 
 ---
 
