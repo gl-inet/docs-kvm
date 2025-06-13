@@ -32,4 +32,10 @@ The mouse jitter function is applied to prevent the computer from entering sleep
 
 ---
 
+**Q5. Does Comet support remote microphone (i.e., transmitting audio from the controlling device to the controlled device)?**
+
+A5. This feature will be available from firmware v1.4.0.
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
