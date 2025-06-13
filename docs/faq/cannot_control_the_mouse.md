@@ -1,21 +1,25 @@
-# What should I do if I cannot control the mouse?
+# What should I do if I cannot control the mouse and keyboard?
 
-Sometimes you may find that even if all the cables are connected, you still cannot control the mouse on the remote controlled device through KVM.
+Sometimes you may find that even if all the cables are connected, you still cannot control the mouse & keyboard on the controlled device through KVM.
 
 ## Possible Causes
 
 1. **Incorrect wiring**. 
 
-    Taking Comet (GL-RM1) as an example, Comet has two USB Type-C interfaces: 
+    Taking Comet (GL-RM1) as an example, it has two USB Type-C ports:  
 
-    - One for power input.
-    - The other for connecting to a controlled device's USB port to receive keyboard and mouse signals. 
-    
-    You may have connected the two in reverse, causing the KVM to fail to start up and the mouse to be uncontrollable.
+    - One for power input (connecting to a power adapter).  
+    - The other for connecting to a controlled device’s USB port to receive keyboard and mouse signals.  
+
+    Reversing these two connections will prevent the KVM device from starting up and make the mouse & keyboard unresponsive.
 
 2. **USB cable mismatch**. 
 
-    You may have used a USB cable that only supplies power but cannot transfer data to connect the controlled device's USB port to the KVM USB port, due to the inability to transmit signals, the mouse cannot be controlled normally.
+    If you use a power-only USB cable (no data transfer) to connect the controlled device and KVM, the mouse and keyboard will not be controlled normally due to signal loss.
+
+3. **Outdated KVM firmware**.
+
+4. **The controlled device's drivers are malfunctioning or blocked by IT security software**.
 
 ## Suggestions
 
@@ -37,9 +41,11 @@ Sometimes you may find that even if all the cables are connected, you still cann
 
     Reconnect the USB cable and restart the controlled device.
 
-3. **Try upgrading the KVM's firmware to the latest version**.
+3. **Upgrade the KVM's firmware to the latest version**. [KVM Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"}
 
-4. **Check if the controlled device is blocked by IT security software**.
+4. **Check the Device Manager on the controlled computer for any malfunctioning drivers**.
+
+5. **Check if the controlled device is blocked by IT security software**.
 
 ---
 

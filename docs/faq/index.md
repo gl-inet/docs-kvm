@@ -15,7 +15,7 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Basic Information
 
-* [What devices can GL.iNet KVM control? Do I need to install any software to use KVM?](what_devices_can_glinet_kvm_control.md)
+* [What devices can GL.iNet KVM control? Any software needed to use KVM?](what_devices_can_glinet_kvm_control.md)
 * [How to access the controlled device connected to GL.iNet KVM?](how_to_access_the_controlled_device_connected_to_kvm.md)
 * [Does GLKVM application support ChromeOS/Linux?](does_glkvm_application_support_chromeos_or_linux.md)
 * [Can Comet (GL-RM1) connect to wireless network?](can_comet_connect_to_wireless_network.md)
@@ -30,13 +30,14 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Troubleshooting
 
-* [What should I do if no device is found in the GLKVM app?](no_device_is_found_in_the_glkvm_app.md)
-* [What should I do if I failed to bind device to the GLKVM app?](failed_to_bind_device_to_glkvm_app.md)
+* [Power cable connected but device unpowered](power_cable_connected_but_device_unpowered.md)
+* [No device is found in the GLKVM app](no_device_is_found_in_the_glkvm_app.md)
+* [Failed to bind device to the GLKVM app](failed_to_bind_device_to_glkvm_app.md)
 * [Connection failed when remotely accessing via GLKVM app](connection_failed_when_remotely_accessing_via_glkvm_app.md)
 * [Privacy error when accessing KVM locally via browser](privacy_error_from_your_browser.md)
-* [What should I do if I cannot control the mouse?](cannot_control_the_mouse.md)
-* [What should I do if I cannot hear audio from the controlled device?](cannot_hear_the_audio_from_the_controlled_device.md)
-* [What should I do if I can only see desktop wallpaper when using GLKVM?](can_only_see_desktop_wallpaper_when_using_glkvm.md)
-* [What should I do if it displays blank screen when using GLKVM?](display_blank_screen_when_using_glkvm.md)
+* [Cannot control the mouse and keyboard](cannot_control_the_mouse.md)
+* [Cannot hear audio from the controlled device](cannot_hear_the_audio_from_the_controlled_device.md)
+* [Only desktop wallpaper appears in GLKVM app](can_only_see_desktop_wallpaper_when_using_glkvm.md)
+* [Blank screen displayed when using GLKVM](display_blank_screen_when_using_glkvm.md)
 * [Mouse cursors fail to overlap when using GLKVM](mouse_cursors_fail_to_overlap_when_using_glkvm.md)
-* [How to set EDID for GL.iNet KVM?](how_to_set_edid_for_glkvm.md)
+* [Set EDID for GL.iNet KVM](how_to_set_edid_for_glkvm.md)
