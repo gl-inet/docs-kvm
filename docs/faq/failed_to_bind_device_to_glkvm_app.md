@@ -12,8 +12,6 @@ Here are some suggestions for troubleshooting.
 
 2. Ensure the Cloud service is enabled. 
 
-    The Cloud service is enabled by default, but if you disable it manually in the GLKVM app, device re-binding will fail. In that case, please access your KVM device locally via web browser and re-enable the Cloud service.
-
-3. Ensure you install the correct [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} for your operating system.
+    The Cloud service is enabled by default, but if you disable it manually via web browser, device re-binding to the GLKVM app will fail. In that case, please access your KVM device locally via web browser to re-enable the Cloud service.
 
 If problem persists, please contact us at [support@gl-inet.com](mailto:support@glinet.biz) and provide Device Model, Firmware version and MAC address.
