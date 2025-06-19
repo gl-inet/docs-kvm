@@ -155,19 +155,23 @@ You can adjust the relevant settings of the controlled device.
 
 - Show Local Cursor: Whether to display the mouse of the current device on the screen.
 
-- Mouse Jiggle: 
+- Mouse Jiggle: This feature is available since firmware v1.3. 
+    
+    It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
 
-- Scroll Rate: 
+- Scroll Rate: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
 
-- Scroll Direction: 
+- Scroll Direction: It determines whether scrolling the mouse wheel up/down moves content on the remote screen in the same direction (natural scrolling) or the opposite direction (traditional scrolling). 
 
-- Mouse Mode: 
+    Four direction modes are available: Standard, Vertical Invert, Horizontal Invert, and Both Invert.  
+
+- Mouse Mode: Including Absolute Mode and Relative Mode.
 
 - Relative Sensitivity: It is available when the Mouse Mode is Relative.
 
 #### System
 
-- Language: Switch the language of control page. 
+- Language: Switch the language of control panel. 
 
 - Color Mode: Switch the theme color, including dark and light modes.
 
@@ -253,11 +257,11 @@ Click **Mount To Remote**, two options are provided: **File Sharing** and **Imag
 
 It Emulates a read-write USB drive. Upload the files from the host to the Comet PoE and transfer to the controlled device.
 
-Click "File Sharing", a window will pop up in the upper right corner of the control page.
+Click "File Sharing", a window will pop up in the upper right corner of the control panel.
     
 ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
-Then turn to the Comet PoE 's control panel, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
+Then turn to the Comet PoE's control panel, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
     
 Now you can view, move or delete the files in this drive.
 

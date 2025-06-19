@@ -12,7 +12,7 @@ Comet (GL-RM1) is a remote KVM device with a wide range of applications. You can
 
 ### LED
 
-There is 1x LED on the top panel of Comet. Here's the LED explanation.
+There is 1x LED on the top panel of Comet.
 
 | LED Status               | Indication                        |
 | :----------------------- | :-------------------------------- |
@@ -23,7 +23,7 @@ There is 1x LED on the top panel of Comet. Here's the LED explanation.
 
 ### Button
 
-There is 1x Button at the side panel of Comet. Here's the button explanation.
+There is 1x Button at the side panel of Comet.
 
 | Function                   | Operation                                | LED Indication                        |
 | :------------------------- | :--------------------------------------- | :------------------------------------ |
@@ -34,9 +34,11 @@ There is 1x Button at the side panel of Comet. Here's the button explanation.
 
 ### Connect the Devices
 
+For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
+
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
 
-1. Connect the Comet to the power source to power it on.
+1. Connect the Comet to the power source.
     ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
 
 2. Use an HDMI cable to connect the Comet's HDMI-IN port to the HDMI-OUT port of the Device B.
@@ -48,6 +50,10 @@ There is 1x Button at the side panel of Comet. Here's the button explanation.
 4. Plug the Comet's Ethernet port to a network source.
     ![Connect the GL-RM1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
 
+5. Device connection is complete. 
+
+    You can now access the Comet's control panel locally via a browser on the controlling device, or download the GLKVM app on the controlling device to remotely access it.
+
 ### Local Access to Comet
 
 Watch this video to access Comet via LAN, or follow the steps below.
@@ -56,17 +62,17 @@ Watch this video to access Comet via LAN, or follow the steps below.
 
 **Method 1**. via Domain Name
 
-Open a browser, enter `glkvm.local`, you will enter the local management page.
+Launch a browser on your controlling device, enter `glkvm.local`, you will enter the local management page.
 
 **Method 2**. via IP Address
 
-Find the IP address of Comet in the upper router, enter this IP address in the browser, you will be able to access the Comet locally, thus access the controlled device connected to Comet.
+Find the IP address of Comet in the upper router, enter this IP address in the browser, you will be able to access the Comet locally, thus access the controlled device connected to it.
 
-Take GL-AXT1800 as an example. Here we connect the Comet to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
+Take GL-AXT1800 as an example. Here the Comet is connected to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
 
-Now we can use this IP to access Comet locally, thus access the controlled device.
+Then we can use this IP to access Comet locally, thus access the controlled device.
 
 ![local access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access.png){class="glboxshadow"}
 
@@ -74,7 +80,7 @@ Now we can use this IP to access Comet locally, thus access the controlled devic
 
 **Method 1**. via GLKVM Application
 
-1. Install the [GLKVM App](https://link.gl-inet.com/label-rm1-app/){target="_blank"} on your controlling device.
+1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
 2. Register an Account.
     
@@ -126,13 +132,13 @@ More instructions about Tailscale, please refer to [Tailscale documentation](htt
 
 ### Settings
 
-In the Comet's control panel, navigate to **Settings**, you will get a page as below.
+In the control panel, navigate to **Settings**, you will get a page as below.
 
 ![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.jpg){class="glboxshadow"}
 
 #### Video
 
-You can modify the video quality, orientation and EDID settings of Comet's control page. 
+You can modify the video quality, orientation and EDID settings of the control page. 
     
 - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
 
@@ -146,17 +152,31 @@ You can adjust the relevant settings of the controlled device.
 
 - Audio: Turn on or off the sound of the controlled device.
 
-- Mouse: Turn on or off the mouse of the controlled device.
-
 - Keyboard: Turn on or off the keyboard of the controlled device.
 
 - Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
 
+- Mouse: Turn on or off the mouse of the controlled device.
+
 - Show Local Cursor: Whether to display the mouse of the current device on the screen.
+
+- Mouse Jiggle: This feature is available since firmware v1.3. 
+    
+    It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
+
+- Scroll Rate: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
+
+- Scroll Direction: It determines whether scrolling the mouse wheel up/down moves content on the remote screen in the same direction (natural scrolling) or the opposite direction (traditional scrolling). 
+
+    Four direction modes are available: Standard, Vertical Invert, Horizontal Invert, and Both Invert.  
+
+- Mouse Mode: Including Absolute Mode and Relative Mode.
+
+- Relative Sensitivity: It is available when the Mouse Mode is Relative.
 
 #### System
 
-- Language: Switch the language of control page. 
+- Language: Switch the language of control panel. 
 
 - Color Mode: Switch the theme color, including dark and light modes.
 
@@ -164,7 +184,7 @@ You can adjust the relevant settings of the controlled device.
 
 ### Toolbox
 
-In the Comet's control page, navigate to **Toolbox**.
+In the control panel, navigate to **Toolbox**.
 
 ![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.jpg){class="glboxshadow"}
 
@@ -196,7 +216,7 @@ GL.iNet offers optional accessories for KVM devices to provide additional conven
 
 Firstly, connect the accessories to the controlled device. For Fingerbot, please click [here](#fingerbot). For ATX board, please click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"}.
 
-Then log in to the Comet's control page, navigate to **Accessories**. 
+Then log in to the control panel, navigate to **Accessories**. 
 
 ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.jpg){class="glboxshadow"}
 
@@ -226,13 +246,13 @@ It works as per the following settings.
 
 Comet allows you to transfer files between the host controlling device and the controlled device.
 
-In the top navigation bar, click  **Virtual Media**.
+In the control panel, navigate to **Virtual Media**.
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.jpg){class="glboxshadow"}
 
 Drag or click the box to upload files from host, or upload from URL. 
 
-As an example, two images were uploaded from the host controlling device to the Comet here.
+As an example, two images have been uploaded from the host controlling device to the Comet here.
 
 ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
 
@@ -242,11 +262,11 @@ Click **Mount To Remote**, two options are provided: **File Sharing** and **Imag
 
 It Emulates a read-write USB drive. Upload the files from the host to the Comet and transfer to the controlled device.
 
-Click "File Sharing", a window will pop up in the upper right corner of the control page.
+Click "File Sharing", a window will pop up in the upper right corner of the control panel.
     
 ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
-Then turn to the Comet's control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
+Then turn to the Comet's control panel, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
     
 Now you can view, move or delete the files in this drive.
 
@@ -268,7 +288,7 @@ Then you can use this file on the controlled end.
 
 ### Apps Center
 
-In the top navigation bar, click **Apps Center**, the integrated applications can be found here.
+In the control panel, navigate to **Apps Center**, the integrated applications can be found here.
 
 ![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.jpg){class="glboxshadow"}
 
@@ -278,7 +298,7 @@ This feature is available since firmware v1.1.0
 
 Comet integrates with Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
 
-In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
+In the control panel, navigate to Apps Center -> Tailscale, bind Comet to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
 ![tailscale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/tailscale.png){class="glboxshadow"}
 
@@ -286,13 +306,21 @@ More instructions about Tailscale, please refer to [Tailscale documentation](htt
 
 ### Help
 
-Here you can find more information about GL.iNet KVM and help document, and export log for troubleshooting.
+Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.jpg){class="glboxshadow"}
 
 ### System Settings
 
-In the upper right corner, you can adjust the screen size, such as collapsing the toolbar or enabling full-screen display. You can also upgrade firmware, enable Cloud service, change admin password, and restart/logout of your Comet.
+In the control panel, navigate to the upper-right corner to access the following system functions and options:
+
+- Collapse Toolbar
+- Full-Screen
+- Upgrade Firmware
+- Cloud Service
+- Security (including Change Admin Password and 2FA Auth)
+- Reboot
+- Logout
 
 #### Upgrade
 
@@ -314,7 +342,7 @@ If you want to access the controlled device remotely, we suggest you download th
 
     ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
 
-- 2FA Code: Enable two-factor authentication to protect your account.
+- 2FA Auth: Enable two-factor authentication to protect your account.
 
 ## Accessory Guide
 
@@ -326,9 +354,9 @@ The FingerBot, acting as a physical button emulator, is designed to enable remot
 
 Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of Comet. 
 
-Then attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
+Attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
 
-Then you can log in to Comet's control page, go to [Accessories](#accessories) to set the FingerBot.
+Then log in to Comet's control panel, go to [Accessories](#accessories) to set the FingerBot.
 
 **Note**: This product is not available yet.
 
