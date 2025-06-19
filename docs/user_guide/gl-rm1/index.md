@@ -32,10 +32,6 @@ There is 1x Button at the side panel of Comet. Here's the button explanation.
 
 ## Quick Setup Guide
 
-Watch this setup video or follow the steps below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ReI_UxkDyvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Connect the Devices
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
@@ -84,7 +80,7 @@ Now we can use this IP to access Comet locally, thus access the controlled devic
     
     Register a GL.iNet account. If you already have one, skip this step.
 
-    ![sign up](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/sign_up_account.png){class="glboxshadow gl-80-desktop"}
+    ![sign up](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/sign_up_account.jpg){class="glboxshadow gl-80-desktop"}
 
 3. Log in to your Account.
 
@@ -102,15 +98,15 @@ Now we can use this IP to access Comet locally, thus access the controlled devic
 
         Click "Add Device", select your Comet.
 
-        ![add device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_device.png){class="glboxshadow gl-80-desktop"}
+        ![add device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_device.jpg){class="glboxshadow gl-80-desktop"}
 
-        ![select device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/select_device.jpg){class="glboxshadow gl-80-desktop"}
+        ![select device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/select_device.png){class="glboxshadow gl-80-desktop"}
 
     === "Bind via Adding Manually"
 
         Click the "+" button in the upper right corner.
 
-        ![click + button](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_button.jpg){class="glboxshadow gl-80-desktop"}
+        ![click + button](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_button.png){class="glboxshadow gl-80-desktop"}
 
         Customize device name and input the S/N, which is printed on the label on the back of the device.
 
@@ -130,9 +126,9 @@ More instructions about Tailscale, please refer to [Tailscale documentation](htt
 
 ### Settings
 
-In the Comet's control page, navigate to **Settings**, you will get a page as below.
+In the Comet's control panel, navigate to **Settings**, you will get a page as below.
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.png){class="glboxshadow"}
+![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.jpg){class="glboxshadow"}
 
 #### Video
 
@@ -170,7 +166,7 @@ You can adjust the relevant settings of the controlled device.
 
 In the Comet's control page, navigate to **Toolbox**.
 
-![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
+![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.jpg){class="glboxshadow"}
 
 #### Clipboard
 
@@ -202,7 +198,7 @@ Firstly, connect the accessories to the controlled device. For Fingerbot, please
 
 Then log in to the Comet's control page, navigate to **Accessories**. 
 
-![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
+![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.jpg){class="glboxshadow"}
 
 **Note**: Accessory settings are only displayed after installation.
 
@@ -232,7 +228,7 @@ Comet allows you to transfer files between the host controlling device and the c
 
 In the top navigation bar, click  **Virtual Media**.
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.png){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.jpg){class="glboxshadow"}
 
 Drag or click the box to upload files from host, or upload from URL. 
 
@@ -274,7 +270,7 @@ Then you can use this file on the controlled end.
 
 In the top navigation bar, click **Apps Center**, the integrated applications can be found here.
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.png){class="glboxshadow"}
+![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.jpg){class="glboxshadow"}
 
 #### Tailscale
 
@@ -290,9 +286,9 @@ More instructions about Tailscale, please refer to [Tailscale documentation](htt
 
 ### Help
 
-Here you can find more information about GL.iNet KVM, or export log for troubleshooting.
+Here you can find more information about GL.iNet KVM and help document, and export log for troubleshooting.
 
-![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.png){class="glboxshadow"}
+![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.jpg){class="glboxshadow"}
 
 ### System Settings
 
