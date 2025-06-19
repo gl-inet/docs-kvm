@@ -14,7 +14,7 @@ In addition, this version upgrades the EMMC capacity to 32GB, making it more cap
 
 ### Interface
 
-![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/interface.jpg){class="glboxshadow"}
+![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/interface.png){class="glboxshadow"}
 
 ### LED
 
@@ -33,19 +33,19 @@ There is 1x LED on the top panel of Comet PoE.
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![distinguishing devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect_1.jpg){class="glboxshadow"}
+![distinguishing devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow"}
 
 1. Connect the Comet PoE to the PoE Switch with an Ethernet cable.
 
-    ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect_2.png){class="glboxshadow"}
+    ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-2.png){class="glboxshadow"}
 
-2. Use an HDMI cable to connect the Comet PoE's HDMI-IN port to the HDMI-OUT port of the Device B.
+2. Use an HD cable to connect the Comet PoE's HD IN port to the HD OUT port of the Device B.
 
-    ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect_3.png){class="glboxshadow"}
+    ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-3.png){class="glboxshadow"}
 
 3. Connect the Comet PoE's USB port to the USB interface of the Device B using a USB cable.
 
-    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect_4.png){class="glboxshadow"}
+    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-4.png){class="glboxshadow"}
 
 4. Device connection is complete. 
 
@@ -117,7 +117,7 @@ Then we can use this IP to access Comet PoE locally, thus access the controlled 
 
 **Method 2**. via Tailscale
 
-Comet PoE integrates with Tailscale since firmware v1.1.0, allowing you to bind it to the Tailscale virtual network for remote access.
+Comet PoE integrates with Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
 
 In Comet PoE's control panel, navigate to Apps Center -> Tailscale, bind Comet PoE to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
@@ -155,9 +155,7 @@ You can adjust the relevant settings of the controlled device.
 
 - Show Local Cursor: Whether to display the mouse of the current device on the screen.
 
-- Mouse Jiggle: This feature is available since firmware v1.3. 
-    
-    It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
+- Mouse Jiggle: It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
 
 - Scroll Rate: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
 
@@ -289,8 +287,6 @@ In the control panel, navigate to **Apps Center**, the integrated applications c
 
 #### Tailscale
 
-This feature is available since firmware v1.1.0
-
 Comet PoE integrates with Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
 
 In the control panel, navigate to Apps Center -> Tailscale, bind Comet PoE to your Tailscale account, then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
@@ -321,7 +317,7 @@ In the control panel, navigate to the upper-right corner to access the following
 
 Local and Online Upgrades are supported.
 
-![upgrade firmware](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
+![upgrade firmware](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/firmware_upgrade.jpg){class="glboxshadow"}
 
 #### Cloud Service
 
@@ -329,7 +325,7 @@ GL.iNet KVM panel can be accessed locally, so as to manage the controlled device
 
 If you want to access the controlled device remotely, we suggest you download the App to use Cloud service.
 
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/cloud_service.png){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/cloud_service.png){class="glboxshadow"}
 
 #### Security
 
