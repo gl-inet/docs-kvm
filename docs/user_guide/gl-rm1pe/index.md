@@ -10,7 +10,7 @@ In addition, this version upgrades the EMMC capacity to 32GB, making it more cap
 
 ![appearance 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-1.png){class="glboxshadow"}
 
-![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-2.png){class="glboxshadow"}
+![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-2.jpg){class="glboxshadow"}
 
 ### Interface
 
@@ -241,29 +241,31 @@ Comet PoE allows you to transfer files between the host controlling device and t
 
 In the control panel, navigate to **Virtual Media**.
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.jpg){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/virtual_media_1.png){class="glboxshadow"}
 
 Drag or click the box to upload files from host, or upload from URL. 
 
 As an example, two images have been uploaded from the controlling device to the Comet PoE here.
 
-![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
+![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/virtual_media_2.png){class="glboxshadow"}
 
 Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
+
+![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/mount_to_remote.jpg){class="glboxshadow"}
     
 #### File Sharing
 
 It Emulates a read-write USB drive. Upload the files from the host to the Comet PoE and transfer to the controlled device.
 
-Click "File Sharing", a window will pop up in the upper right corner of the control panel.
+Click on **File Sharing**, and a window will pop up in the upper-right corner of the control panel to display file sharing steps. Click "Don't remind me" to hide this prompt.  
     
-![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
+![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_1.png){class="glboxshadow"}
 
-Then turn to the Comet PoE's control panel, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". 
+Then turn to the Comet PoE's control panel, go to **This PC** of your controlled device, find a Drive named **media(G:)**. 
     
 Now you can view, move or delete the files in this drive.
 
-![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_2.jpg){class="glboxshadow"}
+![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_2.jpg){class="glboxshadow"}
     
 #### Image Mounting
 
@@ -273,7 +275,7 @@ Comet PoE can simulate a read-only virtual CD/DVD or disk drive on the target ho
     
 This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
     
-Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
+Click on **Image Mounting**, in the pop-up Mount Settings, select the file and ensure this file can be mounted as an iso format, then click **Mount Image**. 
 
 ![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
 
