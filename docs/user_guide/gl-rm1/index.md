@@ -268,7 +268,7 @@ Click on **File Sharing**, and a window will pop up in the upper-right corner of
     
 ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
 
-Then turn to the Comet's control panel, go to **This PC** of your controlled device, find a Drive named **GLKVM(G:)**. 
+Then turn to the Comet's control panel, go to **This PC** of your controlled device, find a Drive named **GLKVM**. 
 
 Now you can view, move or delete the files in this drive.
 

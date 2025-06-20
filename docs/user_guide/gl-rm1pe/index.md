@@ -261,11 +261,11 @@ Click on **File Sharing**, and a window will pop up in the upper-right corner of
     
 ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_1.png){class="glboxshadow"}
 
-Then turn to the Comet PoE's control panel, go to **This PC** of your controlled device, find a Drive named **media(G:)**. 
+Then turn to the Comet PoE's control panel, go to **This PC** of your controlled device, find a Drive named **GLKVM**. 
     
 Now you can view, move or delete the files in this drive.
 
-![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_2.jpg){class="glboxshadow"}
+![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_2.png){class="glboxshadow"}
     
 #### Image Mounting
 
