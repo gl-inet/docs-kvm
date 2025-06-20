@@ -17,6 +17,7 @@
         <div class="gl-product-model">GL-RM1PE</div>
         <div class="gl-product-model">(Comet PoE)</div>
       </a>
+    </div>
   </div>
 </div>
 
