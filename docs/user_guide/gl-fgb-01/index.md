@@ -1,12 +1,12 @@
-# FingerBot(FGB-01) User Guide
+# FingerBot (FGB-01) User Guide
 
-The Fingerbot FGB-01 is an optional accessories for GL.iNet KVM devices to provide additional convenience for remote power management.
+Fingerbot FGB-01 is an optional accessory for GL.iNet KVM devices, used in conjunction with GL.iNet KVM devices to provide additional convenience for remote power management.
 
 As a physical button emulator, the FingerBot is designed for remote PC power-on. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
 
 ![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/appearance.png){class="glboxshadow"}
 
-## Package Content
+## Package Contents
 
 ![package content](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_content.jpg){class="glboxshadow"}
 
@@ -19,7 +19,7 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
 
 ## Installation
 
-1. Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL.iNet KVM device.
+1. Remove the cover above the FingerBot to find a USB Bluetooth Receiver, and insert it into the USB port of GL.iNet KVM device.
 
 2. Attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
 
@@ -48,6 +48,18 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
         - Hard Press Mode: Ideal for deep or firm buttons.
 
         ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}
+
+## FAQ
+
+Q1. What protocol does the USB receiver of the GL-FingerBot use?
+
+A1. It uses Bluetooth protocol.
+
+---
+
+Q2. Is GL-FingerBot compatible with non-GL.iNet KVM devices?
+
+A2. No. GL-FingerBot is an optional accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM devices.
 
 ---
 
