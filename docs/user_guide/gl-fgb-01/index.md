@@ -1,10 +1,10 @@
 # FingerBot (FGB-01) User Guide
 
-Fingerbot FGB-01 is an optional accessory for GL.iNet KVM devices, used in conjunction with GL.iNet KVM devices to provide additional convenience for remote power management.
+Fingerbot FGB-01 is an optional accessory for GL.iNet KVM devices, used in conjunction with GL.iNet KVM to provide additional convenience for remote power management.
 
 As a physical button emulator, the FingerBot is designed for remote PC power-on. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
 
-![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/appearance.png){class="glboxshadow"}
+![overview](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/overview.png){class="glboxshadow"}
 
 ## Package Contents
 
