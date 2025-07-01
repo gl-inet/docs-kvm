@@ -1,6 +1,6 @@
 # FingerBot (FGB-01) User Guide
 
-Fingerbot FGB-01 is an optional accessory for GL.iNet KVM devices, used in conjunction with GL.iNet KVM to provide additional convenience for remote power management.
+Fingerbot FGB-01 is an optional accessory for GL.iNet KVM devices to provide additional convenience for remote power management.
 
 As a physical button emulator, the FingerBot is designed for remote PC power-on. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
 
@@ -19,11 +19,19 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
 
 ## Installation
 
-1. Remove the cover above the FingerBot to find a USB Bluetooth Receiver, and insert it into the USB port of GL.iNet KVM device.
+1. Remove the plastic battery isolation tab.
 
-2. Attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
+2. Open the lid from the notch on the top of the FingerBot to find a USB Bluetooth Receiver.
 
-    It is compatible with desktops and laptops.
+3. Insert the USB Bluetooth Receiver into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the FingerBot.
+
+4. Clean the surface of the power button on the controlled device.
+
+5. Peel off the protective sticker from the 3M adhesive on the bottom of the FingerBot.
+
+6. Stick the Fingerbot to the controlled device, ensuring that its robotic arm can reach the physical power button when pressed. This allows control over the device's power supply.
+
+    The Fingerbot can be mounted on desktops or laptops. For laptops, use it only if the power button is located on the side edge.
 
     ![desktop](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/desktop.png){class="glboxshadow"}
 
@@ -35,7 +43,7 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
 
 2. In the KVM control panel, navigate to **Accessories** to customize the FingerBot settings.
 
-    ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.jpg){class="glboxshadow"}
+    ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/accessories.jpg){class="glboxshadow"}
 
     **Note**: Accessory settings are only displayed after installation.
 
@@ -49,6 +57,14 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
 
         ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}
 
+        You can also use the **Test Button** (inside FingerBot, visible after removing the top cover) to find your preferred pressing level:
+
+        1. Press for the first time: FingerBot extends to Light Press.
+
+        2. Press for the second time: FingerBot extends to Hard Press.
+
+        3. Press for the third time: FingerBot retracts.
+
 ## FAQ
 
 Q1. What protocol does the USB receiver of the GL-FingerBot use?
@@ -57,9 +73,15 @@ A1. It uses Bluetooth protocol.
 
 ---
 
-Q2. Is GL-FingerBot compatible with non-GL.iNet KVM devices?
+Q2. Is the FingerBot body paired with the USB Bluetooth receiver? If my USB Bluetooth receiver gets lost, can I use another one?
 
-A2. No. GL-FingerBot is an optional accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM devices.
+A2. The FingerBot and its USB Bluetooth receiver are uniquely paired. Other receivers cannot be used with the FingerBot due to binding.
+
+---
+
+Q3. Is GL-FingerBot compatible with non-GL.iNet KVM devices?
+
+A3. No. GL-FingerBot is an optional accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM.
 
 ---
 
