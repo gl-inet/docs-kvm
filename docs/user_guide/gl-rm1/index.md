@@ -154,11 +154,13 @@ You can adjust the relevant settings of the controlled device.
 
 - Keyboard: Turn on or off the keyboard of the controlled device.
 
-- Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
+- Show Virtual Keyboard: Display and use the virtual keyboard on the control page.
+
+    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_keyboard.jpg){class="glboxshadow gl-90-desktop"}
 
 - Mouse: Turn on or off the mouse of the controlled device.
 
-- Show Local Cursor: Whether to display the mouse of the current device on the screen.
+- Show Local Cursor: Display the mouse of the current device on the screen.
 
 - Mouse Jiggle: This feature is available since firmware v1.3. 
     
@@ -214,7 +216,7 @@ Access Terminal: You can access the terminal of Comet through this function.
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management. 
 
-Firstly, connect the accessories to the controlled device. For Fingerbot, please click [here](#fingerbot). For ATX board, please click [here](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"}.
+Firstly, connect the accessories to the controlled device. For Fingerbot, please click [here](../gl-fgb-01/index.md){target="_blank"}. For ATX board, please click [here](../gl-atx-board/index.md){target="_blank"}.
 
 Then log in to the control panel, navigate to **Accessories**. 
 
@@ -230,7 +232,13 @@ It works as per the following settings.
 
 - Time: The duration for which the Fingerbot presses.
 
-- Strength: Two levels of pressing strength are provided.
+- Strength: Two levels of pressing strength are provided: Light Press mode and Hard Press mode.
+
+    - Light Press Mode: Perfect for short or soft-touch buttons.
+        
+    - Hard Press Mode: Ideal for deep or firm buttons.
+
+    ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
 #### ATX Power
 
@@ -352,13 +360,13 @@ GL.iNet offers optional accessories for KVM devices to provide additional conven
 
 The FingerBot, acting as a physical button emulator, is designed to enable remote control of physical power button on the controlled device. 
 
-Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of Comet. 
+Remove the cover above the FingerBot to find a USB Bluetooth Receiver, and insert it into the USB port of Comet. 
 
 Attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
 
-Then log in to Comet's control panel, go to [Accessories](#accessories) to set the FingerBot.
+Then log in to Comet's control panel, go to [Accessories](#accessories) to customize the FingerBot settings.
 
-**Note**: This product is not available yet.
+Please refer to [GL-FingerBot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"} for details.
 
 ### ATX Board
 
@@ -366,7 +374,7 @@ The ATX Board, acting as a smart power management module, enables remote control
 
 Unlike the FingerBot, which controls device through physical button presses, the ATX main board will be directly installed in the controlled device's host box, providing more concealed and stable power management.
 
-Please refer to [GL-ATX Board User Guide](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"} for details.
+Please refer to [GL-ATX Board User Guide](../gl-atx-board/index.md){target="_blank"} for details.
 
 ---
 
