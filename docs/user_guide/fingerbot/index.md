@@ -1,10 +1,12 @@
 # FingerBot User Guide
 
-The FingerBot, acting as a physical button emulator, is designed to enable remote control of physical power button on the controlled device.
+As a physical button emulator, the FingerBot is designed for remote PC power-on. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
 
 ## Package Content
 
-- 1*FGB-01
+![package content](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_content.jpg){class="glboxshadow"}
+
+- 1*FingerBot
 - 1*Laptop Stand
 - 1*Add-on
 - 1*CR2 Battery
@@ -16,6 +18,12 @@ The FingerBot, acting as a physical button emulator, is designed to enable remot
 1. Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of Comet.
 
 2. Attach the Fingerbot to the controlled device, ensure that the robotic arm of the Fingerbot can reach the physical power button of the controlled device when pressed downward, so as to achieve control of the power supply of the controlled device.
+
+    It is compatible with desktops and laptops.
+
+    ![desktop](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/desktop.png){class="glboxshadow"}
+
+    ![laptop](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/laptop.png){class="glboxshadow"}
 
 ## Setup
 
@@ -32,6 +40,8 @@ The FingerBot, acting as a physical button emulator, is designed to enable remot
         - Light Press Mode: Perfect for short or soft-touch buttons.
         
         - Hard Press Mode: Ideal for deep or firm buttons.
+
+        ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}
 
 ---
 
