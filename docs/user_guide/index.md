@@ -32,5 +32,12 @@
         <div class="gl-product-model"><br></div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-fgb-01/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_fgb-01.jpg" >
+        <div class="gl-product-model">GL-FingerBot</div>
+        <div class="gl-product-model">(FGB-01)</div>
+      </a>
+    </div>
   </div>
 </div>

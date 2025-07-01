@@ -96,6 +96,7 @@ nav:
     - GL-RM1 (Comet): user_guide/gl-rm1/index.md
     - GL-RM1PE (Comet PoE): user_guide/gl-rm1pe/index.md
     - GL-ATX Board: user_guide/gl-atx-board/index.md
+    - GL-FingerBot (FGB-01): user_guide/gl-fgb-01/index.md
   - FAQ:
     - Overview: faq/index.md
     - General:
