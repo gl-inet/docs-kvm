@@ -4,6 +4,8 @@ The ATX board is an optional accessory for GL.iNet KVM device. As a smart power 
 
 The ATX board will be installed in the controlled device's chassis, providing more concealed and stable power management.
 
+![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/rm1-and-atx-borad.jpg){class="glboxshadow"}
+
 ## Components
 
 There are some components in the ATX Package:
@@ -67,10 +69,10 @@ If the row of pins on the motherboard of your controlled computer for connecting
 Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) are visible facing outward and not obscured facing inward.
 
 ![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_2.jpg){class="glboxshadow"}
-<small>Example of the front view</small>
+<small>Front View</small>
 
 ![10-1pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_3.jpg){class="glboxshadow"}
-<small>Example of the rear view</small>
+<small>Rear View</small>
 
 Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
 
@@ -83,36 +85,38 @@ If the row of pins on the motherboard of your controlled computer for connecting
 Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) are visible facing outward and not obscured facing inward.
 
 ![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_2.jpg){class="glboxshadow"}
-<small>Example of the front view</small>
+<small>Front View</small>
 
 ![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_3.png){class="glboxshadow"}
-<small>Example of the rear view</small>
+<small>Rear View</small>
 
 Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
 
 The final connected ATX board is shown below.
 
-![axt board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install1.png){class="glboxshadow gl-60-desktop"}
+![axt board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install1.png){class="glboxshadow gl-60-desktop"}
 
-![axt board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install2.jpg){class="glboxshadow"}
+![axt board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install2.jpg){class="glboxshadow"}
 <small>Detailed front view of ATX board</small>
 
-![axt board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install3.jpg){class="glboxshadow"}
+![axt board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install3.jpg){class="glboxshadow"}
 <small>Detailed rear view of ATX board</small>
 
-Then place the ATX board bracket on the side frame of the computer chassis.
+Then place the ATX board bracket on the side frame of the computer chassis (if required).
 
-![axt board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install4.png){class="glboxshadow"}
+![axt board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install4.png){class="glboxshadow"}
 
 ### 3. Connect ATX Board and KVM
 
 Connect the Type-C interface of ATX board to the USB-A interface of the KVM device (such as Comet GL-RM1), using the included USB-A to Type-C cable.
 
-![axt board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install5.png){class="glboxshadow"}
+![axt board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install5.png){class="glboxshadow"}
 
-![axt board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/axt_board_install6.png){class="glboxshadow"}
+![axt board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install6.jpg){class="glboxshadow"}
 
-This completes the installation of the ATX board. You can log in to the Comet, navigate to [Accessories](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#accessories) to set the ATX power.
+This completes the installation of the ATX board. 
+
+Please log in to the Comet, navigate to [Accessories](../gl-rm1/index.md/#accessories) to set the ATX power.
 
 !!! Note
 
