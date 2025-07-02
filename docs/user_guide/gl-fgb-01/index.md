@@ -1,20 +1,20 @@
 # FingerBot (FGB-01) User Guide
 
-Fingerbot FGB-01 is an optional accessory for GL.iNet KVM devices to provide additional convenience for remote power management.
+Fingerbot FGB-01 is an accessory for GL.iNet KVM devices to provide additional convenience for remote power management.
 
-As a physical button emulator, the FingerBot is designed for remote PC power-on. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
+As a physical button emulator, the FingerBot is designed for remote PC power on/off. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
 
 ![overview](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/overview.png){class="glboxshadow"}
 
 ## Package Contents
 
-![package content](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_content.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package-contents.jpg){class="glboxshadow"}
 
 - 1 x FGB-01
 - 1 x Laptop Stand
 - 1 x Add-on
 - 1 x CR2 Battery (installed in FGB-01)
-- 1 x 3M Adhesive Tape
+- 1 x Adhesive Tape
 - 1 x User Guide
 
 ## Installation
@@ -27,7 +27,7 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
 
     ![install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_2.png){class="glboxshadow"}
 
-3. Find a USB Bluetooth Receiver, insert it into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the FingerBot.
+3. Find the USB Bluetooth Receiver, insert it into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the FingerBot.
 
     ![install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_3.png){class="glboxshadow"}
 
