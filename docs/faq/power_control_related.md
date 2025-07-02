@@ -1,24 +1,30 @@
 # Power control related questions about GL.iNet KVM
 
-This document compiles commonly asked questions and answers about power control features of GL.iNet KVM, designed to help you understand how it control the power of remote device and use it efficiently. 
+This document aims to help you understand how GL.iNet KVM controls the power on/off of remote device.
 
 If your question is not listed here, please contact our technical support team for further assistance.
 
-**Q1. Can GL.iNet KVM control the power of a computer?**
+**Q1. Can GL.iNet KVM control the power on/off of a computer?**
 
-A1. Sure. You can control the power of the controlled devices in the following ways:
+A1. Sure. You can control the power of the controlled device in the following ways:
 
 - Wake on LAN (Built-in software service)
 
-- [ATX board](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"} (Accessories, additional purchase required)
+- ATX board (Accessories, additional purchase required)
 
-- [FingerBot](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#fingerbot) (Accessories, additional purchase required)
+- Fingerbot (Accessories, additional purchase required)
 
 ---
 
-**Q2. How to use ATX Board for remote power management?**
+**Q2. How to use ATX Board for remote power on/off control?**
 
-A2. Please refer to [GL-ATX Board User Guide](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"}.
+A2. Please refer to [GL-ATX Board User Guide](../user_guide/gl-atx-board/index.md){target="_blank"}.
+
+---
+
+**Q3. How to use Fingerbot for remote power on/off control?**
+
+A3. Please refer to [GL-Fingerbot (FGB-01) User Guide](../user_guide/gl-fgb-01/index.md){target="_blank"}.
 
 ---
 
