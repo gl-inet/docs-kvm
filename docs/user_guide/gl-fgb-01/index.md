@@ -10,26 +10,38 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
 
 ![package content](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_content.jpg){class="glboxshadow"}
 
-- 1*FGB-01
-- 1*Laptop Stand
-- 1*Add-on
-- 1*CR2 Battery
-- 1*3M Adhesive Tape
-- 1*User Guide
+- 1 x FGB-01
+- 1 x Laptop Stand
+- 1 x Add-on
+- 1 x CR2 Battery (installed in FGB-01)
+- 1 x 3M Adhesive Tape
+- 1 x User Guide
 
 ## Installation
 
 1. Remove the plastic battery isolation tab.
 
-2. Open the lid from the notch on the top of the FingerBot to find a USB Bluetooth Receiver.
+    ![install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_1.png){class="glboxshadow"}
 
-3. Insert the USB Bluetooth Receiver into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the FingerBot.
+2. Open the lid from the notch on the top of the FingerBot.
+
+    ![install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_2.png){class="glboxshadow"}
+
+3. Find a USB Bluetooth Receiver, insert it into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the FingerBot.
+
+    ![install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_3.png){class="glboxshadow"}
 
 4. Clean the surface of the power button on the controlled device.
 
+    ![install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_4.png){class="glboxshadow"}
+
 5. Peel off the protective sticker from the 3M adhesive on the bottom of the FingerBot.
 
+    ![install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_5.png){class="glboxshadow"}
+
 6. Stick the Fingerbot to the controlled device, ensuring that its robotic arm can reach the physical power button when pressed. This allows control over the device's power supply.
+
+    ![install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_6.png){class="glboxshadow"}
 
     The Fingerbot can be mounted on desktops or laptops. For laptops, use it only if the power button is located on the side edge.
 
@@ -58,6 +70,8 @@ As a physical button emulator, the FingerBot is designed for remote PC power-on.
         ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}
 
         You can also use the **Test Button** (inside FingerBot, visible after removing the top cover) to find your preferred pressing level:
+
+        ![test button](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/test_button.jpg){class="glboxshadow"}
 
         1. Press for the first time: FingerBot extends to Light Press.
 
