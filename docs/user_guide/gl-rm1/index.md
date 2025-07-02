@@ -220,7 +220,7 @@ Firstly, connect the accessories to the controlled device. For Fingerbot, please
 
 Then log in to the control panel, navigate to **Accessories**. 
 
-![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.jpg){class="glboxshadow"}
+![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
 
 **Note**: Accessory settings are only displayed after installation.
 
