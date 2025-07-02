@@ -31,7 +31,7 @@ Sometimes you may find that even if all the cables are connected, you still cann
 
     Please check if these two Type-C interfaces are connected correctly.
 
-    ![rm1 hardware ports](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/rm1_ports.png){class="glboxshadow"}
+    ![gl-rm1 ports](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/gl-rm1-ports.png){class="glboxshadow gl-80-desktop"}
 
 2. **Check the USB cable**. 
 
