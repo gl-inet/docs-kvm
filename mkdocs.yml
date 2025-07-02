@@ -107,8 +107,8 @@ nav:
       - How to access the controlled device connected to GL.iNet KVM: faq/how_to_access_the_controlled_device_connected_to_kvm.md
       - Does GLKVM application support ChromeOS/Linux: faq/does_glkvm_application_support_chromeos_or_linux.md
       - Can Comet (GL-RM1) connect to wireless network: faq/can_comet_connect_to_wireless_network.md
-    - Power Control Related:
-      - Power control related questions about GL.iNet KVM: faq/power_control_related.md
+    - Power On/Off Control:
+      - How does GL.iNet KVM remotely control the power on/off of controlled device: faq/power_on_off_control.md
     - Features:
       - Features of GL.iNet KVM: faq/features.md
     - Troubleshooting:

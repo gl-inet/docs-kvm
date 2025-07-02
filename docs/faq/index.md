@@ -20,9 +20,9 @@ Learn how to use our devices and how to solve some common problems.
 * [Does GLKVM application support ChromeOS/Linux?](does_glkvm_application_support_chromeos_or_linux.md)
 * [Can Comet (GL-RM1) connect to wireless network?](can_comet_connect_to_wireless_network.md)
 
-## Power Control Related
+## Power On/Off Control
 
-* [Power control related questions about GL.iNet KVM](power_control_related.md)
+* [How does GL.iNet KVM remotely control the power on/off of controlled device?](power_on_off_control.md)
 
 ## Features
 
