@@ -14,7 +14,7 @@ A1. No. You can choose to use or not use cloud service.
 
 **Q2. What do I need for centralized device management?**
 
-A2. You could get multiple Comet and bind them to one account on GLKVM, or get a KVM switch with hotkeys yourself.
+A2. You can get multiple Comet and bind them to one account on GLKVM, or get a KVM switch with Hotkey Switching.
 
 ---
 
