@@ -60,9 +60,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 ### Local Access to Comet
 
-Watch this video to access Comet via LAN, or follow the steps below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PlJ5JLt7aUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Follow the steps below to access Comet via LAN.
 
 **Method 1**. via Domain Name
 
