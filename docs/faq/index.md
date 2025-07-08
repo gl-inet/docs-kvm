@@ -42,4 +42,5 @@ Learn how to use our devices and how to solve some common problems.
 * [Blank screen displayed when using GLKVM](display_blank_screen_when_using_glkvm.md)
 * [Mouse cursors fail to overlap when using GLKVM](mouse_cursors_fail_to_overlap_when_using_glkvm.md)
 * [Mouse latency when RPi4 controls RPi3 via GLKVM](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
+* [BIOS interface does not display in GLKVM](bios_does_not_display_in_glkvm.md)
 * [Set EDID for GL.iNet KVM](how_to_set_edid_for_glkvm.md)
