@@ -8,7 +8,7 @@ Here are some suggestions for troubleshooting.
 
 1. Check the LED and ensure your KVM device is connected to Internet.
 
-    Take Comet (GL-RM1) as an exmaple. A solid while LED indicates stable Internet connection.
+    Take Comet (GL-RM1) as an exmaple. A solid white LED indicates stable Internet connection.
 
 2. Ensure the Cloud service is enabled. 
 
