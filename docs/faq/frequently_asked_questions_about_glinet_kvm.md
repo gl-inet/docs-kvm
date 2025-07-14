@@ -70,17 +70,17 @@ You need to connect it to a network device (such as a router) via an Ethernet ca
 
 ---
 
-## Power Control Related
+## Power On/Off Control
 
-**Q1. Can GL.iNet KVM control the power of a computer?**
+**Q1. Can GL.iNet KVM control the power on/off of a computer?**
 
 A1. Sure. You can control the power of the controlled devices in the following ways:
 
 - Wake on LAN (Built-in software service)
 
-- [ATX board](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"} (Accessories, additional purchase required)
+- [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Accessories, additional purchase required)
 
-- [FingerBot](https://docs.gl-inet.com/kvm/en/user_guide/gl-rm1/#fingerbot) (Accessories, additional purchase required)
+- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (Accessories, additional purchase required)
 
 ---
 
@@ -110,15 +110,29 @@ A3. Wake on LAN (WOL) is a technology that allows a computer or device to be rem
 
 ---
 
-## Troubleshooting
+**Q4. Does Comet support Mouse Jitter?**
 
-**Q1. Why can't I control the keyboard and mouse even if I have all wires connected?**
+A4. Yes. Comet supports mouse jitter function from firmware v1.3.
 
-A1. Please refer to [this document](cannot_control_the_mouse.md).
+The mouse jitter function is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game idle status (when users leave the keyboard temporarily) to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
 
 ---
 
-**Q2. Why can't my mouse cursor overlap with that on the controlled device screen?**
+**Q5. Does Comet support remote microphone (i.e., transmitting audio from the controlling device to the controlled device)?**
+
+A5. This feature will be available from firmware v1.4.0.
+
+---
+
+## Troubleshooting
+
+**Q1. Why can't I control the mouse and keyboard?**
+
+A1. Please refer to [this link](cannot_control_the_mouse.md).
+
+---
+
+**Q2. Why does the mouse cursor fail to overlap with that on the controlled device?**
 
 A2. It usually happens when the controlled device is a laptop.
 
