@@ -134,6 +134,8 @@ In the control panel, navigate to **Settings**, you will get a page as below.
 #### Video
 
 You can modify the video quality, orientation and EDID settings of the control page. 
+
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-video.png){class="glboxshadow"}
     
 - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
 
@@ -144,6 +146,8 @@ You can modify the video quality, orientation and EDID settings of the control p
 #### Remote Device Settings
 
 You can adjust the relevant settings of the controlled device.
+
+![settings-remote device settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote_device_settings.png){class="glboxshadow"}
 
 - Audio: Turn on or off the sound of the controlled device.
 
@@ -171,6 +175,8 @@ You can adjust the relevant settings of the controlled device.
 
 #### System
 
+![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.png){class="glboxshadow"}
+
 - Language: Switch the language of control panel. 
 
 - Color Mode: Switch the theme color, including dark and light modes.
@@ -187,29 +193,49 @@ In the control panel, navigate to **Toolbox**.
 
 The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
 
+![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-clipboard.png){class="glboxshadow"}
+
 #### Shortcut
 
-It shows some common shortcut key options. Click "ALL" to show all options.
+It shows some common shortcut options. 
 
-![all shortcuts](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
+![toolbox-shortcut](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut.png){class="glboxshadow"}
+
+Click **Show All** to show all shortcut options.
+
+![toolbox-shortcut-all](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut-all.png){class="glboxshadow"}  
+
+Click **Modify** to adjust the shortcut options.
+
+![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut-modify.png){class="glboxshadow"}  
 
 #### Wake On Lan
 
-Wake on LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
+Wake-on-LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
 
-Click Add Device to set it up.
+Click **Add Device** to choose a device from the same LAN and set up Wake-on-LAN.
+
+![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-wol.png){class="glboxshadow"}  
 
 #### Terminal
 
-Access Terminal: You can access the terminal of Comet through this function.
+You can access the terminal of Comet to perform advanced settings.
 
-![access terminal](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
+![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-terminal-1.png){class="glboxshadow"}
+
+Click **Access**, you will be re-directed to the GLKVM terminal, as shown below.
+
+![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-terminal-2.png){class="glboxshadow"}
 
 ### Accessories
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management. 
 
-Firstly, connect the accessories to the controlled device. For Fingerbot, please click [here](../gl-fgb-01/index.md){target="_blank"}. For ATX board, please click [here](../gl-atx-board/index.md){target="_blank"}.
+Firstly, connect the accessories to the controlled device. Please refer to the user guide of the corresponding accessories.
+
+- [GL-Fingerbot (GL-FGB-01)](../gl-fgb-01/index.md){target="_blank"}
+
+- [GL-ATX Board](../gl-atx-board/index.md){target="_blank"}
 
 Then log in to the control panel, navigate to **Accessories**. 
 
