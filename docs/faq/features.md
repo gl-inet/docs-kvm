@@ -18,9 +18,9 @@ A2. You can get multiple Comet and bind them to one account on GLKVM, or get a K
 
 ---
 
-**Q3. What is Wake On Lan?**
+**Q3. What is Wake-on-Lan?**
 
-A3. Wake on LAN (WOL) is a technology that allows a computer or device to be remotely powered on or awakened from a low-power state over a network. It works by sending a "magic packet" containing the target device's MAC address, which triggers the device to start up. Common uses include remote administration, energy-saving standby configurations, and centralized system management.
+A3. Wake-on-LAN (WOL) is a technology that allows a computer or device to be remotely powered on or awakened from a low-power state over a network. It works by sending a "magic packet" containing the target device's MAC address, which triggers the device to start up. Common uses include remote administration, energy-saving standby configurations, and centralized system management.
 
 ---
 
