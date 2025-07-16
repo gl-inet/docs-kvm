@@ -68,6 +68,8 @@ A7. GL-RM1 (Comet) does not support connecting to wireless network.
 
 You need to connect it to a network device (such as a router) via an Ethernet cable to get Internet access.
 
+![ethernet connection](https://static.gl-inet.com/docs/kvm/faq/can_comet_connect_to_wireless_network/ethernet_connection_marked.png){class="glboxshadow"}
+
 ---
 
 ## Power On/Off Control
