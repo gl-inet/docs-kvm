@@ -19,6 +19,10 @@ As a physical button emulator, the Fingerbot is designed for remote PC power on/
 
 ## Installation
 
+Watch this video or follow the steps below to install Fingerbot.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ExhJHhEcwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1. Remove the plastic battery isolation tab.
 
     ![install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_1.png){class="glboxshadow"}
