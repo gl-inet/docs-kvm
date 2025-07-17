@@ -16,9 +16,13 @@ Learn how to use our devices and how to solve some common problems.
 ## Basic Information
 
 * [What devices can GL.iNet KVM control? Any software needed to use KVM?](what_devices_can_glinet_kvm_control.md)
-* [How to access the controlled device connected to GL.iNet KVM?](how_to_access_the_controlled_device_connected_to_kvm.md)
 * [Does GLKVM application support ChromeOS/Linux?](does_glkvm_application_support_chromeos_or_linux.md)
 * [Can Comet (GL-RM1) connect to wireless network?](can_comet_connect_to_wireless_network.md)
+
+## Local/Remote Access
+
+* [How to locally access the controlled device via browser?](locally_access_controlled_device_via_browser.md)
+* [How to remotely access the controlled device via GLKVM app?](remotely_access_controlled_device_via_glkvm_app.md)
 
 ## Power On/Off Control
 
