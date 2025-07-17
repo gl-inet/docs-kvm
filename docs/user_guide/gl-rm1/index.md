@@ -60,67 +60,77 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 ### Local Access to Comet
 
-Follow the steps below to access Comet via LAN.
+There are two methods to access Comet via LAN.
 
 **Method 1**. via Domain Name
 
-Launch a browser on your controlling device, enter `glkvm.local`, you will enter the local management page.
+Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
+
+Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain.png){class="glboxshadow"}
+
+You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
 
 **Method 2**. via IP Address
 
-Find the IP address of Comet in the upper router, enter this IP address in the browser, you will be able to access the Comet locally, thus access the controlled device connected to it.
+Find the IP address of Comet in the upper router, enter this IP address in the browser, and you will be able to access the Comet locally, thus access the controlled device.
 
-Take GL-AXT1800 as an example. Here the Comet is connected to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
+Take GL-AXT1800 as an example: Comet is connected to the LAN port of GL-AXT1800 router via an Ethernet cable, and the controlled device is connected to Comet correctly via HD cable and USB cable.
+
+Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
 
-Then we can use this IP to access Comet locally, thus access the controlled device.
+Open a new tab in the browser, enter Comet's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access.png){class="glboxshadow"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip.jpg){class="glboxshadow"}
+
+You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
 
 ### Remote Access to Comet
 
-**Method 1**. via GLKVM Application
+**Method 1**. via GLKVM App
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
-2. Register an Account.
+2. Sign up and log in.
     
-    Register a GL.iNet account. If you already have one, skip this step.
+    Sign up for a GL.iNet account. If you already have one, skip this step.
 
-    ![sign up](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/sign_up_account.jpg){class="glboxshadow gl-80-desktop"}
-
-3. Log in to your Account.
-
+    ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/sign_up_account.png){class="glboxshadow"}
+    
     Enter the username and password to log in.
     
-    ![log in](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/log_in.png){class="glboxshadow gl-80-desktop"}
+    ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/log_in_account.png){class="glboxshadow"}
 
 4. Bind your device.
 
-    There are two methods to bind Comet to your account.
+    If your Comet and the controlling device are in the same local area network, click **Add Device**. It will start searching automatically.
 
-    === "Bind via Local Area Network"
+    ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow gl-90-desktop"}
+
+    If your Comet has not been detected or it is not in the same local network, click the **+** button in the upper right corner to add it manually.
+
+    ![add manually](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_manually_1.png){class="glboxshadow gl-90-desktop"}
+
+    Customize the device name and input the S/N, which can be found on the bottom label.
+
+    ![add manually](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_manually_2.png){class="glboxshadow"}
+
+    Binding device. Please ensure a stable network connection.
+
+    ![binding](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/binding.png){class="glboxshadow gl-90-desktop"}
     
-        Please ensure that the current Controlling Device is in the same local area network as the Comet.
+    Binding successful. Your Comet has been bound to your account. Click **Done**.
 
-        Click "Add Device", select your Comet.
+    ![binding successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/binding_successful.png){class="glboxshadow gl-90-desktop"}
 
-        ![add device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_device.jpg){class="glboxshadow gl-80-desktop"}
+    You will be directed to the homepage, where your Comet will be displayed Online.
 
-        ![select device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/select_device.png){class="glboxshadow gl-80-desktop"}
+    ![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow gl-90-desktop"}
 
-    === "Bind via Adding Manually"
-
-        Click the "+" button in the upper right corner.
-
-        ![click + button](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_button.png){class="glboxshadow gl-80-desktop"}
-
-        Customize device name and input the S/N, which is printed on the label on the back of the device.
-
-        ![add manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/add_manually.png){class="glboxshadow gl-80-desktop"}
-
-    You can now start using Comet to remote access the controlled device.
+    Click on it. Now you can access the Comet's control panel remotely, thus access the controlled device connected to it.
 
 **Method 2**. via Tailscale
 
