@@ -28,15 +28,15 @@
     <div class="gl-product-card">
       <a href="gl-atx-board">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_atx-board.jpg" >
-        <div class="gl-product-model">GL-ATX Board</div>
-        <div class="gl-product-model"><br></div>
+        <div class="gl-product-model">GL-ATXPC</div>
+        <div class="gl-product-model">(ATX Board)</div>
       </a>
     </div>
     <div class="gl-product-card">
       <a href="gl-fgb-01/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_fgb-01.jpg" >
-        <div class="gl-product-model">GL-Fingerbot</div>
-        <div class="gl-product-model">(FGB-01)</div>
+        <div class="gl-product-model">GL-FGB-01</div>
+        <div class="gl-product-model">(Fingerbot)</div>
       </a>
     </div>
   </div>
