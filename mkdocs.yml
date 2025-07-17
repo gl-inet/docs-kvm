@@ -107,8 +107,8 @@ nav:
       - Does GLKVM application support ChromeOS/Linux: faq/does_glkvm_application_support_chromeos_or_linux.md
       - Can Comet (GL-RM1) connect to wireless network: faq/can_comet_connect_to_wireless_network.md
     - Local/Remote Access:
-      - Local access the controlled device via browser: faq/locally_access_controlled_device_via_browser.md
-      - Remote access the controlled device via GLKVM app: faq/remotely_access_controlled_device_via_glkvm_app.md
+      - Local access the controlled device via browser: faq/local_access_to_controlled_device_via_browser.md
+      - Remote access the controlled device via GLKVM app: faq/remote_access_to_controlled_device_via_glkvm_app.md
     - Power On/Off Control:
       - How does GL.iNet KVM remotely control the power on/off of controlled device: faq/power_on_off_control.md
     - Features:

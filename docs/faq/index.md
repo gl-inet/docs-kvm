@@ -21,8 +21,8 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Local/Remote Access
 
-* [How to locally access the controlled device via browser?](locally_access_controlled_device_via_browser.md)
-* [How to remotely access the controlled device via GLKVM app?](remotely_access_controlled_device_via_glkvm_app.md)
+* [How to locally access the controlled device via browser?](local_access_to_controlled_device_via_browser.md)
+* [How to remotely access the controlled device via GLKVM app?](remote_access_to_controlled_device_via_glkvm_app.md)
 
 ## Power On/Off Control
 
