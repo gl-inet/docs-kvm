@@ -2,21 +2,21 @@
 
 GL.iNet KVM integrates Tailscale, allowing you to bind it to the Tailscale virtual network for remote access - no need to install GLKVM app. This is particularly useful when your controlling device runs neither Windows nor macOS. 
 
-**Before you begin, please connect the controlling device and the controlled device to the same network.**
+Follow these steps to remotely access your GL.iNet KVM and the controlled device via Tailscale.
 
-Then follow these steps to remotely access your GL.iNet KVM and the controlled device via Tailscale.
+## 1. Enable Tailscale in local access
 
-## Enable Tailscale in local access
+**Before you begin, please connect your KVM and the controlling device to the same network.**
 
-You can access your GL.iNet KVM locally using domain name or IP address. A domain name will be used here for illustration.
+Then access your KVM's control panel locally using domain name or IP address. A domain name will be used here for illustration.
 
 Firstly, launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
     
-Secondly, enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page.
+Secondly, enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain.png){class="glboxshadow"}
 
-Enter the admin password, and you will be able to access your KVM's control panel locally.
+You will be able to access your KVM's control panel locally.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/local_access_domain.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ Thirdly, in the control panel, navigate to **Apps Center** -> **Tailscale**, ena
 
 ![apps center](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/apps_center.jpg){class="glboxshadow"}
 
-## Bind KVM to your tailsnet
+## 2. Bind KVM to your tailnet
 
 Upon enabling tailscale, the page will display an option to bind device. Click on **Bind Device**.
 
@@ -42,11 +42,11 @@ Device binding successful. Your KVM device has been successfully bound to your t
 
 ![bind kvm successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/bind_kvm_successful.png){class="glboxshadow"}
 
-You will be re-directed to your Tailscale console shortly, where a device labeled **glkvm** is displayed under **Machines**.
+You will be re-directed to your Tailscale console, where a device labeled **glkvm** is displayed under **Machines**.
 
 ![tailscale console 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_1.png){class="glboxshadow"}
 
-## Bind controlling device to your tailnet
+## 3. Bind controlling device to your tailnet
 
 Install Tailscale on your controlling device from [here](https://tailscale.com/download){target="_blank"}, and log in with the same Tailscale account. Your controlling device will be bound to your tailnet.
 
@@ -64,11 +64,11 @@ Device binding successful. The controlling device has been successfully bound to
 
 ![bind pc successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/bind_pc_successful.png){class="glboxshadow"}
 
-You will be re-directed to your Tailscale console shortly, where the controlling device is also displayed under **Machines**.
+You will be re-directed to your Tailscale console, where the controlling device is also displayed under **Machines**.
 
 ![tailscale console 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_2.png){class="glboxshadow"}
 
-## Remote access via Tailscale Virtual IP
+## 4. Remote access via Tailscale
 
 In the Tailscale console, click on the **Address** of glkvm, which is **100.104.185.26** in the following image.
 
@@ -87,9 +87,9 @@ Take the virtual IPv4 as an example.
 
 Copy the virtual IPv4 of your KVM device. Open a new tab and enter the copied IP address.
 
-![access vitual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/access_vitual_ip.png){class="glboxshadow"}
+![access vitual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enter_vitual_ip.png){class="glboxshadow"}
 
-It may prompt a privacy error.
+It may prompt a privacy error. [Why do I get this privacy error?](privacy_error_from_your_browser.md){target="_blank"}
 
 ![privacy error](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/privacy_error.png){class="glboxshadow"}
 
