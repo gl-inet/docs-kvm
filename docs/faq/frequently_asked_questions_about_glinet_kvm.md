@@ -12,7 +12,7 @@ A1. GL.iNet KVM can be used to control any device that uses HDMI output and USB 
 
 ---
 
-**Q2. Do I need to install any software to use KVM?**
+**Q2. Do I need to install any software to use GL.iNet KVM?**
 
 A2. No software is required to be installed on the controlled device. 
 
@@ -20,25 +20,23 @@ As to the controlling device, whether software needs to be installed on it depen
 
 - Local Access
 
-    If you want to access the controlled device in the local area network (LAN), you can directly launch a browser on the controlling PC, enter `glkvm.local` in the address bar to access the glkvm local management page. No need to install any sofeware on the controlling device.
+    If you want to access the controlled device in the same local area network (LAN), you can directly launch a browser on the controlling PC, enter `glkvm.local` in the address bar to access the glkvm control panel locally. No need to install any sofeware on the controlling device. Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} for details.
     
 - Remote Access
 
-    If your controlling device is Windows or macOS, you can install the [GLKVM application](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access GL.iNet KVM and the controlled device. 
+    If your controlling device runs Windows or macOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access your GL.iNet KVM and the controlled device. Click [here](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"} for details.
 
-    Alternatively, if you cannot or don't want to install GLKVM application, you may use **Tailscale** to achieve remote access, which is integrated in Comet (GL-RM1). In this way, simply type Comet's Tailscale virtual IP into a browser, you can directly access Comet and the controlled device without installing GLKVM app.
+    Alternatively, if you cannot or don't want to install GLKVM app, you can use **Tailscale** to achieve remote access. Bind your KVM and controlling device to the same tailnet, then you can directly access your KVM and the controlled device by simply typing the KVM's Tailscale virtual IP into a web browser, without installing GLKVM app. Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
 
 ---
 
-**Q3. How do I access the GL.iNet KVM and the controlled device connected to it?**
+**Q3. How do I access the GL.iNet KVM and the controlled device?**
 
-A3. Take GL-RM1 (Comet) as an example. There are three ways to access the GL-RM1 and the controlled device: 
+A3. There are three ways to access the GL.iNet KVM and the controlled device: 
 
-- Local access via Web browser
-- Remote access via GLKVM application
-- Remote access via Tailscale
-
-Click [here](how_to_access_the_controlled_device_connected_to_kvm.md) for more details.
+- [Local access via web browser](local_access_to_controlled_device_via_browser.md){target="_blank"}
+- [Remote access via GLKVM app](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"}
+- [Remote access via Tailscale](remote_access_to_controlled_device_via_tailscale.md){target="_blank"}
 
 ---
 
@@ -48,17 +46,17 @@ A4. No. No open ports or even a public IP is needed.
 
 ---
 
-**Q5. Does GLKVM application support ChromeOS/Linux?**
+**Q5. Does GLKVM app support ChromeOS/Linux?**
 
 A5. No. Currently the GLKVM app does not support installation on Chrome or Linux OS. 
 
-If your controlling device is running Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported.
+If your controlling device runs Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported.
 
-However, you may use **Tailscale** to achieve remote access, which is integrated in Comet (GL-RM1). In this way, you can directly access Comet by typing its Tailscale virtual IP into a browser, without installing GLKVM app.
+However, you can use **Tailscale** to achieve remote access. Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
 
-Alternatively, you can locally access the controlled device through a web browser in the local LAN network.
+Or you can locally access the controlled device via a web browser. Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} for details.
 
-As to the remotely-controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
+As to the controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
 
 ---
 
@@ -78,7 +76,7 @@ You need to connect it to a network device (such as a router) via an Ethernet ca
 
 A1. Sure. You can control the power of the controlled devices in the following ways:
 
-- Wake on LAN (Built-in software service)
+- Wake-on-LAN (Built-in software service)
 
 - [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Accessories, additional purchase required)
 
@@ -100,15 +98,17 @@ A1. No. You can choose to use or not use cloud service.
 
 ---
 
-**Q2. What do I need for centralized device management?**
+**Q2. Can I use Comet to control multiple devices?**
 
-A2. You could get multiple Comet and bind them to one account on GLKVM, or get a KVM switch with Hotkey Switching.
+A2. No. Comet and Comet PoE can only control one device. 
+
+To control multiple devices, you can either purchase multiple Comets and bind them to the same GL.iNet account, or purchase a third-party KVM switch with Hotkey Switching and use it in conjunction with Comet/Comet PoE. Note: Compatibility issues may arise.
 
 ---
 
-**Q3. What is Wake On Lan?**
+**Q3. What is Wake-on-Lan?**
 
-A3. Wake on LAN (WOL) is a technology that allows a computer or device to be remotely powered on or awakened from a low-power state over a network. It works by sending a "magic packet" containing the target device's MAC address, which triggers the device to start up. Common uses include remote administration, energy-saving standby configurations, and centralized system management.
+A3. Wake-on-LAN (WOL) is a technology that allows a computer or device to be remotely powered on or awakened from a low-power state over a network. It works by sending a "magic packet" containing the target device's MAC address, which triggers the device to start up. Common uses include remote administration, energy-saving standby configurations, and centralized system management.
 
 ---
 
