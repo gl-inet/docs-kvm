@@ -34,7 +34,7 @@ If you access the controlled device via a browser and encounter a blank screen i
 
 1. **Test with multiple browsers.** Try Chrome, Firefox, Edge, etc. to determine if the issue is browser-specific.
 
-2. **Disable WebRTC-related components.** If the issue persists, go to the browser's Settings -> Privacy & Security and disable WebRTC (Web Real-Time Communication) plugins or security restrictions if enabled.  
+2. **Disable WebRTC leakage shield if any.** Go to the browser's Settings -> Privacy & Security, disable WebRTC (Web Real-Time Communication) leakage shield if enabled.  
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
