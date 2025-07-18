@@ -14,7 +14,7 @@ Firstly, launch a browser on the controlling device. Chrome or Edge is recommend
     
 Secondly, enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain.png){class="glboxshadow"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
 You will be able to access your KVM's control panel locally.
 
