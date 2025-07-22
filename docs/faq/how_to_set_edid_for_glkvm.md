@@ -30,8 +30,8 @@ If you can't find a suitable code, you may refer to [this link](https://github.c
 
 !!! Note
 
-    1. The resolution shall not exceed 2560x1440/60. For example, the setting of 2560x1600/60 cannot be used.
-    2. The maximum resolution/recommended resolution shall not exceed 60FPS.
+    1. The resolution shall not exceed 2560×1440@60Hz. For example, a resolution of 2560×1600@60Hz is not supported.
+    2. The maximum supported refresh rate is 60Hz. For resolutions higher than 1920x1080, a frame rate of 60FPS or lower is recommended.
     3. Avoid including interlaced resolutions, otherwise it will cause the image to display abnormally.
     4. The input EDID code block shall not exceed two.
     5. Basic audio support is required. Otherwise the sound card may not be selectable in the controlled device, resulting in no sound. 
