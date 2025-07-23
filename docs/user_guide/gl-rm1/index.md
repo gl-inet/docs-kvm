@@ -10,6 +10,10 @@ Comet (GL-RM1) is a remote KVM device with a wide range of applications. You can
 
 ![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance-2.png){class="glboxshadow"}
 
+### Interface
+
+![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/interface.png){class="glboxshadow"}
+
 ### LED
 
 There is 1x LED on the top panel of Comet.
