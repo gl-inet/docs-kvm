@@ -85,21 +85,27 @@ Watch this video or follow the steps below to install Fingerbot.
 
 ## FAQ
 
-Q1. What protocol does the USB receiver of the GL-Fingerbot use?
+**Q1. What protocol does the USB receiver of the GL-Fingerbot use?**
 
 A1. It uses Bluetooth protocol.
 
 ---
 
-Q2. Is the Fingerbot body paired with the USB Bluetooth receiver? If my USB Bluetooth receiver gets lost, can I use another one?
+**Q2. Is the Fingerbot body paired with the USB Bluetooth receiver? If my USB Bluetooth receiver gets lost, can I use another one?**
 
 A2. The Fingerbot and its USB Bluetooth receiver are uniquely paired. Other receivers cannot be used with the Fingerbot due to binding.
 
 ---
 
-Q3. Is GL-Fingerbot compatible with non-GL.iNet KVM devices?
+**Q3. Is GL-Fingerbot compatible with non-GL.iNet KVM devices?**
 
 A3. No. GL-Fingerbot is an optional accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM.
+
+---
+
+**Q4. Can I use a single GL.iNet KVM to control multiple Fingerbots?**
+
+A4. No. Currently a single GL.iNet KVM can only control a single Fingerbot.
 
 ---
 
