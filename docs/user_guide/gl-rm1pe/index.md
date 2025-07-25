@@ -33,11 +33,11 @@ There is 1x LED on the top panel of Comet PoE.
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![distinguishing devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow"}
+![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow"}
 
 1. Connect the Comet PoE to the PoE Switch with an Ethernet cable.
 
-    ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-2.png){class="glboxshadow"}
+    ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-2.png){class="glboxshadow gl-80-desktop"}
 
 2. Use an HD cable to connect the Comet PoE's HD IN port to the HD OUT port of the Device B.
 
