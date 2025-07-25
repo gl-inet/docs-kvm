@@ -158,27 +158,31 @@ Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){targ
 
 In the control panel, navigate to **Settings**, you will get a page as below.
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.jpg){class="glboxshadow"}
+![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-1.png){class="glboxshadow"}
 
 #### Video
 
 You can modify the video quality, orientation and EDID settings of the control page. 
 
-![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-video.png){class="glboxshadow"}
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-video.jpg){class="glboxshadow"}
     
-- Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
+- Quality: Adjust the video quality to low/medium/high/ultra-high according to your network and resolution requirements.
 
 - Orientation: Adjust the control page rotation degree.
 
 - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
 
+- Mode: You can switch the mode between WebRTC H.264 and Direct H.264. This feature is available in v1.4.0 and above.
+
 #### Remote Device Settings
 
 You can adjust the relevant settings of the controlled device.
 
-![settings-remote device settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote_device_settings.png){class="glboxshadow"}
+![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote-device.png){class="glboxshadow"}
 
-- Audio: Turn on or off the sound of the controlled device.
+- Speaker/Audio: Control audio output from the controlled device (e.g., system sounds, video audio)
+
+- Microphone: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. This feature is available in firmware v1.4.0 and above.
 
 - Keyboard: Turn on or off the keyboard of the controlled device.
 
@@ -190,7 +194,7 @@ You can adjust the relevant settings of the controlled device.
 
 - Show Local Cursor: Display the mouse of the current device on the screen.
 
-- Mouse Jiggle: This feature is available since firmware v1.3. 
+- Mouse Jiggle: This feature is available since firmware v1.3.0. 
     
     It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
 
@@ -206,13 +210,33 @@ You can adjust the relevant settings of the controlled device.
 
 #### System
 
-![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.png){class="glboxshadow"}
+You can change the system display settings of the control panel, or reset the device with one click.
+
+![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.jpg){class="glboxshadow"}
+
+- Device Identity: Change or customize your KVM's identity recognized by the controlled device. This feature is available since v1.4.0. 
+
+    Note that the EDID and device identification will remain synchronized; changing one of them will make the other one automatically updated to ensure correct recognition.
 
 - Language: Switch the language of control panel. 
 
 - Color Mode: Switch the theme color, including dark and light modes.
 
-- Reset KVM
+- Time Zone: You can change the time zone of the KVM control panel. This is only for the KVM control panel, not the system time of the controlled device.  
+
+- Reset KVM: Factory reset your KVM with just one click.
+
+#### Network
+
+Check the network details of your KVM device. This feature is available since firmware v1.4.0.
+
+![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-network.png){class="glboxshadow"}
+
+As shown above, Comet connects to the upper network device via an Ethernet cable and its IP address is 192.168.8.11.
+
+Click **Modify** to change the ethernet settings.
+
+![settings-network-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-network-modify.png){class="glboxshadow"}
 
 ### Toolbox
 
@@ -238,7 +262,7 @@ Click **Show All** to show all shortcut options.
 
 Click **Modify** to adjust the shortcut options.
 
-![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut-modify.png){class="glboxshadow"}  
+![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut-modify.png){class="glboxshadow gl-50-desktop"}  
 
 #### Wake On Lan
 
@@ -359,6 +383,10 @@ Comet integrates Tailscale, allowing you to bind it to the Tailscale virtual net
 In the control panel, navigate to Apps Center -> Tailscale, bind Comet and your controlling device to your Tailscale account. Then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
 Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for more instructions.
+
+Once enabled, the page will show the bind account. Exit Node feature is particularly introduced since firmware v1.4.0.
+
+![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/tailscale_enabled.png){class="glboxshadow"}
 
 ### Help
 
