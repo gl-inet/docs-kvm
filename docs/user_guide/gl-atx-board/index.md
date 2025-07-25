@@ -12,7 +12,7 @@ There are some components in the ATX Package:
 
 - ATX main board
 - USB-A to Type-C cable
-- 9 PIN Wire Set
+- A 9-PIN Wire Set
 - Screw package
 - ATX Bracket Set
 
@@ -54,7 +54,7 @@ Fix the ATX board and the ATX Bracket Set with the screws provided.
 
 Connect interfaces 4 and 5 respectively to the controlled computer's control line and F_PANEL interface. 
 
-The 9 PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
+The 9-PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
     
 You need to use the wire set included in your computer chassis to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
 
@@ -62,15 +62,15 @@ You need to use the wire set included in your computer chassis to connect anothe
 
     The interface polarity may vary depending on different  PC chassis. Please double check it before installation.
 
-**Here are two examples of connecting one of the ATX board interfaces 4/5 to the controlled computer's F_PANEL interface.**
+**Here are some examples of connecting one of the ATX board interfaces 4/5 to the controlled computer's F_PANEL interface.**
 
 **Example 1. For 10-1 pin PANEL**
 
-If the row of pins on the motherboard of your controlled computer for connecting to the control panel is 10-1 pin PANEL, as shown below.
+If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 10-1 pin PANEL, as shown below.
 
 ![10-1pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_1.png){class="glboxshadow"}
 
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) are visible facing outward and not obscured facing inward.
+Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
 
 ![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_2.jpg){class="glboxshadow"}
 <small>Front View</small>
@@ -82,17 +82,29 @@ Then use the wire set included in your computer chassis to connect another ATX b
 
 **Example 2. For 20-5 pin PANEL**
 
-If the row of pins on the motherboard of your controlled computer for connecting to the control panel is 20-5 pin PANEL, as shown below.
+If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-5 pin PANEL, as shown below.
 
 ![20-5pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_1.jpg){class="glboxshadow"}
 
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) are visible facing outward and not obscured facing inward.
+Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
 
 ![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_2.jpg){class="glboxshadow"}
 <small>Front View</small>
 
 ![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_3.png){class="glboxshadow"}
 <small>Rear View</small>
+
+Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
+
+**Example 3. For 20-8 pin PANEL**
+
+If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-8 pin PANEL, as shown below.
+
+![20-8pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-8pin_panel_1.jpg){class="glboxshadow"}
+
+Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+
+![20-8pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-8pin_panel_2.png){class="glboxshadow"}
 
 Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
 
@@ -120,8 +132,20 @@ Connect the Type-C interface of ATX board to the USB-A interface of the KVM devi
 
 This completes the installation of the ATX board. 
 
-Please log in to the Comet, navigate to [Accessories](../gl-rm1/index.md/#accessories) to set the ATX power.
+Now you can log in to the Comet, navigate to [Accessories](../gl-rm1/index.md/#accessories) to set the ATX power.
 
-!!! Note
+## Troubleshooting
 
-    If you can't turn on/off the controlled computer via GL-RM1 control page, please check the polarity of the wiring, try flipping the connector polarity to avoid wrong wiring.
+After installing the ATX board, if you cannot control the remote device's power (on/off) via the KVM, here are some suggestions:
+
+- Ensure the controlled device can be powered on/off normally when the physical power button on the main chassis front panel is pressed.
+
+- Check the wiring polarity. Try flipping the connector polarity on the controlled device's motherboard to avoid incorrect wiring.
+
+- When connecting to the F_PANEL interface on the controlled device's motherboard, ensure the silkscreen printing (e.g., HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward, not obscured facing inward.
+
+- Upgrade the KVM's firmware.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
