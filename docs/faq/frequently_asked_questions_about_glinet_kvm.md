@@ -14,9 +14,9 @@ A1. GL.iNet KVM can be used to control any device that uses HDMI output and USB 
 
 **Q2. Do I need to install any software to use GL.iNet KVM?**
 
-A2. No software is required to be installed on the controlled device. 
+A2. No software is required to be installed on the controlled device, and it can be Windows, macOS, ChromeOS, Linux, etc.
 
-As to the controlling device, whether software needs to be installed on it depends on the way you want to access the controlled device.
+As to the controlling device, whether a software needs to be installed on it depends on the way you want to access the controlled device.
 
 - Local Access
 
@@ -26,7 +26,7 @@ As to the controlling device, whether software needs to be installed on it depen
 
     If your controlling device runs Windows or macOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access your GL.iNet KVM and the controlled device. Click [here](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"} for details.
 
-    Alternatively, if you cannot or don't want to install GLKVM app, you can use **Tailscale** to achieve remote access. Bind your KVM and controlling device to the same tailnet, then you can directly access your KVM and the controlled device by simply typing the KVM's Tailscale virtual IP into a web browser, without installing GLKVM app. Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
+    If you cannot or don't want to install GLKVM app, you can use **Tailscale** to achieve remote access. Bind your KVM and controlling device to the same tailnet, then you can directly access your KVM and the controlled device by simply typing the KVM's Tailscale virtual IP into a web browser on your controlling device, without installing GLKVM app. Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
 
 ---
 

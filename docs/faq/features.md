@@ -12,9 +12,11 @@ A1. No. You can choose to use or not use cloud service.
 
 ---
 
-**Q2. What do I need for centralized device management?**
+**Q2. Can I use Comet to control multiple devices?**
 
-A2. You can get multiple Comet and bind them to one account on GLKVM, or get a KVM switch with Hotkey Switching.
+A2. No. Comet and Comet PoE can only control one device. 
+
+To control multiple devices, you can either purchase multiple Comets and bind them to the same GL.iNet account, or purchase a third-party KVM switch with Hotkey Switching and use it in conjunction with Comet/Comet PoE. Note: Compatibility issues may arise.
 
 ---
 
