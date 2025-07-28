@@ -30,9 +30,9 @@ Then you will be re-directed to the GL.iNet KVM admin panel. Log in to access yo
 
 ![local access to kvm admin](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/local_access.png){class="glboxshadow"}
 
-## Can I add a SSL certicate in the KVM?
+## Can I add a SSL certificate in the KVM?
 
-Yes, you can add your SSL certicate in the GL.iNet KVM.
+Yes, you can add your SSL certificate in the GL.iNet KVM.
 
 First, please apply for an SSL cert or use a self-signed SSL cert. 
 
