@@ -126,22 +126,4 @@ A5. This feature will be available from firmware v1.4.0.
 
 ---
 
-## Troubleshooting
-
-**Q1. Why can't I control the mouse and keyboard?**
-
-A1. Please refer to [this link](cannot_control_the_mouse.md).
-
----
-
-**Q2. Why does the mouse cursor fail to overlap with that on the controlled device?**
-
-A2. It usually happens when the controlled device is a laptop.
-
-You can modify the resolution of the controlled device to the appropriate parameters (recommended), or modify the EDID of the KVM to adjust it.
-
-Click [here](mouse_cursors_fail_to_overlap_when_using_glkvm.md) for more instructions.
-
----
-
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
