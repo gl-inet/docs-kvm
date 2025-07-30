@@ -1,4 +1,4 @@
-# Why is the device not powered on though the power cable is connected?
+# What should I do if my KVM does not power on?
 
 If your KVM device fails to start up with the power cable connected, use the following methods to troubleshoot.
 
