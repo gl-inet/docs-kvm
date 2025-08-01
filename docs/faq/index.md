@@ -27,7 +27,7 @@ Learn how to use our devices and how to solve some common problems.
 * [How to remotely access the controlled device via GLKVM app?](remote_access_to_controlled_device_via_glkvm_app.md)
 * [How to remotely access the controlled device via Tailscale?](remote_access_to_controlled_device_via_tailscale.md)
 * [Connection failed when remotely accessing via GLKVM app](connection_failed_when_remotely_accessing_via_glkvm_app.md)
-* [Privacy error when locally accessin via browser](privacy_error_from_your_browser.md)
+* [Privacy error when locally accessing via browser](privacy_error_from_your_browser.md)
 
 ## Software Installation & Device Binding
 

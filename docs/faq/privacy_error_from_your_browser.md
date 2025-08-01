@@ -30,13 +30,17 @@ Then you will be re-directed to the GL.iNet KVM admin panel. Log in to access yo
 
 ![local access to kvm admin](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/local_access.png){class="glboxshadow"}
 
-## Can I add a SSL certificate in the KVM?
+## Can I use an SSL certificate in the KVM?
 
-Yes, you can add your SSL certificate in the GL.iNet KVM.
+Yes, you can use your SSL certificate in the GL.iNet KVM.
 
-First, please apply for an SSL cert or use a self-signed SSL cert. 
+Firstly, please apply for an SSL cert or use a self-signed SSL cert. 
 
-Then, SSH into your GL-iNet KVM or use WinSCP to upload the updated certificate and key to the KVM. The path is `/etc/kvmd/nginx/ssl`.
+Secondly, access KVM's terminal or use WinSCP (recommended) to modify files on your KVM. The automatically generated certificate and key are storaged in this path: `/etc/kvmd/nginx/ssl `. Please replace them with the new SSL certificate and key.
+
+**Note**: The certificate for KVM will be automatically regenerated after each firmware upgrade, and the uploaded SSL certificate will not be backed up. 
+
+If necessary, please replace the auto-generated certificate with an SSL certificate again after firmware upgrade.
 
 ---
 
