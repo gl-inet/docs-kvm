@@ -36,11 +36,17 @@ Yes, you can use your SSL certificate in the GL.iNet KVM.
 
 Firstly, please apply for an SSL cert or use a self-signed SSL cert. 
 
-Secondly, access KVM's terminal or use WinSCP (recommended) to modify files on your KVM. The automatically generated certificate and key are storaged in this path: `/etc/kvmd/nginx/ssl `. Please replace them with the new SSL certificate and key.
+Secondly, access KVM's terminal or use WinSCP (recommended) to modify files on your KVM. The automatically generated certificate and key are storaged in this path: `/etc/kvmd/nginx/ssl ` (which has been changed to `/etc/kvmd/user/ssl` since firmware v1.4.0). 
 
-**Note**: The certificate for KVM will be automatically regenerated after each firmware upgrade, and the uploaded SSL certificate will not be backed up. 
+Please replace them with the new SSL certificate and key.
 
-If necessary, please replace the auto-generated certificate with an SSL certificate again after firmware upgrade.
+**Note**: 
+
+1. Prior to firmware v1.4.0, the KVM certificate is automatically regenerated after each firmware upgrade, and uploaded SSL certificates are not backed up.
+
+    If necessary, please re-upload the SSL certificate to replace the auto-generated one after a firmware upgrade.
+
+2. Starting from firmware v1.4.0, firmware upgrades will not cause the KVM certificate to be regenerated, unless the firmware is manually reset.
 
 ---
 
