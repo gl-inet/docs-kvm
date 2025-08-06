@@ -18,6 +18,13 @@
         <div class="gl-product-model">(Comet PoE)</div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-rm10/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rm10.jpg" >
+        <div class="gl-product-model">GL-RM10</div>
+        <div class="gl-product-model">(Comet Pro)</div>
+      </a>
+    </div>
   </div>
 </div>
 
