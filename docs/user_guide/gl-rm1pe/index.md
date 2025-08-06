@@ -127,7 +127,7 @@ You will be able to access the Comet PoE's control panel locally, thus access th
 
     ![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow gl-90-desktop"}
 
-    Click on it. Now you can access the Comet PoE's control panel remotely, thus access the controlled device connected to it.
+    Click on it, input the admin password (created during the first access), and you can remotely access the Comet PoE's control panel, thus access the controlled device connected to it.
 
     ![remote access via app](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_control_panel.jpg){class="glboxshadow gl-90-desktop"}
 
