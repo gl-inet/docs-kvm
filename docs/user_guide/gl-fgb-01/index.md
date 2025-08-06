@@ -109,4 +109,12 @@ A4. No. Currently a single GL.iNet KVM can only control a single Fingerbot.
 
 ---
 
+**Q5. What does the Add-on for? How to use it?**
+
+A5. The Add-on is designed to control regular power switch, such as a light switch. The Fingerbot's finger points to one side of the switch, while the Add-on attaches to the other side. When the Fingerbot presses down, it turns the switch on; when it pulls back, it turns the switch off.
+
+However, Fingerbot can currently only be used with a GL.iNet KVM device. Find the USB Bluetooth receiver inside Fingerbot, insert it into the USB port of the GL.iNet KVM, and you’ll be able to control Fingerbot through a GL.iNet KVM remotely.
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
