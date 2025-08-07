@@ -1,24 +1,20 @@
 # Comet Pro (GL-RM10) User Guide
 
+## Product Overview
+
 Comet Pro (GL-RM10) is a remote KVM over Wi-Fi solution, tailored for seamless remote control and device management.
 
-It is powered by a 4-Core A53 CPU, equipped with 1GB DDR3 memory and 32GB eMMC storage to ensure smoothness. With the touchscreen display, you can view the device's IP address at a glance and perform basic operations such as Wi-Fi connection.
+It is powered by a Qual-Core A53 CPU, equipped with 1GB DDR3 memory and 32GB eMMC storage to ensure smoothness. With the touchscreen display, you can view the device's IP address at a glance and perform basic operations such as Wi-Fi connection.
 
 In terms of connectivity, Comet Pro supports Dual Band Wi-Fi 6, enabling stable and high-speed network connections. It also offers video passthrough functionality, allowing for the direct transmission of video signals with no quality loss. With support for 4K@30FPS video output, it provides a high-definition visual experience during remote control. 
 
 Whether for personal or professional use, Comet Pro is an excellent choice for efficient remote device management.
 
-## Product Overview
+## Appearance
 
-### Appearance
-
-![appearance 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/appearance-1.png){class="glboxshadow"}
+![appearance 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/appearance-1.jpg){class="glboxshadow"}
 
 ![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/appearance-2.png){class="glboxshadow"}
-
-### Interface
-
-![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/interface.png){class="glboxshadow"}
 
 ## Quick Setup Guide
 
