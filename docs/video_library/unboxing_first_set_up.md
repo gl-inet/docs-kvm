@@ -12,6 +12,12 @@ Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Comet PoE (GL-RM1PE)
+
+Unboxing Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/shYkDIQjX0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## ATX Board (GL-ATXPC)
 
 Installation Video
