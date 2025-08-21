@@ -1,4 +1,4 @@
-# GL-ATX Board User Guide
+# ATX Board (GL-ATXPC) User Guide
 
 The ATX board is an optional accessory for GL.iNet KVM device. As a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
 
@@ -6,9 +6,9 @@ The ATX board will be installed in the controlled device's chassis, providing mo
 
 ![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/rm1-and-atx-borad.jpg){class="glboxshadow"}
 
-## Components
+## Package Contents
 
-There are some components in the ATX Package:
+There are some components in the package:
 
 - ATX main board
 - USB-A to Type-C cable
@@ -18,7 +18,7 @@ There are some components in the ATX Package:
 
 ![components](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/components.png){class="glboxshadow gl-60-desktop"}
 
-## ATX Board PIN-OUT
+## PIN-OUT
 
 ![pinout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/pinout.jpg){class="glboxshadow gl-80-desktop"}
 
@@ -38,7 +38,7 @@ Interfaces 4/5 diagram:
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/interface.png){class="glboxshadow gl-60-desktop"}
 
-## ATX Board Installation
+## Installation
 
 Watch this video to install ATX board, or follow the steps below.
 
@@ -110,33 +110,41 @@ Then use the wire set included in your computer chassis to connect another ATX b
 
 The final connected ATX board is shown below.
 
-![axt board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install1.png){class="glboxshadow gl-60-desktop"}
+![atx board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install1.png){class="glboxshadow gl-60-desktop"}
 
-![axt board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install2.jpg){class="glboxshadow"}
+![atx board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install2.jpg){class="glboxshadow"}
 <small>Detailed front view of ATX board</small>
 
-![axt board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install3.jpg){class="glboxshadow"}
+![atx board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install3.jpg){class="glboxshadow"}
 <small>Detailed rear view of ATX board</small>
 
 Then place the ATX board bracket on the side frame of the computer chassis (if required).
 
-![axt board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install4.png){class="glboxshadow"}
+![atx board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install4.png){class="glboxshadow"}
 
 ### 3. Connect ATX Board and KVM
 
 Connect the Type-C interface of ATX board to the USB-A interface of the KVM device (such as Comet GL-RM1), using the included USB-A to Type-C cable.
 
-![axt board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install5.png){class="glboxshadow"}
+![atx board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install5.png){class="glboxshadow"}
 
-![axt board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install6.jpg){class="glboxshadow"}
+![atx board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install6.jpg){class="glboxshadow"}
 
 This completes the installation of the ATX board. 
 
 Now you can log in to the Comet, navigate to [Accessories](../gl-rm1/index.md/#accessories) to set the ATX power.
 
-## Troubleshooting
+## FAQ
 
-After installing the ATX board, if you cannot control the remote device's power (on/off) via the KVM, here are some suggestions:
+**Q1. Can I use the GL-ATXPC board with non-GL.iNet KVM devices?**
+
+A1. No. GL-ATXPC board is an accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM.
+
+---
+
+**Q2. After installing the ATX board, what should I do if I cannot control the remote device's power (on/off) via the KVM?**
+
+A2. Please try the following methods.
 
 - Ensure the controlled device can be powered on/off normally when the physical power button on the main chassis front panel is pressed.
 
