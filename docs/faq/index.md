@@ -19,6 +19,7 @@ Learn how to use our devices and how to solve some common problems.
 ## Device Startup & Power Control
   
 * [What should I do if my KVM does not power on?](power_cable_connected_but_device_unpowered.md)
+* [What should I do if my KVM is bricked?](debrick.md)
 * [How does GL.iNet KVM remotely control the power on/off of controlled device?](power_on_off_control.md)
 
 ## Local/Remote Access
