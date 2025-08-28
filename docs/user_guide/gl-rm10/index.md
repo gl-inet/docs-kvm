@@ -70,17 +70,11 @@ You will be able to access Comet Pro's control panel locally, thus access the co
 
 **Method 2**. via IP Address
 
-Find Comet Pro's IP address in the upper router, enter this IP address in the browser, and you will be able to access it locally, thus access the controlled device.
+Find Comet Pro's IP address on the touchscreen, enter this IP address in the browser, and you will be able to access it locally, thus access the controlled device.
 
-Take GL-AXT1800 as an example: Comet Pro is connected to the GL-AXT1800 router via both Wi-Fi and an Ethernet cable (you can also connect via Wi-Fi only), and the controlled device is connected to Comet Pro via HD cable and USB cable.
+For example, if the Comet Pro's IP address is `192.168.8.190`. 
 
-Log in to the router's web admin panel and find the IP address of Comet Pro in the Client list. 
-
-As shown below, the glkvm has two IP addresses: one is for Wi-Fi connection, the other is for ethernet connection. Both can be used to access Comet Pro locally.
-
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/glkvm-ips.png){class="glboxshadow"}
-
-Open a new tab in the browser and enter Comet Pro's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+Open a new tab in the browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local_access_login.png){class="glboxshadow"}
 
