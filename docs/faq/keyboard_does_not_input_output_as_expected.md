@@ -8,6 +8,8 @@ The KVM is regarded as a keyboard for the controlled device, and the keys you pr
 
 However, if the input method/keyboard of the controlling device is not consistent with that of the controlled device, some symbols/letters will have different positions on the keyboard, resulting in the output by the controlled end being inconsistent with those input on the controlling end.
 
+![US JIS keyboard comparison](https://static.gl-inet.com/docs/kvm/faq/keyboard_input_output_does_not_work_as_expected/apple-keyboards-US-JIS.jpg){class="glboxshadow gl-90-desktop"}
+
 ## Solutions
 
 You can install input method or keyboard for the corresponding language on the controlled device to achieve consistent key mapping.
