@@ -129,6 +129,7 @@ nav:
       - Cannot control the mouse and keyboard: faq/cannot_control_the_mouse.md
       - Mouse cursors fail to overlap when using GLKVM: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
       - Mouse latency when RPi4 controls RPi3 via GLKVM: faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
+      - Keyboard does not input/output as expected: faq/keyboard_does_not_input_output_as_expected.md
     - Audio:
       - Cannot hear audio from the controlled device: faq/cannot_hear_the_audio_from_the_controlled_device.md
   - Tutorials:

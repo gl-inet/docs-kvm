@@ -48,6 +48,7 @@ Learn how to use our devices and how to solve some common problems.
 * [Cannot control the mouse and keyboard](cannot_control_the_mouse.md)
 * [Mouse cursors fail to overlap when using GLKVM](mouse_cursors_fail_to_overlap_when_using_glkvm.md)
 * [Mouse latency when RPi4 controls RPi3 via GLKVM](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
+* [Keyboard does not input/output as expected](keyboard_does_not_input_output_as_expected.md)
 
 ## Audio
 
