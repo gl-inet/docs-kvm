@@ -68,6 +68,8 @@ There are two methods to access Comet via LAN.
 
 **Method 1**. via Domain Name
 
+First, ensure your controlling device is on the same LAN as your Comet.
+
 Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
 
 Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
