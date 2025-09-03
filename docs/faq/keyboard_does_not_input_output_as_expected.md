@@ -1,6 +1,6 @@
 # What shoud I do if keyboard does not input/output as expected?
 
-If your controlling device and the controlled device are not using the same imput method / keyboard, when you input certain symbols like "!" "@" "#" or letters on the controlling end, the controlled end may not be able to output the same symbols or letters.
+If your controlling device and the controlled device are not using the same input method / keyboard, when you input certain symbols like "!" "@" "#" or letters on the controlling end, the controlled end may not be able to output the same symbols or letters.
 
 ## Why does it happen
 
@@ -8,7 +8,7 @@ The KVM is regarded as a keyboard for the controlled device, and the keys you pr
 
 However, if the input method/keyboard of the controlling device is not consistent with that of the controlled device, some symbols/letters will have different positions on the keyboard, resulting in the output by the controlled end being inconsistent with those input on the controlling end.
 
-![US JIS keyboard comparison](https://static.gl-inet.com/docs/kvm/faq/keyboard_input_output_does_not_work_as_expected/apple-keyboards-US-JIS.jpg){class="glboxshadow gl-90-desktop"}
+![US JIS keyboard comparison](https://static.gl-inet.com/docs/kvm/faq/keyboard_input_output_does_not_work_as_expected/apple-keyboards-US-JIS.jpg){class="glboxshadow"}
 
 ## Solutions
 
