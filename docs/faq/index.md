@@ -53,3 +53,4 @@ Learn how to use our devices and how to solve some common problems.
 ## Audio
 
 * [Cannot hear audio from the controlled device](cannot_hear_the_audio_from_the_controlled_device.md)
+* [The speaker/microphone settings cannot be retained](why_can't_my_speaker_microphone_settings_be_retained.md)
