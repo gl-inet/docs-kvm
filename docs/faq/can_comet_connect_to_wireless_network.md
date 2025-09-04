@@ -2,9 +2,11 @@
 
 Comet (GL-RM1) does not support connecting to wireless network. 
 
-You need to connect it to a network device (such as a router) via an Ethernet cable to get Internet access.
+It needs to be connected to a network device (e.g., a router) via an Ethernet cable for Internet access, as shown below.
 
 ![ethernet connection](https://static.gl-inet.com/docs/kvm/faq/can_comet_connect_to_wireless_network/ethernet_connection_marked.png){class="glboxshadow"}
+
+If you prefer to purchase a KVM that supports Wi-Fi, you may consider Comet Pro (GL-RM10), a remote KVM over Wi-Fi solution.
 
 ---
 

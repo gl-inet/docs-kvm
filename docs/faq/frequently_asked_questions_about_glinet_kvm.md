@@ -95,7 +95,7 @@ If you prefer to purchase a KVM that supports Wi-Fi, you may consider Comet Pro 
 
 **Q1. Can GL.iNet KVM control the power on/off of a computer?**
 
-A1. Sure. You can control the power of the controlled devices in the following ways:
+A1. Sure. You can achieve remote power control for the controlled device in the following ways:
 
 - Wake-on-LAN (Built-in software service)
 

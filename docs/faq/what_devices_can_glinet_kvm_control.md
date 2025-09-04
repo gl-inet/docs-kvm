@@ -1,4 +1,4 @@
-# What devices can GL.iNet KVM control? Do I need to install any software to use KVM?
+# What devices can GL.iNet KVM control? Do I need to install any software?
 
 GL.iNet KVM can be used to control any device that uses HDMI output and USB input, such as laptops, desktops, Raspberry Pi, mini hosts, etc.
 

@@ -1,8 +1,8 @@
-# How does GL.iNet KVM remotely control the power on/off of controlled device?
+# How to achieve remote power control for the controlled device?
 
-GL.iNet KVM can control the power of the controlled device in the following ways:
+GL.iNet KVM can be used to control the power on/off of the controlled device in the following ways:
 
-- [Wake on LAN](../user_guide/gl-rm1/index.md/#wake-on-lan){target="_blank"} (Built-in software service)
+- Wake on LAN (Built-in software service)
 
 - [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Accessories, additional purchase required)
 

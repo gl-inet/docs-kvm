@@ -11,7 +11,7 @@ Learn how to use our devices and how to solve some common problems.
 ## General
 
 * [Frequently Asked Questions about GL.iNet KVM](frequently_asked_questions_about_glinet_kvm.md)
-* [What devices can GL.iNet KVM control? Any software needed to use KVM?](what_devices_can_glinet_kvm_control.md)
+* [What devices can GL.iNet KVM control? Any software is needed?](what_devices_can_glinet_kvm_control.md)
 * [Does GLKVM app support ChromeOS/Linux?](does_glkvm_application_support_chromeos_or_linux.md)
 * [Can Comet (GL-RM1) connect to wireless network?](can_comet_connect_to_wireless_network.md)
 * [Download GLKVM App](glkvm_app.md)
@@ -20,7 +20,7 @@ Learn how to use our devices and how to solve some common problems.
   
 * [What should I do if my KVM does not power on?](power_cable_connected_but_device_unpowered.md)
 * [What should I do if my KVM is bricked?](debrick.md)
-* [How does GL.iNet KVM remotely control the power on/off of controlled device?](power_on_off_control.md)
+* [How to achieve remote power control for the controlled device?](power_on_off_control.md)
 
 ## Local & Remote Access
 

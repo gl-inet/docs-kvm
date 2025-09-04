@@ -1,12 +1,28 @@
-# Does GLKVM application support ChromeOS/Linux?
+# Does GLKVM app support ChromeOS/Linux?
 
-The GLKVM application is designed for the controlling device (i.e. the Host). Currently the GLKVM app does not support installation on Chrome or Linux OS, so if your controlling device is running Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported. 
+The GLKVM app is designed for the controlling device (i.e. the Host). Currently the GLKVM app does not support installation on Chrome or Linux OS, so if your controlling device is running Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported. 
 
-However, you may use Tailscale to achieve remote access, which is integrated in Comet (GL-RM1). In this way, you can directly access Comet by typing its Tailscale virtual IP into a browser, without installing GLKVM app.
+However, you can use **Cloud Service** or **Tailscale** to achieve remote access.
 
-Alternatively, you can locally access the controlled device through a web browser in the local LAN network. 
+- Cloud Service
 
-As to the remotely-controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
+    This method is ideal for those who cannot or do not want to install the GLKVM app.
+
+    Bind your KVM to your Cloud account, then you can remotely access your KVM by typing `glkvm.com` into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
+
+    Click [here](remote_access_to_controlled_device_via_cloud.md){target="_blank"} for details.
+
+- Tailscale
+    
+    This method is also suitable for those who cannot or do not want to install the GLKVM app, but it requires more steps.
+
+    Bind your KVM and controlling device to the same Tailscale account, then you can remotely access your KVM by typing the KVM's Tailscale virtual IP into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
+    
+    Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
+
+Alternatively, you can locally access the controlled device through a web browser in the same local network. 
+
+As to the controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
 
 ---
 
