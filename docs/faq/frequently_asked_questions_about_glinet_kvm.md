@@ -18,23 +18,44 @@ A2. No software is required to be installed on the controlled device, and it can
 
 As to the controlling device, whether a software needs to be installed on it depends on the way you want to access the controlled device.
 
-- Local Access
+??? "Local Access"
 
-    If you want to access the controlled device in the same local area network (LAN), you can directly launch a browser on the controlling PC, enter `glkvm.local` in the address bar to access the glkvm control panel locally. No need to install any sofeware on the controlling device. Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} for details.
+    If you want to access the controlled device in the same local area network (LAN), simply open a browser on the controlling device, enter `glkvm.local` or the KVM's IP in the address bar, and you can access the KVM locally, thus accessing the controlled device. No software needs to be installed on the controlling device.
     
-- Remote Access
+    Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} for details.
+    
+??? "Remote Access"
 
-    If your controlling device runs Windows or macOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access your GL.iNet KVM and the controlled device. Click [here](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"} for details.
+    - **Cloud Service**
+    
+        This method is ideal for those who cannot or do not want to install the GLKVM app.
 
-    If you cannot or don't want to install GLKVM app, you can use **Tailscale** to achieve remote access. Bind your KVM and controlling device to the same tailnet, then you can directly access your KVM and the controlled device by simply typing the KVM's Tailscale virtual IP into a web browser on your controlling device, without installing GLKVM app. Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
+        Bind your KVM to your Cloud account, then you can remotely access your KVM by typing `glkvm.com` into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
+
+        Click [here](remote_access_to_controlled_device_via_cloud.md){target="_blank"} for details.
+
+    - **GLKVM App**
+    
+        If your controlling device runs Windows or macOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access your KVM, thus accessing the controlled device.
+        
+        Click [here](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"} for details.
+    
+    - **Tailscale**
+    
+        This method is also suitable for those who cannot or do not want to install the GLKVM app, but it requires more steps.
+
+        Bind your KVM and controlling device to the same Tailscale account, then you can remotely access your KVM by typing the KVM's Tailscale virtual IP into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
+    
+        Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
 
 ---
 
 **Q3. How do I access the GL.iNet KVM and the controlled device?**
 
-A3. There are three ways to access the GL.iNet KVM and the controlled device: 
+A3. There are four ways to access the GL.iNet KVM and the controlled device: 
 
 - [Local access via web browser](local_access_to_controlled_device_via_browser.md){target="_blank"}
+- [Remote access via Cloud service](remote_access_to_controlled_device_via_cloud.md){target="_blank"}
 - [Remote access via GLKVM app](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"}
 - [Remote access via Tailscale](remote_access_to_controlled_device_via_tailscale.md){target="_blank"}
 
@@ -52,25 +73,25 @@ A5. No. Currently the GLKVM app does not support installation on Chrome or Linux
 
 If your controlling device runs Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported.
 
-However, you can use **Tailscale** to achieve remote access. Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
+However, you can use <u> Cloud Service</u> or <u>Tailscale</u> to achieve remote access. Check the Q3 above for details.
 
-Or you can locally access the controlled device via a web browser. Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} for details.
+Alternatively, you can locally access the controlled device via a web browser. Check the Q3 above for details.
 
-As to the controlled device, no need to install any software on it. That is to say, it can be Windows, macOS, ChromeOS, Linux, etc.
-
----
-
-**Q7. Can GL-RM1 (Comet) connect to wireless network?**
-
-A7. GL-RM1 (Comet) does not support connecting to wireless network.
-
-You need to connect it to a network device (such as a router) via an Ethernet cable to get Internet access.
-
-![ethernet connection](https://static.gl-inet.com/docs/kvm/faq/can_comet_connect_to_wireless_network/ethernet_connection_marked.png){class="glboxshadow"}
+As to the controlled device, no need to install any software on it. It can be Windows, macOS, ChromeOS, Linux, etc.
 
 ---
 
-## Power On/Off Control
+**Q7. Can Comet (GL-RM1) connect to wireless network?**
+
+A7. Comet (GL-RM1) does not support wireless network connection.
+
+It needs to be connected to a network device (e.g., a router) via an Ethernet cable for Internet access.
+
+If you prefer to purchase a KVM that supports Wi-Fi, you may consider Comet Pro (GL-RM10), a remote KVM over Wi-Fi solution.
+
+---
+
+## Power Control
 
 **Q1. Can GL.iNet KVM control the power on/off of a computer?**
 
@@ -112,17 +133,17 @@ A3. Wake-on-LAN (WOL) is a technology that allows a computer or device to be rem
 
 ---
 
-**Q4. Does Comet support Mouse Jitter?**
+**Q4. Does Comet support Mouse Jiggle?**
 
-A4. Yes. Comet supports mouse jitter function from firmware v1.3.
+A4. Yes. You can enable Mouse Jiggle on the KVM control panel.
 
-The mouse jitter function is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game idle status (when users leave the keyboard temporarily) to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
+It aims to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game idle status (when users leave the keyboard temporarily) to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
 
 ---
 
-**Q5. Does Comet support remote microphone (i.e., transmitting audio from the controlling device to the controlled device)?**
+**Q5. Does Comet support two-way audio?**
 
-A5. Yes. This feature has been available since firmware v1.4.0.
+A5. Yes. You can enable Speaker and Microphone on the KVM control panel to achieve two-way audio transmission.
 
 ---
 
