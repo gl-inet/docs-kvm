@@ -10,7 +10,7 @@ This is because, due to browser security policies, the Speaker and Microphone ar
 
 Authorization is required when enabling the Microphone for the first time, as shown below.
 
-![browser](https://static.gl-inet.com/docs/kvm/faq/speaker_microphone_settings_cannot_be_retained/browser.png){class="glboxshadow"}
+![browser](https://static.gl-inet.com/docs/kvm/faq/speaker_microphone_settings_cannot_be_retained/google-browser.jpg){class="glboxshadow"}
 
 ---
 
