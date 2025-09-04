@@ -22,9 +22,10 @@ Learn how to use our devices and how to solve some common problems.
 * [What should I do if my KVM is bricked?](debrick.md)
 * [How does GL.iNet KVM remotely control the power on/off of controlled device?](power_on_off_control.md)
 
-## Local/Remote Access
+## Local & Remote Access
 
 * [How to locally access the controlled device via browser?](local_access_to_controlled_device_via_browser.md)
+* [How to remotely access the controlled device via Cloud service?](remote_access_to_controlled_device_via_cloud.md)
 * [How to remotely access the controlled device via GLKVM app?](remote_access_to_controlled_device_via_glkvm_app.md)
 * [How to remotely access the controlled device via Tailscale?](remote_access_to_controlled_device_via_tailscale.md)
 * [Connection failed when remotely accessing via GLKVM app](connection_failed_when_remotely_accessing_via_glkvm_app.md)

@@ -33,7 +33,7 @@ There is 1x LED on the top panel of Comet PoE.
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow"}
+![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow" width="612"}
 
 1. Connect the Comet PoE to the PoE Switch with an Ethernet cable.
 
@@ -41,11 +41,11 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 2. Use an HD cable to connect the Comet PoE's HD IN port to the HD OUT port of the Device B.
 
-    ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-3.png){class="glboxshadow"}
+    ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-3.png){class="glboxshadow gl-80-desktop"}
 
 3. Connect the Comet PoE's USB port to the USB interface of the Device B using a USB cable.
 
-    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-4.png){class="glboxshadow"}
+    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-4.png){class="glboxshadow gl-80-desktop"}
 
 4. Device connection is complete. 
 
@@ -55,7 +55,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 There are two methods to access Comet PoE via LAN.
 
-**Method 1**. via Domain Name
+**Method 1**. via Domain
 
 First, ensure your controlling device is on the same LAN as your Comet PoE.
 
@@ -63,13 +63,13 @@ Launch a browser on the controlling device. Chrome or Edge is recommended for be
 
 Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow gl-90-desktop"}
 
 You will be able to access the Comet PoE's control panel locally, thus access the controlled device connected to it.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.png){class="glboxshadow"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.png){class="glboxshadow gl-90-desktop"}
 
-**Method 2**. via IP Address
+**Method 2**. via IP address
 
 Find the IP address of Comet PoE in the upper router, enter this IP address in the browser, and you will be able to access the Comet PoE locally, thus access the controlled device.
 
@@ -81,15 +81,55 @@ Log in to the web admin panel of GL-AXT1800, find the IP address of Comet PoE in
 
 Open a new tab in the browser, enter Comet PoE's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow gl-90-desktop"}
 
 You will be able to access the Comet PoE's control panel locally, thus access the controlled device connected to it.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.png){class="glboxshadow"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.png){class="glboxshadow gl-90-desktop"}
 
 ### Remote Access to Comet PoE
 
-**Method 1**. via GLKVM App
+**Method 1**. via Cloud service
+
+1. Bind your device to KVM Cloud.
+
+    This needs to be done within the local network.
+
+    First, locally access your Comet PoE, and go to the Cloud Service in the upper right corner. Click **Access Cloud**.
+
+    ![access cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/access_cloud.jpg){class="glboxshadow"}
+
+    You will be re-directed to a login page. Input your glinet account and click **Log In**.
+
+    ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow gl-90-desktop"}
+
+    Confirm your device info, and click **Bind**.
+
+    ![bind device confirm](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_2.png){class="glboxshadow gl-90-desktop"}
+
+    Wait a second and your device will be bound to your account successfully. Click **Done**.
+
+    ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow gl-90-desktop"}
+
+2. Remote access via Cloud service.
+
+    Open a browser (take Google Chrome as an example), and enter `glkvm.com` in the address bar. You will see a login page. Use your glinet account to log in.
+
+    ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow gl-90-desktop"}
+
+    After login, you will see the devices bound to your account. Click on the device you want to remotely access.
+
+    ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow gl-90-desktop"}
+
+    It will open a new tab asking for device admin password. Enter the admin password and log in.
+
+    ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow gl-90-desktop"}
+
+    Then you will be able to access the Comet PoE and the controlled device remotely via Cloud, without installing the app.
+
+    ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.jpg){class="glboxshadow gl-90-desktop"}
+
+**Method 2**. via GLKVM App
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -133,9 +173,9 @@ You will be able to access the Comet PoE's control panel locally, thus access th
 
     ![remote access via app](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_control_panel.jpg){class="glboxshadow gl-90-desktop"}
 
-**Method 2**. via Tailscale
+**Method 3**. via Tailscale
 
-Comet PoE integrates Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
+Comet PoE integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
 In Comet PoE's control panel, navigate to Apps Center -> Tailscale, bind Comet PoE to your Tailscale account.
 
@@ -155,7 +195,7 @@ In the control panel, navigate to **Settings**, you will get a page as below.
 
 You can modify the video quality, orientation and EDID settings of the control page. 
 
-![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-video.png){class="glboxshadow"}
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-video.jpg){class="glboxshadow"}
     
 - Quality: Adjust the video quality to low/medium/high according to your network and resolution requirements.
 
@@ -163,13 +203,15 @@ You can modify the video quality, orientation and EDID settings of the control p
 
 - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
 
+- Mode: You can switch the mode between WebRTC H.264 and Direct H.264.
+
 #### Remote Device Settings
 
 You can adjust the relevant settings of the controlled device.
 
-![settings-remote device settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote_device_settings.png){class="glboxshadow"}
+![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote-device.png){class="glboxshadow"}
 
-- Audio: Turn on or off the sound of the controlled device.
+- Speaker: Control audio output from the controlled device (e.g., system sounds, video audio)
 
 - Keyboard: Turn on or off the keyboard of the controlled device.
 
@@ -195,13 +237,33 @@ You can adjust the relevant settings of the controlled device.
 
 #### System
 
-![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.png){class="glboxshadow"}
+You can change the system display settings of the control panel, or reset the device with one click.
+
+![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.jpg){class="glboxshadow"}
+
+- Device Identity: Change or customize your KVM's identity recognized by the controlled device.
+
+    Note that the EDID and device identification will remain synchronized; changing one of them will make the other one automatically updated to ensure correct recognition.
 
 - Language: Switch the language of control panel. 
 
 - Color Mode: Switch the theme color, including dark and light modes.
 
-- Reset KVM
+- Time Zone: You can change the time zone of the KVM control panel. This is only for the KVM control panel, not the system time of the controlled device.  
+
+- Reset KVM: Factory reset your KVM with just one click.
+
+#### Network
+
+You can check the network details of your Comet PoE.
+
+![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-network.png){class="glboxshadow"}
+
+As shown above, Comet PoE connects to the upper network device via an Ethernet cable and its IP address is 192.168.8.11.
+
+Click **Modify** to change the ethernet settings.
+
+![settings-network-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-network-modify.png){class="glboxshadow"}
 
 ### Toolbox
 
@@ -343,7 +405,7 @@ In the control panel, navigate to **Apps Center**, the integrated applications c
 
 #### Tailscale
 
-Comet PoE integrates with Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
+Comet PoE integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
 In the control panel, navigate to Apps Center -> Tailscale, bind Comet PoE and your controlling device to your Tailscale account. Then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 

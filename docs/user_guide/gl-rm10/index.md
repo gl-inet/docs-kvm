@@ -22,7 +22,7 @@ Whether for personal or professional use, Comet Pro is an excellent choice for e
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-device.png){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-device.png){class="glboxshadow" width="535"}
 
 1. Connect the Comet Pro to the power source.
 
@@ -30,21 +30,21 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 2. Use an HD cable to connect the Comet Pro's HD IN port to the HD OUT port of the Device B. Use another HD cable to connect the Comet Pro's HD OUT port to the monitor if the Device B is a desktop computer.
 
-    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/02-hd-cable.png){class="glboxshadow gl-70-desktop"}
+    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/02-hd-cable.png){class="glboxshadow" width="500"}
 
 3. Connect the Comet Pro's USB Type-C port to the USB interface of the Device B using a USB cable.
 
-    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/03-usb-cable.png){class="glboxshadow gl-70-desktop"}
+    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/03-usb-cable.png){class="glboxshadow" width="500"}
 
 4. Connect the Comet Pro to a network source via an Ethernet cable or Wi-Fi.
 
     - Ethernet: Connect the Comet Pro's Ethernet port to a network source.
 
-        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-ethernet.png){class="glboxshadow"}
+        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-ethernet.png){class="glboxshadow" width="466"}
 
     - Wi-Fi: Swipe left on the touchscreen, connect Comet Pro to an existing Wi-Fi network (2.4G/5G supported).
 
-        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-wifi.png){class="glboxshadow"}
+        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-wifi.png){class="glboxshadow" width="466"}
 
 5. Device connection is complete. 
 
@@ -54,7 +54,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 There are two methods to access Comet Pro via LAN.
 
-**Method 1**. via Domain Name
+**Method 1**. via Domain
 
 First, ensure your controlling device is on the same LAN as your Comet Pro.
 
@@ -62,13 +62,13 @@ Launch a browser on the controlling device. Chrome or Edge is recommended for be
 
 Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow gl-90-desktop"}
 
 You will be able to access Comet Pro's control panel locally, thus access the controlled device connected to it.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local-access-domain.png){class="glboxshadow"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local-access-domain.png){class="glboxshadow gl-90-desktop"}
 
-**Method 2**. via IP Address
+**Method 2**. via IP address
 
 Find Comet Pro's IP address on the touchscreen, enter this IP address in the browser, and you will be able to access it locally, thus access the controlled device.
 
@@ -76,15 +76,55 @@ For example, if the Comet Pro's IP address is `192.168.8.190`.
 
 Open a new tab in the browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local_access_login.png){class="glboxshadow"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local_access_login.png){class="glboxshadow gl-90-desktop"}
 
 You will be able to access the Comet Pro's control panel locally, thus access the controlled device connected to it.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local-access-ip.png){class="glboxshadow"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local-access-ip.png){class="glboxshadow gl-90-desktop"}
 
 ### Remote Access to Comet Pro
 
-**Method 1**. via GLKVM App
+**Method 1**. via Cloud service
+
+1. Bind your device to KVM Cloud.
+
+    This needs to be done within the local network.
+
+    First, locally access your Comet Pro, and go to the Cloud Service in the upper right corner. Click **Access Cloud**.
+
+    ![access cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/access_cloud.jpg){class="glboxshadow"}
+
+    You will be re-directed to a login page. Input your glinet account and click **Log In**.
+
+    ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow gl-90-desktop"}
+
+    Confirm your device info, and click **Bind**.
+
+    ![bind device confirm](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_2.png){class="glboxshadow gl-90-desktop"}
+
+    Wait a second and your Comet Pro will be bound to your account successfully. Click **Done**.
+
+    ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow gl-90-desktop"}
+
+2. Remote access via Cloud service.
+
+    Open a browser (take Google Chrome as an example), and enter `glkvm.com` in the address bar. You will see a login page. Use your glinet account to log in.
+
+    ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow gl-90-desktop"}
+
+    After login, you will see the devices bound to your account. Click on the device you want to remotely access.
+
+    ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow gl-90-desktop"}
+
+    It will open a new tab asking for device admin password. Enter the admin password and log in.
+
+    ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow gl-90-desktop"}
+
+    Then you will be able to access your Comet Pro and the controlled device remotely via Cloud, without installing the app.
+
+    ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.jpg){class="glboxshadow gl-90-desktop"}
+
+**Method 2**. via GLKVM App
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -128,9 +168,9 @@ You will be able to access the Comet Pro's control panel locally, thus access th
 
     ![remote access via app](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/remote_access_via_app.png){class="glboxshadow gl-90-desktop"}
 
-**Method 2**. via Tailscale
+**Method 3**. via Tailscale
 
-Comet Pro integrates Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
+Comet Pro integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
 In the control panel, navigate to Apps Center -> Tailscale, bind your Comet Pro to your Tailscale account. 
 
@@ -158,7 +198,7 @@ You can modify the video quality, orientation and EDID settings of the control p
 
 - EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
 
-- Mode: You can switch the mode between WebRTC H.264 and Direct H.264. This feature is available in v1.4.0 and above.
+- Mode: You can switch the mode between WebRTC H.264 and Direct H.264.
 
 #### Remote Device Settings
 
@@ -166,9 +206,9 @@ You can adjust the relevant settings of the controlled device.
 
 ![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote-device.png){class="glboxshadow"}
 
-- Speaker/Audio: Control audio output from the controlled device (e.g., system sounds, video audio)
+- Speaker: Control audio output from the controlled device (e.g., system sounds, video audio)
 
-- Microphone: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. This feature is available in firmware v1.4.0 and above.
+- Microphone: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction.
 
 - Keyboard: Turn on or off the keyboard of the controlled device.
 
@@ -200,7 +240,7 @@ You can change the system display settings of the control panel, or reset the de
 
 ![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.jpg){class="glboxshadow"}
 
-- Device Identity: Change or customize your KVM's identity recognized by the controlled device. This feature is available since v1.4.0. 
+- Device Identity: Change or customize your KVM's identity recognized by the controlled device.
 
     Note that the EDID and device identification will remain synchronized; changing one of them will make the other one automatically updated to ensure correct recognition.
 
@@ -214,7 +254,7 @@ You can change the system display settings of the control panel, or reset the de
 
 #### Network
 
-Check the network details of your KVM device. This feature is available since firmware v1.4.0.
+You can check Comet Pro's network details.
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/settings-network.png){class="glboxshadow"}
 
@@ -364,13 +404,13 @@ In the control panel, navigate to **Apps Center**, the integrated applications c
 
 #### Tailscale
 
-Comet Pro integrates Tailscale, allowing you to bind it to the Tailscale virtual network for remote access.
+Comet Pro integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
 In the control panel, navigate to Apps Center -> Tailscale, bind Comet Pro and your controlling device to your Tailscale account. Then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
 Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for more instructions.
 
-Once enabled, the page will show the bind account. Exit Node feature is particularly introduced since firmware v1.4.0.
+Once enabled, the page will show the bind account.
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/tailscale_enabled.png){class="glboxshadow"}
 
