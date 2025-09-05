@@ -11,7 +11,7 @@ Here are some suggestions.
     - The one on the side is labeled "5V 2A" for power input (connecting to a power adapter).  
     - The other on the back has logos for mouse and keyboard, connecting to the controlled device's USB port to receive keyboard and mouse signals. 
 
-    Reversing these two connections will prevent the KVM device from starting up and make the mouse & keyboard unresponsive.
+    If you mix up these two connections, the KVM device won't start up, and the mouse and keyboard will become unresponsive.
     
     Please check if these two Type-C interfaces are connected correctly.
 
@@ -25,18 +25,31 @@ Here are some suggestions.
 
     Reconnect the USB cable and restart the controlled device.
 
-3. Try switching the mouse mode to Relative mode. 
+3. Switch the mouse mode to Relative mode. 
 
-    Log in to your KVM device, navigate to Settings -> Mouse Mode, switch it to Relative, and check if the problem can be resolved.
+    Log in to your KVM, navigate to Settings -> Mouse Mode, switch it to Relative and check if the problem can be resolved.
 
-    ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/mouse_mode.png){class="glboxshadow"}
+    ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/mouse_mode.jpg){class="glboxshadow"}
 
-4. Upgrade the KVM's firmware to the latest version. [KVM Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"}
+4. Disable the Virtual Media.
 
-5. Check the Device Manager on the controlled computer for any malfunctioning drivers.
+    Log in to your KVM, navigate to Virtual Media, click on the three-dot icon and disable it.
 
-6. Check if the controlled device is blocked by IT security software.
+    ![disable virtual media](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/disable_virtual_media.png){class="glboxshadow" width="422"}
 
+    This is because, when virtual media is enabled, KVM can simulate a USB storage drive plugged into the controlled device. However, some devices may disable all USB inputs when they detect an unknown USB storage drive, causing the mouse and keyboard to become unresponsive.
+
+5. Change the device identity.
+
+    Log in to your KVM, navigate to Settings -> System -> Device Identity, and change your KVM's identity recognized by the controlled device.
+
+    ![change device identity](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/change_device_identity.png){class="glboxshadow"}
+
+6. Upgrade the KVM's firmware to the latest version. [KVM Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"}
+
+7. Check the Device Manager on the controlled computer for any malfunctioning drivers.
+
+8. Check if the controlled device is blocked by IT security software.
 
 ---
 
