@@ -55,7 +55,7 @@ Watch this video or follow the steps below to install Fingerbot.
 
 ## Setup
 
-1. Log in to GL.iNet KVM device's control panel. [How to access the GL.iNet KVM](../../faq/how_to_access_the_controlled_device_connected_to_kvm.md)
+1. Log in to GL.iNet KVM control panel.
 
 2. In the KVM control panel, navigate to **Accessories** to customize the Fingerbot settings.
 
