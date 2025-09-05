@@ -10,15 +10,21 @@ If your computer does not have Ethernet port, prepare an additional USB Ethernet
 
 ## Debrick steps
 
+To avoid debrick failure, please follow the steps below strictly.
+
 1. Please download firmware [here](https://dl.gl-inet.com/kvm){target="_blank"} to your computer.
 
 2. Remove the power of KVM. Connect your computer to the Ethernet port of the KVM.
 
-3. Press and hold the Reset button firmly, **at the same time power up the KVM**.
+3. Press and hold the Reset button firmly, and power on the KVM **at the same time**.
 
-    Then you will see the LED flashing in a regular sequence a few times—please release your finger **after** the sequence changes.
+    Then you will see the LED flashing in a regular pattern several times. Release the button **after** the flash sequence changes.
 
-    - For Comet (GL-RM1), the blue LED light flashes 5 times, then release the Reset button, the blue light will stay on.
+    - **Comet (GL-RM1)**: When holding the Reset button, the blue LED will flash 5 times. Release the Reset button after the 5 flashes, and the blue LED will remain solid.
+
+    - **Comet PoE (GL-RM1PE)**: When holding the Reset button, the blue LED will flash 5 times. Release the Reset button after the 5 flashes, and the blue LED will remain solid.
+
+    - **Comet Pro (GL-RM10)**: Hold the Reset button for about 5 seconds, during which power on the KVM at the same time, then release the button. It will enter the U-Boot mode.
 
 4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below.
 
