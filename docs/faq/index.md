@@ -28,7 +28,7 @@ Learn how to use our devices and how to solve some common problems.
 * [How to remotely access the controlled device via Cloud service?](remote_access_to_controlled_device_via_cloud.md)
 * [How to remotely access the controlled device via GLKVM app?](remote_access_to_controlled_device_via_glkvm_app.md)
 * [How to remotely access the controlled device via Tailscale?](remote_access_to_controlled_device_via_tailscale.md)
-* [Connection failed when remotely accessing via GLKVM app](connection_failed_when_remotely_accessing_via_glkvm_app.md)
+* [Connection failed when remote access via GLKVM app](connection_failed_when_remote_access_via_glkvm_app.md)
 * [Privacy error when locally accessing via browser](privacy_error_from_your_browser.md)
 
 ## Software Installation & Device Binding
@@ -54,4 +54,4 @@ Learn how to use our devices and how to solve some common problems.
 ## Audio
 
 * [Cannot hear audio from the controlled device](cannot_hear_the_audio_from_the_controlled_device.md)
-* [The speaker/microphone settings cannot be retained](why_can't_my_speaker_microphone_settings_be_retained.md)
+* [The speaker and microphone settings cannot be retained](speaker_microphone_settings_cannot_be_retained.md)

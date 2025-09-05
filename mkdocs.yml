@@ -115,7 +115,7 @@ nav:
       - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
       - Remote access via GLKVM app: faq/remote_access_to_controlled_device_via_glkvm_app.md
       - Remote access via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
-      - Connection failed when remotely accessing via GLKVM app: faq/connection_failed_when_remotely_accessing_via_glkvm_app.md
+      - Connection failed when remote access via GLKVM app: faq/connection_failed_when_remote_access_via_glkvm_app.md
       - Privacy error when locally accessing via browser: faq/privacy_error_from_your_browser.md
     - Software Installation & Device Binding:
       - No device is found in the GLKVM app: faq/no_device_is_found_in_the_glkvm_app.md
@@ -133,7 +133,7 @@ nav:
       - Keyboard does not input/output as expected: faq/keyboard_does_not_input_output_as_expected.md
     - Audio:
       - Cannot hear audio from the controlled device: faq/cannot_hear_the_audio_from_the_controlled_device.md
-      - The speaker/microphone settings cannot be retained: faq/why_can't_my_speaker_microphone_settings_be_retained.md
+      - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md
   - Tutorials:
     - Overview: tutorials/index.md
     - How to set EDID for GL.iNet KVM: tutorials/how_to_set_edid_for_glkvm.md
