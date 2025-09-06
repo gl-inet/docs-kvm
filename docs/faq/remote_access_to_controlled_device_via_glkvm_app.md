@@ -60,7 +60,7 @@ Enter the admin password to log in to your device.
 
 You will be logged in to the control panel of your KVM device. Now you can access the controlled device through KVM.
 
-![remote control panel](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_control_panel.jpg){class="glboxshadow gl-90-desktop"}
+![remote control panel](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_access_via_app.jpg){class="glboxshadow gl-90-desktop"}
 
 ---
 

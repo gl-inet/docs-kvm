@@ -46,7 +46,7 @@ It will open a new tab asking for device admin password. Enter the admin passwor
 
 Then you will be able to access the KVM and the controlled device remotely via Cloud, without installing the app.
 
-![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.jpg){class="glboxshadow"}
+![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
 ---
 

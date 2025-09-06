@@ -78,7 +78,7 @@ Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login 
 
 You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.png){class="glboxshadow gl-90-desktop"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow gl-90-desktop"}
 
 **Method 2**. via IP address
 
@@ -96,7 +96,7 @@ Open a new tab in the browser, enter Comet's IP in the address bar. You will be 
 
 You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.png){class="glboxshadow gl-90-desktop"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow gl-90-desktop"}
 
 ### Remote Access to Comet
 
@@ -140,7 +140,7 @@ This feature is available in firmware v1.5.0 and above.
 
     Then you will be able to access the KVM and the controlled device remotely via Cloud, without installing the app.
 
-    ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.jpg){class="glboxshadow gl-90-desktop"}
+    ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow gl-90-desktop"}
 
 **Method 2**. via GLKVM App
 
@@ -184,7 +184,7 @@ This feature is available in firmware v1.5.0 and above.
 
     Click on it, input the admin password (created during the first access), and you can remotely access the Comet's control panel, thus access the controlled device connected to it.
 
-    ![remote access via app](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_control_panel.jpg){class="glboxshadow gl-90-desktop"}
+    ![remote access via app](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_access_via_app.jpg){class="glboxshadow gl-90-desktop"}
 
 **Method 3**. via Tailscale
 
@@ -202,7 +202,7 @@ Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){targ
 
 In the control panel, navigate to **Settings**, you will get a page as below.
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-1.png){class="glboxshadow"}
+![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/settings.png){class="glboxshadow"}
 
 #### Video
 
@@ -232,7 +232,7 @@ You can adjust the relevant settings of the controlled device.
 
 - Show Virtual Keyboard: Display and use the virtual keyboard on the control page.
 
-    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_keyboard.jpg){class="glboxshadow gl-90-desktop"}
+    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/show_virtual_keyboard.png){class="glboxshadow"}
 
 - Mouse: Turn on or off the mouse of the controlled device.
 
@@ -286,7 +286,7 @@ Click **Modify** to change the ethernet settings.
 
 In the control panel, navigate to **Toolbox**.
 
-![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.jpg){class="glboxshadow"}
+![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/toolbox.png){class="glboxshadow"}
 
 #### Clipboard
 
@@ -338,7 +338,7 @@ Firstly, connect the accessories to the controlled device. Please refer to the u
 
 Then log in to the control panel, navigate to **Accessories**. 
 
-![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
+![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories.png){class="glboxshadow"}
 
 **Note**: Accessory settings are only displayed after installation.
 
@@ -370,43 +370,51 @@ It works as per the following settings.
 
 ### Virtual Media
 
-Comet allows you to transfer files between the host controlling device and the controlled device.
+Comet allows you to transfer files between the controlling device and the controlled device.
 
 In the control panel, navigate to **Virtual Media**.
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.jpg){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media.png){class="glboxshadow"}
 
-Drag or click the box to upload files from host, or upload from URL. 
+Drag or click the box to upload files from your controlling device, or upload from URL. 
 
-As an example, two images have been uploaded from the host controlling device to the Comet here.
+As an example, two images have been uploaded from the controlling device to the Comet here.
 
 ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
 
-Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
+Click **Mount To Remote**, and you will see two options: **File Sharing** and **Image Mounting**.
 
 ![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.jpg){class="glboxshadow"}
     
 #### File Sharing
 
-It Emulates a read-write USB drive. Upload the files from the host to the Comet and transfer to the controlled device.
+It emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
-Click on **File Sharing**, and a window will pop up in the upper-right corner of the control panel to display file sharing steps. Click "Don't remind me" to hide this prompt.  
+Upload files from the controlling device to the Comet, and click on **File Sharing**. A window will pop up in the control panel to indicate file sharing steps. Click "Don't remind me" to hide it.
     
 ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
 
-Then turn to the Comet's control panel, go to **This PC** of your controlled device, find a Drive named **GLKVM**. 
+Turn to the Comet's control panel and access your controlled device. Go to **This PC** and find a Drive named **GLKVM**. Now you can view, move or delete the files in this drive.
 
-Now you can view, move or delete the files in this drive.
+![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_2.png){class="glboxshadow"}
 
-![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_2.png){class="glboxshadow"}
-    
+If you want to share files from the controlled device to the controlling device, simply place the files into this drive. Those files will be displayed under the Virtual Media in the Comet's control panel after you stop the file sharing.
+
+For example, a PDF file named "gl-rm1_datasheet" has been placed into this drive. In the Comet's control panel, go to Virtual Media and click **Stop Sharing**.
+
+![file sharing 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_3.png){class="glboxshadow"}
+
+Then this file will be displayed under the Virtual Media, as shown below. Now you can download this file from Comet to your controlling device.
+
+![file sharing 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_4.png){class="glboxshadow"}
+
 #### Image Mounting
 
 It emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
 
-Comet can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. 
+Comet can simulate a read-only virtual CD/DVD or disk drive on the device being controlled. You can access this drive during the BIOS or UEFI startup process. 
     
-This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
+This function can help you reinstall the operating system or mount an ISO to install applications on the device being controlled, or perform other tasks.
     
 Click on **Image Mounting**, in the pop-up Mount Settings, select the file and ensure this file can be mounted as an iso format, then click **Mount Image**. 
 
@@ -418,7 +426,7 @@ Then you can use this file on the controlled end.
 
 In the control panel, navigate to **Apps Center**, the integrated applications can be found here.
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.jpg){class="glboxshadow"}
+![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/apps_center.png){class="glboxshadow"}
 
 #### Tailscale
 
@@ -436,7 +444,7 @@ Once enabled, the page will show the bind account.
 
 Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
 
-![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.jpg){class="glboxshadow"}
+![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/help.png){class="glboxshadow"}
 
 ### System Settings
 
@@ -454,7 +462,7 @@ In the control panel, navigate to the upper-right corner to access the following
 
 Local and Online Upgrades are supported.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/firmware_upgrade.jpg){class="glboxshadow"}
+![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
 
 #### Cloud Service
 

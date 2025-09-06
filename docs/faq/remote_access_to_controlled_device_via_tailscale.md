@@ -18,15 +18,15 @@ Secondly, enter `glkvm.local` in the address bar. You will be directed to the GL
 
 You will be able to access your KVM's control panel locally.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/local_access_domain.png){class="glboxshadow"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
 Thirdly, in the control panel, navigate to **Apps Center** -> **Tailscale**, enable Tailscale.
 
-![apps center](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/apps_center.jpg){class="glboxshadow"}
+![apps center](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/apps_center.png){class="glboxshadow"}
 
 ## 2. Bind KVM to your tailnet
 
-Upon enabling tailscale, the page will display an option to bind device. Click on **Bind Device**.
+After enabling tailscale, the page will display an option to bind device. Click on **Bind Device**.
 
 ![enable tailscale](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enable_tailscale.png){class="glboxshadow"}
 

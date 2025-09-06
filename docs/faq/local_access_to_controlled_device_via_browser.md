@@ -16,7 +16,7 @@ There are two ways to locally access the controlled device via web browser.
 
     You will be able to access the control panel of your KVM locally, thus access the controlled device.
 
-    ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.png){class="glboxshadow"}
+    ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
 ## Local access via IP address
 
@@ -42,7 +42,7 @@ Follow the steps below to access the controlled device.
 
     You will be able to access the control panel of your KVM locally, thus access the controlled device.
 
-    ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.png){class="glboxshadow"}
+    ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
 ---
 
