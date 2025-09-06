@@ -12,3 +12,4 @@ Learn how to use our devices correctly or modify some parameters with detailed s
 * [How to set a static IP for Comet (GL-RM1)](how_to_set_static_ip_for_comet.md)
 * [How to fix mouse latency when RPi4 controls RPi3 via GLKVM](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
 * [How to debrick KVM via U-Boot](../faq/debrick.md)
+* [How to change KVM hostname](how_to_change_kvm_hostname.md)
