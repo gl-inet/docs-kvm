@@ -66,21 +66,21 @@ Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login 
 
 You will be able to access Comet Pro's control panel locally, thus access the controlled device connected to it.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local-access-domain.png){class="glboxshadow gl-90-desktop"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow gl-90-desktop"}
 
 **Method 2**. via IP address
 
 Find Comet Pro's IP address on the touchscreen, enter this IP address in the browser, and you will be able to access it locally, thus access the controlled device.
 
-For example, if the Comet Pro's IP address is `192.168.8.190`. 
+For example, if the Comet Pro's IP address is `192.168.8.197`. 
 
 Open a new tab in the browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local_access_login.png){class="glboxshadow gl-90-desktop"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow gl-90-desktop"}
 
 You will be able to access the Comet Pro's control panel locally, thus access the controlled device connected to it.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/local-access-ip.png){class="glboxshadow gl-90-desktop"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow gl-90-desktop"}
 
 ### Remote Access to Comet Pro
 
@@ -122,7 +122,7 @@ You will be able to access the Comet Pro's control panel locally, thus access th
 
     Then you will be able to access your Comet Pro and the controlled device remotely via Cloud, without installing the app.
 
-    ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.jpg){class="glboxshadow gl-90-desktop"}
+    ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow gl-90-desktop"}
 
 **Method 2**. via GLKVM App
 
@@ -166,7 +166,7 @@ You will be able to access the Comet Pro's control panel locally, thus access th
 
     Click on it, input the admin password (created during the first access), and you can remotely access the Comet Pro's control panel, thus access the controlled device connected to it.
 
-    ![remote access via app](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/remote_access_via_app.png){class="glboxshadow gl-90-desktop"}
+    ![remote access via app](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_access_via_app.jpg){class="glboxshadow gl-90-desktop"}
 
 **Method 3**. via Tailscale
 
@@ -184,7 +184,7 @@ Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){targ
 
 In the control panel, navigate to **Settings**, you will get a page as below.
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/settings-1.png){class="glboxshadow"}
+![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/settings.png){class="glboxshadow"}
 
 #### Video
 
@@ -214,7 +214,7 @@ You can adjust the relevant settings of the controlled device.
 
 - Show Virtual Keyboard: Display and use the virtual keyboard on the control page.
 
-    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/virtual-keyboard.png){class="glboxshadow gl-90-desktop"}
+    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/show_virtual_keyboard.png){class="glboxshadow"}
 
 - Mouse: Turn on or off the mouse of the controlled device.
 
@@ -268,7 +268,7 @@ Click **Modify** to change the Ethernet or Wi-Fi settings.
 
 In the control panel, navigate to **Toolbox**.
 
-![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/toolbox.png){class="glboxshadow"}
+![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/toolbox.png){class="glboxshadow"}
 
 #### Clipboard
 
@@ -320,7 +320,7 @@ Firstly, connect the accessories to the controlled device. Please refer to the u
 
 Then log in to the control panel, navigate to **Accessories**. 
 
-![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/accessories.png){class="glboxshadow"}
+![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories.png){class="glboxshadow"}
 
 **Note**: Accessory settings are only displayed after installation.
 
@@ -356,7 +356,7 @@ Comet Pro allows you to transfer files between the host controlling device and t
 
 In the control panel, navigate to **Virtual Media**.
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/virtual_media.png){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/virtual_media.jpg){class="glboxshadow"}
 
 Drag or click the box to upload files from host, or upload from URL. 
 
@@ -381,6 +381,8 @@ Then turn to the Comet Pro's control panel, go to **This PC** of your controlled
 Now you can view, move or delete the files in this drive.
 
 ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file-sharing-icon.png){class="glboxshadow"}
+
+If you want to share files from the controlled device to the controlling device, simply place the files into this drive. Those files will be displayed under the Virtual Media in the Comet Pro's control panel after you stop the file sharing.
     
 #### Image Mounting
 
@@ -400,7 +402,7 @@ Then you can use this file on the controlled end.
 
 In the control panel, navigate to **Apps Center**, the integrated applications can be found here.
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/apps_center.png){class="glboxshadow"}
+![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/apps_center.png){class="glboxshadow"}
 
 #### Tailscale
 
@@ -418,7 +420,7 @@ Once enabled, the page will show the bind account.
 
 Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
 
-![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/help.png){class="glboxshadow"}
+![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/help.png){class="glboxshadow"}
 
 ### System Settings
 
@@ -436,7 +438,7 @@ In the control panel, navigate to the upper-right corner to access the following
 
 Local and Online Upgrades are supported.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/firmware_upgrade.png){class="glboxshadow"}
+![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
 
 #### Cloud Service
 

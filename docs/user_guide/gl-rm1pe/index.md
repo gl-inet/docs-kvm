@@ -217,7 +217,7 @@ You can adjust the relevant settings of the controlled device.
 
 - Show Virtual Keyboard: Display and use the virtual keyboard on the control page.
 
-    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/show_virtual_keyboard.png){class="glboxshadow gl-90-desktop"}
+    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/show_virtual_keyboard.png){class="glboxshadow"}
 
 - Mouse: Turn on or off the mouse of the controlled device.
 
@@ -357,7 +357,7 @@ Comet PoE allows you to transfer files between the controlling device and the co
 
 In the control panel, navigate to **Virtual Media**.
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/virtual_media_1.png){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/virtual_media_1.jpg){class="glboxshadow"}
 
 Drag or click the box to upload files from your controlling device, or upload from URL. 
 
@@ -379,7 +379,7 @@ Upload files from the controlling device to the Comet PoE, and click on **File S
 
 Turn to the Comet PoE's control panel and access your controlled device. Go to **This PC** and find a Drive named **GLKVM**. Now you can view, move or delete the files in this drive.
 
-![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_2.png){class="glboxshadow"}
+![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_2.jpg){class="glboxshadow"}
 
 If you want to share files from the controlled device to the controlling device, simply place the files into this drive. Those files will be displayed under the Virtual Media in the Comet PoE's control panel after you stop the file sharing.
     
