@@ -358,31 +358,37 @@ In the control panel, navigate to **Virtual Media**.
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/virtual_media.jpg){class="glboxshadow"}
 
-Drag or click the box to upload files from host, or upload from URL. 
+Drag or click the box to upload files from your controlling device, or upload from URL. 
 
-As an example, two images have been uploaded from the host controlling device to the Comet Pro here.
+As an example, two images have been uploaded from the controlling device to the Comet Pro here.
 
 ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/upload-files.png){class="glboxshadow"}
 
-Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
+Click **Mount To Remote**, and you will see two options: **File Sharing** and **Image Mounting**.
 
 ![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.jpg){class="glboxshadow"}
     
 #### File Sharing
 
-It Emulates a read-write USB drive. Upload the files from the host to the Comet Pro and transfer to the controlled device.
+It emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
-Click on **File Sharing**, and a window will pop up in the upper-right corner of the control panel to display file sharing steps. Click "Don't remind me" to hide this prompt.  
+Upload files from your controlling device to Comet Pro, and click on **File Sharing**. A window will pop up in the control panel to indicate file sharing steps. Click "Don't remind me" to hide it.
     
 ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
 
-Then turn to the Comet Pro's control panel, go to **This PC** of your controlled device, and find a Removable Disk. Some operating systems may display its name as **GLKVM**. 
-
-Now you can view, move or delete the files in this drive.
+Turn to the Comet Pro's control panel and access your controlled device. Go to **This PC** and find a Drive named **GLKVM**. Now you can view, move or delete the files in this drive.
 
 ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file-sharing-icon.png){class="glboxshadow"}
 
 If you want to share files from the controlled device to the controlling device, simply place the files into this drive. Those files will be displayed under the Virtual Media in the Comet Pro's control panel after you stop the file sharing.
+
+For example, a PDF file named "gl-rm1_datasheet" has been placed into this drive. In Comet Pro's control panel, go to Virtual Media and click **Stop Sharing**.
+
+![file sharing 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_3.png){class="glboxshadow"}
+
+Then this file will be displayed under the Virtual Media, as shown below. Now you can download this file from Comet Pro to your controlling device.
+
+![file sharing 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_4.png){class="glboxshadow"}
     
 #### Image Mounting
 

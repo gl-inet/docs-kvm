@@ -382,6 +382,14 @@ Turn to the Comet PoE's control panel and access your controlled device. Go to *
 ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_2.jpg){class="glboxshadow"}
 
 If you want to share files from the controlled device to the controlling device, simply place the files into this drive. Those files will be displayed under the Virtual Media in the Comet PoE's control panel after you stop the file sharing.
+
+For example, a PDF file named "gl-rm1_datasheet" has been placed into this drive. In Comet PoE's control panel, go to Virtual Media and click **Stop Sharing**.
+
+![file sharing 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_3.png){class="glboxshadow"}
+
+Then this file will be displayed under the Virtual Media, as shown below. Now you can download this file from Comet PoE to your controlling device.
+
+![file sharing 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/file_sharing_4.png){class="glboxshadow"}
     
 #### Image Mounting
 
