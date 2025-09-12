@@ -8,15 +8,13 @@ The ATX board will be installed in the controlled device's chassis, providing mo
 
 ## Package Contents
 
-There are some components in the package:
+![inside the box](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/inside-the-box.png){class="glboxshadow gl-80-desktop"}
 
-- ATX main board
-- USB-A to Type-C cable
-- A 9-PIN Wire Set
-- Screw package
-- ATX Bracket Set
-
-![components](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/components.png){class="glboxshadow gl-60-desktop"}
+- 1 x ATX main board
+- 1 x 9-PIN Wire Set
+- 1 x Screw package
+- 1 x USB-A to Type-C cable
+- 1 x ATX Bracket Set
 
 ## PIN-OUT
 
@@ -50,89 +48,83 @@ Fix the ATX board and the ATX Bracket Set with the screws provided.
 
 ![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/screwing.png){class="glboxshadow gl-60-desktop"}
 
-### 2. Install ATX Board into the Chassis
+### 2. Install ATX Board into PC Case
 
 Connect interfaces 4 and 5 respectively to the controlled computer's control line and F_PANEL interface. 
 
 The 9-PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
     
-You need to use the wire set included in your computer chassis to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
+You need to use the wire set included in your computer case to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
 
-!!! Note
+**Note**: The interface polarity may vary depending on different PC case. Please double check it before installation.
 
-    The interface polarity may vary depending on different  PC chassis. Please double check it before installation.
+Below are some examples of connecting interface 4/5 to the F_PANEL interface of the controlled computer for your reference.
 
-**Here are some examples of connecting one of the ATX board interfaces 4/5 to the controlled computer's F_PANEL interface.**
+??? "For 10-1 pin PANEL"
 
-**Example 1. For 10-1 pin PANEL**
+    If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 10-1 pin PANEL, as shown below.
 
-If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 10-1 pin PANEL, as shown below.
+    ![10-1pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_1.png){class="glboxshadow"}
 
-![10-1pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_1.png){class="glboxshadow"}
+    Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
 
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+    ![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_2.jpg){class="glboxshadow"}
+    <small>Front View</small>
 
-![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_2.jpg){class="glboxshadow"}
-<small>Front View</small>
+    ![10-1pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_3.jpg){class="glboxshadow"}
+    <small>Rear View</small>
 
-![10-1pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/10-1pin_panel_3.jpg){class="glboxshadow"}
-<small>Rear View</small>
+    Then use the wire set included in your computer case to connect another ATX board interface to the computer control line.
 
-Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
+??? "For 20-5 pin PANEL"
 
-**Example 2. For 20-5 pin PANEL**
+    If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-5 pin PANEL, as shown below.
 
-If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-5 pin PANEL, as shown below.
+    ![20-5pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_1.jpg){class="glboxshadow"}
 
-![20-5pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_1.jpg){class="glboxshadow"}
+    Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
 
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+    ![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_2.jpg){class="glboxshadow"}
+    <small>Front View</small>
 
-![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_2.jpg){class="glboxshadow"}
-<small>Front View</small>
+    ![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_3.png){class="glboxshadow"}
+    <small>Rear View</small>
 
-![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-5pin_panel_3.png){class="glboxshadow"}
-<small>Rear View</small>
+    Then use the wire set included in your computer case to connect another ATX board interface to the computer control line.
 
-Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
+??? "For 20-8 pin PANEL"
 
-**Example 3. For 20-8 pin PANEL**
+    If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-8 pin PANEL, as shown below.
 
-If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-8 pin PANEL, as shown below.
+    ![20-8pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-8pin_panel_1.jpg){class="glboxshadow"}
 
-![20-8pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-8pin_panel_1.jpg){class="glboxshadow"}
+    Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
 
-Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+    ![20-8pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-8pin_panel_2.png){class="glboxshadow"}
 
-![20-8pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/20-8pin_panel_2.png){class="glboxshadow"}
-
-Then use the wire set included in your computer chassis to connect another ATX board interface to the computer control line.
+    Then use the wire set included in your computer case to connect another ATX board interface to the computer control line.
 
 The final connected ATX board is shown below.
 
-![atx board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install1.png){class="glboxshadow gl-60-desktop"}
+![atx board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install1.jpg){class="glboxshadow gl-90-desktop"}
 
-![atx board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install2.jpg){class="glboxshadow"}
-<small>Detailed front view of ATX board</small>
+![atx board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install2.png){class="glboxshadow gl-90-desktop"}
 
-![atx board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install3.jpg){class="glboxshadow"}
-<small>Detailed rear view of ATX board</small>
+![atx board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install3.png){class="glboxshadow gl-90-desktop"}
 
-Then place the ATX board bracket on the side frame of the computer chassis (if required).
+Then place the ATX board bracket on the side frame of the computer case (if required).
 
 ![atx board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install4.png){class="glboxshadow"}
 
 ### 3. Connect ATX Board and KVM
 
-Connect the Type-C interface of ATX board to the USB-A interface of the KVM device (such as Comet GL-RM1), using the included USB-A to Type-C cable.
+Connect the Type-C interface of ATX board to the USB-A interface of the KVM device (such as Comet GL-RM1) using the included USB cable.
 
-![atx board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install5.png){class="glboxshadow"}
-
-![atx board install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install6.jpg){class="glboxshadow"}
+![atx board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install5.png){class="glboxshadow gl-60-desktop"}
 
 This completes the installation of the ATX board. 
 
-Now you can log in to the Comet, navigate to [Accessories](../gl-rm1/index.md/#accessories) to set the ATX power.
+Now you can log in to your KVM, navigate to **Accessories** to set the ATX power.
 
 ## FAQ
 
@@ -146,7 +138,7 @@ A1. No. GL-ATXPC board is an accessory for GL.iNet KVM devices. It should be use
 
 A2. Please try the following methods.
 
-- Ensure the controlled device can be powered on/off normally when the physical power button on the main chassis front panel is pressed.
+- Ensure the controlled device can be powered on/off normally when the physical power button on the PC case front panel is pressed.
 
 - Check the wiring polarity. Try flipping the connector polarity on the controlled device's motherboard to avoid incorrect wiring.
 
