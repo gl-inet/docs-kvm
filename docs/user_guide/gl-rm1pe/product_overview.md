@@ -2,9 +2,7 @@
 
 ## Appearance
 
-![appearance 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-1.png){class="glboxshadow"}
-
-![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-2.jpg){class="glboxshadow"}
+![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-1.png){class="glboxshadow"}
 
 ## Interface
 
