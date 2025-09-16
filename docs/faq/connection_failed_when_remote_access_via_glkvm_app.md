@@ -12,7 +12,7 @@ Here are some troubleshooting tips:
 
 1. Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
 
-2. Check if the controlling device (where the GLKVM app is installed) has VPN or proxy enabled. Disable the VPN and proxy, then try finding device again.
+2. Check if the controlling device (where the GLKVM app is installed) has VPN or proxy enabled. Disable the VPN and proxy, then re-open the GLKVM app and reconnect to your device.
 
 3. Check whether the local firewall of the controlling device blocks the GLKVM app's access to the Internet, or intercepts GL.iNet-related domains' traffic (such as goodcloud.xyz, gl-inet.net, astrowarp.net, etc.). 
 
