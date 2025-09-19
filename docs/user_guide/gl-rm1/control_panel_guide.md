@@ -183,6 +183,8 @@ Once uploaded, the files will be displayed as follows.
 ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media_upload.png){class="glboxshadow"}
 
 Click **Mount To Remote**, and you will see two options: **File Sharing** and **Image Mounting**.
+
+![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote_unmarked.png){class="glboxshadow"}
     
 ### File Sharing
 
@@ -192,11 +194,11 @@ To share files from the controlling device to the controlled one, follow the ste
 
 1. Click **Mount To Remote** -> **File Sharing**. 
 
-    ![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.jpg){class="glboxshadow"}
+    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
     A window will pop up in the control panel to indicate file sharing steps, as shown below.
     
-    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing.png){class="glboxshadow"}
+    ![file sharing apply](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_apply.png){class="glboxshadow"}
 
 2. In the Comet's control panel, access your controlled device and go to **This PC**. 
 
