@@ -174,15 +174,13 @@ It works as per the following settings.
 
 Comet allows you to transfer files between the controlling device and the controlled device.
 
-In the control panel, navigate to **Virtual Media**.
+In the control panel, navigate to **Virtual Media**. Drag or click the box to upload files from your controlling device, or upload from URL. 
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media.png){class="glboxshadow"}
 
-Drag or click the box to upload files from your controlling device, or upload from URL. 
+As an example, two images have been uploaded from the controlling device to the Comet.
 
-As an example, two images have been uploaded from the controlling device to the Comet here.
-
-![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
+![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media_upload.png){class="glboxshadow"}
 
 Click **Mount To Remote**, and you will see two options: **File Sharing** and **Image Mounting**.
 
@@ -192,23 +190,37 @@ Click **Mount To Remote**, and you will see two options: **File Sharing** and **
 
 It emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
-Upload files from the controlling device to the Comet, and click on **File Sharing**. A window will pop up in the control panel to indicate file sharing steps. Click "Don't remind me" to hide it.
+To share files from the controlling device to the controlled one, follow the steps below.
+
+1. Click **Mount To Remote** -> **File Sharing**. 
+
+    A window will pop up in the control panel to indicate file sharing steps, as shown below.
     
-![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
+    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing.png){class="glboxshadow"}
 
-Turn to the Comet's control panel and access your controlled device. Go to **This PC** and find a Drive named **GLKVM**. Now you can view, move or delete the files in this drive.
+2. In the Comet's control panel, access your controlled device and go to **This PC**. 
 
-![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_2.png){class="glboxshadow"}
+    ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_1.png){class="glboxshadow"}
 
-If you want to share files from the controlled device to the controlling device, simply place the files into this drive. Those files will be displayed under the Virtual Media in the Comet's control panel after you stop the file sharing.
+3. Find a Drive named **GLKVM**, and you will see the files you uploaded previously from the controlling device to Comet have been shared to the controlled device. Now you can view, move or delete the files in this drive.
 
-For example, a PDF file named "gl-rm1_datasheet" has been placed into this drive. In the Comet's control panel, go to Virtual Media and click **Stop Sharing**.
+    ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_2.png){class="glboxshadow"}
 
-![file sharing 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_3.png){class="glboxshadow"}
+If you want to share files from the controlled device to the controlling one, follow the steps below.
 
-Then this file will be displayed under the Virtual Media, as shown below. Now you can download this file from Comet to your controlling device.
+1. Copy the files you want to share into the drive **GLKVM**. 
 
-![file sharing 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing_4.png){class="glboxshadow"}
+    For example, a PDF file named "gl-rm1_datasheet" has been copied from the controlled device's Desktop into the drive **GLKVM**. 
+
+    ![file sharing 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_3.png){class="glboxshadow"}
+    
+2. Turn to the Comet's control panel -> **Virtual Media**, click **Stop Sharing**.
+
+    ![file sharing 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_4.png){class="glboxshadow"}
+    
+3. Then this file will be displayed under the Virtual Media, as shown below. Now you can download this file from Comet to your controlling device.
+
+    ![file sharing 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_5.png){class="glboxshadow"}
 
 ### Image Mounting
 
