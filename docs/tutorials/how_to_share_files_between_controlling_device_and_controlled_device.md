@@ -10,17 +10,17 @@ In the following steps, we will take Comet (GL-RM1) as an example.
 
     ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media.png){class="glboxshadow"}
 
-    As an example, two images have been uploaded from the controlling device to the Comet.
+    Once uploaded, the files will be displayed as follows.
 
     ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media_upload.png){class="glboxshadow"}
 
 2. Click **Mount To Remote** -> **File Sharing**. 
 
-    ![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.jpg){class="glboxshadow"}
+    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
     A window will pop up in the control panel to indicate file sharing steps, as shown below.
     
-    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing.png){class="glboxshadow"}
+    ![file sharing apply](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/file_sharing_apply.png){class="glboxshadow"}
 
     Now the Comet is emulating a read-write USB drive on the controlled device.
 
