@@ -178,13 +178,11 @@ In the control panel, navigate to **Virtual Media**. Drag or click the box to up
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media.png){class="glboxshadow"}
 
-As an example, two images have been uploaded from the controlling device to the Comet.
+Once uploaded, the files will be displayed as follows.
 
 ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/virtual_media_upload.png){class="glboxshadow"}
 
 Click **Mount To Remote**, and you will see two options: **File Sharing** and **Image Mounting**.
-
-![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.jpg){class="glboxshadow"}
     
 ### File Sharing
 
@@ -193,6 +191,8 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
 To share files from the controlling device to the controlled one, follow the steps below.
 
 1. Click **Mount To Remote** -> **File Sharing**. 
+
+    ![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.jpg){class="glboxshadow"}
 
     A window will pop up in the control panel to indicate file sharing steps, as shown below.
     
@@ -230,9 +230,9 @@ Comet can simulate a read-only virtual CD/DVD or disk drive on the device being 
     
 This function can help you reinstall the operating system or mount an ISO to install applications on the device being controlled, or perform other tasks.
     
-Click on **Image Mounting**, in the pop-up Mount Settings, select the file and ensure this file can be mounted as an iso format, then click **Mount Image**. 
+Click on **Image Mounting**, in the pop-up window, select the file and ensure this file can be mounted as an iso format, then click **Mount Image**. 
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
+![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_image.png){class="glboxshadow"}
 
 Then you can use this file on the controlled end.
 
@@ -240,7 +240,7 @@ Then you can use this file on the controlled end.
 
 In the control panel, navigate to **Apps Center**, the integrated applications can be found here.
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/apps_center.png){class="glboxshadow"}
+![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/apps_center.png){class="glboxshadow"}
 
 ### Tailscale
 
