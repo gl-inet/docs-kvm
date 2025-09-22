@@ -159,6 +159,7 @@ nav:
     - How to share files between controlling and controlled devices: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
     - How to fix mouse latency when RPi4 controls RPi3 via GLKVM: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
     - How to debrick KVM via U-Boot: faq/debrick.md
+    - How to debrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
     - How to change KVM hostname: tutorials/how_to_change_kvm_hostname.md
   - Video Library:
     - Overview: video_library/index.md
