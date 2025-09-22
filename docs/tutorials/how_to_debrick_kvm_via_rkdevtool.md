@@ -22,33 +22,39 @@ To avoid debrick failure, please follow the steps in order.
 
 1. Power off your KVM device.
 
-2. Download the driver package from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/DriverAssitant_v5.11.zip) to your computer, and extract it to any directory.
+2. Download the latest firmware of your KVM device from [here](https://dl.gl-inet.com/kvm){target="_blank"} to your computer.
 
-3. Double click the .exe file to complete the driver installation program.
+3. Download the driver package from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/DriverAssitant_v5.11.zip) to your computer, and extract it to any directory.
+
+4. Double click the .exe file to complete the driver installation program.
 
     ![install driver](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/install_driver_1.png){class="glboxshadow"}
 
     ![install driver](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/install_driver_2.png){class="glboxshadow"}
 
-4. Download the **RKDevTool** from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/RKDevTool_Release_v2.84.zip) to your computer, and extract it to an easily accessible directory.
+5. Download the **RKDevTool** from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/RKDevTool_Release_v2.84.zip) to your computer, and extract it to an easily accessible directory.
 
-5. Double click the .exe file to run the flashing tool on your computer.
+6. Double click the .exe file to run the flashing tool on your computer.
 
     ![run rkdevtool](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/run_rkdevtool_1.png){class="glboxshadow"}
 
     ![run rkdevtool](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/run_rkdevtool_2.png){class="glboxshadow"}
 
-6. Connect the KVM's Type-C OTG port to the computer's USB port via a USB data cable.
+7. Connect the KVM's Type-C OTG port to the computer's USB port via a USB data cable.
 
     Take Comet (GL-RM1) as an example. The Type-C OTG port is shown below.
 
     ![connect usb cable](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/otg-port-rm1.png){class="glboxshadow gl-60-desktop"}
 
-7. Hold the RESET button for **10 seconds** while plugging the power cable into KVM. Then release the button. Your KVM device will enter the Loader mode.
+8. Hold the RESET button for **10 seconds** while plugging the power cable into KVM. Then release the button. Your KVM device will enter the Loader mode.
 
     ![reset button](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/reset_button_rm1.jpg){class="glboxshadow" width="433"}
 
-8. After successfully entering the Loader mode, the RKDevTool will display "Found Loader Device". 
+9. Turn to the RKDevTool panel, go to **Upgrade Firmware** -> **Firmware**, select the firmware downloaded in step 2 to upload.
+
+    ![select firmware](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/select_firmware.png){class="glboxshadow"}
+
+    Then turn to the **Upgrade** tab next to the Firmware tab, it will display "Found Loader Device" and start flashing the firmware.
 
     ![rkdevtool panel](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/rkdevtool_panel.jpg){class="glboxshadow"}
 
