@@ -4,9 +4,9 @@
 
 The GLKVM App is a Windows and macOS-exclusive application designed for remote access and control of devices connected to GL.iNet's KVM, making it ideal for IT professionals, remote workers, and power users who need direct access to distanct machines.
 
-For macOS users, download it from [here](https://apps.apple.com/us/app/glkvm/id6740846845?mt=12){target="_blank"}
+For macOS users, download it from [here](https://apps.apple.com/us/app/glkvm/id6740846845?mt=12){target="_blank"}.
 
-For Windows users, download it from [here](https://www.gl-inet.com/app-rm/#){target="_blank"}
+For Windows users, download it from [here](https://www.gl-inet.com/app-rm/#){target="_blank"} (for Win 10 and above only).
 
 ---
 
