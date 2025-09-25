@@ -1,4 +1,4 @@
-# Using U-Boot to debrick your KVM
+# Using U-Boot to unbrick your KVM
 
 If you bricked your KVM due to some DIY projects or flashing a wrong firmware, your KVM may not be able to power up properly. In this case, you can re-install the firmware by using U-Boot failsafe.
 
@@ -8,9 +8,9 @@ Please prepare a computer with an Ethernet port.
 
 If your computer does not have Ethernet port, prepare an additional USB Ethernet Adapter. 
 
-## Debrick steps
+## Unbrick steps
 
-To avoid debrick failure, please follow the steps below strictly.
+To avoid unbrick failure, please follow the steps below strictly.
 
 1. Please download firmware [here](https://dl.gl-inet.com/kvm){target="_blank"} to your computer.
 

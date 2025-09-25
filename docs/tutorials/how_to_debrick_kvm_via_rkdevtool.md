@@ -1,10 +1,10 @@
-# How to debrick KVM via RKDevTool
+# How to unbrick KVM via RKDevTool
 
-This tutorial will introduce how to debrick GL.iNet KVM using the RKDevTool. It applies to scenarios where the KVM is bricked and cannot be recovered via regular firmware updates or U-Boot failsafe mode.
+This tutorial will introduce how to unbrick GL.iNet KVM using the RKDevTool. It applies to scenarios where the KVM is bricked and cannot be recovered via regular firmware updates or U-Boot failsafe mode.
 
 ## Preparation
 
-Please prepare the following tools for debricking.
+Please prepare the following tools for unbricking.
 
 - A Windows computer
 - A USB data cable
@@ -12,13 +12,13 @@ Please prepare the following tools for debricking.
 
 !!! Note 
 
-    Do NOT disconnect the USB cable or power off KVM during the debricking process, as this may damage the device.
+    Do NOT disconnect the USB cable or power off KVM during the unbricking process, as this may damage the device.
     
-    It is recommended to back up important data before starting the debricking process.
+    It is recommended to back up important data before starting the unbricking process.
 
-## Debrick steps
+## Unbrick steps
 
-To avoid debrick failure, please follow the steps in order. 
+To avoid unbrick failure, please follow the steps in order. 
 
 1. Power off your KVM device.
 
