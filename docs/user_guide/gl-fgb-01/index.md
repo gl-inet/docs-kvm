@@ -25,39 +25,49 @@ Watch this video or follow the steps below to install Fingerbot.
 
 1. Remove the plastic battery isolation tab.
 
-    ![install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_1.png){class="glboxshadow"}
+    ![install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install1.png){class="glboxshadow"}
 
 2. Open the lid from the notch on the top of the Fingerbot.
 
-    ![install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_2.png){class="glboxshadow"}
+    ![install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install2.png){class="glboxshadow"}
 
 3. Find the USB Bluetooth Receiver, insert it into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the Fingerbot.
 
-    ![install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_3.png){class="glboxshadow"}
+    ![install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install3.png){class="glboxshadow"}
+
+    ![install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install4.png){class="glboxshadow"}
 
 4. Clean the surface of the power button on the controlled device.
 
-    ![install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_4.png){class="glboxshadow"}
+    ![install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install5.png){class="glboxshadow"}
 
 5. Peel off the protective sticker from the adhesive tape on the bottom of the Fingerbot.
 
-    ![install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_5.png){class="glboxshadow"}
+    ![install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install6.png){class="glboxshadow"}
 
-6. Stick the Fingerbot to the controlled device, ensuring that its robotic arm can reach the physical power button when pressed. This allows control over the device's power supply.
+6. Stick the Fingerbot near the power button of the controlled device, ensuring that its robotic arm can reach the physical power button when pressed.
 
-    ![install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install_6.png){class="glboxshadow"}
+    ![install 7](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install7.png){class="glboxshadow"}
 
-    The Fingerbot can be mounted on desktops or laptops. For laptops, use it only if the power button is located on the side edge.
+7. If the controlled device is a laptop, secure the bracket (comes in the box) near the power button and tighten it. 
+    
+    Note: Use the bracket only if the power button is located on the side edge.
 
-    ![desktop](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/desktop.png){class="glboxshadow"}
+    ![install 8](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install8.png){class="glboxshadow"}
 
-    ![laptop](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/laptop.png){class="glboxshadow"}
+    Then stick the Fingerbot to the bracket, ensuring that its robotic arm can reach the physical power button when pressed.
+
+    ![install 9](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install9.png){class="glboxshadow"}
+
+8. The installation is complete. As shown below, the Fingerbot's robotic arm will touch the power button when pressed, enabling remote control of the power supply.
+    
+    ![install 10](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install10.jpg){class="glboxshadow"}
 
 ## Setup
 
 1. Log in to GL.iNet KVM control panel.
 
-2. In the KVM control panel, navigate to **Accessories** to customize the Fingerbot settings.
+2. In the KVM control panel, navigate to **Accessories**. You can achieve different effects by adjusting the pressing duration and intensity.
 
     ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/accessories.jpg){class="glboxshadow"}
 
@@ -75,7 +85,7 @@ Watch this video or follow the steps below to install Fingerbot.
 
         You can also use the **Test Button** (inside Fingerbot, visible after removing the top cover) to find your preferred pressing level:
 
-        ![test button](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/test_button.jpg){class="glboxshadow"}
+        ![test button](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/test-button.png){class="glboxshadow"}
 
         1. Press for the first time: Fingerbot extends to Light Press.
 
