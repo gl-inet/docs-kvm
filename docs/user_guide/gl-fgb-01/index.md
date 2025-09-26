@@ -8,7 +8,7 @@ As a physical button emulator, the Fingerbot is designed for remote PC power on/
 
 ## Package Contents
 
-![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package-contents.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_contents.png){class="glboxshadow"}
 
 - 1 x FGB-01
 - 1 x Laptop Stand
