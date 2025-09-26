@@ -130,17 +130,15 @@ Click **Access**, you will be re-directed to the GLKVM terminal, as shown below.
 
 ## Accessories
 
-GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management. 
+GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote control. 
 
-Firstly, connect the accessories to the controlled device. Please refer to the user guide of the corresponding accessories.
+Firstly, refer to the corresponding user guide to connect the accessory to the controlled device.
 
 - [GL-Fingerbot (GL-FGB-01)](../gl-fgb-01/index.md){target="_blank"}
 
 - [GL-ATX Board](../gl-atx-board/index.md){target="_blank"}
 
-Then log in to the control panel, navigate to **Accessories**. 
-
-![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories.png){class="glboxshadow"}
+Then log in to the control panel, navigate to **Accessories**. You will be able to control the device's power on/off. 
 
 **Note**: Accessory settings are only displayed after installation.
 
@@ -149,6 +147,8 @@ Then log in to the control panel, navigate to **Accessories**.
 The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
     
 It works as per the following settings.
+
+![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories_fingerbot.png){class="glboxshadow"}
 
 - Time: The duration for which the Fingerbot presses.
 
@@ -162,11 +162,15 @@ It works as per the following settings.
 
 ### ATX Power
 
-The ATX Board is installed in the computer host box to achieve remote control of the controlled device's power on/off/reboot.
+The ATX Board is installed in the computer case to achieve remote control of the device's power on/off/reboot.
 
 It works as per the following settings.
 
-- Power: Provides short press and long press functions.
+![accessories atxpower](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories_atxpower.png){class="glboxshadow"}
+
+- Power (Short Press): Used for regular power-on or system wake-up.
+
+- Power (Long Press): Performs a forced shutdown operation.
 
 - Restart: Restart the device.
 
