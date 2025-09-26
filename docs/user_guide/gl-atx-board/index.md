@@ -46,11 +46,13 @@ Watch this video to install ATX board, or follow the steps below.
 
 Fix the ATX board and the ATX Bracket Set with the screws provided.
 
-![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/screwing.png){class="glboxshadow gl-60-desktop"}
+![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/screwing.jpg){class="glboxshadow gl-90-desktop"}
 
 ### 2. Install ATX Board into PC Case
 
-Connect interfaces 4 and 5 respectively to the controlled computer's control line and F_PANEL interface. 
+Connect interfaces 4 and 5 respectively to the controlled PC's control line and F_PANEL interface. 
+
+![interface connect](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/interface_connect.jpg){class="glboxshadow gl-90-desktop"}
 
 The 9-PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
     
@@ -106,25 +108,31 @@ Below are some examples of connecting interface 4/5 to the F_PANEL interface of 
 
 The final connected ATX board is shown below.
 
-![atx board install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install1.jpg){class="glboxshadow gl-90-desktop"}
+![atx board connected](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/connected1.png){class="glboxshadow gl-90-desktop"}
 
-![atx board install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install2.png){class="glboxshadow gl-90-desktop"}
+![atx board connected](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/connected2.png){class="glboxshadow gl-90-desktop"}
 
-![atx board install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install3.png){class="glboxshadow gl-90-desktop"}
+Then install the ATX board bracket into the computer case.
 
-Then place the ATX board bracket on the side frame of the computer case (if required).
+![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/install1.png){class="glboxshadow gl-90-desktop"}
 
-![atx board install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install4.png){class="glboxshadow"}
+![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/install2.png){class="glboxshadow gl-90-desktop"}
 
 ### 3. Connect ATX Board and KVM
 
-Connect the Type-C interface of ATX board to the USB-A interface of the KVM device (such as Comet GL-RM1) using the included USB cable.
+Connect the Type-C port of ATX board to the USB-A port of the KVM device (such as Comet GL-RM1) using the included USB cable.
 
-![atx board install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_board_install5.png){class="glboxshadow gl-60-desktop"}
+![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/install3.png){class="glboxshadow gl-90-desktop"}
+
+![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/install4.png){class="glboxshadow gl-90-desktop"}
 
 This completes the installation of the ATX board. 
 
-Now you can log in to your KVM, navigate to **Accessories** to set the ATX power.
+![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/install5.png){class="glboxshadow gl-90-desktop"}
+
+Now you can log in to your KVM, navigate to **Accessories** to control the ATX power.
+
+![atx power](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/atx_power.png){class="glboxshadow gl-90-desktop"}
 
 ## FAQ
 
@@ -141,6 +149,8 @@ A2. Please try the following methods.
 - Ensure the controlled device can be powered on/off normally when the physical power button on the PC case front panel is pressed.
 
 - Check the wiring polarity. Try flipping the connector polarity on the controlled device's motherboard to avoid incorrect wiring.
+
+    ![connector polarity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/flip_connector.png){class="glboxshadow gl-90-desktop"}
 
 - When connecting to the F_PANEL interface on the controlled device's motherboard, ensure the silkscreen printing (e.g., HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward, not obscured facing inward.
 
