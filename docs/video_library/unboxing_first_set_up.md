@@ -18,6 +18,10 @@ Unboxing Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/shYkDIQjX0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Setup Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QsPceu7OKco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Comet Pro (GL-RM10)
 
 Unboxing Video
@@ -26,12 +30,16 @@ Unboxing Video
 
 ## ATX Board (GL-ATXPC)
 
-Installation Video
+Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Fingerbot (FGB-01)
 
-Installation Video
+Unboxing Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aeu5yiDEt0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_ExhJHhEcwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
