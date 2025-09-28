@@ -1,6 +1,6 @@
 # Accessory Guide
 
-GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote management.
+GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote control over the controlled device.
 
 ### Fingerbot
 
@@ -8,7 +8,7 @@ The Fingerbot, acting as a physical button emulator, is designed to enable remot
 
 ![comet and fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/rm1_and_fingerbot.jpg){class="glboxshadow"}
 
-Please refer to [GL-Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"} for details.
+Please refer to [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"} for details.
 
 ### ATX Board
 
@@ -18,4 +18,4 @@ Unlike the Fingerbot, which controls device through physical button presses, the
 
 ![comet and atx board](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/rm1-and-atx-board.jpg){class="glboxshadow"}
 
-Please refer to [GL-ATX Board User Guide](../gl-atx-board/index.md){target="_blank"} for details.
+Please refer to [ATX Board User Guide](../gl-atx-board/index.md){target="_blank"} for details.
