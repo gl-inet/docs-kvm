@@ -18,6 +18,7 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
+    - navigation.expand
   # palette:
   #   - scheme: default
   #     primary: white
