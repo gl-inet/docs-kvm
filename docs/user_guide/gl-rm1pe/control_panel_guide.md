@@ -130,9 +130,9 @@ GL.iNet offers optional accessories for KVM devices to provide additional conven
 
 Firstly, refer to the corresponding user guide to connect the accessory to the controlled device.
 
-- [GL-Fingerbot (GL-FGB-01)](../gl-fgb-01/index.md){target="_blank"}
+- [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
 
-- [GL-ATX Board](../gl-atx-board/index.md){target="_blank"}
+- [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
 
 Then log in to the control panel, navigate to **Accessories**. You will be able to control the device's power on/off. 
 

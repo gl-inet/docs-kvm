@@ -9,5 +9,3 @@ In addition, this version upgrades the EMMC capacity to 32GB, making it more cap
 - [Product Overview](product_overview.md)
 - [Quick Setup Guide](quick_setup_guide.md)
 - [Control Panel Guide](control_panel_guide.md)
-- [Accessory Guide](accessory_guide.md)
-- [FAQ](../../faq/index.md)

@@ -9,5 +9,3 @@ For connectivity, it supports Dual Band Wi-Fi 6 (stable, high-speed) and video p
 - [Product Overview](product_overview.md)
 - [Quick Setup Guide](quick_setup_guide.md)
 - [Control Panel Guide](control_panel_guide.md)
-- [Accessory Guide](accessory_guide.md)
-- [FAQ](../../faq/index.md)
