@@ -42,6 +42,7 @@ plugins:
         'faq/frequently_askedquestions_about_glinet_kvm.md': 'faq/quick_faqs_about_glinet_kvm.md'
         'faq/cannot_hear_the_audio_from_the_controlled_device.md': 'faq/no_audio_from_the_controlled_device.md'
         'faq/can_only_see_desktop_wallpaper_when_using_glkvm.md': 'faq/only_desktop_wallpaper_displayed_in_glkvm.md'
+        'faq/frequently_asked_questions_about_glinet_kvm.md/#features': 'faq/quick_faqs_about_glinet_kvm.md#features'
 
 # Customization
 extra:
