@@ -1,8 +1,6 @@
-# Frequently Asked Questions about GL.iNet KVM
+# Quick FAQs about GL.iNet KVM
 
-This document compiles commonly asked questions and answers about GL.iNet KVM (Remote Keyboard Video Mouse), designed to help you resolve issues quickly and use the device efficiently. 
-
-If your question is not listed here, please contact our technical support team for further assistance.
+This is a brief Q&A collection for GL.iNet KVM, designed to provide quick answers to some common basic questions.
 
 ## Basic Information
 
@@ -107,7 +105,7 @@ A1. Sure. You can achieve remote power control for the controlled device in the 
 
 **Q2. How to use ATX Board for remote power control?**
 
-A2. Please refer to [GL-ATX Board User Guide](https://docs.gl-inet.com/kvm/en/user_guide/gl-atx-board/){target="_blank"}.
+A2. Please refer to [ATX Board User Guide](../user_guide/gl-atx-board/index.md){target="_blank"}.
 
 ---
 

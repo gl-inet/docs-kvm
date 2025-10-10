@@ -37,6 +37,11 @@ theme:
 # Plugins
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'faq/frequently_askedquestions_about_glinet_kvm.md': 'faq/quick_faqs_about_glinet_kvm.md'
+        'faq/cannot_hear_the_audio_from_the_controlled_device.md': 'faq/no_audio_from_the_controlled_device.md'
+        'faq/can_only_see_desktop_wallpaper_when_using_glkvm.md': 'faq/only_desktop_wallpaper_displayed_in_glkvm.md'
 
 # Customization
 extra:
@@ -113,39 +118,35 @@ nav:
     - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
   - FAQ:
     - Overview: faq/index.md
-    - General:
-      - Frequently Asked Questions about GL.iNet KVM: faq/frequently_asked_questions_about_glinet_kvm.md
-      - What devices can GL.iNet KVM control? Any software is needed?: faq/what_devices_can_glinet_kvm_control.md
-      - Does GLKVM app support ChromeOS/Linux?: faq/does_glkvm_application_support_chromeos_or_linux.md
-      - Can Comet (GL-RM1) connect to wireless network?: faq/can_comet_connect_to_wireless_network.md
-      - Download GLKVM App: faq/glkvm_app.md
-    - Device Startup & Power Control:
-      - What should I do if my KVM does not power on?: faq/power_cable_connected_but_device_unpowered.md
-      - What should I do if my KVM is bricked?: faq/debrick.md
-      - How to achieve remote power control for the controlled device?: faq/power_on_off_control.md
+    - Quick Start:
+      - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
+      - GLKVM App: faq/glkvm_app.md
     - Local & Remote Access:
       - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
       - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
-      - Remote access via GLKVM app: faq/remote_access_to_controlled_device_via_glkvm_app.md
+      - Remote access via App: faq/remote_access_to_controlled_device_via_glkvm_app.md
       - Remote access via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
-      - Connection failed when remote access via GLKVM app: faq/connection_failed_when_remote_access_via_glkvm_app.md
-      - Privacy error when locally accessing via browser: faq/privacy_error_from_your_browser.md
-    - Software Installation & Device Binding:
-      - No device is found in the GLKVM app: faq/no_device_is_found_in_the_glkvm_app.md
-      - Failed to bind device to the GLKVM app: faq/failed_to_bind_device_to_glkvm_app.md
-      - Failed to install GLKVM app on Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
-    - Display:
-      - Only desktop wallpaper appears in GLKVM app: faq/can_only_see_desktop_wallpaper_when_using_glkvm.md
-      - Blank screen displayed when using GLKVM: faq/display_blank_screen_when_using_glkvm.md
+      - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
+    - Device Power Issues:
+      - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
+      - Device is bricked: faq/debrick.md
+    - GLKVM App Issues:
+      - Failed to find device: faq/no_device_is_found_in_the_glkvm_app.md
+      - Failed to bind device: faq/failed_to_bind_device_to_glkvm_app.md
+      - Failed to connect device: faq/connection_failed_when_remote_access_via_glkvm_app.md
+      - Failed to install GLKVM on Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
+    - Display Issues:
+      - Only desktop wallpaper displayed in GLKVM: faq/only_desktop_wallpaper_displayed_in_glkvm.md
+      - Blank screen displayed in GLKVM: faq/display_blank_screen_when_using_glkvm.md
       - BIOS interface does not display in GLKVM: faq/bios_does_not_display_in_glkvm.md
       - Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
     - Keyboard & Mouse:
-      - Cannot control the mouse and keyboard: faq/cannot_control_the_mouse.md
-      - Mouse cursors fail to overlap when using GLKVM: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
+      - Cannot control mouse and keyboard: faq/cannot_control_the_mouse.md
+      - Mouse cursors fail to overlap: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
       - Mouse latency when RPi4 controls RPi3 via GLKVM: faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
       - Keyboard does not input/output as expected: faq/keyboard_does_not_input_output_as_expected.md
     - Audio:
-      - Cannot hear audio from the controlled device: faq/cannot_hear_the_audio_from_the_controlled_device.md
+      - No audio from the controlled device: faq/no_audio_from_the_controlled_device.md
       - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md
   - Tutorials:
     - Overview: tutorials/index.md

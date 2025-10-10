@@ -1,10 +1,8 @@
-# Mouse cursors fail to overlap when using GLKVM
+# Mouse cursors fail to overlap on KVM control interface
 
-When using GLKVM, you may get the issue that the mouse cursor of the controlling device cannot be superimposed on the controlled device.
+If you notice that the mouse cursor of the controlling device cannot overlap with that of the controlled device, please follow the steps below for troubleshooting.
 
 ![mouse cursors do not overlap](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/mouse_cursor_cannot_be_superimposed.png){class="glboxshadow gl-90-desktop"}
-
-Please follow the steps below for troubleshooting.
 
 **Step 1**. Confirm whether the issue occurs when the mouse is moving or stationary. 
 
@@ -18,17 +16,17 @@ The following is an example of switching display resolution on a macOS laptop.
 
 Go to the Settings -> Displays -> Optimize for.
 
-![settings](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/mac_settings.png){class="glboxshadow gl-60-desktop"}
+![settings](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/mac_settings.png){class="glboxshadow gl-80-desktop"}
 
 Change it to **GLKVM**.
 
-![select glkvm](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/select_glkvm.png){class="glboxshadow gl-60-desktop"}
+![select glkvm](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/select_glkvm.png){class="glboxshadow gl-80-desktop"}
 
 Choose the corresponding resolution, and check if the mouse cursor is superimposed.
 
-![resolution](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/resolution.png){class="glboxshadow gl-60-desktop"}
+![resolution](https://static.gl-inet.com/docs/kvm/faq/mouse_cursor_overlay_issue/resolution.png){class="glboxshadow gl-80-desktop"}
 
-**Step 3**. If the controlled device is not a laptop, please confirm the ratio of the controlled device's main screen, then switch the EDID in the GLKVM app based on this screen ratio.
+**Step 3**. If the controlled device is not a laptop, please confirm the ratio of the controlled device's main screen, then switch the EDID for your KVM device based on this screen ratio.
 
 Click [here](how_to_set_edid_for_glkvm.md) to learn how to set EDID for GL.iNet KVM.
 

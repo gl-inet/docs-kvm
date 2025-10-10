@@ -54,13 +54,31 @@ It will open a new window and display a connection progress bar.
 
 ![connecting to remote device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connecting_to_remote_device.png){class="glboxshadow gl-90-desktop"}
 
-Enter the admin password to log in to your device.
+Once connected, enter the admin password to log in to your device.
 
 ![enter admin password to log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/log_in_device.png){class="glboxshadow gl-90-desktop"}
 
 You will be logged in to the control panel of your KVM device. Now you can access the controlled device through KVM.
 
 ![remote control panel](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_access_via_app.jpg){class="glboxshadow gl-90-desktop"}
+
+??? "Troubleshooting: Connection failed when remote access via GLKVM app"
+
+    When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it shows "Connection Failed".
+
+    ![device online](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/device_online.jpg){class="glboxshadow gl-90-desktop"}
+
+    ![connecting](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connecting.jpg){class="glboxshadow gl-90-desktop"}
+
+    ![connection failed](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connection_failed.jpg){class="glboxshadow gl-90-desktop"}
+
+    Here are some troubleshooting tips:
+
+    1. Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
+
+    2. Check if the controlling device (where the GLKVM app is installed) has VPN or proxy enabled. Disable the VPN and proxy, then re-open the GLKVM app and reconnect to your device.
+
+    3. Check whether the local firewall of the controlling device blocks the GLKVM app's access to the Internet, or intercepts GL.iNet-related domains' traffic (such as goodcloud.xyz, gl-inet.net, astrowarp.net, etc.). Disable the local firewall or add GL.iNet-related domains into the firewall allowlist, then try again.
 
 ---
 
