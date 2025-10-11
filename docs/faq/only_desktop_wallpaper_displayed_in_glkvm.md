@@ -4,6 +4,8 @@ When accessing the controlled device through KVM, if you can only see the remote
 
 ![extend display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/extend_displays.jpg){class="glboxshadow"}
 
+To fix this issue, please set the display settings of the controlled device to **Duplicate display**.
+
 Take Windows 10 as an example. 
 
 On the controlled device, go to **Settings** -> **System** -> **Display**.
