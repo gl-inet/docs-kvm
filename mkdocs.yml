@@ -104,16 +104,19 @@ nav:
       - Product Overview: user_guide/gl-rm1/product_overview.md
       - Quick Setup Guide: user_guide/gl-rm1/quick_setup_guide.md
       - Control Panel Guide: user_guide/gl-rm1/control_panel_guide.md
+      - FCC & IC Compliance Statements: user_guide/gl-rm1/fcc_ic_compliance_statements.md
     - GL-RM10 (Comet Pro): 
       - Get to Know Comet: user_guide/gl-rm10/index.md
       - Product Overview: user_guide/gl-rm10/product_overview.md
       - Quick Setup Guide: user_guide/gl-rm10/quick_setup_guide.md
       - Control Panel Guide: user_guide/gl-rm10/control_panel_guide.md
+      - FCC & IC Compliance Statements: user_guide/gl-rm10/fcc_ic_compliance_statements.md
     - GL-RM1PE (Comet PoE): 
       - Get to Know Comet: user_guide/gl-rm1pe/index.md
       - Product Overview: user_guide/gl-rm1pe/product_overview.md
       - Quick Setup Guide: user_guide/gl-rm1pe/quick_setup_guide.md
       - Control Panel Guide: user_guide/gl-rm1pe/control_panel_guide.md
+      - FCC & IC Compliance Statements: user_guide/gl-rm1pe/fcc_ic_compliance_statements.md
     - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
     - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
   - FAQ:
