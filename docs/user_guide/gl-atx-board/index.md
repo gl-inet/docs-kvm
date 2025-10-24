@@ -148,9 +148,9 @@ A2. Please try the following methods.
 
 - Ensure the controlled device can be powered on/off normally when the physical power button on the PC case front panel is pressed.
 
-- Check the wiring polarity. Try flipping the connector polarity on the controlled device's motherboard to avoid incorrect wiring.
+- Check the wiring polarity. Try flipping the POWER SW connector polarity on the controlled device's motherboard to avoid incorrect wiring.
 
-    ![connector polarity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/flip_connector.png){class="glboxshadow gl-90-desktop"}
+    ![connector polarity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/axt_package/power-sw-connector.png){class="glboxshadow gl-90-desktop"}
 
 - When connecting to the F_PANEL interface on the controlled device's motherboard, ensure the silkscreen printing (e.g., HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward, not obscured facing inward.
 
