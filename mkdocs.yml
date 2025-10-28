@@ -160,6 +160,7 @@ nav:
     - How to unbrick KVM via U-Boot: faq/debrick.md
     - How to unbrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
     - How to change KVM hostname: tutorials/how_to_change_kvm_hostname.md
+    - How to change device identity: tutorials/how_to_change_device_identity.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md

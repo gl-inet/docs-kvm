@@ -15,3 +15,4 @@ Learn how to use our devices correctly or modify some parameters with detailed s
 * [How to unbrick KVM via U-Boot](../faq/debrick.md)
 * [How to unbrick KVM via RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
 * [How to change KVM hostname](how_to_change_kvm_hostname.md)
+* [How to change device identity](how_to_change_device_identity.md)
