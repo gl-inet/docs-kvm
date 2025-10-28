@@ -1,4 +1,4 @@
-# How to share files between controlling and controlled devices
+# How to share files between controlling and controlled devices?
 
 GL.iNet KVM supports Virtual Media, allowing you to share and manage files between the controlling device and the controlled device.
 

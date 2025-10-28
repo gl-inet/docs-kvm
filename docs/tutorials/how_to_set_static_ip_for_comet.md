@@ -1,4 +1,4 @@
-# How to set a static IP for Comet (GL-RM1)
+# How to set a static IP for KVM?
 
 If you need to set a static IP for Comet but its upstream router can't allocate one, you can customize network parameters on Comet to configure it.
 

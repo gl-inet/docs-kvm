@@ -1,4 +1,4 @@
-# How to fix mouse latency when RPi4 controls RPi3 via GLKVM
+# How to fix mouse latency when RPi4 controls RPi3?
 
 When using a Raspberry Pi4 to control a Raspberry Pi3 via GL.iNet KVM, mouse latency issues may occur, typically lasting for a few seconds.
 

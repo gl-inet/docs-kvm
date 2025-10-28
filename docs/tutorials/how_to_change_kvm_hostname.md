@@ -1,4 +1,4 @@
-# How to change KVM hostname
+# How to change KVM hostname?
 
 The default hostname of GL.iNet KVM is **glkvm**, which means you can locally access it via the domain `glkvm.local` when connected to the same network.
 
