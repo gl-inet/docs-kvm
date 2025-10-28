@@ -32,12 +32,26 @@ By default, GL.iNet KVM is recognized by the controlled devices as peripheral de
 ![speaker settings](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/speaker.png){class="glboxshadow"}
 <small>(speaker settings)</small>
 
-However, when you need to remotely access a controlled device through KVM and participate in video conference on the controlled device, if you do the screen sharing, the audio, mouse, or monitor settings displayed on the controlled device may expose that you are using KVM for remote access. 
+However, users may need to change KVM's device identity in the following scenarios.
 
-![screen sharing](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/screen_sharing.png){class="glboxshadow"}
-<small>(screen sharing)</small>
+??? "Scenario 1: Avoiding alerts from monitoring software on office computer"
 
-Therefore, customizing the device identity of KVM can help prevent this from happening.
+    When the controlled device is an office computer, it may have built-in or installed monitoring software. These tools may mark KVM remote access as abnormal activity, trigger alerts, and even report to IT systems. 
+    
+    Changing the KVM's device identity can help prevent such unnecessary notifications, while maintaining normal remote control functionality.
+
+??? "Scenario 2: Hiding KVM remote usage during online meeting screen sharing"
+
+    During online meetings that require screen sharing, the controlled device's system settings (e.g., Bluetooth & devices) may display the KVM's default identity. This may expose your KVM remote access usage to meeting participants, which could be undesirable for some users. 
+
+    Changing the device identity ensures the KVM remains hidden in shared screens.
+
+    ![screen sharing](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/screen_sharing.png){class="glboxshadow"}
+    <small>(screen sharing)</small>
+
+??? "Scenario 3: Resolving unresponsive mouse/keyboard control on the controlled device"
+
+    If you fail to control the mouse and keyboard on the controlled device through KVM, try modifying the KVM's device identity to avoid compatibility issues, enabling smooth signal transmission between the KVM and the controlled device.
 
 ## How to change device identity
 
