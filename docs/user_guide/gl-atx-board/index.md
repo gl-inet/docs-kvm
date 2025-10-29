@@ -30,7 +30,9 @@ Explanation of Interfaces:
 
 !!! note
 
-    Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the control line of the computer panel, and interface 4 can be connected to the F_PANEL. The LED status on the board is consistent with the Power LED status on the computer panel.
+    1. Interfaces 4 and 5 can be connected interchangeably. That is to say, interface 5 can be connected to the control line of the computer panel, and interface 4 can be connected to the F_PANEL. 
+    
+    2. There are two LEDs on the ATX board, and both LEDs' behavior is the same as the Power LED (blue indicates the ATX system; green indicates PC power). There is no HDD LED on the ATX board. The LED status on the board is consistent with the Power LED status on the computer panel. 
 
 Interfaces 4/5 diagram:
 
