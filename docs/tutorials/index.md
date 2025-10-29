@@ -12,7 +12,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 
 * [How to set a static IP for KVM?](how_to_set_static_ip_for_comet.md)
 * [How to change KVM hostname?](how_to_change_kvm_hostname.md)
-* [How to change device identity?](how_to_change_device_identity.md)
+* [How to change KVM device identity?](how_to_change_device_identity.md)
 * [How to set EDID for KVM?](how_to_set_edid_for_glkvm.md)
 
 ## Virtual Media
