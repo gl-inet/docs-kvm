@@ -6,6 +6,8 @@ If you want to change the hostname, there are two methods: through the settings 
 
 ## Method 1. Control Panel Settings
 
+**Note**: This feature is available in firmware version 1.7.0 and above.
+
 1. Log in to your KVM, navigate to **Settings** -> **Network** -> **Hostname**, and click **Modify**. 
 
     ![hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings-hostname.png){class="glboxshadow"}
