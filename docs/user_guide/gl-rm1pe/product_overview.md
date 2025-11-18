@@ -2,11 +2,11 @@
 
 ## Appearance
 
-![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-1.png){class="glboxshadow"}
+![gl-rm1pe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/rm1pe_interface.png){class="glboxshadow"}
 
-## Interface
+## Dimension
 
-![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/interface.png){class="glboxshadow"}
+![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/rm1pe_dimension.png){class="glboxshadow"}
 
 ## LED
 

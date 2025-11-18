@@ -4,7 +4,7 @@ Comet PoE (GL-RM1PE) is the Power-over-Ethernet version of the [Comet (GL-RM1)](
 
 In addition, this version upgrades the EMMC capacity to 32GB, making it more capable of handling system logs, recordings, or custom firmware.
 
-![get to know comet poe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/appearance-2.jpg){class="glboxshadow"}
+![get to know comet poe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/rm1pe_scenario_shelf.jpg){class="glboxshadow"}
 
 - [Product Overview](product_overview.md)
 - [Quick Setup Guide](quick_setup_guide.md)

@@ -2,13 +2,11 @@
 
 ## Appearance
 
-![appearance 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance-1.jpg){class="glboxshadow"}
+![gl-rm1 interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/rm1_interface_1.png){class="glboxshadow"}
 
-![appearance 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/appearance-2.png){class="glboxshadow"}
+## Dimension
 
-## Interface
-
-![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/interface.png){class="glboxshadow"}
+![gl-rm1 dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/rm1_dimension.png){class="glboxshadow"}
 
 ## LED
 
