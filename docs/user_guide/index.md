@@ -26,7 +26,7 @@
       </a>
     </div>
     <div class="gl-product-card">
-      <a href="gl-rm10rc/">
+      <a href="https://www.gl-inet.com/products/gl-rm10rc/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rm10rc.png" >
         <div class="gl-product-model">GL-RM10RC</div>
         <div class="gl-product-model">(Comet 5G)</div>
