@@ -1,4 +1,4 @@
-# Comet (GL-RM1) Quick Setup Guide
+# Comet (GL-RM1) / Comet V2 (GL-RM1 V2) Quick Setup Guide
 
 ## Connect the Devices
 

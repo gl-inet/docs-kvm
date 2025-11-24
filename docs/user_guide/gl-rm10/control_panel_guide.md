@@ -1,4 +1,4 @@
-# Control Panel Guide
+# Comet Pro (GL-RM10) Control Panel Guide
 
 ## Settings
 

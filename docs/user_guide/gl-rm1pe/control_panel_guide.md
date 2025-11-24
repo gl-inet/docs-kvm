@@ -1,4 +1,4 @@
-# Control Panel Guide
+# Comet PoE (GL-RM1PE) Control Panel Guide
 
 ## Settings
 

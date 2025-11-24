@@ -1,4 +1,4 @@
-# Control Panel Guide
+# Comet (GL-RM1) / Comet V2 (GL-RM1 V2) Control Panel Guide
 
 ## Settings
 

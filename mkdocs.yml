@@ -98,7 +98,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
-    - GL-RM1 (Comet): 
+    - GL-RM1/GL-RM1 V2 (Comet/Comet V2): 
       - Get to Know Comet: user_guide/gl-rm1/index.md
       - Product Overview: user_guide/gl-rm1/product_overview.md
       - Quick Setup Guide: user_guide/gl-rm1/quick_setup_guide.md
