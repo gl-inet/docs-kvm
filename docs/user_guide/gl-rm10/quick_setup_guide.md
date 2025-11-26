@@ -4,7 +4,7 @@
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-device.png){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-devices.png){class="glboxshadow"}
 
 1. Connect the Comet Pro to the power source.
 
