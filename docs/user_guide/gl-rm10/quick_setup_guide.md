@@ -4,29 +4,29 @@
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-device.png){class="glboxshadow" width="535"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-device.png){class="glboxshadow"}
 
 1. Connect the Comet Pro to the power source.
 
-    ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/01-power-on.png){class="glboxshadow"}
+    ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/01-power-on.jpg){class="glboxshadow"}
 
 2. Use an HD cable to connect the Comet Pro's HD IN port to the HD OUT port of the Device B. Use another HD cable to connect the Comet Pro's HD OUT port to the monitor if the Device B is a desktop computer.
 
-    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/02-hd-cable.png){class="glboxshadow" width="500"}
+    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/02-hd-cable.png){class="glboxshadow"}
 
 3. Connect the Comet Pro's USB Type-C port to the USB interface of the Device B using a USB cable.
 
-    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/03-usb-cable.png){class="glboxshadow" width="500"}
+    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/03-usb-cable.png){class="glboxshadow"}
 
 4. Connect the Comet Pro to a network source via an Ethernet cable or Wi-Fi.
 
     - Ethernet: Connect the Comet Pro's Ethernet port to a network source.
 
-        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-ethernet.png){class="glboxshadow" width="466"}
+        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-ethernet.png){class="glboxshadow"}
 
     - Wi-Fi: Swipe left on the touchscreen, connect Comet Pro to an existing Wi-Fi network (2.4G/5G supported).
 
-        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-wifi.png){class="glboxshadow" width="466"}
+        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-wifi.png){class="glboxshadow"}
 
 5. Device connection is complete. 
 

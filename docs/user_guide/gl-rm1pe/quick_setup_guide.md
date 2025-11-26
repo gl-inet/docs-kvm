@@ -4,7 +4,7 @@
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow" width="612"}
+![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow"}
 
 1. Connect the Comet PoE to the PoE Switch with an Ethernet cable.
 
