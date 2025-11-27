@@ -148,7 +148,7 @@ You will be able to access the Comet PoE's control panel locally, thus access th
 
 Comet PoE integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In Comet PoE's control panel, navigate to Apps Center -> Tailscale, bind Comet PoE to your Tailscale account.
+In Comet PoE's control panel, navigate to **Apps Center** -> **Tailscale**, bind Comet PoE to your Tailscale account.
 
 Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet PoE by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 

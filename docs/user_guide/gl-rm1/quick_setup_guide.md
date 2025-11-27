@@ -66,8 +66,6 @@ You will be able to access the Comet's control panel locally, thus access the co
 
 **Method 1**. via Cloud service
 
-This feature is available in firmware v1.5.0 and above.
-
 1. Bind your device to KVM Cloud.
 
     This needs to be done within the local network.
@@ -154,7 +152,7 @@ This feature is available in firmware v1.5.0 and above.
 
 Comet integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In Comet's control panel, navigate to Apps Center -> Tailscale, bind Comet to your Tailscale account. 
+In Comet's control panel, navigate to **Apps Center** -> **Tailscale**, bind Comet to your Tailscale account. 
 
 Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 
