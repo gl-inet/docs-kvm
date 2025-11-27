@@ -1,4 +1,4 @@
-# Comet (GL-RM1) / Comet V2 (GL-RM1 V2) Overview
+# Comet (GL-RM1) V1/V2 Overview
 
 ## Appearance
 
