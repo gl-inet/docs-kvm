@@ -4,23 +4,23 @@
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_device_distinction.jpg){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/01_device_distinction.jpg){class="glboxshadow"}
 
 1. Connect the Comet to the power source.
 
-    ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
+    ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/02_power-on.jpg){class="glboxshadow"}
 
 2. Use an HD cable to connect the Comet's HD IN port to the HD OUT port of the Device B.
 
-    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/03_hdmi.jpg){class="glboxshadow"}
+    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/03_hdmi.jpg){class="glboxshadow"}
 
 3. Connect the Comet's USB-Device port to the USB interface of the Device B using a USB cable.
 
-    ![Connect the USB port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/04_usb-cable.jpg){class="glboxshadow"}
+    ![Connect the USB port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/04_usb-cable.jpg){class="glboxshadow"}
 
 4. Plug the Comet's Ethernet port to a network source.
 
-    ![Connect to network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
+    ![Connect to network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/05_ethernet.jpg){class="glboxshadow"}
 
 5. Device connection is complete. 
 
@@ -52,7 +52,7 @@ Take GL-AXT1800 as an example: Comet is connected to the LAN port of GL-AXT1800 
 
 Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
 
 Open a new tab in the browser, enter Comet's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
