@@ -4,7 +4,7 @@
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/01_device_distinction.jpg){class="glboxshadow"}
 
 1. Connect the Comet to the power source.
 
