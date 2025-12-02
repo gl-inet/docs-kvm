@@ -43,7 +43,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Show Virtual Keyboard**: Display and use the virtual keyboard on the control page.
 
-    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/show_virtual_keyboard.png){class="glboxshadow"}
+    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/show-virtual-keyboard.png){class="glboxshadow"}
 
 - **Mouse**: Turn on or off the mouse of the controlled device.
 
@@ -313,17 +313,35 @@ In the control panel, navigate to **Help**. Here you can find more information a
 
 ## Toolbar
 
-In the control panel, navigate to the upper-right corner to access the following tools:
+In the control panel, navigate to the top right corner to access the following tools:
 
-- Collapse Toolbar
-- Full-Screen
-- Upgrade Firmware
-- Cloud Service
-- Security
+- [Collapse Toolbar](#collapse)
+- [Fullscreen](#fullscreen)
+- [Upgrade](#upgrade)
+- [Cloud Service](#cloud-service)
+- [Security](#security)
 - Reboot
 - Logout
 
+### Collapse
 
+Click the upward arrow icon in the top right corner to collapse the toolbar.
+
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/collapse1.jpg){class="glboxshadow"}
+
+When the toolbar is collapsed, click the downward arrow icon at the top to expand it.
+
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/collapse2.jpg){class="glboxshadow"}
+
+### Fullscreen
+
+Click the fullscreen icon (square-shaped) in the top right corner to switch to fullscreen mode.
+
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/fullscreen1.png){class="glboxshadow"}
+
+When in fullscreen mode, press and hold the Esc key, or click the exit fullscreen icon (grid-shaped) in the top right corner to exit fullscreen. 
+
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/fullscreen2.jpg){class="glboxshadow"}
 
 ### Upgrade
 
