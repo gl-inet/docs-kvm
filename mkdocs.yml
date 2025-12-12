@@ -123,6 +123,7 @@ nav:
     - Quick Start:
       - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
       - GLKVM App: faq/glkvm_app.md
+      - Unbind KVM: faq/unbind.md
     - Local & Remote Access:
       - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
       - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md

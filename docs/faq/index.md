@@ -14,6 +14,7 @@ If your question is not listed below, please contact our technical support team 
 
 * [Quick FAQs about GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Download GLKVM App](glkvm_app.md)
+* [Unbind KVM](unbind.md)
 
 ## Local & Remote Access
 
