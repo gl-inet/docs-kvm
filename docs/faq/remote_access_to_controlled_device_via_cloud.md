@@ -1,7 +1,5 @@
 # How to remotely access the controlled device via Cloud service?
 
-**Note**: This feature is available in firmware v1.5.0 and above.
-
 Before you begin, please ensure the following:
 
 - The controlled device is connected to the KVM correctly.
@@ -14,9 +12,9 @@ Follow the steps below to remotely access your KVM and the controlled device via
 
 ## 1. Bind your device to KVM Cloud
 
-Locally access your KVM, and go to the Cloud Service in the upper right corner. Click **Access Cloud**.
+Locally access your KVM, and go to the Cloud Service in the upper right corner. Click **Bind To Cloud**.
 
-![access cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/access_cloud.jpg){class="glboxshadow"}
+![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
 You will be re-directed to a login page. Input your glinet account and click **Log In**.
 

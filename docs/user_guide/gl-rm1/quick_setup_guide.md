@@ -38,6 +38,8 @@ Launch a browser on the controlling device. Chrome or Edge is recommended for be
 
 Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
+**Note**: You will need to set up your admin password when accessing your KVM for the first time.
+
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow gl-90-desktop"}
 
 You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
@@ -56,6 +58,8 @@ Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the
 
 Open a new tab in the browser, enter Comet's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
+**Note**: You will need to set up your admin password when accessing your KVM for the first time.
+
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow gl-90-desktop"}
 
 You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
@@ -70,9 +74,9 @@ You will be able to access the Comet's control panel locally, thus access the co
 
     This needs to be done within the local network.
 
-    First, locally access your Comet, and go to the Cloud Service in the upper right corner. Click **Access Cloud**.
+    First, locally access your Comet, and go to the Cloud Service in the upper right corner. Click **Bind To Cloud**.
 
-    ![access cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/access_cloud.jpg){class="glboxshadow"}
+    ![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
     You will be re-directed to a login page. Input your glinet account and click **Log In**.
 
