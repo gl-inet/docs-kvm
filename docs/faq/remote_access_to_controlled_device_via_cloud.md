@@ -38,7 +38,7 @@ After login, you will see the devices bound to your account. Click on the device
 
 ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
-It will redirect to a new webpage with the domain `glkvm.top`, `glkvm.site`, or `glkvm.xyz`. These domains are secure and provided by GL.iNet.
+It will redirect to a new webpage with the domain `glkvm.xyz`, `glkvm.site`, or `glkvm.top`. These domains are secure and provided by GL.iNet.
     
 Enter the admin password and log in.
 
