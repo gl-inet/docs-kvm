@@ -96,7 +96,9 @@ You will be able to access the Comet PoE's control panel locally, thus access th
 
     ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow gl-90-desktop"}
 
-    It will open a new tab asking for device admin password. Enter the admin password and log in.
+    It will redirect to a new webpage with the domain `glkvm.top`, `glkvm.site`, or `glkvm.xyz`. These domains are secure and provided by GL.iNet.
+    
+    Enter the admin password and log in.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow gl-90-desktop"}
 
