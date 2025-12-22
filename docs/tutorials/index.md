@@ -15,6 +15,10 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 * [How to change KVM device identity?](how_to_change_device_identity.md)
 * [How to set EDID for KVM?](how_to_set_edid_for_glkvm.md)
 
+## Cloud Service
+
+* [How to bind KVM to the cloud via dynamic code?](how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+
 ## Virtual Media
 
 * [How to share files between controlling and controlled devices?](how_to_share_files_between_controlling_device_and_controlled_device.md)
