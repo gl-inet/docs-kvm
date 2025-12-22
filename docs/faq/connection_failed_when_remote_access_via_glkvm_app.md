@@ -8,15 +8,31 @@ When accessing remotely through the GLKVM app, sometimes you may encounter a pro
 
 ![connection failed](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connection_failed.jpg){class="glboxshadow"}
 
-Here are some troubleshooting tips:
+Troubleshooting Guide:
 
-1. Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
+1. Ensure stable network connectivity.
 
-2. Check if the controlling device (where the GLKVM app is installed) has VPN or proxy enabled. Disable the VPN and proxy, then re-open the GLKVM app and reconnect to your device.
+    Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
 
-3. Check whether the local firewall of the controlling device blocks the GLKVM app's access to the Internet, or intercepts GL.iNet-related domains' traffic (such as goodcloud.xyz, gl-inet.net, astrowarp.net, etc.). 
+2. Check Network Firewall Rules.
 
-    Disable the local firewall or add GL.iNet-related domains into the firewall allowlist, then try again.
+    Disable the local firewall temporarily, or add GL.iNet-related domains (e.g., glkvm.com, glkvm.xyz, glkvm.top) to the firewall allowlist. Retry the connection after applying changes.
+
+3. Disable VPN/Proxy on the Controlling Device.
+
+    Ensure the device running the GLKVM app does not have VPN or proxy services enabled, as these may interfere with connectivity.
+
+4. Restart the KVM if Possible.
+
+    Perform a hardware restart on the KVM device if possible to clear transient network or software issues.
+
+Additional Technical Notes:
+
+1. Ensure DNS resolution for the domains is functional.
+
+2. Confirm that outbound traffic to standard KVM/remote-access ports is not blocked.
+
+3. For enterprise networks, consult IT administrators regarding potential traffic filtering policies.
 
 ---
 
