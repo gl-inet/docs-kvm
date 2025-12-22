@@ -18,6 +18,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 ## Virtual Media
 
 * [How to share files between controlling and controlled devices?](how_to_share_files_between_controlling_device_and_controlled_device.md)
+* [How to install an operating system on the controlled computer remotely?](how_to_install_os_remotely.md)
 
 ## Troubleshooting
 

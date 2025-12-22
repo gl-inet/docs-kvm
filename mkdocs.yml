@@ -160,6 +160,7 @@ nav:
       - How to set EDID for KVM: tutorials/how_to_set_edid_for_glkvm.md
     - Virtual Media:
       - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
+      - How to install OS remotely: tutorials/how_to_install_os_remotely.md
     - Troubleshooting: 
       - How to unbrick KVM via U-Boot: faq/debrick.md
       - How to unbrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
