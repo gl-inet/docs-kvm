@@ -1,16 +1,19 @@
 # What should I do if I failed to bind device to the GLKVM app?
 
-The [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} allows you to remotely access your controlled device from a host device. Simply install the app on your host device and bind your GL.iNet KVM device to it.
+The [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} enables remote access to your controlled device from the controller device. Simply install the app on your controller device and bind your GL.iNet KVM device to it, and you can access the controlled device remotely anytime, anywhere.
 
-However, binding failures may occur during this process.
+However, device binding might fail due to various reasons.
 
-Click on the error message below to view the corresponding solution.
+Click the error message below for corresponding solutions.
 
 ??? "Binding failed, unable to obtain basic KVM device information."
 
+    ![binding failed device info error](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/binding_failed_device_info_error.png){class="glboxshadow"}
+
     1. Check the LED state. Ensure the LED is solid white and your KVM device is connected to Internet.
     2. Restart your KVM device, wait for 2 minutes and try to bind it again.
-    3. Follow the steps below to check the network by Ping command.
+    3. If you add device by S/N code, make sure you enter the correct S/N.
+    4. Follow the steps below to check the network by **Ping** command.
        
         1. Connect your controlling device to the same network as your KVM.
 
@@ -34,9 +37,11 @@ Click on the error message below to view the corresponding solution.
 
 ??? "Device network error, binding failed."
 
+    ![binding failed network error](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/binding_failed_network_error.png){class="glboxshadow"}
+
     1. Check the LED state. Ensure the LED is solid white and your KVM device is connected to Internet.
     2. Restart your KVM device, wait for 2 minutes and try to bind it again.
-    3. Follow the steps below to check the network by Ping command.
+    3. Follow the steps below to check the network by **Ping** command.
        
         1. Connect your controlling device to the same network as your KVM.
 
@@ -60,11 +65,39 @@ Click on the error message below to view the corresponding solution.
 
     4. Ensure the Cloud service is enabled. 
 
-        The Cloud service is enabled by default, but if you disable it manually via web browser, device re-binding to the GLKVM app will fail. Please access your KVM device locally via web browser to re-enable the Cloud service.
+        The Cloud service is enabled by default, but if you has disabled it manually before, device re-binding to the GLKVM app will fail. Please access your KVM device locally via domain or IP address to re-enable the Cloud service.
 
-??? "Binding failed, KVM is already bind by others."
+??? "Binding failed, KVM is already bound by others."
 
-    The KVM device has been bound to another email. Please check if you have bound it to your another email address.
+    ![binding failed bound by others](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/binding_failed_bound_by_others.png){class="glboxshadow"}
+
+    This means the KVM device has been bound to another account.
+    
+    1. Check if you have bound it to your another email address. Try other accounts if any.
+    
+    2. If you add device by S/N code, make sure you enter the correct S/N.
+
+??? "Incorrect Dynamic Binding Code. You have 4 attempts remaining."
+
+    ![incorrect binding code](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/incorrect_binding_code.png){class="glboxshadow"}
+
+    This means you entered an invalid or expired binding code. 
+    
+    1. Log in to your KVM admin console locally, navigate to **Cloud Service** in the upper right corner and click **Bind with Code** to get a dynamic binding code. 
+    
+    2. If it expires, click **Regenerate** to get a new one.
+
+??? "Incorrect Device ID. You have 4 attempts remaining."
+
+    ![incorrect device id](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/incorrect_device_id.png){class="glboxshadow"}
+
+    This means you entered the wrong Device ID. 
+    
+    1. Check the bottom label for the correct Device ID.
+    
+    2. If you cannot check the bottom label, try binding your device via local access. 
+    
+        Log in to your KVM admin console locally, navigate to **Cloud Service** in the upper right corner and click **Bind To KVM Cloud**. Then you will be redirected to the binding page with a unique token. Log in with your Cloud account, and confirm the device information to complete the binding.
 
 ??? "Other"
 
