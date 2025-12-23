@@ -130,6 +130,9 @@ nav:
       - Remote access via App: faq/remote_access_to_controlled_device_via_glkvm_app.md
       - Remote access via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
       - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
+    - Cloud Service:
+      - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+      - Disable Cloud service: faq/disable_cloud.md
     - Device Power Issues:
       - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
       - Device is bricked: faq/debrick.md

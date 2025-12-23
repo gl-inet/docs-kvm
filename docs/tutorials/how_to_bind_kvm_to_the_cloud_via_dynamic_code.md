@@ -1,12 +1,12 @@
-# How to bind KVM to the cloud via dynamic code?
+# How to bind KVM to the Cloud via dynamic code?
 
-This tutorial will introduce how to easily bind GL.iNet KVM to the cloud through dynamic code.
+This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through dynamic code.
 
 Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
 1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_to_controlled_device_via_browser.md) for details. 
 
-2. After login, navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**.
+2. After login, navigate to **Cloud Service** in the upper right corner, and click **Bind With Code**.
 
     ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
 

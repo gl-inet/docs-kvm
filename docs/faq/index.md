@@ -24,6 +24,12 @@ If your question is not listed below, please contact our technical support team 
 * [How to remotely access the controlled device via Tailscale?](remote_access_to_controlled_device_via_tailscale.md)
 * [Privacy error when accessing via browser](privacy_error_from_your_browser.md)
 
+## Cloud Service
+
+* [How to bind KVM to the Cloud via dynamic code?](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+* [How to disable Cloud service?](disable_cloud.md)
+* [How to delete Cloud account?]()
+
 ## Device Power Issues
   
 * [What should I do if my KVM does not power on?](power_cable_connected_but_device_unpowered.md)
