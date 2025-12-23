@@ -28,7 +28,6 @@ If your question is not listed below, please contact our technical support team 
 
 * [How to bind KVM to the Cloud via dynamic code?](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [How to disable Cloud service?](disable_cloud.md)
-* [How to delete Cloud account?]()
 
 ## Device Power Issues
   
