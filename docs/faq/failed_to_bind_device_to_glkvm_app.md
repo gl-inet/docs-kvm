@@ -41,7 +41,11 @@ Click the error message below for corresponding solutions.
 
     1. Check the LED state. Ensure the LED is solid white and your KVM device is connected to Internet.
     2. Restart your KVM device, wait for 2 minutes and try to bind it again.
-    3. Follow the steps below to check the network by **Ping** command.
+    3. Ensure the Cloud service is enabled. 
+
+        The Cloud service is enabled by default, but if you has disabled it manually before, device re-binding to the GLKVM app will fail. Please access your KVM device locally via domain or IP address to re-enable the Cloud service.
+
+    4. Follow the steps below to check the network by **Ping** command.
        
         1. Connect your controlling device to the same network as your KVM.
 
@@ -63,10 +67,6 @@ Click the error message below for corresponding solutions.
 
             If the network is unstable or unavailable, please contact your ISP or router support.
 
-    4. Ensure the Cloud service is enabled. 
-
-        The Cloud service is enabled by default, but if you has disabled it manually before, device re-binding to the GLKVM app will fail. Please access your KVM device locally via domain or IP address to re-enable the Cloud service.
-
 ??? "Binding failed, KVM is already bound by others."
 
     ![binding failed bound by others](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/binding_failed_bound_by_others.png){class="glboxshadow"}
@@ -85,7 +85,11 @@ Click the error message below for corresponding solutions.
     
     1. Log in to your KVM admin console locally, navigate to **Cloud Service** in the upper right corner and click **Bind with Code** to get a dynamic binding code. 
     
-    2. If it expires, click **Regenerate** to get a new one.
+    2. For the GL-RM10 (Comet Pro) model, you can also obtain the code on the touchscreen. Slide to the **Cloud Service** screen and click **Generate Binding Code**, then you will see a dynamic binding code on the touchscreen. Enter this binding code in the GLKVM app to complete the binding.
+
+        ![generate binding code](https://static.gl-inet.com/docs/kvm/faq/failed_to_bind_device_to_glkvm_app/binding_code_screen.png){class="glboxshadow"}
+    
+    3. If the binding code expires, click **Regenerate** to get a new one.
 
 ??? "Incorrect Device ID. You have 4 attempts remaining."
 
