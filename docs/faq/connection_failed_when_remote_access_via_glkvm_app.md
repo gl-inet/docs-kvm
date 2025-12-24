@@ -1,18 +1,16 @@
 # Connection failed when remote access via GLKVM app
 
-When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it shows "Connection Failed".
+When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it stucks on "Connecting". 
 
-![device online](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/device_online.jpg){class="glboxshadow"}
+![device online](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/device_online.png){class="glboxshadow"}
 
-![connecting](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connecting.jpg){class="glboxshadow"}
-
-![connection failed](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connection_failed.jpg){class="glboxshadow"}
+![connecting](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connecting.png){class="glboxshadow"}
 
 Troubleshooting Guide:
 
 1. Ensure stable network connectivity.
 
-    Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
+    Make sure the KVM is connected to a stable Internet. A solid-white LED indicates normal network connectivity.
 
 2. Check Network Firewall Rules.
 
@@ -25,6 +23,16 @@ Troubleshooting Guide:
 4. Restart the KVM if Possible.
 
     Perform a hardware restart on the KVM device if possible to clear transient network or software issues.
+
+    If you are not near the KVM device, you can remotely reboot it via the GLKVM App:
+
+    1. In the device list, click **Manage** in the upper right corner of your device.
+
+        ![app reboot 1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/app_reboot_1.png){class="glboxshadow"}
+
+    2. Click **More** and select **Reboot**.
+
+        ![app reboot 2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/app_reboot_2.png){class="glboxshadow"}
 
 Additional Technical Notes:
 
