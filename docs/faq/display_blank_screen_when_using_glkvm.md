@@ -4,6 +4,12 @@ When accessing the controlled device via GLKVM, if you encounter blank (white or
 
 ![blank screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/blank_screen.jpg){class="glboxshadow"}
 
+Please navigate to Settings -> Video -> Transfer and change the Transfer to **Deric H.264**. 
+
+![change mode](https://static.gl-inet.cn/KVM/rm10/1change_mode.png){class="glboxshadow"}
+
+If the problem persists, please check the following settings.
+
 ## Check Hardware Connection
 
 1. **Faulty HDMI Cable**
