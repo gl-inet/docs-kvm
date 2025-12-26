@@ -130,11 +130,11 @@ Click **Add Device** to choose a device from the same LAN and set up Wake-on-LAN
 
 You can access the terminal of Comet to perform advanced settings.
 
-![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-terminal.png){class="glboxshadow"}
+![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-terminal-1.png){class="glboxshadow"}
 
 Click **Access**, you will be re-directed to the GLKVM terminal, as shown below.
 
-![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-terminal-2.png){class="glboxshadow"}
+![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-terminal-2.png){class="glboxshadow"}
 
 ## Accessories
 
