@@ -8,77 +8,83 @@ Follow the steps below to remotely access the controlled device via GLKVM app.
 
 Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device. It supports Windows and macOS.
 
-## 2. Sign up and log in
+## 2. Log in account
 
-Sign up for a GL.iNet account. If you already have one, skip this step.
+Open the GLKVM app and log in with your GL.iNet account. 
 
-![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/sign_up_account.png){class="glboxshadow"}
+![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
-Log in to your account.
+If you don't have a GL.iNet account, sign up for one and then log in.
     
-![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/log_in_account.png){class="glboxshadow"}
+![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
-## 3. Bind your device
+## 3. Bind devices
 
-If your KVM and the controlling device are in the same local area network, click **Add Device**. It will start searching automatically.
+After login, the page will display as follows. Click **Add Device**.
 
-![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow gl-90-desktop"}
+There are three ways to bind your device: Auto Discover, S/N Code, and Dynamic Binding Code.
 
-If your KVM has not been detected or it is not in the same local network, click the **+** button in the upper right corner to add it manually.
+![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-![add manually](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_manually_1.png){class="glboxshadow gl-90-desktop"}
+### Auto Discover
 
-Customize the device name and input the S/N, which can be found on the bottom label of the KVM device.
+This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
 
-![add manually](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_manually_2.png){class="glboxshadow"}
+1. Click **Auto Discover**. It will start searching automatically.
 
-Binding device. Please ensure a stable network connection.
+    ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
 
-![binding](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/binding.png){class="glboxshadow gl-90-desktop"}
-    
-Binding successful. Your KVM device has been bound to your account. Click **Done**.
+2. Locate your KVM and enter its Device ID to bind it to your account.
 
-![binding successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/binding_successful.png){class="glboxshadow gl-90-desktop"}
+    ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
 
-You will be directed to the homepage, where your KVM device will be displayed Online.
+### S/N Code
 
-![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow gl-90-desktop"}
+This applies to the scenario where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
+
+1. Click **S/N Code**. 
+
+2. In the pop-up window, customize the device name and enter the S/N, which is printed on the label bottom of your KVM device.
+
+    ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
+
+### Dynamic Binding Code
+
+Please upgrade your KVM firmware to version 1.7 before using this feature.
+
+This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
+
+1. Log in to your KVM locally using domain or IP address. Click [here](../faq/local_access_to_controlled_device_via_browser.md) for details. 
+
+2. Navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**. 
+
+    ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
+
+3. It will generate an 8-digit dynamic code randomly for device binding, valid for 60 seconds. Click the code to copy it.
+
+    ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
+
+4. Back to the GLKVM app, enter the dynamic binding code and click **Bind**.
+
+    ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
 ## 4. Remote access
 
-Click your KVM device.
+Once your KVM device is bound to your account, it will show "Online" in the app.
 
-![remote control](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_control.png){class="glboxshadow gl-90-desktop"}
+![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow"}
 
-It will open a new window and display a connection progress bar.
+Click your KVM device. It will open a new window and start connecting.
 
-![connecting to remote device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connecting_to_remote_device.png){class="glboxshadow gl-90-desktop"}
+![connecting](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connecting.png){class="glboxshadow"}
 
 Once connected, enter the admin password to log in to your device.
 
-![enter admin password to log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/log_in_device.png){class="glboxshadow gl-90-desktop"}
+![connected log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_login.png){class="glboxshadow"}
 
-You will be logged in to the control panel of your KVM device. Now you can access the controlled device through KVM.
+You will then access your KVM device, through which you can access the controlled device.
 
-![remote control panel](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_access_via_app.jpg){class="glboxshadow gl-90-desktop"}
-
-??? "Troubleshooting: Connection failed when remote access via GLKVM app"
-
-    When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it shows "Connection Failed".
-
-    ![device online](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/device_online.jpg){class="glboxshadow gl-90-desktop"}
-
-    ![connecting](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connecting.jpg){class="glboxshadow gl-90-desktop"}
-
-    ![connection failed](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connection_failed.jpg){class="glboxshadow gl-90-desktop"}
-
-    Here are some troubleshooting tips:
-
-    1. Make sure the KVM is connected to the Internet. A solid-white LED indicates normal network connectivity.
-
-    2. Check if the controlling device (where the GLKVM app is installed) has VPN or proxy enabled. Disable the VPN and proxy, then re-open the GLKVM app and reconnect to your device.
-
-    3. Check whether the local firewall of the controlling device blocks the GLKVM app's access to the Internet, or intercepts GL.iNet-related domains' traffic (such as goodcloud.xyz, gl-inet.net, astrowarp.net, etc.). Disable the local firewall or add GL.iNet-related domains into the firewall allowlist, then try again.
+![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
 ---
 
