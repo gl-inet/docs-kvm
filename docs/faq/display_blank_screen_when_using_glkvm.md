@@ -6,7 +6,7 @@ When accessing the controlled device via GLKVM, if you encounter blank (white or
 
 Please navigate to Settings -> Video -> Transfer and change the Transfer to **Derict H.264**. 
 
-![change mode](https://static.gl-inet.cn/KVM/rm10/1change_mode.png){class="glboxshadow"}
+![change transfer](https://static.gl-inet.cn/KVM/rm10/1change_mode.png){class="glboxshadow"}
 
 If the problem persists, please check the following settings.
 
