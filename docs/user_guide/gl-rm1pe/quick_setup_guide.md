@@ -156,7 +156,7 @@ There are three ways to access Comet PoE remotely: via Cloud service, GLKVM App,
     
         This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
     
-        1. Log in to your KVM locally using domain or IP address. Click [here](../faq/local_access_to_controlled_device_via_browser.md) for details. 
+        1. Log in to your KVM locally using domain or IP address. Click [here](../../faq/local_access_to_controlled_device_via_browser.md) for details. 
     
         2. Navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**. 
     
