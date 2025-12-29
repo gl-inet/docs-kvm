@@ -114,45 +114,79 @@ There are three ways to access Comet PoE remotely: via Cloud service, GLKVM App,
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
-2. Sign up and log in.
-    
-    Sign up for a GL.iNet account. If you already have one, skip this step.
+2. Log in with your GL.iNet account. 
 
-    ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/sign_up_account.png){class="glboxshadow"}
-    
-    Enter the username and password to log in.
-    
-    ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/log_in_account.png){class="glboxshadow"}
+    ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
-4. Bind your device.
+    If you don't have a GL.iNet account, sign up for one and then log in.
+    
+    ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
-    If your Comet PoE and the controlling device are in the same local area network, click **Add Device**. It will start searching automatically.
+3. Bind your device.
+
+    After login, the page will display as follows. Click **Add Device**.
+
+    There are three ways to bind your device: Auto Discover, S/N Code, and Dynamic Binding Code.
 
     ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-    If your Comet PoE has not been detected or it is not in the same local network, click the **+** button in the upper right corner to add it manually.
-
-    ![add manually](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_manually_1.png){class="glboxshadow"}
-
-    Customize the device name and input the S/N, which can be found on the bottom label.
-
-    ![add manually](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_manually_2.png){class="glboxshadow"}
-
-    Binding device. Please ensure a stable network connection.
-
-    ![binding](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/binding.png){class="glboxshadow"}
+    - Auto Discover
     
-    Binding successful. Your Comet PoE has been bound to your account. Click **Done**.
+        This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
+    
+        Click **Auto Discover**. It will start searching automatically.
+    
+        ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
+        
+        Locate your KVM and enter its Device ID to bind it to your account.
+    
+        ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
+    
+    - S/N Code
+    
+        This applies to the scenario where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
+        
+        Click **S/N Code**. In the pop-up window, customize the device name and enter the S/N, which is printed on the label bottom of your KVM device.
+    
+        ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
+    
+    - Dynamic Binding Code
+    
+        Please upgrade your KVM firmware to version 1.7 before using this feature.
+    
+        This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
+    
+        1. Log in to your KVM locally using domain or IP address. Click [here](../../faq/local_access_to_controlled_device_via_browser.md) for details. 
+    
+        2. Navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**. 
+    
+            ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
+    
+        3. It will generate an 8-digit dynamic code randomly for device binding, valid for 60 seconds. Click the code to copy it.
+    
+            ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
+    
+        4. Back to the GLKVM app, enter the dynamic binding code and click **Bind**.
+    
+            ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
-    ![binding successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/binding_successful.png){class="glboxshadow"}
+4. Remote access via GLKVM App.
 
-    You will be directed to the homepage, where your Comet PoE will be displayed Online.
+    Once your KVM device is bound to your account, it will show "Online" in the app.
 
     ![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow"}
 
-    Click on it, input the admin password (created during the first access), and you can remotely access the Comet PoE's control panel, thus access the controlled device connected to it.
+    Click your KVM device. It will open a new window and start connecting.
 
-    ![remote access via app](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/remote_access_via_app.jpg){class="glboxshadow"}
+    ![connecting](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connecting.png){class="glboxshadow"}
+
+    Once connected, enter the admin password to log in to your device.
+
+    ![connected log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_login.png){class="glboxshadow"}
+
+    You will then access your KVM device, through which you can access the controlled device.
+
+    ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
 ### Tailscale
 
