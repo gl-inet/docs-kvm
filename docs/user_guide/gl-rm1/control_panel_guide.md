@@ -27,7 +27,7 @@ You can customize the video settings of the control page, e.g., display mode, vi
 
 - **EDID**: Extended Display Identification Data (EDID) automatically matches the display's optimal parameters.
 
-    The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
+    The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](../../faq/how_to_set_edid_for_glkvm.md){target="_blank"} for details.
 
 ### Remote Device Settings
 
@@ -37,7 +37,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
 
-- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. Firmware v1.7 introduces one-click mute, and a long-press shortcut to activate the microphone.
+- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. It supports one-click mute, and a long-press shortcut to activate the microphone.
 
 - **Keyboard**: Turn on or off the keyboard of the controlled device.
 
@@ -49,9 +49,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Show Local Cursor**: Display the mouse of the current device on the screen.
 
-- **Mouse Jiggle**: This feature is available since firmware v1.3.0. 
-    
-    It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
+- **Mouse Jiggle**: It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
 
 - **Scroll Rate**: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
 
@@ -85,9 +83,9 @@ You can check Comet's network details, e.g., Hostname and IP address.
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/settings-network.png){class="glboxshadow"}
 
-As shown above, Comet connects to the upper network device via an Ethernet cable and its IP address is 192.168.8.2.
+As shown above, Comet connects to an upstream network device via an Ethernet cable and its IP address is 192.168.8.2.
 
-Click **Modify** to change the ethernet settings.
+You can click **Modify** to adjust the ethernet settings if needed.
 
 ![settings-network-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/settings-network-modify.png){class="glboxshadow"}
 
@@ -114,7 +112,7 @@ You can find some common shortcut options here.
 
 ![toolbox-shortcut](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-shortcuts.png){class="glboxshadow"}
 
-Click **Modify** to adjust the shortcuts options.
+Click **Modify** to adjust the shortcuts options if needed.
 
 ![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-modify-shortcut.png){class="glboxshadow gl-50-desktop"}  
 
@@ -128,11 +126,11 @@ Click **Add Device** to choose a device from the same LAN and set up Wake-on-LAN
 
 ### Terminal
 
-You can access the terminal of Comet to perform advanced settings.
+You can access Comet's terminal to perform advanced settings.
 
 ![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-terminal-1.png){class="glboxshadow"}
 
-Click **Access**, you will be re-directed to the GLKVM terminal, as shown below.
+Click **Access**, and you will be re-directed to the GLKVM terminal, as shown below.
 
 ![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-terminal-2.png){class="glboxshadow"}
 
@@ -140,15 +138,15 @@ Click **Access**, you will be re-directed to the GLKVM terminal, as shown below.
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote control. 
 
-Firstly, refer to the corresponding user guide to connect the accessory to the controlled device.
+First, refer to the corresponding user guide for connecting the accessory to the controlled device.
 
 - [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
 
-Then log in to the control panel, navigate to **Accessories**. You will be able to control the device's power on/off. 
+Second, log in to the control panel and navigate to **Accessories**. You will be able to control the device's power on/off through the accessories. 
 
-**Note**: Accessory settings are only displayed after installation.
+**Note**: Accessory settings are only available after the accessory is installed.
 
 ### Fingerbot
     
@@ -247,8 +245,6 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
 
 ### Image Mounting
 
-It emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
-
 Comet can simulate a read-only virtual CD/DVD or disk drive on the device being controlled. You can access this drive during the BIOS or UEFI startup process. 
     
 This function can help you reinstall the operating system or mount an ISO to install applications on the device being controlled, or perform other tasks.
@@ -270,8 +266,6 @@ This function can help you reinstall the operating system or mount an ISO to ins
     Then you can use this file on the controlled end.
 
 ### Replace Storage Drive
-
-This feature was introduced in firmware v1.7
 
 You can insert a USB storage device into the KVM USB port to replace the internal storage.
 
@@ -297,11 +291,11 @@ In the control panel, navigate to **Apps Center**. The integrated applications c
 
 Comet integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In the control panel, navigate to Apps Center -> Tailscale, bind Comet and your controlling device to your Tailscale account. Then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
+Simply bind the Comet and your controlling device to the same Tailscale account, and you will be able to remotely access the Comet by entering its **Tailscale virtual IP** into a web browser on the controlling device, without installing the GLKVM app.
 
 Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for more instructions.
 
-Once enabled, the page will show the bind account.
+After binding, the control page will show the bound Tailscale account.
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/apps-tailscale2.png){class="glboxshadow"}
 

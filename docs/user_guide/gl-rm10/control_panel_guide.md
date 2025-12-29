@@ -2,113 +2,121 @@
 
 ## Settings
 
-In the control panel, navigate to **Settings**, you will get a page as below.
+In the control panel, navigate to **Settings**. The settings page includes four sections: 
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/settings.png){class="glboxshadow"}
+- [Video](#video)
+- [Remote Device Settings](#remote-device-settings)
+- [System](#system)
+- [Network](#network)
+
+![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-general.png){class="glboxshadow"}
 
 ### Video
 
-You can modify the video quality, orientation and EDID settings of the control page. 
+You can customize the video settings of the control page, e.g., display mode, video quality, video transmission, screen orientation, EDID, etc. 
 
-![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-video.jpg){class="glboxshadow"}
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-video.png){class="glboxshadow"}
+
+- **Mode**: Switch between Normal and Smart mode. Smart mode balances latency and video quality for a better experience, especially in weak networks.
     
-- Quality: Adjust the video quality to low/medium/high/ultra-high according to your network and resolution requirements.
+- **Quality**: Adjust the video quality to low/medium/high/ultra-high according to your network and resolution requirements.
 
-- Orientation: Adjust the control page rotation degree.
+- **Transfer**: Switch the video transmission method between WebRTC H.264 and Direct H.264. Note that the Direct H.264 has no sound.
 
-- EDID: Extended Display Identification Data. It aims to automatically match the display optimal parameters. The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](https://docs.gl-inet.com/kvm/en/faq/how_to_set_edid_for_glkvm/){target="_blank"} for details.
+- **Orientation**: Adjust the rotation angle of the control page to 0°/90°/180°/270°.
 
-- Mode: You can switch the mode between WebRTC H.264 and Direct H.264.
+- **EDID**: Extended Display Identification Data (EDID) automatically matches the display's optimal parameters.
+
+    The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](../../faq/how_to_set_edid_for_glkvm.md){target="_blank"} for details.
 
 ### Remote Device Settings
 
 You can adjust the relevant settings of the controlled device.
 
-![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-remote-device.png){class="glboxshadow"}
+![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-remote-device.png){class="glboxshadow"}
 
-- Speaker: Control audio output from the controlled device (e.g., system sounds, video audio)
+- **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
 
-- Microphone: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction.
+- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. It supports one-click mute, and a long-press shortcut to activate the microphone.
 
-- Keyboard: Turn on or off the keyboard of the controlled device.
+- **Keyboard**: Turn on or off the keyboard of the controlled device.
 
-- Show Virtual Keyboard: Display and use the virtual keyboard on the control page.
+- **Show Virtual Keyboard**: Display and use the virtual keyboard on the control page.
 
-    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/show_virtual_keyboard.png){class="glboxshadow"}
+    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-virtual-keyboard.png){class="glboxshadow"}
 
-- Mouse: Turn on or off the mouse of the controlled device.
+- **Mouse**: Turn on or off the mouse of the controlled device.
 
-- Show Local Cursor: Display the mouse of the current device on the screen.
+- **Show Local Cursor**: Display the mouse of the current device on the screen.
 
-- Mouse Jiggle: This feature is available since firmware v1.3.0. 
-    
-    It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
+- **Mouse Jiggle**: It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
 
-- Scroll Rate: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
+- **Scroll Rate**: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
 
-- Scroll Direction: It determines whether scrolling the mouse wheel up/down moves content on the remote screen in the same direction (natural scrolling) or the opposite direction (traditional scrolling). 
+- **Scroll Direction**: It determines whether scrolling the mouse wheel up/down moves content on the remote screen in the same direction (natural scrolling) or the opposite direction (traditional scrolling). 
 
     Four direction modes are available: Standard, Vertical Invert, Horizontal Invert, and Both Invert.  
 
-- Mouse Mode: Including Absolute Mode and Relative Mode.
+- **Mouse Mode**: Including Absolute Mode and Relative Mode.
 
-- Relative Sensitivity: It is available when the Mouse Mode is Relative.
+- **Relative Sensitivity**: It is available when the Mouse Mode is Relative.
 
 ### System
 
-You can change the system display settings of the control panel, or reset the device with one click.
+You can customize the system display settings of the control panel, or reset the device with one click.
 
-![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings-system.jpg){class="glboxshadow"}
+![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-system.png){class="glboxshadow"}
 
-- Device Identity: Change or customize your KVM's identity recognized by the controlled device.
+- **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that the EDID and device identification will remain synchronized; changing one of them will make the other one automatically updated to ensure correct recognition.
 
-    Note that the EDID and device identification will remain synchronized; changing one of them will make the other one automatically updated to ensure correct recognition.
+- **Language**: Set the control panel's language to Chinese or English.
 
-- Language: Switch the language of control panel. 
+- **Color Mode**: Customize the theme color to dark and light mode.
 
-- Color Mode: Switch the theme color, including dark and light modes.
+- **Time Zone**: Customize the time zone of the KVM control panel. This is only for the KVM control panel, not the system time of the controlled device.  
 
-- Time Zone: You can change the time zone of the KVM control panel. This is only for the KVM control panel, not the system time of the controlled device.  
-
-- Reset KVM: Factory reset your KVM with just one click.
+- **Reset KVM**: Factory reset your KVM with just one click.
 
 ### Network
 
-You can check Comet Pro's network details.
+You can check Comet Pro's network details, e.g., Hostname and IP address.
 
-![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/settings-network.png){class="glboxshadow"}
+![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-network.png){class="glboxshadow"}
 
-As shown above, Comet Pro connects to the router via an Ethernet cable and Wi-Fi at the same time.
+As shown above, Comet Pro connects to an upstream network device via an Ethernet cable and Wi-Fi simultaneously.
 
-Click **Modify** to change the Ethernet or Wi-Fi settings.
+You can click **Modify** to adjust the ethernet settings (e.g., assign a static IP) or wireless settings (e.g., switch networks) if needed.
 
-![settings-network-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/ethernet-settings.png){class="glboxshadow"}
+![settings-modify-ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-modify-ethernet.png){class="glboxshadow"}
+
+![settings-modify-wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-modify-wifi.png){class="glboxshadow"}
 
 ## Toolbox
 
-In the control panel, navigate to **Toolbox**.
+In the control panel, navigate to **Toolbox**. The toolbox page includes four sections: 
 
-![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/toolbox.png){class="glboxshadow"}
+- [Clipboard](#clipboard)
+- [Shortcut](#shortcut)
+- [Wake On Lan](#wake-on-lan)
+- [Terminal](#terminal)
+
+![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-general.png){class="glboxshadow"}
 
 ### Clipboard
 
 The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
 
-![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-clipboard.png){class="glboxshadow"}
+![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-clipboard.png){class="glboxshadow"}
 
 ### Shortcut
 
-It shows some common shortcut options.
+You can find some common shortcut options here.
 
-![toolbox-shortcut](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut.png){class="glboxshadow"}
+![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-shortcuts-1.png){class="glboxshadow"}
 
-Click **Show All** to show all shortcut options.
+Click **Modify** to adjust the shortcuts options if needed.
 
-![toolbox-shortcut-all](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut-all.png){class="glboxshadow"}  
-
-Click **Modify** to adjust the shortcut options.
-
-![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-shortcut-modify.png){class="glboxshadow gl-50-desktop"}  
+![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-shortcuts-2.png){class="glboxshadow"}  
 
 ### Wake On Lan
 
@@ -116,47 +124,47 @@ Wake-on-LAN (WOL) is a technology that allows the controlled device to be remote
 
 Click **Add Device** to choose a device from the same LAN and set up Wake-on-LAN.
 
-![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-wol.png){class="glboxshadow"}  
+![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-wol.png){class="glboxshadow"}  
 
 ### Terminal
 
-You can access the Comet Pro's terminal to perform advanced settings.
+You can access Comet Pro's terminal to perform advanced settings.
 
-![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox-terminal-1.png){class="glboxshadow"}
+![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-terminal-1.png){class="glboxshadow"}
 
-Click **Access**, you will be re-directed to the GLKVM terminal, as shown below.
+Click **Access**, and you will be re-directed to the GLKVM terminal, as shown below.
 
-![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/access-terminal.png){class="glboxshadow"}
+![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-terminal-2.png){class="glboxshadow"}
 
 ## Accessories
 
 GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote control. 
 
-Firstly, refer to the corresponding user guide to connect the accessory to the controlled device.
+First, refer to the corresponding user guide for connecting the accessory to the controlled device.
 
 - [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
 
-Then log in to the control panel, navigate to **Accessories**. You will be able to control the device's power on/off. 
+Second, log in to the control panel and navigate to **Accessories**. You will be able to control the device's power on/off through the accessories. 
 
-**Note**: Accessory settings are only displayed after installation.
+**Note**: Accessory settings are only available after the accessory is installed.
 
 ### Fingerbot
     
 The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
     
-It works as per the following settings.
+It works according to the settings configured on the control panel.
 
-![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories_fingerbot.png){class="glboxshadow"}
+![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/accessories-fgb.png){class="glboxshadow"}
 
-- Time: The duration for which the Fingerbot presses.
+- **Time**: The press duration of the Fingerbot. You can set it to 0.5s/3s/8s.
 
-- Strength: Two levels of pressing strength are provided: Light Press mode and Hard Press mode.
+- **Strength**: There are two levels of pressing strength: Lightly Press and Firmly Press.
 
-    - Light Press Mode: Perfect for short or soft-touch buttons.
-        
-    - Hard Press Mode: Ideal for deep or firm buttons.
+    - **Lightly Press**: Perfect for short or soft-touch buttons.
+    
+    - **Firmly Press**: Ideal for deep or firm buttons.
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
@@ -164,138 +172,197 @@ It works as per the following settings.
 
 The ATX Board is installed in the computer case to achieve remote control of the device's power on/off/reboot.
 
-It works as per the following settings.
+It works according to the settings configured on the control panel.
 
-![accessories atxpower](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/accessories_atxpower.png){class="glboxshadow"}
+![accessories atxpower](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/accessories-atx.png){class="glboxshadow"}
 
-- Power (Short Press): Used for regular power-on or system wake-up.
+- **Power (Short Press)**: Used for regular power-on or system wake-up.
 
-- Power (Long Press): Performs a forced shutdown operation.
+- **Power (Long Press)**: Performs a forced shutdown operation.
 
-- Restart: Restart the device.
+- **Restart**: Restart the device.
 
 ## Virtual Media
 
-Comet Pro allows you to transfer files between the controlling device and the controlled device.
+Comet Pro allows you to transfer files or mount images between the controlling device and the controlled device.
 
-In the control panel, navigate to **Virtual Media**. Drag or click the box to upload files from your controlling device, or upload from URL. 
+In the control panel, navigate to **Virtual Media**. Here you can perform the following operations:
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/virtual_media.png){class="glboxshadow"}
+- [Share Files](#file-sharing)
+- [Mount Images](#image-mounting)
+- [Replace Storage Drive](#replace-storage-drive)
+- [Format Disk](#format-disk)
 
-Once uploaded, the files will be displayed as follows.
-
-![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/virtual_media_upload.png){class="glboxshadow"}
-
-Click **Mount To Remote**, and you will see two options: **File Sharing** and **Image Mounting**.
-
-![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/mount_to_remote_unmarked.png){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-general.png){class="glboxshadow"}
     
 ### File Sharing
 
 It emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
-To share files from the controlling device to the controlled one, follow the steps below.
+**To share files from the controlling device to the controlled one, follow the steps below.**
 
-1. Click **Mount To Remote** -> **File Sharing**. 
+1. Drag or click the box to upload files from your controlling device or upload from URL. 
 
-    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing.png){class="glboxshadow"}
+    Once uploaded, the files will be displayed as follows.
+
+    ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-upload-file.png){class="glboxshadow"}
+
+2. Click **Mount To Remote** -> **File Sharing**. 
+
+    ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-file-sharing.png){class="glboxshadow"}
 
     A window will pop up in the control panel to indicate file sharing steps, as shown below.
     
-    ![file sharing apply](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing_apply.png){class="glboxshadow"}
+    ![file sharing tips](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-sharing-tips.png){class="glboxshadow"}
 
-2. In the Comet Pro's control panel, access your controlled device and go to **This PC**. 
+3. In the Comet Pro's control screen, go to **This PC** of your controlled device. 
 
-    ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing_1.png){class="glboxshadow"}
+    ![go to this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-thispc.png){class="glboxshadow"}
 
-3. Find a Drive named **GLKVM**, and you will see that the files you uploaded previously from the controlling device to Comet Pro have been shared to the controlled device. Now you can view, move or delete the files in this drive.
+4. Find a disk named **GLKVM**, and you will see the files you uploaded previously from the controlling device to Comet Pro have been shared to the controlled device.
 
-    ![file sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing_2.png){class="glboxshadow"}
+    Now you can view, move or delete the files in this disk.
 
-If you want to share files from the controlled device to the controlling one, follow the steps below.
+    ![glkvm disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-glkvm-disk.png){class="glboxshadow"}
 
-1. Copy the files you want to share into the drive **GLKVM**. 
+5. If you want to stop sharing, click **Virtual Media** in the toolbar and click **Stop Sharing**.
 
-    For example, a PDF file named "gl-rm1_datasheet" has been copied from the controlled device's Desktop into the drive **GLKVM**. 
+    ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-stop-sharing.png){class="glboxshadow"}
 
-    ![file sharing 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing_3.png){class="glboxshadow"}
+**To share files from the controlled device to the controlling one, follow the steps below.**
+
+1. Save or copy the files you want to share into the disk **GLKVM**. 
+
+    For example, a PDF file named "gl-rm10_datasheet" has been copied from the controlled device's Desktop into the disk **GLKVM**. 
+
+    ![copy file to disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-copy-file.png){class="glboxshadow"}
     
-2. Turn to the Comet Pro's control panel -> **Virtual Media**, click **Stop Sharing**.
+2. Turn to the Comet Pro's control panel, click **Virtual Media** in the toolbar and click **Stop Sharing**.
 
-    ![file sharing 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing_4.png){class="glboxshadow"}
+    ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-stop-sharing2.png){class="glboxshadow"}
     
 3. Then this file will be displayed under the Virtual Media, as shown below. Now you can download this file from Comet Pro to your controlling device.
 
-    ![file sharing 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/file_sharing_5.png){class="glboxshadow"}
-    
+    ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-file-shared.png){class="glboxshadow"}
+
 ### Image Mounting
 
-It emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
-
-Comet Pro can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. 
+Comet Pro can simulate a read-only virtual CD/DVD or disk drive on the device being controlled. You can access this drive during the BIOS or UEFI startup process. 
     
-This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
+This function can help you reinstall the operating system or mount an ISO to install applications on the device being controlled, or perform other tasks.
     
-Click on **Image Mounting**, in the pop-up window, select the file and ensure this file can be mounted as an iso format, then click **Mount Image**. 
+1. Drag or click the box to upload files. **Ensure this file can be mounted as an iso format**.
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_image.png){class="glboxshadow"}
+    Once uploaded, the files will be displayed as follows.
 
-Then you can use this file on the controlled end.
+    ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-upload-iso.png){class="glboxshadow"}
+    
+2. Click **Mount To Remote** -> **Image Mounting**. 
+
+    ![image mounting 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-image-mount1.png){class="glboxshadow"}
+
+3. In the pop-up window, select the file and click **Mount Image**.
+
+    ![image mounting 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-image-mount2.png){class="glboxshadow"}
+
+    Then you can use this file on the controlled end.
+
+### Replace Storage Drive
+
+You can insert a USB storage device into the KVM USB port to replace the internal storage.
+
+![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-replace-storage.png){class="glboxshadow"}
+
+### Format Disk
+
+You can format the disk or disable the virtual media with one click.
+
+![format disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/vm-format-disable.png){class="glboxshadow"}
+
+- **Format**: Erase all data on the disk and reinitialize its file system structure.
+
+- **Disable**: Disable the virtual media will immediately reboot the KVM device. 
 
 ## Apps Center
 
-In the control panel, navigate to **Apps Center**, the integrated applications can be found here.
+In the control panel, navigate to **Apps Center**. The integrated applications can be found here.
 
-![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/apps_center.png){class="glboxshadow"}
+![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/apps-center.png){class="glboxshadow"}
 
 ### Tailscale
 
 Comet Pro integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In the control panel, navigate to Apps Center -> Tailscale, bind Comet Pro and your controlling device to your Tailscale account. Then you can remotely access it by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
+Simply bind the Comet Pro and your controlling device to the same Tailscale account, and you will be able to remotely access the Comet Pro by entering its **Tailscale virtual IP** into a web browser on the controlling device, without installing the GLKVM app.
 
 Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for more instructions.
 
-Once enabled, the page will show the bind account.
+After binding, the control page will show the bound Tailscale account.
 
-![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/tailscale_enabled.png){class="glboxshadow"}
+![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/tailscale.png){class="glboxshadow"}
 
 ## Help
 
-Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
+In the control panel, navigate to **Help**. Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
 
-![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/ui-screenshot-no-fw/help.png){class="glboxshadow"}
+![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/help.png){class="glboxshadow"}
 
-## System Settings
+## Toolbar
 
-In the control panel, navigate to the upper-right corner to access the following system functions and options:
+In the control panel, navigate to the top right corner to access the following tools:
 
-- Collapse Toolbar
-- Full-Screen
-- Upgrade Firmware
-- Cloud Service
-- Security (including Change Admin Password and 2FA Auth)
+- [Collapse Toolbar](#collapse)
+- [Fullscreen](#fullscreen)
+- [Upgrade](#upgrade)
+- [Cloud Service](#cloud-service)
+- [Security](#security)
 - Reboot
 - Logout
 
+### Collapse
+
+Click the upward arrow icon in the top right corner to collapse the toolbar.
+
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/collapse1.png){class="glboxshadow"}
+
+When the toolbar is collapsed, click the downward arrow icon at the top to expand it.
+
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/collapse2.png){class="glboxshadow"}
+
+### Fullscreen
+
+Click the fullscreen icon (square-shaped) in the top right corner to switch to fullscreen mode.
+
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/fullscreen1.png){class="glboxshadow"}
+
+When in fullscreen mode, press and hold the Esc key, or click the exit fullscreen icon (grid-shaped) in the top right corner to exit fullscreen. 
+
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/fullscreen2.png){class="glboxshadow"}
+
 ### Upgrade
 
-Local and Online Upgrades are supported.
+If there's newer firmware available, you can upgrade it online. Alternatively, you can download the firmware from [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} and perform local upgrade.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
+![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/upgrade1.png){class="glboxshadow"}
+
+![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/upgrade2.png){class="glboxshadow"}
 
 ### Cloud Service
 
-GL.iNet KVM panel can be accessed locally, so as to manage the controlled device under local network. Click [here](#local-access-to-the-controlled-device) for more details.
+GL.iNet KVM can be accessed locally, so as to manage the controlled device under local network.
 
-If you want to access the controlled device remotely, we suggest you download the App to use Cloud service.
+If you want to access the controlled device remotely, we suggest you use Cloud service. Click [here](../gl-rm10/quick_setup_guide.md#remote-access-to-comet) for details.
 
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/cloud_service.jpg){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/cloud.png){class="glboxshadow"}
 
 ### Security
 
+Change admin password or enable two-factor authentication as needed. 
+
 - Change Admin Password.
 
-    ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
+    ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/change-password.png){class="glboxshadow" width="434"}
 
-- 2FA Auth: Enable two-factor authentication to protect your account.
+- 2FA: Enable two-factor authentication to protect your account.
+
+    ![2FA](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/2fa.png){class="glboxshadow"}
