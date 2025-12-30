@@ -6,7 +6,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/connect_device.png){class="glboxshadow"}
 
-1. Insert a SlM card into your Comet 5G, and power it on.
+1. Insert a SIM card into your Comet 5G, and power it on.
 
     ![insert sim power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/01-insert-sim-power-on.jpg){class="glboxshadow"}
 
@@ -36,9 +36,9 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 ## Local Access to Comet 5G
 
-There are two methods to access Comet 5G locally.
+There are two methods to access Comet 5G in the local network: via domain name or IP address.
 
-**Method 1**. via Domain
+### Domain
 
 First, ensure your controlling device is on the same LAN as your Comet 5G.
 
@@ -46,13 +46,15 @@ Launch a browser on the controlling device. Chrome or Edge is recommended for be
 
 Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow gl-90-desktop"}
+**Note**: You will need to set up your admin password when accessing your KVM for the first time.
+
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
 You will be able to access Comet 5G's control panel locally, thus access the controlled device connected to it.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow gl-90-desktop"}
+![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-**Method 2**. via IP address
+### IP address
 
 Find Comet 5G's IP address on the touchscreen, enter this IP address in the browser, and you will be able to access it locally, thus access the controlled device.
 
@@ -60,11 +62,13 @@ For example, if the Comet 5G's IP address is `192.168.8.197`.
 
 Open a new tab in the browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow gl-90-desktop"}
+**Note**: You will need to set up your admin password when accessing your KVM for the first time.
+
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
 You will be able to access the Comet 5G's control panel locally, thus access the controlled device connected to it.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow gl-90-desktop"}
+![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
 ## Remote Access to Comet 5G
 
