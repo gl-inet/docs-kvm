@@ -1,6 +1,6 @@
 # User Guide
 
-### Remote KVM over Internet
+### Remote KVM
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -35,7 +35,7 @@
   </div>
 </div>
 
-### KVM Accessories
+### Accessories
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
