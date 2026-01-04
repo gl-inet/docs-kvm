@@ -169,6 +169,7 @@ nav:
       - How to set EDID for KVM: tutorials/how_to_set_edid_for_glkvm.md
     - Cloud Service:
       - How to bind KVM to cloud via dynamic code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+      - How to use the cloud-based screen wall feature: tutorials/how_to_use_screen_wall.md
     - Virtual Media:
       - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
       - How to install OS remotely: tutorials/how_to_install_os_remotely.md
