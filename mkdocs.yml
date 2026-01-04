@@ -129,7 +129,6 @@ nav:
     - Quick Start:
       - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
       - GLKVM App: faq/glkvm_app.md
-      - Unbind KVM: faq/unbind.md
     - Local & Remote Access:
       - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
       - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
@@ -138,6 +137,7 @@ nav:
       - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
     - Cloud Service:
       - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+      - Unbind KVM: faq/unbind.md
       - Disable Cloud service: faq/disable_cloud.md
     - Device Power Issues:
       - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
