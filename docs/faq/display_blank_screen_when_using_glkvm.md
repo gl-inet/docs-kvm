@@ -42,7 +42,7 @@ If you access the controlled device via a browser and encounter a blank screen i
 
 1. **Device Not Powered On or in Sleep Mode**
 
-    Ensure the controlled device is fully powered on and not in sleep/hibernation mode due to power management settings (wake it via local buttons if needed).
+    Ensure the controlled device is fully powered on and not in sleep/hibernation mode due to power management settings (wake it via local buttons as needed).
 
 2. **Abnormal Graphics Card Drivers on the Controlled Device**
 

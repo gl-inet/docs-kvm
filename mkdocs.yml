@@ -139,6 +139,7 @@ nav:
       - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
       - Unbind KVM: faq/unbind.md
       - Disable Cloud service: faq/disable_cloud.md
+      - Delete Cloud account: faq/delete_cloud_account.md
     - Device Power Issues:
       - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
       - Device is bricked: faq/debrick.md

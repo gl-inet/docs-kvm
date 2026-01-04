@@ -85,7 +85,7 @@ You can check Comet PoE's network details, e.g., Hostname and IP address.
 
 As shown above, Comet PoE connects to an upstream network device via an Ethernet cable, with the IP address `192.168.10.209`.
 
-You can click **Modify** to customize the hostname, or adjust the ethernet settings (e.g., assign a static IP for your KVM) if needed.
+You can click **Modify** to customize the hostname, or adjust the ethernet settings (e.g., assign a static IP for your KVM) as needed.
 
 ![settings-modify-hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/settings-modify-hostname.png){class="glboxshadow"}
 
@@ -114,7 +114,7 @@ You can find some common shortcut options here.
 
 ![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/toolbox-shortcut.png){class="glboxshadow"}
 
-Click **Modify** to adjust the shortcuts options if needed.
+Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/toolbox-shortcut-modify.png){class="glboxshadow"}  
 

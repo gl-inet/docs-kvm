@@ -85,7 +85,7 @@ You can check and modify Comet 5G's network details here.
 
 As shown above, Comet 5G connects to the Internet via an Ethernet cable, Wi-Fi, and a Cellular SIM simultaneously.
 
-Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wireless settings (e.g., switch networks), or cellular settings if needed.
+Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wireless settings (e.g., switch networks), or cellular settings as needed.
 
 ??? "Ethernet Settings"
 
@@ -156,7 +156,7 @@ You can find some common shortcut options here.
 
 ![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/control_panel/toolbox-shortcut.png){class="glboxshadow"}
 
-Click **Modify** to adjust the shortcuts options if needed.
+Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/control_panel/toolbox-shortcut-modify.png){class="glboxshadow"}  
 

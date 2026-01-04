@@ -85,7 +85,7 @@ You can check Comet's network details, e.g., Hostname and IP address.
 
 As shown above, Comet connects to an upstream network device via an Ethernet cable and its IP address is 192.168.8.2.
 
-You can click **Modify** to adjust the ethernet settings if needed.
+You can click **Modify** to adjust the ethernet settings as needed.
 
 ![settings-network-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/settings-network-modify.png){class="glboxshadow"}
 
@@ -112,7 +112,7 @@ You can find some common shortcut options here.
 
 ![toolbox-shortcut](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-shortcuts.png){class="glboxshadow"}
 
-Click **Modify** to adjust the shortcuts options if needed.
+Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/toolbox-modify-shortcut.png){class="glboxshadow gl-50-desktop"}  
 
