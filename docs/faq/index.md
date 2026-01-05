@@ -14,7 +14,6 @@ If your question is not listed below, please contact our technical support team 
 
 * [Quick FAQs about GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Download GLKVM App](glkvm_app.md)
-* [Unbind KVM](unbind.md)
 
 ## Local & Remote Access
 
@@ -27,7 +26,9 @@ If your question is not listed below, please contact our technical support team 
 ## Cloud Service
 
 * [How to bind KVM to the Cloud via dynamic code?](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+* [How to unbind KVM from the Cloud?](unbind.md)
 * [How to disable Cloud service?](disable_cloud.md)
+* [How to delete Cloud account?](delete_cloud_account.md)
 
 ## Device Power Issues
   

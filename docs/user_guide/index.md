@@ -1,6 +1,6 @@
 # User Guide
 
-### Remote KVM over Internet
+### Remote KVM
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -26,7 +26,7 @@
       </a>
     </div>
     <div class="gl-product-card">
-      <a href="https://www.gl-inet.com/products/gl-rm10rc/">
+      <a href="gl-rm10rc/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rm10rc.png" >
         <div class="gl-product-model">GL-RM10RC</div>
         <div class="gl-product-model">(Comet 5G)</div>
@@ -35,7 +35,7 @@
   </div>
 </div>
 
-### KVM Accessories
+### Accessories
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

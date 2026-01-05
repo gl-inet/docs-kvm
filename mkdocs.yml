@@ -104,18 +104,24 @@ nav:
       - Quick Setup Guide: user_guide/gl-rm1/quick_setup_guide.md
       - Control Panel Guide: user_guide/gl-rm1/control_panel_guide.md
       - FCC & IC Compliance Statements: user_guide/gl-rm1/fcc_ic_compliance_statements.md
-    - GL-RM10 (Comet Pro): 
-      - Get to Know Comet: user_guide/gl-rm10/index.md
-      - Product Overview: user_guide/gl-rm10/product_overview.md
-      - Quick Setup Guide: user_guide/gl-rm10/quick_setup_guide.md
-      - Control Panel Guide: user_guide/gl-rm10/control_panel_guide.md
-      - FCC & IC Compliance Statements: user_guide/gl-rm10/fcc_ic_compliance_statements.md
     - GL-RM1PE (Comet PoE): 
-      - Get to Know Comet: user_guide/gl-rm1pe/index.md
+      - Get to Know Comet PoE: user_guide/gl-rm1pe/index.md
       - Product Overview: user_guide/gl-rm1pe/product_overview.md
       - Quick Setup Guide: user_guide/gl-rm1pe/quick_setup_guide.md
       - Control Panel Guide: user_guide/gl-rm1pe/control_panel_guide.md
       - FCC & IC Compliance Statements: user_guide/gl-rm1pe/fcc_ic_compliance_statements.md
+    - GL-RM10 (Comet Pro): 
+      - Get to Know Comet Pro: user_guide/gl-rm10/index.md
+      - Product Overview: user_guide/gl-rm10/product_overview.md
+      - Quick Setup Guide: user_guide/gl-rm10/quick_setup_guide.md
+      - Control Panel Guide: user_guide/gl-rm10/control_panel_guide.md
+      - FCC & IC Compliance Statements: user_guide/gl-rm10/fcc_ic_compliance_statements.md
+    - GL-RM10RC (Comet 5G): 
+      - Get to Know Comet 5G: user_guide/gl-rm10rc/index.md
+      - Product Overview: user_guide/gl-rm10rc/product_overview.md
+      - Quick Setup Guide: user_guide/gl-rm10rc/quick_setup_guide.md
+      - Control Panel Guide: user_guide/gl-rm10rc/control_panel_guide.md
+      - FCC & IC Compliance Statements: user_guide/gl-rm10rc/fcc_ic_compliance_statements.md
     - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
     - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
   - FAQ:
@@ -123,7 +129,6 @@ nav:
     - Quick Start:
       - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
       - GLKVM App: faq/glkvm_app.md
-      - Unbind KVM: faq/unbind.md
     - Local & Remote Access:
       - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
       - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
@@ -132,7 +137,9 @@ nav:
       - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
     - Cloud Service:
       - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+      - Unbind KVM: faq/unbind.md
       - Disable Cloud service: faq/disable_cloud.md
+      - Delete Cloud account: faq/delete_cloud_account.md
     - Device Power Issues:
       - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
       - Device is bricked: faq/debrick.md
@@ -163,6 +170,7 @@ nav:
       - How to set EDID for KVM: tutorials/how_to_set_edid_for_glkvm.md
     - Cloud Service:
       - How to bind KVM to cloud via dynamic code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+      - How to use the cloud-based screen wall feature: tutorials/how_to_use_screen_wall.md
     - Virtual Media:
       - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
       - How to install OS remotely: tutorials/how_to_install_os_remotely.md

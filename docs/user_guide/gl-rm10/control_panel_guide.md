@@ -85,7 +85,7 @@ You can check Comet Pro's network details, e.g., Hostname and IP address.
 
 As shown above, Comet Pro connects to an upstream network device via an Ethernet cable and Wi-Fi simultaneously.
 
-You can click **Modify** to adjust the ethernet settings (e.g., assign a static IP) or wireless settings (e.g., switch networks) if needed.
+You can click **Modify** to adjust the ethernet settings (e.g., assign a static IP) or wireless settings (e.g., switch networks) as needed.
 
 ![settings-modify-ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/settings-modify-ethernet.png){class="glboxshadow"}
 
@@ -114,7 +114,7 @@ You can find some common shortcut options here.
 
 ![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-shortcuts-1.png){class="glboxshadow"}
 
-Click **Modify** to adjust the shortcuts options if needed.
+Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/toolbox-shortcuts-2.png){class="glboxshadow"}  
 

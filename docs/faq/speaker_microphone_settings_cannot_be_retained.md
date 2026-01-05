@@ -6,7 +6,7 @@ Instead, the Speaker will be automatically disabled, and the Microphone, though 
 
 ![speaker mic settings](https://static.gl-inet.com/docs/kvm/faq/speaker_microphone_settings_cannot_be_retained/speaker_microphone_settings.png){class="glboxshadow"}
 
-This is because, due to browser security policies, the Speaker and Microphone are disabled/muted by default every time you restart, re-login to KVM or refresh the webpage (in local access). You can enable them manually if needed. 
+This is because, due to browser security policies, the Speaker and Microphone are disabled/muted by default every time you restart, re-login to KVM or refresh the webpage (in local access). You can enable them manually if required. 
 
 Authorization is required when enabling the Microphone for the first time, as shown below.
 

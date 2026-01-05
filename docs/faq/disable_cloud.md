@@ -4,7 +4,7 @@ GL.iNet KVM Cloud service is enabled by default, allowing users to bind KVM devi
 
 If you don't want to use Cloud service, you can manually disable it. Once disabled, remote access from the Cloud Service and GLKVM App will be unavailable. To re-enable it, you need to log in to your KVM locally via domain or IP address, or remotely via Tailscale.
 
-Follow the steps below to disable Cloud service if needed.
+Follow the steps below to disable Cloud service if required.
 
 1. Log in to your KVM device, and navigate to **Cloud Service** in the upper right corner. Click the gear icon and click **Disable**.
 
