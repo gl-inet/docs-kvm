@@ -1,12 +1,10 @@
 # What should I do if I cannot hear audio from the controlled device?
 
-After connecting the KVM and the controlled device, if you fail to hear the audio from the controlled device, for example, cannot hear the audio while playing video on the controlled device, here are some troubleshooting tips:
-
 After connecting the KVM and the controlled device, if you fail to hear audio from the controlled device (e.g., no sound when you play videos on the device), here are some troubleshooting tips:
 
-1. Ensure the Speaker is enabled in the GLKVM app.
+1. Ensure the Speaker is enabled in GLKVM panel.
 
-    In the GLKVM app (on your controlling device), navigate to **Settings** -> **Remote Device Settings** -> **Speaker** and make sure the speaker is enabled. Meanwhile, confirm the icon in the bottom right corner lights up (indicating it is active).
+    In the GLKVM control panel (on your host device), navigate to **Settings** -> **Remote Device Settings** -> **Speaker** and make sure the speaker is enabled. Meanwhile, confirm the icon in the bottom right corner lights up (indicating it is active).
 
     ![speaker](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/speaker.png){class="glboxshadow"}
 
@@ -16,9 +14,9 @@ After connecting the KVM and the controlled device, if you fail to hear audio fr
 
     It is recommended to use the HDMI cable that comes in the box, as some older-standard HDMI cables may not support audio transmission.
 
-4. Check whether the controlling device and the controlled device are set to mute.
+4. Check whether the host device and the controlled device are set to mute.
 
-5. Check the output settings of your controlled device and ensure the output device is GLKVM.
+5. Check the output settings of your controlled device and ensure the output device is **GLKVM**.
 
     ??? "macOS"
 
@@ -38,13 +36,17 @@ After connecting the KVM and the controlled device, if you fail to hear audio fr
 
         ![wins output settings 3](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/wins_output_settings_3.png){class="glboxshadow"}
 
-6. Check the graphics card driver of the controlled device. If the controlled computer does not have a graphics card driver, it will not be able to output audio, thus the sound cannot be heard at the controlling end.
+6. Check the graphics card driver of the controlled device. If the controlled device does not have a graphics card driver, it will not be able to output audio, thus the sound cannot be heard at the controlling end.
 
-7. Check the advanced sound options on your controlling device, and ensure that the browser has effective volume output. 
+7. Check the advanced sound settings on your host device, and ensure that your browser has an active volume output. 
 
-    Below is the advanced sound options of Windows 10 Pro for reference.
+    Below is an example of the advanced sound settings in Windows 10 Pro for reference.
+
+    Go to **Settings** -> **Sound** -> **Advanced sound options**.
 
     ![advanced sound options](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/advanced_sound_options.png){class="glboxshadow"}
+
+    Adjust volumn for specific apps and system sounds.
 
     ![app volume](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/app_volume.png){class="glboxshadow"}
 
