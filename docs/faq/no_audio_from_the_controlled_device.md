@@ -46,7 +46,7 @@ After connecting the KVM and the controlled device, if you fail to hear audio fr
 
     ![advanced sound options](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/advanced_sound_options.png){class="glboxshadow"}
 
-    Adjust volumn for specific apps and system sounds.
+    Adjust volume for specific apps and system sounds.
 
     ![app volume](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/app_volume.png){class="glboxshadow"}
 
