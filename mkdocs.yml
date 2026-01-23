@@ -158,6 +158,7 @@ nav:
       - Mouse cursors fail to overlap: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
       - Mouse latency when RPi4 controls RPi3 via GLKVM: faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
       - Keyboard does not input/output as expected: faq/keyboard_does_not_input_output_as_expected.md
+      - Relative mouse not working on Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
     - Audio Issues:
       - No audio from the controlled device: faq/no_audio_from_the_controlled_device.md
       - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md
