@@ -18,9 +18,9 @@
 
     Comet 5G supports dual-band Wi-Fi 6 (2.4GHz and 5GHz), providing high-speed, low-latency, and stable wireless connectivity for remote operation and data access.
 
-- **Near-Field Access via AP Mode**
+- **Nearby Control via AP Mode**
 
-    Comet 5G features Wi-Fi Near-field Control, enabling quick local configuration and management without wired connections. Simply switch the Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Users can connect to this SSID to securely access the management interface for device setup or maintenance.
+    Comet 5G features Wi-Fi Nearby Control, enabling quick local configuration and management without wired connections. Simply switch the Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Users can connect to this SSID to securely access the management interface for device setup or maintenance.
 
     **Note**: Activating the AP disconnects the device from its upstream Wi-Fi and provides local access only (with no internet connectivity).
 

@@ -32,11 +32,11 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 5. Device connection is complete. 
 
-    Now you can log in to the Comet 5G's control panel via near-field access, local LAN access, or remote access.
+    Now you can log in to the Comet 5G's control panel via nearby control, local LAN access, or remote access.
 
-## Near-Field Access
+## Nearby Control
 
-Near-Field Access is perfect for quick setup and management when you are close to the Comet 5G. 
+Nearby Control is perfect for quick setup and management when you are close to the Comet 5G. 
 
 On the touchscreen, simply switch the Wi-Fi network mode to **AP Mode**, and it will generate a unique Wi-Fi SSID, with network details displayed on the screen.
 

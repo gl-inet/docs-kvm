@@ -115,7 +115,7 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
     
         ![settings-modify-wifi-ap](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/control_panel/settings-modify-wifi-ap.png){class="glboxshadow"}
 
-        This mode is ideal for setting up a local area network, which enables terminal devices to achieve local access and **near-field offline control** of the KVM device.
+        This mode is ideal for setting up a local area network, which enables terminal devices to achieve local access and nearby control of the KVM device.
 
 ??? "Cellular Settings"
 
