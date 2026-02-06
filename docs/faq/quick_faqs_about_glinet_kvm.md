@@ -133,7 +133,7 @@ A3. Wake-on-LAN (WOL) is a technology that allows a computer or device to be rem
 
 **Q4. Does Comet support Mouse Jiggle?**
 
-A4. Yes. You can enable Mouse Jiggle on the KVM control panel.
+A4. Yes. You can enable Mouse Jiggle on the KVM console.
 
 It aims to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game idle status (when users leave the keyboard temporarily) to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
 
@@ -141,7 +141,7 @@ It aims to prevent the computer from entering sleep due to prolonged inactivity 
 
 **Q5. Does Comet support two-way audio?**
 
-A5. Yes. You can enable Speaker and Microphone on the KVM control panel to achieve two-way audio transmission.
+A5. Yes. You can enable Speaker and Microphone on the KVM console to achieve two-way audio transmission.
 
 ---
 

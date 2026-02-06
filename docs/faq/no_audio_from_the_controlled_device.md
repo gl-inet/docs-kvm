@@ -2,9 +2,9 @@
 
 After connecting the KVM and the controlled device, if you fail to hear audio from the controlled device (e.g., no sound when you play videos on the device), here are some troubleshooting tips:
 
-1. Ensure the Speaker is enabled in GLKVM panel.
+1. Ensure the Speaker is enabled on KVM console.
 
-    In the GLKVM control panel (on your host device), navigate to **Settings** -> **Remote Device Settings** -> **Speaker** and make sure the speaker is enabled. Meanwhile, confirm the icon in the bottom right corner lights up (indicating it is active).
+    On the KVM console, navigate to **Settings** -> **Remote Device Settings** -> **Speaker** and make sure the speaker is enabled. Meanwhile, confirm the icon in the bottom right corner lights up (indicating it is active).
 
     ![speaker](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/speaker.png){class="glboxshadow"}
 

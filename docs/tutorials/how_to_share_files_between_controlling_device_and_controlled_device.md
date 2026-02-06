@@ -6,7 +6,7 @@ In the following steps, we will take Comet (GL-RM1) as an example.
 
 **To share files from the controlling device to the controlled one, follow the steps below.**
 
-1. In the control panel, navigate to **Virtual Media**. Drag or click the box to upload files from your controlling device or upload from URL. 
+1. On the console, navigate to **Virtual Media**. Drag or click the box to upload files from your controlling device or upload from URL. 
 
     Once uploaded, the files will be displayed as follows.
 
@@ -16,7 +16,7 @@ In the following steps, we will take Comet (GL-RM1) as an example.
 
     ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/vm-file-sharing.png){class="glboxshadow"}
 
-    A window will pop up in the control panel to indicate file sharing steps, as shown below. 
+    A window will pop up on the console indicating the file sharing steps, as shown below. 
     
     Now the Comet is emulating a read-write USB drive on the controlled device.
     
@@ -46,7 +46,7 @@ In the following steps, we will take Comet (GL-RM1) as an example.
 
     ![copy file to disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/vm-copy-file.png){class="glboxshadow"}
     
-2. Turn to the Comet's control panel, click **Virtual Media** in the toolbar and click **Stop Sharing**.
+2. Turn to the Comet's console, click **Virtual Media** in the toolbar and click **Stop Sharing**.
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/vm-stop-sharing2.png){class="glboxshadow"}
     

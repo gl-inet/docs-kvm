@@ -1,4 +1,4 @@
-# Comet Pro (GL-RM10) Quick Setup Guide
+# Comet Pro (GL-RM10) Quick Setup
 
 ## Connect the Devices
 
@@ -30,7 +30,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 5. Device connection is complete. 
 
-    Now you can access Comet Pro's control panel locally or remotely.
+    Now you can access Comet Pro's console locally via a browser, or remotely via the Cloud service, the GLKVM app, or Tailscale.
 
 ## Local Access to Comet Pro
 
@@ -48,7 +48,7 @@ Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login 
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-You will be able to access Comet Pro's control panel locally, thus access the controlled device connected to it.
+You will be able to access Comet Pro's console locally, thus access the controlled device connected to it.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
@@ -64,7 +64,7 @@ Open a new tab in the browser and enter this IP in the address bar. You will be 
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-You will be able to access the Comet Pro's control panel locally, thus access the controlled device connected to it.
+You will be able to access the Comet Pro's console locally, thus access the controlled device connected to it.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
@@ -198,7 +198,7 @@ There are three ways to access Comet Pro remotely: via Cloud service, GLKVM App,
 
 Comet Pro integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In the control panel, navigate to **Apps Center** -> **Tailscale**, bind your Comet Pro to your Tailscale account. 
+On the console, navigate to **Apps Center** -> **Tailscale**, bind your Comet Pro to your Tailscale account. 
 
 Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet Pro by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 

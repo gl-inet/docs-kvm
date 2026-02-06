@@ -1,4 +1,4 @@
-# Comet PoE (GL-RM1PE) Quick Setup Guide
+# Comet PoE (GL-RM1PE) Quick Setup
 
 ## Connect the Devices
 
@@ -20,7 +20,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 4. Device connection is complete. 
 
-    You can now access the Comet PoE control panel locally via a browser on the controlling device, or download the GLKVM app on the controlling device to remotely access it.
+    You can now access the Comet PoE's console locally via a browser, or remotely via the Cloud service, the GLKVM app, or Tailscale.
 
 ## Local Access to Comet PoE
 
@@ -38,7 +38,7 @@ Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login 
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-You will be able to access the Comet PoE's control panel locally, thus access the controlled device connected to it.
+You will be able to access the Comet PoE's console locally, thus access the controlled device connected to it.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
@@ -58,7 +58,7 @@ Open a new tab in the browser, enter Comet PoE's IP in the address bar. You will
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-You will be able to access the Comet PoE's control panel locally, thus access the controlled device connected to it.
+You will be able to access the Comet PoE's console locally, thus access the controlled device connected to it.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
@@ -192,7 +192,7 @@ There are three ways to access Comet PoE remotely: via Cloud service, GLKVM App,
 
 Comet PoE integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In Comet PoE's control panel, navigate to **Apps Center** -> **Tailscale**, bind Comet PoE to your Tailscale account.
+On Comet PoE's console, navigate to **Apps Center** -> **Tailscale**, bind Comet PoE to your Tailscale account.
 
 Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet PoE by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 

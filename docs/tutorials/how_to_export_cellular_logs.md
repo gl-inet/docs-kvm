@@ -4,7 +4,7 @@ This tutorial introduces the steps to export Cellular-related logs from KVM devi
 
 The following steps take Comet 5G (GL-RM10RC) as an example.
 
-1. Log in to the KVM control panel, navigate to **Virtual Media** and make sure it is enabled.
+1. Log in to the KVM console, navigate to **Virtual Media** and make sure it is enabled.
 
 2. Navigate to **Toolbox** -> **Terminal**. Click **Access** to enter the KVM Terminal.
 
@@ -46,7 +46,7 @@ The following steps take Comet 5G (GL-RM10RC) as an example.
 
     Cellular modem logs are saved in the **/userdata/media/** directory with the filename suffix `xxx.qmdl`.
 
-    Log in to the KVM control panel, navigate to **Virtual Media** and locate the target file(s) with the suffix `xxx.qmdl`. Download these files and share them with GL.iNet technical support.
+    Log in to the KVM console, navigate to **Virtual Media** and locate the target file(s) with the suffix `xxx.qmdl`. Download these files and share them with GL.iNet technical support.
 
     ![qlog 5](https://static.gl-inet.com/docs/kvm/tutorials/export_cellular_logs/qlog5.png){class="glboxshadow"}
 

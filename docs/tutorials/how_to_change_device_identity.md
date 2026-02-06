@@ -6,9 +6,9 @@ GL.iNet KVM's device identity refers to the identifier that enables the KVM to b
 
 Since GL.iNet KVM works as a combined emulator of several devices for user interaction, when connected to the controlled device, it is recognized as a set of multiple devices, including a monitor, several USB devices such as mouse and keyboard, and USB drive. 
 
-By default, the device identity is **GLKVM**, which can be found in the KVM's control panel -> **Settings** -> **System**. 
+By default, the device identity is **GLKVM**, which can be found on the KVM console (**Settings** -> **System**). 
 
-![device identity control panel](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/device_identity.png){class="glboxshadow"}
+![device identity](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/device_identity.png){class="glboxshadow"}
 
 Typically, the KVM is equipped with a Type-C port, as shown below, which connects to the controlled device's USB port to simulate peripheral devices (e.g., keyboard, mouse, USB drive, microphone) and CD-ROM. 
 
@@ -69,7 +69,7 @@ However, users may need to change KVM's device identity in the following scenari
 
     ![customize3](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize3.png){class="glboxshadow"}
 
-3. After restarting, on the KVM control panel, the Device Identity has been changed to the modified one.
+3. After restarting, on the KVM console, the Device Identity has been changed to the modified one.
 
     ![customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize4.jpg){class="glboxshadow"}
 

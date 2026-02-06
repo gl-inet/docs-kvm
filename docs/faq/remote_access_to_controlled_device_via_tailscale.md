@@ -8,7 +8,7 @@ Follow these steps to remotely access your GL.iNet KVM and the controlled device
 
 **Before you begin, please connect your KVM and the controlling device to the same network.**
 
-Then access your KVM's control panel locally using domain name or IP address. A domain name will be used here for illustration.
+Then access your KVM console locally using domain name or IP address. A domain name will be used here for illustration.
 
 Firstly, launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
     
@@ -16,11 +16,11 @@ Secondly, enter `glkvm.local` in the address bar. You will be directed to the GL
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-You will be able to access your KVM's control panel locally.
+You will be able to access your KVM console locally.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-Thirdly, in the control panel, navigate to **Apps Center** -> **Tailscale**, enable Tailscale.
+Thirdly, on the console, navigate to **Apps Center** -> **Tailscale**, enable Tailscale.
 
 ![apps center](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/apps_center.png){class="glboxshadow"}
 

@@ -14,7 +14,7 @@ There are two ways to locally access the controlled device via web browser.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-    You will be able to access the control panel of your KVM locally, thus access the controlled device.
+    You will be able to access your KVM console locally, thus access the controlled device.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
@@ -30,7 +30,7 @@ Follow the steps below to access the controlled device.
 
     ![log in router](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/log_in_router.png){class="glboxshadow"}
 
-2. In the router's admin panel, navigate to **Client**, find the IP address of Comet in the Client list. As shown below, the Comet's IP is **192.168.8.197**.
+2. On the router's admin panel, navigate to **Client**, find the IP address of Comet in the Client list. As shown below, the Comet's IP is **192.168.8.197**.
 
     ![find glkvm ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
 
@@ -40,7 +40,7 @@ Follow the steps below to access the controlled device.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-    You will be able to access the control panel of your KVM locally, thus access the controlled device.
+    You will be able to access your KVM console locally, thus access the controlled device.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 

@@ -7,6 +7,6 @@ For connectivity, it supports Dual Band Wi-Fi 6 (stable, high-speed) and video p
 ![get to know comet pro](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/rm10-scenario-office.png){class="glboxshadow"}
 
 - [Product Overview](product_overview.md)
-- [Quick Setup Guide](quick_setup_guide.md)
-- [Control Panel Guide](control_panel_guide.md)
+- [Quick Setup](quick_setup_guide.md)
+- [Console Guide](control_panel_guide.md)
 - [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)

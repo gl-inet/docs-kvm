@@ -1,4 +1,4 @@
-# Comet 5G (GL-RM10RC) Quick Setup Guide
+# Comet 5G (GL-RM10RC) Quick Setup
 
 ## Connect Devices
 
@@ -32,7 +32,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 5. Device connection is complete. 
 
-    Now you can log in to the Comet 5G's control panel via nearby control, local LAN access, or remote access.
+    Now you can log in to the Comet 5G's console via nearby control, local LAN access, or remote access.
 
 ## Nearby Control
 
@@ -42,7 +42,7 @@ On the touchscreen, simply switch the Wi-Fi network mode to **AP Mode**, and it 
 
 ![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/nearby_access1.png){class="glboxshadow gl-80-desktop"}
 
-Connect a device to this Wi-Fi SSID, then you can access the Comet 5G's control panel via the default IP address (192.168.8.1) from a web browser.
+Connect a device to this Wi-Fi SSID, then you can access the Comet 5G's console via the default IP address (192.168.8.1) from a web browser.
 
 ![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/nearby_access2.png){class="glboxshadow"}
 
@@ -62,7 +62,7 @@ Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login 
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-You will be able to access Comet 5G's control panel locally, thus access the controlled device connected to it.
+You will be able to access Comet 5G's console locally, thus access the controlled device connected to it.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
@@ -78,7 +78,7 @@ Open a new tab in the browser and enter this IP in the address bar. You will be 
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-You will be able to access the Comet 5G's control panel locally, thus access the controlled device connected to it.
+You will be able to access the Comet 5G's console locally, thus access the controlled device connected to it.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
@@ -212,7 +212,7 @@ There are three ways to access Comet 5G remotely: via Cloud service, GLKVM App, 
 
 Comet 5G integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In the control panel, navigate to **Apps Center** -> **Tailscale**, bind your Comet 5G to your Tailscale account. 
+On the console, navigate to **Apps Center** -> **Tailscale**, bind your Comet 5G to your Tailscale account. 
 
 Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet 5G by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 

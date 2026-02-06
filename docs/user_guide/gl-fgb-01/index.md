@@ -65,9 +65,9 @@ Watch this video or follow the steps below to install Fingerbot.
 
 ## Setup
 
-1. Log in to GL.iNet KVM control panel.
+1. Log in to GL.iNet KVM console.
 
-2. In the KVM control panel, navigate to **Accessories**. You can achieve different effects by adjusting the pressing duration and intensity.
+2. On the KVM console, navigate to **Accessories**. You can achieve different effects by adjusting the pressing duration and intensity.
 
     ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/accessories.jpg){class="glboxshadow"}
 

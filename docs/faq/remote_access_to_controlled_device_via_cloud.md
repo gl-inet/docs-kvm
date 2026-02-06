@@ -14,9 +14,9 @@ Follow the steps below to remotely access your KVM and the controlled device via
 
 There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding.
 
-- **Regular Binding**: Click "Bind To KVMCloud" on the admin panel, then you will be redirected to the binding page with the token. Log in to your cloud account, and confirm the device information to complete the binding.
+- **Regular Binding**: Click "Bind To KVMCloud" on the KVM console, then you will be redirected to the binding page with the token. Log in to your cloud account, and confirm the device information to complete the binding.
 
-- **Dynamic Code Binding**: Click "Bind With Code" on the admin panel, then it will generate an 8-digit dynamic code randomly for device binding. Log in to your cloud account, and enter the code to complete the binding.
+- **Dynamic Code Binding**: Click "Bind With Code" on the KVM console, then it will generate an 8-digit dynamic code randomly for device binding. Log in to your cloud account, and enter the code to complete the binding.
 
 ### Regular Binding
 
@@ -66,7 +66,7 @@ Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
     ![bind with code 6](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_6.png){class="glboxshadow"}
 
-    **Note**: The dynamic code is valid within 60 seconds. If the dynamic code expires, go back to the KVM admin panel, and click **Regenerate Code** to get a new one.
+    **Note**: The dynamic code is valid within 60 seconds. If the dynamic code expires, go back to the KVM console and click **Regenerate Code** to get a new one.
 
     ![regenerate code](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/regenerate_code.png){class="glboxshadow"}
 

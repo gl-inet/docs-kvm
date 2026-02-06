@@ -1,4 +1,4 @@
-# Comet (GL-RM1) V1/V2 Quick Setup Guide
+# Comet (GL-RM1) V1/V2 Quick Setup
 
 ## Connect the Devices
 
@@ -24,7 +24,7 @@ For clarity, the controlling device is referred to as Device A, and the controll
 
 5. Device connection is complete. 
 
-    You can now access the Comet's control panel locally via a browser on the controlling device, or download the GLKVM app on the controlling device to remotely access it.
+    You can now access the Comet's console locally via a browser, or remotely via the Cloud service, the GLKVM app, or Tailscale.
 
 ## Local Access to Comet
 
@@ -42,7 +42,7 @@ Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login 
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
+You will be able to access the Comet's console locally, thus access the controlled device connected to it.
 
 ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
@@ -62,7 +62,7 @@ Open a new tab in the browser, enter Comet's IP in the address bar. You will be 
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-You will be able to access the Comet's control panel locally, thus access the controlled device connected to it.
+You will be able to access the Comet's console locally, thus access the controlled device connected to it.
 
 ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
@@ -196,7 +196,7 @@ There are three ways to access Comet remotely: via Cloud service, GLKVM App, or 
 
 Comet integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
 
-In Comet's control panel, navigate to **Apps Center** -> **Tailscale**, bind Comet to your Tailscale account. 
+On Comet's console, navigate to **Apps Center** -> **Tailscale**, bind Comet to your Tailscale account. 
 
 Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
 

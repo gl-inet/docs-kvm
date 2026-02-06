@@ -7,6 +7,6 @@ Equipped with a built-in touchscreen, it simplifies configuration and daily oper
 ![get to know comet 5g](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/rm10rc_scenario.jpg){class="glboxshadow"}
 
 - [Product Overview](product_overview.md)
-- [Quick Setup Guide](quick_setup_guide.md)
-- [Control Panel Guide](control_panel_guide.md)
+- [Quick Setup](quick_setup_guide.md)
+- [Console Guide](control_panel_guide.md)
 - [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)

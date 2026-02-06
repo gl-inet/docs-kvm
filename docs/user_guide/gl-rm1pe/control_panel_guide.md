@@ -1,8 +1,8 @@
-# Comet PoE (GL-RM1PE) Control Panel Guide
+# Comet PoE (GL-RM1PE) Console Guide
 
 ## Settings
 
-In the control panel, navigate to **Settings**. The settings page includes four sections: 
+On the console, navigate to **Settings**. The settings page includes four sections: 
 
 - [Video](#video)
 - [Remote Device Settings](#remote-device-settings)
@@ -63,17 +63,17 @@ You can adjust the relevant settings of the controlled device.
 
 ### System
 
-You can customize the system display settings of the control panel, or reset the device with one click.
+You can customize the system display settings of the console, or reset the device with one click.
 
 ![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/settings-system.png){class="glboxshadow"}
 
 - **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that the EDID and device identification will remain synchronized; changing one of them will make the other one automatically updated to ensure correct recognition.
 
-- **Language**: Set the control panel's language to Chinese or English.
+- **Language**: Set the console's language to Chinese or English.
 
 - **Color Mode**: Customize the theme color to dark and light mode.
 
-- **Time Zone**: Customize the time zone of the KVM control panel. This is only for the KVM control panel, not the system time of the controlled device.  
+- **Time Zone**: Customize the time zone of the KVM console.
 
 - **Reset KVM**: Factory reset your KVM with just one click.
 
@@ -93,7 +93,7 @@ You can click **Modify** to customize the hostname, or adjust the ethernet setti
 
 ## Toolbox
 
-In the control panel, navigate to **Toolbox**. The toolbox page includes four sections: 
+On the console, navigate to **Toolbox**. The toolbox page includes four sections: 
 
 - [Clipboard](#clipboard)
 - [Shortcut](#shortcut)
@@ -146,7 +146,7 @@ First, refer to the corresponding user guide for connecting the accessory to the
 
 - [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
 
-Second, log in to the control panel and navigate to **Accessories**. You will be able to control the device's power on/off through the accessories. 
+Second, log in to the KVM console and navigate to **Accessories**. You will be able to control the device's power on/off through the accessories. 
 
 **Note**: Accessory settings are only available after the accessory is installed.
 
@@ -154,7 +154,7 @@ Second, log in to the control panel and navigate to **Accessories**. You will be
     
 The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
     
-It works according to the settings configured on the control panel.
+It works according to the settings configured on the console.
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/accessories-fgb.png){class="glboxshadow"}
 
@@ -172,7 +172,7 @@ It works according to the settings configured on the control panel.
 
 The ATX Board is installed in the computer case to achieve remote control of the device's power on/off/reboot.
 
-It works according to the settings configured on the control panel.
+It works according to the settings configured on the console.
 
 ![accessories atxpower](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/accessories-atx.png){class="glboxshadow"}
 
@@ -186,7 +186,7 @@ It works according to the settings configured on the control panel.
 
 Comet PoE allows you to transfer files or mount images between the controlling device and the controlled device.
 
-In the control panel, navigate to **Virtual Media**. Here you can perform the following operations:
+On the console, navigate to **Virtual Media**. Here you can perform the following operations:
 
 - [Share Files](#file-sharing)
 - [Mount Images](#image-mounting)
@@ -211,11 +211,11 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
 
     ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/vm-file-sharing.png){class="glboxshadow"}
 
-    A window will pop up in the control panel to indicate file sharing steps, as shown below.
+    A window will pop up on the console indicating the file sharing steps, as shown below.
     
     ![file sharing tips](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/vm-sharing-tips.png){class="glboxshadow"}
 
-3. In the Comet PoE's control screen, go to **This PC** of your controlled device. 
+3. On the Comet PoE's console, go to **This PC** of your controlled device. 
 
     ![go to this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/vm-thispc.png){class="glboxshadow"}
 
@@ -237,7 +237,7 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
 
     ![copy file to disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/vm-copy-file.png){class="glboxshadow"}
     
-2. Turn to the Comet PoE's control panel, click **Virtual Media** in the toolbar and click **Stop Sharing**.
+2. Turn to the Comet PoE's console, click **Virtual Media** in the toolbar and click **Stop Sharing**.
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/vm-stop-sharing2.png){class="glboxshadow"}
     
@@ -285,7 +285,7 @@ You can format the disk or disable the virtual media with one click.
 
 ## Apps Center
 
-In the control panel, navigate to **Apps Center**. The integrated applications can be found here.
+On the console, navigate to **Apps Center**. The integrated applications can be found here.
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/apps-center.png){class="glboxshadow"}
 
@@ -303,13 +303,13 @@ After binding, the control page will show the bound Tailscale account.
 
 ## Help
 
-In the control panel, navigate to **Help**. Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
+On the console, navigate to **Help**. Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/control_panel/help.png){class="glboxshadow"}
 
 ## Toolbar
 
-In the control panel, navigate to the top right corner to access the following tools:
+On the console, navigate to the top right corner to access the following tools:
 
 - [Collapse Toolbar](#collapse)
 - [Fullscreen](#fullscreen)

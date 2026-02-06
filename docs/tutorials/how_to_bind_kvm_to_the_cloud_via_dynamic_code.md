@@ -30,7 +30,7 @@ This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through
 
     ![bind with code 6](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_6.png){class="glboxshadow"}
 
-    **Note**: The dynamic code is valid within 60 seconds. If the dynamic code expires, go back to the KVM admin panel, and click **Regenerate Code** to get a new one.
+    **Note**: The dynamic code is valid within 60 seconds. If the dynamic code expires, go back to the KVM console, and click **Regenerate Code** to get a new one.
 
     ![regenerate code](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/regenerate_code.png){class="glboxshadow"}
 

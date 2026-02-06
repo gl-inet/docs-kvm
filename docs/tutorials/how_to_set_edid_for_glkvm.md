@@ -6,25 +6,25 @@ EDID, i.e. Extended Display Identification Data, is a standard data format formu
 
 Generally speaking, when devices such as computers, laptops, and game consoles are connected to a display, they will automatically read the EDID to set appropriate display parameters, avoiding problems such as blurry images and flickering, and providing users with a clear and stable visual experience.
 
-The EDID configuration in GL.iNet KVM aims to automatically match the optimal parameters of the display. When GL.iNet KVM is connected to the controlled device, it can automatically adjust the display output to present the best picture by reading the EDID of the display. 
+The EDID settings in GL.iNet KVM aims to automatically match the optimal parameters of the display. When a GL.iNet KVM is connected to the controlled device, it can automatically adjust the display output to present the best picture by reading the EDID of the display. 
 
 ## How to set EDID for GL.iNet KVM
 
-In the GLKVM panel -> Settings -> EDID, there are some preset EDID configuration. 
+On the GL.iNet KVM console, navigate to **Settings** -> **Video** -> **EDID**. There are some preset EDID settings. 
 
 ![edid preset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_preset.jpg){class="glboxshadow"}
 
-**The default EDID configuration of GL.iNet KVM is already suitable for most scenarios and usually does not need to be modified**.
+**The default EDID of GL.iNet KVM is already suitable for most scenarios and usually does not need to be modified**.
 
 In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset value, e.g., 1920×1280/AUO/60HZ, or switch to Customize and enter the custom EDID code.
 
 If you can't find a suitable code, you may refer to [this link](https://github.com/linuxhw/EDID){target="blank"} or steps below to customize EDID configuration.
 
-1. Find a suitable EDID configuration in [this link](https://github.com/linuxhw/EDID){target="blank"}.
+1. Find a suitable EDID in [this link](https://github.com/linuxhw/EDID){target="blank"} and copy it.
 
     ![edid code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_code.jpg){class="glboxshadow"}
 
-2. Go to the GLKVM control panel -> Settings -> EDID, switch to Customize mode, copy the parameters to the input box. Click Set Custom to apply the EDID settings.
+2. Log in to the GL.iNet KVM console and navigate to **Settings** -> **EDID**. Switch to **Customize** mode, paste the parameters to the input box, and click **Set Custom** to apply the settings.
 
     ![edid customize](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_customize.png){class="glboxshadow"}
 

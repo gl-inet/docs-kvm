@@ -7,6 +7,6 @@ In addition, this version upgrades the EMMC capacity to 32GB, making it more cap
 ![get to know comet poe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/rm1pe_scenario_shelf.jpg){class="glboxshadow"}
 
 - [Product Overview](product_overview.md)
-- [Quick Setup Guide](quick_setup_guide.md)
-- [Control Panel Guide](control_panel_guide.md)
+- [Quick Setup](quick_setup_guide.md)
+- [Console Guide](control_panel_guide.md)
 - [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)
