@@ -89,6 +89,8 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
 
 ??? "Ethernet Settings"
 
+    #### Ethernet
+
     When Comet 5G connects to an upstream network device via an Ethernet cable, if the connection protocol is **DHCP**, it will be dynamically assigned an IP address. 
 
     ![settings-modify-ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/control_panel/settings-modify-eth-dhcp.png){class="glboxshadow"}
@@ -98,6 +100,8 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
     ![settings-modify-ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/control_panel/settings-modify-eth-static.png){class="glboxshadow"}
 
 ??? "Wireless Settings"
+
+    #### Wireless
 
     The wireless settings of Comet 5G support two working modes: **Station Mode** and **AP Mode**, catering to different network access requirements. 
 
@@ -118,6 +122,8 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
         This mode is ideal for setting up a local area network, which enables terminal devices to achieve local access and nearby control of the KVM device.
 
 ??? "Cellular Settings"
+
+    #### Cellular
 
     Comet 5G comes with a built-in cellular module, enabling mobile network access via a SIM card.
 
