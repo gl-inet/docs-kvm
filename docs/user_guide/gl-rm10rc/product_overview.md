@@ -45,3 +45,19 @@
     Comet 5G features a USB interface for connecting external devices such as an ATX board and a Fingerbot, enabling remote power control of the connected equipment.
 
     **Note**: Optional accessories sold separately.
+
+## Frequency Bands
+
+Comet 5G supports the following frequency bands.
+
+- **5G NR**
+
+    3GPP Release 17 RedCap, SA operation (Sub-6 GHz) n1 / n2 / n3 / n5 / n7 / n8 / n12 / n13 / n14 / n18 / n20 / n25 / n26 / n28 / n30 / n38 / n40 / n41 / n48 / n66 / n70 / n77 / n78 / n79
+
+- **LTE FDD**
+
+    B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B14 / B17 / B18 / B19 / B20 / B25 / B26 / B28 / B30 / B66 / B70
+
+- **LTE TDD**
+
+    B34 / B38 / B39 / B40 / B41 / B42 / B43 / B48
