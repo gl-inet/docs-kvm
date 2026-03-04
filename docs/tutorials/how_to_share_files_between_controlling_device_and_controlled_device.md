@@ -4,7 +4,7 @@ GL.iNet KVM emulates a read-write USB drive, allowing you to share and manage fi
 
 In the following steps, we will take Comet (GL-RM1) as an example. 
 
-## From controlling to controlled device
+## Send files to controlled device
 
 To share files from the controlling device to the controlled one, follow the steps below.
 
@@ -38,9 +38,9 @@ To share files from the controlling device to the controlled one, follow the ste
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/control_panel/v1.7/vm-stop-sharing1.png){class="glboxshadow"}
 
-## From controlled to controlling device
+## Get files from controlled device
 
-To share files from the controlled device to the controlling one, follow the steps below.
+To receive files from the controlled device, follow the steps below.
 
 1. Save or copy the files you want to share into the disk **GLKVM**. 
 
