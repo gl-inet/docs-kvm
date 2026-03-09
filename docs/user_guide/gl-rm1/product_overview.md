@@ -10,9 +10,9 @@
 
 ## LED
 
-There is 1x LED on the top panel of Comet.
+There is an LED indicator on the top panel of Comet.
 
-| LED Status               | Indication                        |
+| LED Status               | Description                        |
 | :----------------------- | :-------------------------------- |
 | Solid Blue               | Starting up                       |
 | Flashing White           | Started up but No Internet        |
@@ -21,9 +21,25 @@ There is 1x LED on the top panel of Comet.
 
 ## Button
 
-There is 1x Button at the side panel of Comet.
+There is a button on the side panel of the Comet.
 
-| Function                   | Operation                                | LED Indication                        |
+| Function                   | Operation                                | LED Status                            |
 | :------------------------- | :--------------------------------------- | :------------------------------------ |
-| Enter U-Boot Flashing Mode | With device powered on, press and hold <br>the button for more than 3s then release | Pressing the button: Flashing Blue <br>Entered U-Boot mode: Solid Blue      |
-| Reset                      | With device powered on, press and hold <br>the button for 8-20s then release        | Pressing for 1-8s: Slowly Flashing <br>Pressing for 8-20s: Quickly Flashing |
+| Enter U-Boot Flashing Mode | With device powered on, press and hold <br>the button for more than **3s** then release | Pressing the button: Flashing blue <br>Entered U-Boot mode: Solid blue      |
+| Reset                      | With device powered on, press and hold <br>the button for **8–20s** then release        | Pressing for 1-8s: Slowly flashing <br>Pressing for 8-20s: Quickly flashing |
+
+## Package Contents
+
+- 1 x Comet (GL-RM1)
+- 1 x User manual
+- 1 x Thank you card
+- 1 x Ethernet cable
+- 1 x HD cable
+- 1 x USB cable (Type-A to Type-C)
+- 1 x USB cable (Type-C to Type-C)
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
+
+Check out Comet's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lkDcSSlNn20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

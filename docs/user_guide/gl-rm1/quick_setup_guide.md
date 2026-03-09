@@ -1,5 +1,9 @@
 # Comet (GL-RM1) V1/V2 Quick Setup
 
+Watch this video or follow the steps below to set up your Comet.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Connect the Devices
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.

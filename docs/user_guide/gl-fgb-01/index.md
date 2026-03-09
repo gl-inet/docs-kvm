@@ -17,6 +17,10 @@ As a physical button emulator, the Fingerbot is designed for remote PC power on/
 - 1 x Adhesive Tape
 - 1 x User Guide
 
+Check out Fingerbot's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Aeu5yiDEt0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Installation
 
 Watch this video or follow the steps below to install Fingerbot.

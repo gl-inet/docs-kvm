@@ -61,3 +61,20 @@ Comet 5G supports the following frequency bands.
 - **LTE TDD**
 
     B34 / B38 / B39 / B40 / B41 / B42 / B43 / B48
+
+## Package Contents
+
+- 1 x Comet 5G (GL-RM10RC)
+- 1 x User manual
+- 1 x Thank you card
+- 1 x Ethernet cable
+- 1 x HDMI cable
+- 1 x USB cable (Type-A to Type-C)
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
+
+![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/rm10rc_package_contents.jpg){class="glboxshadow"}
+
+Check out Comet 5G's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L3v-8leu7Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
