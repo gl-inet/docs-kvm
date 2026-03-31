@@ -8,6 +8,10 @@ For macOS users, download it from [here](https://apps.apple.com/us/app/glkvm/id6
 
 For Windows users, download it from [here](https://www.gl-inet.com/app-rm/){target="_blank"} (for Win 10 and above only).
 
+For Android users, download it from [here](https://play.google.com/store/apps/details?id=com.glinet.kvm){target="_blank"}.
+
+For iOS users, download it from the [App Store](https://apps.apple.com/us/app/glkvm/id6754631417){target="_blank"}.
+
 Or you may use the Cloud service for remote access via a web browser. Click [here](remote_access_to_controlled_device_via_cloud.md) for details.
 
 ---
