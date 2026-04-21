@@ -1,14 +1,14 @@
 # Display blank screen when accessing the controlled device using GLKVM
 
-When accessing the controlled device via GLKVM, if you encounter blank (white or black) screen issue as shown below, please check the following possible causes one by one.
+When accessing the controlled device via GL.iNet KVM, you may encounter a blank (white or black) screen issue as shown below.
 
 ![blank screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/blank_screen.jpg){class="glboxshadow"}
 
-Please navigate to Settings -> Video -> Transfer and change the Transfer to **Derict H.264**. 
+To check whether this is related to video transmission, go to **Settings** -> **Video** -> **Transfer** and set the Transfer mode to **Direct**. 
 
-![change transfer](https://static.gl-inet.cn/KVM/rm10/1change_mode.png){class="glboxshadow"}
+![change transfer](https://static.gl-inet.com/docs/kvm/faq/blank_screen/change_transfer.png){class="glboxshadow" width="360"}
 
-If the problem persists, please check the following settings.
+If the problem persists, check the possible causes listed below one by one.
 
 ## Check Hardware Connection
 
