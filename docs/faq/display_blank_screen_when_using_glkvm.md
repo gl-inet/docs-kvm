@@ -2,9 +2,13 @@
 
 When accessing the controlled device via GL.iNet KVM, you may encounter a blank (white or black) screen issue as shown below.
 
-![blank screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/blank_screen.jpg){class="glboxshadow"}
+![white screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/white_screen.png){class="glboxshadow"}
+<small>(White screen)</small>
 
-To check whether this is related to video transmission, go to **Settings** -> **Video** -> **Transfer** and set the Transfer mode to **Direct**. 
+![black screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/black_screen.png){class="glboxshadow"}
+<small>(Black screen)</small>
+
+First, check whether this is related to video transmission. Log in to your KVM, go to **Settings** -> **Video** -> **Transfer** and set the transfer mode to **Direct**. 
 
 ![change transfer](https://static.gl-inet.com/docs/kvm/faq/blank_screen/change_transfer.png){class="glboxshadow" width="360"}
 
@@ -14,17 +18,19 @@ If the problem persists, check the possible causes listed below one by one.
 
 1. **Faulty HDMI Cable**
 
-    Aging HDMI cables, oxidized connectors, or internal breaks can interrupt signal transmission. Replace with a high-quality HDMI cable.
+    Aging HDMI cables, oxidized connectors, or internal breaks can interrupt signal transmission. Replace it with a high-quality HDMI cable.
 
-    You can also check the HDMI signal status in the GLKVM app. Navigate to the monitor icon in the bottom right corner and check if it says "No HDMI signal".
+    You can also check the HDMI signal status on the KVM console. Find the monitor icon in the bottom right corner and check if it shows "No HDMI signal".
 
     ![no HDMI signal](https://static.gl-inet.com/docs/kvm/faq/blank_screen/no_hdmi_signal.png){class="glboxshadow"}
 
 2. **Incorrect Connection**
 
-    Take GL-RM1 as an example: The HDMI IN port of GL-RM1 must be connected to the HDMI OUT port of the controlled device's graphics card/motherboard. Ensure the plug is fully inserted and secure.
+    If your controlled device is a desktop PC, ensure the KVM's **HDMI IN** port is connected to the HDMI OUT port of the desktop's graphics card or motherboard. Make sure the plug is fully inserted and secure. For devices with multiple HDMI outputs (e.g., dedicated GPU + motherboard output), try switching to a different port.
 
-    If the controlled device has multiple HDMI ports (e.g., graphics card + motherboard), test by switching to different ports.
+    If your controlled device is a laptop, ensure the KVM's **HDMI IN** port is connected to the laptop's HDMI OUT port.
+
+    Tip: Some KVM models (such as Comet Pro and Comet 5G) have two HDMI ports. Make sure the HDMI cable from the controlled device is plugged into the KVM's HDMI IN port. If connected to HDMI OUT, no HDMI signal will be detected on the KVM console.
 
 3. **Improper Use of Adapters**
 
