@@ -1,0 +1,48 @@
+name: Deploy Docs
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10.4"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --site-dir ./site
+
+      - name: Checkout target repo (docs-build)
+        uses: actions/checkout@v4
+        with:
+          repository: gl-inet/docs-build
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          path: docs-build
+
+      - name: Copy built files to kvm/en/
+        run: |
+          mkdir -p docs-build/kvm/en
+          rm -rf docs-build/kvm/en/*
+          cp -r site/. docs-build/kvm/en/
+
+      - name: Commit and push to docs-build
+        working-directory: docs-build
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kvm/en/
+          git diff --cached --quiet || git commit -m "docs(kvm): update from gl-inet/docs-kvm@${{ github.sha }}"
+          git push

@@ -7,10 +7,10 @@ site_name: GL.iNet KVM Docs
 site_description: Documentation for GL.iNet KVM Productions
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/kvm/en/
-site_dir: /root/docs-build/kvm/en/
+site_dir: site
 copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
-theme: 
+theme:
   name: material
   logo: images/logo_white.svg
   custom_dir: overrides
@@ -18,19 +18,6 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
-  # palette:
-  #   - scheme: default
-  #     primary: white
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline
-  #       name: Switch to dark mode
-  #   - scheme: slate
-  #     primary: cyan
-  #     accent: cyan
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to light mode
   favicon: images/favicon.png
 
 # Plugins
@@ -38,19 +25,16 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        'faq/frequently_askedquestions_about_glinet_kvm.md': 'faq/quick_faqs_about_glinet_kvm.md'
-        'faq/cannot_hear_the_audio_from_the_controlled_device.md': 'faq/no_audio_from_the_controlled_device.md'
-        'faq/can_only_see_desktop_wallpaper_when_using_glkvm.md': 'faq/only_desktop_wallpaper_displayed_in_glkvm.md'
-        'user_guide/gl-rm1/control_panel_guide.md': 'user_guide/gl-rm1/console_guide.md'
-        'user_guide/gl-rm1pe/control_panel_guide.md': 'user_guide/gl-rm1pe/console_guide.md'
-        'user_guide/gl-rm10/control_panel_guide.md': 'user_guide/gl-rm10/console_guide.md'
-        'user_guide/gl-rm10rc/control_panel_guide.md': 'user_guide/gl-rm10rc/console_guide.md'
+        "faq/frequently_askedquestions_about_glinet_kvm.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
+        "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/only_desktop_wallpaper_displayed_in_glkvm.md"
+        "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
+        "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
+        "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
+        "user_guide/gl-rm10rc/control_panel_guide.md": "user_guide/gl-rm10rc/console_guide.md"
 
 # Customization
 extra:
-  # analytics:
-  #   provider: google
-  #   property: G-34T6Q5NL0V
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com
@@ -73,19 +57,14 @@ extra_css:
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
 
   # we can use the cdn or files
-  # - stylesheets/photoswipe.min.css
-  # - stylesheets/default-skin.min.css
   - stylesheets/extra.css
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
   # we can use the cdn or files
-  # - javascripts/photoswipe.min.js
-  # - javascripts/photoswipe-ui-default.min.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js
-
 
 markdown_extensions:
   - attr_list
@@ -101,92 +80,92 @@ markdown_extensions:
 nav:
   - Home: index.md
   - User Guide:
-    - Overview: user_guide/index.md
-    - GL-RM1/GL-RM1 V2 (Comet/Comet V2): 
-      - Get to Know Comet: user_guide/gl-rm1/index.md
-      - Product Overview: user_guide/gl-rm1/product_overview.md
-      - Quick Setup: user_guide/gl-rm1/quick_setup_guide.md
-      - Console Guide: user_guide/gl-rm1/console_guide.md
-      - FCC & IC Compliance Statements: user_guide/gl-rm1/fcc_ic_compliance_statements.md
-    - GL-RM1PE (Comet PoE): 
-      - Get to Know Comet PoE: user_guide/gl-rm1pe/index.md
-      - Product Overview: user_guide/gl-rm1pe/product_overview.md
-      - Quick Setup: user_guide/gl-rm1pe/quick_setup_guide.md
-      - Console Guide: user_guide/gl-rm1pe/console_guide.md
-      - FCC & IC Compliance Statements: user_guide/gl-rm1pe/fcc_ic_compliance_statements.md
-    - GL-RM10 (Comet Pro): 
-      - Get to Know Comet Pro: user_guide/gl-rm10/index.md
-      - Product Overview: user_guide/gl-rm10/product_overview.md
-      - Quick Setup: user_guide/gl-rm10/quick_setup_guide.md
-      - Console Guide: user_guide/gl-rm10/console_guide.md
-      - FCC & IC Compliance Statements: user_guide/gl-rm10/fcc_ic_compliance_statements.md
-    - GL-RM10RC (Comet 5G): 
-      - Get to Know Comet 5G: user_guide/gl-rm10rc/index.md
-      - Product Overview: user_guide/gl-rm10rc/product_overview.md
-      - Quick Setup: user_guide/gl-rm10rc/quick_setup_guide.md
-      - Console Guide: user_guide/gl-rm10rc/console_guide.md
-      - FCC & IC Compliance Statements: user_guide/gl-rm10rc/fcc_ic_compliance_statements.md
-    - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
-    - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
+      - Overview: user_guide/index.md
+      - GL-RM1/GL-RM1 V2 (Comet/Comet V2):
+          - Get to Know Comet: user_guide/gl-rm1/index.md
+          - Product Overview: user_guide/gl-rm1/product_overview.md
+          - Quick Setup: user_guide/gl-rm1/quick_setup_guide.md
+          - Console Guide: user_guide/gl-rm1/console_guide.md
+          - FCC & IC Compliance Statements: user_guide/gl-rm1/fcc_ic_compliance_statements.md
+      - GL-RM1PE (Comet PoE):
+          - Get to Know Comet PoE: user_guide/gl-rm1pe/index.md
+          - Product Overview: user_guide/gl-rm1pe/product_overview.md
+          - Quick Setup: user_guide/gl-rm1pe/quick_setup_guide.md
+          - Console Guide: user_guide/gl-rm1pe/console_guide.md
+          - FCC & IC Compliance Statements: user_guide/gl-rm1pe/fcc_ic_compliance_statements.md
+      - GL-RM10 (Comet Pro):
+          - Get to Know Comet Pro: user_guide/gl-rm10/index.md
+          - Product Overview: user_guide/gl-rm10/product_overview.md
+          - Quick Setup: user_guide/gl-rm10/quick_setup_guide.md
+          - Console Guide: user_guide/gl-rm10/console_guide.md
+          - FCC & IC Compliance Statements: user_guide/gl-rm10/fcc_ic_compliance_statements.md
+      - GL-RM10RC (Comet 5G):
+          - Get to Know Comet 5G: user_guide/gl-rm10rc/index.md
+          - Product Overview: user_guide/gl-rm10rc/product_overview.md
+          - Quick Setup: user_guide/gl-rm10rc/quick_setup_guide.md
+          - Console Guide: user_guide/gl-rm10rc/console_guide.md
+          - FCC & IC Compliance Statements: user_guide/gl-rm10rc/fcc_ic_compliance_statements.md
+      - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
+      - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
   - FAQ:
-    - Overview: faq/index.md
-    - Quick Start:
-      - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
-      - GLKVM App: faq/glkvm_app.md
-    - Local & Remote Access:
-      - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
-      - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
-      - Remote access via App: faq/remote_access_to_controlled_device_via_glkvm_app.md
-      - Remote access via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
-      - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
-    - Cloud Service:
-      - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
-      - Unbind KVM: faq/unbind.md
-      - Disable Cloud service: faq/disable_cloud.md
-      - Delete Cloud account: faq/delete_cloud_account.md
-      - Upgrade Firmware: faq/firmware_outdated.md 
-    - Device Power Issues:
-      - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
-      - Device is bricked: faq/debrick.md
-    - GLKVM App Issues:
-      - Failed to find device: faq/no_device_is_found_in_the_glkvm_app.md
-      - Failed to bind device: faq/failed_to_bind_device_to_glkvm_app.md
-      - Failed to connect device: faq/connection_failed_when_remote_access_via_glkvm_app.md
-      - Failed to install GLKVM on Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
-    - Display Issues:
-      - Only desktop wallpaper displayed in GLKVM: faq/only_desktop_wallpaper_displayed_in_glkvm.md
-      - Blank screen displayed in GLKVM: faq/display_blank_screen_when_using_glkvm.md
-      - BIOS interface does not display in GLKVM: faq/bios_does_not_display_in_glkvm.md
-      - Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
-    - Keyboard & Mouse Issues:
-      - Cannot control mouse and keyboard: faq/cannot_control_the_mouse.md
-      - Mouse cursors fail to overlap: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
-      - Mouse latency when RPi4 controls RPi3 via GLKVM: faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
-      - Keyboard does not input/output as expected: faq/keyboard_does_not_input_output_as_expected.md
-      - Relative mouse not working on Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
-    - Audio Issues:
-      - No audio from the controlled device: faq/no_audio_from_the_controlled_device.md
-      - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md
+      - Overview: faq/index.md
+      - Quick Start:
+          - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
+          - GLKVM App: faq/glkvm_app.md
+      - Local & Remote Access:
+          - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
+          - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
+          - Remote access via App: faq/remote_access_to_controlled_device_via_glkvm_app.md
+          - Remote access via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
+          - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
+      - Cloud Service:
+          - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - Unbind KVM: faq/unbind.md
+          - Disable Cloud service: faq/disable_cloud.md
+          - Delete Cloud account: faq/delete_cloud_account.md
+          - Upgrade Firmware: faq/firmware_outdated.md
+      - Device Power Issues:
+          - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
+          - Device is bricked: faq/debrick.md
+      - GLKVM App Issues:
+          - Failed to find device: faq/no_device_is_found_in_the_glkvm_app.md
+          - Failed to bind device: faq/failed_to_bind_device_to_glkvm_app.md
+          - Failed to connect device: faq/connection_failed_when_remote_access_via_glkvm_app.md
+          - Failed to install GLKVM on Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
+      - Display Issues:
+          - Only desktop wallpaper displayed in GLKVM: faq/only_desktop_wallpaper_displayed_in_glkvm.md
+          - Blank screen displayed in GLKVM: faq/display_blank_screen_when_using_glkvm.md
+          - BIOS interface does not display in GLKVM: faq/bios_does_not_display_in_glkvm.md
+          - Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
+      - Keyboard & Mouse Issues:
+          - Cannot control mouse and keyboard: faq/cannot_control_the_mouse.md
+          - Mouse cursors fail to overlap: faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md
+          - Mouse latency when RPi4 controls RPi3 via GLKVM: faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
+          - Keyboard does not input/output as expected: faq/keyboard_does_not_input_output_as_expected.md
+          - Relative mouse not working on Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
+      - Audio Issues:
+          - No audio from the controlled device: faq/no_audio_from_the_controlled_device.md
+          - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md
   - Tutorials:
-    - Overview: tutorials/index.md
-    - System Settings:
-      - How to set a static IP for KVM: tutorials/how_to_set_static_ip_for_comet.md
-      - How to change KVM hostname: tutorials/how_to_change_kvm_hostname.md
-      - How to change KVM device identity: tutorials/how_to_change_device_identity.md
-      - How to set EDID for KVM: tutorials/how_to_set_edid_for_glkvm.md
-    - Cloud Service:
-      - How to bind KVM to cloud via dynamic code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
-      - How to use the cloud-based screen wall feature: tutorials/how_to_use_screen_wall.md
-    - Virtual Media:
-      - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
-      - How to install OS remotely: tutorials/how_to_install_os_remotely.md
-    - Troubleshooting: 
-      - How to unbrick KVM via U-Boot: faq/debrick.md
-      - How to unbrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
-      - How to export cellular logs?: tutorials/how_to_export_cellular_logs.md
-      - How to fix mouse latency when RPi4 controls RPi3: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
+      - Overview: tutorials/index.md
+      - System Settings:
+          - How to set a static IP for KVM: tutorials/how_to_set_static_ip_for_comet.md
+          - How to change KVM hostname: tutorials/how_to_change_kvm_hostname.md
+          - How to change KVM device identity: tutorials/how_to_change_device_identity.md
+          - How to set EDID for KVM: tutorials/how_to_set_edid_for_glkvm.md
+      - Cloud Service:
+          - How to bind KVM to cloud via dynamic code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - How to use the cloud-based screen wall feature: tutorials/how_to_use_screen_wall.md
+      - Virtual Media:
+          - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
+          - How to install OS remotely: tutorials/how_to_install_os_remotely.md
+      - Troubleshooting:
+          - How to unbrick KVM via U-Boot: faq/debrick.md
+          - How to unbrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
+          - How to export cellular logs?: tutorials/how_to_export_cellular_logs.md
+          - How to fix mouse latency when RPi4 controls RPi3: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
   - Video Library:
-    - Overview: video_library/index.md
-    - Meet Our New Products: video_library/products.md
-    - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
-    - Features: video_library/features.md
+      - Overview: video_library/index.md
+      - Meet Our New Products: video_library/products.md
+      - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
+      - Features: video_library/features.md
