@@ -25,6 +25,11 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 * [How to share files between controlling and controlled devices?](how_to_share_files_between_controlling_device_and_controlled_device.md)
 * [How to install an operating system on the controlled computer remotely?](how_to_install_os_remotely.md)
 
+## Apps Center
+
+* [How to remotely access the controlled device via Tailscale?](../faq/remote_access_to_controlled_device_via_tailscale.md)
+* [How to remotely access the controlled device via ZeroTier?](../faq/remote_access_to_controlled_device_via_zerotier.md)
+
 ## Troubleshooting
 
 * [How to unbrick KVM via U-Boot?](../faq/debrick.md)
