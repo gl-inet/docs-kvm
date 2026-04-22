@@ -25,11 +25,11 @@ You can customize video settings on the console, such as display mode, video qua
 
     !!! note "What's the difference between WebRTC, WebRTC (FEC) and Direct?"
 
-        - WebRTC: Balances smooth video and stable audio for real-time remote control.
+        - **WebRTC**: Balances smooth video and stable audio for real-time remote control.
         
-        - WebRTC (FEC): Adds forward error correction to improve connection stability under poor or unstable network conditions. When selected, it automatically repairs lost data packets by transmitting a small amount of redundant data, reducing screen flickering and lag.
+        - **WebRTC (FEC)**: Adds forward error correction to improve connection stability under poor or unstable network conditions. When selected, it automatically repairs lost data packets by transmitting a small amount of redundant data, reducing screen flickering and lag.
         
-        - Direct: Provides the lowest latency and lossless video quality, but does not support audio transmission.
+        - **Direct**: Provides the lowest latency and lossless video quality, but does not support audio transmission.
 
 - **Orientation**: Adjust the console's rotation angle to 0°/90°/180°/270°.
 
@@ -69,13 +69,15 @@ You can adjust the relevant settings of the controlled device.
 
     Four direction modes are available: Standard, Vertical Invert, Horizontal Invert, and Both Invert.  
 
-- **Mouse Mode**: Allows switching between Relative Mouse and Absolute Mouse to ensure smooth and accurate cursor control in different remote control scenarios.
+- **Mouse Mode**: Allows switching between Absolute Mode and Relative Mode to ensure smooth and accurate cursor control in different remote control scenarios.
 
     !!! note "What's the difference between Absolute Mode and Relative Mode?"
-    
-        - Relative Mouse: The mouse position is calculated based on movement rather than a fixed screen coordinate. It works like a PC mouse in games and is compatible with most systems, but may not align perfectly with the local cursor.
-        
-        - Absolute Mouse: The mouse position corresponds to exact screen coordinates. The remote cursor directly follows the local cursor smoothly and accurately, making it more suitable for desktop control and precise operation.
+
+        - **Relative Mode**: The mouse position is calculated based on movement rather than fixed screen coordinates. You must click inside the remote window to control the mouse. The cursor is locked within the remote screen and cannot move out smoothly. This mode provides better compatibility with BIOS, old systems, and embedded devices.
+
+        - **Absolute Mode**: The mouse position corresponds to exact screen coordinates. The remote cursor follows the local one smoothly and accurately, allowing seamless movement between your local screen and the remote screen. It is ideal for daily desktop control and precise operations, though a slight delay may occur due to network transmission.
+
+        In short, use Absolute for smooth daily control; use Relative for BIOS access, some older devices that do not support absolute positioning, or to avoid accidental cursor movement.
 
 - **Relative Sensitivity**: It is available when the Mouse Mode is Relative.
 
