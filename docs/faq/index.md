@@ -21,6 +21,7 @@ If your question is not listed below, please contact our technical support team 
 * [How to remotely access the controlled device via Cloud service?](remote_access_to_controlled_device_via_cloud.md)
 * [How to remotely access the controlled device via GLKVM app?](remote_access_to_controlled_device_via_glkvm_app.md)
 * [How to remotely access the controlled device via Tailscale?](remote_access_to_controlled_device_via_tailscale.md)
+* [How to remotely access the controlled device via ZeroTier?](remote_access_to_controlled_device_via_zerotier.md)
 * [Privacy error when accessing via browser](privacy_error_from_your_browser.md)
 
 ## Cloud Service
