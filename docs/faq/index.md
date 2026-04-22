@@ -55,7 +55,8 @@ If your question is not listed below, please contact our technical support team 
 * [Cannot control mouse and keyboard](cannot_control_the_mouse.md)
 * [Mouse cursors fail to overlap on KVM control interface](mouse_cursors_fail_to_overlap_when_using_glkvm.md)
 * [Mouse latency when RPi4 controls RPi3 via GLKVM](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
-* [Keyboard does not input/output as expected](keyboard_does_not_input_output_as_expected.md)
+* [Keyboard does not input or output as expected](keyboard_does_not_input_output_as_expected.md)
+* [Difference between Absolute Mouse and Relative Mouse](difference_between_absolute_and_relative_mouse.md)
 * [Relative mouse not working on Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md)
 
 ## Audio Issues
