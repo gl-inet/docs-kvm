@@ -4,7 +4,7 @@ This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through
 
 **Note:** Please upgrade your KVM firmware to version 1.7 before using this feature.
 
-1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_to_controlled_device_via_browser.md) for details. 
+1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_via_browser.md) for details. 
 
 2. After login, navigate to **Cloud Service** in the upper right corner, and click **Bind With Code**.
 

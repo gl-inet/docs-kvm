@@ -329,7 +329,7 @@ Comet Pro integrates with Tailscale, allowing you to access it remotely through 
 
 Simply bind both Comet Pro and your controlling device to the same Tailscale account, and you will be able to remotely access the Comet Pro by entering its **Tailscale virtual IP** into a web browser on the controlling device, without installing the GLKVM app.
 
-Click [here](../../faq/remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for detailed instructions.
+Click [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for detailed instructions.
 
 After binding, the Comet Pro's console will show the bound Tailscale account.
 
@@ -341,7 +341,7 @@ Comet Pro integrates with ZeroTier, allowing you to access it remotely through t
 
 Simply join both Comet Pro and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), and you can remotely access Comet Pro by entering its **ZeroTier IP** in a web browser on the controlling device, with no need to install the GLKVM app.
 
-Click [here](../../faq/remote_access_to_controlled_device_via_zerotier.md){target="_blank"} for detailed instructions.
+Click [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for detailed instructions.
 
 After binding, the Comet Pro's console will show the ZeroTier Network ID and Virtual IP.
 

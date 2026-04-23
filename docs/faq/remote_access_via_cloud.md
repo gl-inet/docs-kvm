@@ -1,16 +1,16 @@
-# How to remotely access the controlled device via Cloud service?
+# How to access the KVM remotely via Cloud?
 
-Before you begin, please ensure the following:
+Before you begin, please ensure:
 
 - The controlled device is connected to the KVM correctly.
     
 - The KVM is connected to a stable network.
 
-- You can access the KVM locally, as binding device to the Cloud needs to be done within the local network.
+- You can access the KVM locally, as binding device to the Cloud must be done within the local network.
 
-Follow the steps below to remotely access your KVM and the controlled device via Cloud service.
+Follow the steps below to access your KVM and the controlled device remotely via Cloud service.
 
-## 1. Bind your device to KVM Cloud
+## Bind your KVM to the Cloud
 
 There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding.
 
@@ -40,7 +40,7 @@ Wait a second and your device will be bound to your account successfully. Click 
 
 Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
-1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_to_controlled_device_via_browser.md) for details. 
+1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_via_browser.md) for details. 
 
 2. After login, navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**.
 
@@ -72,7 +72,7 @@ Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
     The device will then be successfully bound to your cloud account.
 
-## 2. Remote access via Cloud service
+## Remote access via Cloud
 
 Open a browser (take Google Chrome as an example), and enter `glkvm.com` in the address bar. You will see a login page. Use your glinet account to log in.
 
@@ -82,13 +82,13 @@ After login, you will see the devices bound to your account. Click on the device
 
 ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
-It will redirect to a new webpage with the domain `glkvm.xyz`, `glkvm.site`, or `glkvm.top`. These domains are secure and provided by GL.iNet.
+It will redirect to a new webpage with the domain `glkvm.xyz`, `glkvm.site`, or `glkvm.top` (randomly assigned). These domains are secure and provided by GL.iNet.
     
-Enter the admin password and log in.
+Enter your admin password to log in.
 
 ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
-Then you will be able to access the KVM and the controlled device remotely via Cloud, without installing the app.
+You can now access the KVM and the controlled device remotely via Cloud.
 
 ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 

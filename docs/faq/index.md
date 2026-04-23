@@ -17,11 +17,11 @@ If your question is not listed below, please contact our technical support team 
 
 ## Local & Remote Access
 
-* [How to locally access the controlled device via browser?](local_access_to_controlled_device_via_browser.md)
-* [How to remotely access the controlled device via Cloud service?](remote_access_to_controlled_device_via_cloud.md)
-* [How to remotely access the controlled device via GLKVM app?](remote_access_to_controlled_device_via_glkvm_app.md)
-* [How to remotely access the controlled device via Tailscale?](remote_access_to_controlled_device_via_tailscale.md)
-* [How to remotely access the controlled device via ZeroTier?](remote_access_to_controlled_device_via_zerotier.md)
+* [How to access the KVM locally via browser?](local_access_via_browser.md)
+* [How to access the KVM remotely via Cloud service?](remote_access_via_cloud.md)
+* [How to access the KVM remotely via GLKVM app?](remote_access_via_glkvm_app.md)
+* [How to access the KVM remotely via Tailscale?](remote_access_via_tailscale.md)
+* [How to access the KVM remotely via ZeroTier?](remote_access_via_zerotier.md)
 * [Privacy error when accessing via browser](privacy_error_from_your_browser.md)
 
 ## Cloud Service

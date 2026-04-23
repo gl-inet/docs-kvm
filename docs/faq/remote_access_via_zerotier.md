@@ -1,8 +1,10 @@
-# How to remotely access the controlled device via ZeroTier?
+# How to access the KVM remotely via ZeroTier?
 
-GL.iNet KVM has integrated ZeroTier since firmware v1.8.0, allowing you to bind it to the ZeroTier network for remote access — no need to install the GLKVM app or use the cloud service. This is particularly useful when your controlling device runs neither Windows nor macOS (and thus cannot install the GLKVM app), or when you do not want to use the GLKVM app or cloud service.
+**Note**: Please upgrade your KVM firmware to v1.8.0 before using this feature.
 
-Follow these steps to remotely access your GL.iNet KVM and the controlled device via ZeroTier.
+GL.iNet KVM integrates ZeroTier, allowing you to bind it to the ZeroTier network for remote access — no need to install the GLKVM app or use the cloud service. This is particularly useful when your controlling device does not run Windows, macOS, Android, or iOS (and thus cannot install the GLKVM app), or when you do not want to use the GLKVM app or cloud service.
+
+Follow these steps to access your GL.iNet KVM and the controlled device remotely via ZeroTier.
 
 ## Enable ZeroTier in local access
 

@@ -10,7 +10,7 @@ As to the controlling device, whether a software needs to be installed on it dep
 
 If you want to access the controlled device in the same local area network (LAN), simply open a browser on the controlling device, enter `glkvm.local` or the KVM's IP in the address bar, and you can access the KVM locally, thus accessing the controlled device. No software needs to be installed on the controlling device.
     
-Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} for details.
+Click [here](local_access_via_browser.md){target="_blank"} for details.
     
 ## Remote Access
 
@@ -20,13 +20,13 @@ Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} 
 
     Bind your KVM to your Cloud account, then you can remotely access your KVM by typing `glkvm.com` into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
 
-    Click [here](remote_access_to_controlled_device_via_cloud.md){target="_blank"} for details.
+    Click [here](remote_access_via_cloud.md){target="_blank"} for details.
 
 - **GLKVM App**
     
     If your controlling device runs Windows or macOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it to remotely access your KVM, thus accessing the controlled device.
         
-    Click [here](remote_access_to_controlled_device_via_glkvm_app.md){target="_blank"} for details.
+    Click [here](remote_access_via_glkvm_app.md){target="_blank"} for details.
     
 - **Tailscale**
     
@@ -34,7 +34,7 @@ Click [here](local_access_to_controlled_device_via_browser.md){target="_blank"} 
 
     Bind your KVM and controlling device to the same Tailscale account, then you can remotely access your KVM by typing the KVM's Tailscale virtual IP into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
     
-    Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
+    Click [here](remote_access_via_tailscale.md){target="_blank"} for details.
 
 ---
 

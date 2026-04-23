@@ -6,7 +6,7 @@ This tutorial will introduce how to use the cloud-based screen wall feature.
 
 **Note:** Please upgrade your KVM firmware to version 1.7 before using this feature.
 
-1. Bind your KVM device to your Cloud account, then log in to the Cloud. Click [here](http://127.0.0.1:8000/kvm/en/faq/remote_access_to_controlled_device_via_cloud/#1-bind-your-device-to-kvm-cloud) for detailed instructions.
+1. Bind your KVM device to your Cloud account, then log in to the Cloud. Click [here](http://127.0.0.1:8000/kvm/en/faq/remote_access_via_cloud/#1-bind-your-device-to-kvm-cloud) for detailed instructions.
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 

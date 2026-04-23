@@ -8,7 +8,7 @@ The cloud platform only supports firmware **v1.5.0 and above**. If your device i
 
 ## Local Access Upgrade 
 
-1. [Local access](local_access_to_controlled_device_via_browser.md) to the KVM console. 
+1. [Local access](local_access_via_browser.md) to the KVM console. 
 
 2. Click on the firmware version, then select "**Upgrade Now**".
 

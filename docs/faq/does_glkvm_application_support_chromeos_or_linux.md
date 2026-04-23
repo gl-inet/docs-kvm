@@ -10,7 +10,7 @@ However, you can use **Cloud Service** or **Tailscale** to achieve remote access
 
     Bind your KVM to your Cloud account, then you can remotely access your KVM by typing `glkvm.com` into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
 
-    Click [here](remote_access_to_controlled_device_via_cloud.md){target="_blank"} for details.
+    Click [here](remote_access_via_cloud.md){target="_blank"} for details.
 
 - Tailscale
     
@@ -18,7 +18,7 @@ However, you can use **Cloud Service** or **Tailscale** to achieve remote access
 
     Bind your KVM and controlling device to the same Tailscale account, then you can remotely access your KVM by typing the KVM's Tailscale virtual IP into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
     
-    Click [here](remote_access_to_controlled_device_via_tailscale.md){target="_blank"} for details.
+    Click [here](remote_access_via_tailscale.md){target="_blank"} for details.
 
 Alternatively, you can locally access the controlled device through a web browser in the same local network. 
 

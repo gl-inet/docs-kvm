@@ -27,8 +27,8 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 
 ## Apps Center
 
-* [How to remotely access the controlled device via Tailscale?](../faq/remote_access_to_controlled_device_via_tailscale.md)
-* [How to remotely access the controlled device via ZeroTier?](../faq/remote_access_to_controlled_device_via_zerotier.md)
+* [How to access the KVM remotely via Tailscale?](../faq/remote_access_via_tailscale.md)
+* [How to access the KVM remotely via ZeroTier?](../faq/remote_access_via_zerotier.md)
 
 ## Troubleshooting
 

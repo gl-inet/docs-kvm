@@ -12,7 +12,7 @@ For Android users, download it from [here](https://play.google.com/store/apps/de
 
 For iOS users, download it from the [App Store](https://apps.apple.com/us/app/glkvm/id6754631417){target="_blank"}.
 
-Or you may use the Cloud service for remote access via a web browser. Click [here](remote_access_to_controlled_device_via_cloud.md) for details.
+Or you may use the Cloud service for remote access via a web browser. Click [here](remote_access_via_cloud.md) for details.
 
 ---
 

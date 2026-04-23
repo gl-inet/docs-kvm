@@ -32,6 +32,11 @@ plugins:
         "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
         "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
         "user_guide/gl-rm10rc/control_panel_guide.md": "user_guide/gl-rm10rc/console_guide.md"
+        "faq/local_access_to_controlled_device_via_browser.md": "faq/local_access_via_browser.md"
+        "faq/remote_access_to_controlled_device_via_cloud.md": "faq/remote_access_via_cloud.md"
+        "faq/remote_access_to_controlled_device_via_glkvm_app.md": "faq/remote_access_via_glkvm_app.md"
+        "faq/remote_access_to_controlled_device_via_tailscale.md": "faq/remote_access_via_tailscale.md"
+        "faq/remote_access_to_controlled_device_via_zerotier.md": "faq/remote_access_via_zerotier.md"
 
 # Customization
 extra:
@@ -113,11 +118,11 @@ nav:
           - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
           - GLKVM App: faq/glkvm_app.md
       - Local & Remote Access:
-          - Local access via browser: faq/local_access_to_controlled_device_via_browser.md
-          - Remote access via Cloud: faq/remote_access_to_controlled_device_via_cloud.md
-          - Remote access via App: faq/remote_access_to_controlled_device_via_glkvm_app.md
-          - Remote access via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
-          - Remote access via ZeroTier: faq/remote_access_to_controlled_device_via_zerotier.md
+          - Local access via browser: faq/local_access_via_browser.md
+          - Remote access via Cloud: faq/remote_access_via_cloud.md
+          - Remote access via GLKVM app: faq/remote_access_via_glkvm_app.md
+          - Remote access via Tailscale: faq/remote_access_via_tailscale.md
+          - Remote access via ZeroTier: faq/remote_access_via_zerotier.md
           - Privacy error when accessing via browser: faq/privacy_error_from_your_browser.md
       - Cloud Service:
           - Bind with code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
@@ -162,8 +167,8 @@ nav:
           - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
           - How to install OS remotely: tutorials/how_to_install_os_remotely.md
       - Apps Center:
-          - How to remotely access the controlled device via Tailscale: faq/remote_access_to_controlled_device_via_tailscale.md
-          - How to remotely access the controlled device via ZeroTier: faq/remote_access_to_controlled_device_via_zerotier.md
+          - How to access the KVM remotely via Tailscale: faq/remote_access_via_tailscale.md
+          - How to access the KVM remotely via ZeroTier: faq/remote_access_via_zerotier.md
       - Troubleshooting:
           - How to unbrick KVM via U-Boot: faq/debrick.md
           - How to unbrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
