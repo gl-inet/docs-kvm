@@ -64,3 +64,7 @@ If your question is not listed below, please contact our technical support team 
 
 * [No audio from the controlled device](no_audio_from_the_controlled_device.md)
 * [The speaker and microphone settings cannot be retained](speaker_microphone_settings_cannot_be_retained.md)
+
+## Network & System
+
+* [How to disable outgoing PING/ICMP packets from KVM](disable_ping_icmp.md)
