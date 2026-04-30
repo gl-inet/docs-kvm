@@ -1,0 +1,23 @@
+docs/faq/how_to_record_screen.md
+  31ebe4e1a368c5b4 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "8d26381dd3e0794ec079d1c4884982e353089d87",
+  "prompts": {
+    "31ebe4e1a368c5b4": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "85b439aa-b1ce-4100-bff9-dfaa52dc0674",
+        "model": "qwen3.6-plus"
+      },
+      "human_author": "zefu.du",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
