@@ -55,6 +55,16 @@ However, users may need to change KVM's device identity in the following scenari
 
     If you fail to control the mouse and keyboard on the controlled device through KVM, try modifying the KVM's device identity to avoid compatibility issues, enabling smooth signal transmission between the KVM and the controlled device.
 
+## Limitations of Device Identity Customization
+
+!!! Warning "Behavioral Detection Software May Still Identify KVM"
+
+    Regardless of how you customize the USB device identity, the USB **structure** of the virtualized devices (keyboard, mouse, microphone, camera, etc.) may still appear suspicious to behavioral detection software.
+
+    The fundamental issue is that all these virtualized peripherals belong to a **single composite USB device**. While a composite device containing only a keyboard and mouse is relatively common — many wireless keyboard/mouse receivers (such as Logitech Unifying) present a similar structure — a single composite USB device that simultaneously includes **keyboard, mouse, and microphone** is extremely rare in practice. 
+
+    Therefore, changing the device identity alone **may not be sufficient** to evade detection by advanced monitoring or behavioral analysis software.
+
 ## How to change device identity
 
 1. Log in to your KVM, and navigate to **Settings** -> **System** -> **Device Identity**. Select a preset identity from the drop-down list.
