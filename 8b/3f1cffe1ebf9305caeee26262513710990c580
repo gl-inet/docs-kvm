@@ -1,0 +1,25 @@
+docs/faq/how_to_record_screen.md
+  897382096649a59e 1-19
+docs/faq/index.md
+  897382096649a59e 72-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "8b3f1cffe1ebf9305caeee26262513710990c580",
+  "prompts": {
+    "897382096649a59e": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b548d845-fb81-4f92-b532-21979c7e3c03",
+        "model": "qwen3.6-plus"
+      },
+      "human_author": "zefu.du",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 0,
+      "accepted_lines": 23,
+      "overriden_lines": 0
+    }
+  }
+}
