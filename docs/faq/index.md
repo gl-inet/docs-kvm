@@ -69,6 +69,10 @@ If your question is not listed below, please contact our technical support team 
 
 * [How to connect USB TTL](connect_usb_ttl.md)
 
+## Video Recording
+
+* [How to record screen](how_to_record_screen.md)
+
 ## Network & System
 
 * [How to disable outgoing PING/ICMP packets from KVM](disable_ping_icmp.md)
