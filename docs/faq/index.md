@@ -76,3 +76,4 @@ If your question is not listed below, please contact our technical support team 
 ## Network & System
 
 * [How to disable outgoing PING/ICMP packets from KVM](disable_ping_icmp.md)
+* [How to configure reduce STUN public IP detection](configure_reduce_stun_detection.md)
