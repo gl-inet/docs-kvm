@@ -16,4 +16,4 @@ ustreamer-dump --sink kvmd::ustreamer::h264 --output - | ffmpeg -use_wallclock_a
 
 The recorded video will be saved to `/userdata/media/my_video.mp4`.
 
-You can download the video file through the [Virtual Media](../features/virtual_media.md) feature.
+You can download the video file through the [Virtual Media](../tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md) feature.
