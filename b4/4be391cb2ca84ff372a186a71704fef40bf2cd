@@ -1,0 +1,23 @@
+docs/tutorials/how_to_change_device_identity.md
+  74525446b6045456 58-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "b44be391cb2ca84ff372a186a71704fef40bf2cd",
+  "prompts": {
+    "74525446b6045456": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "bbbeaeb5-6049-49c5-bac1-6d7b63fbfd33",
+        "model": "qwen3.6-plus"
+      },
+      "human_author": "zefu.du",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 0,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    }
+  }
+}
