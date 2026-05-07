@@ -20,6 +20,10 @@ In case of special situations, such as to configure UEFI/BIOS or customize the r
 
 If you can't find a suitable code, you may refer to [this link](https://github.com/linuxhw/EDID){target="blank"} or steps below to customize EDID configuration.
 
+!!! Tip
+
+    Finding an EDID that exactly matches your desired resolution and refresh rate can be challenging. You can use EDID editing tools such as **RTDtool** or **EEditZ** to modify an existing EDID to meet your specific needs.
+
 1. Find a suitable EDID in [this link](https://github.com/linuxhw/EDID){target="blank"} and copy it.
 
     ![edid code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_code.jpg){class="glboxshadow"}
