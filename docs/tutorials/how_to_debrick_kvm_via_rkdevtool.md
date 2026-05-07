@@ -32,7 +32,7 @@ To avoid unbrick failure, please follow the steps in order.
 
     ![install driver](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/install_driver_2.png){class="glboxshadow"}
 
-5. Download the **RKDevTool** from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/RKDevTool_Release_v2.84.zip) to your computer, and extract it to an easily accessible directory.
+5. Download the **RKDevTool** from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/RKDevTool_Release_v3.37.zip) to your computer, and extract it to an easily accessible directory.
 
 6. Double click the .exe file to run the flashing tool on your computer.
 
