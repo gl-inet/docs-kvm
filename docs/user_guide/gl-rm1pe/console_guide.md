@@ -49,7 +49,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Show Local Cursor**: Display the mouse of the current device on the screen.
 
-- **Mouse Jiggle**: It is applied to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management).
+- **Mouse Jiggle**: The Mouse Jiggler feature simulates subtle, periodic mouse movements to prevent the computer (i.e., the controlled device) from going to sleep due to prolonged inactivity, such as during remote meetings and server management.
 
 - **Scroll Rate**: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
 

@@ -146,7 +146,7 @@ A3. Wake-on-LAN (WOL) is a technology that allows a computer or device to be rem
 
 A4. Yes. You can enable Mouse Jiggle on the KVM console.
 
-It aims to prevent the computer from entering sleep due to prolonged inactivity (e.g., remote meetings, server management), assist in game idle status (when users leave the keyboard temporarily) to avoid being detected as offline by the system, and simulate user operations in software automated testing to ensure stable program operation.
+The Mouse Jiggler feature simulates subtle, periodic mouse movements to prevent the computer (i.e., the controlled device) from going to sleep due to prolonged inactivity, such as during remote meetings and server management.
 
 ---
 
