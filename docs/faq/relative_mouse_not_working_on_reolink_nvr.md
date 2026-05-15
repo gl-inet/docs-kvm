@@ -1,6 +1,6 @@
 # What should I do if relative mouse mode doesn't work on Reolink NVR?
 
-When using GL.iNet KVM (e.g., Comet Pro GL-RM10) to control Reolink NVR (especially models do not support dual mice) or certain vintage computers (such as those without USB interfaces), the relative mouse mode may not work. Common issues include complete failure of the mode, or trackable mouse movement but unresponsive clicks.
+When using GL.iNet KVM to control Reolink NVR (especially models do not support dual mice) or certain vintage computers (such as those without USB interfaces), the relative mouse mode may not work. Common issues include complete failure of the mode, or trackable mouse movement but unresponsive clicks.
 
 This problem mainly comes from a compatibility issue between the KVM's mouse simulation and the limited capabilities of devices like Reolink NVR:
 
@@ -34,9 +34,9 @@ To resolve the issue, you can force relative mouse mode in the terminal. Follow 
 
 !!! note
 
-    1. If the above configurations don't work, roll back your KVM firmware to v1.3.2, which uses single-mouse simulation compatible with vintage devices.
-
-    2. The standalone GLKVM app for Mac OS does not support relative mouse mode due to browser kernel limitations (lack of requestPointerLock API support). Use the web interface instead.
+    1. If the above method does not work, try rolling back your KVM firmware to a version before v1.4 (if available), which supports single mouse emulation and is compatible with older devices.
+    
+    2. The standalone GLKVM app for Mac OS does not support relative mouse mode due to browser kernel limitations (lack of requestPointerLock API support). Use the web console instead.
 
 ---
 
