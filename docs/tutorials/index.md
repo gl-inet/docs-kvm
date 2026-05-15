@@ -14,6 +14,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 * [How to change KVM hostname?](how_to_change_kvm_hostname.md)
 * [How to change KVM device identity?](how_to_change_device_identity.md)
 * [How to set EDID for KVM?](how_to_set_edid_for_glkvm.md)
+* [How to check if your device's USB-C port supports DP Alt Mode?](how_to_check_usb-c_port_dp_alt_mode.md)
 
 ## Cloud Service
 
