@@ -33,7 +33,7 @@ You can customize video settings on the console, such as display mode, video qua
 
 - **Orientation**: Adjust the console's rotation angle to 0°/90°/180°/270°.
 
-- **EDID**: Extended Display Identification Data (EDID) automatically matches the optimal display parameters. The default EDID is suitable for most scenarios and generally does not need to be modified. Click [here](../../faq/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the EDID has been changed but the screen does not update, try restarting the controlled device.
+- **EDID**: Extended Display Identification Data (EDID) automatically matches the optimal display parameters. The default EDID is suitable for most scenarios and generally does not need to be modified. See [here](../../faq/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the EDID has been changed but the screen does not update, try restarting the controlled device.
 
 - **View**: This feature controls whether the screen follows the browser window when resizing. Three options are available: Adaptive, Best Picture Quality, and Original Pixel.
 
@@ -220,8 +220,8 @@ Comet Pro allows you to transfer files or mount images between the controlling d
 
 On the console, navigate to **Virtual Media**. Here you can perform the following operations:
 
-- [Share Files](#file-sharing)
-- [Mount Images](#image-mounting)
+- [File Sharing](#file-sharing)
+- [Image Mounting](#image-mounting)
 - [Replace Storage Drive](#replace-storage-drive)
 - [Format Disk](#format-disk)
 
@@ -243,11 +243,11 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
 
     ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mount1.png){class="glboxshadow"}
 
-    A window will pop up on the console, indicating the file sharing steps, as shown below.
+3. A window will pop up on the console, indicating the file sharing steps, as shown below.
     
     ![file sharing prompt](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mount2-prompt.png){class="glboxshadow"}
 
-3. Wait a second, and a drive named **"GLKVM"** will pop up on the screen automatically. You will then see the files you previously uploaded from the controlling device to Comet Pro have been shared to the controlled device. Now you can view, move or delete the files in this drive on the controlled end.
+4. Wait a second, and a drive named **"GLKVM"** will pop up on the screen automatically. You will then see the files you previously uploaded from the controlling device to Comet Pro have been shared to the controlled device. Now you can view, move or delete the files in this drive on the controlled device.
 
     ![file sharing glkvm drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mount3.png){class="glboxshadow"}
 
@@ -257,7 +257,7 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
     
     Then find a drive named **GLKVM**. Now you can view, move or delete the files in this drive.
 
-4. If you want to stop the sharing, click **Virtual Media** in the toolbar and click **Stop Sharing**.
+5. If you want to stop the sharing, click **Virtual Media** in the toolbar and click **Stop Sharing**.
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/stop-sharing1.png){class="glboxshadow"}
 
@@ -267,7 +267,7 @@ It emulates a read-write USB drive, allowing you to share and manage files betwe
 
     For example, an image named "slate7-pro_gl-be10000" has been moved from the controlled device's Desktop to the drive **GLKVM**. 
 
-    ![copy file to drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-sharing-copy.png){class="glboxshadow"}
+    ![move file to drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-sharing-copy.png){class="glboxshadow"}
     
 2. Turn to the Comet Pro's console, click **Virtual Media** in the toolbar and click **Stop Sharing**.
 
@@ -297,7 +297,7 @@ This function can help you reinstall the operating system or mount an ISO to ins
 
     ![image mount3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/image-mount3.png){class="glboxshadow"}
 
-    Then you can use this file from the CD drive on the controlled device.
+4. Now you can use this file from the CD drive on the controlled device.
 
     ![image mount4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/image-mount4.png){class="glboxshadow"}
 
@@ -397,7 +397,7 @@ You can upgrade your Comet Pro online if newer firmware is available. Alternativ
 
 ### Cloud Service
 
-GL.iNet KVM Cloud Service allows you to access the controlled device remotely. Click [here](../gl-rm10/quick_setup_guide.md#remote-access-to-comet-pro) for details.
+GL.iNet KVM Cloud Service allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/cloud-service1.png){class="glboxshadow"}
 

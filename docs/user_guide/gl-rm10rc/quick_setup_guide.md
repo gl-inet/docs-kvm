@@ -1,5 +1,9 @@
 # Comet 5G (GL-RM10RC) Quick Setup
 
+Watch this video or follow the steps below to set up your Comet 5G.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Connect Devices
 
 For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
@@ -210,10 +214,20 @@ There are three ways to access Comet 5G remotely: via Cloud service, GLKVM App, 
 
 ### Tailscale
 
-Comet 5G integrates with Tailscale, allowing you to remotely access it via Tailscale virtual network.
+Comet 5G integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
-On the console, navigate to **Apps Center** -> **Tailscale**, bind your Comet 5G to your Tailscale account. 
+On the console, navigate to **Apps Center** -> **Tailscale**, enable it and bind your Comet 5G to your Tailscale account. 
 
-Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet 5G by typing its Tailscale virtual IP into a web browser on the controlling device, without installing GLKVM app.
+Next, bind your controlling device to the same account. You will then be able to remotely access your Comet 5G by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing GLKVM app.
 
-Click [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for detailed instructions.
+See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for detailed instructions.
+
+### ZeroTier
+
+Comet 5G integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
+
+On the console, navigate to **Apps Center** -> **ZeroTier** and enable it.
+
+Next, join both Comet 5G and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), then you can remotely access your Comet 5G by entering its **ZeroTier IP** in a web browser on the controlling device, without installing GLKVM app.
+
+See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for detailed instructions.
