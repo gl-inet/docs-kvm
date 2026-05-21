@@ -11,6 +11,12 @@ On the console, navigate to **Settings**. The settings page includes four sectio
 
 ![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/settings-general.png){class="glboxshadow"}
 
+### Quick Search
+
+You can quickly find the settings you want by entering keywords at the top of the Settings page.
+
+![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/quick-search.png){class="glboxshadow"}
+
 ### Video
 
 You can customize video settings on the console, such as display mode, video quality, video transmission, screen orientation, and EDID.
@@ -45,7 +51,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
 
-- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. It supports one-click mute, and a long-press shortcut to activate the microphone.
+- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
 
 - **Keyboard**: Turn on or off the keyboard of the controlled device.
 
@@ -99,15 +105,15 @@ You can customize the system display settings of the console, or reset the devic
 
 ### Network
 
-You can check Comet Pro's network details, e.g., Hostname and IP address.
+You can check and modify Comet Pro's network details, such as Hostname and IP address.
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/settings-network.png){class="glboxshadow"}
 
 - **Hostname**: You can modify the device hostname directly on the console. This feature has been available since firmware v1.7.0.
 
-- **Ethernet**: When Comet Pro connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. You can click the IP address or the right arrow to view the ethernet details.
+- **Ethernet**: When Comet Pro connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. Click the IP address or the right arrow to view the ethernet details.
 
-    When the protocol is DHCP, the page displays as follows.
+    If the protocol is DHCP, the page displays as follows.
 
     ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/ethernet-dhcp.png){class="glboxshadow"}
 
@@ -115,11 +121,11 @@ You can check Comet Pro's network details, e.g., Hostname and IP address.
 
     ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/ethernet-static.png){class="glboxshadow"}
 
-- **Wireless**: When Comet Pro connects to a Wi-Fi network, its Wi-Fi IP address will be displayed here. You can click the IP address or the right arrow to view the Wi-Fi details, including the SSID, assigned IP address, gateway, and the MAC address your Comet Pro uses to connect to.
+- **Wireless**: When Comet Pro connects to a Wi-Fi network, its Wi-Fi IP address will be displayed here. Click the IP address or the right arrow to view the Wi-Fi details, including the SSID, assigned IP address, gateway, and the MAC address your Comet Pro uses to connect to.
 
     ![wifi config](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/wifi-config.png){class="glboxshadow"}
 
-    To connect Comet Pro to a different Wi‑Fi network, click **Switch Wi-Fi** and select a network from the list of available Wi‑Fi networks.
+    If you want to connect it to a different Wi‑Fi network, click **Switch Wi-Fi** and select a Wi-Fi from the available network list.
 
     ![join wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/join-wifi-network.png){class="glboxshadow"}
 
@@ -136,7 +142,7 @@ On the console, navigate to **Toolbox**. The toolbox page includes four sections
 
 ### Clipboard
 
-The clipboard allows you to easily paste text from the controlling device to the controlled device without file transfer, making it highly convenient for copying and pasting long text.
+The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-clipboard.png){class="glboxshadow"}
 
@@ -160,27 +166,25 @@ Click **Add Device** to choose a device from the same LAN and set up Wake-on-LAN
 
 ### Terminal
 
-You can access Comet Pro's terminal to perform advanced settings.
+You can access Comet Pro's terminal to perform advanced settings. Click **Access**.
 
 ![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-terminal-1.png){class="glboxshadow"}
 
-Click **Access**, and you will be re-directed to the GLKVM terminal, as shown below.
+You will then be redirected to the GLKVM terminal.
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-terminal-2.png){class="glboxshadow"}
 
 ## Accessories
 
-GL.iNet offers optional accessories for KVM devices to provide additional convenience for remote control. 
+GL.iNet offers optional KVM accessories to remotely control the device's power on/off. 
 
-First, refer to the corresponding user guide for connecting the accessory to the controlled device.
+First, see the corresponding user guide to connect the accessory to your controlled device.
 
 - [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
 
-Second, log in to the KVM console and navigate to **Accessories**. You will be able to control the device's power on/off through the accessories. 
-
-**Note**: Accessory settings are only available after the accessory is installed.
+Second, log in to the KVM console and navigate to **Accessories**. The accessory settings are only available after the accessory is installed.
 
 ### Fingerbot
     

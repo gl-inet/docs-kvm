@@ -105,19 +105,15 @@ You can customize the system display settings of the console, or reset the devic
 
 ### Network
 
-You can check and modify Comet 5G's network details here.
+You can check and modify Comet 5G's network details here, such as Hostname and IP address.
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-network.png){class="glboxshadow"}
 
-As shown above, Comet 5G connects to the Internet via an Ethernet cable, Wi-Fi, and a Cellular SIM simultaneously.
+- **Hostname**: You can modify the device hostname directly on the console. This feature has been available since firmware v1.7.0.
 
-Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wireless settings (e.g., switch networks), or cellular settings as needed.
+- **Ethernet**: When Comet 5G connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. You can click the IP address or the right arrow to view the ethernet details.
 
-??? "Ethernet Settings"
-
-    #### Ethernet
-
-    When Comet 5G connects to an upstream network device via an Ethernet cable, if the connection protocol is **DHCP**, it will be dynamically assigned an IP address. 
+    If the protocol is DHCP, the page displays as follows.
 
     ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ethernet1.png){class="glboxshadow"}
     
@@ -125,11 +121,7 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
 
     ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ethernet2.png){class="glboxshadow"}
 
-??? "Wireless Settings"
-
-    #### Wireless
-
-    The wireless settings of Comet 5G support two working modes: **Station Mode** and **AP Mode**, catering to different network access requirements. 
+- **Wireless**: Comet 5G support two wireless working modes: **Station Mode** and **AP Mode**, catering to different network access requirements. 
 
     - **Station Mode**
 
@@ -139,11 +131,11 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
 
         ![wifi station](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-sta-mode.png){class="glboxshadow"}
 
-        If you want to connect Comet 5G to other networks, click **Switch Wi-Fi** at the bottom.
+        If you want to connect it to a different Wi‑Fi network, click **Switch Wi-Fi** at the bottom.
 
         ![switch wifi 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi1.png){class="glboxshadow"}
 
-        Then select the Wi-Fi to join.
+        Then select a Wi-Fi from the available network list.
 
         ![switch wifi 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi2.png){class="glboxshadow"}
 
@@ -155,21 +147,17 @@ Click **Modify** to adjust the ethernet settings (e.g., assign a static IP), wir
     
         ![wifi ap](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-ap-mode.png){class="glboxshadow"}
 
-??? "Cellular Settings"
-
-    #### Cellular
-
-    Comet 5G comes with a built-in cellular module, enabling mobile network access via a SIM card.
+- **Cellular**: Comet 5G comes with a built-in cellular module, enabling mobile network access via a SIM card.
 
     After the SIM card is detected, you can view cellular connection details (e.g., carrier information, phone number, ICCID, and current APN profile) in this interface.
 
     ![cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cellular.png){class="glboxshadow"}
     
-    **SIM Settings** allows you to manage your cellular configurations (e.g., adjust APN and MTU).
+    - **SIM Settings** allows you to manage your cellular configurations (e.g., adjust APN and MTU).
     
-    **AT command** enables you to execute AT commands to retrieve modem-related outputs.
+    - **AT command** enables you to execute AT commands to retrieve modem-related outputs.
     
-    **Cellular Firewall** is used to set up firewall rules for cellular networks. 
+    - **Cellular Firewall** is used to set up firewall rules for cellular networks. 
 
     In summary, the cellular connection serves as a robust backup network option when Ethernet or Wi-Fi connections are unavailable.
 
@@ -192,7 +180,7 @@ The clipboard allows you to easily paste text from the controlling device to the
 
 ### Shortcut
 
-You can find some common shortcut options here.
+The shortcut let you perform actions faster without using the virtual keyboard, helping you work more efficiently and save time on daily tasks. You can find some common shortcuts here.
 
 ![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-shortcut1.png){class="glboxshadow"}
 

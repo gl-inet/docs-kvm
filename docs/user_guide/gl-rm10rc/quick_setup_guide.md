@@ -88,7 +88,7 @@ You will be able to access the Comet 5G's console locally, thus access the contr
 
 ## Remote Access
 
-There are three ways to access Comet 5G remotely: via Cloud service, GLKVM App, or Tailscale.
+There are four ways to access Comet 5G remotely: via Cloud service, GLKVM App, Tailscale, and ZeroTier.
 
 ### Cloud service
 
