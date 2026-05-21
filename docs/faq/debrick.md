@@ -4,9 +4,7 @@ If you bricked your KVM due to some DIY projects or flashing a wrong firmware, y
 
 ## Preparation
 
-Please prepare a computer with an Ethernet port. 
-
-If your computer does not have Ethernet port, prepare an additional USB Ethernet Adapter. 
+Please prepare a computer or laptop with an Ethernet port. If your computer does not have an ethernet port, an additional USB-Ethernet adapter is required.
 
 ## Unbrick steps
 
@@ -16,15 +14,19 @@ To avoid unbrick failure, please follow the steps below strictly.
 
 2. Remove the power of KVM. Connect your computer to the Ethernet port of the KVM.
 
-3. Press and hold the Reset button firmly, and power on the KVM **at the same time**.
+3. Press and hold the Reset button firmly, **at the same time power on your KVM**.
 
-    Then you will see the LED flashing in a regular pattern several times. Release the button **after** the flash sequence changes.
+    Wait for the LED to flash in a regular sequence several times. Release the Reset button **after** the flashing pattern changes.
 
-    - **Comet (GL-RM1)**: When holding the Reset button, the blue LED will flash 5 times. Release the Reset button after the 5 flashes, and the blue LED will remain solid.
+    !!! note "LED Flashing Patterns by Device Model"
 
-    - **Comet PoE (GL-RM1PE)**: When holding the Reset button, the blue LED will flash 5 times. Release the Reset button after the 5 flashes, and the blue LED will remain solid.
+        - **Comet (GL-RM1)**: When holding the Reset button, the blue LED will flash 5 times. Release the Reset button after the 5 flashes, and the blue LED will remain solid.
 
-    - **Comet Pro (GL-RM10)**: Hold the Reset button for about 5 seconds, during which power on the KVM at the same time, then release the button. It will enter the U-Boot mode.
+        - **Comet PoE (GL-RM1PE)**: When holding the Reset button, the blue LED will flash 5 times. Release the Reset button after the 5 flashes, and the blue LED will remain solid.
+
+        - **Comet Pro (GL-RM10)**: Hold the Reset button for about 5 seconds, during which power on your KVM at the same time, then release the button. It will enter the U-Boot mode.
+
+        - **Comet 5G (GL-RM10RC)**: Hold the Reset button for about 5 seconds, during which power on your KVM at the same time, then release the button. It will enter the U-Boot mode.
 
 4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below.
 
@@ -96,17 +98,17 @@ To avoid unbrick failure, please follow the steps below strictly.
 
     **Note:** The U-Boot Web UI above may not be exactly the same as what you see, because the U-Boot version is different for different production dates. For security reasons, we currently do not provide separate U-Boot upgrades. If an update is necessary, we will integrate it into the new firmware.
 
-6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
+6. Click **Choose file** and select the firmware file. Then click **Update firmware** button.
 
 7. Wait for about 3 minutes. **Do NOT power off your KVM when updating.** 
 
     The KVM is ready when its LED is **flashing white**.
 
-8. Revert the computer IP setting you did in step 4.
+8. Revert the computer IP settings you did in step 4.
 
-9. Unplug the Ethernet cable between your computer and the KVM, then connect your KVM to a network source (e.g. a router or a network switch) via this Ethernet cable. For Comet Pro (GL-RM10), you can also connect it to the Wi-Fi.
+9. Unplug the Ethernet cable between your computer and the KVM, then connect your KVM to a network source (e.g. a router or a network switch) via this Ethernet cable or Wi-Fi.
 
-    Wait for about 1 minute to allow the KVM to obtain Internet access. Then connect your computer to the network source, and you will be able to access the KVM via `glkvm.local` again.
+    Wait for about 1 minute to allow the KVM to obtain Internet access. You will then be able to access your KVM again.
 
     **Note:** Configuration settings are typically retained. However, they will be reverted to default if a configuration error caused the system failure that required recovery.
 
