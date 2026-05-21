@@ -8,13 +8,15 @@ hide:
 
 Learn to use our devices correctly or troubleshoot with detailed steps.
 
-## System Settings
+## Network & System
 
 * [How to set a static IP for KVM?](how_to_set_static_ip_for_comet.md)
 * [How to change KVM hostname?](how_to_change_kvm_hostname.md)
 * [How to change KVM device identity?](how_to_change_device_identity.md)
 * [How to set EDID for KVM?](how_to_set_edid_for_glkvm.md)
 * [How to check if your device's USB-C port supports DP Alt Mode?](how_to_check_usb-c_port_dp_alt_mode.md)
+* [How to disable outgoing PING/ICMP packets from KVM?](how_to_disable_ping_icmp_packets.md)
+* [How to reduce STUN Public IP detection frequency?](how_to_reduce_stun_public_ip_detection_frequency.md)
 
 ## Cloud Service
 
@@ -25,6 +27,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 
 * [How to share files between controlling and controlled devices?](how_to_share_files_between_controlling_device_and_controlled_device.md)
 * [How to install an operating system on the controlled computer remotely?](how_to_install_os_remotely.md)
+* [How to record remote screen?](how_to_record_remote_screen.md)
 
 ## Apps Center
 
@@ -37,3 +40,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 * [How to unbrick KVM via RKDevTool?](how_to_debrick_kvm_via_rkdevtool.md)
 * [How to export cellular logs?](how_to_export_cellular_logs.md)
 * [How to fix mouse latency when RPi4 controls RPi3?](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
+
+## Hardware & USB
+
+* [How to access serial console via USB TTL?](how_to_access_serial_console_via_usb_ttl.md)
