@@ -27,7 +27,8 @@ plugins:
       redirect_maps:
         "faq/frequently_askedquestions_about_glinet_kvm.md": "faq/quick_faqs_about_glinet_kvm.md"
         "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
-        "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/only_desktop_wallpaper_displayed_in_glkvm.md"
+        "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
         "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
         "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
         "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
@@ -42,6 +43,11 @@ plugins:
         "faq/how_to_record_screen.md": "tutorials/how_to_record_remote_screen.md"
         "faq/disable_ping_icmp.md": "tutorials/how_to_disable_ping_icmp_packets.md"
         "faq/configure_reduce_stun_detection.md": "tutorials/how_to_reduce_stun_public_ip_detection_frequency.md"
+        "faq/how_to_set_edid_for_glkvm.md": "tutorials/how_to_set_edid_for_glkvm.md"
+        "faq/display_blank_screen_when_using_glkvm.md": "faq/remote_screen_goes_blank_no_hdmi_signal.md"
+        "faq/bios_does_not_display_in_glkvm.md": "faq/remote_screen_does_not_show_bios_interface.md"
+        "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
+        "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
 
 # Customization
 extra:
@@ -143,17 +149,16 @@ nav:
           - Failed to connect device: faq/connection_failed_when_remote_access_via_glkvm_app.md
           - Failed to install GLKVM on Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
       - Display Issues:
-          - Only desktop wallpaper displayed in GLKVM: faq/only_desktop_wallpaper_displayed_in_glkvm.md
-          - Blank screen displayed in GLKVM: faq/display_blank_screen_when_using_glkvm.md
-          - BIOS interface does not display in GLKVM: faq/bios_does_not_display_in_glkvm.md
-          - Set EDID for GL.iNet KVM: faq/how_to_set_edid_for_glkvm.md
+          - Remote screen only displays the desktop wallpaper: faq/remote_screen_only_displays_desktop_wallpaper.md
+          - Remote screen goes blank or shows no HDMI signal: faq/remote_screen_goes_blank_no_hdmi_signal.md
+          - Remote screen does not show the BIOS interface: faq/remote_screen_does_not_show_bios_interface.md
       - Keyboard & Mouse Issues:
-          - Difference between Absolute and Relative Mouse: faq/difference_between_absolute_and_relative_mouse.md
-          - Cannot control mouse and keyboard: faq/cannot_control_the_mouse.md
+          - Cannot control mouse and keyboard: faq/cannot_control_mouse_and_keyboard.md
           - Mouse cursors fail to align: faq/mouse_cursors_fail_to_align.md
-          - Mouse latency when RPi4 controls RPi3 via GLKVM: faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
           - Keyboard does not input or output as expected: faq/keyboard_does_not_input_output_as_expected.md
           - Relative mouse not working on Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
+          - Difference between Absolute and Relative mouse: faq/difference_between_absolute_and_relative_mouse.md
+          - Mouse latency when RPi4 controls RPi3 via KVM: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
       - Audio Issues:
           - No audio from the controlled device: faq/no_audio_from_the_controlled_device.md
           - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md

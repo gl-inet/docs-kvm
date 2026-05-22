@@ -39,7 +39,9 @@ You can customize the video settings on the console, such as display mode, video
 
 - **Orientation**: Adjust the console's rotation angle to 0°/90°/180°/270°.
 
-- **EDID**: Extended Display Identification Data (EDID) automatically matches the optimal display parameters. The default EDID is suitable for most scenarios and generally does not need to be modified. See [here](../../faq/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the EDID has been changed but the screen does not update, try restarting the controlled device.
+- **EDID**: Short for Extended Display Identification Data, it automatically matches the optimal display parameters.
+
+    The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
 
 - **View**: This feature controls whether the screen follows the browser window when resizing. Three options are available: Adaptive, Best Picture Quality, and Original Pixel.
 

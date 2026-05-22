@@ -38,11 +38,11 @@ If the mouse cursor on the controlling device fails to align with the one on the
 
     ??? note "Modify EDID setting for your KVM device"
 
-        EDID, short for Extended Display Identification Data, automatically matches the optimal display parameters. The default EDID is suitable for most scenarios and generally does not need to be modified. See [here](how_to_set_edid_for_glkvm.md){target="_blank"} for details. 
+        EDID, short for Extended Display Identification Data, automatically matches the optimal display parameters. The default EDID is suitable for most scenarios and generally does not need to be modified. See [here](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. 
         
         If the EDID has been changed but the screen does not update, try restarting the controlled device.
 
-3. **If the controlled device is not a laptop (e.g. desktop PC connected to an external monitor)**, confirm its primary display aspect ratio, then switch the EDID for your KVM accordingly. See [here](how_to_set_edid_for_glkvm.md){target="_blank"} for details. 
+3. **If the controlled device is not a laptop (e.g. desktop PC connected to an external monitor)**, confirm its primary display aspect ratio, then switch the EDID for your KVM accordingly. See [here](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. 
 
 ---
 

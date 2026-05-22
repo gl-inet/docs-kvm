@@ -1,4 +1,4 @@
-# What is the difference between Absolute Mouse and Relative Mouse?
+# What is the difference between Absolute mouse and Relative mouse?
 
 For the GL.iNet KVM, the **Mouse Mode** on the console provides two options: **Absolute** and **Relative**. These two modes differ significantly in mouse control behavior, applicable scenarios, and user experience, which are detailed as follows to help you choose the appropriate mode based on your actual needs.
 

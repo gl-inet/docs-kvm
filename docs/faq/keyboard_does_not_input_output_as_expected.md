@@ -1,6 +1,6 @@
-# What shoud I do if keyboard does not input/output as expected?
+# What shoud I do if keyboard does not input or output as expected?
 
-If your controlling device and the controlled device are not using the same input method / keyboard, when you input certain symbols like "!" "@" "#" or letters on the controlling end, the controlled end may not be able to output the same symbols or letters.
+If the controlling and controlled devices use **different input methods or keyboard layouts**, symbols and characters such as "!", "@", "#" entered locally may not display correctly on the remote side.
 
 ## Why does it happen
 

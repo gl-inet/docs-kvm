@@ -45,21 +45,20 @@ If your question is not listed below, please contact our technical support team 
 
 ## Display Issues
 
-* [Only remote desktop wallpaper displayed in GLKVM](only_desktop_wallpaper_displayed_in_glkvm.md)
-* [Blank screen displayed in GLKVM](display_blank_screen_when_using_glkvm.md)
-* [BIOS interface does not display in GLKVM](bios_does_not_display_in_glkvm.md)
-* [How to set EDID for GL.iNet KVM](how_to_set_edid_for_glkvm.md)
+* [Remote screen only displays the desktop wallpaper](remote_screen_only_displays_desktop_wallpaper.md)
+* [Remote screen goes blank or shows no HDMI signal](remote_screen_goes_blank_no_hdmi_signal.md)
+* [Remote screen does not show the BIOS interface](remote_screen_does_not_show_bios_interface.md)
 
 ## Keyboard & Mouse Issues
 
-* [Difference between Absolute and Relative Mouse](difference_between_absolute_and_relative_mouse.md)
-* [Cannot control mouse and keyboard](cannot_control_the_mouse.md)
+* [What should I do if I cannot control the mouse and keyboard?](cannot_control_mouse_and_keyboard.md)
 * [What should I do if mouse cursors fail to align?](mouse_cursors_fail_to_align.md)
-* [Mouse latency when RPi4 controls RPi3 via GLKVM](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
-* [Keyboard does not input or output as expected](keyboard_does_not_input_output_as_expected.md)
-* [Relative mouse not working on Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md)
+* [What shoud I do if keyboard does not input or output as expected?](keyboard_does_not_input_output_as_expected.md)
+* [What should I do if relative mouse mode does not work on Reolink NVR?](relative_mouse_not_working_on_reolink_nvr.md)
+* [What is the difference between Absolute mouse and Relative mouse?](difference_between_absolute_and_relative_mouse.md)
+* [How to fix mouse latency when RPi4 controls RPi3 via KVM?](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
 ## Audio Issues
 
-* [No audio from the controlled device](no_audio_from_the_controlled_device.md)
-* [The speaker and microphone settings cannot be retained](speaker_microphone_settings_cannot_be_retained.md)
+* [What should I do if there's no audio from the controlled device?](no_audio_from_the_controlled_device.md)
+* [Why can't I keep my speaker and microphone settings?](speaker_microphone_settings_cannot_be_retained.md)

@@ -1,8 +1,6 @@
 # What should I do if I cannot control the mouse and keyboard?
 
-Sometimes you may find that even if all the cables are connected, you still cannot control the mouse & keyboard on the controlled device through KVM.
-
-Here are some suggestions.
+If you fail to control the mouse and keyboard on the controlled device through KVM even if all cables are properly connected, here are some suggestions.
 
 1. Check the wiring. 
 

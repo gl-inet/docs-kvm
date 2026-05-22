@@ -1,4 +1,4 @@
-# What should I do if I cannot hear audio from the controlled device?
+# What should I do if there's no audio from the controlled device?
 
 After connecting the KVM and the controlled device, if you fail to hear audio from the controlled device (e.g., no sound when you play videos on the device), here are some troubleshooting tips:
 

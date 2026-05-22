@@ -1,6 +1,6 @@
-# Display blank screen when accessing the controlled device using GLKVM
+# What should I do if the remote screen goes blank or shows no HDMI signal?
 
-When accessing the controlled device via GL.iNet KVM, you may encounter a blank (white or black) screen issue as shown below.
+When accessing the controlled device through KVM, if the remote screen goes blank or shows no HDMI signal, follow the steps below to troubleshoot.
 
 ![white screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/white_screen.png){class="glboxshadow"}
 <small>(White screen)</small>

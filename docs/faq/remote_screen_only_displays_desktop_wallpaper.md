@@ -1,10 +1,10 @@
-# What should I do if the KVM control interface only displays the remote desktop wallpaper?
+# What should I do if the remote screen only displays the desktop wallpaper?
 
-When accessing the controlled device through KVM, if you can only see the remote desktop wallpaper and no operations respond, it's likely that your controlled device has multiple displays and it's set to **Extend Displays**.
+When accessing the controlled device through KVM, if you can only see the desktop wallpaper and no operations respond, it's likely that your controlled device uses multiple monitors configured in **Extend Displays** mode.
 
 ![extend display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/extend_displays.jpg){class="glboxshadow"}
 
-To fix this issue, please set the display settings of the controlled device to **Duplicate display**.
+To resolve the problem, switch the controlled device's display mode to **Duplicate display**.
 
 Take Windows 10 as an example. 
 

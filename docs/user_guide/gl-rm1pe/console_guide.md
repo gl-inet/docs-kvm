@@ -25,9 +25,9 @@ You can customize the video settings of the control page, e.g., display mode, vi
 
 - **Orientation**: Adjust the rotation angle of the control page to 0°/90°/180°/270°.
 
-- **EDID**: Extended Display Identification Data (EDID) automatically matches the display's optimal parameters.
+- **EDID**: Short for Extended Display Identification Data, it automatically matches the optimal display parameters.
 
-    The default configuration is suitable for most scenarios and usually does not need to be modified. Click [here](../../faq/how_to_set_edid_for_glkvm.md){target="_blank"} for details.
+    The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
 
 ### Remote Device Settings
 
