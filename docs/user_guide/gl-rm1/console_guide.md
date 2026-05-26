@@ -35,7 +35,7 @@ You can customize the video settings on the console, such as display mode, video
 
 - **Quality**: Adjust the video quality to low/medium/high/ultra-high/Lossless according to your network environment and resolution requirements.
 
-- **Transfer**: Switch the video transmission method between WebRTC, WebRTC (FEC), and Direct. Note that the Direct transfer has no sound.
+- **Transfer**: Switch the video transmission method between WebRTC, WebRTC (FEC), and Direct as needed. Note that the Direct transfer has no sound.
 
     !!! note "What's the difference between WebRTC, WebRTC (FEC) and Direct?"
 
@@ -51,7 +51,7 @@ You can customize the video settings on the console, such as display mode, video
 
     The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
 
-- **View**: This setting, introduced in firmware v1.9.0, determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel.
+- **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.9.0.
 
 ### Remote Device Settings
 
@@ -101,7 +101,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Relative Sensitivity**: It is available when the Mouse Mode is Relative.
 
-- **Primary Button**: Select the left or right button as the primary click. This feature was introduced in firmware v1.9.0
+- **Primary Button**: Select the left or right button as the primary click. This feature was introduced in firmware v1.9.0.
 
 ### System
 
@@ -251,7 +251,7 @@ On the console, navigate to **Virtual Media**. Here you can perform the followin
     
 ### File Sharing
 
-It emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
+Comet can emulate a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
 **To share files from the controlling device to the controlled one, follow the steps below.**
 
@@ -353,7 +353,7 @@ On the console, navigate to **Apps Center**. The integrated applications can be 
 
 Comet integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
-Simply bind the Comet and your controlling device to the same Tailscale account, and you will be able to remotely access the Comet by entering its **Tailscale virtual IP** into a web browser on the controlling device, without installing the GLKVM app.
+Simply bind the Comet and your controlling device to the same Tailscale account, then you will be able to remotely access the Comet by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing the GLKVM app.
 
 See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for more instructions.
 
