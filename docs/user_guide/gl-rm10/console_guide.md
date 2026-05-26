@@ -43,7 +43,7 @@ You can customize video settings on the console, such as display mode, video qua
 
     The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
 
-- **View**: This feature controls whether the screen follows the browser window when resizing. Three options are available: Adaptive, Best Picture Quality, and Original Pixel.
+- **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
 
 ### Remote Device Settings
 
@@ -53,7 +53,11 @@ You can adjust the relevant settings of the controlled device.
 
 - **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
 
-- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
+- **Microphone**: Transmit local audio (e.g., your voice) from the controlling device to the remote end. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
+
+    ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mic-settings.png){class="glboxshadow"}
+
+    ![press to speak](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/press-to-speak.png){class="glboxshadow"}
 
 - **Keyboard**: Turn on or off the keyboard of the controlled device.
 
@@ -111,7 +115,9 @@ You can check and modify Comet Pro's network details, such as Hostname and IP ad
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/settings-network.png){class="glboxshadow"}
 
-- **Hostname**: You can modify the device hostname directly on the console. This feature has been available since firmware v1.7.0.
+- **Hostname**: You can modify the device hostname directly on the console. This feature was introduced in firmware v1.7.0.
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/hostname.png){class="glboxshadow"}
 
 - **Ethernet**: When Comet Pro connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. Click the IP address or the right arrow to view the ethernet details.
 
@@ -335,11 +341,11 @@ Comet Pro integrates with Tailscale, allowing you to access it remotely through 
 
 Simply bind both Comet Pro and your controlling device to the same Tailscale account, and you will be able to remotely access the Comet Pro by entering its **Tailscale virtual IP** into a web browser on the controlling device, without installing the GLKVM app.
 
-Click [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for detailed instructions.
+See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for detailed instructions.
 
 After binding, the Comet Pro's console will show the bound Tailscale account.
 
-![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/control_panel/tailscale.png){class="glboxshadow"}
+![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/tailscale-enabled.png){class="glboxshadow"}
 
 ### ZeroTier
 
@@ -347,7 +353,7 @@ Comet Pro integrates with ZeroTier, allowing you to access it remotely through t
 
 Simply join both Comet Pro and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), and you can remotely access Comet Pro by entering its **ZeroTier IP** in a web browser on the controlling device, with no need to install the GLKVM app.
 
-Click [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for detailed instructions.
+See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for detailed instructions.
 
 After binding, the Comet Pro's console will show the ZeroTier Network ID and Virtual IP.
 

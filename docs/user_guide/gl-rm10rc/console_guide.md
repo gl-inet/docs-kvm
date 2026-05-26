@@ -43,7 +43,7 @@ You can customize the video settings on the console, such as display mode, video
 
     The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
 
-- **View**: This feature controls whether the screen follows the browser window when resizing. Three options are available: Adaptive, Best Picture Quality, and Original Pixel.
+- **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
 
 ### Remote Device Settings
 
@@ -53,7 +53,11 @@ You can adjust the relevant settings of the controlled device.
 
 - **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
 
-- **Microphone**: Transmit local audio input (e.g., your voice) to the controlled device for remote interaction. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
+- **Microphone**: Transmit local audio (e.g., your voice) from the controlling device to the remote end. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
+
+    ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic-settings.png){class="glboxshadow"}
+
+    ![press to speak](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/press-to-speak.png){class="glboxshadow"}
 
 - **Keyboard**: Turn on or off the keyboard of the controlled device.
 
@@ -111,7 +115,9 @@ You can check and modify Comet 5G's network details here, such as Hostname and I
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-network.png){class="glboxshadow"}
 
-- **Hostname**: You can modify the device hostname directly on the console. This feature has been available since firmware v1.7.0.
+- **Hostname**: You can modify the device hostname directly on the console. This feature was introduced in firmware v1.7.0.
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/hostname.png){class="glboxshadow"}
 
 - **Ethernet**: When Comet 5G connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. You can click the IP address or the right arrow to view the ethernet details.
 
