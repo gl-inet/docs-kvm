@@ -111,6 +111,8 @@ You can customize the system display settings of the console, or reset the devic
 
 - **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
 
+    ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/device-identity.png){class="glboxshadow"}
+
 - **Language**: Set the console's language to Chinese, English, or Japanise.
 
 - **Color Mode**: Customize the theme color to Light or Dark mode.
@@ -125,7 +127,9 @@ You can check Comet's network details here, such as Hostname and IP address.
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/settings-network.png){class="glboxshadow"}
 
-- **Hostname**: You can modify the device hostname directly on the console. This feature was introduced in firmware v1.7.0
+- **Hostname**: You can modify the device hostname directly on the console. This feature was introduced in firmware v1.7.0.
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/modify-hostname.png){class="glboxshadow"}
 
 - **Ethernet**: When Comet connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. You can click the IP address or the right arrow to view the ethernet details.
 
@@ -379,6 +383,7 @@ On the console, navigate to **Help**. Here you can find more information about G
 
 On the console, navigate to the top right corner to access the following tools:
 
+- [Text Recognition](#text-recognition)
 - [Collapse Toolbar](#collapse)
 - [Fullscreen](#fullscreen)
 - [Upgrade](#upgrade)
@@ -386,6 +391,18 @@ On the console, navigate to the top right corner to access the following tools:
 - [Security](#security)
 - Reboot
 - Logout
+
+### Text Recognition
+
+The Text Recognition feature allows you to select an area on the remote screen and extract text from it easily. It is powered by Optical Character Recognition (OCR) technology and was introduced in firmware v1.9.0.
+
+To use it, click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
+
+![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/ocr_function.png){class="glboxshadow"}
+
+Next, click the "T" icon and the remote screen will dim. Draw a box around the text you want to extract, and the system will identify it automatically. You can then copy the recognized text as needed. 
+
+With this feature, you can easily capture text from the remote screen (i.e., the controlled device) and copy it to the controlling device for use.
 
 ### Collapse
 
