@@ -1,8 +1,8 @@
 # How to unbind my KVM device from the Cloud?
 
-There are three ways to unbind KVM devices from the Cloud: via local access, GLKVM app, or via the Cloud.
+There are three ways to unbind KVM devices from the Cloud: via local access, the GLKVM app, or the Cloud.
 
-## Unbind in local access
+## Unbind via local access
 
 1. Ensure your computer is on the same local area network as your KVM device.
 
@@ -12,7 +12,7 @@ There are three ways to unbind KVM devices from the Cloud: via local access, GLK
 
     ![unbind via local](https://static.gl-inet.com/docs/kvm/faq/unbind/local_unbind.png){class="glboxshadow"}
 
-## Unbind in GLKVM app
+## Unbind via GLKVM app
 
 1. Log in to the GLKVM app, and click **Manage** in the upper-right corner of your device.
 
@@ -22,7 +22,7 @@ There are three ways to unbind KVM devices from the Cloud: via local access, GLK
 
     ![app unbinding](https://static.gl-inet.com/docs/kvm/faq/unbind/app_unbind_2.png){class="glboxshadow"}
 
-## Unbind in the Cloud
+## Unbind via the Cloud
 
 1. Launch a web browser on your computer (Chrome or Edge is recommended for better compatibility). Enter `glkvm.com` in the address bar, and log in with your cloud account.
 
