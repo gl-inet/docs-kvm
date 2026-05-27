@@ -2,7 +2,7 @@
 
 Firmware upgrades bring new features and enhance device stability. Follow the steps below to complete the upgrade.
 
-1. Log in to your KVM's console and click the firmware version in the upper right corner to check for updates.
+1. Log in to your KVM console and click the firmware version in the upper right corner to check for updates.
 
     ![upgrade](https://static.gl-inet.com/docs/kvm/faq/firmware_upgrade/upgrade.png){class="glboxshadow"}
 

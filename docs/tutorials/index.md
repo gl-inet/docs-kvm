@@ -38,6 +38,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 
 * [How to unbrick KVM via U-Boot?](../faq/debrick.md)
 * [How to unbrick KVM via RKDevTool?](how_to_debrick_kvm_via_rkdevtool.md)
+* [How to export device and app logs?](how_to_export_device_and_app_logs.md)
 * [How to export cellular logs?](how_to_export_cellular_logs.md)
 * [How to fix mouse latency when RPi4 controls RPi3?](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
 
