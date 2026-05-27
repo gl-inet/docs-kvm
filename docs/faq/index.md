@@ -13,7 +13,8 @@ If your question is not listed below, please contact our technical support team 
 ## Quick Start
 
 * [Quick FAQs about GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
-* [Download GLKVM App](glkvm_app.md)
+* [Firmware upgrade](firmware_upgrade.md)
+* [Download GLKVM app](glkvm_app.md)
 
 ## Local & Remote Access
 
