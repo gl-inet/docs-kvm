@@ -23,6 +23,7 @@ If your question is not listed below, please contact our technical support team 
 * [How to access the KVM remotely via GLKVM app?](remote_access_via_glkvm_app.md)
 * [How to access the KVM remotely via Tailscale?](remote_access_via_tailscale.md)
 * [How to access the KVM remotely via ZeroTier?](remote_access_via_zerotier.md)
+* [How to access the KVM remotely via NetBird?](remote_access_via_netbird.md)
 * [Privacy error when accessing via browser](privacy_error_from_your_browser.md)
 
 ## Cloud Service
