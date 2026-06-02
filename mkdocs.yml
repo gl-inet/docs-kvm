@@ -171,6 +171,7 @@ nav:
           - How to change KVM hostname: tutorials/how_to_change_kvm_hostname.md
           - How to change KVM device identity: tutorials/how_to_change_device_identity.md
           - How to set EDID for KVM: tutorials/how_to_set_edid_for_glkvm.md
+          - How to capture text from remote screen: tutorials/how_to_capture_text_from_remote_screen.md
           - How to check USB-C port DP Alt Mode: tutorials/how_to_check_usb-c_port_dp_alt_mode.md
           - How to disable outgoing PING/ICMP packets from KVM: tutorials/how_to_disable_ping_icmp_packets.md
           - How to reduce STUN Public IP detection frequency: tutorials/how_to_reduce_stun_public_ip_detection_frequency.md
