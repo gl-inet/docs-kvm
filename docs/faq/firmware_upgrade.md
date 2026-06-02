@@ -1,4 +1,4 @@
-# How to upgrade your KVM's firmware?
+# How to upgrade your KVM's firmware
 
 Firmware upgrades bring new features and enhance device stability. Follow the steps below to complete the upgrade.
 

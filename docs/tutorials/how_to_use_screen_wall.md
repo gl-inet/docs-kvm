@@ -1,4 +1,4 @@
-# How to use the cloud-based screen wall feature?
+# How to use the cloud-based screen wall feature
 
 With the Screen Wall, you can view the screens of multiple devices on a single page and keep track of their statuses easily.
 

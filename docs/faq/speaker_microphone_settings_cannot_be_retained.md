@@ -1,4 +1,4 @@
-# Why can't I keep my speaker and microphone settings?
+# Why can't I keep my speaker and microphone settings
 
 You may notice that if you enable Speaker or Microphone on the KVM console (from Settings -> Remote Device Settings), these settings won't be retained when you restart, re-login to KVM or refresh the webpage (in local access). 
 

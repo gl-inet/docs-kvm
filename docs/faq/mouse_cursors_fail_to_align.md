@@ -1,4 +1,4 @@
-# What should I do if mouse cursors fail to align?
+# What should I do if mouse cursors fail to align
 
 If the mouse cursor on the controlling device fails to align with the one on the controlled device, follow the troubleshooting steps below.
 

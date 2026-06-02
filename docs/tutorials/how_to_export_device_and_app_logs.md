@@ -1,4 +1,4 @@
-# How to export device logs and app logs?
+# How to export device logs and app logs
 
 This tutorial explains how to export logs from your KVM device and the GLKVM app for troubleshooting.
 

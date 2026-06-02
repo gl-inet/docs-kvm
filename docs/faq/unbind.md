@@ -1,4 +1,4 @@
-# How to unbind my KVM device from the Cloud?
+# How to unbind my KVM device from the Cloud
 
 There are three ways to unbind KVM devices from the Cloud: via local access, the GLKVM app, or the Cloud.
 

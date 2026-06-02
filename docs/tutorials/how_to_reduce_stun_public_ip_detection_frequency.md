@@ -1,4 +1,4 @@
-# How to reduce STUN Public IP detection frequency?
+# How to reduce STUN Public IP detection frequency
 
 The KVM device uses STUN requests to detect its public IP address for remote access. By default, the device sends STUN detection requests at regular intervals. If you only access the KVM over a local network or VPN, you can adjust the configuration to reduce the STUN request frequency.
 

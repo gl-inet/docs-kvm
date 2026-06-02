@@ -1,4 +1,4 @@
-# How to access the KVM locally via browser?
+# How to access the KVM locally via browser
 
 Before you begin, please ensure the controlling device and the KVM are on the same LAN.
 

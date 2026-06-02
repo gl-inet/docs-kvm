@@ -1,4 +1,4 @@
-# How to change KVM device identity?
+# How to change KVM device identity
 
 ## What is KVM device identity
 

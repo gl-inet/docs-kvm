@@ -1,4 +1,4 @@
-# How to access the KVM remotely via NetBird?
+# How to access KVM remotely via NetBird
 
 > Note: Please upgrade your KVM firmware to v1.9.0 before using this feature.
 

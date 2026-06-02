@@ -1,4 +1,4 @@
-# How to access the KVM remotely via Tailscale?
+# How to access KVM remotely via Tailscale
 
 GL.iNet KVM integrates Tailscale, allowing you to bind it to the Tailscale virtual network for remote access — no need to install the GLKVM app or use the cloud service. This is particularly useful when your controlling device does not run Windows, macOS, Android, or iOS (and thus cannot install the GLKVM app), or when you do not want to use the GLKVM app or cloud service.
 

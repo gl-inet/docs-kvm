@@ -1,4 +1,4 @@
-# What should I do if the remote screen goes blank or shows no HDMI signal?
+# What should I do if the remote screen goes blank or shows no HDMI signal
 
 When accessing the controlled device through KVM, if the remote screen goes blank or shows no HDMI signal, follow the steps below to troubleshoot.
 

@@ -25,7 +25,11 @@ plugins:
   - search
   - redirects:
       redirect_maps:
+        "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
         "faq/frequently_askedquestions_about_glinet_kvm.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/power_on_off_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/does_glkvm_application_support_chromeos_or_linux.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/can_comet_connect_to_wireless_network.md": "faq/quick_faqs_about_glinet_kvm.md"
         "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
         "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
         "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
@@ -126,7 +130,7 @@ nav:
   - FAQ:
       - Overview: faq/index.md
       - Quick Start:
-          - Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
+          - GL.iNet KVM Quick FAQs: faq/quick_faqs_about_glinet_kvm.md
           - Firmware upgrade: faq/firmware_upgrade.md
           - Download GLKVM app: faq/glkvm_app.md
       - Local & Remote Access:
@@ -183,9 +187,9 @@ nav:
           - How to install OS remotely: tutorials/how_to_install_os_remotely.md
           - How to record remote screen: tutorials/how_to_record_remote_screen.md
       - Apps Center:
-          - How to access the KVM remotely via Tailscale: faq/remote_access_via_tailscale.md
-          - How to access the KVM remotely via ZeroTier: faq/remote_access_via_zerotier.md
-          - How to access the KVM remotely via NetBird: faq/remote_access_via_netbird.md
+          - How to access KVM remotely via Tailscale: faq/remote_access_via_tailscale.md
+          - How to access KVM remotely via ZeroTier: faq/remote_access_via_zerotier.md
+          - How to access KVM remotely via NetBird: faq/remote_access_via_netbird.md
       - Troubleshooting:
           - How to unbrick KVM via U-Boot: faq/debrick.md
           - How to unbrick KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md

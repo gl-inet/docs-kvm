@@ -1,4 +1,4 @@
-# How to check if your device's USB-C port supports DP Alt Mode?
+# How to check if your device's USB-C port supports DP Alt Mode
 
 ## What is DP Alt Mode
 

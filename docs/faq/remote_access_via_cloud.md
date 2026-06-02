@@ -1,4 +1,4 @@
-# How to access the KVM remotely via Cloud?
+# How to access KVM remotely via Cloud
 
 Before you begin, please ensure:
 

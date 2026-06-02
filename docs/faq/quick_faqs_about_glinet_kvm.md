@@ -18,12 +18,20 @@ As to the controlling device, whether a software needs to be installed on it dep
 
 ??? "Local Access"
 
-    If you want to access the KVM within the same local area network (LAN), simply open a browser on the controlling device, enter `glkvm.local` or the KVM's IP address in the address bar, and you can access the KVM locally, thus accessing the controlled device. No software needs to be installed on the controlling device.
+    If you want to access KVM over the same local area network (LAN), no software needs to be installed on the controlling device.
+
+    Simply open a browser on the controlling device, enter either the KVM's IP address or `glkvm.local` in the address bar to access KVM locally.
     
     Click [here](local_access_via_browser.md){target="_blank"} for details.
     
 ??? "Remote Access"
 
+    - **GLKVM App**
+    
+        If your controlling device runs Windows, macOS, Android, or iOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it and access your KVM remotely, thus accessing the controlled device.
+        
+        Click [here](remote_access_via_glkvm_app.md){target="_blank"} for details.
+        
     - **Cloud Service**
     
         This method is ideal for those who cannot or do not want to install the GLKVM app.
@@ -31,12 +39,6 @@ As to the controlling device, whether a software needs to be installed on it dep
         Bind your KVM to the Cloud service, then you can access your KVM remotely by typing `glkvm.com` into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
 
         Click [here](remote_access_via_cloud.md){target="_blank"} for details.
-
-    - **GLKVM App**
-    
-        If your controlling device runs Windows, macOS, Android, or iOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it and access your KVM remotely, thus accessing the controlled device.
-        
-        Click [here](remote_access_via_glkvm_app.md){target="_blank"} for details.
     
     - **Tailscale**
     
@@ -48,23 +50,34 @@ As to the controlling device, whether a software needs to be installed on it dep
 
     - **ZeroTier**
     
-        Similar to Tailscale, this method is suitable for those who cannot or do not want to use the GLKVM app or Cloud service, though it involves more steps.
+        This method is suitable for those who cannot or do not want to use the GLKVM app or Cloud service, though it involves more steps.
 
         Join your KVM and controlling device into the same ZeroTier network, then you can access your KVM remotely by typing the KVM's ZeroTier IP into a web browser on your controlling device, thus accessing the controlled device.
     
         Click [here](remote_access_via_zerotier.md){target="_blank"} for details.
 
+    - **NetBird**
+
+        This method is suitable for those who cannot or do not want to use the GLKVM app or Cloud service, though it involves more steps.
+
+        [NetBird](https://netbird.io/){target="_blank"} is an open-source zero trust networking platform that lets you build secure private networks for home and business use. As a WireGuard®-based overlay network, NetBird enables secure access to your devices anytime and anywhere.
+        
+        GL.iNet KVM integrates NetBird, allowing you to bind it to the NetBird virtual network for remote access. 
+
+        Click [here](remote_access_via_netbird.md){target="_blank"} for details.
+
 ---
 
-**Q3. How do I access the GL.iNet KVM?**
+**Q3. How do I access GL.iNet KVM?**
 
-A3. There are five ways to access the GL.iNet KVM: 
+A3. You can access GL.iNet KVM either locally or remotely via six different methods:
 
 - [Local access via web browser](local_access_via_browser.md){target="_blank"}
 - [Remote access via Cloud service](remote_access_via_cloud.md){target="_blank"}
 - [Remote access via GLKVM app](remote_access_via_glkvm_app.md){target="_blank"}
 - [Remote access via Tailscale](remote_access_via_tailscale.md){target="_blank"}
 - [Remote access via ZeroTier](remote_access_via_zerotier.md){target="_blank"}
+- [Remote access via NetBird](remote_access_via_netbird.md){target="_blank"}
 
 ---
 
@@ -80,11 +93,9 @@ A5. No. Currently the GLKVM app does not support installation on Chrome or Linux
 
 If your controlling device runs Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported.
 
-However, you can use <u> Cloud Service</u>, <u>Tailscale</u>, or <u>ZeroTier</u> to achieve remote access. See Q3 above for details.
+However, you can use <u> Cloud Service</u>, <u>Tailscale</u>, <u>ZeroTier</u>, or <u>NetBird</u> to achieve remote access. See Q3 above for details.
 
 Alternatively, you can access the KVM locally via a web browser. See Q3 above for details.
-
-As to the controlled device, no need to install any software on it. It can be Windows, macOS, ChromeOS, Linux, etc.
 
 ---
 
@@ -94,15 +105,15 @@ A7. No. Comet (GL-RM1) does not support wireless network connection.
 
 It needs to be connected to a network device (e.g., a router) via an Ethernet cable for Internet access.
 
-If you prefer to purchase a KVM that supports Wi-Fi, you may consider [Comet Pro (GL-RM10)](https://www.gl-inet.com/products/gl-rm10/){target="_blank"} or [Comet 5G (GL-RM10RC)](https://www.gl-inet.com/products/gl-rm10rc/){target="_blank"}.
+If you prefer a KVM that supports Wi-Fi, you may consider [Comet Pro (GL-RM10)](https://www.gl-inet.com/products/gl-rm10/){target="_blank"} or [Comet 5G (GL-RM10RC)](https://www.gl-inet.com/products/gl-rm10rc/){target="_blank"}.
 
 ---
 
 ## Power Control
 
-**Q1. Can GL.iNet KVM control the power on/off of a computer?**
+**Q1. Can GL.iNet KVM control a computer's power on and off?**
 
-A1. Sure. You can achieve remote power control for the controlled device in the following ways:
+A1. Yes. You can control the target device's power on and off remotely via the methods below:
 
 - Wake-on-LAN (Built-in software service)
 
@@ -120,11 +131,13 @@ A2. Please refer to [ATX Board User Guide](../user_guide/gl-atx-board/index.md){
 
 ## Features
 
-**Q1. Do I have to use KVM cloud service?**
+> Below are FAQs for a few features. See the corresponding [user guide](../user_guide/index.md) for complete details.
 
-A1. No. The cloud service is optional. 
+**Q1. Do I have to use KVM Cloud Service?**
 
-If you don't want to use cloud service for remote access, you can consider using third-party tools such as Tailscale or ZeroTier. See Q3 above for details.
+A1. No. The Cloud Service is optional. 
+
+If you don't rely on the cloud for remote access, you can use third-party overlay networking tools, such as Tailscale, ZeroTier and NetBird.
 
 ---
 

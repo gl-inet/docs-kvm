@@ -1,8 +1,8 @@
-# How to bind KVM to the Cloud via dynamic code?
+# How to bind KVM to the Cloud via dynamic code
+
+> Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
 This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through dynamic code.
-
-**Note:** Please upgrade your KVM firmware to version 1.7 before using this feature.
 
 1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_via_browser.md) for details. 
 

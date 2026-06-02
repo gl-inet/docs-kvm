@@ -1,4 +1,4 @@
-# How to access the KVM remotely via GLKVM app?
+# How to access KVM remotely via GLKVM app
 
 Before you begin, please ensure the controlled device has been connected to the GL.iNet KVM correctly, and the KVM is connected to a stable network.
 

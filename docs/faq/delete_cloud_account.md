@@ -1,4 +1,4 @@
-# How to delete my Cloud account?
+# How to delete my Cloud account
 
 For security reasons, you may delete your cloud account if it is no longer in use. 
 

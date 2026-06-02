@@ -1,4 +1,4 @@
-# What should I do if I failed to bind device to the GLKVM app?
+# What should I do if I failed to bind device to the GLKVM app
 
 The [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} enables remote access to your controlled device from the controller device. Simply install the app on your controller device and bind your GL.iNet KVM device to it, and you can access the controlled device remotely anytime, anywhere.
 

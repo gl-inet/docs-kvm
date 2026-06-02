@@ -1,4 +1,4 @@
-# What should I do if relative mouse mode doesn't work on Reolink NVR?
+# What should I do if relative mouse mode doesn't work on Reolink NVR
 
 When using GL.iNet KVM to control Reolink NVR (especially models do not support dual mice) or certain vintage computers (such as those without USB interfaces), the relative mouse mode may not work. Common issues include complete failure of the mode, or trackable mouse movement but unresponsive clicks.
 

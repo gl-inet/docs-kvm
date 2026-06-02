@@ -1,4 +1,4 @@
-# How to set a static IP for KVM?
+# How to set a static IP for KVM
 
 This tutorial introduces the steps to set a static IP for your GL.iNet KVM directly on the console when its upstream router can't allocate one.
 

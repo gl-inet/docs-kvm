@@ -1,4 +1,4 @@
-# How to record remote screen?
+# How to record remote screen
 
 You can capture the screen of the controlled device and store the video file locally on your KVM device.
 

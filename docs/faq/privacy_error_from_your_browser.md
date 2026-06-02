@@ -20,7 +20,7 @@ However, browsers usually do not distinguish between local console and normal pu
 
 A genuinely secure website uses an SSL/TLS certificate, so when browsers access a local console (which does not have a certificate), they trigger a security alert due to the missing certificate.
 
-## What can I do with this alert?
+## How to resolve the warning?
 
 Click **Advanced** and **Continue to "192.168.8.11"**.
 

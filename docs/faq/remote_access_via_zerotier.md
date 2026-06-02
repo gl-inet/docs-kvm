@@ -1,4 +1,4 @@
-# How to access the KVM remotely via ZeroTier?
+# How to access KVM remotely via ZeroTier
 
 > Note: Please upgrade your KVM firmware to v1.8.0 before using this feature.
 

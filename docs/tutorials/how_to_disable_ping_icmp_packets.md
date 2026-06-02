@@ -1,4 +1,4 @@
-# How to disable outgoing PING/ICMP packets from KVM?
+# How to disable outgoing PING/ICMP packets from KVM
 
 The KVM device periodically sends PING (ICMP) packets for network connectivity detection. This document explains how to disable this behavior and the associated side effects.
 

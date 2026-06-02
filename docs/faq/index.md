@@ -18,25 +18,25 @@ If your question is not listed below, please contact our technical support team 
 
 ## Local & Remote Access
 
-* [How to access the KVM locally via browser?](local_access_via_browser.md)
-* [How to access the KVM remotely via Cloud service?](remote_access_via_cloud.md)
-* [How to access the KVM remotely via GLKVM app?](remote_access_via_glkvm_app.md)
-* [How to access the KVM remotely via Tailscale?](remote_access_via_tailscale.md)
-* [How to access the KVM remotely via ZeroTier?](remote_access_via_zerotier.md)
-* [How to access the KVM remotely via NetBird?](remote_access_via_netbird.md)
+* [How to access KVM locally via browser](local_access_via_browser.md)
+* [How to access KVM remotely via Cloud service](remote_access_via_cloud.md)
+* [How to access KVM remotely via GLKVM app](remote_access_via_glkvm_app.md)
+* [How to access KVM remotely via Tailscale](remote_access_via_tailscale.md)
+* [How to access KVM remotely via ZeroTier](remote_access_via_zerotier.md)
+* [How to access KVM remotely via NetBird](remote_access_via_netbird.md)
 * [Privacy error when accessing via browser](privacy_error_from_your_browser.md)
 
 ## Cloud Service
 
-* [How to bind KVM to the Cloud via dynamic code?](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
-* [How to unbind KVM from the Cloud?](unbind.md)
-* [How to disable Cloud service?](disable_cloud.md)
-* [How to delete Cloud account?](delete_cloud_account.md)
+* [How to bind KVM to the Cloud via dynamic code](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+* [How to unbind KVM from the Cloud](unbind.md)
+* [How to disable Cloud service](disable_cloud.md)
+* [How to delete Cloud account](delete_cloud_account.md)
 
 ## Device Power Issues
   
-* [What should I do if my KVM does not power on?](power_cable_connected_but_device_unpowered.md)
-* [What should I do if my KVM is bricked?](debrick.md)
+* [What should I do if my KVM does not power on](power_cable_connected_but_device_unpowered.md)
+* [What should I do if my KVM is bricked](debrick.md)
 
 ## GLKVM App Issues
 
@@ -53,14 +53,14 @@ If your question is not listed below, please contact our technical support team 
 
 ## Keyboard & Mouse Issues
 
-* [What should I do if I cannot control the mouse and keyboard?](cannot_control_mouse_and_keyboard.md)
-* [What should I do if mouse cursors fail to align?](mouse_cursors_fail_to_align.md)
-* [What shoud I do if keyboard does not input or output as expected?](keyboard_does_not_input_output_as_expected.md)
-* [What should I do if relative mouse mode does not work on Reolink NVR?](relative_mouse_not_working_on_reolink_nvr.md)
-* [What is the difference between Absolute mouse and Relative mouse?](difference_between_absolute_and_relative_mouse.md)
-* [How to fix mouse latency when RPi4 controls RPi3 via KVM?](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
+* [What should I do if I cannot control the mouse and keyboard](cannot_control_mouse_and_keyboard.md)
+* [What should I do if mouse cursors fail to align](mouse_cursors_fail_to_align.md)
+* [What shoud I do if keyboard does not input or output as expected](keyboard_does_not_input_output_as_expected.md)
+* [What should I do if relative mouse mode does not work on Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md)
+* [What is the difference between Absolute mouse and Relative mouse](difference_between_absolute_and_relative_mouse.md)
+* [How to fix mouse latency when RPi4 controls RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
 ## Audio Issues
 
-* [What should I do if there's no audio from the controlled device?](no_audio_from_the_controlled_device.md)
-* [Why can't I keep my speaker and microphone settings?](speaker_microphone_settings_cannot_be_retained.md)
+* [What should I do if there's no audio from the controlled device](no_audio_from_the_controlled_device.md)
+* [Why can't I keep my speaker and microphone settings](speaker_microphone_settings_cannot_be_retained.md)

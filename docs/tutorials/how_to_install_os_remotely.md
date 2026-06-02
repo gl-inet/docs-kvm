@@ -1,4 +1,4 @@
-# How to install an OS on the controlled computer remotely using Virtual Media?
+# How to install an OS on the controlled computer remotely using Virtual Media
 
 This tutorial will introduce how to remotely install an operating system on the controlled computer using Virtual Media, a feature of GL.iNet KVM.
 

@@ -1,4 +1,4 @@
-# What should I do if the remote screen only displays the desktop wallpaper?
+# What should I do if the remote screen only displays the desktop wallpaper
 
 When accessing the controlled device through KVM, if you can only see the desktop wallpaper and no operations respond, it's likely that your controlled device uses multiple monitors configured in **Extend Displays** mode.
 

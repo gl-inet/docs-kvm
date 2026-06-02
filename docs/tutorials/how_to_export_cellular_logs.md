@@ -1,4 +1,4 @@
-# How to export cellular logs?
+# How to export cellular logs
 
 This tutorial introduces the steps to export Cellular-related logs from KVM device for troubleshooting.
 

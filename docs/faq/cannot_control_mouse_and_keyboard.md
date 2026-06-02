@@ -1,4 +1,4 @@
-# What should I do if I cannot control the mouse and keyboard?
+# What should I do if I cannot control the mouse and keyboard
 
 If you fail to control the mouse and keyboard on the controlled device through KVM even if all cables are properly connected, here are some suggestions.
 
