@@ -4,6 +4,8 @@
 
 This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through dynamic code.
 
+## Binding steps
+
 1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_via_browser.md) for details. 
 
 2. After login, navigate to **Cloud Service** in the upper right corner, and click **Bind With Code**.
@@ -51,6 +53,24 @@ This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through
     Then you will be able to remotely access the KVM and the controlled device via Cloud.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
+
+## FAQ
+
+1. **Q: How long is the dynamic code valid? What should I do if it expires?** 
+
+    A: The dynamic code is valid within 60 seconds. If the dynamic code expires, go back to the KVM console, and click **Regenerate Code** to get a new one.
+
+    ![regenerate code](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/regenerate_code.png){class="glboxshadow"}
+
+2. **Q: What should I do if the dynamic code cannot be generated?** 
+
+    A: If the dynamic code cannot be generated, it may be due to an unstable network or upstream DNS configuration. 
+    
+    - Check whether your network is stable, or switch to another network and try again.
+
+    - Modify your upstream DNS settings and regenerate the code.
+    
+    If the problem persists, contact our support at [support@gl-inet.com](mailto:support@gl-inet.com).
 
 ---
 
