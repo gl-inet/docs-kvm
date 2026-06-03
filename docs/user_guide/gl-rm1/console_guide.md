@@ -351,27 +351,37 @@ On the console, navigate to **Apps Center**. The integrated applications can be 
 
 ### Tailscale
 
+[Tailscale](https://tailscale.com/){target="_blank"} is a WireGuard-based mesh VPN service that builds encrypted peer-to-peer private networks across devices without port forwarding or complex firewall setup.
+
 Comet integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
-Simply bind the Comet and your controlling device to the same Tailscale account, then you will be able to remotely access the Comet by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing the GLKVM app.
+Simply bind Comet and your controlling device to the same Tailscale account, then you can remotely access your Comet by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing the GLKVM app. See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
 
-See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for more instructions.
-
-After binding, the console will show the bound Tailscale account.
+After binding, the console displays the linked Tailscale account and unlocks advanced features including Exit Node and Subnet Routes.
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
 ### ZeroTier
 
+[ZeroTier](https://www.zerotier.com/){target="_blank"} creates encrypted overlay virtual networks to connect scattered devices globally as if they are inside the same local area network.
+
 Comet integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
 
-Simply join both the Comet and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), then you can remotely access your Comet by entering its **ZeroTier IP** in a web browser on the controlling device, without installing the GLKVM app.
+Simply join Comet and your controlling device to the same ZeroTier network, then you can remotely access your Comet by entering its **ZeroTier IP** in a web browser on the controlling device, without installing the GLKVM app. See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
 
-See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for detailed instructions.
-
-After binding, the console will show the ZeroTier Network ID and Virtual IP.
+After binding, the console displays the ZeroTier Network ID and Virtual IP.
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-zerotier-enabled.png){class="glboxshadow"}
+
+### NetBird
+
+[NetBird](https://netbird.io/){target="_blank"} is an open-source zero trust networking platform that lets you build secure private networks for home and business use. As a WireGuard®-based overlay network, NetBird enables secure access to your devices anytime and anywhere.
+
+Comet integrates with NetBird, allowing you to remotely access it through NetBird virtual network. See [here](../../faq/remote_access_via_netbird.md){target="_blank"} for details.
+
+After binding, the console displays the NetBird Virtual IP.
+
+![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-netbird-enabled.png){class="glboxshadow"}
 
 ## Help
 
