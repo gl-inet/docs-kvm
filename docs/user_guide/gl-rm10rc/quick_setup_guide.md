@@ -88,7 +88,7 @@ You will be able to access the Comet 5G's console locally, thus access the contr
 
 ## Remote Access
 
-There are four ways to access Comet 5G remotely: via Cloud service, GLKVM App, Tailscale, and ZeroTier.
+There are multiple ways to access Comet 5G remotely: via Cloud service, GLKVM App, Tailscale, ZeroTier, and NetBird.
 
 ### Cloud service
 
@@ -220,7 +220,7 @@ On the console, navigate to **Apps Center** -> **Tailscale**, enable it and bind
 
 Next, bind your controlling device to the same account. You will then be able to remotely access your Comet 5G by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing GLKVM app.
 
-See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for detailed instructions.
+See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
 
 ### ZeroTier
 
@@ -230,4 +230,14 @@ On the console, navigate to **Apps Center** -> **ZeroTier** and enable it.
 
 Next, join both Comet 5G and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), then you can remotely access your Comet 5G by entering its **ZeroTier IP** in a web browser on the controlling device, without installing GLKVM app.
 
-See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for detailed instructions.
+See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
+
+### NetBird
+
+Comet 5G integrates with NetBird, allowing you to remotely access it through NetBird virtual network. 
+
+On the console, navigate to **Apps Center** -> **NetBird**, enable it and bind your Comet 5G to your NetBird account. 
+
+Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet 5G by entering its **NetBird virtual IP** in a web browser on the controlling device, without installing GLKVM app.
+
+See [here](../../faq/remote_access_via_netbird.md){target="_blank"} for details.
