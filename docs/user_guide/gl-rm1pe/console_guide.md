@@ -23,7 +23,7 @@ You can customize the video settings on the console, such as display mode, video
 
 ![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/settings-video.png){class="glboxshadow"}
 
-- **Mode**: Switch between Normal and Smart mode as needed. Smart mode helps reduce bandwidth consumption, especially in weak networks.
+- **Mode**: Switch between Smart and Normal mode as needed. Smart mode helps reduce bandwidth consumption, especially in weak networks.
 
 - **Latency Mode**: You can choose between Lowest Latency and Smooth Display for the device. This feature was introduced in firmware v1.9.0.
 
@@ -33,7 +33,7 @@ You can customize the video settings on the console, such as display mode, video
 
         - **Smooth Display**: Optimizes visual performance to eliminate stuttering and frame loss for steady playback.
 
-- **Quality**: Adjust the video quality to low/medium/high/ultra-high/Lossless according to your network environment and resolution requirements.
+- **Quality**: Adjust the video quality to Auto/Low/Medium/High/Ultra-high/Lossless according to your network environment and resolution requirements.
 
 - **Transfer**: Switch the video transmission method between WebRTC, WebRTC (FEC), and Direct as needed. Note that the Direct transfer has no sound.
 
@@ -168,7 +168,7 @@ Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox-shortcut2.png){class="glboxshadow"}  
 
-### Wake On Lan
+### Wake-on-Lan
 
 Wake-on-LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
 
@@ -188,7 +188,7 @@ You can access Comet PoE's terminal to perform advanced settings. Click **Access
 
 ![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox-terminal1.png){class="glboxshadow"}
 
-You will then be redirected to the GLKVM terminal.
+You will be redirected to the GLKVM terminal.
 
 ![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox-terminal2.png){class="glboxshadow"}
 

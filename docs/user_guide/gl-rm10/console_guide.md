@@ -23,9 +23,17 @@ You can customize video settings on the console, such as display mode, video qua
 
 ![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/settings-video.png){class="glboxshadow"}
 
-- **Mode**: Switch between Normal and Smart mode. Smart mode balances latency and video quality for a better experience, especially in weak networks.
-    
-- **Quality**: Adjust the video quality to low/medium/high/ultra-high/Lossless according to your network environment and resolution requirements.
+- **Mode**: Switch between Smart and Normal mode as needed. Smart mode helps reduce bandwidth consumption, especially in weak networks.
+
+- **Latency Mode**: You can choose between Lowest Latency and Smooth Display for the device. This feature was introduced in firmware v1.9.0.
+
+    !!! note "What's the difference between Lowest Latency and Smooth Display?"
+
+        - **Lowest Latency**: Minimizes input latency to deliver snappier keyboard and mouse response.
+
+        - **Smooth Display**: Optimizes visual performance to eliminate stuttering and frame loss for steady playback.
+
+- **Quality**: Adjust the video quality to Auto/Low/Medium/High/Ultra-high/Lossless according to your network environment and resolution requirements.
 
 - **Transfer**: Switch the video transmission method between WebRTC, WebRTC (FEC), and Direct. Note that the Direct transfer has no sound.
 
@@ -93,6 +101,8 @@ You can adjust the relevant settings of the controlled device.
 
 - **Relative Sensitivity**: It is available when the Mouse Mode is Relative.
 
+- **Primary Button**: Select the left or right button as the primary click. This feature was introduced in firmware v1.9.0.
+
 ### System
 
 You can customize the system display settings of the console, or reset the device with one click.
@@ -101,13 +111,19 @@ You can customize the system display settings of the console, or reset the devic
 
 - **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
 
-- **Language**: Set the console's language to Chinese or English.
+    ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/device-identity.png){class="glboxshadow"}
+
+- **Language**: Set the console's language to Chinese, English, or Japanese.
 
 - **Color Mode**: Customize the theme color to Light or Dark mode.
 
 - **Time Zone**: Customize the time zone of the KVM console. 
 
 - **Reset KVM**: Factory reset your KVM with just one click.
+
+- **Screen Display**: You can customize the screen display as needed. This feature was introduced in firmware v1.9.1.
+
+    ![screen display](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/screen-display.png){class="glboxshadow"}
 
 ### Network
 
@@ -164,13 +180,19 @@ Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-shortcut2.png){class="glboxshadow"}  
 
-### Wake On Lan
+### Wake-on-Lan
 
 Wake-on-LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
 
-Click **Add Device** to choose a device from the same LAN and set up Wake-on-LAN.
+Click **Add Device** and choose a device from the same LAN.
 
-![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-wol.png){class="glboxshadow"}  
+![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-wol.png){class="glboxshadow"}
+
+![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/wol-add-device.png){class="glboxshadow"}
+
+If the device you want to add is not in the list, click **Add Manually** and enter the device name and MAC address.
+
+![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/wol-add-manually.png){class="glboxshadow"}
 
 ### Terminal
 
@@ -178,7 +200,7 @@ You can access Comet Pro's terminal to perform advanced settings. Click **Access
 
 ![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-terminal-1.png){class="glboxshadow"}
 
-You will then be redirected to the GLKVM terminal.
+You will be redirected to the GLKVM terminal.
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-terminal-2.png){class="glboxshadow"}
 
@@ -333,7 +355,7 @@ You can format the disk or disable the virtual media with one click.
 
 On the console, navigate to **Apps Center**. The integrated applications can be found here.
 
-![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/apps_center.png){class="glboxshadow"}
+![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/apps-center.png){class="glboxshadow"}
 
 ### Tailscale
 
@@ -357,7 +379,7 @@ Simply join Comet Pro and your controlling device to the same ZeroTier network, 
 
 After binding, the console displays the ZeroTier Network ID and Virtual IP.
 
-![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/zerotier_enabled.png){class="glboxshadow"}
+![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/zerotier-enabled.png){class="glboxshadow"}
 
 ### NetBird
 
@@ -379,6 +401,7 @@ On the console, navigate to **Help**. Here you can find more information about G
 
 On the console, navigate to the top right corner to access the following tools:
 
+- [Text Recognition](#text-recognition)
 - [Collapse Toolbar](#collapse)
 - [Fullscreen](#fullscreen)
 - [Upgrade](#upgrade)
@@ -386,6 +409,18 @@ On the console, navigate to the top right corner to access the following tools:
 - [Security](#security)
 - Reboot
 - Logout
+
+### Text Recognition
+
+The Text Recognition feature allows you to select an area on the remote screen and extract text from it easily. It is powered by Optical Character Recognition (OCR) technology and was introduced in firmware v1.9.0.
+
+To use it, click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
+
+![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/text_recognition.png){class="glboxshadow"}
+
+Next, click the "T" icon and the remote screen will dim. Draw a box around the text you want to extract, and the system will identify it automatically. You can then copy the recognized text as needed. 
+
+With this feature, you can easily capture text from the remote screen (i.e., the controlled device) and copy it to the local controlling device.
 
 ### Collapse
 
@@ -413,23 +448,25 @@ Click the firmware version in the upper right corner to check for updates.
 
 ![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade1.png){class="glboxshadow"}
 
-You can upgrade your Comet Pro online if newer firmware is available. Alternatively, download the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} and perform a local upgrade.
+In the pop-up window, you can click **Update Settings** to perform a local upgrade, join Beta program, or save current configuration.
 
 ![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade2.png){class="glboxshadow"}
+
+Download the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} before performing a local upgrade.
 
 ### Cloud Service
 
 GL.iNet KVM Cloud Service allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
 
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/cloud-service1.png){class="glboxshadow"}
+Once your Comet Pro is bound to the GL.iNet Cloud, the console will display the cloud status as follows.
 
-If your Comet Pro has been bound to the GL.iNet Cloud, the console will display the cloud status as follows.
-
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/cloud-service2.png){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/cloud.png){class="glboxshadow"}
 
 ### Security
 
-The security allows you to perform some security settings, e.g., change admin password, enable two-factor authentication, or customize TLS certificate. 
+The security allows you to change admin password, enable two-factor authentication, and customize TLS certificate. 
+
+![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/security.png){class="glboxshadow"}
 
 - Change Admin Password
 

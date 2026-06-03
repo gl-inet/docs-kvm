@@ -23,7 +23,7 @@ You can customize the video settings on the console, such as display mode, video
 
 ![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-video.png){class="glboxshadow"}
 
-- **Mode**: Switch between Normal and Smart mode as needed. Smart mode helps reduce bandwidth consumption, especially in weak networks.
+- **Mode**: Switch between Smart and Normal mode as needed. Smart mode helps reduce bandwidth consumption, especially in weak networks.
 
 - **Latency Mode**: You can choose between Lowest Latency and Smooth Display for the device. This feature was introduced in firmware v1.9.0.
 
@@ -33,7 +33,7 @@ You can customize the video settings on the console, such as display mode, video
 
         - **Smooth Display**: Optimizes visual performance to eliminate stuttering and frame loss for steady playback.
 
-- **Quality**: Adjust the video quality to low/medium/high/ultra-high/Lossless according to your network environment and resolution requirements.
+- **Quality**: Adjust the video quality to Auto/Low/Medium/High/Ultra-high/Lossless according to your network environment and resolution requirements.
 
 - **Transfer**: Switch the video transmission method between WebRTC, WebRTC (FEC), and Direct. Note that the Direct transfer has no sound.
 
@@ -111,7 +111,9 @@ You can customize the system display settings of the console, or reset the devic
 
 - **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
 
-- **Language**: Set the console's language to Chinese or English.
+    ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/device-identity.png){class="glboxshadow"}
+
+- **Language**: Set the console's language to Chinese, English, or Japanese.
 
 - **Color Mode**: Customize the theme color to Light or Dark mode.
 
@@ -230,7 +232,7 @@ You can access Comet 5G's terminal to perform advanced settings. Click **Access*
 
 ![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-terminal1.png){class="glboxshadow"}
 
-You will then be re-directed to the GLKVM terminal.
+You will be redirected to the GLKVM terminal.
 
 ![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-terminal2.png){class="glboxshadow"}
 
