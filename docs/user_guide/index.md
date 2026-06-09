@@ -32,6 +32,13 @@
         <div class="gl-product-model">(Comet 5G)</div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-rmq1/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rmq1.png" >
+        <div class="gl-product-model">GL-RMQ1</div>
+        <div class="gl-product-model">(Comet Q)</div>
+      </a>
+    </div>
   </div>
 </div>
 

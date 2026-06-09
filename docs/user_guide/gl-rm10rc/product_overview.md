@@ -1,6 +1,6 @@
 # Comet 5G (GL-RM10RC) Overview
 
-## Interface
+## Appearance
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/rm10rc_interface.png){class="glboxshadow"}
 
@@ -10,51 +10,16 @@
 
 ## Touchscreen
 
-1. **Power on**
-
-    Power on your Comet 5G. The GL.iNet logo will appear on the screen, followed by a startup progress bar. Once the progress bar is fully loaded, the device startup is complete.
-
-    ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/booting.png){class="glboxshadow" width="500"}
-
-2. **Set up screen password**
-
-    Set a screen password for your Comet 5G to protect privacy and save battery.
-
-    ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/passcode.png){class="glboxshadow" width="500"}
-
-3. **Set up network**
-
-    Connect Comet 5G to a Wi-Fi network (2.4GHz or 5GHz) wirelessly, or connect it to a network device (such as a router, network switch, or Ethernet wall jack) via an Ethernet cable.
-
-    ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/setup_network.png){class="glboxshadow" width="500"}
-    
-    Then the initial setup is completed. The home screen displays the IP address if the device is connected to the Internet.
-
-    ![network connected](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/network1.png){class="glboxshadow" width="500"}
-
-4. **Connect devices**
-
-    Refer [here](quick_setup_guide.md) to connect your Comet 5G to the device you want to remotely control using an HDMI and a USB cable.
-
-    Once connected, the interface icon on the home screen will turn blue, indicating an active connection.
-
-5. **Basic Settings**: On the home screen, swipe left from the right to access Basic Settings. Available options include **Screen Display**, **Wi-Fi**, **Cellular**, and **Cloud Service**.
-
-    ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/basic_settings.png){class="glboxshadow" width="500"}
-
-6. **System Menu**: On the home screen, swipe down from the top to access System Menu. Two options are available: **Reboot** and **Lock Screen**.
-
-    ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/system_menu.png){class="glboxshadow" width="500"}
-
-7. **Device Information**: On the home screen, swipe up from the bottom to view device information, including **Model Name**, **KVM Version**, **MAC Address**, and **Legal Information**.
-
-8. **Lock screen**: The lock screen displays the time and date.
-
-    ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/time.png){class="glboxshadow" width="500"}
-
-9. **Factory Reset**: With the KVM powered on, insert a pin into the reset pinhole and hold for 8 seconds to factory reset your KVM. Release the pin within 8 seconds to cancel the reset.
-
-    ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/reset.png){class="glboxshadow" width="500"}
+| Screen Display                    | Description         |
+| :-------------------------------- | :------------------ |
+| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/booting.png){width="800"}| **Starting up**<br>Power on your Comet 5G. The GL.iNet logo appears, followed by a startup progress bar. Once the progress bar is fully loaded, the device startup is complete.|
+| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/passcode.png) | **Set up screen password**<br>Set a screen password for your Comet 5G to protect your privacy.|
+| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/setup_network.png) | **Set up network**<br>Connect Comet 5G to 2.4GHz/5GHz Wi-Fi, or connect it to a network device (e.g., router, network switch, or Ethernet jack) via Ethernet cable.|
+| ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/network1.png) | **Home screen**<br>**Top-left**: Network status.<br>**Top-right**: Cloud status and system time.<br>**Middle**: Device IP address.<br>**Bottom**: Keyboard & mouse signal, HDMI signal, and USB connected status. |
+| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/basic_settings.png) | **Basic settings**<br>On the home screen, swipe left from the right to access basic settings, including **Screen Display**, **Wi-Fi**, **Cellular**, and **Cloud Service**.|
+| ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/system_menu.png) | **System Menu**<br>On the home screen, swipe down from the top to access system menu, including **Reboot** and **Lock Screen**. |
+| ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/time.png) | **Lock screen**<br>The lock screen displays the time and date. |
+| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/reset.png) | **Factory Reset**<br>With the KVM powered on, insert a pin into the reset pinhole and hold for 8 seconds to factory reset. Release the pin within 8 seconds to cancel the reset. |
 
 ## Highlights
 
