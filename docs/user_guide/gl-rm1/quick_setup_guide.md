@@ -26,49 +26,47 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![Connect to network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/05_ethernet.jpg){class="glboxshadow"}
 
-5. Device connection is complete. 
-
-    You can now access the Comet's console locally via a browser, or remotely via the Cloud service, the GLKVM app, or Tailscale.
+5. Device connection is complete. Now you can access the Comet's console locally or remotely.
 
 ## Local Access
 
-There are two ways to access Comet in the local network: via domain name or IP address.
+There are two ways to access Comet on the local network: via domain name or IP address.
+
+Before accessing, ensure your controlling device is on the same LAN as Comet.
 
 ### Domain
 
-First, ensure your controlling device is on the same LAN as your Comet.
+1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
 
-Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
+2. Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+    ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-**Note**: You will need to set up your admin password when accessing your KVM for the first time.
+    **Note**: You will need to set up your admin password when accessing for the first time.
 
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
+3. You can then access the Comet's console locally and gain access to the controlled device.
 
-You will be able to access the Comet's console locally, thus access the controlled device connected to it.
-
-![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
+    ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
 ### IP address
 
-Find the IP address of Comet in the upper router, enter this IP address in the browser, and you will be able to access the Comet locally, thus access the controlled device.
+1. Find Comet's IP address in the upper router.
 
-Take GL-AXT1800 as an example: Comet is connected to the LAN port of GL-AXT1800 router via an Ethernet cable, and the controlled device is connected to Comet correctly via HD cable and USB cable.
+    For example, Comet is connected to the LAN port of a GL.iNet router GL-AXT1800 via an Ethernet cable.
+    
+    Log in to the GL-AXT1800 web admin panel, find Comet's IP address in the Client list, as shown below.
 
-Log in to the web admin panel of GL-AXT1800, find the IP address of Comet in the Client list, as shown below.
+    ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
+2. Open a new tab in the browser and enter Comet's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
-Open a new tab in the browser, enter Comet's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+    ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-**Note**: You will need to set up your admin password when accessing your KVM for the first time.
+    **Note**: You will need to set up your admin password when accessing for the first time.
 
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
+3. You can then access the Comet's console locally and gain access to the controlled device.
 
-You will be able to access the Comet's console locally, thus access the controlled device connected to it.
-
-![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
+    ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
 ## Remote Access
 
@@ -76,17 +74,15 @@ There are multiple ways to access Comet remotely: via Cloud service, GLKVM App, 
 
 ### Cloud service
 
-1. Bind your device to KVM Cloud.
+1. Bind your device to KVM Cloud. This needs to be done on the local network. 
 
-    **Note**: Device binding needs to be done within the local network. 
-
-    There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding. Here we take Regular Binding as an example. If you prefer Dynamic Code Binding, click [here](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} for detailed instructions.
+    There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding. Here we take Regular Binding as an example. If you prefer Dynamic Code Binding, click [here](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} for details.
     
-    First, locally access your Comet, and navigate to **Cloud Service** in the upper right corner. Click **Bind To Cloud**.
+    First, locally access your Comet and navigate to **Cloud Service** in the upper right corner. Click **Bind To Cloud**.
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
-    You will be re-directed to a login page. Log in with your glinet cloud account. 
+    You will be redirected to a login page. Log in with your glinet cloud account. 
 
     ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow"}
 
@@ -114,7 +110,7 @@ There are multiple ways to access Comet remotely: via Cloud service, GLKVM App, 
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
-    Then you will be able to access the KVM and the controlled device remotely via Cloud, without installing the app.
+    You will then be able to remotely access the KVM and the controlled device via Cloud, without installing the app.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
@@ -126,7 +122,7 @@ There are multiple ways to access Comet remotely: via Cloud service, GLKVM App, 
 
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
-    If you don't have a GL.iNet account, sign up for one and then log in.
+    If you don't have one, sign up first and log in.
     
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
@@ -134,13 +130,13 @@ There are multiple ways to access Comet remotely: via Cloud service, GLKVM App, 
 
     After login, the page will display as follows. Click **Add Device**.
 
-    There are three ways to bind your device: Auto Discover, S/N Code, and Dynamic Binding Code.
-
     ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-    - Auto Discover
+    You can bind your device in three ways: Auto Discover, S/N Code, and Dynamic Binding Code.
+
+    ??? "Auto Discover"
     
-        This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
+        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet.
     
         Click **Auto Discover**. It will start searching automatically.
     
@@ -150,7 +146,7 @@ There are multiple ways to access Comet remotely: via Cloud service, GLKVM App, 
     
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
     
-    - S/N Code
+    ??? "S/N Code"
     
         This applies to the scenario where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
         
@@ -158,11 +154,9 @@ There are multiple ways to access Comet remotely: via Cloud service, GLKVM App, 
     
         ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
     
-    - Dynamic Binding Code
+    ??? "Dynamic Binding Code"
     
-        Please upgrade your KVM firmware to version 1.7 before using this feature.
-    
-        This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
+        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet.
     
         1. Log in to your KVM locally using domain or IP address. Click [here](../../faq/local_access_via_browser.md) for details. 
     
