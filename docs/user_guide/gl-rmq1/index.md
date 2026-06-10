@@ -8,3 +8,4 @@ It is the world's first KVM supporting iPhones, letting you unlock, tap, swipe a
 
 - [Product Overview](product_overview.md)
 - [Quick Setup](quick_setup_guide.md)
+- [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)
