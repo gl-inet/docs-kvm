@@ -6,7 +6,7 @@ Watch this video or follow the steps below to set up your Comet 5G.
 
 ## Connect Devices
 
-For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
+For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/connect_device.png){class="glboxshadow"}
 

@@ -128,6 +128,7 @@ nav:
       - GL-RMQ1 (Comet Q):
           - Get to Know Comet Q: user_guide/gl-rmq1/index.md
           - Product Overview: user_guide/gl-rmq1/product_overview.md
+          - Quick Setup: user_guide/gl-rmq1/quick_setup_guide.md
       - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
       - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
   - FAQ:

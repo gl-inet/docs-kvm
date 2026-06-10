@@ -4,9 +4,9 @@ Watch this video or follow the steps below to set up your Comet.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Connect the Devices
+## Connect Devices
 
-For clarity, the controlling device is referred to as Device A, and the controlled device as Device B.
+For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/01_device_distinction.jpg){class="glboxshadow"}
 

@@ -7,3 +7,4 @@ It is the world's first KVM supporting iPhones, letting you unlock, tap, swipe a
 ![get to know comet q](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_comet-q.jpg){class="glboxshadow"}
 
 - [Product Overview](product_overview.md)
+- [Quick Setup](quick_setup_guide.md)
