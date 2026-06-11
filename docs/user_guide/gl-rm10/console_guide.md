@@ -9,8 +9,6 @@ On the console, navigate to **Settings**. The settings page includes four sectio
 - [System](#system)
 - [Network](#network)
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/settings-general.png){class="glboxshadow"}
-
 ### Quick Search
 
 You can quickly find the settings you want by entering keywords at the top of the Settings page.
@@ -162,8 +160,6 @@ On the console, navigate to **Toolbox**. The toolbox page includes four sections
 - [Wake On Lan](#wake-on-lan)
 - [Terminal](#terminal)
 
-![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-general.png){class="glboxshadow"}
-
 ### Clipboard
 
 The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
@@ -220,7 +216,7 @@ Second, log in to the KVM console and navigate to **Accessories**. The accessory
     
 The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
     
-It works according to the settings configured on the console.
+It works according to the settings on the console.
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/accessories-fgb.png){class="glboxshadow"}
 
@@ -236,9 +232,9 @@ It works according to the settings configured on the console.
 
 ### ATX Power
 
-The ATX Board is installed in the computer case to achieve remote control of the device's power on/off/reboot.
+The ATX Board is installed in the computer case to remotely control the device's power on/off/reboot.
 
-It works according to the settings configured on the console.
+It works according to the settings on the console.
 
 ![accessories atxpower](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/accessories-atx.png){class="glboxshadow"}
 
@@ -249,8 +245,6 @@ It works according to the settings configured on the console.
 - **Restart**: Restart the device.
 
 ## Virtual Media
-
-Comet Pro allows you to transfer files or mount images between the controlling device and the controlled device.
 
 On the console, navigate to **Virtual Media**. Here you can perform the following operations:
 
@@ -263,7 +257,7 @@ On the console, navigate to **Virtual Media**. Here you can perform the followin
     
 ### File Sharing
 
-It emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
+Comet Pro emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
 **To share files from the controlling device to the controlled one, follow the steps below.**
 
@@ -456,9 +450,9 @@ Download the latest firmware from the [Firmware Download Center](https://dl.gl-i
 
 ### Cloud Service
 
-GL.iNet KVM Cloud Service allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
+GL.iNet KVM Cloud allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
 
-Once your Comet Pro is bound to the GL.iNet Cloud, the console will display the cloud status as follows.
+Once your Comet Pro is bound to the Cloud, the console will display the cloud status as follows.
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/cloud.png){class="glboxshadow"}
 

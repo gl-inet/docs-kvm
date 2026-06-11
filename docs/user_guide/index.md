@@ -39,6 +39,13 @@
         <div class="gl-product-model">(Comet Q)</div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-rm4pe/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rm4pe.png" >
+        <div class="gl-product-model">GL-RM4PE</div>
+        <div class="gl-product-model">(Comet X)</div>
+      </a>
+    </div>
   </div>
 </div>
 

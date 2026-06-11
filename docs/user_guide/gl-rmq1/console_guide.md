@@ -9,8 +9,6 @@ On the console, navigate to **Settings**. The settings page includes four sectio
 - [System](#system)
 - [Network](#network)
 
-![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/settings-general.png){class="glboxshadow"}
-
 ### Quick Search
 
 You can quickly find the settings you want by entering keywords at the top of the Settings page.
@@ -138,8 +136,6 @@ On the console, navigate to **Toolbox**. The toolbox page includes three section
 - [Clipboard](#clipboard)
 - [Shortcut](#shortcut)
 - [Terminal](#terminal)
-
-![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-general.png){class="glboxshadow"}
 
 ### Clipboard
 
