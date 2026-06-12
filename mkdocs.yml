@@ -134,6 +134,7 @@ nav:
       - GL-RM4PE (Comet X):
           - Get to Know Comet X: user_guide/gl-rm4pe/index.md
           - Product Overview: user_guide/gl-rm4pe/product_overview.md
+          - Quick Setup: user_guide/gl-rm4pe/quick_setup_guide.md
           - Console Guide: user_guide/gl-rm4pe/console_guide.md
           - FCC & IC Compliance Statements: user_guide/gl-rmq1/fcc_ic_compliance_statements.md
       - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
