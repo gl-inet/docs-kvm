@@ -42,7 +42,7 @@ To avoid unbrick failure, please follow the steps below strictly.
 
         5. Set the **Subnet mask** to `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/kvm/faq/debrick/win7_set_ip.jpg){class="glboxshadow"}
 
         6. Click the **OK** button.
 
@@ -54,21 +54,21 @@ To avoid unbrick failure, please follow the steps below strictly.
 
         3. Click the **Ethernet** tab.
 
-            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/kvm/faq/debrick/win11_ethernet.png){class="glboxshadow"}
 
         4. Under the "IP assignment" section, click the **Edit** button.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/kvm/faq/debrick/win11_ethernet_ip_edit1.png){class="glboxshadow"}
 
         5. Select the **Manual** option.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/kvm/faq/debrick/win11_ethernet_ip_edit2.png){class="glboxshadow"}
 
         6. Turn on the **IPv4 toggle** switch.
 
         7. Set the static **IP address** as **192.168.1.2**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/kvm/faq/debrick/win11_ethernet_ip_edit3.png){class="glboxshadow"}
 
         8. Specify the **Subnet mask** as **255.255.255.0**.
 
@@ -78,23 +78,23 @@ To avoid unbrick failure, please follow the steps below strictly.
     
         1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 
-            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
+            ![macos system preferences](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences.png){class="glboxshadow"}
 
         2. Click **Network**.
 
-            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
+            ![macos system preferences network](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences_network.png){class="glboxshadow"}
 
         4. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_1.png){class="glboxshadow"}
 
         4. Enter the **IPv4 Address** to `192.168.1.2`, **Subnet Mask** to `255.255.255.0`, **Router** to `192.168.1.1`, then click the Apply button in the lower right corner.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_2.png){class="glboxshadow"}
 
 5. Use browser to visit **http://192.168.1.1**. This is the U-Boot Web UI.
 
-    ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
+    ![Uboot web ui](https://static.gl-inet.com/docs/kvm/faq/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
     **Note:** The U-Boot Web UI above may not be exactly the same as what you see, because the U-Boot version is different for different production dates. For security reasons, we currently do not provide separate U-Boot upgrades. If an update is necessary, we will integrate it into the new firmware.
 
