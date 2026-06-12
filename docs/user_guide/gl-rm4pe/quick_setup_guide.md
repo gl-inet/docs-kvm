@@ -24,6 +24,18 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 5. Connection complete. Now you can access the Comet X's console locally or remotely.
 
+## Rack Mounting
+
+Mount Comet X onto server rack rails as needed.
+
+1. Use the included screws to attach the mounting brackets to Comet X.
+
+    ![install1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/install1.png){class="glboxshadow"}
+
+2. Secure Comet X to the rack rails with rack screws. **Rack screws are not included**.
+
+    ![install2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/install2.png){class="glboxshadow"}
+
 ## Local Control
 
 Control the device directly via physical cables, no network, IP address or domain name required.
