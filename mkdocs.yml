@@ -102,37 +102,37 @@ nav:
   - User Guide:
       - Overview: user_guide/index.md
       - GL-RM1/GL-RM1 V2 (Comet/Comet V2):
-          - Get to Know Comet: user_guide/gl-rm1/index.md
+          - Comet User Guide: user_guide/gl-rm1/index.md
           - Product Overview: user_guide/gl-rm1/product_overview.md
           - Quick Setup: user_guide/gl-rm1/quick_setup_guide.md
           - Console Guide: user_guide/gl-rm1/console_guide.md
           - FCC & IC Compliance Statements: user_guide/gl-rm1/fcc_ic_compliance_statements.md
       - GL-RM1PE (Comet PoE):
-          - Get to Know Comet PoE: user_guide/gl-rm1pe/index.md
+          - Comet PoE User Guide: user_guide/gl-rm1pe/index.md
           - Product Overview: user_guide/gl-rm1pe/product_overview.md
           - Quick Setup: user_guide/gl-rm1pe/quick_setup_guide.md
           - Console Guide: user_guide/gl-rm1pe/console_guide.md
           - FCC & IC Compliance Statements: user_guide/gl-rm1pe/fcc_ic_compliance_statements.md
       - GL-RM10 (Comet Pro):
-          - Get to Know Comet Pro: user_guide/gl-rm10/index.md
+          - Comet Pro User Guide: user_guide/gl-rm10/index.md
           - Product Overview: user_guide/gl-rm10/product_overview.md
           - Quick Setup: user_guide/gl-rm10/quick_setup_guide.md
           - Console Guide: user_guide/gl-rm10/console_guide.md
           - FCC & IC Compliance Statements: user_guide/gl-rm10/fcc_ic_compliance_statements.md
       - GL-RM10RC (Comet 5G):
-          - Get to Know Comet 5G: user_guide/gl-rm10rc/index.md
+          - Comet 5G User Guide: user_guide/gl-rm10rc/index.md
           - Product Overview: user_guide/gl-rm10rc/product_overview.md
           - Quick Setup: user_guide/gl-rm10rc/quick_setup_guide.md
           - Console Guide: user_guide/gl-rm10rc/console_guide.md
           - FCC & IC Compliance Statements: user_guide/gl-rm10rc/fcc_ic_compliance_statements.md
       - GL-RMQ1 (Comet Q):
-          - Get to Know Comet Q: user_guide/gl-rmq1/index.md
+          - Comet Q User Guide: user_guide/gl-rmq1/index.md
           - Product Overview: user_guide/gl-rmq1/product_overview.md
           - Quick Setup: user_guide/gl-rmq1/quick_setup_guide.md
           - Console Guide: user_guide/gl-rmq1/console_guide.md
           - FCC & IC Compliance Statements: user_guide/gl-rmq1/fcc_ic_compliance_statements.md
       - GL-RM4PE (Comet X):
-          - Get to Know Comet X: user_guide/gl-rm4pe/index.md
+          - Comet X User Guide: user_guide/gl-rm4pe/index.md
           - Product Overview: user_guide/gl-rm4pe/product_overview.md
           - Quick Setup: user_guide/gl-rm4pe/quick_setup_guide.md
           - Console Guide: user_guide/gl-rm4pe/console_guide.md
