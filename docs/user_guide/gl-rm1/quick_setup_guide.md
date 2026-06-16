@@ -14,13 +14,15 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/02_power-on.jpg){class="glboxshadow"}
 
-2. Use an HD cable to connect the Comet's HD IN port to the HD OUT port of the Device B.
+2. Connect the Comet's HD IN port to the Device B's HD OUT port using an HDMI cable.
 
     ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/03_hdmi.jpg){class="glboxshadow"}
 
-3. Connect the Comet's USB-Device port to the USB interface of the Device B using a USB cable.
+3. Connect the Comet's USB-Device port to the Device B's USB port using a USB cable.
 
     ![Connect the USB port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/04_usb-cable.jpg){class="glboxshadow"}
+
+    > **Note**: Comet's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 4. Plug the Comet's Ethernet port to a network source.
 

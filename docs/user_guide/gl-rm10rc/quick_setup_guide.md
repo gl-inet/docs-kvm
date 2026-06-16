@@ -14,15 +14,17 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![insert sim power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/01-insert-sim-power-on.jpg){class="glboxshadow"}
 
-2. Use an HDMI cable to connect the Comet 5G's HDMI IN port to the HDMI port of Device B. Use another HDMI cable to connect the Comet 5G's HDMI OUT port to the monitor if Device B is a desktop computer.
+2. Connect Comet 5G's HDMI IN port to the Device B's HDMI port. Use another HDMI cable to connect Comet 5G's HDMI OUT port to an external monitor if necessary.
 
     ![Connect the HDMI cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/02-hdmi-cable.jpg){class="glboxshadow"}
 
-3. Connect the Comet 5G's Type-C port to the Type-C interface of Device B using a USB-C cable.
+3. Connect Comet 5G's Type-C port to the Device B's Type-C interface using a USB-C cable.
 
     ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/03-usb-cable.jpg){class="glboxshadow"}
 
-4. Connect the Comet 5G to a network source.
+    > **Note**: Comet 5G's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+
+4. Connect Comet 5G to a network source.
 
     - 5G: With SIM card inserted, the 5G connection will be automatically established upon system startup. The connection priority is Ethernet > Wi-Fi > 5G.
 

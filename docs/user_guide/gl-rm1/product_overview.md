@@ -40,6 +40,8 @@ There is a button on the side panel of the Comet.
 - 1 x Power adapter
 - 1 x Converter (Based on your shipping country)
 
+> **Note**: Comet's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+
 Check out Comet's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lkDcSSlNn20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

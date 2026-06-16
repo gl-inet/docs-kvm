@@ -14,13 +14,15 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-2.png){class="glboxshadow gl-80-desktop"}
 
-2. Use an HD cable to connect the Comet PoE's HD IN port to the HD OUT port of the Device B.
+2. Connect the Comet PoE's HD IN port to the Device B's HD OUT using an HDMI cable.
 
     ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-3.png){class="glboxshadow gl-80-desktop"}
 
-3. Connect the Comet PoE's USB port to the USB interface of the Device B using a USB cable.
+3. Connect the Comet PoE's USB port to the Device B's USB interface using a USB cable.
 
     ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-4.png){class="glboxshadow gl-80-desktop"}
+
+    > **Note**: Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 4. Device connection is complete. Now you can access the Comet PoE's console locally or remotely.
 

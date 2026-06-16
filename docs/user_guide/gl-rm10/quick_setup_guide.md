@@ -10,19 +10,21 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-devices.png){class="glboxshadow"}
 
-1. Connect the Comet Pro to the power source.
+1. Connect Comet Pro to the power source.
 
     ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/01-power-on.jpg){class="glboxshadow"}
 
-2. Use an HD cable to connect the Comet Pro's HD IN port to the HD OUT port of the Device B. Use another HD cable to connect the Comet Pro's HD OUT port to the monitor if the Device B is a desktop computer.
+2. Connect Comet Pro's HD IN port to the Device B's HD OUT port using an HDMI cable. Use another HD cable to connect Comet Pro's HD OUT port to an external monitor if necessary.
 
     ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/02-hd-cable.png){class="glboxshadow"}
 
-3. Connect the Comet Pro's USB Type-C port to the USB interface of the Device B using a USB cable.
+3. Connect Comet Pro's USB Type-C port to the Device B's USB port using a USB cable.
 
     ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/03-usb-cable.png){class="glboxshadow"}
 
-4. Connect the Comet Pro to a network source via an Ethernet cable or Wi-Fi.
+    > **Note**: Comet Pro's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+
+4. Connect Comet Pro to a network source via an Ethernet cable or Wi-Fi.
 
     - Ethernet: Connect the Comet Pro's Ethernet port to a network source.
 
