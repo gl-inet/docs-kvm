@@ -24,7 +24,7 @@ In Relative mode, you can adjust the **Relative Sensitivity**, which ranges from
 
 ## Key Differences
 
-| Features             | Absolute Mouse                 | Absolute Mouse                 |
+| Features             | Absolute Mouse                 | Relative Mouse                 |
 | -------------------- | ------------------------------ | -----------------------------  |
 | Cursor Coordination  | Local and remote cursors are synchronized (same coordinate system) | Local and remote cursors are in separate layers (no coordinate synchronization) |
 | Control Operation    | No need to click to obtain focus; seamless cross‑screen movement | Must click the remote screen to get focus; cannot move cross‑screen seamlessly |
