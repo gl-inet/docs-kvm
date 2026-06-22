@@ -2,11 +2,11 @@
 
 ## Appearance
 
-![gl-rm1 interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/rm1_interface_1.png){class="glboxshadow"}
+![gl-rm1 interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_interface.png){class="glboxshadow"}
 
 ## Dimension
 
-![gl-rm1 dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/quick_setup/rm1_dimension.png){class="glboxshadow"}
+![gl-rm1 dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_dimension.png){class="glboxshadow"}
 
 ## LED
 
@@ -37,11 +37,10 @@ There is a button on the side panel of the Comet.
 - 1 x HD cable
 - 1 x USB cable (Type-A to Type-C)
 - 1 x USB cable (Type-C to Type-C)
-- 1 x Power adapter
-- 1 x Converter (Based on your shipping country)
 
-> **Note**: Comet's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+> **Note**: 
 
-Check out Comet's unboxing video below.
+> 1. PD adapters cannot be used.
+> 2. Comet's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lkDcSSlNn20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![gl-rm1 package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_package.png){class="glboxshadow"}

@@ -2,11 +2,11 @@
 
 ## Appearance
 
-![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/rm10-interface.jpg){class="glboxshadow"}
+![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-interface.png){class="glboxshadow"}
 
 ## Dimension
 
-![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/rm10-dimension.png){class="glboxshadow"}
+![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-dimension.png){class="glboxshadow"}
 
 ## Touchscreen
 
@@ -30,11 +30,11 @@
 - 2 x HD cable
 - 1 x USB cable (Type-A to Type-C)
 - 1 x USB cable (Type-C to Type-C)
-- 1 x Power adapter
-- 1 x Converter (Based on your shipping country)
+- 1 x USB-A Power adapter
+- 1 x Converter (US), or 2 x Converters (EU & UK)
 
 > **Note**: Comet Pro's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
-Check out Comet Pro's unboxing video below.
+![gl-rm1 package 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package1.png){class="glboxshadow"}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qKFeu31_LNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![gl-rm1 package 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package2.png){class="glboxshadow"}

@@ -8,19 +8,19 @@ Watch this video or follow the steps below to set up your Comet Pro.
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/connect-devices.png){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/connect-devices.png){class="glboxshadow"}
 
 1. Connect Comet Pro to the power source.
 
-    ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/01-power-on.jpg){class="glboxshadow"}
+    ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/01-power-on.png){class="glboxshadow"}
 
 2. Connect Comet Pro's HD IN port to the Device B's HD OUT port using an HDMI cable. Use another HD cable to connect Comet Pro's HD OUT port to an external monitor if necessary.
 
-    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/02-hd-cable.png){class="glboxshadow"}
+    ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/02-hd-cable.png){class="glboxshadow"}
 
 3. Connect Comet Pro's USB Type-C port to the Device B's USB port using a USB cable.
 
-    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/03-usb-cable.png){class="glboxshadow"}
+    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/03-usb-cable.png){class="glboxshadow"}
 
     > **Note**: Comet Pro's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
@@ -28,11 +28,11 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     - Ethernet: Connect the Comet Pro's Ethernet port to a network source.
 
-        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-ethernet.png){class="glboxshadow"}
+        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/04-ethernet.png){class="glboxshadow"}
 
     - Wi-Fi: Swipe left on the touchscreen, connect Comet Pro to an existing Wi-Fi network (2.4G/5G supported).
 
-        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/04-wifi.png){class="glboxshadow"}
+        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/04-wifi.png){class="glboxshadow"}
 
 5. Device connection is complete. Now you can access the Comet Pro's console locally or remotely.
 
