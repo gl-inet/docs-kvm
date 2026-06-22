@@ -8,19 +8,19 @@ Watch this video or follow the steps below to set up your Comet 5G.
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
-![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/connect_device.png){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/connect_device.png){class="glboxshadow"}
 
 1. Insert a SIM card into your Comet 5G, and power it on.
 
-    ![insert sim power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/01-insert-sim-power-on.jpg){class="glboxshadow"}
+    ![insert sim power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/01-insert-sim-power-on.jpg){class="glboxshadow"}
 
 2. Connect Comet 5G's HDMI IN port to the Device B's HDMI port. Use another HDMI cable to connect Comet 5G's HDMI OUT port to an external monitor if necessary.
 
-    ![Connect the HDMI cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/02-hdmi-cable.jpg){class="glboxshadow"}
+    ![Connect the HDMI cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/02-hdmi-cable.jpg){class="glboxshadow"}
 
 3. Connect Comet 5G's Type-C port to the Device B's Type-C interface using a USB-C cable.
 
-    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/03-usb-cable.jpg){class="glboxshadow"}
+    ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/03-usb-cable.jpg){class="glboxshadow"}
 
     > **Note**: Comet 5G's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
@@ -30,11 +30,11 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     - Wi-Fi: Swipe left on the touchscreen, and connect Comet 5G to an existing Wi-Fi network (2.4G and 5G supported).
 
-        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/04-network-wifi.png){class="glboxshadow"}
+        ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/04-network-wifi.png){class="glboxshadow"}
 
     - Ethernet: Connect the Comet 5G's Ethernet port to a network source.
 
-        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/04-network-ethernet.png){class="glboxshadow"}
+        ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/04-network-ethernet.png){class="glboxshadow"}
 
 5. Device connection is complete. Now you can access the Comet 5G's console via nearby control, local access, or remote access.
 
@@ -44,11 +44,11 @@ Nearby Control is perfect for quick setup and management when you are close to t
 
 On the touchscreen, simply switch the Wi-Fi network mode to **AP Mode**, and it will generate a unique Wi-Fi SSID, with network details displayed on the screen.
 
-![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/nearby_access1.png){class="glboxshadow gl-80-desktop"}
+![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/nearby_access1.png){class="glboxshadow gl-80-desktop"}
 
 Connect a device to this Wi-Fi SSID, then you can access the Comet 5G's console via the default IP address (192.168.8.1) from a web browser.
 
-![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/nearby_access2.png){class="glboxshadow"}
+![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/nearby_access2.png){class="glboxshadow"}
 
 ## Local Access
 

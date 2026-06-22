@@ -4,7 +4,7 @@ Comet 5G (GL-RM10RC) is a 5G RedCap-enabled remote KVM that integrates cellular 
 
 Equipped with a built-in touchscreen, it simplifies configuration and daily operations, delivering a simple and efficient interface for remote management. When used with extensions such as an ATX Board or a Fingerbot, it allows remote power-on and power-off control of connected equipment, making it well-suited for distributed management and field maintenance scenarios.
 
-![get to know comet 5g](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/rm10rc_scenario.jpg){class="glboxshadow"}
+![comet 5g scenario](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_scenario.jpg){class="glboxshadow"}
 
 - [Product Overview](product_overview.md)
 - [Quick Setup](quick_setup_guide.md)
