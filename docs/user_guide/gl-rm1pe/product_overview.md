@@ -2,11 +2,11 @@
 
 ## Appearance
 
-![gl-rm1pe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/rm1pe_interface.png){class="glboxshadow"}
+![gl-rm1pe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_interface.png){class="glboxshadow"}
 
 ## Dimension
 
-![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/rm1pe_dimension.png){class="glboxshadow"}
+![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_dimension.png){class="glboxshadow"}
 
 ## LED
 
@@ -23,7 +23,6 @@ There is one LED indicator on the top panel of Comet PoE.
 
 - 1 x Comet PoE (GL-RM1PE)
 - 1 x User manual
-- 1 x Thank you card
 - 1 x Ethernet cable
 - 1 x HD cable
 - 1 x USB cable (Type-A to Type-C)
@@ -31,6 +30,4 @@ There is one LED indicator on the top panel of Comet PoE.
 
 > **Note**: Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
-Check out Comet PoE's unboxing video below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/shYkDIQjX0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![rm1pe package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_package.png){class="glboxshadow"}

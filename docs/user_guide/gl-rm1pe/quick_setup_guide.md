@@ -8,19 +8,19 @@ Watch this video or follow the steps below to set up your Comet PoE.
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
-![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-1.png){class="glboxshadow"}
+![distinguish devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-1.png){class="glboxshadow"}
 
 1. Connect the Comet PoE to the PoE Switch with an Ethernet cable.
 
-    ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-2.png){class="glboxshadow gl-80-desktop"}
+    ![connect ethernet cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-2.png){class="glboxshadow gl-80-desktop"}
 
 2. Connect the Comet PoE's HD IN port to the Device B's HD OUT using an HDMI cable.
 
-    ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-3.png){class="glboxshadow gl-80-desktop"}
+    ![connect hdmi cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-3.png){class="glboxshadow gl-80-desktop"}
 
 3. Connect the Comet PoE's USB port to the Device B's USB interface using a USB cable.
 
-    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/connect-4.png){class="glboxshadow gl-80-desktop"}
+    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-4.png){class="glboxshadow gl-80-desktop"}
 
     > **Note**: Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
@@ -54,7 +54,7 @@ Before accessing, ensure your controlling device is on the same LAN as Comet PoE
     
     Log in to the GL-AXT1800 web admin panel, find Comet PoE's IP address in the Client list, as shown below.
 
-    ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
+    ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
 
 2. Open a new tab in the browser and enter Comet PoE's IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
 
