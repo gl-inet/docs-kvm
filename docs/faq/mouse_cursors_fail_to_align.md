@@ -6,15 +6,19 @@ If the mouse cursor on the controlling device fails to align with the one on the
 
 1. **Confirm whether the issue occurs when the mouse is moving or idle.** 
 
-    <u>Case 1</u>. If cursors align correctly when the mouse is idle but go out of sync during movement, please check the network on both ends and ensure stable connectivity.
+    <u>Case 1</u>. If cursors align correctly when the mouse is idle but go out of sync during movement, check the network on both ends and ensure stable connectivity.
 
     In addition, you can hide the local cursor so that only the remote cursor shows on the control screen, preventing cursor misalignment issues.
 
     On the KVM console, navigate to **Settings** -> **Remote Device Settings** -> **Show Local Cursor** and disable it.
 
-    ![hide local cursor](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.png){class="glboxshadow"}
+    ![hide local cursor](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>Case 2</u>. If cursors fail to align even when the mouse is idle, proceed to the next step.
+    <u>Case 2</u>. If cursors fail to align even when the mouse is idle, re-select your device type on the KVM console (for Comet Q / GL-RMQ1 only). 
+    
+    ![device type](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
+    
+    If the problem persists, proceed to the next step.
 
 2. **If the controlled device is a laptop, this is likely caused by incorrect display resolution.** 
 
@@ -22,19 +26,35 @@ If the mouse cursor on the controlling device fails to align with the one on the
     
     ??? note "Adjust resolution on the controlled laptop"
     
-        Take macOS laptop as an example.
+        **For macOS**:
 
         1. Go to **Settings** -> **Displays** -> **Optimize for**.
 
-            ![mac displays](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/mac_displays.png){class="glboxshadow" width="582"}
+            ![mac displays](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/macos1.png){class="glboxshadow" width="582"}
 
         2. Change it to **GLKVM**.
 
-            ![select glkvm](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/select_glkvm.png){class="glboxshadow" width="582"}
+            ![select glkvm](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/macos2.png){class="glboxshadow" width="582"}
 
         3. Choose the corresponding resolution, then check if the mouse cursor can be overlapped.
 
-            ![resolution](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/resolution.png){class="glboxshadow"}
+            ![resolution](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/macos3.png){class="glboxshadow"}
+
+        **For Windows**:
+
+        1. Go to **Settings** -> **System** -> **Displays**.
+
+            ![windows display](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/windows1.png){class="glboxshadow"}
+
+        2. Scroll down to find **Display resolution** and click the box on the right.
+
+            ![display resolution](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/windows2.png){class="glboxshadow"}
+
+        3. Select the appropriate display resolution, then click **Keep changes** in the pop-up window to apply it.
+
+            ![display resolution](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/windows3.png){class="glboxshadow"}
+
+            ![display resolution](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/windows4.png){class="glboxshadow"}
 
     ??? note "Modify EDID setting for your KVM device"
 
