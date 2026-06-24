@@ -8,29 +8,29 @@ Generally speaking, when devices such as computers, laptops, and game consoles a
 
 The EDID settings in GL.iNet KVM aims to automatically match the optimal parameters of the display. When a GL.iNet KVM is connected to the controlled device, it can automatically adjust the display output to present the best picture by reading the EDID of the display. 
 
-## How to set EDID for GL.iNet KVM
+## Preset EDID
 
 On the GL.iNet KVM console, navigate to **Settings** -> **Video** -> **EDID**. There are some preset EDID settings. 
 
-![edid preset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_preset.jpg){class="glboxshadow"}
+![edid preset](https://static.gl-inet.com/docs/kvm/tutorials/edid/edid_preset.jpg){class="glboxshadow"}
 
 **The default EDID of GL.iNet KVM is already suitable for most scenarios and usually does not need to be modified**.
 
-In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset value, e.g., 1920×1280/AUO/60HZ, or switch to Customize and enter the custom EDID code.
+In case of special situations, such as to configure UEFI/BIOS or customize the resolution/refresh rate, you can select a preset value, e.g., 1920×1280/AUO/60HZ.
 
-If you can't find a suitable code, you may refer to [this link](https://github.com/linuxhw/EDID){target="blank"} or steps below to customize EDID configuration.
+## Custom EDID
+
+If you can't find a suitable EDID code, you may refer to [this link](https://github.com/linuxhw/EDID){target="blank"} or steps below to customize EDID configuration.
 
 !!! Tip
 
     Finding an EDID that exactly matches your desired resolution and refresh rate can be challenging. You can use EDID editing tools such as **RTDtool** or **EEditZ** to modify an existing EDID to meet your specific needs.
 
-1. Find a suitable EDID in [this link](https://github.com/linuxhw/EDID){target="blank"} and copy it.
-
-    ![edid code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_code.jpg){class="glboxshadow"}
+1. Find a suitable EDID [here](https://github.com/linuxhw/EDID){target="blank"} and copy it.
 
 2. Log in to the GL.iNet KVM console and navigate to **Settings** -> **EDID**. Switch to **Customize** mode, paste the parameters to the input box, and click **Set Custom** to apply the settings.
 
-    ![edid customize](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/edid_customize.png){class="glboxshadow"}
+    ![edid customize](https://static.gl-inet.com/docs/kvm/tutorials/edid/edid_customize.png){class="glboxshadow"}
 
 !!! Note
 
