@@ -6,19 +6,19 @@ This tutorial introduces two methods for changing the hostname: via the KVM cons
 
 ## Method 1. KVM Console
 
-**Note**: This feature is available in firmware version 1.7.0 and above.
+> **Note**: This feature is available in firmware version 1.7.0 and above.
 
-1. Log in to your KVM, navigate to **Settings** -> **Network** -> **Hostname**, and click **Modify**. 
+1. Log in to your KVM and navigate to **Settings** -> **Network**. Click the hostname or right arrow icon. 
 
-    ![hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings-hostname.png){class="glboxshadow"}
+    ![settings network](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings_network.png){class="glboxshadow"}
 
 2. Customize hostname and click **Apply**.
 
-    ![modify hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/modify-hostname.png){class="glboxshadow"}
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/modify_hostname.png){class="glboxshadow"}
 
 ## Method 2. Terminal Commands
 
-1. Log in to your KVM, navigate to Toolbox -> Terminal, and click **Access**. 
+1. Log in to your KVM and navigate to **Toolbox** -> **Terminal**. Click **Access**. 
 
     ![access terminal](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/access_terminal.png){class="glboxshadow"}
 
