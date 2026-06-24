@@ -20,7 +20,9 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![connect4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect4.png){class="glboxshadow"}
 
-    > **Note**: Comet X's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+    !!! Warning
+    
+        Comet X's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 4. (Optional) Connect the Comet X's **HDMI OUT** port to an external monitor to duplicate the display (video loopout). See [Local Control](#local-control) for details.
 

@@ -10,7 +10,9 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![connect 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect2.png){class="glboxshadow"}
 
-    > **Note**: Comet Q's integrated USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+    !!! Warning
+    
+        Comet Q's integrated USB‑C cable is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 2. If Device B is a touchscreen mobile device such as a smartphone or tablet, enable accessibility controls first. This allows Comet Q to operate the touchscreen.
 

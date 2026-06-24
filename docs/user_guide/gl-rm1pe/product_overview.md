@@ -28,6 +28,8 @@ There is one LED indicator on the top panel of Comet PoE.
 - 1 x USB cable (Type-A to Type-C)
 - 1 x USB cable (Type-C to Type-C)
 
-> **Note**: Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+!!! Warning
+
+    Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 ![rm1pe package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_package.png){class="glboxshadow"}

@@ -32,4 +32,6 @@ Comet Q works with any device whose USB-C port supports **DisplayPort Alt Mode**
 - 1 x User manual
 - 1 x Protective sleeve
 
-> **Note**: Comet Q's integrated USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+!!! Warning
+
+    Comet Q's integrated USB‑C cable is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.

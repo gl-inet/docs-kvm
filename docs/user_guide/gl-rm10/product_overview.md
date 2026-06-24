@@ -33,8 +33,12 @@
 - 1 x USB-A Power adapter
 - 1 x Converter (US), or 2 x Converters (EU & UK)
 
-> **Note**: Comet Pro's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+!!! Warning
+    
+    Comet Pro's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 ![gl-rm1 package 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package1.png){class="glboxshadow"}
+<small>(U.S. package)</small>
 
 ![gl-rm1 package 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package2.png){class="glboxshadow"}
+<small>(EU & UK package)</small>

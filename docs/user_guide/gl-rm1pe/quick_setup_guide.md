@@ -22,7 +22,9 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-4.png){class="glboxshadow gl-80-desktop"}
 
-    > **Note**: Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+    !!! Warning
+    
+        Comet PoE's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 4. Device connection is complete. Now you can access the Comet PoE's console locally or remotely.
 
