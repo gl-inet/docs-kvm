@@ -95,3 +95,7 @@ Comet 5G supports the following frequency bands.
     Comet 5G's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
 
 ![rm10rc package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_package.png){class="glboxshadow"}
+
+Watch the unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L3v-8leu7Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

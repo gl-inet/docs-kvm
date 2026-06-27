@@ -31,7 +31,7 @@
 - 1 x USB cable (Type-A to Type-C)
 - 1 x USB cable (Type-C to Type-C)
 - 1 x USB-A Power adapter
-- 1 x Converter (US), or 2 x Converters (EU & UK)
+- 1 x Converter (Based on your shipping country)
 
 !!! Warning
     
@@ -42,3 +42,7 @@
 
 ![gl-rm1 package 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package2.png){class="glboxshadow"}
 <small>(EU & UK package)</small>
+
+Watch the unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKFeu31_LNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
