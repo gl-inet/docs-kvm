@@ -22,10 +22,6 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/03-usb-cable.jpg){class="glboxshadow"}
 
-    !!! Warning
-    
-        Comet 5G's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
-
 4. Connect Comet 5G to a network source.
 
     - 5G: With SIM card inserted, the 5G connection will be automatically established upon system startup. The connection priority is Ethernet > Wi-Fi > 5G.

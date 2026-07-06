@@ -22,10 +22,6 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/03-usb-cable.png){class="glboxshadow"}
 
-    !!! Warning
-    
-        Comet Pro's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
-
 4. Connect Comet Pro to a network source via an Ethernet cable or Wi-Fi.
 
     - Ethernet: Connect the Comet Pro's Ethernet port to a network source.
