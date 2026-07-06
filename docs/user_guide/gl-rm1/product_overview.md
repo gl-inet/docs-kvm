@@ -40,9 +40,7 @@ There is a button on the side panel of the Comet.
 
 !!! Warning
 
-    1. PD adapters cannot be used.
-
-    2. Comet's USB‑C data port is intended solely for keyboard and mouse signal transmission. Do not connect it to any Thunderbolt host via a USB‑C to USB‑C cable. Thunderbolt ports support bidirectional power delivery, and reverse current injection may permanently damage the KVM hardware.
+    PD adapters cannot be used.
 
 ![gl-rm1 package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_package.png){class="glboxshadow"}
 
