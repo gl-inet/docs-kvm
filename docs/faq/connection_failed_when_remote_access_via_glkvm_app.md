@@ -15,6 +15,22 @@ Troubleshooting Guide:
 2. Check Network Firewall Rules.
 
     Disable the local firewall temporarily, or add GL.iNet-related domains (e.g., glkvm.com, glkvm.xyz, glkvm.top) to the firewall allowlist. Retry the connection after applying changes.
+    
+    Below are some firewall modification methods for certain operator networks that we have collected.
+
+    Sky Network (e.g., Sky Max Hub).
+
+    The security mechanism of Sky Network may identify the domain name `glkvm.com` as a suspicious site and block access. You can lift the restrictions through the Sky App.
+
+    1. Open the MySky App, navigate to "**Broadband" > "Advanced Security**" and check if any GL.iNet-related domains are restricted.
+
+       ![mysky-1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-1.png){class="glboxshadow"}
+
+       ![mysky-2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-2.png){class="glboxshadow"}
+
+    2. If you find that the domain is blocked, click the arrow `∨` to see the details, and then select **Allow Access** to unblock the restriction.
+       
+       ![mysky-3](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-3.png){class="glboxshadow"}
 
 3. Disable VPN/Proxy on the Controlling Device.
 

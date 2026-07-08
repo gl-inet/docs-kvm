@@ -71,7 +71,35 @@ If you access the controlled device via a browser and encounter a blank screen i
     If the controlled device is compatible with standard monitors, blank screens or display issues are unlikely when accessing it via GLKVM. However, a few specific compatibility issues (e.g., Linux system + ASUS monitor) may cause blank screens when using GLKVM.
 
     Please check if your controlled device is compatible with standard monitors, and if it has compatibility issues with a specific monitor.
-    
+
+5. **Resolution Negotiation Issue**
+   
+    When GLKVM is connected to certain operating systems (e.g., Proxmox VE Hypervisor), it may fail to negotiate the available display resolution correctly, resulting in display issues. This can be resolved by manually adjusting the resolution on the controlled device.
+
+    Here is a guide on how to modify the system resolution for your reference.
+
+    Proxmox VE Hypervisor:
+    1. Open the PVE terminal and enter the command below to edit file /etc/default/grub.
+
+       ```nano /etc/default/grub```
+
+    2. Add the following line.
+
+       ```GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset"```
+
+    3. Uncomment the line `GRUB_GFXMODE` by removing the `#` and set the desired resolution, such as `1024x768`. 
+
+       ```GRUB_GFXMODE=1024x768```
+
+    4. Press `Ctrl + O` and hit Enter to save the configuration.
+
+    5. Press `Ctrl + X` to exit the nano editor.
+
+    6. Enter the command below to apply the configuration.
+
+       ```update-grub```
+       
+
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
