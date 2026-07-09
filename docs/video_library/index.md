@@ -1,33 +1,33 @@
-# Meet Our New Products
+---
+hide:
+  - navigation
+  - toc
+---
 
-A brief introduction to our products, and a glimpse into our latest development.
+# Video Library
 
-## Comet Q (GL-RMQ1)
+Learn about our products and use them through videos.
 
-All-in-One USB-C KVM, remote control for mobile & laptops
+## Meet Our Products
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ynFee4N-0fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- [Comet Q (GL-RMQ1)](products.md#comet-q-gl-rmq1)
+- [Comet 5G (GL-RM10RC)](products.md#comet-5g-gl-rm10rc)
+- [Comet Pro (GL-RM10)](products.md#comet-pro-gl-rm10)
+- [Comet PoE (GL-RM1PE)](products.md#comet-poe-gl-rm1pe)
+- [Comet (GL-RM1)](products.md#comet-gl-rm1)
 
-## Comet 5G (GL-RM10RC)
+## Unboxing & First-Time Setup
 
-Remote KVM over 5G RedCap
+- [Comet (GL-RM1)](unboxing_first_set_up.md#comet-gl-rm1)
+- [Comet PoE (GL-RM1PE)](unboxing_first_set_up.md#comet-poe-gl-rm1pe)
+- [Comet Pro (GL-RM10)](unboxing_first_set_up.md#comet-pro-gl-rm10)
+- [Comet 5G (GL-RM10RC)](unboxing_first_set_up.md#comet-5g-gl-rm10rc)
+- [ATX Board (GL-ATXPC)](unboxing_first_set_up.md#atx-board-gl-atxpc)
+- [Fingerbot (FGB-01)](unboxing_first_set_up.md#fingerbot-fgb-01)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sxixvzqed0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Features
 
-## Comet Pro (GL-RM10)
-
-Remote KVM over Wi-Fi 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QQIAW5E1KNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Comet PoE (GL-RM1PE)
-
-Power-over-Ethernet version of the Comet
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h4x0YbA3ujk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Comet (GL-RM1)
-
-Remote KVM over Internet
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5ra15-D345E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- [Remote Access](features.md#remote-access)
+- [Two-Way Audio](features.md#two-way-audio)
+- [Wake-on-LAN](features.md#wake-on-lan)
+- [BIOS Access](features.md#bios-access)

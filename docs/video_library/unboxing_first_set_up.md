@@ -1,4 +1,4 @@
-# Unboxing & First Time Setup
+# Unboxing & First-Time Setup
 
 Unbox our devices and discover how easy it is to set them up for the first time.
 
