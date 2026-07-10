@@ -16,7 +16,7 @@ Troubleshooting Guide:
 
     Disable the local firewall temporarily, or add GL.iNet-related domains (e.g., glkvm.com) to the firewall allowlist. Retry the connection after applying changes.
 
-    Below are some firewall modification methods for certain operator networks.
+    Below are the steps to modify firewall rules on Sky Network for your reference.
 
     ??? note "Sky Network (e.g., Sky Max Hub)"
 
@@ -24,13 +24,11 @@ Troubleshooting Guide:
 
         1. Open the MySky App, navigate to **Broadband** -> **Advanced Security** and check if any GL.iNet-related domains are restricted.
 
-            ![mysky-1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-1.png){class="glboxshadow" width="300"}
-
-            ![mysky-2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-2.png){class="glboxshadow" width="300"}
-
-        2. If you find that the domain is blocked, click the downward arrow to see details, and then select **Allow Access** to unblock the restriction.
+            ![mysky-1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-1.png){class="glboxshadow"}
         
-            ![mysky-3](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-3.png){class="glboxshadow" width="300"}
+        2. If you find that the domain is blocked, click the downward arrow to see details, and then select **Allow Access** to unblock the restriction.
+ 
+            ![mysky-2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-2.png){class="glboxshadow" width="300"}
 
 3. Disable VPN/Proxy on the Controlling Device.
 
