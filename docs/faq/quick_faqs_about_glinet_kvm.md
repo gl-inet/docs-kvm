@@ -138,13 +138,13 @@ If you prefer a KVM that supports Wi-Fi, you may consider the following models:
 
 **Q1. Can a GL.iNet KVM remotely power the target device on and off?**
 
-A1. Except for Comet Q (GL-RMQ1), all GL.iNet KVMs allow you to remotely power the target device on and off via the methods below:
+A1. GL.iNet KVM allows you to remotely power the target device on and off via the methods below:
 
 - Wake-on-LAN (Built-in software service)
 
 - [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Accessories, additional purchase required)
 
-- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (Accessories, additional purchase required)
+- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (Accessories, additional purchase required; does not work with Comet Q.)
 
 ---
 

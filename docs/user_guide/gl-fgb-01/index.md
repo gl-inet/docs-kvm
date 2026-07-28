@@ -2,7 +2,9 @@
 
 Fingerbot FGB-01 is an accessory for GL.iNet KVM devices to provide additional convenience for remote power management.
 
-As a physical button emulator, the Fingerbot is designed for remote PC power on/off. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
+As a physical button emulator, the Fingerbot is designed to remotely power the target device on and off. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
+
+**Note**: Comet Q (GL-RMQ1) does not work with Fingerbot.
 
 ![overview](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/overview.png){class="glboxshadow"}
 
