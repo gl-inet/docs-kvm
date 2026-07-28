@@ -119,7 +119,16 @@ A3. No. GL-Fingerbot is an optional accessory for GL.iNet KVM devices. It should
 
 **Q4. Can I use a single GL.iNet KVM to control multiple Fingerbots?**
 
-A4. No. Currently a single GL.iNet KVM can only control a single Fingerbot.
+A4. The following GL.iNet KVMs can only control one Fingerbot.
+
+* Comet (GL-RM1)
+* Comet PoE (GL-RM1PE)
+* Comet Pro (GL-RM10)
+* Comet 5G (GL-RM10RC)
+
+However, Comet X (GL-RM4PE) supports up to four Fingerbots simultaneously. Comet X provides four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot).
+
+**Note**: Comet Q (GL-RMQ1) does not work with Fingerbot.
 
 ---
 
