@@ -37,13 +37,13 @@
 
 4. **Nearby Control via AP Mode**
 
-    Comet 5G features Wi-Fi Nearby Control, enabling quick local configuration and management without wired connections. Simply switch the Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Users can connect to this SSID to securely access the management interface for device setup or maintenance.
+    Comet 5G features Wi-Fi Nearby Control, enabling quick local management without wired connections. Simply switch the Comet 5G's Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Connect to this SSID to securely access the Comet 5G's console.
 
-    **Note**: Activating the AP disconnects the device from its upstream Wi-Fi and provides local access only (with no internet connectivity).
+    **Note**: Activating the AP mode disconnects the Comet 5G from its upstream Wi-Fi and provides nearby access only (with no internet connectivity).
 
 5. **Browser-Based Remote Access**
 
-    Comet 5G allows users to access the KVM interface directly through a web browser, eliminating the need for client installation. This browser-based access uses secure HTTPS encryption and avoids self-signed certificate warnings, ensuring safe and effortless connectivity without additional software.
+    Comet 5G allows you to access its console directly through a web browser, eliminating the need for client installation. This browser-based access uses secure HTTPS encryption and avoids self-signed certificate warnings, ensuring safe and effortless connectivity without additional software.
 
 6. **Sleek Design & Touchscreen**
 
@@ -55,11 +55,11 @@
 
 8. **Self-Hosted Deployment**
 
-    Comet 5G enables flexible self-hosted deployment on mainstream operating systems, including Linux and Ubuntu, giving users full control over remote access and data privacy. The self-hosted system requires a cloud server with at least a dual-core CPU and 2GB of memory, ensuring both privacy and reliable operation.
+    Comet 5G enables flexible self-hosted deployment on mainstream operating systems, including Linux and Ubuntu, giving you full control over remote access and data privacy. The self-hosted system requires a cloud server with at least a dual-core CPU and 2GB of memory, ensuring both privacy and reliable operation.
 
 9. **Remote Power Control**
 
-    Comet 5G features a USB interface for connecting external devices such as an ATX board and a Fingerbot, enabling remote power control of the connected equipment.
+    Comet 5G provides a USB port for connecting external devices such as an ATX board and a Fingerbot, enabling remote power control of the connected equipment.
 
     **Note**: Optional accessories sold separately.
 

@@ -18,11 +18,19 @@ A2. No software is required to be installed on the controlled device, and it can
 
 As to the controlling device, whether a software needs to be installed on it depends on the way you want to access the KVM.
 
-??? "Local Control"
+??? "Nearby Control (for Comet 5G only)"
 
-    **Note**: This control method is only available on Comet X (GL-RM4PE). For other models, please refer to the other two methods below.
+    **Note**: This method is only available on Comet 5G (GL-RM10RC).
 
-    Comet X features an HDMI OUT port and two extra USB ports, ideal for local troubleshooting, configuration and OS installation. Simply connect your monitor, mouse and keyboard for plug-and-play local hardware control. Click [here](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control) for details.
+    Comet 5G features Wi-Fi Nearby Control, enabling quick local management without wired connections. Simply switch the Comet 5G's Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Connect to this SSID to securely access the Comet 5G's console. Click [here](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control) for details.
+
+    Activating the AP mode disconnects the Comet 5G from its upstream Wi-Fi and provides nearby access only (with no internet connectivity).
+
+??? "Local Control (for Comet X only)"
+
+    **Note**: This method is only available on Comet X (GL-RM4PE).
+
+    Comet X provides an HDMI OUT port and two extra USB ports, ideal for local troubleshooting, configuration and OS installation. Simply connect your monitor, mouse and keyboard for plug-and-play local hardware control. Click [here](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control) for details.
 
 ??? "LAN Access"
 
