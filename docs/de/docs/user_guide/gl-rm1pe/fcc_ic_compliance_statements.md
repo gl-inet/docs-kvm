@@ -1,49 +1,49 @@
-# FCC & IC Compliance Statements
+# FCC- und IC-Konformitätserklärungen
 
-**FCC Compliance Statement**
+**FCC-Konformitätserklärung**
 
-This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: 
+Dieses Gerät erfüllt Teil 15 der FCC-Vorschriften. Der Betrieb unterliegt den folgenden zwei Bedingungen:
 
-(1) This device may not cause harmful interference, and 
+(1) Dieses Gerät darf keine schädlichen Störungen verursachen, und
 
-(2) This device must accept any interference received, including interference that may cause undesired operation.
+(2) Dieses Gerät muss alle empfangenen Störungen akzeptieren, einschließlich Störungen, die einen unerwünschten Betrieb verursachen können.
 
-**NOTE**: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications.
+**HINWEIS**: Dieses Gerät wurde getestet und entspricht den Grenzwerten für ein digitales Gerät der Klasse B gemäß Teil 15 der FCC-Vorschriften. Diese Grenzwerte sollen einen angemessenen Schutz vor schädlichen Störungen in Wohngebieten bieten. Dieses Gerät erzeugt und nutzt Hochfrequenzenergie und kann diese abstrahlen. Wenn es nicht gemäß den Anweisungen installiert und verwendet wird, kann es schädliche Störungen des Funkverkehrs verursachen.
 
-However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures:
+Es kann jedoch nicht garantiert werden, dass in einer bestimmten Installation keine Störungen auftreten. Wenn dieses Gerät den Radio- oder Fernsehempfang schädlich stört, was durch Aus- und Einschalten des Geräts festgestellt werden kann, wird dem Benutzer empfohlen, die Störung durch eine oder mehrere der folgenden Maßnahmen zu beheben:
 
-- Reorient or relocate the receiving antenna.
-- Increase the separation between the equipment and receiver.
-- Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
-- Consult the dealer or an experienced radio/TV technician for help.
+- Richten Sie die Empfangsantenne neu aus oder platzieren Sie sie an einem anderen Ort.
+- Vergrößern Sie den Abstand zwischen Gerät und Empfänger.
+- Schließen Sie das Gerät an eine Steckdose in einem anderen Stromkreis an als dem, an den der Empfänger angeschlossen ist.
+- Wenden Sie sich an den Händler oder einen erfahrenen Radio-/TV-Techniker.
 
-**IC Compliance Statement**
+**IC-Konformitätserklärung**
 
-This device complies with Innovation, Science, and Economic Development Canada licence-exempt RSS standard(s). Operation is subject to the following two conditions: 
+Dieses Gerät entspricht den lizenzfreien RSS-Standards von Innovation, Science and Economic Development Canada. Der Betrieb unterliegt den folgenden zwei Bedingungen:
 
-(1) This device may not cause interference, and
+(1) Dieses Gerät darf keine Störungen verursachen, und
 
-(2) This device must accept any interference, including interference that may cause undesired operation of the device.
+(2) Dieses Gerät muss alle Störungen akzeptieren, einschließlich Störungen, die einen unerwünschten Betrieb des Geräts verursachen können.
 
-Le présent appareil est conforme aux CNR d' Innovation, Sciences et Développement économique Canada applicables aux appareils radio exempts de licence. L'exploitation est autorisée aux deux conditions suivantes:
+Dieses Gerät entspricht den für lizenzfreie Funkgeräte geltenden CNR-Standards von Innovation, Science and Economic Development Canada. Der Betrieb ist unter den folgenden zwei Bedingungen zulässig:
 
-(1) l'appareil ne doit pas produire de brouillage, et
+(1) Das Gerät darf keine Störungen verursachen, und
 
-(2) l'utilisateur de l'appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en compromettre le fonctionnement.
+(2) Der Benutzer des Geräts muss alle empfangenen Funkstörungen akzeptieren, auch wenn die Störungen den Betrieb beeinträchtigen können.
 
 
-**FCC/IC Radiation Exposure Statement**
+**FCC/IC-Erklärung zur Strahlenbelastung**
 
-This equipment complies with FCC/ISED radiation exposure limits set forth for an uncontrolled environment. This equipment should be installed and operated with minimum distance 20cm between the radiator& your body.  
+Dieses Gerät erfüllt die FCC/ISED-Grenzwerte für Strahlenbelastung in einer unkontrollierten Umgebung. Dieses Gerät sollte mit einem Mindestabstand von 20cm zwischen Strahler und Ihrem Körper installiert und betrieben werden.
 
-L'appareil est conforme aux limites d'exposition aux rayonnements spécifiées par la FCC/ISED pour les environnements non contrôlés. La distance entre le radiateur et le corps doit être d'au moins 20 cm lors de l'installation et du fonctionnement de l'appareil.
+Das Gerät entspricht den von FCC/ISED festgelegten Grenzwerten für Strahlenbelastung in unkontrollierten Umgebungen. Der Abstand zwischen Strahler und Körper muss bei Installation und Betrieb des Geräts mindestens 20 cm betragen.
 
-Declaration of conformity
+Konformitätserklärung
 
-Hereby, GL TECHNOLOGIES (HONG KONG) LIMlTED declares that this product type [Remote KVM, GL-RM10] is in compliance with the essential requirements and other relevant provisions of Directive 2014/30/EU and 2011/65/EU. The full text of the EU Declaration of Conformity is available at the following URL:
+Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMlTED, dass dieser Produkttyp [Remote KVM, GL-RM10] den grundlegenden Anforderungen und anderen relevanten Bestimmungen der Richtlinien 2014/30/EU und 2011/65/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden URL verfügbar:
  
 [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}
 
-Frequency bands: 2.4G Wi-Fi: 2.412-2.472GHz; 5G Wi-Fi: 5.15-5.25GHz  5.25-5.35GHz  5.47-5.725GHz  5.725-5.85GHz;
+Frequenzbänder: 2.4G Wi-Fi: 2.412-2.472GHz; 5G Wi-Fi: 5.15-5.25GHz  5.25-5.35GHz  5.47-5.725GHz  5.725-5.85GHz;
 
-Maximum output power: 2.4G Wi-Fi: 16.90dBm (EIRP); 5G Wi-Fi: 15.87dBm (EIRP);
+Maximale Ausgangsleistung: 2.4G Wi-Fi: 16.90dBm (EIRP); 5G Wi-Fi: 15.87dBm (EIRP);

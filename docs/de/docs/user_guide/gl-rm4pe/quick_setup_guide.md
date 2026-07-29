@@ -1,166 +1,166 @@
-# Comet X (GL-RM4PE) Quick Setup
+# Comet X (GL-RM4PE) Schnellstart
 
-## Connect Devices
+## Geräte verbinden
 
-For clarity, Device A refers to the controlling device, and Device B the controlled device.
+Zur besseren Verständlichkeit bezeichnet Gerät A das steuernde Gerät und Gerät B das gesteuerte Gerät.
 
 ![connect1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect1.png){class="glboxshadow"}
 
-1. Connect the Comet X to a PoE switch using an Ethernet cable, or power it with a 5V/3A power adapter.
+1. Verbinden Sie den Comet X über ein Ethernet-Kabel mit einem PoE-Switch oder versorgen Sie ihn über ein 5V/3A-Netzteil mit Strom.
 
     ![connect2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect2.png){class="glboxshadow"}
 
-    ***Note**: If using a power adapter for power supply, connect the Comet X to a network device (such as router) via an Ethernet cable for Internet access.*
+    ***Hinweis**: Wenn Sie ein Netzteil für die Stromversorgung verwenden, verbinden Sie den Comet X über ein Ethernet-Kabel mit einem Netzwerkgerät (z. B. einem Router), um Internetzugang zu erhalten.*
 
-2. Connect the Comet X's **HDMI IN** port to Device B using an HDMI cable. This enables video signal transmission.
+2. Verbinden Sie den **HDMI IN**-Anschluss des Comet X über ein HDMI-Kabel mit Gerät B. Dadurch wird die Videosignalübertragung aktiviert.
 
     ![connect3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect3.png){class="glboxshadow"}
 
-3. Connect the Comet X's **USB-C** port to Device B using a USB cable. This USB-C port must pair with the corresponding HDMI IN port for proper keyboard and mouse signal transmission.
+3. Verbinden Sie den **USB-C**-Anschluss des Comet X über ein USB-Kabel mit Gerät B. Dieser USB-C-Anschluss muss mit dem entsprechenden HDMI IN-Anschluss gekoppelt sein, damit Tastatur- und Maussignale korrekt übertragen werden.
 
     ![connect4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect4.png){class="glboxshadow"}
 
-4. (Optional) Connect the Comet X's **HDMI OUT** port to an external monitor to duplicate the display (video loopout). See [Local Control](#local-control) for details.
+4. (Optional) Verbinden Sie den **HDMI OUT**-Anschluss des Comet X mit einem externen Monitor, um die Anzeige zu duplizieren (Video-Loopout). Details finden Sie unter [Lokale Steuerung](#local-control).
 
-5. Connection complete. Now you can access the Comet X's console locally or remotely.
+5. Die Verbindung ist abgeschlossen. Sie können nun lokal oder aus der Ferne auf die Konsole des Comet X zugreifen.
 
-## Rack Mounting
+## Rack-Montage
 
-Mount Comet X onto server rack rails as needed.
+Montieren Sie den Comet X bei Bedarf an den Schienen eines Serverracks.
 
-1. Use the included screws to attach the mounting brackets to Comet X.
+1. Befestigen Sie die Montagehalterungen mit den mitgelieferten Schrauben am Comet X.
 
     ![install1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/install1.png){class="glboxshadow"}
 
-2. Secure Comet X to the rack rails with rack screws. **Rack screws are not included**.
+2. Befestigen Sie den Comet X mit Rack-Schrauben an den Rack-Schienen. **Rack-Schrauben sind nicht im Lieferumfang enthalten**.
 
     ![install2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/install2.png){class="glboxshadow"}
 
-## Local Control
+## Lokale Steuerung {#local-control}
 
-Control the device directly via physical cables, no network, IP address or domain name required.
+Steuern Sie das Gerät direkt über physische Kabel. Netzwerk, IP-Adresse oder Domainname sind nicht erforderlich.
 
-Comet X features an HDMI OUT port and two extra USB ports, ideal for local troubleshooting, configuration and OS installation. Simply connect your monitor, mouse and keyboard for plug-and-play local hardware control.
+Der Comet X verfügt über einen HDMI OUT-Anschluss und zwei zusätzliche USB-Anschlüsse und eignet sich damit ideal für lokale Fehlerbehebung, Konfiguration und Betriebssysteminstallation. Schließen Sie einfach Monitor, Maus und Tastatur an, um lokale Plug-and-play-Hardwaresteuerung zu nutzen.
 
-1. Connect the **HDMI OUT** port on Comet X's rear panel to an external monitor to duplicate the display (video loopout).
+1. Verbinden Sie den **HDMI OUT**-Anschluss auf der Rückseite des Comet X mit einem externen Monitor, um die Anzeige zu duplizieren (Video-Loopout).
 
     ![local control1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_control1.png){class="glboxshadow"}
 
-2. Connect a keyboard and mouse to Comet X's USB ports on the front panel.
+2. Verbinden Sie eine Tastatur und eine Maus mit den USB-Anschlüssen auf der Vorderseite des Comet X.
 
     ![local control2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_control2.png){class="glboxshadow"}
 
-3. You can now control the connected device(s) with your local keyboard and mouse, while video signals are looped out to the local monitor.
+3. Sie können die verbundenen Geräte nun mit Ihrer lokalen Tastatur und Maus steuern, während die Videosignale an den lokalen Monitor durchgeschleift werden.
 
-## LAN Access
+## LAN-Zugriff {#lan-access}
 
-There are two ways to access Comet X on the local network: via domain name or IP address.
+Es gibt zwei Möglichkeiten, im lokalen Netzwerk auf den Comet X zuzugreifen: über den Domainnamen oder über die IP-Adresse.
 
-Before accessing, ensure your controlling device is on the same LAN as Comet X.
+Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet X befindet.
 
 ### Domain
 
-1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
+1. Starten Sie auf dem steuernden Gerät einen Browser. Für eine bessere Kompatibilität werden Chrome oder Edge empfohlen.
 
-2. Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+2. Geben Sie `glkvm.local` in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie das Administratorpasswort ein.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_domain1.png){class="glboxshadow"}
 
-    ***Note**: You will need to set up your admin password when accessing for the first time.*
+    ***Hinweis**: Beim ersten Zugriff müssen Sie Ihr Administratorpasswort einrichten.*
 
-3. You can then access the Comet X's console locally and gain access to the controlled device.
+3. Danach können Sie lokal auf die Konsole des Comet X zugreifen und das gesteuerte Gerät bedienen.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_domain2.png){class="glboxshadow"}
 
-### IP address
+### IP-Adresse
 
-1. Find Comet X's IP address on the touchscreen. In this example, the Comet X's IP address is `192.168.8.197`. 
+1. Ermitteln Sie die IP-Adresse des Comet X auf dem Touchscreen. In diesem Beispiel lautet die IP-Adresse des Comet X `192.168.8.197`.
 
-2. Launch a browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+2. Starten Sie einen Browser und geben Sie diese IP-Adresse in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie das Administratorpasswort ein.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_ip1.png){class="glboxshadow"}
 
-    ***Note**: You will need to set up your admin password when accessing for the first time.*
+    ***Hinweis**: Beim ersten Zugriff müssen Sie Ihr Administratorpasswort einrichten.*
 
-3. You can then access the Comet X's console locally and gain access to the controlled device.
+3. Danach können Sie lokal auf die Konsole des Comet X zugreifen und das gesteuerte Gerät bedienen.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_ip2.png){class="glboxshadow"}
 
-## Remote Access
+## Fernzugriff
 
-There are multiple ways to access Comet X remotely: via Cloud service, GLKVM App, Tailscale, and ZeroTier.
+Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet X zuzugreifen: über den Cloud-Dienst, die GLKVM App, Tailscale und ZeroTier.
 
-### Cloud service
+### Cloud-Dienst
 
-1. Bind your device to KVM Cloud. This needs to be done on the local network. 
+1. Binden Sie Ihr Gerät an KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
-    There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding. Here we take Regular Binding as an example. If you prefer Dynamic Code Binding, click [here](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} for details.
+    Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: Regular Binding oder Dynamic Code Binding. Hier verwenden wir Regular Binding als Beispiel. Wenn Sie Dynamic Code Binding bevorzugen, klicken Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"}, um Details anzuzeigen.
 
-    First, locally access your Comet X and navigate to **Cloud Service** in the upper right corner. Click **Bind To KVMCloud**.
+    Greifen Sie zuerst lokal auf Ihren Comet X zu und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To KVMCloud**.
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_to_cloud.png){class="glboxshadow"}
 
-    You will be redirected to a login page. Log in with your glinet cloud account. 
+    Sie werden zu einer Anmeldeseite weitergeleitet. Melden Sie sich mit Ihrem glinet-Cloud-Konto an.
 
     ![cloud bind device1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_bind1.png){class="glboxshadow"}
 
-    Second, confirm your device info, and click **Bind**.
+    Bestätigen Sie anschließend Ihre Geräteinformationen und klicken Sie auf **Bind**.
 
     ![cloud bind device2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_bind2.png){class="glboxshadow"}
 
-    Wait a second. Your Comet X will be bound to your account. Click **Done**.
+    Warten Sie einen Moment. Ihr Comet X wird an Ihr Konto gebunden. Klicken Sie auf **Done**.
 
     ![cloud bind device success](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_bind_success.png){class="glboxshadow"}
 
-2. Remote access via Cloud service.
+2. Fernzugriff über den Cloud-Dienst.
 
-    After clicking Done, you will be redirected to a site with domain `glkvm.com`, where you can see your device.
+    Nachdem Sie auf Done geklickt haben, werden Sie zu einer Website mit der Domain `glkvm.com` weitergeleitet, auf der Sie Ihr Gerät sehen können.
 
     ![cloud devices list](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_devices.png){class="glboxshadow"}
 
-    ***Tip**: If you are not redirected, enter `glkvm.com` manually in the address bar and log in to your glinet account. After login, you will see your device bound to your account.*
+    ***Tipp**: Wenn Sie nicht weitergeleitet werden, geben Sie `glkvm.com` manuell in die Adressleiste ein und melden Sie sich bei Ihrem glinet-Konto an. Nach der Anmeldung sehen Sie Ihr an Ihr Konto gebundenes Gerät.*
     
-    Click on the device you want to remotely access. 
+    Klicken Sie auf das Gerät, auf das Sie per Fernzugriff zugreifen möchten.
     
     ![cloud access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access.png){class="glboxshadow"}
     
-    It will open a new webpage. Enter your admin password to log in.
+    Es öffnet sich eine neue Webseite. Geben Sie Ihr Administratorpasswort ein, um sich anzumelden.
 
     ![cloud access1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access1.png){class="glboxshadow"}
     
-    You will then be able to access your Comet X and the controlled device remotely via Cloud.
+    Danach können Sie per Cloud aus der Ferne auf Ihren Comet X und das gesteuerte Gerät zugreifen.
 
     ![cloud access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access2.png){class="glboxshadow"}
 
 ### GLKVM App
 
-1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
+1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Gerät.
 
-2. Log in with your GL.iNet account. 
+2. Melden Sie sich mit Ihrem GL.iNet-Konto an.
 
     ![log in](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_login.jpg){class="glboxshadow"}
 
-    If you don't have one, sign up first and log in.
+    Wenn Sie noch kein Konto haben, registrieren Sie sich zuerst und melden Sie sich dann an.
     
     ![sign up](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_signup.png){class="glboxshadow"}
 
-3. Bind your device.
+3. Binden Sie Ihr Gerät.
 
-    After login, the page will display as follows. Click **Add Device**.
+    Nach der Anmeldung wird die Seite wie folgt angezeigt. Klicken Sie auf **Add Device**.
 
     ![add device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_add_device.png){class="glboxshadow"}
 
-    You can bind your device in three ways: Auto Discover, S/N Code, and Dynamic Binding Code.
+    Sie können Ihr Gerät auf drei Arten binden: Auto Discover, S/N Code und Dynamic Binding Code.
 
     ??? "Auto Discover"
     
-        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet X, and have your KVM device ID ready.
+        Dies muss im lokalen Netzwerk erfolgen. Stellen Sie sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet X befindet, und halten Sie die KVM Device ID bereit.
     
-        Click **Auto Discover**. It will start searching.
+        Klicken Sie auf **Auto Discover**. Die Suche wird gestartet.
     
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/auto_discover1.png){class="glboxshadow"}
         
-        Find your KVM and enter its **Device ID** to bind it to your account.
+        Suchen Sie Ihr KVM und geben Sie dessen **Device ID** ein, um es an Ihr Konto zu binden.
     
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/auto_discover2.png){class="glboxshadow"}
 
@@ -168,64 +168,64 @@ There are multiple ways to access Comet X remotely: via Cloud service, GLKVM App
     
     ??? "S/N Code"
     
-        This applies to the scenario where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
+        Dies gilt für den Fall, dass Ihr KVM nicht erkannt wird oder sich nicht im selben LAN befindet, Sie aber über die Seriennummer (S/N) verfügen.
         
-        Click **S/N Code**. In the pop-up window, set a device name and enter the S/N, which is printed at the bottom of the KVM device.
+        Klicken Sie auf **S/N Code**. Legen Sie im Pop-up-Fenster einen Gerätenamen fest und geben Sie die S/N ein, die auf der Unterseite des KVM-Geräts aufgedruckt ist.
     
         ![sn code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/add_sncode.png){class="glboxshadow"}
     
     ??? "Dynamic Binding Code"
     
-        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet X.
+        Dies muss im lokalen Netzwerk erfolgen. Stellen Sie sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet X befindet.
     
-        1. Log in to your KVM locally using domain or IP address. Click [here](#lan-access) for details. 
+        1. Melden Sie sich lokal über Domain oder IP-Adresse bei Ihrem KVM an. Details finden Sie [hier](#lan-access).
     
-        2. Navigate to **Cloud Service** in the upper-right corner and click **Bind With Code**. 
+        2. Navigieren Sie oben rechts zu **Cloud Service** und klicken Sie auf **Bind With Code**.
     
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_with_code1.png){class="glboxshadow"}
     
-        3. It will generate an 8-digit dynamic code randomly for device binding, valid for 60 seconds. Click the code to copy it.
+        3. Für die Gerätebindung wird zufällig ein 8-stelliger dynamischer Code erzeugt, der 60 Sekunden lang gültig ist. Klicken Sie auf den Code, um ihn zu kopieren.
     
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_with_code2.png){class="glboxshadow"}
     
-        4. Back to the GLKVM app, enter the dynamic binding code and click **Bind**.
+        4. Kehren Sie zur GLKVM App zurück, geben Sie den dynamischen Bindungscode ein und klicken Sie auf **Bind**.
     
             ![dynamic code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_with_code3.png){class="glboxshadow"}
 
-4. Remote access via GLKVM App.
+4. Fernzugriff über die GLKVM App.
 
-    Once your KVM device is bound to your account, it will show "Online" in the app.
+    Sobald Ihr KVM-Gerät an Ihr Konto gebunden ist, wird es in der App als "Online" angezeigt.
 
     ![app device online](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_devices.png){class="glboxshadow"}
 
-    Click your KVM device. It will open a new window and start connecting.
+    Klicken Sie auf Ihr KVM-Gerät. Es öffnet sich ein neues Fenster und die Verbindung wird hergestellt.
 
     ![app connecting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_connecting.png){class="glboxshadow"}
 
-    Once connected, enter your admin password to log in to your device.
+    Sobald die Verbindung hergestellt ist, geben Sie Ihr Administratorpasswort ein, um sich bei Ihrem Gerät anzumelden.
 
     ![app access1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_access1.png){class="glboxshadow"}
 
-    You will then access your KVM device, through which you can access the controlled device.
+    Danach greifen Sie auf Ihr KVM-Gerät zu, über das Sie das gesteuerte Gerät bedienen können.
 
     ![app access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_access2.png){class="glboxshadow"}
 
 ### Tailscale
 
-Comet X integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
+Comet X ist in Tailscale integriert, sodass Sie über das virtuelle Netzwerk von Tailscale per Fernzugriff darauf zugreifen können.
 
-On the console, navigate to **Apps Center** -> **Tailscale**, enable it and bind your Comet X to your Tailscale account. 
+Navigieren Sie in der Konsole zu **Apps Center** -> **Tailscale**, aktivieren Sie Tailscale und binden Sie Ihren Comet X an Ihr Tailscale-Konto.
 
-Next, bind your controlling device to the same account. You will then be able to remotely access your Comet X by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing GLKVM app.
+Binden Sie anschließend Ihr steuerndes Gerät an dasselbe Konto. Danach können Sie per Fernzugriff auf Ihren Comet X zugreifen, indem Sie dessen **Tailscale virtual IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
 ### ZeroTier
 
-Comet X integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
+Comet X ist in ZeroTier integriert, sodass Sie über das virtuelle Netzwerk von ZeroTier per Fernzugriff darauf zugreifen können.
 
-On the console, navigate to **Apps Center** -> **ZeroTier** and enable it.
+Navigieren Sie in der Konsole zu **Apps Center** -> **ZeroTier** und aktivieren Sie ZeroTier.
 
-Next, join both Comet X and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), then you can remotely access your Comet X by entering its **ZeroTier IP** in a web browser on the controlling device, without installing GLKVM app.
+Treten Sie anschließend mit dem Comet X und Ihrem steuernden Gerät demselben ZeroTier-Netzwerk bei (über eine 16-stellige alphanumerische Network ID). Danach können Sie per Fernzugriff auf Ihren Comet X zugreifen, indem Sie dessen **ZeroTier IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_zerotier.md){target="_blank"}.

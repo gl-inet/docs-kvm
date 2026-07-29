@@ -1,8 +1,8 @@
-# Comet (GL-RM1) V1/V2 Console Guide
+# Comet (GL-RM1) V1/V2 Konsolenhandbuch
 
 ## Settings
 
-On the console, navigate to **Settings**. The settings page includes four sections: 
+Navigieren Sie in der Konsole zu **Settings**. Die Einstellungsseite umfasst vier Bereiche:
 
 - [Video](#video)
 - [Remote Device Settings](#remote-device-settings)
@@ -11,137 +11,137 @@ On the console, navigate to **Settings**. The settings page includes four sectio
 
 ### Quick Search
 
-You can quickly find the settings you want by entering keywords at the top of the Settings page.
+Sie können die gewünschten Einstellungen schnell finden, indem Sie oben auf der Seite **Settings** Schlüsselwörter eingeben.
 
 ![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/quick-search.png){class="glboxshadow"}
 
 ### Video
 
-You can customize the video settings on the console, such as display mode, video quality, video transmission, screen orientation, and EDID.
+Sie können die Videoeinstellungen in der Konsole anpassen, z. B. Anzeigemodus, Videoqualität, Videoübertragung, Bildschirmausrichtung und EDID.
 
 ![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/settings-video.png){class="glboxshadow"}
 
-- **Mode**: Switch between Smart and Normal mode as needed. Smart mode helps reduce bandwidth consumption, especially in weak networks.
+- **Mode**: Wechseln Sie je nach Bedarf zwischen Smart mode und Normal mode. Smart mode hilft, den Bandbreitenverbrauch zu reduzieren, insbesondere bei schwachen Netzwerken.
 
-- **Latency Mode**: You can choose between Lowest Latency and Smooth Display for the device. This feature was introduced in firmware v1.9.0.
+- **Latency Mode**: Sie können für das Gerät zwischen Lowest Latency und Smooth Display wählen. Diese Funktion wurde mit Firmware v1.9.0 eingeführt.
 
-    !!! note "What's the difference between Lowest Latency and Smooth Display?"
+    !!! note "Worin unterscheiden sich Lowest Latency und Smooth Display?"
 
-        - **Lowest Latency**: Minimizes input latency to deliver snappier keyboard and mouse response.
+        - **Lowest Latency**: Minimiert die Eingabelatenz, um eine direktere Reaktion von Tastatur und Maus zu ermöglichen.
 
-        - **Smooth Display**: Optimizes visual performance to eliminate stuttering and frame loss for steady playback.
+        - **Smooth Display**: Optimiert die visuelle Leistung, um Ruckeln und Frameverluste zu vermeiden und eine gleichmäßige Wiedergabe zu ermöglichen.
 
-- **Quality**: Adjust the video quality to Auto/Low/Medium/High/Ultra-high/Lossless according to your network environment and resolution requirements.
+- **Quality**: Passen Sie die Videoqualität entsprechend Ihrer Netzwerkumgebung und den Anforderungen an die Auflösung auf Auto/Low/Medium/High/Ultra-high/Lossless an.
 
-- **Transfer**: Switch the video transmission method between WebRTC, WebRTC (FEC), and Direct as needed. Note that the Direct transfer has no sound.
+- **Transfer**: Wechseln Sie die Videoübertragungsmethode je nach Bedarf zwischen WebRTC, WebRTC (FEC) und Direct. Beachten Sie, dass Direct keine Tonübertragung bietet.
 
-    !!! note "What's the difference between WebRTC, WebRTC (FEC) and Direct?"
+    !!! note "Worin unterscheiden sich WebRTC, WebRTC (FEC) und Direct?"
 
-        - **WebRTC**: Balances smooth video and stable audio for real-time remote control.
-        
-        - **WebRTC (FEC)**: Adds forward error correction to improve connection stability under poor or unstable network conditions. When selected, it automatically repairs lost data packets by transmitting a small amount of redundant data, reducing screen flickering and lag.
-        
-        - **Direct**: Provides the lowest latency and lossless video quality, but does not support audio transmission.
+        - **WebRTC**: Bietet ein ausgewogenes Verhältnis zwischen flüssigem Video und stabilem Audio für die Echtzeit-Fernsteuerung.
 
-- **Orientation**: Adjust the console's rotation angle to 0°/90°/180°/270°.
+        - **WebRTC (FEC)**: Fügt Forward Error Correction hinzu, um die Verbindungsstabilität bei schlechten oder instabilen Netzwerkbedingungen zu verbessern. Bei Auswahl dieser Option werden verlorene Datenpakete automatisch durch die Übertragung einer kleinen Menge redundanter Daten repariert, wodurch Bildschirmflackern und Verzögerungen reduziert werden.
 
-- **EDID**: Short for Extended Display Identification Data, it automatically matches the optimal display parameters.
+        - **Direct**: Bietet die geringste Latenz und verlustfreie Videoqualität, unterstützt jedoch keine Audioübertragung.
 
-    The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
+- **Orientation**: Stellen Sie den Drehwinkel der Konsole auf 0°/90°/180°/270° ein.
 
-- **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
+- **EDID**: Kurz für Extended Display Identification Data. Diese Funktion wählt automatisch die optimalen Anzeigeparameter aus.
+
+    Die Standardeinstellung ist für die meisten Szenarien geeignet und muss in der Regel nicht geändert werden. Details finden Sie [hier](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}. Wenn der Bildschirm nach der EDID-Anpassung nicht aktualisiert wird, starten Sie das gesteuerte Gerät neu.
+
+- **View**: Diese Einstellung bestimmt die Bildschirmskalierung beim Ändern der Größe des Browserfensters. Verfügbare Optionen: Adaptive, Best Picture Quality, Original Pixel. Diese Funktion wurde mit Firmware v1.8.0 eingeführt.
 
 ### Remote Device Settings
 
-You can adjust the relevant settings of the controlled device.
+Sie können die relevanten Einstellungen des gesteuerten Geräts anpassen.
 
 ![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/settings-remote-device.png){class="glboxshadow"}
 
-- **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
+- **Speaker**: Steuert die Audioausgabe des gesteuerten Geräts (z. B. Systemtöne, Videoaudio).
 
-- **Microphone**: Transmit local audio (e.g., your voice) from the controlling device to the remote end. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
+- **Microphone**: Überträgt lokales Audio (z. B. Ihre Stimme) vom steuernden Gerät an die Gegenstelle. Es unterstützt eine Ein-Klick-Stummschaltung sowie eine Shortcut-Funktion durch langes Drücken zum Aktivieren des Mikrofons (d. h. Press To Speak).
 
     ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/mic-settings.png){class="glboxshadow"}
 
     ![press to speak](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/press-to-speak.png){class="glboxshadow"}
 
-- **Keyboard**: Turn on or off the keyboard of the controlled device.
+- **Keyboard**: Schalten Sie die Tastatur des gesteuerten Geräts ein oder aus.
 
-- **Bad Link Mode**: i.e. Release keys immediately. Each key press is sent as a single quick press-and-release action, preventing stuck keys or unintended repeated input during remote control.
+- **Bad Link Mode**: Bedeutet, dass Tasten sofort losgelassen werden. Jeder Tastendruck wird als einzelne schnelle Drücken-und-Loslassen-Aktion gesendet, wodurch während der Fernsteuerung hängende Tasten oder unbeabsichtigte wiederholte Eingaben verhindert werden.
 
-- **Show Virtual Keyboard**: Show and use the virtual keyboard on the console.
+- **Show Virtual Keyboard**: Zeigen Sie die virtuelle Tastatur in der Konsole an und verwenden Sie sie.
 
     ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/show-virtual-keyboard.png){class="glboxshadow"}
 
-- **Swap Command and Ctrl for MacOS**: This feature swaps the Cmd and Ctrl keys to ensure keyboard compatibility across different operating systems.
+- **Swap Command and Ctrl for MacOS**: Diese Funktion vertauscht die Tasten Cmd und Ctrl, um die Tastaturkompatibilität zwischen verschiedenen Betriebssystemen sicherzustellen.
 
-- **Mouse**: Turn on or off the mouse of the controlled device.
+- **Mouse**: Schalten Sie die Maus des gesteuerten Geräts ein oder aus.
 
-- **Show Local Cursor**: Show the mouse of the controlling device on the screen.
+- **Show Local Cursor**: Zeigt die Maus des steuernden Geräts auf dem Bildschirm an.
 
-- **Mouse Jiggle**: The Mouse Jiggler feature simulates subtle, periodic mouse movements to prevent the computer (i.e., the controlled device) from going to sleep due to prolonged inactivity, such as during remote meetings and server management.
+- **Mouse Jiggle**: Die Funktion Mouse Jiggler simuliert dezente, periodische Mausbewegungen, um zu verhindern, dass der Computer (d. h. das gesteuerte Gerät) aufgrund längerer Inaktivität in den Ruhezustand wechselt, beispielsweise während Remote-Meetings oder bei der Serververwaltung.
 
-- **Scroll Rate**: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
+- **Scroll Rate**: Bezeichnet die Geschwindigkeit, mit der das Mausrad scrollt, bzw. die Anzahl der Zeilen/Einheiten pro Mausradbewegung. Dies beeinflusst, wie schnell sich Inhalte auf der Gegenstelle bewegen.
 
-- **Scroll Direction**: It determines whether scrolling the mouse wheel up/down moves content on the remote screen in the same direction (natural scrolling) or the opposite direction (traditional scrolling). 
+- **Scroll Direction**: Legt fest, ob das Scrollen des Mausrads nach oben/unten Inhalte auf dem Remote-Bildschirm in dieselbe Richtung (natürliches Scrollen) oder in die entgegengesetzte Richtung (traditionelles Scrollen) bewegt.
 
-    Four direction modes are available: Standard, Vertical Invert, Horizontal Invert, and Both Invert.  
+    Es stehen vier Richtungsmodi zur Verfügung: Standard, Vertical Invert, Horizontal Invert und Both Invert.
 
-- **Mouse Mode**: Allows switching between Absolute Mode and Relative Mode to ensure smooth and accurate cursor control in different remote control scenarios.
+- **Mouse Mode**: Ermöglicht das Umschalten zwischen Absolute Mode und Relative Mode, um in verschiedenen Fernsteuerungsszenarien eine flüssige und präzise Cursorsteuerung sicherzustellen.
 
-    !!! note "What's the difference between Absolute Mode and Relative Mode?"
+    !!! note "Worin unterscheiden sich Absolute Mode und Relative Mode?"
 
-        - **Relative Mode**: The mouse position is calculated based on movement rather than fixed screen coordinates. You must click inside the remote window to control the mouse. The cursor is locked within the remote screen and cannot move out smoothly. This mode provides better compatibility with BIOS, old systems, and embedded devices.
+        - **Relative Mode**: Die Mausposition wird anhand der Bewegung und nicht anhand fester Bildschirmkoordinaten berechnet. Sie müssen in das Remote-Fenster klicken, um die Maus zu steuern. Der Cursor ist innerhalb des Remote-Bildschirms gesperrt und kann sich nicht reibungslos herausbewegen. Dieser Modus bietet eine bessere Kompatibilität mit BIOS, älteren Systemen und eingebetteten Geräten.
 
-        - **Absolute Mode**: The mouse position corresponds to exact screen coordinates. The remote cursor follows the local one smoothly and accurately, allowing seamless movement between your local screen and the remote screen. It is ideal for daily desktop control and precise operations, though a slight delay may occur due to network transmission.
+        - **Absolute Mode**: Die Mausposition entspricht exakten Bildschirmkoordinaten. Der Remote-Cursor folgt dem lokalen Cursor flüssig und präzise, sodass ein nahtloser Wechsel zwischen Ihrem lokalen Bildschirm und dem Remote-Bildschirm möglich ist. Dieser Modus eignet sich ideal für die tägliche Desktop-Steuerung und präzise Aktionen, auch wenn es durch die Netzwerkübertragung zu einer leichten Verzögerung kommen kann.
 
-        In short, use Absolute for smooth daily control; use Relative for BIOS access, some older devices that do not support absolute positioning, or to avoid accidental cursor movement.
+        Kurz gesagt: Verwenden Sie Absolute für eine flüssige tägliche Steuerung; verwenden Sie Relative für BIOS-Zugriff, für einige ältere Geräte, die keine absolute Positionierung unterstützen, oder um versehentliche Cursorbewegungen zu vermeiden.
 
-- **Relative Sensitivity**: It is available when the Mouse Mode is Relative.
+- **Relative Sensitivity**: Ist verfügbar, wenn Mouse Mode auf Relative eingestellt ist.
 
-- **Primary Button**: Select the left or right button as the primary click. This feature was introduced in firmware v1.9.0.
+- **Primary Button**: Wählen Sie die linke oder rechte Taste als primäre Klicktaste aus. Diese Funktion wurde mit Firmware v1.9.0 eingeführt.
 
 ### System
 
-You can customize the system display settings of the console, or reset the device with one click.
+Sie können die Anzeigeeinstellungen des Konsolensystems anpassen oder das Gerät mit einem Klick zurücksetzen.
 
 ![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/settings-system.png){class="glboxshadow"}
 
-- **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
+- **Device Identity**: Passen Sie die Identität des KVM an oder ändern Sie sie, wie sie vom gesteuerten Gerät erkannt wird. Beachten Sie, dass EDID und Geräteidentifikation synchronisiert bleiben. Wenn eines von beiden geändert wird, wird das andere automatisch aktualisiert, um eine korrekte Geräteerkennung sicherzustellen.
 
     ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/device-identity.png){class="glboxshadow"}
 
-- **Language**: Set the console's language to Chinese, English, or Japanise.
+- **Language**: Stellen Sie die Sprache der Konsole auf Chinesisch, Englisch oder Japanisch ein.
 
-- **Color Mode**: Customize the theme color to Light or Dark mode.
+- **Color Mode**: Passen Sie die Designfarbe auf Light oder Dark mode an.
 
-- **Time Zone**: Customize the time zone of the KVM console. 
+- **Time Zone**: Passen Sie die Zeitzone der KVM-Konsole an.
 
-- **Reset KVM**: Factory reset your KVM with just one click.
+- **Reset KVM**: Setzen Sie Ihren KVM mit nur einem Klick auf die Werkseinstellungen zurück.
 
 ### Network
 
-You can check Comet's network details here, such as Hostname and IP address.
+Hier können Sie die Netzwerkdetails des Comet prüfen, z. B. Hostname und IP-Adresse.
 
 ![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/settings-network.png){class="glboxshadow"}
 
-- **Hostname**: You can modify the device hostname directly on the console. This feature was introduced in firmware v1.7.0.
+- **Hostname**: Sie können den Geräte-Hostnamen direkt in der Konsole ändern. Diese Funktion wurde mit Firmware v1.7.0 eingeführt.
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/modify-hostname.png){class="glboxshadow"}
 
-- **Ethernet**: When Comet connects to an upstream network device via an Ethernet cable, its Ethernet IP address will be displayed here. You can click the IP address or the right arrow to view the ethernet details.
+- **Ethernet**: Wenn Comet über ein Ethernet-Kabel mit einem Upstream-Netzwerkgerät verbunden ist, wird seine Ethernet-IP-Adresse hier angezeigt. Sie können auf die IP-Adresse oder den Pfeil nach rechts klicken, um die Ethernet-Details anzuzeigen.
 
-    If the protocol is DHCP, the page displays as follows.
+    Wenn das Protokoll DHCP ist, wird die Seite wie folgt angezeigt.
 
     ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/eth-dhcp.png){class="glboxshadow"}
-    
-    If you want to set a static IP address, switch the protocol to **Static** and enter the required network parameters (e.g., IP address, netmask, gateway) accordingly.
+
+    Wenn Sie eine statische IP-Adresse festlegen möchten, stellen Sie das Protokoll auf **Static** um und geben Sie die erforderlichen Netzwerkparameter (z. B. IP-Adresse, Netzmaske, Gateway) entsprechend ein.
 
     ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/eth-static.png){class="glboxshadow"}
 
 ## Toolbox
 
-On the console, navigate to **Toolbox**. The toolbox page includes four sections: 
+Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst vier Bereiche:
 
 - [Clipboard](#clipboard)
 - [Shortcut](#shortcut)
@@ -150,91 +150,91 @@ On the console, navigate to **Toolbox**. The toolbox page includes four sections
 
 ### Clipboard
 
-The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
+Die Zwischenablage ermöglicht es Ihnen, Text einfach vom steuernden Gerät auf das gesteuerte Gerät einzufügen, ohne Dateien übertragen zu müssen.
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-clipboard.png){class="glboxshadow"}
 
 ### Shortcut
 
-The shortcut let you perform actions faster without using the virtual keyboard, helping you work more efficiently and save time on daily tasks. You can find some common shortcuts here.
+Mit Shortcuts können Sie Aktionen schneller ausführen, ohne die virtuelle Tastatur zu verwenden. So arbeiten Sie effizienter und sparen Zeit bei alltäglichen Aufgaben. Hier finden Sie einige häufig verwendete Shortcuts.
 
 ![toolbox-shortcut](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-shortcut1.png){class="glboxshadow"}
 
-Click **Modify** to adjust the shortcuts options as needed.
+Klicken Sie auf **Modify**, um die Shortcut-Optionen nach Bedarf anzupassen.
 
-![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-shortcut2.png){class="glboxshadow"}  
+![toolbox-shortcut-modify](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-shortcut2.png){class="glboxshadow"}
 
 ### Wake-on-Lan
 
-Wake-on-LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
+Wake-on-LAN (WOL) ist eine Technologie, mit der das gesteuerte Gerät aus der Ferne eingeschaltet oder aus einem Energiesparzustand geweckt werden kann.
 
-Click **Add Device** to choose a device from the same LAN.
+Klicken Sie auf **Add Device**, um ein Gerät aus demselben LAN auszuwählen.
 
 ![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-wol.png){class="glboxshadow"}
 
 ![wol add device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/wol-add-device.png){class="glboxshadow"}
 
-If the device you want to add is not in the list, click **Add Manually** and enter the device name and MAC address.
+Wenn das Gerät, das Sie hinzufügen möchten, nicht in der Liste enthalten ist, klicken Sie auf **Add Manually** und geben Sie Gerätenamen und MAC-Adresse ein.
 
 ![wol add manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/wol-add-manually.png){class="glboxshadow"}
 
 ### Terminal
 
-You can access Comet's terminal to perform advanced settings. Click **Access**.
+Sie können auf das Terminal des Comet zugreifen, um erweiterte Einstellungen vorzunehmen. Klicken Sie auf **Access**.
 
 ![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-terminal1.png){class="glboxshadow"}
 
-You will be redirected to the GLKVM terminal.
+Sie werden zum GLKVM-Terminal weitergeleitet.
 
 ![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-terminal2.png){class="glboxshadow"}
 
 ## Accessories
 
-GL.iNet offers optional KVM accessories to remotely control the device's power on/off. 
+GL.iNet bietet optionales KVM-Zubehör an, um das Ein-/Ausschalten des Geräts aus der Ferne zu steuern.
 
-First, refer to the corresponding user guide for connecting the accessory to the controlled device.
+Lesen Sie zuerst die entsprechende Bedienungsanleitung, um das Zubehör mit dem gesteuerten Gerät zu verbinden.
 
 - [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
 
-Second, log in to the KVM console and navigate to **Accessories**. The accessory settings are only available after the accessory is installed.
+Melden Sie sich anschließend bei der KVM-Konsole an und navigieren Sie zu **Accessories**. Die Zubehöreinstellungen sind erst verfügbar, nachdem das Zubehör installiert wurde.
 
 ### Fingerbot
-    
-The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
-    
-It works according to the settings on the console.
+
+Der Fingerbot wird am physischen Ein-/Aus-Schalter des gesteuerten Geräts befestigt, um die Stromversorgung des gesteuerten Geräts aus der Ferne zu steuern.
+
+Er arbeitet entsprechend den Einstellungen in der Konsole.
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/fingerbot.png){class="glboxshadow"}
 
-- **Time**: The press duration of the Fingerbot. You can set it to 0.5s/3s/8s.
+- **Time**: Die Druckdauer des Fingerbot. Sie können sie auf 0.5s/3s/8s einstellen.
 
-- **Strength**: There are two levels of pressing strength: Lightly Press and Firmly Press.
+- **Strength**: Es gibt zwei Stufen der Druckstärke: Lightly Press und Firmly Press.
 
-    - **Lightly Press**: Perfect for short or soft-touch buttons.
-    
-    - **Firmly Press**: Ideal for deep or firm buttons.
+    - **Lightly Press**: Ideal für kurze oder leichtgängige Tasten.
+
+    - **Firmly Press**: Ideal für tiefe oder schwergängige Tasten.
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
 ### ATX Power
 
-The ATX Board is installed in the computer case to remotely control the device's power on/off/reboot.
+Das ATX Board wird im Computergehäuse installiert, um das Ein-/Ausschalten/Neustarten des Geräts aus der Ferne zu steuern.
 
-It works according to the settings on the console.
+Er arbeitet entsprechend den Einstellungen in der Konsole.
 
 ![accessories atxpower](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/atx-board.png){class="glboxshadow"}
 
-- **Power (Short Press)**: Used for regular power-on or system wake-up.
+- **Power (Short Press)**: Wird zum normalen Einschalten oder Aufwecken des Systems verwendet.
 
-- **Power (Long Press)**: Performs a forced shutdown operation.
+- **Power (Long Press)**: Führt ein erzwungenes Herunterfahren aus.
 
-- **Restart**: Restart the device.
+- **Restart**: Startet das Gerät neu.
 
 ## Virtual Media
 
-On the console, navigate to **Virtual Media**. Here you can perform the following operations:
+Navigieren Sie in der Konsole zu **Virtual Media**. Hier können Sie die folgenden Vorgänge ausführen:
 
 - [Share Files](#file-sharing)
 - [Mount Images](#image-mounting)
@@ -242,150 +242,150 @@ On the console, navigate to **Virtual Media**. Here you can perform the followin
 - [Format Disk](#format-disk)
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/virtual-media.png){class="glboxshadow"}
-    
+
 ### File Sharing
 
-Comet can emulate a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
+Comet kann ein les- und beschreibbares USB-Laufwerk emulieren, sodass Sie Dateien zwischen dem steuernden Gerät und dem gesteuerten Gerät freigeben und verwalten können.
 
-**To share files from the controlling device to the controlled one, follow the steps below.**
+**Um Dateien vom steuernden Gerät für das gesteuerte Gerät freizugeben, führen Sie die folgenden Schritte aus.**
 
-1. Drag or click the box to upload files from your controlling device or upload from URL. 
+1. Ziehen Sie Dateien in das Feld oder klicken Sie darauf, um Dateien von Ihrem steuernden Gerät hochzuladen oder per URL hochzuladen.
 
-    Once uploaded, the files will be displayed as follows.
+    Nach dem Hochladen werden die Dateien wie folgt angezeigt.
 
     ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing1.png){class="glboxshadow"}
 
-2. Click **Mount To Remote** -> **File Sharing**. 
+2. Klicken Sie auf **Mount To Remote** -> **File Sharing**.
 
     ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing2.png){class="glboxshadow"}
 
-3. A window will pop up on the console indicating the file sharing steps, as shown below.
-    
+3. In der Konsole wird ein Fenster eingeblendet, das die Schritte für die Dateifreigabe wie unten dargestellt anzeigt.
+
     ![file sharing tips](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing3.png){class="glboxshadow"}
 
-4. Wait a second, and a drive named **"GLKVM"** will pop up on the screen automatically. You will then see the files you previously uploaded from the controlling device to Comet have been shared to the controlled device. Now you can view, move or delete the files in this drive on the controlled device.
+4. Warten Sie einen Moment. Ein Laufwerk mit dem Namen **"GLKVM"** wird automatisch auf dem Bildschirm angezeigt. Anschließend sehen Sie, dass die Dateien, die Sie zuvor vom steuernden Gerät auf Comet hochgeladen haben, für das gesteuerte Gerät freigegeben wurden. Jetzt können Sie die Dateien in diesem Laufwerk auf dem gesteuerten Gerät anzeigen, verschieben oder löschen.
 
     ![glkvm disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing4.png){class="glboxshadow"}
 
-    **Tips**: If the drive does not pop up automatically, go to **This PC** of your controlled device. 
+    **Tipps**: Wenn das Laufwerk nicht automatisch angezeigt wird, öffnen Sie **This PC** auf Ihrem gesteuerten Gerät.
 
     ![this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/thispc.png){class="glboxshadow"}
-    
-    Then find a drive named **GLKVM**. Now you can view, move or delete the files in this drive.
 
-5. If you want to stop sharing, click **Virtual Media** in the toolbar and click **Stop Sharing**.
+    Suchen Sie anschließend ein Laufwerk mit dem Namen **GLKVM**. Jetzt können Sie die Dateien in diesem Laufwerk anzeigen, verschieben oder löschen.
+
+5. Wenn Sie die Freigabe beenden möchten, klicken Sie in der Symbolleiste auf **Virtual Media** und anschließend auf **Stop Sharing**.
 
     ![stop sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/stop-sharing1.png){class="glboxshadow"}
 
-**To share files from the controlled device to the controlling one, follow the steps below.**
+**Um Dateien vom gesteuerten Gerät für das steuernde Gerät freizugeben, führen Sie die folgenden Schritte aus.**
 
-1. On the controlled device, move or copy the files you want to share into the drive **GLKVM**.
+1. Verschieben oder kopieren Sie auf dem gesteuerten Gerät die Dateien, die Sie freigeben möchten, in das Laufwerk **GLKVM**.
 
-    For example, a PDF file named "slate7pro_datasheet" has been copied from the controlled device's Desktop into the disk **GLKVM**. 
+    Beispielsweise wurde eine PDF-Datei mit dem Namen "slate7pro_datasheet" vom Desktop des gesteuerten Geräts auf den Datenträger **GLKVM** kopiert.
 
     ![move file to disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing5.png){class="glboxshadow"}
-    
-2. Turn to the Comet's console, click **Virtual Media** in the toolbar and click **Stop Sharing**.
+
+2. Wechseln Sie zur Konsole des Comet, klicken Sie in der Symbolleiste auf **Virtual Media** und anschließend auf **Stop Sharing**.
 
     ![stop sharing 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/stop-sharing2.png){class="glboxshadow"}
-    
-3. This file will then be displayed under the **Virtual Media**, as shown below. Now you can download this file from Comet to your controlling device.
+
+3. Diese Datei wird anschließend wie unten dargestellt unter **Virtual Media** angezeigt. Jetzt können Sie diese Datei von Comet auf Ihr steuerndes Gerät herunterladen.
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing6.png){class="glboxshadow"}
 
 ### Image Mounting
 
-Comet can simulate a read-only virtual CD/DVD or disk drive on the device being controlled. You can access this drive during the BIOS or UEFI startup process. 
-    
-This function can help you reinstall the operating system or mount an ISO to install applications on the device being controlled, or perform other tasks.
-    
-1. Drag or click the box to upload files. **Ensure this file can be mounted as an iso format**.
+Comet kann ein schreibgeschütztes virtuelles CD/DVD- oder Festplattenlaufwerk auf dem gesteuerten Gerät simulieren. Sie können während des BIOS- oder UEFI-Startvorgangs auf dieses Laufwerk zugreifen.
 
-    Once uploaded, the files will be displayed as follows.
+Diese Funktion kann Ihnen helfen, das Betriebssystem neu zu installieren, ein ISO zur Installation von Anwendungen auf dem gesteuerten Gerät einzubinden oder andere Aufgaben auszuführen.
+
+1. Ziehen Sie Dateien in das Feld oder klicken Sie darauf, um Dateien hochzuladen. **Stellen Sie sicher, dass diese Datei als iso-Format eingebunden werden kann**.
+
+    Nach dem Hochladen werden die Dateien wie folgt angezeigt.
 
     ![image mounting 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/image-mounting1.png){class="glboxshadow"}
-    
-2. Click **Mount To Remote** -> **Image Mounting**. 
+
+2. Klicken Sie auf **Mount To Remote** -> **Image Mounting**.
 
     ![image mounting 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/image-mounting2.png){class="glboxshadow"}
 
-3. In the pop-up window, select the file and click **Mount Image**.
+3. Wählen Sie im Pop-up-Fenster die Datei aus und klicken Sie auf **Mount Image**.
 
     ![image mounting 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/image-mounting3.png){class="glboxshadow"}
 
-4. A window will pop up on the console indicating the mounting steps, as shown below.
+4. In der Konsole wird ein Fenster eingeblendet, das die Schritte zum Einbinden wie unten dargestellt anzeigt.
 
     ![image mounting 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/image-mounting4.png){class="glboxshadow"}
 
-5. Now you can use this file from the CD drive on the controlled device.
+5. Jetzt können Sie diese Datei über das CD-Laufwerk auf dem gesteuerten Gerät verwenden.
 
     ![image mounting 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/image-mounting5.png){class="glboxshadow"}
 
 ### Replace Storage Drive
 
-You can insert a USB storage device into the KVM USB port to replace the internal storage.
+Sie können ein USB-Speichergerät in den KVM-USB-Anschluss einstecken, um den internen Speicher zu ersetzen.
 
 ![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/replace-storage.png){class="glboxshadow"}
 
 ### Format Disk
 
-You can format the disk or disable the virtual media with one click.
+Sie können den Datenträger formatieren oder virtuelle Medien mit einem Klick deaktivieren.
 
 ![format disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/format-disable.png){class="glboxshadow"}
 
-- **Format**: Erase all data on the disk and reinitialize its file system structure.
+- **Format**: Löscht alle Daten auf dem Datenträger und initialisiert dessen Dateisystemstruktur neu.
 
-- **Disable**: Disable the virtual media will immediately reboot the KVM device. 
+- **Disable**: Durch das Deaktivieren der virtuellen Medien wird das KVM-Gerät sofort neu gestartet.
 
 ## Apps Center
 
-On the console, navigate to **Apps Center**. The integrated applications can be found here.
+Navigieren Sie in der Konsole zu **Apps Center**. Die integrierten Anwendungen finden Sie hier.
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-center.png){class="glboxshadow"}
 
 ### Tailscale
 
-[Tailscale](https://tailscale.com/){target="_blank"} is a WireGuard-based mesh VPN service that builds encrypted peer-to-peer private networks across devices without port forwarding or complex firewall setup.
+[Tailscale](https://tailscale.com/){target="_blank"} ist ein auf WireGuard basierender Mesh-VPN-Dienst, der verschlüsselte Peer-to-Peer-Privatnetzwerke zwischen Geräten erstellt, ohne Portweiterleitung oder komplexe Firewall-Einrichtung.
 
-Comet integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
+Comet ist in Tailscale integriert und ermöglicht Ihnen den Fernzugriff über das virtuelle Tailscale-Netzwerk.
 
-Simply bind Comet and your controlling device to the same Tailscale account, then you can remotely access your Comet by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing the GLKVM app. See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
+Binden Sie einfach Comet und Ihr steuerndes Gerät an dasselbe Tailscale-Konto. Anschließend können Sie aus der Ferne auf Ihren Comet zugreifen, indem Sie seine **Tailscale virtual IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren. Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-After binding, the console displays the linked Tailscale account and unlocks advanced features including Exit Node and Subnet Routes.
+Nach dem Binden zeigt die Konsole das verknüpfte Tailscale-Konto an und schaltet erweiterte Funktionen wie Exit Node und Subnet Routes frei.
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
 ### ZeroTier
 
-[ZeroTier](https://www.zerotier.com/){target="_blank"} creates encrypted overlay virtual networks to connect scattered devices globally as if they are inside the same local area network.
+[ZeroTier](https://www.zerotier.com/){target="_blank"} erstellt verschlüsselte virtuelle Overlay-Netzwerke, um verteilte Geräte weltweit so zu verbinden, als befänden sie sich im selben lokalen Netzwerk.
 
-Comet integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
+Comet ist in ZeroTier integriert und ermöglicht Ihnen den Fernzugriff über das virtuelle ZeroTier-Netzwerk.
 
-Simply join Comet and your controlling device to the same ZeroTier network, then you can remotely access your Comet by entering its **ZeroTier IP** in a web browser on the controlling device, without installing the GLKVM app. See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
+Treten Sie einfach mit Comet und Ihrem steuernden Gerät demselben ZeroTier-Netzwerk bei. Anschließend können Sie aus der Ferne auf Ihren Comet zugreifen, indem Sie seine **ZeroTier IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren. Details finden Sie [hier](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 
-After binding, the console displays the ZeroTier Network ID and Virtual IP.
+Nach dem Binden zeigt die Konsole die ZeroTier Network ID und Virtual IP an.
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
 ### NetBird
 
-[NetBird](https://netbird.io/){target="_blank"} is an open-source zero trust networking platform that lets you build secure private networks for home and business use. As a WireGuard®-based overlay network, NetBird enables secure access to your devices anytime and anywhere.
+[NetBird](https://netbird.io/){target="_blank"} ist eine Open-Source-Zero-Trust-Networking-Plattform, mit der Sie sichere private Netzwerke für den Einsatz zu Hause und im Unternehmen aufbauen können. Als WireGuard®-basiertes Overlay-Netzwerk ermöglicht NetBird sicheren Zugriff auf Ihre Geräte jederzeit und überall.
 
-Comet integrates with NetBird, allowing you to remotely access it through NetBird virtual network. See [here](../../faq/remote_access_via_netbird.md){target="_blank"} for details.
+Comet ist in NetBird integriert und ermöglicht Ihnen den Fernzugriff über das virtuelle NetBird-Netzwerk. Details finden Sie [hier](../../faq/remote_access_via_netbird.md){target="_blank"}.
 
-After binding, the console displays the NetBird Virtual IP.
+Nach dem Binden zeigt die Konsole die NetBird Virtual IP an.
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-netbird-enabled.png){class="glboxshadow"}
 
 ## Help
 
-On the console, navigate to **Help**. Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
+Navigieren Sie in der Konsole zu **Help**. Hier finden Sie weitere Informationen zu GL.iNet KVM und Hilfedokumentation. Außerdem können Sie Protokolle zur Fehlerbehebung exportieren.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/help.png){class="glboxshadow"}
 
 ## Toolbar
 
-On the console, navigate to the top right corner to access the following tools:
+Navigieren Sie in der Konsole in die obere rechte Ecke, um auf die folgenden Werkzeuge zuzugreifen:
 
 - [Text Recognition](#text-recognition)
 - [Collapse Toolbar](#collapse)
@@ -398,72 +398,72 @@ On the console, navigate to the top right corner to access the following tools:
 
 ### Text Recognition
 
-The Text Recognition feature allows you to select an area on the remote screen and extract text from it easily. It is powered by Optical Character Recognition (OCR) technology and was introduced in firmware v1.9.0.
+Mit der Funktion Text Recognition können Sie einen Bereich auf dem Remote-Bildschirm auswählen und Text daraus einfach extrahieren. Sie basiert auf Optical Character Recognition (OCR) und wurde mit Firmware v1.9.0 eingeführt.
 
-To use it, click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
+Um sie zu verwenden, klicken Sie auf den Abwärtspfeil, um Ihre bevorzugte Erkennungssprache auszuwählen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 
 ![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/ocr_function.png){class="glboxshadow"}
 
-Next, click the "T" icon and the remote screen will dim. Draw a box around the text you want to extract, and the system will identify it automatically. You can then copy the recognized text as needed. 
+Klicken Sie anschließend auf das Symbol "T". Der Remote-Bildschirm wird abgedunkelt. Ziehen Sie einen Rahmen um den Text, den Sie extrahieren möchten, und das System erkennt ihn automatisch. Anschließend können Sie den erkannten Text bei Bedarf kopieren.
 
-With this feature, you can easily capture text from the remote screen (i.e., the controlled device) and copy it to the controlling device for use.
+Mit dieser Funktion können Sie Text einfach vom Remote-Bildschirm (d. h. dem gesteuerten Gerät) erfassen und zur weiteren Verwendung auf das steuernde Gerät kopieren.
 
 ### Collapse
 
-Click the upward arrow icon in the top right corner to collapse the toolbar.
+Klicken Sie oben rechts auf das Symbol mit dem Aufwärtspfeil, um die Symbolleiste einzuklappen.
 
 ![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/collapse1.png){class="glboxshadow"}
 
-When the toolbar is collapsed, click the downward arrow icon at the top to expand it.
+Wenn die Symbolleiste eingeklappt ist, klicken Sie oben auf das Symbol mit dem Abwärtspfeil, um sie auszuklappen.
 
 ![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/collapse2.png){class="glboxshadow"}
 
 ### Fullscreen
 
-Click the fullscreen icon (square-shaped) in the top right corner to switch to fullscreen mode.
+Klicken Sie oben rechts auf das Vollbildsymbol (quadratisch), um in den Vollbildmodus zu wechseln.
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/fullscreen1.png){class="glboxshadow"}
 
-To exit fullscreen, press and hold the **Esc** key, or click the exit fullscreen icon (grid-shaped) in the upper right corner. 
+Um den Vollbildmodus zu verlassen, halten Sie die Taste **Esc** gedrückt oder klicken Sie oben rechts auf das Symbol zum Beenden des Vollbildmodus (gitterförmig).
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/fullscreen2.png){class="glboxshadow"}
 
 ### Upgrade
 
-Click the firmware version in the upper right corner to check for updates.
+Klicken Sie oben rechts auf die Firmware-Version, um nach Updates zu suchen.
 
 ![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/upgrade1.png){class="glboxshadow"}
 
-In the pop-up window, you can click **Update Settings** to perform a local upgrade, join Beta program, or save current configuration.
+Im Pop-up-Fenster können Sie auf **Update Settings** klicken, um ein lokales Upgrade durchzuführen, am Beta-Programm teilzunehmen oder die aktuelle Konfiguration zu speichern.
 
 ![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/upgrade2.png){class="glboxshadow"}
 
-Download the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} before performing a local upgrade.
+Laden Sie vor einem lokalen Upgrade die neueste Firmware aus dem [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} herunter.
 
 ### Cloud Service
 
-GL.iNet KVM Cloud allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
+GL.iNet KVM Cloud ermöglicht Ihnen den Fernzugriff auf das gesteuerte Gerät. Details finden Sie [hier](../../faq/remote_access_via_cloud.md){target="_blank"}.
 
-Once your Comet is bound to the Cloud, the console will display the cloud status as follows.
+Sobald Ihr Comet an die Cloud gebunden ist, zeigt die Konsole den Cloud-Status wie folgt an.
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/cloud.png){class="glboxshadow"}
 
 ### Security
 
-The security allows you to change admin password, enable two-factor authentication, and customize TLS certificate. 
+Unter Security können Sie das Admin-Passwort ändern, die Zwei-Faktor-Authentifizierung aktivieren und ein TLS-Zertifikat anpassen.
 
 ![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/security.png){class="glboxshadow"}
 
-- Change Admin Password.
+- Admin-Passwort ändern.
 
     ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/admin-password.png){class="glboxshadow" width="434"}
 
-- 2FA: Enable two-factor authentication to protect your account.
+- 2FA: Aktivieren Sie die Zwei-Faktor-Authentifizierung, um Ihr Konto zu schützen.
 
     ![2FA](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/2fa.png){class="glboxshadow"}
 
 - TLS Certificate
 
-    The system will use the pre-installed default certificate for browser access. If you want to customize the TLS certificate for web browser access, click **TLS Certificate** in the upper right corner of the console, select **Custom Certificate**, then upload your **certificate file & private key file**.
+    Das System verwendet das vorinstallierte Standardzertifikat für den Browserzugriff. Wenn Sie das TLS-Zertifikat für den Webbrowser-Zugriff anpassen möchten, klicken Sie oben rechts in der Konsole auf **TLS Certificate**, wählen Sie **Custom Certificate** aus und laden Sie anschließend Ihre **certificate file & private key file** hoch.
 
     ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/tls-certificate.png){class="glboxshadow"}

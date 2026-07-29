@@ -1,221 +1,221 @@
-# Comet Pro (GL-RM10) Quick Setup
+# Comet Pro (GL-RM10) Schnellstart
 
-Watch this video or follow the steps below to set up your Comet Pro.
+Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Ihren Comet Pro einzurichten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/onxj5EEf9Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Connect Devices
+## Geräte verbinden
 
-For clarity, Device A refers to the controlling device, and Device B the controlled device.
+Zur besseren Verständlichkeit bezeichnet Gerät A das steuernde Gerät und Gerät B das gesteuerte Gerät.
 
 ![connect devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/connect-devices.png){class="glboxshadow"}
 
-1. Connect Comet Pro to the power source.
+1. Verbinden Sie den Comet Pro mit der Stromversorgung.
 
     ![power on](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/01-power-on.png){class="glboxshadow"}
 
-2. Connect Comet Pro's HD IN port to the Device B's HD OUT port using an HDMI cable. Use another HD cable to connect Comet Pro's HD OUT port to an external monitor if necessary.
+2. Verbinden Sie den HD IN-Anschluss des Comet Pro über ein HDMI-Kabel mit dem HD OUT-Anschluss von Gerät B. Verwenden Sie bei Bedarf ein weiteres HD-Kabel, um den HD OUT-Anschluss des Comet Pro mit einem externen Monitor zu verbinden.
 
     ![Connect the HD cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/02-hd-cable.png){class="glboxshadow"}
 
-3. Connect Comet Pro's USB Type-C port to the Device B's USB port using a USB cable.
+3. Verbinden Sie den USB Type-C-Anschluss des Comet Pro über ein USB-Kabel mit dem USB-Anschluss von Gerät B.
 
     ![Connect the USB cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/03-usb-cable.png){class="glboxshadow"}
 
-4. Connect Comet Pro to a network source via an Ethernet cable or Wi-Fi.
+4. Verbinden Sie den Comet Pro über ein Ethernet-Kabel oder Wi-Fi mit einer Netzwerkquelle.
 
-    - Ethernet: Connect the Comet Pro's Ethernet port to a network source.
+    - Ethernet: Verbinden Sie den Ethernet-Anschluss des Comet Pro mit einer Netzwerkquelle.
 
         ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/04-ethernet.png){class="glboxshadow"}
 
-    - Wi-Fi: Swipe left on the touchscreen, connect Comet Pro to an existing Wi-Fi network (2.4G/5G supported).
+    - Wi-Fi: Wischen Sie auf dem Touchscreen nach links und verbinden Sie den Comet Pro mit einem vorhandenen Wi-Fi-Netzwerk (2.4G/5G werden unterstützt).
 
         ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/quick_setup/04-wifi.png){class="glboxshadow"}
 
-5. Device connection is complete. Now you can access the Comet Pro's console locally or remotely.
+5. Die Geräteverbindung ist abgeschlossen. Sie können nun lokal oder aus der Ferne auf die Konsole des Comet Pro zugreifen.
 
-## Local Access
+## Lokaler Zugriff
 
-There are two ways to access Comet Pro on the local network: via domain name or IP address.
+Es gibt zwei Möglichkeiten, im lokalen Netzwerk auf den Comet Pro zuzugreifen: über den Domainnamen oder über die IP-Adresse.
 
-Before accessing, ensure your controlling device is on the same LAN as Comet Pro.
+Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet Pro befindet.
 
 ### Domain
 
-1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
+1. Starten Sie auf dem steuernden Gerät einen Browser. Für eine bessere Kompatibilität werden Chrome oder Edge empfohlen.
 
-2. Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+2. Geben Sie `glkvm.local` in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie das Administratorpasswort ein.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-    **Note**: You will need to set up your admin password when accessing for the first time.
+    **Hinweis**: Beim ersten Zugriff müssen Sie Ihr Administratorpasswort einrichten.
 
-3. You can then access the Comet Pro's console locally and gain access to the controlled device.
+3. Danach können Sie lokal auf die Konsole des Comet Pro zugreifen und das gesteuerte Gerät bedienen.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP address
+### IP-Adresse
 
-1. Find Comet Pro's IP address on the touchscreen. In this example, the Comet Pro's IP address is `192.168.8.197`. 
+1. Ermitteln Sie die IP-Adresse des Comet Pro auf dem Touchscreen. In diesem Beispiel lautet die IP-Adresse des Comet Pro `192.168.8.197`.
 
-2. Launch a browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+2. Starten Sie einen Browser und geben Sie diese IP-Adresse in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie das Administratorpasswort ein.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-    **Note**: You will need to set up your admin password when accessing for the first time.
+    **Hinweis**: Beim ersten Zugriff müssen Sie Ihr Administratorpasswort einrichten.
 
-3. You can then access the Comet Pro's console locally and gain access to the controlled device.
+3. Danach können Sie lokal auf die Konsole des Comet Pro zugreifen und das gesteuerte Gerät bedienen.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Remote Access
+## Fernzugriff
 
-There are multiple ways to access Comet Pro remotely: via Cloud service, GLKVM App, Tailscale, ZeroTier, and NetBird.
+Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet Pro zuzugreifen: über den Cloud-Dienst, die GLKVM App, Tailscale, ZeroTier und NetBird.
 
-### Cloud service
+### Cloud-Dienst
 
-1. Bind your device to KVM Cloud. This needs to be done on the local network. 
+1. Binden Sie Ihr Gerät an KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
-    There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding. Here we take Regular Binding as an example. If you prefer Dynamic Code Binding, click [here](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} for details.
+    Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: Regular Binding oder Dynamic Code Binding. Hier verwenden wir Regular Binding als Beispiel. Wenn Sie Dynamic Code Binding bevorzugen, klicken Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"}, um Details anzuzeigen.
 
-    First, locally access your Comet Pro and navigate to **Cloud Service** in the upper right corner. Click **Bind To Cloud**.
+    Greifen Sie zuerst lokal auf Ihren Comet Pro zu und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To Cloud**.
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
-    You will be redirected to a login page. Log in with your glinet cloud account. 
+    Sie werden zu einer Anmeldeseite weitergeleitet. Melden Sie sich mit Ihrem glinet-Cloud-Konto an.
 
     ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow"}
 
-    Second, confirm your device info, and click **Bind**.
+    Bestätigen Sie anschließend Ihre Geräteinformationen und klicken Sie auf **Bind**.
 
     ![bind device confirm](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_2.png){class="glboxshadow"}
 
-    Wait a second and your Comet Pro will be bound to your account successfully. Click **Done**.
+    Warten Sie einen Moment. Ihr Comet Pro wird erfolgreich an Ihr Konto gebunden. Klicken Sie auf **Done**.
 
     ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow"}
 
-2. Remote access via Cloud service.
+2. Fernzugriff über den Cloud-Dienst.
 
-    Open a browser (take Google Chrome as an example), and enter `glkvm.com` in the address bar. You will see a login page. Use your glinet account to log in.
+    Öffnen Sie einen Browser (hier wird Google Chrome als Beispiel verwendet) und geben Sie `glkvm.com` in die Adressleiste ein. Sie sehen eine Anmeldeseite. Melden Sie sich mit Ihrem glinet-Konto an.
 
     ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow"}
 
-    After login, you will see the devices bound to your account. Click on the device you want to remotely access.
+    Nach der Anmeldung sehen Sie die Geräte, die an Ihr Konto gebunden sind. Klicken Sie auf das Gerät, auf das Sie per Fernzugriff zugreifen möchten.
 
     ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
-    It will redirect to a new webpage with the domain `glkvm.xyz`, `glkvm.site`, or `glkvm.top`. These domains are secure and provided by GL.iNet.
+    Sie werden zu einer neuen Webseite mit der Domain `glkvm.xyz`, `glkvm.site` oder `glkvm.top` weitergeleitet. Diese Domains sind sicher und werden von GL.iNet bereitgestellt.
     
-    Enter the admin password and log in.
+    Geben Sie das Administratorpasswort ein und melden Sie sich an.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
-    You will then be able to access your Comet Pro and the controlled device remotely via Cloud, without installing the app.
+    Danach können Sie ohne Installation der App per Cloud aus der Ferne auf Ihren Comet Pro und das gesteuerte Gerät zugreifen.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
 ### GLKVM App
 
-1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
+1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Gerät.
 
-2. Log in with your GL.iNet account. 
+2. Melden Sie sich mit Ihrem GL.iNet-Konto an.
 
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
-    If you don't have one, sign up first and log in.
+    Wenn Sie noch kein Konto haben, registrieren Sie sich zuerst und melden Sie sich dann an.
     
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
-3. Bind your device.
+3. Binden Sie Ihr Gerät.
 
-    After login, the page will display as follows. Click **Add Device**.
+    Nach der Anmeldung wird die Seite wie folgt angezeigt. Klicken Sie auf **Add Device**.
 
     ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-    You can bind your device in three ways: Auto Discover, S/N Code, and Dynamic Binding Code.
+    Sie können Ihr Gerät auf drei Arten binden: Auto Discover, S/N Code und Dynamic Binding Code.
 
     ??? "Auto Discover"
     
-        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet Pro.
+        Dies muss im lokalen Netzwerk erfolgen. Stellen Sie sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet Pro befindet.
     
-        Click **Auto Discover**. It will start searching automatically.
+        Klicken Sie auf **Auto Discover**. Die Suche wird automatisch gestartet.
     
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
         
-        Locate your KVM and enter its Device ID to bind it to your account.
+        Suchen Sie Ihr KVM und geben Sie dessen Device ID ein, um es an Ihr Konto zu binden.
     
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
     
     ??? "S/N Code"
     
-        This applies to the scenario where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
+        Dies gilt für den Fall, dass Ihr KVM nicht erkannt wird oder sich nicht im selben LAN befindet, Sie aber über die Seriennummer (S/N) verfügen.
         
-        Click **S/N Code**. In the pop-up window, customize the device name and enter the S/N, which is printed on the label bottom of your KVM device.
+        Klicken Sie auf **S/N Code**. Passen Sie im Pop-up-Fenster den Gerätenamen an und geben Sie die S/N ein, die auf dem Etikett an der Unterseite Ihres KVM-Geräts aufgedruckt ist.
     
         ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
     
     ??? "Dynamic Binding Code"
     
-        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet Pro.
+        Dies muss im lokalen Netzwerk erfolgen. Stellen Sie sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet Pro befindet.
     
-        1. Log in to your KVM locally using domain or IP address. Click [here](../../faq/local_access_via_browser.md) for details. 
+        1. Melden Sie sich lokal über Domain oder IP-Adresse bei Ihrem KVM an. Klicken Sie [hier](../../faq/local_access_via_browser.md), um Details anzuzeigen.
     
-        2. Navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**. 
+        2. Navigieren Sie oben rechts zu **Cloud Service** und klicken Sie auf **Bind With Code**.
     
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
     
-        3. It will generate an 8-digit dynamic code randomly for device binding, valid for 60 seconds. Click the code to copy it.
+        3. Für die Gerätebindung wird zufällig ein 8-stelliger dynamischer Code erzeugt, der 60 Sekunden lang gültig ist. Klicken Sie auf den Code, um ihn zu kopieren.
     
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
     
-        4. Back to the GLKVM app, enter the dynamic binding code and click **Bind**.
+        4. Kehren Sie zur GLKVM App zurück, geben Sie den dynamischen Bindungscode ein und klicken Sie auf **Bind**.
     
             ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
-4. Remote access via GLKVM App.
+4. Fernzugriff über die GLKVM App.
 
-    Once your KVM device is bound to your account, it will show "Online" in the app.
+    Sobald Ihr KVM-Gerät an Ihr Konto gebunden ist, wird es in der App als "Online" angezeigt.
 
     ![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow"}
 
-    Click your KVM device. It will open a new window and start connecting.
+    Klicken Sie auf Ihr KVM-Gerät. Es öffnet sich ein neues Fenster und die Verbindung wird hergestellt.
 
     ![connecting](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connecting.png){class="glboxshadow"}
 
-    Once connected, enter the admin password to log in to your device.
+    Sobald die Verbindung hergestellt ist, geben Sie das Administratorpasswort ein, um sich bei Ihrem Gerät anzumelden.
 
     ![connected log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_login.png){class="glboxshadow"}
 
-    You will then access your KVM device, through which you can access the controlled device.
+    Danach greifen Sie auf Ihr KVM-Gerät zu, über das Sie das gesteuerte Gerät bedienen können.
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
 ### Tailscale
 
-Comet Pro integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
+Comet Pro ist in Tailscale integriert, sodass Sie über das virtuelle Netzwerk von Tailscale per Fernzugriff darauf zugreifen können.
 
-On the console, navigate to **Apps Center** -> **Tailscale**, enable it and bind your Comet Pro to your Tailscale account. 
+Navigieren Sie in der Konsole zu **Apps Center** -> **Tailscale**, aktivieren Sie Tailscale und binden Sie Ihren Comet Pro an Ihr Tailscale-Konto.
 
-Next, bind your controlling device to the same account. You will then be able to remotely access your Comet Pro by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing GLKVM app.
+Binden Sie anschließend Ihr steuerndes Gerät an dasselbe Konto. Danach können Sie per Fernzugriff auf Ihren Comet Pro zugreifen, indem Sie dessen **Tailscale virtual IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
 ### ZeroTier
 
-Comet Pro integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
+Comet Pro ist in ZeroTier integriert, sodass Sie über das virtuelle Netzwerk von ZeroTier per Fernzugriff darauf zugreifen können.
 
-On the console, navigate to **Apps Center** -> **ZeroTier** and enable it.
+Navigieren Sie in der Konsole zu **Apps Center** -> **ZeroTier** und aktivieren Sie ZeroTier.
 
-Next, join both Comet Pro and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), then you can remotely access your Comet Pro by entering its **ZeroTier IP** in a web browser on the controlling device, without installing GLKVM app.
+Treten Sie anschließend mit dem Comet Pro und Ihrem steuernden Gerät demselben ZeroTier-Netzwerk bei (über eine 16-stellige alphanumerische Network ID). Danach können Sie per Fernzugriff auf Ihren Comet Pro zugreifen, indem Sie dessen **ZeroTier IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 
 ### NetBird
 
-Comet Pro integrates with NetBird, allowing you to remotely access it through NetBird virtual network. 
+Comet Pro ist in NetBird integriert, sodass Sie über das virtuelle Netzwerk von NetBird per Fernzugriff darauf zugreifen können.
 
-On the console, navigate to **Apps Center** -> **NetBird**, enable it and bind your Comet Pro to your NetBird account. 
+Navigieren Sie in der Konsole zu **Apps Center** -> **NetBird**, aktivieren Sie NetBird und binden Sie Ihren Comet Pro an Ihr NetBird-Konto.
 
-Next, bind your controlling device to the same account. Then you will be able to remotely access your Comet Pro by entering its **NetBird virtual IP** in a web browser on the controlling device, without installing GLKVM app.
+Binden Sie anschließend Ihr steuerndes Gerät an dasselbe Konto. Danach können Sie per Fernzugriff auf Ihren Comet Pro zugreifen, indem Sie dessen **NetBird virtual IP** in einem Webbrowser auf dem steuernden Gerät eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_netbird.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_netbird.md){target="_blank"}.
