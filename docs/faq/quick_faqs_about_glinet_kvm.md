@@ -142,9 +142,9 @@ A1. GL.iNet KVM allows you to remotely power the target device on and off via th
 
 - Wake-on-LAN (Built-in software service)
 
-- [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Accessories, additional purchase required)
+- [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Sold separately; does not work with Comet Q.)
 
-- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (Accessories, additional purchase required; does not work with Comet Q.)
+- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (Sold separately; does not work with Comet Q.)
 
 ---
 
@@ -168,11 +168,19 @@ If you don't rely on the cloud for remote access, you can use third-party overla
 
 ---
 
-**Q2. Can I use GL.iNet KVM to control multiple devices?**
+**Q2. Can I use a single GL.iNet KVM to control multiple devices?**
 
-A2. No. GL.iNet KVM can only control one device. 
+A2. The following GL.iNet KVMs can only control one target device:
 
-To control multiple devices, you can either purchase multiple GL.iNet KVM devices and bind them to the same GL.iNet account, or purchase a third-party KVM switch with Hotkey Switching and use it in conjunction with GL.iNet KVM. Note: Compatibility issues may arise.
+* Comet (GL-RM1)
+* Comet PoE (GL-RM1PE)
+* Comet Pro (GL-RM10)
+* Comet 5G (GL-RM10RC)
+* Comet Q (GL-RMQ1)
+
+However, Comet X (GL-RM4PE) can connect to up to four target devices simultaneously, though only one device can be controlled at a time. You can quickly switch between the four connected devices via the physical button on the front panel when on site, or via the remote console when away.
+
+Comet X (GL-RM4PE) features four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
 
 ---
 

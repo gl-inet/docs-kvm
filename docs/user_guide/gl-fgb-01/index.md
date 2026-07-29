@@ -128,7 +128,7 @@ A4. The following GL.iNet KVMs can only control one Fingerbot.
 * Comet Pro (GL-RM10)
 * Comet 5G (GL-RM10RC)
 
-However, Comet X (GL-RM4PE) supports up to four Fingerbots simultaneously. Comet X provides four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot).
+However, Comet X (GL-RM4PE) supports up to four Fingerbots simultaneously. Comet X provides four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
 
 **Note**: Comet Q (GL-RMQ1) does not work with Fingerbot.
 

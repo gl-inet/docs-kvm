@@ -12,7 +12,7 @@
 
 Comet X can connect to four target devices simultaneously, though only one device can be controlled at a time. You can quickly switch between the four connected devices via the physical button on the front panel when on site, or via the remote console when away.
 
-It features four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot).
+It features four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
 
 ## Touchscreen
 

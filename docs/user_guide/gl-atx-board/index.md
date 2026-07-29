@@ -4,6 +4,8 @@ The ATX board is an optional accessory for GL.iNet KVM device. As a smart power 
 
 The ATX board will be installed in the controlled device's chassis, providing more concealed and stable power management.
 
+**Note**: Comet Q (GL-RMQ1) does not work with ATX board.
+
 ![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/rm1-and-atx-borad.jpg){class="glboxshadow"}
 
 ## Package Contents
@@ -157,6 +159,21 @@ A2. Please try the following methods.
 - When connecting to the F_PANEL interface on the controlled device's motherboard, ensure the silkscreen printing (e.g., HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward, not obscured facing inward.
 
 - Upgrade the KVM's firmware.
+
+---
+
+**Q3. Can I use a single GL.iNet KVM to control multiple ATX boards?**
+
+A3. The following GL.iNet KVMs can only control one ATX board.
+
+* Comet (GL-RM1)
+* Comet PoE (GL-RM1PE)
+* Comet Pro (GL-RM10)
+* Comet 5G (GL-RM10RC)
+
+However, Comet X (GL-RM4PE) supports up to four ATX boards simultaneously. Comet X provides four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
+
+**Note**: Comet Q (GL-RMQ1) does not work with ATX board.
 
 ---
 
