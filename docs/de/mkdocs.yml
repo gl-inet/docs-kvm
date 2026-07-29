@@ -1,4 +1,3 @@
-# Repository
 repo_name: gl-inet/docs-kvm
 repo_url: https://github.com/gl-inet/docs-kvm
 edit_uri: ""
@@ -21,7 +20,6 @@ theme:
     - navigation.top
   favicon: images/favicon.png
 
-# Plugins
 plugins:
   - search
   - redirects:
@@ -54,7 +52,6 @@ plugins:
         "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
         "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
 
-# Customization
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -71,19 +68,24 @@ extra:
       link: https://www.youtube.com/channel/UCBfNEzurltlIeFFCbUgHQyg
     - icon: fontawesome/brands/pinterest
       link: https://www.pinterest.com/glinetWiFi/
+  alternate:
+    - name: Deutsch
+      link: /kvm/de/
+      lang: de
+    - name: English
+      link: /kvm/en/
+      lang: en
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
 
-  # we can use the cdn or files
   - stylesheets/extra.css
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
-  # we can use the cdn or files
   - javascripts/extra.js
   - javascripts/cookieconsent.js
 
