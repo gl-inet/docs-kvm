@@ -1,179 +1,179 @@
-# ATX Board (GL-ATXPC) User Guide
+# ATX Board (GL-ATXPC) Benutzerhandbuch
 
-The ATX board is an optional accessory for GL.iNet KVM device. As a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
+Das ATX Board ist optionales Zubehör für GL.iNet KVM-Geräte. Als intelligentes Stromverwaltungsmodul ermöglicht es die Fernsteuerung der Stromversorgung des gesteuerten Geräts, indem es physische Betätigungen des Ein-/Aus-Schalters simuliert (Einschalten/Ausschalten/Neustart).
 
-The ATX board will be installed in the controlled device's chassis, providing more concealed and stable power management.
+Das ATX Board wird im Gehäuse des gesteuerten Geräts installiert und bietet dadurch eine unauffälligere und stabilere Stromverwaltung.
 
-**Note**: Comet Q (GL-RMQ1) does not work with ATX board.
+**Hinweis**: Comet Q (GL-RMQ1) funktioniert nicht mit dem ATX Board.
 
 ![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/rm1-and-atx-borad.jpg){class="glboxshadow"}
 
-## Package Contents
+## Lieferumfang
 
 ![inside the box](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/inside-the-box.png){class="glboxshadow gl-80-desktop"}
 
-- 1 x ATX main board
-- 1 x 9-PIN Wire Set
-- 1 x Screw package
-- 1 x USB-A to Type-C cable
-- 1 x ATX Bracket Set
+- 1 x ATX-Hauptplatine
+- 1 x 9-PIN-Kabelsatz
+- 1 x Schraubensatz
+- 1 x USB-A-auf-Type-C-Kabel
+- 1 x ATX-Halterungssatz
 
-## PIN-OUT
+## Pinbelegung
 
 ![pinout](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/pinout.jpg){class="glboxshadow gl-80-desktop"}
 
-Explanation of Interfaces:
+Erklärung der Schnittstellen:
 
-1. Type-C Interface: Connect to the KVM device.
-2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
-3. Reset button.
-4. Connect to the control line of the computer panel.
-5. Connect to the F_PANEL interface of the computer.
+1. Type-C-Schnittstelle: Verbindung zum KVM-Gerät.
+2. Firmware-Upgrade-Taste: Für den Mikrocontroller auf der ATX-Hauptplatine.
+3. Reset-Taste.
+4. Verbindung zur Steuerleitung des Computer-Frontpanels.
+5. Verbindung zur F_PANEL-Schnittstelle des Computers.
 
 !!! note
 
-    1. Interfaces 4 and 5 can be connected interchangeably. That is to say, interface 5 can be connected to the control line of the computer panel, and interface 4 can be connected to the F_PANEL. 
+    1. Die Schnittstellen 4 und 5 können austauschbar verbunden werden. Das heißt, Schnittstelle 5 kann mit der Steuerleitung des Computer-Frontpanels verbunden werden, während Schnittstelle 4 mit F_PANEL verbunden wird.
     
-    2. There are two LEDs on the ATX board, and both LEDs' behavior is the same as the Power LED (blue indicates the ATX system; green indicates PC power). There is no HDD LED on the ATX board. The LED status on the board is consistent with the Power LED status on the computer panel. 
+    2. Auf dem ATX Board befinden sich zwei LEDs. Beide LEDs verhalten sich wie die Power-LED (Blau steht für das ATX-System, Grün für die PC-Stromversorgung). Auf dem ATX Board gibt es keine HDD-LED. Der LED-Status auf der Platine entspricht dem Status der Power-LED am Computer-Frontpanel.
 
-Interfaces 4/5 diagram:
+Diagramm der Schnittstellen 4/5:
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/interface.png){class="glboxshadow gl-60-desktop"}
 
 ## Installation
 
-Watch this video to install ATX board, or follow the steps below.
+Sehen Sie sich dieses Video zur Installation des ATX Board an, oder folgen Sie den Schritten unten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Screw ATX Board and Bracket
+### 1. ATX Board und Halterung verschrauben
 
-Fix the ATX board and the ATX Bracket Set with the screws provided.
+Befestigen Sie das ATX Board und den ATX-Halterungssatz mit den mitgelieferten Schrauben.
 
 ![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/screwing.jpg){class="glboxshadow gl-90-desktop"}
 
-### 2. Install ATX Board into PC Case
+### 2. ATX Board im PC-Gehäuse installieren
 
-Connect interfaces 4 and 5 respectively to the controlled PC's control line and F_PANEL interface. 
+Verbinden Sie die Schnittstellen 4 und 5 jeweils mit der Steuerleitung und der F_PANEL-Schnittstelle des gesteuerten PCs.
 
 ![interface connect](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/interface_connect.jpg){class="glboxshadow gl-90-desktop"}
 
-The 9-PIN Wire Set provided in the ATX Package allows you to connect one of the ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface. 
+Mit dem im ATX-Paket enthaltenen 9-PIN-Kabelsatz können Sie eine der Schnittstellen 4/5 des ATX Board mit der Steuerleitung oder der F_PANEL-Schnittstelle des gesteuerten Computers verbinden.
     
-You need to use the wire set included in your computer case to connect another ATX board interface 4/5 to the controlled computer's control line or F_PANEL interface.
+Verwenden Sie den Kabelsatz aus Ihrem Computergehäuse, um die andere Schnittstelle 4/5 des ATX Board mit der Steuerleitung oder der F_PANEL-Schnittstelle des gesteuerten Computers zu verbinden.
 
-**Note**: The interface polarity may vary depending on different PC case. Please double check it before installation.
+**Hinweis**: Die Polarität der Schnittstelle kann je nach PC-Gehäuse variieren. Prüfen Sie sie vor der Installation sorgfältig.
 
-Below are some examples of connecting interface 4/5 to the F_PANEL interface of the controlled computer for your reference.
+Unten finden Sie einige Beispiele, wie Schnittstelle 4/5 mit der F_PANEL-Schnittstelle des gesteuerten Computers verbunden wird.
 
-??? "For 10-1 pin PANEL"
+??? "Für 10-1 pin PANEL"
 
-    If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 10-1 pin PANEL, as shown below.
+    Wenn die Pinreihe auf dem Mainboard Ihres gesteuerten Computers, die mit dem Bedienfeld verbunden wird, ein 10-1 pin PANEL ist, wie unten dargestellt:
 
     ![10-1pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/10-1pin_panel_1.png){class="glboxshadow"}
 
-    Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+    Beachten Sie für den Anschluss das Diagramm unten. Stellen Sie sicher, dass die Siebdruckbeschriftung (z. B. HDDLED±, RESET SW, POWER SW, POWERLED+ usw.) nach außen sichtbar ist und nicht nach innen verdeckt wird.
 
     ![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/10-1pin_panel_2.jpg){class="glboxshadow"}
-    <small>Front View</small>
+    <small>Vorderansicht</small>
 
     ![10-1pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/10-1pin_panel_3.jpg){class="glboxshadow"}
-    <small>Rear View</small>
+    <small>Rückansicht</small>
 
-    Then use the wire set included in your computer case to connect another ATX board interface to the computer control line.
+    Verwenden Sie anschließend den Kabelsatz aus Ihrem Computergehäuse, um die andere ATX-Board-Schnittstelle mit der Computer-Steuerleitung zu verbinden.
 
-??? "For 20-5 pin PANEL"
+??? "Für 20-5 pin PANEL"
 
-    If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-5 pin PANEL, as shown below.
+    Wenn die Pinreihe auf dem Mainboard Ihres gesteuerten Computers, die mit dem Bedienfeld verbunden wird, ein 20-5 pin PANEL ist, wie unten dargestellt:
 
     ![20-5pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-5pin_panel_1.jpg){class="glboxshadow"}
 
-    Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+    Beachten Sie für den Anschluss das Diagramm unten. Stellen Sie sicher, dass die Siebdruckbeschriftung (z. B. HDDLED±, RESET SW, POWER SW, POWERLED+ usw.) nach außen sichtbar ist und nicht nach innen verdeckt wird.
 
     ![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-5pin_panel_2.jpg){class="glboxshadow"}
-    <small>Front View</small>
+    <small>Vorderansicht</small>
 
     ![20-5pin panel 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-5pin_panel_3.png){class="glboxshadow"}
-    <small>Rear View</small>
+    <small>Rückansicht</small>
 
-    Then use the wire set included in your computer case to connect another ATX board interface to the computer control line.
+    Verwenden Sie anschließend den Kabelsatz aus Ihrem Computergehäuse, um die andere ATX-Board-Schnittstelle mit der Computer-Steuerleitung zu verbinden.
 
-??? "For 20-8 pin PANEL"
+??? "Für 20-8 pin PANEL"
 
-    If the row of pins on your controlled computer's motherboard used to connect to the control panel is a 20-8 pin PANEL, as shown below.
+    Wenn die Pinreihe auf dem Mainboard Ihres gesteuerten Computers, die mit dem Bedienfeld verbunden wird, ein 20-8 pin PANEL ist, wie unten dargestellt:
 
     ![20-8pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-8pin_panel_1.jpg){class="glboxshadow"}
 
-    Please refer to the diagram below for connection, make sure that the silkscreen printing (i.e., the words HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward and not obscured facing inward.
+    Beachten Sie für den Anschluss das Diagramm unten. Stellen Sie sicher, dass die Siebdruckbeschriftung (z. B. HDDLED±, RESET SW, POWER SW, POWERLED+ usw.) nach außen sichtbar ist und nicht nach innen verdeckt wird.
 
     ![20-8pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-8pin_panel_2.png){class="glboxshadow"}
 
-    Then use the wire set included in your computer case to connect another ATX board interface to the computer control line.
+    Verwenden Sie anschließend den Kabelsatz aus Ihrem Computergehäuse, um die andere ATX-Board-Schnittstelle mit der Computer-Steuerleitung zu verbinden.
 
-The final connected ATX board is shown below.
+Das vollständig angeschlossene ATX Board ist unten dargestellt.
 
 ![atx board connected](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/connected1.png){class="glboxshadow gl-90-desktop"}
 
 ![atx board connected](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/connected2.png){class="glboxshadow gl-90-desktop"}
 
-Then install the ATX board bracket into the computer case.
+Installieren Sie anschließend die Halterung des ATX Board im Computergehäuse.
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install1.png){class="glboxshadow gl-90-desktop"}
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install2.png){class="glboxshadow gl-90-desktop"}
 
-### 3. Connect ATX Board and KVM
+### 3. ATX Board und KVM verbinden
 
-Connect the Type-C port of ATX board to the USB-A port of the KVM device (such as Comet GL-RM1) using the included USB cable.
+Verbinden Sie den Type-C-Anschluss des ATX Board über das mitgelieferte USB-Kabel mit dem USB-A-Anschluss des KVM-Geräts (z. B. Comet GL-RM1).
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install3.png){class="glboxshadow gl-90-desktop"}
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install4.png){class="glboxshadow gl-90-desktop"}
 
-This completes the installation of the ATX board. 
+Damit ist die Installation des ATX Board abgeschlossen.
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install5.png){class="glboxshadow gl-90-desktop"}
 
-Now you can log in to your KVM, navigate to **Accessories** to control the ATX power.
+Sie können sich jetzt bei Ihrem KVM anmelden und zu **Accessories** navigieren, um die ATX-Stromversorgung zu steuern.
 
 ![atx power](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/atx_power.png){class="glboxshadow gl-90-desktop"}
 
 ## FAQ
 
-**Q1. Can I use the GL-ATXPC board with non-GL.iNet KVM devices?**
+**F1. Kann ich das GL-ATXPC Board mit KVM-Geräten verwenden, die nicht von GL.iNet stammen?**
 
-A1. No. GL-ATXPC board is an accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM.
+A1. Nein. Das GL-ATXPC Board ist Zubehör für GL.iNet KVM-Geräte. Es sollte zusammen mit GL.iNet KVM verwendet werden.
 
 ---
 
-**Q2. After installing the ATX board, what should I do if I cannot control the remote device's power (on/off) via the KVM?**
+**F2. Was kann ich tun, wenn ich nach der Installation des ATX Board die Stromversorgung des gesteuerten Geräts (Ein/Aus) nicht über das KVM steuern kann?**
 
-A2. Please try the following methods.
+A2. Versuchen Sie die folgenden Methoden.
 
-- Ensure the controlled device can be powered on/off normally when the physical power button on the PC case front panel is pressed.
+- Stellen Sie sicher, dass das gesteuerte Gerät normal ein- und ausgeschaltet werden kann, wenn der physische Ein-/Aus-Schalter am Frontpanel des PC-Gehäuses gedrückt wird.
 
-- Check the wiring polarity. Try flipping the POWER SW connector polarity on the controlled device's motherboard to avoid incorrect wiring.
+- Prüfen Sie die Verkabelungspolarität. Versuchen Sie, die Polarität des POWER SW-Steckers auf dem Mainboard des gesteuerten Geräts umzudrehen, um eine falsche Verkabelung auszuschließen.
 
     ![connector polarity](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/power-sw-connector.png){class="glboxshadow gl-90-desktop"}
 
-- When connecting to the F_PANEL interface on the controlled device's motherboard, ensure the silkscreen printing (e.g., HDDLED±, RESET SW, POWER SW, POWERLED+, etc.) is visible facing outward, not obscured facing inward.
+- Stellen Sie beim Anschluss an die F_PANEL-Schnittstelle auf dem Mainboard des gesteuerten Geräts sicher, dass die Siebdruckbeschriftung (z. B. HDDLED±, RESET SW, POWER SW, POWERLED+ usw.) nach außen sichtbar ist und nicht nach innen verdeckt wird.
 
-- Upgrade the KVM's firmware.
+- Aktualisieren Sie die Firmware des KVM.
 
 ---
 
-**Q3. Can I use a single GL.iNet KVM to control multiple ATX boards?**
+**F3. Kann ich mit einem einzelnen GL.iNet KVM mehrere ATX Boards steuern?**
 
-A3. The following GL.iNet KVMs can only control one ATX board.
+A3. Die folgenden GL.iNet KVM-Geräte können nur ein ATX Board steuern.
 
 * Comet (GL-RM1)
 * Comet PoE (GL-RM1PE)
 * Comet Pro (GL-RM10)
 * Comet 5G (GL-RM10RC)
 
-However, Comet X (GL-RM4PE) supports up to four ATX boards simultaneously. Comet X provides four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
+Comet X (GL-RM4PE) unterstützt jedoch bis zu vier ATX Boards gleichzeitig. Comet X bietet vier unabhängige Kanäle auf der Rückseite. Jeder Kanal verfügt über einen HDMI-Anschluss zur Übertragung des Videosignals, einen Type-C-Anschluss zur Übertragung von Tastatur- und Maussignalen sowie einen USB-2.0-Anschluss für USB-Peripheriegeräte (z. B. Fingerbot oder ATX Board).
 
-**Note**: Comet Q (GL-RMQ1) does not work with ATX board.
+**Hinweis**: Comet Q (GL-RMQ1) funktioniert nicht mit dem ATX Board.
 
 ---
 
