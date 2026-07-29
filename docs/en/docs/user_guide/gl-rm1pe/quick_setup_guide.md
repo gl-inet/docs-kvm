@@ -20,7 +20,7 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 3. Connect the Comet PoE's USB port to the Device B's USB interface using a USB cable.
 
-    ![Connect usb cbale](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-4.png){class="glboxshadow gl-80-desktop"}
+    ![Connect usb cable](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/quick_setup/connect-4.png){class="glboxshadow gl-80-desktop"}
 
 4. Device connection is complete. Now you can access the Comet PoE's console locally or remotely.
 
