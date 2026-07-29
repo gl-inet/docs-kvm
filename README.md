@@ -1,26 +1,67 @@
-# GL.iNet documentation
+# GL.iNet Documentation
 
-This repository is the source code for documentation of GL.iNet KVM.
+This repository contains the source files for GL.iNet KVM documentation.
+
+It is structured as a multilingual documentation repository. The current language site is:
+
+- English: `docs/en/`
+
+Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
 ## Environment 
 
-Build by [mkdocs](https://www.mkdocs.org/) 1.5.3, with theme [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) 9.4.6
+The documentation is built with [MkDocs](https://www.mkdocs.org/) 1.5.3 and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme 9.4.6.
 
 ## Installation
 
-Create a new python virtualenv
+Create a Python virtual environment:
 
-`python3 -m venv docs-venv`
+```bash
+python -m venv .venv
+```
 
-Activate the virtualenv, then
+Activate the virtual environment, then install dependencies:
 
-`pip install mkdocs-material` or `pip install mkdocs-material=="9.*" `
+```bash
+pip install -r requirements.txt
+```
 
-Or use the requirements.txt in the root of the project
+You can also install Material for MkDocs directly:
 
-`pip install -r requirements.txt`
+```bash
+pip install mkdocs-material
+```
 
 Refer: [https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip](https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip)
+
+## Repository Structure
+
+The root `docs/` folder contains one MkDocs project per language:
+
+```text
+docs/
+  en/
+    mkdocs.yml
+    mkdocs.fast.yml
+    docs/
+    overrides/
+```
+
+In most cases, localized pages should mirror the corresponding English page path under `docs/en/docs/`.
+
+## Local Preview
+
+Run MkDocs against the language you want to preview.
+
+```bash
+mkdocs serve -f docs/en/mkdocs.yml
+```
+
+For faster local editing, use:
+
+```bash
+mkdocs serve -f docs/en/mkdocs.fast.yml --dirty
+```
 
 ## Online View
 
@@ -124,7 +165,8 @@ git checkout master
 git reset --hard HEAD
 git pull
 # build docs to /root/docs-build/kvm/en/
-mkdocs build
+cd docs/en
+mkdocs build --site-dir /root/docs-build/kvm/en/
 # deactivate virtualenv
 deactivate
 echo "finish building"
