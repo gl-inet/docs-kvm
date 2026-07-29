@@ -1,0 +1,61 @@
+# Connection failed when remote access via GLKVM app
+
+When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it stucks on "Connecting". 
+
+![device online](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/device_online.png){class="glboxshadow"}
+
+![connecting](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/connecting.png){class="glboxshadow"}
+
+Troubleshooting Guide:
+
+1. Ensure stable network connectivity.
+
+    Make sure the KVM is connected to a stable Internet. A solid-white LED indicates normal network connectivity.
+
+2. Check Network Firewall Rules.
+
+    Disable the local firewall temporarily, or add GL.iNet-related domains (e.g., glkvm.com) to the firewall allowlist. Retry the connection after applying changes.
+
+    Below are the steps to modify firewall rules on Sky Network for your reference.
+
+    ??? note "Sky Network (e.g., Sky Max Hub)"
+
+        The security mechanism of Sky Network may identify the domain name `glkvm.com` as a suspicious site and block access. You can lift the restrictions through the Sky App.<br>
+
+        1. Open the MySky App, navigate to **Broadband** -> **Advanced Security** and check if any GL.iNet-related domains are restricted.
+
+            ![mysky-1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-1.png){class="glboxshadow"}
+        
+        2. If you find that the domain is blocked, click the downward arrow to see details, and then select **Allow Access** to unblock the restriction.
+ 
+            ![mysky-2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-2.png){class="glboxshadow" width="300"}
+
+3. Disable VPN/Proxy on the Controlling Device.
+
+    Ensure the device running the GLKVM app does not have VPN or proxy services enabled, as these may interfere with connectivity.
+
+4. Restart the KVM if Possible.
+
+    Perform a hardware restart on the KVM device if possible to clear transient network or software issues.
+
+    If you are not near the KVM device, you can remotely reboot it via the GLKVM App:
+
+    1. In the device list, click **Manage** in the upper right corner of your device.
+
+        ![app reboot 1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/app_reboot_1.png){class="glboxshadow"}
+
+    2. Click **More** and select **Reboot**.
+
+        ![app reboot 2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/app_reboot_2.png){class="glboxshadow"}
+
+Additional Technical Notes:
+
+1. Ensure DNS resolution for the domains is functional.
+
+2. Confirm that outbound traffic to standard KVM/remote-access ports is not blocked.
+
+3. For enterprise networks, consult IT administrators regarding potential traffic filtering policies.
+
+---
+
+Noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

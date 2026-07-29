@@ -1,0 +1,65 @@
+# How to unbrick KVM via RKDevTool
+
+This tutorial will introduce how to unbrick GL.iNet KVM using the RKDevTool. It applies to scenarios where the KVM is bricked and cannot be recovered via regular firmware updates or U-Boot failsafe mode.
+
+## Preparation
+
+Please prepare the following tools for unbricking.
+
+- A Windows computer
+- A USB data cable
+- A power adapter (for the KVM device)
+
+!!! Note 
+
+    Do NOT disconnect the USB cable or power off KVM during the unbricking process, as this may damage the device.
+    
+    It is recommended to back up important data before starting the unbricking process.
+
+## Unbrick steps
+
+To avoid unbrick failure, please follow the steps in order. 
+
+1. Power off your KVM device.
+
+2. Download the latest firmware of your KVM device from [here](https://dl.gl-inet.com/kvm){target="_blank"} to your computer.
+
+3. Download the driver package from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/DriverAssitant_v5.11.zip) to your computer, and extract it to any directory.
+
+4. Double click the .exe file to complete the driver installation program.
+
+    ![install driver](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/install_driver_1.png){class="glboxshadow"}
+
+    ![install driver](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/install_driver_2.png){class="glboxshadow"}
+
+5. Download the **RKDevTool** from [here](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/RKDevTool_Release_v3.37.zip) to your computer, and extract it to an easily accessible directory.
+
+6. Double click the .exe file to run the flashing tool on your computer.
+
+    ![run rkdevtool](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/run_rkdevtool_1.png){class="glboxshadow"}
+
+    ![run rkdevtool](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/run_rkdevtool_2.png){class="glboxshadow"}
+
+7. Connect the KVM's Type-C OTG port to the computer's USB port via a USB data cable.
+
+    Take Comet (GL-RM1) as an example. The Type-C OTG port is shown below.
+
+    ![connect usb cable](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/otg-port-rm1.png){class="glboxshadow gl-60-desktop"}
+
+8. Hold the RESET button for **10 seconds** while plugging the power cable into KVM. Then release the button. Your KVM device will enter the Loader mode.
+
+    ![reset button](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/reset_button_rm1.jpg){class="glboxshadow" width="433"}
+
+9. Turn to the RKDevTool panel, go to **Upgrade Firmware** -> **Firmware**, select the firmware downloaded in step 2 to upload.
+
+    ![select firmware](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/select_firmware.png){class="glboxshadow"}
+
+    Then turn to the **Upgrade** tab next to the Firmware tab, it will display "Found Loader Device" and start flashing the firmware.
+
+    ![rkdevtool panel](https://static.gl-inet.com/docs/kvm/tutorials/debrick_via_rkdriver/rkdevtool_panel.jpg){class="glboxshadow"}
+
+    The KVM device will automatically restart once the upgrade is complete.
+
+---
+
+Noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.
