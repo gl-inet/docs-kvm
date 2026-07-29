@@ -1,75 +1,75 @@
-# Comet 5G (GL-RM10RC) Overview
+# Comet 5G (GL-RM10RC) Übersicht
 
-## Appearance
+## Aussehen
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_interface.png){class="glboxshadow"}
 
-## Dimension
+## Abmessungen
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_dimension.png){class="glboxshadow"}
 
 ## Touchscreen
 
-| Screen Display                    | Description         |
+| Bildschirmanzeige                    | Beschreibung         |
 | :-------------------------------- | :------------------ |
-| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/booting.png){width="800"}| **Starting up**<br>Power on your Comet 5G. The GL.iNet logo appears, followed by a startup progress bar. Once the progress bar is fully loaded, the device startup is complete.|
-| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/passcode.png) | **Set up screen password**<br>Set a screen password for your Comet 5G to protect your privacy.|
-| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/setup_network.png) | **Set up network**<br>Connect Comet 5G to 2.4GHz/5GHz Wi-Fi, or connect it to a network device (e.g., router, network switch, or Ethernet jack) via Ethernet cable.|
-| ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/network1.png) | **Home screen**<br>**Top-left**: Network status.<br>**Top-right**: Cloud status and system time.<br>**Middle**: Device IP address.<br>**Bottom**: Keyboard & mouse signal, HDMI signal, and USB connected status. |
-| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/basic_settings.png) | **Basic settings**<br>On the home screen, swipe left from the right to access basic settings, including **Screen Display**, **Wi-Fi**, **Cellular**, and **Cloud Service**.|
-| ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/system_menu.png) | **System Menu**<br>On the home screen, swipe down from the top to access system menu, including **Reboot** and **Lock Screen**. |
-| ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/time.png) | **Lock screen**<br>The lock screen displays the time and date. |
-| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/reset.png) | **Factory Reset**<br>With the KVM powered on, insert a pin into the reset pinhole and hold for 8 seconds to factory reset. Release the pin within 8 seconds to cancel the reset. |
+| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/booting.png){width="800"}| **Startvorgang**<br>Schalten Sie Ihren Comet 5G ein. Das GL.iNet-Logo wird angezeigt, gefolgt von einer Fortschrittsleiste für den Startvorgang. Sobald die Fortschrittsleiste vollständig geladen ist, ist der Gerätestart abgeschlossen.|
+| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/passcode.png) | **Bildschirmkennwort einrichten**<br>Legen Sie ein Bildschirmkennwort für Ihren Comet 5G fest, um Ihre Privatsphäre zu schützen.|
+| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/setup_network.png) | **Netzwerk einrichten**<br>Verbinden Sie Comet 5G mit 2.4GHz-/5GHz-Wi-Fi oder über ein Ethernet-Kabel mit einem Netzwerkgerät (z. B. Router, Netzwerk-Switch oder Ethernet-Anschlussdose).|
+| ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/network1.png) | **Startbildschirm**<br>**Oben links**: Netzwerkstatus.<br>**Oben rechts**: Cloud-Status und Systemzeit.<br>**Mitte**: IP-Adresse des Geräts.<br>**Unten**: Status von Tastatur- und Maussignal, HDMI-Signal und USB-Verbindung. |
+| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/basic_settings.png) | **Grundeinstellungen**<br>Wischen Sie auf dem Startbildschirm von rechts nach links, um die Grundeinstellungen aufzurufen, darunter **Screen Display**, **Wi-Fi**, **Cellular** und **Cloud Service**.|
+| ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/system_menu.png) | **System Menu**<br>Wischen Sie auf dem Startbildschirm von oben nach unten, um das Systemmenü aufzurufen, darunter **Reboot** und **Lock Screen**. |
+| ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/time.png) | **Sperrbildschirm**<br>Der Sperrbildschirm zeigt Uhrzeit und Datum an. |
+| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/reset.png) | **Factory Reset**<br>Stecken Sie bei eingeschaltetem KVM eine Nadel in die Reset-Öffnung und halten Sie sie 8 Sekunden lang gedrückt, um das Gerät auf die Werkseinstellungen zurückzusetzen. Lassen Sie die Nadel innerhalb von 8 Sekunden los, um den Reset abzubrechen. |
 
 ## Highlights
 
 1. **5G RedCap**
 
-    Comet 5G integrates cutting-edge 5G RedCap technology to provide flexible internet access, freeing your deployments from the constraints of fixed on-site networks.
+    Comet 5G integriert moderne 5G-RedCap-Technologie für flexiblen Internetzugang und löst Ihre Bereitstellungen von den Beschränkungen fester Netzwerke vor Ort.
 
-2. **Network Failover**
+2. **Netzwerk-Failover**
 
-    Coupled with integrated cellular connectivity, Wi-Fi 6, and Ethernet failover support, Comet 5G ensures continuous uptime; should one connection fail, it seamlessly and automatically switches to the next available network, allowing uninterrupted remote KVM operation even in challenging conditions.
+    Durch die integrierte Mobilfunkanbindung sowie die Unterstützung von Wi-Fi 6 und Ethernet-Failover stellt Comet 5G eine kontinuierliche Verfügbarkeit sicher. Wenn eine Verbindung ausfällt, wechselt das Gerät nahtlos und automatisch zum nächsten verfügbaren Netzwerk, sodass der Remote-KVM-Betrieb auch unter anspruchsvollen Bedingungen unterbrechungsfrei bleibt.
 
 3. **Dual-Band Wi-Fi 6**
 
-    Comet 5G supports dual-band Wi-Fi 6 (2.4GHz and 5GHz), providing high-speed, low-latency, and stable wireless connectivity for remote operation and data access.
+    Comet 5G unterstützt Dual-Band Wi-Fi 6 (2.4GHz und 5GHz) und bietet dadurch eine schnelle, latenzarme und stabile drahtlose Verbindung für Fernbedienung und Datenzugriff.
 
-4. **Nearby Control via AP Mode**
+4. **Steuerung in der Nähe über AP-Modus**
 
-    Comet 5G features Wi-Fi Nearby Control, enabling quick local management without wired connections. Simply switch the Comet 5G's Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Connect to this SSID to securely access the Comet 5G's console.
+    Comet 5G bietet Wi-Fi Nearby Control für eine schnelle lokale Verwaltung ohne kabelgebundene Verbindungen. Wechseln Sie einfach den Wi-Fi-Netzwerkmodus des Comet 5G in den AP-Modus; daraufhin erzeugt das Gerät eine eindeutige Wi-Fi-SSID. Verbinden Sie sich mit dieser SSID, um sicher auf die Konsole des Comet 5G zuzugreifen.
 
-    **Note**: Activating the AP mode disconnects the Comet 5G from its upstream Wi-Fi and provides nearby access only (with no internet connectivity).
+    **Hinweis**: Durch das Aktivieren des AP-Modus wird der Comet 5G von seinem vorgelagerten Wi-Fi getrennt und stellt nur Zugriff in der Nähe bereit (ohne Internetverbindung).
 
-5. **Browser-Based Remote Access**
+5. **Browserbasierter Fernzugriff**
 
-    Comet 5G allows you to access its console directly through a web browser, eliminating the need for client installation. This browser-based access uses secure HTTPS encryption and avoids self-signed certificate warnings, ensuring safe and effortless connectivity without additional software.
+    Comet 5G ermöglicht den direkten Zugriff auf seine Konsole über einen Webbrowser, ohne dass ein Client installiert werden muss. Dieser browserbasierte Zugriff verwendet sichere HTTPS-Verschlüsselung und vermeidet Warnungen zu selbstsignierten Zertifikaten, sodass eine sichere und einfache Verbindung ohne zusätzliche Software möglich ist.
 
-6. **Sleek Design & Touchscreen**
+6. **Schlankes Design und Touchscreen**
 
-    Comet 5G features a dark gray body with smooth contours, rounded corners, and a textured matte finish that offers both durability and a premium feel. The 3.69-inch TFT touchscreen provides an intuitive interface for quick access to device functions, ensuring a seamless user experience.
+    Comet 5G verfügt über ein dunkelgraues Gehäuse mit weichen Konturen, abgerundeten Ecken und einer strukturierten matten Oberfläche, die sowohl Langlebigkeit als auch eine hochwertige Haptik bietet. Der 3.69-Zoll-TFT-Touchscreen bietet eine intuitive Oberfläche für schnellen Zugriff auf Gerätefunktionen und sorgt für eine reibungslose Benutzererfahrung.
 
-7. **4K Display & Two-Way Audio**
+7. **4K-Anzeige und Zweiwege-Audio**
 
-    Comet 5G supports video output up to 4K@30FPS with HDMI out passthrough, allowing simultaneous local display and remote access without an external splitter. It also features two-way audio, enabling clear communication for video conferencing or remote technical instruction.
+    Comet 5G unterstützt Videoausgabe bis zu 4K@30FPS mit HDMI-Ausgangsdurchschleifung. Dadurch sind lokale Anzeige und Fernzugriff gleichzeitig möglich, ohne einen externen Splitter zu verwenden. Außerdem bietet das Gerät Zweiwege-Audio für klare Kommunikation bei Videokonferenzen oder technischer Fernunterstützung.
 
-8. **Self-Hosted Deployment**
+8. **Self-Hosted-Bereitstellung**
 
-    Comet 5G enables flexible self-hosted deployment on mainstream operating systems, including Linux and Ubuntu, giving you full control over remote access and data privacy. The self-hosted system requires a cloud server with at least a dual-core CPU and 2GB of memory, ensuring both privacy and reliable operation.
+    Comet 5G ermöglicht eine flexible Self-Hosted-Bereitstellung auf gängigen Betriebssystemen, einschließlich Linux und Ubuntu, und gibt Ihnen volle Kontrolle über Fernzugriff und Datenschutz. Das Self-Hosted-System erfordert einen Cloud-Server mit mindestens einer Dual-Core-CPU und 2GB Arbeitsspeicher, um sowohl Datenschutz als auch zuverlässigen Betrieb sicherzustellen.
 
-9. **Remote Power Control**
+9. **Fernsteuerung der Stromversorgung**
 
-    Comet 5G provides a USB port for connecting external devices such as an ATX board and a Fingerbot, enabling remote power control of the connected equipment.
+    Comet 5G bietet einen USB-Anschluss für externe Geräte wie ein ATX Board und einen Fingerbot und ermöglicht dadurch die ferngesteuerte Stromsteuerung angeschlossener Geräte.
 
-    **Note**: Optional accessories sold separately.
+    **Hinweis**: Optionales Zubehör ist separat erhältlich.
 
-## Frequency Bands
+## Frequenzbänder
 
-Comet 5G supports the following frequency bands.
+Comet 5G unterstützt die folgenden Frequenzbänder.
 
 - **5G NR**
 
-    3GPP Release 17 RedCap, SA operation (Sub-6 GHz) n1 / n2 / n3 / n5 / n7 / n8 / n12 / n13 / n14 / n18 / n20 / n25 / n26 / n28 / n30 / n38 / n40 / n41 / n48 / n66 / n70 / n77 / n78 / n79
+    3GPP Release 17 RedCap, SA-Betrieb (Sub-6 GHz) n1 / n2 / n3 / n5 / n7 / n8 / n12 / n13 / n14 / n18 / n20 / n25 / n26 / n28 / n30 / n38 / n40 / n41 / n48 / n66 / n70 / n77 / n78 / n79
 
 - **LTE FDD**
 
@@ -79,19 +79,19 @@ Comet 5G supports the following frequency bands.
 
     B34 / B38 / B39 / B40 / B41 / B42 / B43 / B48
 
-## Package Contents
+## Lieferumfang
 
 - 1 x Comet 5G (GL-RM10RC)
-- 1 x User manual
-- 1 x Thank you card
-- 1 x Ethernet cable
-- 1 x HDMI cable
-- 1 x USB cable (Type-A to Type-C)
-- 1 x Power adapter
-- 1 x Converter (Based on your shipping country)
+- 1 x Benutzerhandbuch
+- 1 x Dankeskarte
+- 1 x Ethernet-Kabel
+- 1 x HDMI-Kabel
+- 1 x USB-Kabel (Type-A auf Type-C)
+- 1 x Netzteil
+- 1 x Adapter (abhängig von Ihrem Versandland)
 
 ![rm10rc package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_package.png){class="glboxshadow"}
 
-Watch the unboxing video below.
+Sehen Sie sich unten das Unboxing-Video an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L3v-8leu7Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
