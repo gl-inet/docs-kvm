@@ -1,0 +1,4 @@
+interface:
+  display_name: "GL.iNet Docs Translation"
+  short_description: "Translate KVM docs into German and Japanese"
+  default_prompt: "Use $glinet-docs-translation to translate GL.iNet KVM documentation changes into localized docs."
