@@ -14,7 +14,7 @@ Gehen Sie wie folgt vor:
 
     Deaktivieren Sie vorübergehend die Antivirensoftware, da manche Sicherheitsprogramme Installationsdateien fälschlicherweise blockieren können.
 
-    ??? "How do I verify if Visual C++ dependencies are installed correctly?"
+    ??? "Wie pruefe ich, ob die Visual-C++-Abhaengigkeiten korrekt installiert sind?"
 
         1. Gehen Sie unter Windows zu Control Panel > Programs > Programs and Features.
 

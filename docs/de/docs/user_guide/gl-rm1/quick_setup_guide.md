@@ -76,7 +76,7 @@ Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet zuzugreifen: ueber den C
 
 1. Binden Sie Ihr Geraet an die KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
-    Es gibt zwei Moeglichkeiten, Ihr KVM mit der Cloud zu binden: Regular Binding oder Dynamic Code Binding. Hier verwenden wir Regular Binding als Beispiel. Wenn Sie Dynamic Code Binding bevorzugen, finden Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} weitere Informationen.
+    Es gibt zwei Moeglichkeiten, Ihr KVM mit der Cloud zu binden: regulaere Bindung oder Bindung per dynamischem Code. Hier verwenden wir die regulaere Bindung als Beispiel. Wenn Sie die Bindung per dynamischem Code bevorzugen, finden Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} weitere Informationen.
 
     Greifen Sie zuerst lokal auf Ihren Comet zu und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To Cloud**.
 

@@ -103,7 +103,7 @@ Klicken Sie unten auf die jeweilige Fehlermeldung, um die passende Lösung anzuz
 
         Melden Sie sich lokal an der Admin-Konsole Ihres KVM an, navigieren Sie oben rechts zu **Cloud Service** und klicken Sie auf **Bind To KVM Cloud**. Danach werden Sie zur Bindungsseite mit einem eindeutigen Token weitergeleitet. Melden Sie sich mit Ihrem Cloud-Konto an und bestätigen Sie die Geräteinformationen, um das Binden abzuschließen.
 
-??? "Other"
+??? "Sonstiges"
 
     Prüfen Sie, ob auf Ihrem steuernden Gerät, auf dem die GLKVM App installiert ist, ein VPN aktiviert ist.
 

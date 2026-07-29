@@ -30,15 +30,15 @@ Eine Einrichtungsanleitung finden Sie [hier](../faq/remote_access_via_netbird.md
 
 ## Weitere Verbesserungen
 
-- Beta Firmware Program: Benutzer koennen am Beta-Programm teilnehmen, um Vorabfunktionen zu testen.
+- Beta-Firmware-Programm: Benutzer koennen am Beta-Programm teilnehmen, um Vorabfunktionen zu testen.
 
 - Text Recognition: Dieses auf Optical Character Recognition (OCR) basierende Tool erfasst Text aus einem ausgewaehlten Bereich der Remote-Anzeige. Unterstuetzt werden Chinesisch, Englisch und ein zweisprachiger Chinesisch-Englisch-Modus.
 
-- City-Based Timezone: Legen Sie Ihre Zeitzone fest, indem Sie eine Zielstadt auswaehlen.
+- Stadtbasierte Zeitzone: Legen Sie Ihre Zeitzone fest, indem Sie eine Zielstadt auswaehlen.
 
-- Login Session Security: Login-Token laufen jetzt 12 Stunden nach Beendigung der Sitzung ab; zuvor waren Token dauerhaft gueltig.
+- Sicherheit von Anmeldesitzungen: Login-Token laufen jetzt 12 Stunden nach Beendigung der Sitzung ab; zuvor waren Token dauerhaft gueltig.
 
-- System Log Security: Fuer alle Systemprotokolle wurde eine Maskierung sensibler Daten implementiert.
+- Sicherheit der Systemprotokolle: Fuer alle Systemprotokolle wurde eine Maskierung sensibler Daten implementiert.
 
 ---
 

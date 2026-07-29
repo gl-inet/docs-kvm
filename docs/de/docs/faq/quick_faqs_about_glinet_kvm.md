@@ -18,7 +18,7 @@ A2. Auf dem gesteuerten Gerät muss keine Software installiert werden. Es kann W
 
 Ob auf dem steuernden Gerät Software installiert werden muss, hängt davon ab, wie Sie auf das KVM zugreifen möchten.
 
-??? "Nearby Control (for Comet 5G only)"
+??? "Nearby Control (nur für Comet 5G)"
 
     **Hinweis**: Diese Methode ist nur auf Comet 5G (GL-RM10RC) verfügbar.
 
@@ -26,13 +26,13 @@ Ob auf dem steuernden Gerät Software installiert werden muss, hängt davon ab, 
 
     Durch Aktivieren des AP-Modus wird Comet 5G von seinem vorgelagerten WLAN getrennt und stellt nur Zugriff in der Nähe bereit, ohne Internetverbindung.
 
-??? "Local Control (for Comet X only)"
+??? "Local Control (nur für Comet X)"
 
     **Hinweis**: Diese Methode ist nur auf Comet X (GL-RM4PE) verfügbar.
 
     Comet X bietet einen HDMI OUT-Anschluss und zwei zusätzliche USB-Anschlüsse und eignet sich damit gut für lokale Fehlerbehebung, Konfiguration und Betriebssysteminstallation. Schließen Sie einfach Monitor, Maus und Tastatur an, um lokale Plug-and-play-Hardwaresteuerung zu nutzen. Details finden Sie [hier](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control).
 
-??? "LAN Access"
+??? "LAN-Zugriff"
 
     Wenn Sie über dasselbe lokale Netzwerk (LAN) auf KVM zugreifen möchten, muss auf dem steuernden Gerät keine Software installiert werden.
 
@@ -40,7 +40,7 @@ Ob auf dem steuernden Gerät Software installiert werden muss, hängt davon ab, 
 
     Details finden Sie [hier](local_access_via_browser.md){target="_blank"}.
 
-??? "Remote Access"
+??? "Fernzugriff"
 
     - **GLKVM App**
 
@@ -97,8 +97,8 @@ A3. Grundsätzlich können Sie auf GL.iNet KVM lokal oder remote über verschied
 
 Außerdem unterstützen einige GL.iNet KVM-Modelle Nearby Control oder Local Control, sodass Sie vor Ort auf sie zugreifen können, ohne eine Verbindung zu einem anderen Router herzustellen.
 
-- [Nearby Control (for Comet 5G only)](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control){target="_blank"}
-- [Local Control (for Comet X only)](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control){target="_blank"}
+- [Nearby Control (nur für Comet 5G)](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control){target="_blank"}
+- [Local Control (nur für Comet X)](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control){target="_blank"}
 
 ---
 
@@ -150,7 +150,7 @@ A1. GL.iNet KVM ermöglicht das remote Ein- und Ausschalten des Zielgeräts übe
 
 **Q2. Wie verwende ich ATX Board für Remote-Stromsteuerung?**
 
-A2. Bitte lesen Sie das [ATX Board User Guide](../user_guide/gl-atx-board/index.md){target="_blank"}.
+A2. Bitte lesen Sie das [ATX Board Benutzerhandbuch](../user_guide/gl-atx-board/index.md){target="_blank"}.
 
 ---
 

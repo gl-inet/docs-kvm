@@ -1,6 +1,6 @@
 # Benutzerhandbuch
 
-### Remote KVM
+### Remote-KVM
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

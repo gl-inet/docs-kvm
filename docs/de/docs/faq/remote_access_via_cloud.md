@@ -12,13 +12,13 @@ Führen Sie die folgenden Schritte aus, um über den Cloud-Dienst remote auf Ihr
 
 ## KVM an die Cloud binden
 
-Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: Regular Binding oder Dynamic Code Binding.
+Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: reguläre Bindung oder Bindung per dynamischem Code.
 
-- **Regular Binding**: Klicken Sie in der KVM-Konsole auf "Bind To KVMCloud". Danach werden Sie zur Bindungsseite mit dem Token weitergeleitet. Melden Sie sich bei Ihrem Cloud-Konto an und bestätigen Sie die Geräteinformationen, um das Binden abzuschließen.
+- **Reguläre Bindung**: Klicken Sie in der KVM-Konsole auf "Bind To KVMCloud". Danach werden Sie zur Bindungsseite mit dem Token weitergeleitet. Melden Sie sich bei Ihrem Cloud-Konto an und bestätigen Sie die Geräteinformationen, um das Binden abzuschließen.
 
-- **Dynamic Code Binding**: Klicken Sie in der KVM-Konsole auf "Bind With Code". Danach wird zufällig ein 8-stelliger dynamischer Code für das Binden des Geräts erzeugt. Melden Sie sich bei Ihrem Cloud-Konto an und geben Sie den Code ein, um das Binden abzuschließen.
+- **Bindung per dynamischem Code**: Klicken Sie in der KVM-Konsole auf "Bind With Code". Danach wird zufällig ein 8-stelliger dynamischer Code für das Binden des Geräts erzeugt. Melden Sie sich bei Ihrem Cloud-Konto an und geben Sie den Code ein, um das Binden abzuschließen.
 
-### Regular Binding
+### Reguläre Bindung
 
 Melden Sie sich lokal per IP-Adresse oder Domain bei Ihrem KVM an und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To Cloud**.
 
@@ -36,7 +36,7 @@ Warten Sie kurz, bis Ihr Gerät erfolgreich an Ihr Konto gebunden wurde. Klicken
 
 ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow"}
 
-### Dynamic Code Binding
+### Bindung per dynamischem Code
 
 Hinweis: Bitte aktualisieren Sie die Firmware Ihres KVM auf Version 1.7, bevor Sie diese Funktion verwenden.
 

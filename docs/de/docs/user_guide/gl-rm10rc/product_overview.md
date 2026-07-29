@@ -27,7 +27,7 @@
 
     Comet 5G integriert moderne 5G-RedCap-Technologie fuer flexiblen Internetzugang und befreit Ihre Bereitstellungen von den Einschraenkungen fest installierter Netzwerke vor Ort.
 
-2. **Network Failover**
+2. **Netzwerk-Failover**
 
     Zusammen mit integrierter Mobilfunkkonnektivitaet, Wi-Fi 6 und Ethernet-Failover sorgt Comet 5G fuer kontinuierliche Verfuegbarkeit. Wenn eine Verbindung ausfaellt, wechselt das Geraet nahtlos und automatisch zum naechsten verfuegbaren Netzwerk, sodass der Remote-KVM-Betrieb auch unter schwierigen Bedingungen unterbrechungsfrei bleibt.
 
@@ -35,29 +35,29 @@
 
     Comet 5G unterstuetzt Dual-Band Wi-Fi 6 (2,4 GHz und 5 GHz) und bietet schnelle, latenzarme und stabile drahtlose Konnektivitaet fuer Fernbedienung und Datenzugriff.
 
-4. **Nearby Control via AP Mode**
+4. **Nearby Control über AP-Modus**
 
     Comet 5G bietet Wi-Fi Nearby Control und ermoeglicht eine schnelle lokale Verwaltung ohne kabelgebundene Verbindungen. Wechseln Sie einfach den Wi-Fi-Netzwerkmodus des Comet 5G in den AP-Modus; das Geraet erzeugt dann eine eindeutige Wi-Fi-SSID. Verbinden Sie sich mit dieser SSID, um sicher auf die Konsole des Comet 5G zuzugreifen.
 
     **Hinweis**: Durch Aktivieren des AP-Modus wird Comet 5G von seinem Upstream-Wi-Fi getrennt und stellt nur lokalen Zugriff in der Naehe bereit (ohne Internetverbindung).
 
-5. **Browser-Based Remote Access**
+5. **Browserbasierter Fernzugriff**
 
     Comet 5G ermoeglicht direkten Zugriff auf seine Konsole ueber einen Webbrowser, ohne dass ein Client installiert werden muss. Dieser browserbasierte Zugriff verwendet sichere HTTPS-Verschluesselung und vermeidet Warnungen zu selbstsignierten Zertifikaten, sodass eine sichere und einfache Verbindung ohne zusaetzliche Software moeglich ist.
 
-6. **Sleek Design & Touchscreen**
+6. **Schlankes Design und Touchscreen**
 
     Comet 5G verfuegt ueber ein dunkelgraues Gehaeuse mit weichen Konturen, abgerundeten Ecken und einer strukturierten matten Oberflaeche, die sowohl robust wirkt als auch ein hochwertiges Gefuehl vermittelt. Der 3,69-Zoll-TFT-Touchscreen bietet eine intuitive Oberflaeche fuer schnellen Zugriff auf Geraetefunktionen und sorgt fuer eine nahtlose Benutzererfahrung.
 
-7. **4K Display & Two-Way Audio**
+7. **4K-Anzeige und Zwei-Wege-Audio**
 
     Comet 5G unterstuetzt Videoausgabe bis zu 4K@30FPS mit HDMI-Out-Passthrough, sodass lokale Anzeige und Fernzugriff gleichzeitig ohne externen Splitter moeglich sind. Ausserdem bietet es Zwei-Wege-Audio fuer klare Kommunikation bei Videokonferenzen oder technischer Anleitung aus der Ferne.
 
-8. **Self-Hosted Deployment**
+8. **Self-Hosted-Bereitstellung**
 
     Comet 5G ermoeglicht eine flexible Self-Hosted-Bereitstellung auf gaengigen Betriebssystemen, einschliesslich Linux und Ubuntu, und gibt Ihnen volle Kontrolle ueber Fernzugriff und Datenschutz. Das Self-Hosted-System benoetigt einen Cloud-Server mit mindestens einer Dual-Core-CPU und 2 GB Arbeitsspeicher, um Datenschutz und zuverlaessigen Betrieb sicherzustellen.
 
-9. **Remote Power Control**
+9. **Remote-Stromsteuerung**
 
     Comet 5G bietet einen USB-Anschluss fuer externe Geraete wie ein ATX Board und einen Fingerbot und ermoeglicht dadurch die Fernsteuerung der Stromversorgung angeschlossener Geraete.
 

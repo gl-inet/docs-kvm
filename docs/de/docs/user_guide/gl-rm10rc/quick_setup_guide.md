@@ -90,7 +90,7 @@ Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet 5G zuzugreifen: ü
 
 1. Binden Sie Ihr Gerät an KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
-    Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: Regular Binding oder Dynamic Code Binding. Hier verwenden wir Regular Binding als Beispiel. Wenn Sie Dynamic Code Binding bevorzugen, klicken Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"}, um Details anzuzeigen.
+    Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: reguläre Bindung oder Bindung per dynamischem Code. Hier verwenden wir die reguläre Bindung als Beispiel. Wenn Sie die Bindung per dynamischem Code bevorzugen, klicken Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"}, um Details anzuzeigen.
 
     Greifen Sie zuerst lokal auf Ihren Comet 5G zu und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To Cloud**.
 

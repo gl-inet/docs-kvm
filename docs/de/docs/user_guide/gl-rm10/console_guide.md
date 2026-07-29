@@ -206,9 +206,9 @@ GL.iNet bietet optionales KVM-Zubehör an, um das Ein-/Ausschalten des Geräts a
 
 Lesen Sie zuerst die entsprechende Bedienungsanleitung, um das Zubehör mit Ihrem gesteuerten Gerät zu verbinden.
 
-- [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
+- [Fingerbot (FGB-01) Benutzerhandbuch](../gl-fgb-01/index.md){target="_blank"}
 
-- [ATX Board (GL-ATXPC) User Guide](../gl-atx-board/index.md){target="_blank"}
+- [ATX Board (GL-ATXPC) Benutzerhandbuch](../gl-atx-board/index.md){target="_blank"}
 
 Melden Sie sich anschließend bei der KVM-Konsole an und navigieren Sie zu **Accessories**. Die Zubehöreinstellungen sind erst verfügbar, nachdem das Zubehör installiert wurde.
 
