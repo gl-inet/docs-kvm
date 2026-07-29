@@ -1,6 +1,6 @@
-# Betriebssystem per virtuelle Medien remote auf dem gesteuerten Computer installieren
+# Betriebssystem per Fernzugriff mit virtuellen Medien auf dem gesteuerten Computer installieren
 
-Dieses Tutorial zeigt, wie Sie mit der GL.iNet KVM-Funktion virtuelle Medien remote ein Betriebssystem auf dem gesteuerten Computer installieren.
+Dieses Tutorial zeigt, wie Sie mit der GL.iNet KVM-Funktion virtuelle Medien per Fernzugriff ein Betriebssystem auf dem gesteuerten Computer installieren.
 
 1. Melden Sie sich an Ihrem GL.iNet KVM an und navigieren Sie zu **Virtual Media**.
 
@@ -16,7 +16,7 @@ Dieses Tutorial zeigt, wie Sie mit der GL.iNet KVM-Funktion virtuelle Medien rem
 
     ![image mounting](https://static.gl-inet.com/docs/kvm/tutorials/install_os_remotely/image-mounting-2.png){class="glboxshadow"}
 
-4. Starten Sie den remote gesteuerten Computer neu und **druecken Sie waehrend des Bootvorgangs sofort die passende Taste** (in diesem Beispiel DEL), um BIOS/UEFI aufzurufen.
+4. Starten Sie den per Fernzugriff gesteuerten Computer neu und **druecken Sie waehrend des Bootvorgangs sofort die passende Taste** (in diesem Beispiel DEL), um BIOS/UEFI aufzurufen.
 
     ![enter bios](https://static.gl-inet.com/docs/kvm/tutorials/install_os_remotely/enter_bios.png){class="glboxshadow"}
 

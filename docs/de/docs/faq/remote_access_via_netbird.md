@@ -1,86 +1,86 @@
-# How to access KVM remotely via NetBird
+# So greifen Sie über NetBird remote auf KVM zu
 
-> Note: Please upgrade your KVM firmware to v1.9.0 before using this feature.
+> Hinweis: Bitte aktualisieren Sie die Firmware Ihres KVM auf v1.9.0, bevor Sie diese Funktion verwenden.
 
-[NetBird](https://netbird.io/){target="_blank"} is an open-source zero trust networking platform that lets you build secure private networks for home and business use. As a WireGuard®-based overlay network, NetBird enables secure access to your devices anytime and anywhere.
+[NetBird](https://netbird.io/){target="_blank"} ist eine Open-Source-Zero-Trust-Netzwerkplattform, mit der Sie sichere private Netzwerke für den privaten und geschäftlichen Einsatz erstellen können. Als WireGuard®-basiertes Overlay-Netzwerk ermöglicht NetBird jederzeit und überall sicheren Zugriff auf Ihre Geräte.
 
-GL.iNet KVM integrates NetBird, allowing you to bind it to the NetBird virtual network for remote access — no need to install the GLKVM app or use the cloud service. 
+GL.iNet KVM integriert NetBird, sodass Sie es für den Fernzugriff an das virtuelle NetBird-Netzwerk binden können. Die GLKVM App muss dafür nicht installiert und der Cloud-Dienst nicht verwendet werden.
 
-Follow these steps to remotely access your GL.iNet KVM via NetBird.
+Führen Sie die folgenden Schritte aus, um über NetBird remote auf Ihr GL.iNet KVM zuzugreifen.
 
-## Bind KVM to NetBird
+## KVM an NetBird binden
 
-**Before you begin, connect your KVM and the controlling device to the same local network.**
+**Bevor Sie beginnen, verbinden Sie Ihr KVM und das steuernde Gerät mit demselben lokalen Netzwerk.**
 
-1. Log in to your KVM console locally using its domain or IP address, then go to **Apps Center** -> **NetBird**. Enable NetBird and click **Bind Device**. 
+1. Melden Sie sich lokal per Domain oder IP-Adresse bei Ihrer KVM-Konsole an und gehen Sie anschließend zu **Apps Center** -> **NetBird**. Aktivieren Sie NetBird und klicken Sie auf **Bind Device**.
 
     ![bind device](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/1-bind-device.png){class="glboxshadow"}
 
-2. You will be redirected to the device confirmation page. Click **Confirm**.
+2. Sie werden zur Bestätigungsseite für das Gerät weitergeleitet. Klicken Sie auf **Confirm**.
 
     ![confirm device](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/2-confirm.png){class="glboxshadow"}
 
-3. Sign in to your NetBird account. If you don't have an account, sign up first.
+3. Melden Sie sich bei Ihrem NetBird-Konto an. Wenn Sie noch kein Konto haben, registrieren Sie zunächst eines.
 
     ![netbird sign in](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/3-signin.png){class="glboxshadow"}
 
-4. After signing in, the KVM device will be automatically bound to your account.
+4. Nach der Anmeldung wird das KVM-Gerät automatisch an Ihr Konto gebunden.
 
     ![kvm connected](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/4-connected.png){class="glboxshadow"}
 
-    On the NetBird dashboard, you can also see your KVM listed on the **Peers** page.
+    Im NetBird-Dashboard sehen Sie Ihr KVM außerdem auf der Seite **Peers**.
 
     ![netbird dashboard](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/5-dashboard.png){class="glboxshadow"}
 
-## Bind the controlling device
+## Steuerndes Gerät binden
 
-The example below demonstrates how to bind a Windows laptop (as the controlling device) to the NetBird network.
+Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das NetBird-Netzwerk gebunden wird.
 
-1. Install NetBird on your laptop from [here](https://app.netbird.io/install){target="_blank"}. 
+1. Installieren Sie NetBird auf Ihrem Laptop über [diesen Link](https://app.netbird.io/install){target="_blank"}.
 
     ![install netbird](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/6-install.png){class="glboxshadow"}
 
-2. Run NetBird on the laptop and add it to the same NetBird network. 
+2. Führen Sie NetBird auf dem Laptop aus und fügen Sie ihn demselben NetBird-Netzwerk hinzu.
 
-    NetBird does not display a separate window/UI on the desktop; it only resides as an icon in the system tray (bottom-right corner). All operations are performed via the right-click menu.
+    NetBird zeigt auf dem Desktop kein eigenes Fenster und keine separate Oberfläche an. Es befindet sich nur als Symbol im Infobereich (unten rechts). Alle Vorgänge werden über das Kontextmenü ausgeführt.
 
-    Right click the NetBird icon, and click **Connect**. 
+    Klicken Sie mit der rechten Maustaste auf das NetBird-Symbol und klicken Sie auf **Connect**.
 
     ![pc connect](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/7-pc-connect.png){class="glboxshadow gl-50-desktop"}
 
-3. In the pop-up window, click **Accept** to authorize.
+3. Klicken Sie im Popup-Fenster auf **Accept**, um zu autorisieren.
 
     ![authorize](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/8-authorize.png){class="glboxshadow"}
 
-    Your laptop will be automatically bound to your account and added to the same NetBird network.
+    Ihr Laptop wird automatisch an Ihr Konto gebunden und demselben NetBird-Netzwerk hinzugefügt.
 
     ![pc connected](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/9-login-success.png){class="glboxshadow"}
 
-4. On the NetBird dashboard, there are two devices on the **Peers** page: your KVM and the controlling laptop.
+4. Im NetBird-Dashboard werden auf der Seite **Peers** zwei Geräte angezeigt: Ihr KVM und der steuernde Laptop.
 
     ![netbird dashboard](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/10-dashboard.png){class="glboxshadow"}
 
-## Remote access via NetBird
+## Fernzugriff über NetBird
 
-The example below demonstrates how to remotely access the KVM console via the NetBird virtual IP address.
+Das folgende Beispiel zeigt, wie Sie über die virtuelle NetBird-IP-Adresse remote auf die KVM-Konsole zugreifen.
 
-1. On your laptop, sign in to the NetBird dashboard and navigate to **Peers**. 
+1. Melden Sie sich auf Ihrem Laptop beim NetBird-Dashboard an und navigieren Sie zu **Peers**.
 
-    Find your KVM device and click its **NetBird IP** (`100.100.141.229` in this example) to copy the virtual IP.
+    Suchen Sie Ihr KVM-Gerät und klicken Sie auf dessen **NetBird IP** (`100.100.141.229` in diesem Beispiel), um die virtuelle IP zu kopieren.
 
     ![kvm netbird ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/11-kvm-netbird-ip.png){class="glboxshadow"}
 
-    Hover your cursor over the IP address to view more details, such as Public IP, domain and region.
+    Bewegen Sie den Mauszeiger über die IP-Adresse, um weitere Details wie Public IP, Domain und Region anzuzeigen.
 
-2. Open a new browser tab, paste the copied NetBird IP into the address bar and hit Enter. You will be redirected to the GLKVM login page. 
+2. Öffnen Sie einen neuen Browser-Tab, fügen Sie die kopierte NetBird-IP in die Adressleiste ein und drücken Sie die Eingabetaste. Sie werden zur GLKVM-Anmeldeseite weitergeleitet.
 
     ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/12-ip-login.png){class="glboxshadow"}
 
-    Enter your admin password to log in. You can now access your GL.iNet KVM and the controlled device via the NetBird IP.
+    Geben Sie Ihr Admin-Passwort ein, um sich anzumelden. Sie können nun über die NetBird-IP auf Ihr GL.iNet KVM und das gesteuerte Gerät zugreifen.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/12-ip-access.png){class="glboxshadow"}
 
-    **Tip**: A privacy error may appear when accessing this NetBird IP for the first time. Simply click **Advanced** -> **Proceed** to continue. See [Privacy error from your browser](privacy_error_from_your_browser.md){target="_blank"} for details.
+    **Tipp**: Beim ersten Zugriff auf diese NetBird-IP kann eine Datenschutzwarnung angezeigt werden. Klicken Sie einfach auf **Advanced** -> **Proceed**, um fortzufahren. Details finden Sie unter [Datenschutzwarnung im Browser](privacy_error_from_your_browser.md){target="_blank"}.
 
 ---
 

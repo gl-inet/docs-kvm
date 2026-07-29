@@ -1,44 +1,44 @@
-# How to access the KVM locally via browser
+# So greifen Sie lokal per Browser auf das KVM zu
 
-Before you begin, please ensure the controlling device and the KVM are on the same LAN.
+Bevor Sie beginnen, stellen Sie bitte sicher, dass sich das steuernde Gerät und das KVM im selben LAN befinden.
 
-There are two ways to access the KVM locally via a web browser: using a domain name or an IP address.
+Es gibt zwei Möglichkeiten, per Webbrowser lokal auf das KVM zuzugreifen: über einen Domainnamen oder über eine IP-Adresse.
 
-## Local access via Domain
+## Lokaler Zugriff per Domain
 
-1. Open a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
+1. Öffnen Sie auf dem steuernden Gerät einen Browser. Chrome oder Edge wird wegen besserer Kompatibilität empfohlen.
 
-2. Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter your admin password.
+2. Geben Sie `glkvm.local` in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie Ihr Admin-Passwort ein.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-    You can now access your KVM console locally, and thus access the controlled device.
+    Sie können nun lokal auf Ihre KVM-Konsole und damit auf das gesteuerte Gerät zugreifen.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-## Local access via IP address
+## Lokaler Zugriff per IP-Adresse
 
-Find the IP address of your KVM in the upstream network (e.g., your router), and enter this IP address in the browser. You will then be able to access your KVM locally, thus access the controlled device.
+Suchen Sie die IP-Adresse Ihres KVM im vorgelagerten Netzwerk (z. B. auf Ihrem Router) und geben Sie diese IP-Adresse im Browser ein. Danach können Sie lokal auf Ihr KVM und damit auf das gesteuerte Gerät zugreifen.
 
-Take **GL-AXT1800** (the router) and **GL-RM1 Comet** (the KVM) as an example: Comet is connected to the LAN port of GL-AXT1800 router via an Ethernet cable. The controlled device is connected to Comet correctly via HD cable and USB cable.
+Beispiel mit **GL-AXT1800** (Router) und **GL-RM1 Comet** (KVM): Comet ist über ein Ethernet-Kabel mit dem LAN-Port des GL-AXT1800-Routers verbunden. Das gesteuerte Gerät ist korrekt per HD-Kabel und USB-Kabel mit Comet verbunden.
 
-Follow the steps below to access the KVM console.
+Führen Sie die folgenden Schritte aus, um auf die KVM-Konsole zuzugreifen.
 
-1. Log in to the GL-AXT1800 web admin panel. This router needs to be configured for Internet access.
+1. Melden Sie sich am Web-Admin-Panel des GL-AXT1800 an. Dieser Router muss für den Internetzugang konfiguriert sein.
 
     ![log in router](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/log_in_router.png){class="glboxshadow"}
 
-2. On the router's admin panel, go to **Client** and find the Comet's IP address in the Client list. As shown below, the Comet's IP is **192.168.8.197**.
+2. Gehen Sie im Admin-Panel des Routers zu **Client** und suchen Sie in der Client-Liste die IP-Adresse von Comet. Wie unten gezeigt, lautet die IP von Comet **192.168.8.197**.
 
     ![find glkvm ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
 
-3. Open a new tab in the browser, enter Comet's IP **192.168.8.197** in the address bar. 
+3. Öffnen Sie im Browser einen neuen Tab und geben Sie die IP von Comet, **192.168.8.197**, in die Adressleiste ein.
 
-    You will be directed to the GLKVM login page. Enter your admin password.
+    Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie Ihr Admin-Passwort ein.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-    You can now access your KVM console locally, and thus access the controlled device.
+    Sie können nun lokal auf Ihre KVM-Konsole und damit auf das gesteuerte Gerät zugreifen.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 

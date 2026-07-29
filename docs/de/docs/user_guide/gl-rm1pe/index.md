@@ -1,12 +1,12 @@
-# Comet PoE (GL-RM1PE) User Guide
+# Comet PoE (GL-RM1PE) Benutzerhandbuch
 
-Comet PoE (GL-RM1PE) is the Power-over-Ethernet version of the [Comet (GL-RM1)](../gl-rm1/index.md), designed for simplified single-cable setups. The PoE model delivers both power and network connectivity via a single Ethernet cable, reducing cable clutter and simplifying installation, especially in hard-to-reach environments.
+Comet PoE (GL-RM1PE) ist die Power-over-Ethernet-Version des [Comet (GL-RM1)](../gl-rm1/index.md) und fuer einfache Ein-Kabel-Installationen konzipiert. Das PoE-Modell uebertraegt Stromversorgung und Netzwerkverbindung ueber ein einzelnes Ethernet-Kabel, reduziert Kabelaufwand und vereinfacht die Installation, insbesondere in schwer zugaenglichen Umgebungen.
 
-In addition, this version upgrades the EMMC capacity to 32GB, making it more capable of handling system logs, recordings, or custom firmware.
+Zusaetzlich wurde bei dieser Version die EMMC-Kapazitaet auf 32 GB erhoeht, sodass sie Systemprotokolle, Aufzeichnungen oder benutzerdefinierte Firmware besser verarbeiten kann.
 
 ![comet poe scenario](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_scenario_shelf.png){class="glboxshadow"}
 
-- [Product Overview](product_overview.md)
-- [Quick Setup](quick_setup_guide.md)
-- [Console Guide](console_guide.md)
-- [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)
+- [Produktuebersicht](product_overview.md)
+- [Schnellstart](quick_setup_guide.md)
+- [Konsolenhandbuch](console_guide.md)
+- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)

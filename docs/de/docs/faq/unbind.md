@@ -1,36 +1,36 @@
-# How to unbind my KVM device from the Cloud
+# So heben Sie die Bindung Ihres KVM-Geräts an die Cloud auf
 
-There are three ways to unbind KVM devices from the Cloud: via local access, the GLKVM app, or the Cloud.
+Es gibt drei Möglichkeiten, die Bindung von KVM-Geräten an die Cloud aufzuheben: über lokalen Zugriff, die GLKVM App oder die Cloud.
 
-## Unbind via local access
+## Bindung über lokalen Zugriff aufheben
 
-1. Ensure your computer is on the same local area network as your KVM device.
+1. Stellen Sie sicher, dass sich Ihr Computer im selben lokalen Netzwerk wie Ihr KVM-Gerät befindet.
 
-2. Launch a web browser on your computer (Chrome or Edge is recommended for better compatibility). Enter `glkvm.local` or the KVM's IP address in the address bar to access the GLKVM local login page. Enter the admin password to log in.
+2. Öffnen Sie auf Ihrem Computer einen Webbrowser (Chrome oder Edge wird wegen besserer Kompatibilität empfohlen). Geben Sie `glkvm.local` oder die IP-Adresse des KVM in die Adressleiste ein, um die lokale GLKVM-Anmeldeseite aufzurufen. Geben Sie das Admin-Passwort ein, um sich anzumelden.
 
-3. After login, navigate to the **Cloud Service** in the upper-right corner, click the gear icon and select **Unbind**.
+3. Navigieren Sie nach der Anmeldung oben rechts zu **Cloud Service**, klicken Sie auf das Zahnradsymbol und wählen Sie **Unbind**.
 
     ![unbind via local](https://static.gl-inet.com/docs/kvm/faq/unbind/local_unbind.png){class="glboxshadow"}
 
-## Unbind via GLKVM app
+## Bindung über die GLKVM App aufheben
 
-1. Log in to the GLKVM app, and click **Manage** in the upper-right corner of your device.
+1. Melden Sie sich in der GLKVM App an und klicken Sie oben rechts bei Ihrem Gerät auf **Manage**.
 
     ![unbind via app](https://static.gl-inet.com/docs/kvm/faq/unbind/app_unbind_1.png){class="glboxshadow"}
 
-2. Click **More** and select **Unbind**.
+2. Klicken Sie auf **More** und wählen Sie **Unbind**.
 
     ![app unbinding](https://static.gl-inet.com/docs/kvm/faq/unbind/app_unbind_2.png){class="glboxshadow"}
 
-## Unbind via the Cloud
+## Bindung über die Cloud aufheben
 
-1. Launch a web browser on your computer (Chrome or Edge is recommended for better compatibility). Enter `glkvm.com` in the address bar, and log in with your cloud account.
+1. Öffnen Sie auf Ihrem Computer einen Webbrowser (Chrome oder Edge wird wegen besserer Kompatibilität empfohlen). Geben Sie `glkvm.com` in die Adressleiste ein und melden Sie sich mit Ihrem Cloud-Konto an.
 
-2. After login, click the three-dots icon in the bottom-right corner of your device, and click **Device Detail**.
+2. Klicken Sie nach der Anmeldung unten rechts bei Ihrem Gerät auf das Drei-Punkte-Symbol und anschließend auf **Device Detail**.
 
     ![unbind via cloud](https://static.gl-inet.com/docs/kvm/faq/unbind/cloud_unbind_1.png){class="glboxshadow"}
 
-3. On the details page, click **Unbind**.
+3. Klicken Sie auf der Detailseite auf **Unbind**.
 
     ![unbind via cloud](https://static.gl-inet.com/docs/kvm/faq/unbind/cloud_unbind_2.png){class="glboxshadow gl-80-desktop"}
 

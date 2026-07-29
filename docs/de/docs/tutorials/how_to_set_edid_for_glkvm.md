@@ -6,11 +6,11 @@ EDID, also Extended Display Identification Data, ist ein von der Video Electroni
 
 Wenn Geraete wie Computer, Laptops oder Spielkonsolen mit einem Display verbunden werden, lesen sie im Allgemeinen automatisch die EDID aus, um passende Anzeigeparameter festzulegen. Dadurch werden Probleme wie unscharfe Bilder oder Flackern vermieden und eine klare, stabile Darstellung erreicht.
 
-Die EDID-Einstellungen in GL.iNet KVM dienen dazu, automatisch die optimalen Parameter des Displays abzustimmen. Wenn ein GL.iNet KVM mit dem gesteuerten Geraet verbunden ist, kann es durch Auslesen der EDID des Displays die Anzeigeausgabe automatisch anpassen, um das beste Bild darzustellen. 
+Die EDID-Einstellungen in GL.iNet KVM dienen dazu, automatisch die optimalen Parameter des Displays abzustimmen. Wenn ein GL.iNet KVM mit dem gesteuerten Geraet verbunden ist, kann es durch Auslesen der EDID des Displays die Anzeigeausgabe automatisch anpassen, um das beste Bild darzustellen.
 
-## Preset EDID
+## Voreingestellte EDID
 
-Navigieren Sie in der GL.iNet KVM-Konsole zu **Settings** -> **Video** -> **EDID**. Dort gibt es einige voreingestellte EDID-Einstellungen. 
+Navigieren Sie in der GL.iNet KVM-Konsole zu **Settings** -> **Video** -> **EDID**. Dort gibt es einige voreingestellte EDID-Einstellungen.
 
 ![edid preset](https://static.gl-inet.com/docs/kvm/tutorials/edid/edid_preset.jpg){class="glboxshadow"}
 
@@ -18,7 +18,7 @@ Navigieren Sie in der GL.iNet KVM-Konsole zu **Settings** -> **Video** -> **EDID
 
 In besonderen Situationen, z. B. zum Konfigurieren von UEFI/BIOS oder zum Anpassen von Aufloesung/Bildwiederholrate, koennen Sie einen voreingestellten Wert auswaehlen, z. B. 1920×1280/AUO/60HZ.
 
-## Custom EDID
+## Benutzerdefinierte EDID
 
 Wenn Sie keinen passenden EDID-Code finden, koennen Sie [diesen Link](https://github.com/linuxhw/EDID){target="blank"} oder die folgenden Schritte verwenden, um die EDID-Konfiguration anzupassen.
 
@@ -38,7 +38,7 @@ Wenn Sie keinen passenden EDID-Code finden, koennen Sie [diesen Link](https://gi
     2. Die maximal unterstuetzte Bildwiederholrate betraegt 60Hz. Fuer Aufloesungen ueber 1920x1080 wird eine Bildrate von 60FPS oder niedriger empfohlen.
     3. Vermeiden Sie interlaced Aufloesungen, da dies zu einer fehlerhaften Bildanzeige fuehren kann.
     4. Der eingegebene EDID-Codeblock darf hoechstens zwei Bloecke umfassen.
-    5. Grundlegende Audiounterstuetzung ist erforderlich. Andernfalls ist die Soundkarte auf dem gesteuerten Geraet moeglicherweise nicht auswaehlbar, was zu fehlendem Ton fuehrt. 
+    5. Grundlegende Audiounterstuetzung ist erforderlich. Andernfalls ist die Soundkarte auf dem gesteuerten Geraet moeglicherweise nicht auswaehlbar, was zu fehlendem Ton fuehrt.
 
 ---
 

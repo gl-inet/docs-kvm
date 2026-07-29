@@ -1,25 +1,25 @@
-# What should I do if relative mouse mode doesn't work on Reolink NVR
+# Was tun, wenn der relative Mausmodus auf Reolink NVR nicht funktioniert
 
-When using GL.iNet KVM to control Reolink NVR (especially models do not support dual mice) or certain vintage computers (such as those without USB interfaces), the relative mouse mode may not work. Common issues include complete failure of the mode, or trackable mouse movement but unresponsive clicks.
+Wenn Sie GL.iNet KVM zur Steuerung eines Reolink NVR verwenden (insbesondere bei Modellen, die keine zwei Mäuse unterstützen) oder bestimmte ältere Computer steuern (z. B. Geräte ohne USB-Schnittstellen), funktioniert der relative Mausmodus möglicherweise nicht. Häufige Probleme sind ein vollständiger Ausfall des Modus oder verfolgbare Mausbewegungen bei nicht reagierenden Klicks.
 
-This problem mainly comes from a compatibility issue between the KVM's mouse simulation and the limited capabilities of devices like Reolink NVR:
+Dieses Problem entsteht hauptsächlich durch eine Kompatibilitätseinschränkung zwischen der Maussimulation des KVM und den begrenzten Fähigkeiten von Geräten wie Reolink NVR:
 
-- **Before firmware v1.4.0**: The KVM was designed to simulate only one mouse. Switching between relative and absolute modes requires you to restart the KVM, but this worked fine with most vintage or specialized devices.
+- **Vor Firmware v1.4.0**: Das KVM war darauf ausgelegt, nur eine Maus zu simulieren. Beim Wechsel zwischen relativem und absolutem Modus musste das KVM neu gestartet werden, funktionierte aber mit den meisten älteren oder spezialisierten Geräten gut.
 
-- **After firmware v1.4.0**: To enable seamless mode switching without restart, the default logic was updated to simulate two mice simultaneously (one for relative mode, the other for absolute mode). However, Reolink NVR and some vintage computers lack support for dual mice, causing two common issues:
+- **Nach Firmware v1.4.0**: Um einen nahtlosen Moduswechsel ohne Neustart zu ermöglichen, wurde die Standardlogik so geändert, dass zwei Mäuse gleichzeitig simuliert werden (eine für den relativen Modus, die andere für den absoluten Modus). Reolink NVR und einige ältere Computer unterstützen jedoch keine zwei Mäuse. Dadurch treten zwei typische Probleme auf:
 
-    - Relative mouse mode doesn’t work at all;
-    - Mouse still tracks, but clicking does not respond.
+    - Der relative Mausmodus funktioniert überhaupt nicht;
+    - die Mausbewegung wird weiterhin verfolgt, Klicks reagieren jedoch nicht.
 
-To resolve the issue, you can force relative mouse mode in the terminal. Follow these steps:
+Um das Problem zu beheben, können Sie den relativen Mausmodus im Terminal erzwingen. Führen Sie die folgenden Schritte aus:
 
-1. Access the KVM Console, and navigate to **Toolbox** -> **Terminal**. Click **Access** to enter the KVM terminal.
+1. Rufen Sie die KVM-Konsole auf und navigieren Sie zu **Toolbox** -> **Terminal**. Klicken Sie auf **Access**, um das KVM-Terminal zu öffnen.
 
-2. Open the configuration file with the following command:
+2. Öffnen Sie die Konfigurationsdatei mit folgendem Befehl:
 
     `vi /etc/kvmd/override.yaml`
 
-3. Execute the following command to force relative mouse mode:
+3. Führen Sie die folgende Konfiguration aus, um den relativen Mausmodus zu erzwingen:
 
     ```
     kvmd:
@@ -28,15 +28,15 @@ To resolve the issue, you can force relative mouse mode in the terminal. Follow 
                 absolute: false
     ```
 
-4. Save the file and exit the editor.
+4. Speichern Sie die Datei und verlassen Sie den Editor.
 
-5. Restart the KVM device to apply the changes.
+5. Starten Sie das KVM-Gerät neu, damit die Änderungen wirksam werden.
 
 !!! note
 
-    1. If the above method does not work, try rolling back your KVM firmware to a version before v1.4 (if available), which supports single mouse emulation and is compatible with older devices.
-    
-    2. The standalone GLKVM app for Mac OS does not support relative mouse mode due to browser kernel limitations (lack of requestPointerLock API support). Use the web console instead.
+    1. Wenn die oben genannte Methode nicht funktioniert, versuchen Sie, die KVM-Firmware auf eine Version vor v1.4 zurückzusetzen (falls verfügbar). Diese unterstützt Ein-Maus-Emulation und ist mit älteren Geräten kompatibel.
+
+    2. Die eigenständige GLKVM App für Mac OS unterstützt den relativen Mausmodus aufgrund von Einschränkungen des Browser-Kernels nicht (fehlende Unterstützung für die requestPointerLock API). Verwenden Sie stattdessen die Webkonsole.
 
 ---
 

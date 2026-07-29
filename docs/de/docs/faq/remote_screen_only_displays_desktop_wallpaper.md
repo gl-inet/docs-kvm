@@ -1,28 +1,28 @@
-# What should I do if the remote screen only displays the desktop wallpaper
+# Was tun, wenn der Remote-Bildschirm nur das Desktop-Hintergrundbild anzeigt
 
-When accessing the controlled device through KVM, if you can only see the desktop wallpaper and no operations respond, it's likely that your controlled device uses multiple monitors configured in **Extend Displays** mode.
+Wenn Sie beim Zugriff auf das gesteuerte Gerät über KVM nur das Desktop-Hintergrundbild sehen und keine Bedienung reagiert, verwendet Ihr gesteuertes Gerät wahrscheinlich mehrere Monitore im Modus **Extend Displays**.
 
 ![extend display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/extend_displays.jpg){class="glboxshadow"}
 
-To resolve the problem, switch the controlled device's display mode to **Duplicate display**.
+Um das Problem zu beheben, schalten Sie den Anzeigemodus des gesteuerten Geräts auf **Duplicate display** um.
 
-Take Windows 10 as an example. 
+Beispiel mit Windows 10.
 
-On the controlled device, go to **Settings** -> **System** -> **Display**.
+Gehen Sie auf dem gesteuerten Gerät zu **Settings** -> **System** -> **Display**.
 
 ![win10 system settings](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/win10_system_settings.png){class="glboxshadow"}
 
-On the Display page, scroll down to locate **Multiple displays**.
+Scrollen Sie auf der Seite Display nach unten zu **Multiple displays**.
 
-Switch from Extend Displays to **Duplicate display**.
+Wechseln Sie von Extend Displays zu **Duplicate display**.
 
 ![duplicate display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/duplicate_displays.jpg){class="glboxshadow"}
 
-Click **Keep changes**.
+Klicken Sie auf **Keep changes**.
 
 ![keep changes](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/keep_changes.png){class="glboxshadow"}
 
-Then check if you can access the controlled device normally.
+Prüfen Sie anschließend, ob Sie normal auf das gesteuerte Gerät zugreifen können.
 
 ---
 

@@ -27,19 +27,19 @@ Erfahren Sie in detaillierten Schritten, wie Sie unsere Geraete korrekt verwende
 ## Virtuelle Medien
 
 * [Dateien zwischen steuerndem und gesteuertem Geraet freigeben](how_to_share_files_between_controlling_device_and_controlled_device.md)
-* [Betriebssystem remote auf dem gesteuerten Computer installieren](how_to_install_os_remotely.md)
+* [Betriebssystem per Fernzugriff mit virtuellen Medien auf dem gesteuerten Computer installieren](how_to_install_os_remotely.md)
 * [Remote-Bildschirm aufzeichnen](how_to_record_remote_screen.md)
 
 ## Apps Center
 
-* [Remote ueber Tailscale auf KVM zugreifen](../faq/remote_access_via_tailscale.md)
-* [Remote ueber ZeroTier auf KVM zugreifen](../faq/remote_access_via_zerotier.md)
-* [Remote ueber NetBird auf KVM zugreifen](../faq/remote_access_via_netbird.md)
+* [Per Fernzugriff ueber Tailscale auf KVM zugreifen](../faq/remote_access_via_tailscale.md)
+* [Per Fernzugriff ueber ZeroTier auf KVM zugreifen](../faq/remote_access_via_zerotier.md)
+* [Per Fernzugriff ueber NetBird auf KVM zugreifen](../faq/remote_access_via_netbird.md)
 
 ## Fehlerbehebung
 
 * [KVM ueber U-Boot entbricken](../faq/debrick.md)
-* [KVM ueber RKDevTool entbricken](how_to_debrick_kvm_via_rkdevtool.md)
+* [KVM mit RKDevTool debricken](how_to_debrick_kvm_via_rkdevtool.md)
 * [Geraete- und App-Protokolle exportieren](how_to_export_device_and_app_logs.md)
 * [Mobilfunkprotokolle exportieren](how_to_export_cellular_logs.md)
 * [Mauslatenz beheben, wenn RPi4 RPi3 steuert](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

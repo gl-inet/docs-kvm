@@ -1,89 +1,89 @@
-# How to change KVM device identity
+# KVM-Geraeteidentitaet aendern
 
-## What is KVM device identity
+## Was ist die KVM-Geraeteidentitaet?
 
-GL.iNet KVM's device identity refers to the identifier that enables the KVM to be recognized and distinguished by the connected device during communication. 
+Die Geraeteidentitaet eines GL.iNet KVM ist die Kennung, ueber die das KVM bei der Kommunikation vom verbundenen Geraet erkannt und unterschieden wird.
 
-Since GL.iNet KVM works as a combined emulator of several devices for user interaction, when connected to the controlled device, it is recognized as a set of multiple devices, including a monitor, several USB devices such as mouse and keyboard, and USB drive. 
+Da GL.iNet KVM fuer die Benutzerinteraktion mehrere Geraete kombiniert emuliert, wird es beim Anschluss an das gesteuerte Geraet als Gruppe mehrerer Geraete erkannt. Dazu gehoeren ein Monitor, mehrere USB-Geraete wie Maus und Tastatur sowie ein USB-Laufwerk.
 
-By default, the device identity is **GLKVM**, which can be found on the KVM console (**Settings** -> **System**). 
+Standardmaessig lautet die Geraeteidentitaet **GLKVM**. Sie finden sie in der KVM-Konsole unter **Settings** -> **System**.
 
 ![device identity](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/device_identity.png){class="glboxshadow"}
 
-Typically, the KVM is equipped with a Type-C port, as shown below, which connects to the controlled device's USB port to simulate peripheral devices (e.g., keyboard, mouse, USB drive, microphone) and CD-ROM. 
+In der Regel ist das KVM mit einem Type-C-Port ausgestattet, wie unten dargestellt. Dieser Port wird mit dem USB-Port des gesteuerten Geraets verbunden, um Peripheriegeraete wie Tastatur, Maus, USB-Laufwerk und Mikrofon sowie ein CD-ROM-Laufwerk zu simulieren.
 
 ![gl-rm1 type-c](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/gl-rm1-type-c.png){class="glboxshadow gl-60-desktop"}
 
-When the user clicks the mouse, types on the keyboard, or uses the microphone on the controlling end, these signals are remotely transmitted to the physical KVM device. The KVM then forwards them to the controlled device through its Type-C port. Therefore, the KVM is usually regarded as a composite device, emulating several peripheral devices connected to the controlled device's USB ports.
+Wenn der Benutzer auf dem steuernden Geraet mit der Maus klickt, auf der Tastatur tippt oder das Mikrofon verwendet, werden diese Signale per Fernzugriff an das physische KVM-Geraet uebertragen. Das KVM leitet sie anschliessend ueber seinen Type-C-Port an das gesteuerte Geraet weiter. Daher wird das KVM normalerweise als zusammengesetztes Geraet betrachtet, das mehrere an den USB-Ports des gesteuerten Geraets angeschlossene Peripheriegeraete emuliert.
 
 !!! Note
 
-    If the input method/keyboard of the controlling device is not consistent with that of the controlled device, some symbols/letters may have different positions on the keyboard, which can cause the output of the controlled end to be inconsistent with the input of the controlling end. Click [here](../faq/keyboard_does_not_input_output_as_expected.md) for details.
+    Wenn Eingabemethode oder Tastaturlayout des steuernden Geraets nicht mit dem gesteuerten Geraet uebereinstimmen, koennen einige Symbole oder Buchstaben auf anderen Tasten liegen. Dadurch kann die Ausgabe auf dem gesteuerten Geraet von der Eingabe auf dem steuernden Geraet abweichen. Weitere Informationen finden Sie [hier](../faq/keyboard_does_not_input_output_as_expected.md).
 
-Since the device identity of GL.iNet KVM is GLKVM by default, it is displayed as GLKVM or Glinet Composite Device in the system settings of the controlled device (such as Bluetooth & devices).
+Da die Geraeteidentitaet von GL.iNet KVM standardmaessig GLKVM lautet, wird es in den Systemeinstellungen des gesteuerten Geraets, z. B. unter Bluetooth & devices, als GLKVM oder Glinet Composite Device angezeigt.
 
 ![device identity default](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_default.png){class="glboxshadow"}
 
-## Why change device identity
+## Warum die Geraeteidentitaet aendern?
 
-By default, GL.iNet KVM is recognized by the controlled device as a composite device, emulating peripherals such as a keyboard, mouse, microphone, and monitor. This usually does not cause inconvenience, as these settings are only visible to users themselves.
+Standardmaessig wird GL.iNet KVM vom gesteuerten Geraet als zusammengesetztes Geraet erkannt, das Peripheriegeraete wie Tastatur, Maus, Mikrofon und Monitor emuliert. Normalerweise verursacht dies keine Einschraenkungen, da diese Einstellungen nur fuer den Benutzer selbst sichtbar sind.
 
 ![mic settings](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/mic.png){class="glboxshadow"}
-<small>(microphone settings)</small>
+<small>(Mikrofoneinstellungen)</small>
 
 ![speaker settings](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/speaker.png){class="glboxshadow"}
-<small>(speaker settings)</small>
+<small>(Lautsprechereinstellungen)</small>
 
-However, users may need to change KVM's device identity in the following scenarios.
+In den folgenden Szenarien kann es jedoch erforderlich sein, die KVM-Geraeteidentitaet zu aendern.
 
-??? "Scenario 1: Avoiding alerts from monitoring software on office computer"
+??? "Szenario 1: Warnungen von Ueberwachungssoftware auf einem Buero-Computer vermeiden"
 
-    When the controlled device is an office computer, it may have built-in or installed monitoring software. These tools may mark KVM remote access as abnormal activity, trigger alerts, and even report to IT systems. 
-    
-    Changing the KVM's device identity can help prevent such unnecessary notifications, while maintaining normal remote control functionality.
+    Wenn das gesteuerte Geraet ein Buero-Computer ist, kann darauf integrierte oder installierte Ueberwachungssoftware ausgefuehrt werden. Solche Tools koennen KVM-Fernzugriff als ungewoehnliche Aktivitaet markieren, Warnungen ausloesen oder sogar Meldungen an IT-Systeme senden.
 
-??? "Scenario 2: Hiding KVM remote usage during online meeting screen sharing"
+    Das Aendern der KVM-Geraeteidentitaet kann helfen, solche unnoetigen Benachrichtigungen zu vermeiden, waehrend die normale Fernsteuerungsfunktion erhalten bleibt.
 
-    During online meetings that require screen sharing, the controlled device's system settings (e.g., Bluetooth & devices) may display the KVM's default identity. This may expose your KVM remote access usage to meeting participants, which could be undesirable for some users. 
+??? "Szenario 2: KVM-Fernnutzung bei Bildschirmfreigaben in Online-Meetings verbergen"
 
-    Changing the device identity ensures the KVM remains hidden in shared screens.
+    Bei Online-Meetings mit Bildschirmfreigabe koennen die Systemeinstellungen des gesteuerten Geraets, z. B. Bluetooth & devices, die standardmaessige Identitaet des KVM anzeigen. Dadurch kann fuer Meeting-Teilnehmer sichtbar werden, dass Sie KVM-Fernzugriff verwenden, was in manchen Situationen unerwuenscht sein kann.
+
+    Durch das Aendern der Geraeteidentitaet bleibt das KVM auf freigegebenen Bildschirmen verborgen.
 
     ![screen sharing](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/screen_sharing.png){class="glboxshadow"}
-    <small>(screen sharing)</small>
+    <small>(Bildschirmfreigabe)</small>
 
-??? "Scenario 3: Resolving unresponsive mouse/keyboard control on the controlled device"
+??? "Szenario 3: Nicht reagierende Maus- oder Tastatursteuerung auf dem gesteuerten Geraet beheben"
 
-    If you fail to control the mouse and keyboard on the controlled device through KVM, try modifying the KVM's device identity to avoid compatibility issues, enabling smooth signal transmission between the KVM and the controlled device.
+    Wenn Sie Maus und Tastatur auf dem gesteuerten Geraet nicht ueber KVM steuern koennen, versuchen Sie, die KVM-Geraeteidentitaet zu aendern. Dadurch lassen sich Kompatibilitaetsprobleme vermeiden und die Signaluebertragung zwischen KVM und gesteuertem Geraet kann reibungsloser funktionieren.
 
-## Limitations of Device Identity Customization
+## Einschraenkungen der Anpassung der Geraeteidentitaet
 
-!!! Warning "Behavioral Detection Software May Still Identify KVM"
+!!! Warning "Verhaltensbasierte Erkennungssoftware kann KVM weiterhin identifizieren"
 
-    Regardless of how you customize the USB device identity, the USB **structure** of the virtualized devices (keyboard, mouse, microphone, camera, etc.) may still appear suspicious to behavioral detection software.
+    Unabhaengig davon, wie Sie die USB-Geraeteidentitaet anpassen, kann die USB-**Struktur** der virtualisierten Geraete wie Tastatur, Maus, Mikrofon oder Kamera fuer verhaltensbasierte Erkennungssoftware weiterhin auffaellig wirken.
 
-    The fundamental issue is that all these virtualized peripherals belong to a **single composite USB device**. While a composite device containing only a keyboard and mouse is relatively common — many wireless keyboard/mouse receivers (such as Logitech Unifying) present a similar structure — a single composite USB device that simultaneously includes **keyboard, mouse, and microphone** is extremely rare in practice. 
+    Der grundlegende Punkt ist, dass all diese virtualisierten Peripheriegeraete zu einem **einzigen zusammengesetzten USB-Geraet** gehoeren. Ein zusammengesetztes Geraet, das nur Tastatur und Maus enthaelt, ist vergleichsweise ueblich. Viele drahtlose Tastatur-/Mausempfaenger, etwa Logitech Unifying, verwenden eine aehnliche Struktur. Ein einzelnes zusammengesetztes USB-Geraet, das gleichzeitig **Tastatur, Maus und Mikrofon** umfasst, ist in der Praxis jedoch sehr selten.
 
-    Therefore, changing the device identity alone **may not be sufficient** to evade detection by advanced monitoring or behavioral analysis software.
+    Daher reicht das Aendern der Geraeteidentitaet allein **moeglicherweise nicht aus**, um von fortgeschrittener Monitoring- oder verhaltensbasierter Analysesoftware unentdeckt zu bleiben.
 
-## How to change device identity
+## KVM-Geraeteidentitaet aendern
 
-1. Log in to your KVM, and navigate to **Settings** -> **System** -> **Device Identity**. Select a preset identity from the drop-down list.
+1. Melden Sie sich bei Ihrem KVM an und navigieren Sie zu **Settings** -> **System** -> **Device Identity**. Waehlen Sie in der Dropdown-Liste eine voreingestellte Identitaet aus.
 
     ![customize1](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize1.jpg){class="glboxshadow"}
 
-    Or click on **Customize** and fill in the parameters you want in the pop-up window.
+    Oder klicken Sie auf **Customize** und geben Sie im Pop-up-Fenster die gewuenschten Parameter ein.
 
     ![customize2](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize2.jpg){class="glboxshadow"}
 
-2. Once selected, there will be a pop-up window asking to restart. Click **Confirm** to restart.
+2. Nach der Auswahl erscheint ein Pop-up-Fenster, das zum Neustart auffordert. Klicken Sie auf **Confirm**, um neu zu starten.
 
     ![customize3](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize3.png){class="glboxshadow"}
 
-3. After restarting, on the KVM console, the Device Identity has been changed to the modified one.
+3. Nach dem Neustart ist die Device Identity in der KVM-Konsole auf die geaenderte Identitaet gesetzt.
 
     ![customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize4.jpg){class="glboxshadow"}
 
-    Access your controlled device via KVM, and navigate to **Settings** -> **Bluetooth & devices** (taking Windows 10 Pro as an example). The input devices (keyboard and mouse), audio device (microphone), and display (monitor) will be recognized as the custom devices you set, instead of the default GLKVM.
+    Greifen Sie ueber KVM auf Ihr gesteuertes Geraet zu und navigieren Sie zu **Settings** -> **Bluetooth & devices**. Im Beispiel wird Windows 10 Pro verwendet. Die Eingabegeraete (Tastatur und Maus), das Audiogeraet (Mikrofon) und die Anzeige (Monitor) werden nun als die von Ihnen festgelegten benutzerdefinierten Geraete erkannt, nicht mehr als standardmaessiges GLKVM.
 
     ![customize5](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_modified.png){class="glboxshadow"}
 

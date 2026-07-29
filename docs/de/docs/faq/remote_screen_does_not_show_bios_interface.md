@@ -1,24 +1,24 @@
-# What should I do if the remote screen does not show the BIOS interface
+# Was tun, wenn der Remote-Bildschirm die BIOS-Oberfläche nicht anzeigt
 
-When accessing the controlled device through KVM, if the remote screen does not show the BIOS interface (e.g., No HDMI Signal), the reason is that the BIOS interface typically outputs only to the primary monitor. Here are some suggestions.
+Wenn beim Zugriff auf das gesteuerte Gerät über KVM auf dem Remote-Bildschirm die BIOS-Oberfläche nicht angezeigt wird (z. B. No HDMI Signal), liegt der Grund darin, dass die BIOS-Oberfläche normalerweise nur auf dem primären Monitor ausgegeben wird. Hier einige Vorschläge.
 
 ## Laptop
 
-If the controlled device is a laptop, its built-in screen serves as the primary display, so the external KVM cannot render the BIOS interface.
+Wenn das gesteuerte Gerät ein Laptop ist, dient der integrierte Bildschirm als primäre Anzeige. Daher kann das externe KVM die BIOS-Oberfläche nicht darstellen.
 
 ## Desktop
 
-For desktop devices, connect the primary monitor to the DisplayPort port if available. This is because most graphics cards and motherboards prioritize DP output over HDMI during startup.
+Verbinden Sie bei Desktop-Geräten den primären Monitor mit dem DisplayPort-Anschluss, sofern vorhanden. Der Grund ist, dass die meisten Grafikkarten und Mainboards beim Start die DP-Ausgabe gegenüber HDMI priorisieren.
 
-Follow the methods below to make the BIOS interface visible via KVM.
-    
-- Switch between different monitor ports. Connect GL.iNet KVM to the port set as the primary display output on your computer.
-    
-- Use a 1-to-2 HDMI splitter (not included) to duplicate the primary display signal to the KVM device.
+Führen Sie die folgenden Methoden aus, damit die BIOS-Oberfläche über KVM sichtbar wird.
 
-> **Note**: This problem may also occur when the controlled device boots into **Windows PE**, as BIOS signals only transmit to the primary monitor and cannot be shown on the remote KVM screen.
+- Wechseln Sie zwischen verschiedenen Monitoranschlüssen. Verbinden Sie GL.iNet KVM mit dem Anschluss, der auf Ihrem Computer als primärer Anzeigeausgang festgelegt ist.
 
-> It is advised to test with an extra monitor. If the secondary display still cannot receive signals, the KVM will fail to capture the BIOS screen. You may manually integrate or install display drivers into the WinPE system to resolve this.
+- Verwenden Sie einen 1-zu-2-HDMI-Splitter (nicht im Lieferumfang enthalten), um das Signal der primären Anzeige auf das KVM-Gerät zu duplizieren.
+
+> **Hinweis**: Dieses Problem kann auch auftreten, wenn das gesteuerte Gerät in **Windows PE** startet, da BIOS-Signale nur an den primären Monitor übertragen werden und auf dem Remote-KVM-Bildschirm nicht angezeigt werden können.
+
+> Es wird empfohlen, mit einem zusätzlichen Monitor zu testen. Wenn die sekundäre Anzeige weiterhin kein Signal empfängt, kann das KVM den BIOS-Bildschirm nicht erfassen. Sie können die Anzeigetreiber manuell in das WinPE-System integrieren oder installieren, um dieses Problem zu beheben.
 
 ---
 

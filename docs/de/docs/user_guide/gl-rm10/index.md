@@ -1,12 +1,12 @@
-# Comet Pro (GL-RM10) User Guide
+# Comet Pro (GL-RM10) Benutzerhandbuch
 
-Comet Pro (GL-RM10) is a remote KVM over Wi-Fi solution. It is powered by a Quad-Core A53 CPU, with 1GB DDR3 memory and 32GB eMMC storage for smooth performance. Its touchscreen lets you check the device's IP address at a glance and perform basic tasks like Wi-Fi setup.
+Comet Pro (GL-RM10) ist eine Remote-KVM-over-Wi-Fi-Loesung. Das Geraet wird von einer Quad-Core-A53-CPU angetrieben und verfuegt ueber 1 GB DDR3-Speicher sowie 32 GB eMMC-Speicher fuer eine fluessige Leistung. Ueber den Touchscreen koennen Sie die IP-Adresse des Geraets auf einen Blick pruefen und grundlegende Aufgaben wie die WLAN-Einrichtung ausfuehren.
 
-For connectivity, it supports Dual Band Wi-Fi 6 (stable, high-speed) and video passthrough (lossless signal transmission), plus 4K@30FPS video output for HD visuals during remote control. Whether for personal or professional use, Comet Pro is a top pick for efficient remote device management.
+Fuer die Konnektivitaet unterstuetzt es Dual Band Wi-Fi 6 (stabil und schnell) sowie Video-Passthrough (verlustfreie Signaluebertragung), plus 4K@30FPS-Videoausgabe fuer hochaufloesende Darstellung bei der Fernsteuerung. Ob fuer private oder berufliche Nutzung: Comet Pro ist eine gute Wahl fuer effizientes Remote-Geraetemanagement.
 
 ![comet pro scenario](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-scenario-office.png){class="glboxshadow"}
 
-- [Product Overview](product_overview.md)
-- [Quick Setup](quick_setup_guide.md)
-- [Console Guide](console_guide.md)
-- [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)
+- [Produktuebersicht](product_overview.md)
+- [Schnellstart](quick_setup_guide.md)
+- [Konsolenhandbuch](console_guide.md)
+- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)

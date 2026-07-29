@@ -1,44 +1,44 @@
-# Comet Pro (GL-RM10) Overview
+# Comet Pro (GL-RM10) Uebersicht
 
-## Appearance
+## Aussehen
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-interface.png){class="glboxshadow"}
 
-## Dimension
+## Abmessungen
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-dimension.png){class="glboxshadow"}
 
 ## Touchscreen
 
-| Screen Display                    | Description         |
-| :-------------------------------- | :------------------ |
-| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/booting.png){width="650"}| **Starting up**<br>Power on your Comet Pro. The GL.iNet logo appears, followed by a startup progress bar. Once the progress bar is fully loaded, the device startup is complete. |
-| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/input_passcode.png)| **Set up screen password**<br>Set a screen password for your Comet Pro to protect your privacy. |
-| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/setup_network.png)| **Set up network**<br>Connect Comet Pro to 2.4GHz/5GHz Wi-Fi, or connect it to a network device (e.g., router, network switch, or Ethernet jack) via Ethernet cable. |
-| ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/cables_connected.png)| **Home screen**<br>**Top-left**: Cloud and network status.<br>**Top-right**: System time.<br>**Middle**: Device IP address (shown only when internet is connected).<br>**Bottom**: Keyboard & mouse signal, HDMI signal, and USB connected status. |
-| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/basic_settings.png)| **Basic settings**<br>On the home screen, swipe left from the right to access basic settings, including **Screen Display**, **Wi-Fi**, and **Cloud Service**. |
-| ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/system_menu.png)| **System Menu**<br>On the home screen, swipe down from the top to access system menu, including **Reboot** and **Lock Screen**. |
-| ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/time.png)| **Lock screen**<br>The lock screen displays the time and date. |
-| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/reset.png)| **Factory Reset**<br>With the KVM powered on, insert a pin into the reset pinhole and hold for 8 seconds to factory reset. Release the pin within 8 seconds to cancel the reset. |
+| Screen Display                    | Beschreibung       |
+| :-------------------------------- | :----------------- |
+| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/booting.png){width="650"}| **Startvorgang**<br>Schalten Sie Ihren Comet Pro ein. Das GL.iNet Logo wird angezeigt, gefolgt von einem Fortschrittsbalken fuer den Startvorgang. Sobald der Fortschrittsbalken vollstaendig geladen ist, ist der Geraetestart abgeschlossen. |
+| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/input_passcode.png)| **Bildschirmpasswort einrichten**<br>Legen Sie ein Bildschirmpasswort fuer Ihren Comet Pro fest, um Ihre Privatsphaere zu schuetzen. |
+| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/setup_network.png)| **Netzwerk einrichten**<br>Verbinden Sie Comet Pro mit 2,4-GHz-/5-GHz-Wi-Fi, oder verbinden Sie ihn per Ethernet-Kabel mit einem Netzwerkgeraet (z. B. Router, Netzwerk-Switch oder Ethernet-Buchse). |
+| ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/cables_connected.png)| **Startbildschirm**<br>**Oben links**: Cloud- und Netzwerkstatus.<br>**Oben rechts**: Systemzeit.<br>**Mitte**: IP-Adresse des Geraets (nur angezeigt, wenn eine Internetverbindung besteht).<br>**Unten**: Tastatur- und Maussignal, HDMI-Signal und USB-Verbindungsstatus. |
+| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/basic_settings.png)| **Basic settings**<br>Wischen Sie auf dem Startbildschirm von rechts nach links, um auf die Grundeinstellungen zuzugreifen, einschliesslich **Screen Display**, **Wi-Fi** und **Cloud Service**. |
+| ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/system_menu.png)| **System Menu**<br>Wischen Sie auf dem Startbildschirm von oben nach unten, um auf das Systemmenue zuzugreifen, einschliesslich **Reboot** und **Lock Screen**. |
+| ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/time.png)| **Lock screen**<br>Der Sperrbildschirm zeigt Uhrzeit und Datum an. |
+| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/reset.png)| **Factory Reset**<br>Fuehren Sie bei eingeschaltetem KVM eine Nadel in die Reset-Oeffnung ein und halten Sie sie 8 Sekunden lang gedrueckt, um das Geraet auf Werkseinstellungen zurueckzusetzen. Lassen Sie die Nadel innerhalb von 8 Sekunden los, um den Reset abzubrechen. |
 
-## Package Contents
+## Lieferumfang
 
 - 1 x Comet Pro (GL-RM10)
-- 1 x User manual
-- 1 x Thank you card
-- 1 x Ethernet cable
-- 2 x HD cable
-- 1 x USB cable (Type-A to Type-C)
-- 1 x USB cable (Type-C to Type-C)
-- 1 x USB-A Power adapter
-- 1 x Converter (Based on your shipping country)
+- 1 x Benutzerhandbuch
+- 1 x Dankeskarte
+- 1 x Ethernet-Kabel
+- 2 x HD-Kabel
+- 1 x USB-Kabel (Type-A zu Type-C)
+- 1 x USB-Kabel (Type-C zu Type-C)
+- 1 x USB-A-Netzteil
+- 1 x Adapter (abhaengig vom Versandland)
 
 ![gl-rm1 package 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package1.png){class="glboxshadow"}
-<small>(U.S. package)</small>
+<small>(U.S.-Paket)</small>
 
 ![gl-rm1 package 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10_package2.png){class="glboxshadow"}
-<small>(EU & UK package)</small>
+<small>(EU- und UK-Paket)</small>
 
-Watch the unboxing video below.
+Sehen Sie sich unten das Unboxing-Video an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKFeu31_LNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

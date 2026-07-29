@@ -1,144 +1,144 @@
-# Fingerbot (FGB-01) User Guide
+# Fingerbot (FGB-01) Benutzerhandbuch
 
-Fingerbot FGB-01 is an accessory for GL.iNet KVM devices to provide additional convenience for remote power management.
+Fingerbot FGB-01 ist ein Zubehoer fuer GL.iNet KVM-Geraete und bietet zusaetzlichen Komfort fuer die Fernverwaltung der Stromversorgung.
 
-As a physical button emulator, the Fingerbot is designed to remotely power the target device on and off. It features easy stick-on installation, a year-long battery life for daily use, and requires no complex setup.
+Als physischer Tastenemulator ist der Fingerbot dafuer vorgesehen, das Zielgeraet aus der Ferne ein- und auszuschalten. Er laesst sich einfach aufkleben, bietet bei taeglicher Nutzung eine Batterielaufzeit von etwa einem Jahr und erfordert keine komplexe Einrichtung.
 
-**Note**: Comet Q (GL-RMQ1) does not work with Fingerbot.
+**Hinweis**: Comet Q (GL-RMQ1) funktioniert nicht mit Fingerbot.
 
 ![overview](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/overview.png){class="glboxshadow"}
 
-## Package Contents
+## Lieferumfang
 
 ![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_contents.png){class="glboxshadow"}
 
 - 1 x FGB-01
-- 1 x Laptop Stand
+- 1 x Laptop-Staender
 - 1 x Add-on
-- 1 x CR2 Battery (installed in FGB-01)
-- 1 x Adhesive Tape
-- 1 x User Guide
+- 1 x CR2-Batterie (im FGB-01 installiert)
+- 1 x Klebeband
+- 1 x Benutzerhandbuch
 
-Check out Fingerbot's unboxing video below.
+Sehen Sie sich unten das Unboxing-Video des Fingerbot an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Aeu5yiDEt0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Installation
 
-Watch this video or follow the steps below to install Fingerbot.
+Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Fingerbot zu installieren.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_ExhJHhEcwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Remove the plastic battery isolation tab.
+1. Entfernen Sie die Kunststoff-Isolierlasche der Batterie.
 
     ![install 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install1.png){class="glboxshadow"}
 
-2. Open the lid from the notch on the top of the Fingerbot.
+2. Oeffnen Sie den Deckel an der Kerbe oben am Fingerbot.
 
     ![install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install2.png){class="glboxshadow"}
 
-3. Find the USB Bluetooth Receiver, insert it into the USB port of GL.iNet KVM (e.g., Comet GL-RM1), then put the lid back on the Fingerbot.
+3. Suchen Sie den USB-Bluetooth-Empfaenger, stecken Sie ihn in den USB-Anschluss des GL.iNet KVM (z. B. Comet GL-RM1) und setzen Sie anschliessend den Deckel wieder auf den Fingerbot.
 
     ![install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install3.png){class="glboxshadow"}
 
     ![install 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install4.png){class="glboxshadow"}
 
-4. Clean the surface of the power button on the controlled device.
+4. Reinigen Sie die Oberflaeche des Einschaltknopfs am gesteuerten Geraet.
 
     ![install 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install5.png){class="glboxshadow"}
 
-5. Peel off the protective sticker from the adhesive tape on the bottom of the Fingerbot.
+5. Ziehen Sie die Schutzfolie vom Klebeband an der Unterseite des Fingerbot ab.
 
     ![install 6](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install6.png){class="glboxshadow"}
 
-6. Stick the Fingerbot near the power button of the controlled device, ensuring that its robotic arm can reach the physical power button when pressed.
+6. Kleben Sie den Fingerbot in die Naehe des Einschaltknopfs am gesteuerten Geraet. Stellen Sie sicher, dass sein Roboterarm den physischen Einschaltknopf beim Druecken erreichen kann.
 
     ![install 7](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install7.png){class="glboxshadow"}
 
-7. If the controlled device is a laptop, secure the bracket (comes in the box) near the power button and tighten it. 
-    
-    Note: Use the bracket only if the power button is located on the side edge.
+7. Wenn das gesteuerte Geraet ein Laptop ist, befestigen Sie die Halterung (im Lieferumfang enthalten) in der Naehe des Einschaltknopfs und ziehen Sie sie fest.
+
+    Hinweis: Verwenden Sie die Halterung nur, wenn sich der Einschaltknopf an der Seitenkante befindet.
 
     ![install 8](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install8.png){class="glboxshadow"}
 
-    Then stick the Fingerbot to the bracket, ensuring that its robotic arm can reach the physical power button when pressed.
+    Kleben Sie anschliessend den Fingerbot auf die Halterung. Stellen Sie sicher, dass sein Roboterarm den physischen Einschaltknopf beim Druecken erreichen kann.
 
     ![install 9](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install9.png){class="glboxshadow"}
 
-8. The installation is complete. As shown below, the Fingerbot's robotic arm will touch the power button when pressed, enabling remote control of the power supply.
-    
+8. Die Installation ist abgeschlossen. Wie unten gezeigt, beruehrt der Roboterarm des Fingerbot beim Druecken den Einschaltknopf und ermoeglicht so die Fernsteuerung der Stromversorgung.
+
     ![install 10](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install10.jpg){class="glboxshadow"}
 
-## Setup
+## Einrichtung
 
-1. Log in to GL.iNet KVM console.
+1. Melden Sie sich bei der GL.iNet KVM-Konsole an.
 
-2. On the KVM console, navigate to **Accessories**. You can achieve different effects by adjusting the pressing duration and intensity.
+2. Navigieren Sie in der KVM-Konsole zu **Accessories**. Durch Anpassen von Druckdauer und Druckstaerke koennen Sie unterschiedliche Effekte erzielen.
 
     ![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/accessories.jpg){class="glboxshadow"}
 
-    **Note**: Accessory settings are only displayed after installation.
+    **Hinweis**: Die Zubehoer-Einstellungen werden erst nach der Installation angezeigt.
 
-    - Time: The duration for which the Fingerbot presses.
+    - Time: Dauer, fuer die der Fingerbot drueckt.
 
-    - Strength: Two levels of pressing strength are provided: Light Press mode and Hard Press mode.
+    - Strength: Es stehen zwei Druckstaerken zur Verfuegung: Light Press Mode und Hard Press Mode.
 
-        - Light Press Mode: Perfect for short or soft-touch buttons.
-        
-        - Hard Press Mode: Ideal for deep or firm buttons.
+        - Light Press Mode: Geeignet fuer kurze oder leichtgaengige Tasten.
+
+        - Hard Press Mode: Geeignet fuer tiefe oder schwergangige Tasten.
 
         ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}
 
-        You can also use the **Test Button** (inside Fingerbot, visible after removing the top cover) to find your preferred pressing level:
+        Sie koennen auch den **Test Button** verwenden (im Fingerbot, nach Entfernen der oberen Abdeckung sichtbar), um die passende Druckstufe zu finden:
 
         ![test button](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/test-button.png){class="glboxshadow"}
 
-        1. Press for the first time: Fingerbot extends to Light Press.
+        1. Erstes Druecken: Fingerbot faehrt bis Light Press aus.
 
-        2. Press for the second time: Fingerbot extends to Hard Press.
+        2. Zweites Druecken: Fingerbot faehrt bis Hard Press aus.
 
-        3. Press for the third time: Fingerbot retracts.
+        3. Drittes Druecken: Fingerbot faehrt zurueck.
 
 ## FAQ
 
-**Q1. What protocol does the USB receiver of the GL-Fingerbot use?**
+**F1. Welches Protokoll verwendet der USB-Empfaenger des GL-Fingerbot?**
 
-A1. It uses Bluetooth protocol.
-
----
-
-**Q2. Is the Fingerbot body paired with the USB Bluetooth receiver? If my USB Bluetooth receiver gets lost, can I use another one?**
-
-A2. The Fingerbot and its USB Bluetooth receiver are uniquely paired. Other receivers cannot be used with the Fingerbot due to binding.
+A1. Er verwendet das Bluetooth-Protokoll.
 
 ---
 
-**Q3. Is GL-Fingerbot compatible with non-GL.iNet KVM devices?**
+**F2. Ist der Fingerbot selbst mit dem USB-Bluetooth-Empfaenger gekoppelt? Kann ich einen anderen Empfaenger verwenden, wenn mein USB-Bluetooth-Empfaenger verloren geht?**
 
-A3. No. GL-Fingerbot is an optional accessory for GL.iNet KVM devices. It should be used in conjunction with GL.iNet KVM.
+A2. Der Fingerbot und sein USB-Bluetooth-Empfaenger sind eindeutig gekoppelt. Andere Empfaenger koennen aufgrund der Bindung nicht mit dem Fingerbot verwendet werden.
 
 ---
 
-**Q4. Can I use a single GL.iNet KVM to control multiple Fingerbots?**
+**F3. Ist GL-Fingerbot mit KVM-Geraeten anderer Hersteller kompatibel?**
 
-A4. The following GL.iNet KVMs can only control one Fingerbot.
+A3. Nein. GL-Fingerbot ist ein optionales Zubehoer fuer GL.iNet KVM-Geraete. Er sollte zusammen mit einem GL.iNet KVM verwendet werden.
+
+---
+
+**F4. Kann ich mit einem einzelnen GL.iNet KVM mehrere Fingerbots steuern?**
+
+A4. Die folgenden GL.iNet KVMs koennen nur einen Fingerbot steuern.
 
 * Comet (GL-RM1)
 * Comet PoE (GL-RM1PE)
 * Comet Pro (GL-RM10)
 * Comet 5G (GL-RM10RC)
 
-However, Comet X (GL-RM4PE) supports up to four Fingerbots simultaneously. Comet X provides four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
+Comet X (GL-RM4PE) unterstuetzt jedoch bis zu vier Fingerbots gleichzeitig. Comet X stellt auf der Rueckseite vier unabhaengige Kanaele bereit. Jeder Kanal verfuegt ueber einen HDMI-Anschluss fuer die Videosignaluebertragung, einen Type-C-Anschluss fuer Tastatur- und Maussignale sowie einen USB-2.0-Anschluss fuer USB-Peripheriegeraete (z. B. Fingerbot oder ATX Board).
 
-**Note**: Comet Q (GL-RMQ1) does not work with Fingerbot.
+**Hinweis**: Comet Q (GL-RMQ1) funktioniert nicht mit Fingerbot.
 
 ---
 
-**Q5. What does the Add-on for? How to use it?**
+**F5. Wofuer ist das Add-on vorgesehen? Wie wird es verwendet?**
 
-A5. The Add-on is designed to control regular power switch, such as a light switch. The Fingerbot's finger points to one side of the switch, while the Add-on attaches to the other side. When the Fingerbot presses down, it turns the switch on; when it pulls back, it turns the switch off.
+A5. Das Add-on ist fuer die Steuerung herkoemmlicher Schalter, z. B. Lichtschalter, vorgesehen. Der Finger des Fingerbot zeigt auf eine Seite des Schalters, waehrend das Add-on an der anderen Seite angebracht wird. Wenn der Fingerbot nach unten drueckt, schaltet er den Schalter ein. Wenn er zurueckzieht, schaltet er den Schalter aus.
 
-However, Fingerbot can currently only be used with a GL.iNet KVM device. Find the USB Bluetooth receiver inside Fingerbot, insert it into the USB port of the GL.iNet KVM, and you’ll be able to control Fingerbot through a GL.iNet KVM remotely.
+Derzeit kann Fingerbot jedoch nur mit einem GL.iNet KVM-Geraet verwendet werden. Nehmen Sie den USB-Bluetooth-Empfaenger aus dem Fingerbot, stecken Sie ihn in den USB-Anschluss des GL.iNet KVM, und Sie koennen Fingerbot aus der Ferne ueber ein GL.iNet KVM steuern.
 
 ---
 

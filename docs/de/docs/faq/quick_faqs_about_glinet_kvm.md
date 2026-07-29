@@ -1,132 +1,132 @@
-# Quick FAQs about GL.iNet KVM
+# Kurze FAQs zu GL.iNet KVM
 
-This is a brief Q&A collection for GL.iNet KVM, designed to provide quick answers to some common basic questions.
+Dies ist eine kurze Q&A-Sammlung zu GL.iNet KVM mit schnellen Antworten auf häufige grundlegende Fragen.
 
-## Basic Information
+## Grundlegende Informationen
 
-**Q1. What devices can GL.iNet KVM control?**
+**Q1. Welche Geräte kann GL.iNet KVM steuern?**
 
-A1. GL.iNet KVM can control any device that uses HDMI output and USB input, such as laptops, desktops, Raspberry Pi, mini hosts, etc.
+A1. GL.iNet KVM kann jedes Gerät steuern, das HDMI-Ausgabe und USB-Eingabe verwendet, z. B. Laptops, Desktops, Raspberry Pi, Mini-Hosts usw.
 
-In addition, Comet Q (GL-RMQ1) can control any device whose USB‑C port supports DisplayPort Alt Mode for video output; no HDMI port is required. This includes, but is not limited to, certain iPhones, iPads, Android phones, MacBooks, Mac minis, and most modern Windows laptops. Click [here](../user_guide/gl-rmq1/product_overview.md#compatibility) for details.
+Zusätzlich kann Comet Q (GL-RMQ1) jedes Gerät steuern, dessen USB-C-Anschluss DisplayPort Alt Mode für die Videoausgabe unterstützt; ein HDMI-Anschluss ist nicht erforderlich. Dazu gehören unter anderem bestimmte iPhones, iPads, Android-Telefone, MacBooks, Mac minis und die meisten modernen Windows-Laptops. Details finden Sie [hier](../user_guide/gl-rmq1/product_overview.md#compatibility).
 
 ---
 
-**Q2. Do I need to install any software to use GL.iNet KVM?**
+**Q2. Muss ich Software installieren, um GL.iNet KVM zu verwenden?**
 
-A2. No software is required to be installed on the controlled device, and it can be Windows, macOS, ChromeOS, Linux, etc.
+A2. Auf dem gesteuerten Gerät muss keine Software installiert werden. Es kann Windows, macOS, ChromeOS, Linux usw. verwenden.
 
-As to the controlling device, whether a software needs to be installed on it depends on the way you want to access the KVM.
+Ob auf dem steuernden Gerät Software installiert werden muss, hängt davon ab, wie Sie auf das KVM zugreifen möchten.
 
 ??? "Nearby Control (for Comet 5G only)"
 
-    **Note**: This method is only available on Comet 5G (GL-RM10RC).
+    **Hinweis**: Diese Methode ist nur auf Comet 5G (GL-RM10RC) verfügbar.
 
-    Comet 5G features Wi-Fi Nearby Control, enabling quick local management without wired connections. Simply switch the Comet 5G's Wi-Fi network mode to AP mode, and it will generate a unique Wi-Fi SSID. Connect to this SSID to securely access the Comet 5G's console. Click [here](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control) for details.
+    Comet 5G bietet Wi-Fi Nearby Control für schnelle lokale Verwaltung ohne kabelgebundene Verbindungen. Schalten Sie den WLAN-Netzwerkmodus des Comet 5G einfach in den AP-Modus. Daraufhin erzeugt das Gerät eine eindeutige WLAN-SSID. Verbinden Sie sich mit dieser SSID, um sicher auf die Konsole des Comet 5G zuzugreifen. Details finden Sie [hier](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control).
 
-    Activating the AP mode disconnects the Comet 5G from its upstream Wi-Fi and provides nearby access only (with no internet connectivity).
+    Durch Aktivieren des AP-Modus wird Comet 5G von seinem vorgelagerten WLAN getrennt und stellt nur Zugriff in der Nähe bereit, ohne Internetverbindung.
 
 ??? "Local Control (for Comet X only)"
 
-    **Note**: This method is only available on Comet X (GL-RM4PE).
+    **Hinweis**: Diese Methode ist nur auf Comet X (GL-RM4PE) verfügbar.
 
-    Comet X provides an HDMI OUT port and two extra USB ports, ideal for local troubleshooting, configuration and OS installation. Simply connect your monitor, mouse and keyboard for plug-and-play local hardware control. Click [here](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control) for details.
+    Comet X bietet einen HDMI OUT-Anschluss und zwei zusätzliche USB-Anschlüsse und eignet sich damit gut für lokale Fehlerbehebung, Konfiguration und Betriebssysteminstallation. Schließen Sie einfach Monitor, Maus und Tastatur an, um lokale Plug-and-play-Hardwaresteuerung zu nutzen. Details finden Sie [hier](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control).
 
 ??? "LAN Access"
 
-    If you want to access KVM over the same local area network (LAN), no software needs to be installed on the controlling device.
+    Wenn Sie über dasselbe lokale Netzwerk (LAN) auf KVM zugreifen möchten, muss auf dem steuernden Gerät keine Software installiert werden.
 
-    Simply open a browser on the controlling device, enter either the KVM's IP address or `glkvm.local` in the address bar to access KVM locally.
-    
-    Click [here](local_access_via_browser.md){target="_blank"} for details.
-    
+    Öffnen Sie einfach einen Browser auf dem steuernden Gerät und geben Sie entweder die IP-Adresse des KVM oder `glkvm.local` in die Adressleiste ein, um lokal auf KVM zuzugreifen.
+
+    Details finden Sie [hier](local_access_via_browser.md){target="_blank"}.
+
 ??? "Remote Access"
 
     - **GLKVM App**
-    
-        If your controlling device runs Windows, macOS, Android, or iOS, you can install the [GLKVM app](https://www.gl-inet.com/app-rm/){target="_blank"} on it and access your KVM remotely, thus accessing the controlled device.
-        
-        Click [here](remote_access_via_glkvm_app.md){target="_blank"} for details.
-        
+
+        Wenn auf Ihrem steuernden Gerät Windows, macOS, Android oder iOS läuft, können Sie darauf die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} installieren und remote auf Ihr KVM zugreifen. So können Sie auch auf das gesteuerte Gerät zugreifen.
+
+        Details finden Sie [hier](remote_access_via_glkvm_app.md){target="_blank"}.
+
     - **Cloud Service**
-    
-        This method is ideal for those who cannot or do not want to install the GLKVM app.
 
-        Bind your KVM to the Cloud service, then you can access your KVM remotely by typing `glkvm.com` into a web browser on your controlling device, thus accessing the controlled device, without installing the GLKVM app.
+        Diese Methode ist ideal, wenn Sie die GLKVM App nicht installieren können oder nicht verwenden möchten.
 
-        Click [here](remote_access_via_cloud.md){target="_blank"} for details.
-    
+        Binden Sie Ihr KVM an den Cloud-Dienst. Danach können Sie auf dem steuernden Gerät in einem Webbrowser `glkvm.com` eingeben, um ohne Installation der GLKVM App remote auf Ihr KVM und damit auf das gesteuerte Gerät zuzugreifen.
+
+        Details finden Sie [hier](remote_access_via_cloud.md){target="_blank"}.
+
     - **Tailscale**
-    
-        This method is suitable for those who cannot or do not want to use the GLKVM app or Cloud service, though it involves more steps.
 
-        Bind your KVM and controlling device to the same Tailscale account, then you can access your KVM remotely by typing the KVM's Tailscale virtual IP into a web browser on your controlling device, thus accessing the controlled device.
-    
-        Click [here](remote_access_via_tailscale.md){target="_blank"} for details.
+        Diese Methode eignet sich, wenn Sie die GLKVM App oder den Cloud-Dienst nicht verwenden können oder nicht verwenden möchten. Sie erfordert jedoch mehr Schritte.
+
+        Binden Sie Ihr KVM und das steuernde Gerät an dasselbe Tailscale-Konto. Danach können Sie auf dem steuernden Gerät die virtuelle Tailscale-IP des KVM in einen Webbrowser eingeben, um remote auf Ihr KVM und damit auf das gesteuerte Gerät zuzugreifen.
+
+        Details finden Sie [hier](remote_access_via_tailscale.md){target="_blank"}.
 
     - **ZeroTier**
-    
-        This method is suitable for those who cannot or do not want to use the GLKVM app or Cloud service, though it involves more steps.
 
-        Join your KVM and controlling device into the same ZeroTier network, then you can access your KVM remotely by typing the KVM's ZeroTier IP into a web browser on your controlling device, thus accessing the controlled device.
-    
-        Click [here](remote_access_via_zerotier.md){target="_blank"} for details.
+        Diese Methode eignet sich, wenn Sie die GLKVM App oder den Cloud-Dienst nicht verwenden können oder nicht verwenden möchten. Sie erfordert jedoch mehr Schritte.
+
+        Fügen Sie Ihr KVM und das steuernde Gerät demselben ZeroTier-Netzwerk hinzu. Danach können Sie auf dem steuernden Gerät die ZeroTier-IP des KVM in einen Webbrowser eingeben, um remote auf Ihr KVM und damit auf das gesteuerte Gerät zuzugreifen.
+
+        Details finden Sie [hier](remote_access_via_zerotier.md){target="_blank"}.
 
     - **NetBird**
 
-        This method is suitable for those who cannot or do not want to use the GLKVM app or Cloud service, though it involves more steps.
+        Diese Methode eignet sich, wenn Sie die GLKVM App oder den Cloud-Dienst nicht verwenden können oder nicht verwenden möchten. Sie erfordert jedoch mehr Schritte.
 
-        [NetBird](https://netbird.io/){target="_blank"} is an open-source zero trust networking platform that lets you build secure private networks for home and business use. As a WireGuard®-based overlay network, NetBird enables secure access to your devices anytime and anywhere.
-        
-        GL.iNet KVM integrates NetBird, allowing you to bind it to the NetBird virtual network for remote access. 
+        [NetBird](https://netbird.io/){target="_blank"} ist eine Open-Source-Zero-Trust-Netzwerkplattform, mit der Sie sichere private Netzwerke für den privaten und geschäftlichen Einsatz erstellen können. Als WireGuard®-basiertes Overlay-Netzwerk ermöglicht NetBird jederzeit und überall sicheren Zugriff auf Ihre Geräte.
 
-        Click [here](remote_access_via_netbird.md){target="_blank"} for details.
+        GL.iNet KVM integriert NetBird, sodass Sie es für den Fernzugriff an das virtuelle NetBird-Netzwerk binden können.
+
+        Details finden Sie [hier](remote_access_via_netbird.md){target="_blank"}.
 
 ---
 
-**Q3. How do I access GL.iNet KVM?**
+**Q3. Wie greife ich auf GL.iNet KVM zu?**
 
-A3. Generally, you can access GL.iNet KVM either locally or remotely through different ways:
+A3. Grundsätzlich können Sie auf GL.iNet KVM lokal oder remote über verschiedene Wege zugreifen:
 
-- [LAN access via web browser](local_access_via_browser.md){target="_blank"}
-- [Remote access via Cloud service](remote_access_via_cloud.md){target="_blank"}
-- [Remote access via GLKVM app](remote_access_via_glkvm_app.md){target="_blank"}
-- [Remote access via Tailscale](remote_access_via_tailscale.md){target="_blank"}
-- [Remote access via ZeroTier](remote_access_via_zerotier.md){target="_blank"}
-- [Remote access via NetBird](remote_access_via_netbird.md){target="_blank"}
+- [LAN-Zugriff per Webbrowser](local_access_via_browser.md){target="_blank"}
+- [Fernzugriff über Cloud-Dienst](remote_access_via_cloud.md){target="_blank"}
+- [Fernzugriff über GLKVM App](remote_access_via_glkvm_app.md){target="_blank"}
+- [Fernzugriff über Tailscale](remote_access_via_tailscale.md){target="_blank"}
+- [Fernzugriff über ZeroTier](remote_access_via_zerotier.md){target="_blank"}
+- [Fernzugriff über NetBird](remote_access_via_netbird.md){target="_blank"}
 
-Besides, some GL.iNet KVM models support Nearby Control or Local Control, allowing you to access them on site without connecting to any other router. 
+Außerdem unterstützen einige GL.iNet KVM-Modelle Nearby Control oder Local Control, sodass Sie vor Ort auf sie zugreifen können, ohne eine Verbindung zu einem anderen Router herzustellen.
 
 - [Nearby Control (for Comet 5G only)](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control){target="_blank"}
 - [Local Control (for Comet X only)](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control){target="_blank"}
 
 ---
 
-**Q4. Do I need to open ports (exposed to WAN) for GL.iNet KVM to achieve remote access?**
+**Q4. Muss ich Ports öffnen (gegenüber WAN freigeben), damit GL.iNet KVM Fernzugriff ermöglicht?**
 
-A4. No. No open ports or even a public IP is needed.
-
----
-
-**Q5. Does GLKVM app support ChromeOS/Linux?**
-
-A5. No. Currently the GLKVM app does not support installation on Chrome or Linux OS. 
-
-If your controlling device runs Chrome/Linux OS, the GLKVM app cannot be installed, thus remote access to controlled device via GLKVM app is not supported.
-
-However, you can use <u> Cloud Service</u>, <u>Tailscale</u>, <u>ZeroTier</u>, or <u>NetBird</u> to achieve remote access. See Q3 above for details.
-
-Alternatively, you can access the KVM locally via a web browser. See Q3 above for details.
+A4. Nein. Es werden keine offenen Ports und nicht einmal eine öffentliche IP benötigt.
 
 ---
 
-**Q7. Can Comet (GL-RM1) connect to wireless network?**
+**Q5. Unterstützt die GLKVM App ChromeOS/Linux?**
 
-A7. No. Comet (GL-RM1) does not support wireless network connection.
+A5. Nein. Derzeit unterstützt die GLKVM App keine Installation auf ChromeOS oder Linux OS.
 
-It needs to be connected to a network device (e.g., a router) via an Ethernet cable for Internet access.
+Wenn auf Ihrem steuernden Gerät ChromeOS/Linux OS läuft, kann die GLKVM App nicht installiert werden. Fernzugriff auf das gesteuerte Gerät über die GLKVM App wird daher nicht unterstützt.
 
-If you prefer a KVM that supports Wi-Fi, you may consider the following models:
+Sie können jedoch <u> Cloud Service</u>, <u>Tailscale</u>, <u>ZeroTier</u> oder <u>NetBird</u> verwenden, um Fernzugriff zu erreichen. Details finden Sie oben in Q3.
+
+Alternativ können Sie lokal per Webbrowser auf das KVM zugreifen. Details finden Sie oben in Q3.
+
+---
+
+**Q7. Kann Comet (GL-RM1) eine Verbindung zu einem drahtlosen Netzwerk herstellen?**
+
+A7. Nein. Comet (GL-RM1) unterstützt keine drahtlose Netzwerkverbindung.
+
+Für den Internetzugang muss es über ein Ethernet-Kabel mit einem Netzwerkgerät (z. B. einem Router) verbunden werden.
+
+Wenn Sie ein KVM bevorzugen, das WLAN unterstützt, können Sie die folgenden Modelle in Betracht ziehen:
 
 * [Comet Pro (GL-RM10)](https://www.gl-inet.com/products/gl-rm10/){target="_blank"}
 * [Comet 5G (GL-RM10RC)](https://www.gl-inet.com/products/gl-rm10rc/){target="_blank"}
@@ -134,43 +134,43 @@ If you prefer a KVM that supports Wi-Fi, you may consider the following models:
 
 ---
 
-## Power Control
+## Stromsteuerung
 
-**Q1. Can a GL.iNet KVM remotely power the target device on and off?**
+**Q1. Kann ein GL.iNet KVM das Zielgerät remote ein- und ausschalten?**
 
-A1. GL.iNet KVM allows you to remotely power the target device on and off via the methods below:
+A1. GL.iNet KVM ermöglicht das remote Ein- und Ausschalten des Zielgeräts über die folgenden Methoden:
 
-- Wake-on-LAN (Built-in software service)
+- Wake-on-LAN (integrierter Softwaredienst)
 
-- [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (Sold separately; does not work with Comet Q.)
+- [ATX board](../user_guide/gl-atx-board/index.md){target="_blank"} (separat erhältlich; funktioniert nicht mit Comet Q.)
 
-- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (Sold separately; does not work with Comet Q.)
-
----
-
-**Q2. How to use ATX Board for remote power control?**
-
-A2. Please refer to [ATX Board User Guide](../user_guide/gl-atx-board/index.md){target="_blank"}.
+- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (separat erhältlich; funktioniert nicht mit Comet Q.)
 
 ---
 
-## Features
+**Q2. Wie verwende ich ATX Board für Remote-Stromsteuerung?**
+
+A2. Bitte lesen Sie das [ATX Board User Guide](../user_guide/gl-atx-board/index.md){target="_blank"}.
+
+---
+
+## Funktionen
 
 !!! Tip
 
-    Below are FAQs for several common features. Please refer to the corresponding [user guide](../user_guide/index.md) for full feature details.
+    Unten finden Sie FAQs zu mehreren häufig verwendeten Funktionen. Vollständige Funktionsdetails finden Sie im jeweiligen [Benutzerhandbuch](../user_guide/index.md).
 
-**Q1. Do I have to use KVM Cloud Service?**
+**Q1. Muss ich KVM Cloud Service verwenden?**
 
-A1. No. The Cloud Service is optional. 
+A1. Nein. Der Cloud Service ist optional.
 
-If you don't rely on the cloud for remote access, you can use third-party overlay networking tools, such as Tailscale, ZeroTier and NetBird.
+Wenn Sie für Fernzugriff nicht auf die Cloud angewiesen sind, können Sie Drittanbieter-Overlay-Netzwerktools wie Tailscale, ZeroTier und NetBird verwenden.
 
 ---
 
-**Q2. Can I use a single GL.iNet KVM to control multiple devices?**
+**Q2. Kann ich mit einem einzelnen GL.iNet KVM mehrere Geräte steuern?**
 
-A2. The following GL.iNet KVMs can only control one target device:
+A2. Die folgenden GL.iNet KVMs können nur ein Zielgerät steuern:
 
 * Comet (GL-RM1)
 * Comet PoE (GL-RM1PE)
@@ -178,29 +178,29 @@ A2. The following GL.iNet KVMs can only control one target device:
 * Comet 5G (GL-RM10RC)
 * Comet Q (GL-RMQ1)
 
-However, Comet X (GL-RM4PE) can connect to up to four target devices simultaneously, though only one device can be controlled at a time. You can quickly switch between the four connected devices via the physical button on the front panel when on site, or via the remote console when away.
+Comet X (GL-RM4PE) kann jedoch mit bis zu vier Zielgeräten gleichzeitig verbunden werden, wobei jeweils nur ein Gerät gesteuert werden kann. Sie können vor Ort über die physische Taste an der Vorderseite oder unterwegs über die Remote-Konsole schnell zwischen den vier verbundenen Geräten wechseln.
 
-Comet X (GL-RM4PE) features four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
-
----
-
-**Q3. What is Wake-on-Lan?**
-
-A3. Wake-on-LAN (WOL) is a technology that allows a computer or device to be remotely powered on or awakened from a low-power state over a network. It works by sending a "magic packet" containing the target device's MAC address, which triggers the device to start up. Common uses include remote administration, energy-saving standby configurations, and centralized system management.
+Comet X (GL-RM4PE) verfügt auf der Rückseite über vier unabhängige Kanäle. Jeder Kanal besitzt einen HDMI-Anschluss für die Videosignalübertragung, einen Type-C-Anschluss für Tastatur- und Maussignalübertragung und einen USB 2.0-Anschluss für USB-Peripheriegeräte (z. B. Fingerbot oder ATX board).
 
 ---
 
-**Q4. Does GL.iNet KVM support Mouse Jiggle?**
+**Q3. Was ist Wake-on-Lan?**
 
-A4. Yes. You can enable Mouse Jiggle on the KVM console.
-
-The Mouse Jiggler feature simulates subtle, periodic mouse movements to prevent the computer (i.e., the controlled device) from going to sleep due to prolonged inactivity, such as during remote meetings and server management.
+A3. Wake-on-LAN (WOL) ist eine Technologie, mit der ein Computer oder Gerät über ein Netzwerk remote eingeschaltet oder aus einem Energiesparzustand geweckt werden kann. Dazu wird ein "magic packet" mit der MAC-Adresse des Zielgeräts gesendet, wodurch das Gerät gestartet wird. Typische Anwendungen sind Remote-Administration, energiesparende Standby-Konfigurationen und zentrale Systemverwaltung.
 
 ---
 
-**Q5. Does GL.iNet KVM support two-way audio?**
+**Q4. Unterstützt GL.iNet KVM Mouse Jiggle?**
 
-A5. Yes. You can enable Speaker and Microphone on the KVM console to achieve two-way audio transmission.
+A4. Ja. Sie können Mouse Jiggle in der KVM-Konsole aktivieren.
+
+Die Mouse Jiggler-Funktion simuliert unauffällige, regelmäßige Mausbewegungen, um zu verhindern, dass der Computer (also das gesteuerte Gerät) bei längerer Inaktivität in den Ruhezustand wechselt, z. B. während Remote-Meetings oder Serververwaltung.
+
+---
+
+**Q5. Unterstützt GL.iNet KVM Zwei-Wege-Audio?**
+
+A5. Ja. Sie können Speaker und Microphone in der KVM-Konsole aktivieren, um Zwei-Wege-Audioübertragung zu nutzen.
 
 ---
 

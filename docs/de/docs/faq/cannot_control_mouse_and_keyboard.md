@@ -1,53 +1,53 @@
-# What should I do if I cannot control the mouse and keyboard
+# Was tun, wenn Maus und Tastatur nicht gesteuert werden können
 
-If you fail to control the mouse and keyboard on the controlled device through KVM even if all cables are properly connected, here are some suggestions.
+Wenn Sie Maus und Tastatur auf dem gesteuerten Gerät über KVM nicht steuern können, obwohl alle Kabel korrekt angeschlossen sind, helfen möglicherweise die folgenden Schritte.
 
-1. Check the wiring. 
+1. Prüfen Sie die Verkabelung.
 
-    Taking Comet (GL-RM1) as an example. It has two USB Type-C ports:  
+    Beispiel Comet (GL-RM1): Das Gerät hat zwei USB Type-C-Anschlüsse:
 
-    - The one on the side is labeled "5V 2A" for power input (connecting to a power adapter).  
-    - The other on the back has logos for mouse and keyboard, connecting to the controlled device's USB port to receive keyboard and mouse signals. 
+    - Der Anschluss an der Seite ist mit "5V 2A" gekennzeichnet und dient der Stromversorgung (Verbindung mit einem Netzteil).
+    - Der andere Anschluss auf der Rückseite trägt Symbole für Maus und Tastatur. Er wird mit dem USB-Anschluss des gesteuerten Geräts verbunden, um Tastatur- und Maussignale zu übertragen.
 
-    If you mix up these two connections, the KVM device won't start up, and the mouse and keyboard will become unresponsive.
-    
-    Please check if these two Type-C interfaces are connected correctly.
+    Wenn diese beiden Anschlüsse verwechselt werden, startet das KVM-Gerät nicht und Maus sowie Tastatur reagieren nicht.
+
+    Bitte prüfen Sie, ob diese beiden Type-C-Schnittstellen korrekt verbunden sind.
 
     ![gl-rm1 ports](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/gl-rm1-ports.png){class="glboxshadow gl-80-desktop"}
 
-2. Check the USB cable. 
+2. Prüfen Sie das USB-Kabel.
 
-    Use the included USB cable. Ensure it connects the controlled device's USB port to the KVM's USB port and supports data transmission.
+    Verwenden Sie das mitgelieferte USB-Kabel. Stellen Sie sicher, dass es den USB-Anschluss des gesteuerten Geräts mit dem USB-Anschluss des KVM verbindet und Datenübertragung unterstützt.
 
-    Only cables capable of data transfer allow keyboard and mouse control of the remote device.
+    Nur Kabel mit Datenübertragung ermöglichen die Tastatur- und Maussteuerung des entfernten Geräts.
 
-    Reconnect the USB cable and restart the controlled device.
+    Schließen Sie das USB-Kabel erneut an und starten Sie das gesteuerte Gerät neu.
 
-3. Switch the mouse mode to Relative mode. 
+3. Wechseln Sie den Mausmodus in den relativen Modus.
 
-    Log in to your KVM, navigate to Settings -> Mouse Mode, switch it to Relative and check if the problem can be resolved.
+    Melden Sie sich an Ihrem KVM an, navigieren Sie zu Settings -> Mouse Mode, stellen Sie den Modus auf Relative um und prüfen Sie, ob das Problem dadurch behoben wird.
 
     ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/mouse_mode.jpg){class="glboxshadow"}
 
-4. Disable the Virtual Media.
+4. Deaktivieren Sie die virtuellen Medien.
 
-    Log in to your KVM, navigate to Virtual Media, click on the three-dot icon and disable it.
+    Melden Sie sich an Ihrem KVM an, navigieren Sie zu Virtual Media, klicken Sie auf das Drei-Punkte-Symbol und deaktivieren Sie die Funktion.
 
     ![disable virtual media](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/disable_virtual_media.png){class="glboxshadow" width="422"}
 
-    This is because, when virtual media is enabled, KVM can simulate a USB storage drive plugged into the controlled device. However, some devices may disable all USB inputs when they detect an unknown USB storage drive, causing the mouse and keyboard to become unresponsive.
+    Wenn virtuelle Medien aktiviert sind, kann KVM ein am gesteuerten Gerät angeschlossenes USB-Speicherlaufwerk simulieren. Einige Geräte deaktivieren jedoch alle USB-Eingaben, wenn sie ein unbekanntes USB-Speicherlaufwerk erkennen. Dadurch können Maus und Tastatur nicht mehr reagieren.
 
-5. Change the device identity.
+5. Ändern Sie die Geräteidentität.
 
-    Log in to your KVM, navigate to Settings -> System -> Device Identity, and change your KVM's identity recognized by the controlled device.
+    Melden Sie sich an Ihrem KVM an, navigieren Sie zu Settings -> System -> Device Identity und ändern Sie die Identität, unter der Ihr KVM vom gesteuerten Gerät erkannt wird.
 
     ![change device identity](https://static.gl-inet.com/docs/kvm/faq/cannot_control_mouse/change_device_identity.png){class="glboxshadow"}
 
-6. Upgrade the KVM's firmware to the latest version. [KVM Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"}
+6. Aktualisieren Sie die Firmware des KVM auf die neueste Version. [KVM Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"}
 
-7. Check the Device Manager on the controlled computer for any malfunctioning drivers.
+7. Prüfen Sie im Geräte-Manager des gesteuerten Computers, ob Treiber fehlerhaft sind.
 
-8. Check if the controlled device is blocked by IT security software.
+8. Prüfen Sie, ob das gesteuerte Gerät durch IT-Sicherheitssoftware blockiert wird.
 
 ---
 

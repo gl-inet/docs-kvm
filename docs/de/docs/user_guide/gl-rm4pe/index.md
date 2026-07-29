@@ -1,10 +1,10 @@
-# Comet X (GL-RM4PE) User Guide
+# Comet X (GL-RM4PE) Benutzerhandbuch
 
-Comet X is a quad-port remote KVM with PoE support that connects to up to 4 servers in your rack. Once set up, you can control all connected devices from anywhere via a browser or app, delivering smooth 4K@30fps video without extra software. Its built-in 3.69 inch touchscreen lets you check IP addresses, online status, and active sessions at a glance. It simplifies deployment with PoE power, reducing cable clutter in your server environment. The 64GB eMMC storage also acts as a built-in repository for ISO files, enabling easy OS deployment and emergency recovery.
+Comet X ist ein Remote-KVM mit vier Ports und PoE-Unterstuetzung, das bis zu 4 Server in Ihrem Rack verbindet. Nach der Einrichtung koennen Sie alle angeschlossenen Geraete von ueberall aus per Browser oder App steuern und erhalten fluessiges 4K@30FPS-Video ohne zusaetzliche Software. Der integrierte 3,69-Zoll-Touchscreen zeigt IP-Adressen, Online-Status und aktive Sitzungen auf einen Blick. Die PoE-Stromversorgung vereinfacht die Bereitstellung und reduziert Kabelaufwand in Ihrer Serverumgebung. Der 64-GB-eMMC-Speicher dient ausserdem als integriertes Repository fuer ISO-Dateien und erleichtert OS-Bereitstellung sowie Notfallwiederherstellung.
 
 ![comet x scene server](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/gl-rm4pe_scene_server.png){class="glboxshadow"}
 
-- [Product Overview](product_overview.md)
-- [Quick Setup](quick_setup_guide.md)
-- [Console Guide](console_guide.md)
-- [FCC & IC Compliance Statements](fcc_ic_compliance_statements.md)
+- [Produktuebersicht](product_overview.md)
+- [Schnellstart](quick_setup_guide.md)
+- [Konsolenhandbuch](console_guide.md)
+- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)

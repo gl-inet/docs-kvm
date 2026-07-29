@@ -1,46 +1,46 @@
-# What is the difference between Absolute mouse and Relative mouse
+# Was ist der Unterschied zwischen absolutem und relativem Mausmodus
 
-For the GL.iNet KVM, the **Mouse Mode** on the console provides two options: **Absolute** and **Relative**. These two modes differ significantly in mouse control behavior, applicable scenarios, and user experience, which are detailed as follows to help you choose the appropriate mode based on your actual needs.
+Beim GL.iNet KVM bietet der **Mouse Mode** in der Konsole zwei Optionen: **Absolute** und **Relative**. Diese beiden Modi unterscheiden sich deutlich im Verhalten der Maussteuerung, in den Einsatzszenarien und in der Bedienerfahrung. Die folgenden Erläuterungen helfen Ihnen, den passenden Modus für Ihren Bedarf auszuwählen.
 
 ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/mouse_mode.jpg){class="glboxshadow"}
 
-## Absolute Mouse
+## Absoluter Mausmodus
 
-Absolute Mode is designed to achieve seamless and synchronized mouse control between the local computer and the target device. When this mode is enabled, the mouse cursors on both the local computer and the target device are mapped to the same coordinate system. You can smoothly and seamlessly move the local mouse cursor across the KVM console and the remote screen — the remote cursor will follow the local cursor's movement in real time.
+Der absolute Mausmodus ist für eine nahtlose und synchronisierte Maussteuerung zwischen lokalem Computer und Zielgerät ausgelegt. Wenn dieser Modus aktiviert ist, werden die Mauszeiger auf dem lokalen Computer und auf dem Zielgerät demselben Koordinatensystem zugeordnet. Sie können den lokalen Mauszeiger flüssig über die KVM-Konsole und den Remote-Bildschirm bewegen. Der Remote-Zeiger folgt der Bewegung des lokalen Zeigers in Echtzeit.
 
-A minor delay may occur during use, which is a normal phenomenon caused by network transmission and video encoding. This delay will make the remote cursor slightly slower than the local one, but it will not affect the overall smoothness of operation.
+Während der Nutzung kann eine geringe Verzögerung auftreten. Das ist normal und wird durch Netzwerkübertragung und Videocodierung verursacht. Diese Verzögerung lässt den Remote-Zeiger etwas langsamer reagieren als den lokalen Zeiger, beeinträchtigt die grundsätzliche Bedienung aber nicht.
 
 ![absolute](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/absolute.gif)
 
-## Relative Mouse
+## Relativer Mausmodus
 
-Unlike Absolute Mode, Relative Mode does not synchronize the coordinates of the local and remote mouse cursors; they operate in separate layers. Before you can control the target device, you must first click within the remote window to capture the cursor focus.
+Anders als der absolute Mausmodus synchronisiert der relative Mausmodus die Koordinaten des lokalen und des entfernten Mauszeigers nicht; beide arbeiten in getrennten Ebenen. Bevor Sie das Zielgerät steuern können, müssen Sie zuerst in das Remote-Fenster klicken, um den Zeigerfokus zu erfassen.
 
-While in this mode, the remote cursor is "confined" to the remote window and cannot move fluidly across the boundary to your local desktop. The edges of the remote window act as a barrier, trapping the cursor within the controlled environment. To release the cursor and regain control of your local computer, simply press the `Esc` key.
+In diesem Modus ist der Remote-Zeiger auf das Remote-Fenster beschränkt und kann nicht fließend über dessen Rand auf Ihren lokalen Desktop bewegt werden. Die Ränder des Remote-Fensters wirken als Begrenzung und halten den Zeiger innerhalb der gesteuerten Umgebung. Um den Zeiger freizugeben und wieder die Kontrolle über Ihren lokalen Computer zu erhalten, drücken Sie einfach die Taste `Esc`.
 
 ![relative](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/relative.gif)
 
-In Relative mode, you can adjust the **Relative Sensitivity**, which ranges from 0.1 to 2.0.
+Im relativen Modus können Sie die **Relative Sensitivity** im Bereich von 0.1 bis 2.0 anpassen.
 
 ![relative sensitivity](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/relative_sensitivity.jpg){class="glboxshadow"}
 
-## Key Differences
+## Wichtige Unterschiede
 
-| Features             | Absolute Mouse                 | Relative Mouse                 |
+| Funktionen           | Absolute Mouse                 | Relative Mouse                 |
 | -------------------- | ------------------------------ | -----------------------------  |
-| Cursor Coordination  | Local and remote cursors are synchronized (same coordinate system) | Local and remote cursors are in separate layers (no coordinate synchronization) |
-| Control Operation    | No need to click to obtain focus; seamless cross‑screen movement | Must click the remote screen to get focus; cannot move cross‑screen seamlessly |
-| Delay                | Slight delay (network/video encoding) | Almost no delay (only sends movement increments) |
-| Applicable Scenarios | Smooth multi‑screen control, frequent switching, precise positioning (remote office, graphic design) | Old devices / BIOS / UEFI that do not support Absolute Mouse mode; avoiding accidental clicks; unstable networks (lower latency) |
+| Zeigerkoordination   | Lokaler und entfernter Zeiger sind synchronisiert (gleiches Koordinatensystem) | Lokaler und entfernter Zeiger befinden sich in getrennten Ebenen (keine Koordinatensynchronisierung) |
+| Bedienung            | Kein Klick zum Erfassen des Fokus erforderlich; nahtlose Bewegung über Bildschirmgrenzen hinweg | Remote-Bildschirm muss angeklickt werden, um den Fokus zu erhalten; keine nahtlose Bewegung über Bildschirmgrenzen hinweg |
+| Verzögerung          | Geringe Verzögerung (Netzwerk/Videocodierung) | Nahezu keine Verzögerung (sendet nur Bewegungsinkremente) |
+| Einsatzszenarien     | Flüssige Multi-Screen-Steuerung, häufiges Wechseln, präzise Positionierung (Remote-Arbeit, Grafikdesign) | Ältere Geräte / BIOS / UEFI ohne Unterstützung für Absolute Mouse; Vermeidung versehentlicher Klicks; instabile Netzwerke (geringere Latenz) |
 
-## Summary
+## Zusammenfassung
 
-Absolute Mouse prioritizes a smooth and integrated control experience, while Relative Mouse focuses on compatibility and stability. 
+Absolute Mouse priorisiert eine flüssige und integrierte Steuerung, während Relative Mouse auf Kompatibilität und Stabilität ausgelegt ist.
 
-For most daily remote control scenarios of the GL.iNet KVM, Absolute Mode is the recommended default option; Relative Mode can be selected when encountering compatibility issues or special operation needs.
+Für die meisten alltäglichen Fernsteuerungsszenarien mit GL.iNet KVM ist Absolute Mode die empfohlene Standardeinstellung. Relative Mode kann gewählt werden, wenn Kompatibilitätsprobleme auftreten oder besondere Bedienanforderungen bestehen.
 
-- Use **Absolute Mouse** for smooth daily remote control.
-- Use **Relative Mouse** for BIOS access, older devices that do not support absolute positioning, or to avoid accidental clicks.
+- Verwenden Sie **Absolute Mouse** für eine flüssige tägliche Fernsteuerung.
+- Verwenden Sie **Relative Mouse** für BIOS-Zugriff, ältere Geräte ohne Unterstützung für absolute Positionierung oder zur Vermeidung versehentlicher Klicks.
 
 ---
 

@@ -1,54 +1,54 @@
-# Privacy error when accessing KVM via browser
+# Datenschutzwarnung beim Zugriff auf KVM per Browser
 
-When accessing the GL.iNet KVM via browser, you may encounter a browser alert: **Your connection isn't private**.
+Beim Zugriff auf das GL.iNet KVM per Browser kann eine Browserwarnung angezeigt werden: **Your connection isn't private**.
 
 ![privacy error](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/privacy_error_1.png){class="glboxshadow"}
 
-This is a standard security warning that browsers issue when they detect a website lacking an SSL/TLS certificate, as HTTPS connections rely on certificates to verify server identity and encrypt data.
+Dies ist eine übliche Sicherheitswarnung, die Browser anzeigen, wenn sie eine Website ohne SSL/TLS-Zertifikat erkennen. HTTPS-Verbindungen verwenden Zertifikate, um die Serveridentität zu prüfen und Daten zu verschlüsseln.
 
-## Why do I get this warning?
+## Warum wird diese Warnung angezeigt?
 
-In the example above, **192.168.8.11** is the KVM local IP address dynamically assigned by the upper router via DHCP. 
+Im obigen Beispiel ist **192.168.8.11** die lokale IP-Adresse des KVM, die vom vorgeschalteten Router dynamisch per DHCP zugewiesen wurde.
 
 !!! Note
 
-    If the gateway of your router that your GL.iNet KVM is connected to is "192.168.x.1" (where x is typically 0, 1, or 8 in private networks), the local IP of your KVM should be "192.168.x.y" (where y is a valid host address in the subnet).
+    Wenn das Gateway des Routers, mit dem Ihr GL.iNet KVM verbunden ist, "192.168.x.1" lautet (wobei x in privaten Netzwerken typischerweise 0, 1 oder 8 ist), sollte die lokale IP Ihres KVM "192.168.x.y" lauten (wobei y eine gültige Hostadresse im Subnetz ist).
 
-This local IP address is used to access the GL.iNet KVM console, instead of a public website.
+Diese lokale IP-Adresse wird verwendet, um auf die GL.iNet KVM-Konsole zuzugreifen, nicht auf eine öffentliche Website.
 
-However, browsers usually do not distinguish between local console and normal public websites; they treat all IP addresses as websites and expect HTTPS connections to be secured by SSL/TLS certificates.
+Browser unterscheiden jedoch normalerweise nicht zwischen einer lokalen Konsole und normalen öffentlichen Websites. Sie behandeln alle IP-Adressen als Websites und erwarten, dass HTTPS-Verbindungen durch SSL/TLS-Zertifikate abgesichert sind.
 
-A genuinely secure website uses an SSL/TLS certificate, so when browsers access a local console (which does not have a certificate), they trigger a security alert due to the missing certificate.
+Eine tatsächlich sichere Website verwendet ein SSL/TLS-Zertifikat. Wenn Browser daher auf eine lokale Konsole ohne Zertifikat zugreifen, lösen sie wegen des fehlenden Zertifikats eine Sicherheitswarnung aus.
 
-## How to resolve the warning?
+## Wie lässt sich die Warnung beheben?
 
-Click **Advanced** and **Continue to "192.168.8.11"**.
+Klicken Sie auf **Advanced** und **Continue to "192.168.8.11"**.
 
 ![Continue to 192.168.8.11](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/privacy_error_2.jpg){class="glboxshadow"}
 
-Then you will be redirected to the GL.iNet KVM console.
+Danach werden Sie zur GL.iNet KVM-Konsole weitergeleitet.
 
 ![local access to kvm admin](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/local_access.png){class="glboxshadow"}
 
-## Can I use my own certificate?
+## Kann ich mein eigenes Zertifikat verwenden?
 
-Yes. You may install and use your own SSL/TLS certificate on the KVM. Follow the steps below.
+Ja. Sie können auf dem KVM Ihr eigenes SSL/TLS-Zertifikat installieren und verwenden. Führen Sie die folgenden Schritte aus.
 
-1. Apply for an SSL/TLS certificate or use a self-signed one.
+1. Beantragen Sie ein SSL/TLS-Zertifikat oder verwenden Sie ein selbstsigniertes Zertifikat.
 
-2. Log in to your KVM console. Click the shield icon in the upper right corner to go to **Security** -> **TLS Certificate**.
+2. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie oben rechts auf das Schildsymbol, um zu **Security** -> **TLS Certificate** zu wechseln.
 
     ![custom cert 1](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/custom_cert1.png){class="glboxshadow"}
 
-    In the pop-up window, select **Custom Certificate**, then upload your certificate file and private key. This feature has been available since firmware v1.8.0.
+    Wählen Sie im Popup-Fenster **Custom Certificate** aus und laden Sie anschließend Ihre Zertifikatsdatei und den privaten Schlüssel hoch. Diese Funktion ist seit Firmware v1.8.0 verfügbar.
 
     ![custom cert 2](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/custom_cert2.png){class="glboxshadow"}
 
-    Alternatively, you can edit configuration files on the KVM via SSH terminal or WinSCP. The auto-generated certificate and key are stored in the following path:
+    Alternativ können Sie die Konfigurationsdateien auf dem KVM per SSH-Terminal oder WinSCP bearbeiten. Das automatisch erzeugte Zertifikat und der Schlüssel werden unter folgendem Pfad gespeichert:
 
     `/etc/kvmd/user/ssl`
 
-    Replace them with your new SSL certificate and private key.
+    Ersetzen Sie sie durch Ihr neues SSL-Zertifikat und Ihren privaten Schlüssel.
 
 ---
 

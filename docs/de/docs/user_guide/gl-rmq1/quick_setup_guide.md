@@ -1,199 +1,199 @@
-# Comet Q (GL-RMQ1) Quick Setup
+# Comet Q (GL-RMQ1) Schnellstart
 
-## Connect Devices
+## Geraete verbinden
 
-For clarity, Device A refers to the controlling device, and Device B the controlled device.
+Zur besseren Verstaendlichkeit bezeichnet Geraet A das steuernde Geraet und Geraet B das gesteuerte Geraet.
 
 ![connect 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect1.png){class="glboxshadow"}
 
-1. Connect the Comet Q's Type-C cable to the Type-C port on Device B.
+1. Verbinden Sie das Type-C-Kabel des Comet Q mit dem Type-C-Anschluss von Geraet B.
 
     ![connect 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect2.png){class="glboxshadow"}
 
-2. If Device B is a touchscreen mobile device such as a smartphone or tablet, enable accessibility controls first. This allows Comet Q to operate the touchscreen.
+2. Wenn Geraet B ein mobiles Touchscreen-Geraet wie ein Smartphone oder Tablet ist, aktivieren Sie zuerst die Bedienungshilfen. Dadurch kann Comet Q den Touchscreen bedienen.
 
-    - iOS: **Settings** > **Accessibility** > **Touch** > Enable **AssistiveTouch**.
+    - iOS: **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** aktivieren.
 
-    - Android: Search for **Mouse** or **Accessibility** in Settings. Menu paths vary by device brand and model.
+    - Android: Suchen Sie in den Einstellungen nach **Mouse** oder **Accessibility**. Die Menuepfade unterscheiden sich je nach Geraetemarke und Modell.
 
     ![connect 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect3.png){class="glboxshadow" width="600"}
 
-3. Follow the on-screen instructions to complete the initial setup. See [here](../gl-rmq1/product_overview.md#touchscreen) for details.
+3. Folgen Sie den Anweisungen auf dem Bildschirm, um die Ersteinrichtung abzuschliessen. Details finden Sie [hier](../gl-rmq1/product_overview.md#touchscreen).
 
     ![connect 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect4.png){class="glboxshadow"}
 
-## Local Access
+## Lokaler Zugriff
 
-There are two ways to access Comet Q on the local network: via domain name or IP address.
+Es gibt zwei Moeglichkeiten, im lokalen Netzwerk auf Comet Q zuzugreifen: ueber den Domainnamen oder ueber die IP-Adresse.
 
-Before accessing, ensure your controlling device is on the same LAN as Comet Q.
+Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LAN wie Comet Q befindet.
 
 ### Domain
 
-1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
+1. Oeffnen Sie auf dem steuernden Geraet einen Browser. Fuer bessere Kompatibilitaet werden Chrome oder Edge empfohlen.
 
-2. Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+2. Geben Sie `glkvm.local` in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie das Admin-Passwort ein.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-    **Note**: You will need to set up your admin password when accessing for the first time.
+    **Hinweis**: Beim ersten Zugriff muessen Sie Ihr Admin-Passwort einrichten.
 
-3. You can then access the Comet Q's console locally and gain access to the controlled device.
+3. Danach koennen Sie lokal auf die Konsole des Comet Q und auf das gesteuerte Geraet zugreifen.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP address
+### IP-Adresse
 
-1. Connect Comet Q to a Wi-Fi network and find its IP address on the touchscreen. In this example, the Comet Q's IP address is `192.168.8.197`.
+1. Verbinden Sie Comet Q mit einem WLAN-Netzwerk und suchen Sie die IP-Adresse auf dem Touchscreen. In diesem Beispiel lautet die IP-Adresse des Comet Q `192.168.8.197`.
 
-2. Launch a browser and enter this IP in the address bar. You will be directed to the GLKVM login page. Enter the admin password.
+2. Oeffnen Sie einen Browser und geben Sie diese IP-Adresse in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie das Admin-Passwort ein.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_1.jpg){class="glboxshadow"}
 
-    **Note**: You will need to set up your admin password when accessing for the first time.
+    **Hinweis**: Beim ersten Zugriff muessen Sie Ihr Admin-Passwort einrichten.
 
-3. You can then access the Comet Q's console locally and gain access to the controlled device.
+3. Danach koennen Sie lokal auf die Konsole des Comet Q und auf das gesteuerte Geraet zugreifen.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Remote Access
+## Fernzugriff
 
-There are multiple ways to access Comet Q remotely: via Cloud service, GLKVM App, Tailscale, and ZeroTier.
+Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet Q zuzugreifen: ueber den Cloud-Dienst, die GLKVM App, Tailscale und ZeroTier.
 
-### Cloud service
+### Cloud-Dienst
 
-1. Bind your device to KVM Cloud. This needs to be done on the local network. 
+1. Binden Sie Ihr Geraet an die KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
-    There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding. Here we take Regular Binding as an example. If you prefer Dynamic Code Binding, click [here](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} for details.
+    Es gibt zwei Moeglichkeiten, Ihr KVM mit der Cloud zu binden: Regular Binding oder Dynamic Code Binding. Hier verwenden wir Regular Binding als Beispiel. Wenn Sie Dynamic Code Binding bevorzugen, finden Sie [hier](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} weitere Informationen.
 
-    First, locally access your Comet Q and navigate to **Cloud Service** in the upper right corner. Click **Bind To Cloud**.
+    Greifen Sie zuerst lokal auf Ihren Comet Q zu und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To Cloud**.
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
-    You will be redirected to a login page. Log in with your glinet cloud account. 
+    Sie werden zu einer Anmeldeseite weitergeleitet. Melden Sie sich mit Ihrem glinet Cloud-Konto an.
 
     ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow"}
 
-    Second, confirm your device info, and click **Bind**.
+    Bestaetigen Sie anschliessend die Geraeteinformationen und klicken Sie auf **Bind**.
 
     ![bind device confirm](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_2.png){class="glboxshadow"}
 
-    Wait a second and your Comet Q will be bound to your account successfully. Click **Done**.
+    Warten Sie einen Moment, bis Ihr Comet Q erfolgreich mit Ihrem Konto gebunden wurde. Klicken Sie auf **Done**.
 
     ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow"}
 
-2. Remote access via Cloud service.
+2. Fernzugriff ueber den Cloud-Dienst.
 
-    Open a browser (take Google Chrome as an example), and enter `glkvm.com` in the address bar. You will see a login page. Use your glinet account to log in.
+    Oeffnen Sie einen Browser (hier Google Chrome als Beispiel) und geben Sie `glkvm.com` in die Adressleiste ein. Eine Anmeldeseite wird angezeigt. Melden Sie sich mit Ihrem glinet Konto an.
 
     ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow"}
 
-    After login, you will see the devices bound to your account. Click on the device you want to remotely access.
+    Nach der Anmeldung sehen Sie die mit Ihrem Konto gebundenen Geraete. Klicken Sie auf das Geraet, auf das Sie aus der Ferne zugreifen moechten.
 
     ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
-    It will redirect to a new webpage with the domain `glkvm.xyz`, `glkvm.site`, or `glkvm.top`. These domains are secure and provided by GL.iNet.
-    
-    Enter the admin password and log in.
+    Sie werden zu einer neuen Webseite mit der Domain `glkvm.xyz`, `glkvm.site` oder `glkvm.top` weitergeleitet. Diese Domains sind sicher und werden von GL.iNet bereitgestellt.
+
+    Geben Sie das Admin-Passwort ein und melden Sie sich an.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
-    You will then be able to remotely access your Comet Q and the controlled device via Cloud, without installing the app.
+    Danach koennen Sie ueber die Cloud aus der Ferne auf Ihren Comet Q und das gesteuerte Geraet zugreifen, ohne die App zu installieren.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
 ### GLKVM App
 
-1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
+1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Geraet.
 
-2. Log in with your GL.iNet account. 
+2. Melden Sie sich mit Ihrem GL.iNet Konto an.
 
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
-    If you don't have one, sign up first and log in.
-    
+    Wenn Sie noch kein Konto haben, registrieren Sie sich zuerst und melden Sie sich dann an.
+
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
-3. Bind your device.
+3. Binden Sie Ihr Geraet.
 
-    After login, the page will display as follows. Click **Add Device**.
+    Nach der Anmeldung wird die folgende Seite angezeigt. Klicken Sie auf **Add Device**.
 
     ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-    You can bind your device in three ways: Auto Discover, S/N Code, and Dynamic Binding Code.
+    Sie koennen Ihr Geraet auf drei Arten binden: Auto Discover, S/N Code und Dynamic Binding Code.
 
     ??? "Auto Discover"
-    
-        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet Q.
-    
-        Click **Auto Discover**. It will start searching automatically.
-    
+
+        Dies muss im lokalen Netzwerk erfolgen. Stellen Sie sicher, dass sich Ihr steuerndes Geraet im selben LAN wie Comet Q befindet.
+
+        Klicken Sie auf **Auto Discover**. Die Suche startet automatisch.
+
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
-        
-        Locate your KVM and enter its Device ID to bind it to your account.
-    
+
+        Suchen Sie Ihr KVM und geben Sie die Device ID ein, um es mit Ihrem Konto zu binden.
+
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
-    
+
     ??? "S/N Code"
-    
-        This applies to the scenario where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
-        
-        Click **S/N Code**. In the pop-up window, customize the device name and enter the S/N, which is printed on the label bottom of your KVM device.
-    
+
+        Dies gilt, wenn Ihr KVM nicht erkannt wird oder sich nicht im selben LAN befindet, Sie aber seine Seriennummer (S/N) haben.
+
+        Klicken Sie auf **S/N Code**. Passen Sie im Pop-up-Fenster den Geraetenamen an und geben Sie die S/N ein, die auf dem Etikett an der Unterseite Ihres KVM-Geraets aufgedruckt ist.
+
         ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
-    
+
     ??? "Dynamic Binding Code"
-    
-        This needs to be done on the local network. Ensure your controlling device is on the same LAN as Comet Q.
-    
-        1. Log in to your KVM locally using domain or IP address. Click [here](../../faq/local_access_via_browser.md) for details. 
-    
-        2. Navigate to **Cloud Service** in the upper-right corner, and click **Bind With Code**. 
-    
+
+        Dies muss im lokalen Netzwerk erfolgen. Stellen Sie sicher, dass sich Ihr steuerndes Geraet im selben LAN wie Comet Q befindet.
+
+        1. Melden Sie sich lokal ueber Domain oder IP-Adresse bei Ihrem KVM an. Details finden Sie [hier](../../faq/local_access_via_browser.md).
+
+        2. Navigieren Sie oben rechts zu **Cloud Service** und klicken Sie auf **Bind With Code**.
+
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
-    
-        3. It will generate an 8-digit dynamic code randomly for device binding, valid for 60 seconds. Click the code to copy it.
-    
+
+        3. Es wird zufaellig ein 8-stelliger dynamischer Code fuer die Geraetebindung erzeugt, der 60 Sekunden lang gueltig ist. Klicken Sie auf den Code, um ihn zu kopieren.
+
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
-    
-        4. Back to the GLKVM app, enter the dynamic binding code and click **Bind**.
-    
+
+        4. Kehren Sie zur GLKVM App zurueck, geben Sie den dynamischen Bindungscode ein und klicken Sie auf **Bind**.
+
             ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
-4. Remote access via GLKVM App.
+4. Fernzugriff ueber die GLKVM App.
 
-    Once your KVM device is bound to your account, it will show "Online" in the app.
+    Sobald Ihr KVM-Geraet mit Ihrem Konto gebunden ist, wird es in der App als "Online" angezeigt.
 
     ![device online](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/device_online.png){class="glboxshadow"}
 
-    Click your KVM device. It will open a new window and start connecting.
+    Klicken Sie auf Ihr KVM-Geraet. Ein neues Fenster wird geoeffnet und die Verbindung wird aufgebaut.
 
     ![connecting](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connecting.png){class="glboxshadow"}
 
-    Once connected, enter the admin password to log in to your device.
+    Geben Sie nach dem Verbindungsaufbau das Admin-Passwort ein, um sich bei Ihrem Geraet anzumelden.
 
     ![connected log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_login.png){class="glboxshadow"}
 
-    You will then access your KVM device, through which you can access the controlled device.
+    Danach greifen Sie auf Ihr KVM-Geraet zu, ueber das Sie das gesteuerte Geraet bedienen koennen.
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
 ### Tailscale
 
-Comet Q integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
+Comet Q ist in Tailscale integriert und ermoeglicht Fernzugriff ueber ein virtuelles Tailscale-Netzwerk.
 
-On the console, navigate to **Apps Center** -> **Tailscale**, enable it and bind your Comet Q to your Tailscale account. 
+Navigieren Sie in der Konsole zu **Apps Center** -> **Tailscale**, aktivieren Sie Tailscale und binden Sie Ihren Comet Q an Ihr Tailscale-Konto.
 
-Next, bind your controlling device to the same account. You will then be able to remotely access your Comet Q by entering its **Tailscale virtual IP** in a web browser on the controlling device, without installing GLKVM app.
+Binden Sie anschliessend Ihr steuerndes Geraet an dasselbe Konto. Danach koennen Sie aus der Ferne auf Ihren Comet Q zugreifen, indem Sie dessen **Tailscale virtual IP** in einem Webbrowser auf dem steuernden Geraet eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
 ### ZeroTier
 
-Comet Q integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
+Comet Q ist in ZeroTier integriert und ermoeglicht Fernzugriff ueber ein virtuelles ZeroTier-Netzwerk.
 
-On the console, navigate to **Apps Center** -> **ZeroTier** and enable it.
+Navigieren Sie in der Konsole zu **Apps Center** -> **ZeroTier** und aktivieren Sie ZeroTier.
 
-Next, join both Comet Q and your controlling device to the same ZeroTier network (using a 16-character alphanumeric Network ID), then you can remotely access your Comet Q by entering its **ZeroTier IP** in a web browser on the controlling device, without installing GLKVM app.
+Treten Sie anschliessend sowohl mit Comet Q als auch mit Ihrem steuernden Geraet demselben ZeroTier-Netzwerk bei (mithilfe einer 16-stelligen alphanumerischen Network ID). Danach koennen Sie aus der Ferne auf Ihren Comet Q zugreifen, indem Sie dessen **ZeroTier IP** in einem Webbrowser auf dem steuernden Geraet eingeben, ohne die GLKVM App zu installieren.
 
-See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
+Details finden Sie [hier](../../faq/remote_access_via_zerotier.md){target="_blank"}.

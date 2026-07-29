@@ -1,106 +1,106 @@
-# What should I do if the remote screen goes blank or shows no HDMI signal
+# Was tun, wenn der Remote-Bildschirm leer bleibt oder kein HDMI-Signal angezeigt wird
 
-When accessing the controlled device through KVM, if the remote screen goes blank or shows no HDMI signal, follow the steps below to troubleshoot.
+Wenn beim Zugriff auf das gesteuerte Gerät über KVM der Remote-Bildschirm leer bleibt oder kein HDMI-Signal angezeigt wird, führen Sie die folgenden Schritte zur Fehlerbehebung aus.
 
 ![white screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/white_screen.png){class="glboxshadow"}
-<small>(White screen)</small>
+<small>(Weißer Bildschirm)</small>
 
 ![black screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/black_screen.png){class="glboxshadow"}
-<small>(Black screen)</small>
+<small>(Schwarzer Bildschirm)</small>
 
-First, check whether this is related to video transmission. Log in to your KVM, go to **Settings** -> **Video** -> **Transfer** and set the transfer mode to **Direct**. 
+Prüfen Sie zuerst, ob das Problem mit der Videoübertragung zusammenhängt. Melden Sie sich an Ihrem KVM an, gehen Sie zu **Settings** -> **Video** -> **Transfer** und stellen Sie den Übertragungsmodus auf **Direct**.
 
 ![change transfer](https://static.gl-inet.com/docs/kvm/faq/blank_screen/change_transfer.png){class="glboxshadow" width="360"}
 
-If the problem persists, check the possible causes listed below one by one.
+Wenn das Problem weiterhin besteht, prüfen Sie die folgenden möglichen Ursachen nacheinander.
 
-## Check Hardware Connection
+## Hardwareverbindung prüfen
 
-1. **Faulty HDMI Cable**
+1. **Defektes HDMI-Kabel**
 
-    Aging HDMI cables, oxidized connectors, or internal breaks can interrupt signal transmission. Replace it with a high-quality HDMI cable.
+    Gealterte HDMI-Kabel, oxidierte Steckverbinder oder interne Kabelbrüche können die Signalübertragung unterbrechen. Ersetzen Sie das Kabel durch ein hochwertiges HDMI-Kabel.
 
-    You can also check the HDMI signal status on the KVM console. Find the monitor icon in the bottom right corner and check if it shows "No HDMI signal".
+    Sie können den HDMI-Signalstatus auch in der KVM-Konsole prüfen. Suchen Sie das Monitorsymbol unten rechts und prüfen Sie, ob "No HDMI signal" angezeigt wird.
 
     ![no HDMI signal](https://static.gl-inet.com/docs/kvm/faq/blank_screen/no_hdmi_signal.png){class="glboxshadow"}
 
-2. **Incorrect Connection**
+2. **Falsche Verbindung**
 
-    If your controlled device is a desktop PC, ensure the KVM's **HDMI IN** port is connected to the HDMI OUT port of the desktop's graphics card or motherboard. Make sure the plug is fully inserted and secure. For devices with multiple HDMI outputs (e.g., dedicated GPU + motherboard output), try switching to a different port.
+    Wenn Ihr gesteuertes Gerät ein Desktop-PC ist, stellen Sie sicher, dass der **HDMI IN**-Anschluss des KVM mit dem HDMI-OUT-Anschluss der Grafikkarte oder des Mainboards des Desktops verbunden ist. Stellen Sie sicher, dass der Stecker vollständig und fest eingesteckt ist. Bei Geräten mit mehreren HDMI-Ausgängen (z. B. dedizierte GPU + Mainboard-Ausgang) versuchen Sie, auf einen anderen Anschluss zu wechseln.
 
-    If your controlled device is a laptop, ensure the KVM's **HDMI IN** port is connected to the laptop's HDMI OUT port.
+    Wenn Ihr gesteuertes Gerät ein Laptop ist, stellen Sie sicher, dass der **HDMI IN**-Anschluss des KVM mit dem HDMI-OUT-Anschluss des Laptops verbunden ist.
 
-    Tip: Some KVM models (such as Comet Pro and Comet 5G) have two HDMI ports. Make sure the HDMI cable from the controlled device is plugged into the KVM's HDMI IN port. If connected to HDMI OUT, no HDMI signal will be detected on the KVM console.
+    Tipp: Einige KVM-Modelle (z. B. Comet Pro und Comet 5G) haben zwei HDMI-Anschlüsse. Stellen Sie sicher, dass das HDMI-Kabel vom gesteuerten Gerät am HDMI IN-Anschluss des KVM eingesteckt ist. Wenn es mit HDMI OUT verbunden ist, wird in der KVM-Konsole kein HDMI-Signal erkannt.
 
-3. **Improper Use of Adapters**
+3. **Unsachgemäße Verwendung von Adaptern**
 
-    If an HDMI adapter is required, use a **VGA-to-HDMI** adapter to connect the controlled device to the GL.iNet KVM's HDMI IN port. 
-    
-    Using an HDMI-to-VGA adapter for this connection will fail to transmit video signals properly, resulting in a blank screen.
+    Wenn ein HDMI-Adapter erforderlich ist, verwenden Sie einen **VGA-to-HDMI**-Adapter, um das gesteuerte Gerät mit dem HDMI IN-Anschluss des GL.iNet KVM zu verbinden.
+
+    Wird für diese Verbindung ein HDMI-to-VGA-Adapter verwendet, können Videosignale nicht korrekt übertragen werden. Das Ergebnis ist ein leerer Bildschirm.
 
     ![adapter comparison](https://static.gl-inet.com/docs/kvm/faq/blank_screen/adapter_comparison.png){class="glboxshadow"}
 
-## Check Browser Settings
+## Browsereinstellungen prüfen
 
-If you access the controlled device via a browser and encounter a blank screen issue, try the following methods:
+Wenn Sie über einen Browser auf das gesteuerte Gerät zugreifen und ein leerer Bildschirm angezeigt wird, versuchen Sie die folgenden Methoden:
 
-1. **Test with multiple browsers.** Try Chrome, Firefox, Edge, etc. to determine if the issue is browser-specific.
+1. **Mit mehreren Browsern testen.** Testen Sie Chrome, Firefox, Edge usw., um festzustellen, ob das Problem browserspezifisch ist.
 
-2. **Disable WebRTC Leak Protection/Control Extensions.** If you have installed any extensions/plug-ins to your web browser that may affect WebRTC connections, please disable them and test again. You may also go to the browser's Settings -> Privacy & Security to ensure the web browser allows WebRTC connections.  
+2. **WebRTC Leak Protection/Control-Erweiterungen deaktivieren.** Wenn Sie Erweiterungen/Plug-ins in Ihrem Webbrowser installiert haben, die WebRTC-Verbindungen beeinflussen könnten, deaktivieren Sie diese und testen Sie erneut. Sie können außerdem in den Einstellungen des Browsers unter Settings -> Privacy & Security prüfen, ob der Webbrowser WebRTC-Verbindungen erlaubt.
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
-## Check Controlled Device Status and Settings
+## Status und Einstellungen des gesteuerten Geräts prüfen
 
-1. **Device Not Powered On or in Sleep Mode**
+1. **Gerät ist nicht eingeschaltet oder im Energiesparmodus**
 
-    Ensure the controlled device is fully powered on and not in sleep/hibernation mode due to power management settings (wake it via local buttons as needed).
+    Stellen Sie sicher, dass das gesteuerte Gerät vollständig eingeschaltet ist und sich aufgrund von Energieverwaltungseinstellungen nicht im Energiespar- oder Ruhezustand befindet. Wecken Sie es bei Bedarf über lokale Tasten auf.
 
-2. **Abnormal Graphics Card Drivers on the Controlled Device**
+2. **Fehlerhafte Grafikkartentreiber auf dem gesteuerten Gerät**
 
-    Uninstalled or corrupted graphics card drivers can cause no video output. Update or reinstall the graphics card drivers on the controlled device (when logged in locally).
+    Nicht installierte oder beschädigte Grafikkartentreiber können dazu führen, dass kein Video ausgegeben wird. Aktualisieren oder installieren Sie die Grafikkartentreiber auf dem gesteuerten Gerät neu, wenn Sie lokal angemeldet sind.
 
-3. **Incorrect Connection of Dedicated and Integrated Graphics**
+3. **Falscher Anschluss bei dedizierter und integrierter Grafik**
 
-    If the controlled device has both a dedicated and integrated graphics card, ensure the HDMI cable is connected to the correct graphics port (e.g., connect the HDMI cable to the dedicated graphics port if it is installed).
+    Wenn das gesteuerte Gerät sowohl eine dedizierte als auch eine integrierte Grafikkarte hat, stellen Sie sicher, dass das HDMI-Kabel mit dem richtigen Grafikanschluss verbunden ist, z. B. mit dem Anschluss der dedizierten Grafikkarte, falls diese installiert ist.
 
-4. **Abnormal Display Settings on the Controlled Device (Low Probability)**
+4. **Ungewöhnliche Anzeigeeinstellungen auf dem gesteuerten Gerät (geringe Wahrscheinlichkeit)**
 
-    When the GL.iNet KVM connects to the controlled device, it automatically adjusts display output by reading the monitor's EDID for optimal performance. In most cases, the default EDID configuration is suitable for most scenarios and no need to modify.
+    Wenn das GL.iNet KVM mit dem gesteuerten Gerät verbunden wird, passt es die Anzeigeausgabe automatisch an, indem es für optimale Leistung die EDID des Monitors ausliest. In den meisten Fällen ist die Standard-EDID-Konfiguration für die meisten Szenarien geeignet und muss nicht geändert werden.
 
-    If the controlled device is compatible with standard monitors, blank screens or display issues are unlikely when accessing it via GLKVM. However, a few specific compatibility issues (e.g., Linux system + ASUS monitor) may cause blank screens when using GLKVM.
+    Wenn das gesteuerte Gerät mit Standardmonitoren kompatibel ist, sind leere Bildschirme oder Anzeigeprobleme beim Zugriff über GLKVM unwahrscheinlich. Einige spezifische Kompatibilitätsprobleme (z. B. Linux-System + ASUS-Monitor) können jedoch bei Verwendung von GLKVM zu leeren Bildschirmen führen.
 
-    Please check if your controlled device is compatible with standard monitors, and if it has compatibility issues with a specific monitor.
+    Bitte prüfen Sie, ob Ihr gesteuertes Gerät mit Standardmonitoren kompatibel ist und ob es Kompatibilitätsprobleme mit einem bestimmten Monitor hat.
 
-5. **Resolution Issue**
-   
-    When GLKVM is connected to certain operating systems (e.g., Proxmox VE Hypervisor), it may fail to negotiate the available display resolution correctly, resulting in display issues. This can be resolved by manually adjusting the resolution on the controlled device.
+5. **Auflösungsproblem**
 
-    Here is a guide on how to modify the system resolution on Proxmox VE Hypervisor for your reference.
-    
-    1. Open the PVE terminal and enter the command below to edit file `/etc/default/grub`.
+    Wenn GLKVM mit bestimmten Betriebssystemen verbunden ist (z. B. Proxmox VE Hypervisor), kann die Aushandlung der verfügbaren Anzeigeauflösung fehlschlagen, was zu Anzeigeproblemen führt. Dies lässt sich beheben, indem die Auflösung auf dem gesteuerten Gerät manuell angepasst wird.
+
+    Unten finden Sie als Referenz eine Anleitung zum Ändern der Systemauflösung auf Proxmox VE Hypervisor.
+
+    1. Öffnen Sie das PVE-Terminal und geben Sie den folgenden Befehl ein, um die Datei `/etc/default/grub` zu bearbeiten.
 
         ```
         nano /etc/default/grub
         ```
 
-    2. Add the following line.
+    2. Fügen Sie die folgende Zeile hinzu.
 
         ```
         GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset
         ```
 
-    3. Uncomment the line `GRUB_GFXMODE` by removing the `#` and set the desired resolution, such as `1024x768`. 
+    3. Kommentieren Sie die Zeile `GRUB_GFXMODE` aus, indem Sie das `#` entfernen, und legen Sie die gewünschte Auflösung fest, z. B. `1024x768`.
 
         ```
         GRUB_GFXMODE=1024x768
         ```
 
-    4. Press `Ctrl + O` and hit Enter to save the configuration.
+    4. Drücken Sie `Ctrl + O` und anschließend Enter, um die Konfiguration zu speichern.
 
-    5. Press `Ctrl + X` to exit the nano editor.
+    5. Drücken Sie `Ctrl + X`, um den nano-Editor zu verlassen.
 
-    6. Enter the command below to apply the configuration.
+    6. Geben Sie den folgenden Befehl ein, um die Konfiguration anzuwenden.
 
         ```
         update-grub

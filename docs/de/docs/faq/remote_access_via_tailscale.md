@@ -1,95 +1,95 @@
-# How to access KVM remotely via Tailscale
+# So greifen Sie über Tailscale remote auf KVM zu
 
-GL.iNet KVM integrates Tailscale, allowing you to bind it to the Tailscale virtual network for remote access — no need to install the GLKVM app or use the cloud service. This is particularly useful when your controlling device does not run Windows, macOS, Android, or iOS (and thus cannot install the GLKVM app), or when you do not want to use the GLKVM app or cloud service.
+GL.iNet KVM integriert Tailscale, sodass Sie es für den Fernzugriff an das virtuelle Tailscale-Netzwerk binden können. Die GLKVM App muss dafür nicht installiert und der Cloud-Dienst nicht verwendet werden. Das ist besonders nützlich, wenn auf Ihrem steuernden Gerät kein Windows, macOS, Android oder iOS läuft und die GLKVM App daher nicht installiert werden kann, oder wenn Sie die GLKVM App beziehungsweise den Cloud-Dienst nicht nutzen möchten.
 
-Follow these steps to remotely access your GL.iNet KVM via Tailscale.
+Führen Sie die folgenden Schritte aus, um über Tailscale remote auf Ihr GL.iNet KVM zuzugreifen.
 
-## Bind KVM to Tailscale
+## KVM an Tailscale binden
 
-**Before you begin, connect your KVM and the controlling device to the same local network.**
+**Bevor Sie beginnen, verbinden Sie Ihr KVM und das steuernde Gerät mit demselben lokalen Netzwerk.**
 
-1. Open a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
-    
-2. Log in to your KVM console locally using its domain or IP address. Here we use the default domain as an example.
+1. Öffnen Sie auf dem steuernden Gerät einen Browser. Chrome oder Edge wird wegen besserer Kompatibilität empfohlen.
 
-    Enter `glkvm.local` in the address bar. You will be directed to the GLKVM login page. Enter your admin password.
+2. Melden Sie sich lokal per Domain oder IP-Adresse bei Ihrer KVM-Konsole an. Hier verwenden wir die Standarddomain als Beispiel.
+
+    Geben Sie `glkvm.local` in die Adressleiste ein. Sie werden zur GLKVM-Anmeldeseite weitergeleitet. Geben Sie Ihr Admin-Passwort ein.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
-3. After logging in, go to **Apps Center** -> **Tailscale**. Enable Tailscale and click **Bind Device**.
+3. Gehen Sie nach der Anmeldung zu **Apps Center** -> **Tailscale**. Aktivieren Sie Tailscale und klicken Sie auf **Bind Device**.
 
     ![enable tailscale](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enable_tailscale.png){class="glboxshadow"}
 
-4. You will be directed to the Tailscale login page. Enter your email to log in.
+4. Sie werden zur Tailscale-Anmeldeseite weitergeleitet. Geben Sie Ihre E-Mail-Adresse ein, um sich anzumelden.
 
     ![log in tailscale](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/log_in_tailscale.png){class="glboxshadow"}
 
-5. After logging in, the page prompts that you are about to connect the device glkvm to your Tailnet. Click **Connect**.
+5. Nach der Anmeldung meldet die Seite, dass das Gerät glkvm mit Ihrem Tailnet verbunden werden soll. Klicken Sie auf **Connect**.
 
     ![connect kvm to tailnet](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/connect_kvm_to_tailscale.png){class="glboxshadow"}
 
-    Your KVM device will then be bound to your tailnet successfully. 
+    Ihr KVM-Gerät wird anschließend erfolgreich an Ihr Tailnet gebunden.
 
     ![bind kvm successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/bind_kvm_successful.png){class="glboxshadow"}
-    
-6. You will be redirected to your Tailscale console, where a device labeled **glkvm** is displayed under **Machines**.
+
+6. Sie werden zu Ihrer Tailscale-Konsole weitergeleitet, in der ein Gerät mit der Bezeichnung **glkvm** unter **Machines** angezeigt wird.
 
     ![tailscale console 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_1.png){class="glboxshadow"}
 
-## Bind the controlling device
+## Steuerndes Gerät binden
 
-The example below demonstrates how to bind a Windows laptop (as the controlling device) to the Tailscale network.
+Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das Tailscale-Netzwerk gebunden wird.
 
-1. Install Tailscale on your laptop from [here](https://tailscale.com/download){target="_blank"}.
+1. Installieren Sie Tailscale auf Ihrem Laptop über [diesen Link](https://tailscale.com/download){target="_blank"}.
 
-2. Run Tailscale on the laptop and log in with the same email.
+2. Führen Sie Tailscale auf dem Laptop aus und melden Sie sich mit derselben E-Mail-Adresse an.
 
     ![log in tailscale](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/log_in_tailscale.png){class="glboxshadow"}
 
-3. After logging in, the page prompts that you are about to connect the laptop (e.g. the controlling device) to your Tailnet. Click **Connect**.
+3. Nach der Anmeldung meldet die Seite, dass der Laptop (also das steuernde Gerät) mit Ihrem Tailnet verbunden werden soll. Klicken Sie auf **Connect**.
 
     ![connect pc to tailnet](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/connect_pc_to_tailscale.png){class="glboxshadow"}
 
-    Your laptop will then be bound to your tailnet successfully. 
+    Ihr Laptop wird anschließend erfolgreich an Ihr Tailnet gebunden.
 
     ![bind pc successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/bind_pc_successful.png){class="glboxshadow"}
 
-4. You will be redirected to your Tailscale console, where the controlling device is also displayed under **Machines**.
+4. Sie werden zu Ihrer Tailscale-Konsole weitergeleitet, in der auch das steuernde Gerät unter **Machines** angezeigt wird.
 
     ![tailscale console 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_2.png){class="glboxshadow"}
 
-## Remote access via Tailscale
+## Fernzugriff über Tailscale
 
-In the Tailscale console, click the glkvm's **Address** (`100.104.185.26` in this example).
+Klicken Sie in der Tailscale-Konsole auf die **Address** des glkvm (`100.104.185.26` in diesem Beispiel).
 
 ![get vittual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/get_vitual_ip.png){class="glboxshadow"}
 
-You will see four values:
+Es werden vier Werte angezeigt:
 
-- glkvm (device name)
-- glkvm.tail1fd0.ts.net (Tailscale-assigned domain)
-- fd7a:115c:a1e0:301:b92f (virtual IPv6)
-- 100.104.185.26 (virtual IPv4). 
+- glkvm (Gerätename)
+- glkvm.tail1fd0.ts.net (von Tailscale zugewiesene Domain)
+- fd7a:115c:a1e0:301:b92f (virtuelle IPv6)
+- 100.104.185.26 (virtuelle IPv4).
 
-They are allocated by Tailscale for device identification and virtual network communication. You can remotely access your KVM device using the Tailscale-assigned domain, vitual IPv4 and virtual IPv6.
+Diese Werte werden von Tailscale zur Geräteidentifikation und Kommunikation im virtuellen Netzwerk zugewiesen. Sie können über die von Tailscale zugewiesene Domain, die virtuelle IPv4-Adresse oder die virtuelle IPv6-Adresse remote auf Ihr KVM-Gerät zugreifen.
 
-Take the virtual IPv4 as an example.
+Beispiel mit der virtuellen IPv4-Adresse:
 
-1. Copy the virtual IPv4 address of your KVM device. 
+1. Kopieren Sie die virtuelle IPv4-Adresse Ihres KVM-Geräts.
 
-2. Open a new tab and paste the IP address into the address bar.
+2. Öffnen Sie einen neuen Tab und fügen Sie die IP-Adresse in die Adressleiste ein.
 
     ![access vitual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enter_vitual_ip.png){class="glboxshadow"}
 
-    A privacy error may appear. [Why do I get this privacy error?](privacy_error_from_your_browser.md){target="_blank"}
+    Möglicherweise wird eine Datenschutzwarnung angezeigt. [Warum wird diese Datenschutzwarnung angezeigt?](privacy_error_from_your_browser.md){target="_blank"}
 
     ![privacy error](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/privacy_error.png){class="glboxshadow"}
 
-    Click **Advanced**, then **Proceed to 100.104.185.26**. You will be redirected to the GLKVM login page.
+    Klicken Sie auf **Advanced** und anschließend auf **Proceed to 100.104.185.26**. Sie werden zur GLKVM-Anmeldeseite weitergeleitet.
 
     ![proceed](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/proceed.png){class="glboxshadow"}
 
-3. Enter your admin password to log in. You can now access your GL.iNet KVM and the controlled device via the Tailscale virtual IP.
+3. Geben Sie Ihr Admin-Passwort ein, um sich anzumelden. Sie können nun über die virtuelle Tailscale-IP auf Ihr GL.iNet KVM und das gesteuerte Gerät zugreifen.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/remote_access_via_tailscale.png){class="glboxshadow"}
 

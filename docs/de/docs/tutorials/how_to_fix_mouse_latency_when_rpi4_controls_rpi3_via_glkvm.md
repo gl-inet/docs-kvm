@@ -2,7 +2,7 @@
 
 Wenn Sie einen Raspberry Pi4 verwenden, um einen Raspberry Pi3 ueber GL.iNet KVM zu steuern, koennen Mauslatenzprobleme auftreten, die typischerweise einige Sekunden dauern.
 
-Um das Problem zu beheben, fuegen Sie auf dem verwalteten Server, in diesem Fall RPi3, `usbhid.mousepoll=0` an die Boot-Zeile in `/boot/cmdline.txt` oder `/boot/firmware/cmdline.txt` an und starten Sie ihn neu.
+Um das Problem zu beheben, fuegen Sie auf dem gesteuerten Geraet, in diesem Fall RPi3, `usbhid.mousepoll=0` an die Boot-Zeile in `/boot/cmdline.txt` oder `/boot/firmware/cmdline.txt` an und starten Sie es neu.
 
 ---
 

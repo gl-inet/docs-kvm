@@ -1,37 +1,37 @@
-# Comet Q (GL-RMQ1) Overview
+# Comet Q (GL-RMQ1) Uebersicht
 
-## Dimension
+## Abmessungen
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
 
 ## Touchscreen
 
-| Screen Display                    | Description         |
-| :-------------------------------- | :------------------ |
-| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/booting.png) | **Starting up**<br></br>Plug Comet Q's integrated USB‑C cable (attached to the bottom and can be bent out) into the target device, or connect Comet Q to an external power adapter to power it on.<br></br>The GL.iNet logo appears, followed by a startup progress bar. Once the progress bar is fully loaded, the device startup is complete.|
-| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/screen_password.png) | **Set up screen password**<br></br>Set a 4-digit screen password for your Comet Q to protect your privacy.|
-| ![setup wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/set_up_wifi.png) | **Set up network**<br></br>Connect Comet Q to a 2.4 GHz or 5 GHz Wi‑Fi network. You can configure now or skip this step to set it up later.|
-| ![cloud](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/cloud.png) | **Enable Cloud for remote access**<br></br>Enable Cloud service for remote access. You can configure now or skip this step to set it up later.|
-| ![home screen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/home.png) | **Home screen**<br></br>The home screen displays the following information.<br></br>**Top**: Wi‑Fi connectivity status, cloud service status and system time.<br>**Middle**: Comet Q's IP address (shown only when internet is connected).<br>**Bottom**: Keyboard & mouse signal, session status, and video streaming signal.|
-| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/settings.png) | **Basic settings**<br></br>On the home screen, swipe left from the right to access basic settings, including **Session**, **Wi-Fi**, **Cloud**, and **Display**.|
-| ![system menu](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/system.png) | **System Menu**<br></br>On the home screen, swipe down from the top to access system menu, including **Rotate**, **Lock Screen** and **Reboot**.|
-| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/reset.png) | **Factory Reset**<br></br>With the KVM powered on, insert a pin into the reset pinhole and hold for **8 seconds** to factory reset. Release the pin within 8 seconds to cancel the reset. |
+| Screen Display                    | Beschreibung       |
+| :-------------------------------- | :----------------- |
+| ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/booting.png) | **Startvorgang**<br></br>Stecken Sie das integrierte USB-C-Kabel des Comet Q (an der Unterseite befestigt und herausbiegbar) in das Zielgeraet, oder verbinden Sie Comet Q mit einem externen Netzteil, um es einzuschalten.<br></br>Das GL.iNet Logo wird angezeigt, gefolgt von einem Fortschrittsbalken fuer den Startvorgang. Sobald der Fortschrittsbalken vollstaendig geladen ist, ist der Geraetestart abgeschlossen.|
+| ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/screen_password.png) | **Bildschirmpasswort einrichten**<br></br>Legen Sie ein 4-stelliges Bildschirmpasswort fuer Ihren Comet Q fest, um Ihre Privatsphaere zu schuetzen.|
+| ![setup wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/set_up_wifi.png) | **Netzwerk einrichten**<br></br>Verbinden Sie Comet Q mit einem 2,4-GHz- oder 5-GHz-Wi-Fi-Netzwerk. Sie koennen die Einrichtung jetzt vornehmen oder diesen Schritt ueberspringen und spaeter einrichten.|
+| ![cloud](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/cloud.png) | **Cloud fuer Fernzugriff aktivieren**<br></br>Aktivieren Sie den Cloud-Dienst fuer Fernzugriff. Sie koennen die Einrichtung jetzt vornehmen oder diesen Schritt ueberspringen und spaeter einrichten.|
+| ![home screen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/home.png) | **Startbildschirm**<br></br>Der Startbildschirm zeigt die folgenden Informationen an.<br></br>**Oben**: Wi-Fi-Verbindungsstatus, Cloud-Dienststatus und Systemzeit.<br>**Mitte**: IP-Adresse des Comet Q (nur angezeigt, wenn eine Internetverbindung besteht).<br>**Unten**: Tastatur- und Maussignal, Sitzungsstatus und Videostreaming-Signal.|
+| ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/settings.png) | **Grundeinstellungen**<br></br>Wischen Sie auf dem Startbildschirm von rechts nach links, um auf die Grundeinstellungen zuzugreifen, einschliesslich **Session**, **Wi-Fi**, **Cloud** und **Display**.|
+| ![system menu](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/system.png) | **System Menu**<br></br>Wischen Sie auf dem Startbildschirm von oben nach unten, um auf das Systemmenue zuzugreifen, einschliesslich **Rotate**, **Lock Screen** und **Reboot**.|
+| ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/reset.png) | **Factory Reset**<br></br>Fuehren Sie bei eingeschaltetem KVM eine Nadel in die Reset-Oeffnung ein und halten Sie sie **8 Sekunden** lang gedrueckt, um das Geraet auf Werkseinstellungen zurueckzusetzen. Lassen Sie die Nadel innerhalb von 8 Sekunden los, um den Reset abzubrechen. |
 
-## Compatibility
+## Kompatibilitaet
 
-Comet Q works with any device whose USB-C port supports **DisplayPort Alt Mode** for video output. This includes, but is not limited to:
+Comet Q funktioniert mit jedem Geraet, dessen USB-C-Anschluss **DisplayPort Alt Mode** fuer die Videoausgabe unterstuetzt. Dazu gehoeren unter anderem:
 
-- **iPhones**: iPhone 15 and newer (excluding iPhone 16e, 17e and iPhone Air)
-- **iPads**: All iPad Pro (2018 and newer), iPad Air (4th generation and newer), iPad mini (6th generation and newer), and iPad (10th generation and newer)
-- **Android phones (Samsung as example)**: Samsung Galaxy S8 and newer, Galaxy Note 8 and newer, Galaxy Z Fold/Flip series, and Galaxy Tab S series
-- **Laptops & mini PCs**: Most models with a USB-C port that supports video output, including MacBooks, Mac mini, and most modern Windows laptops
+- **iPhones**: iPhone 15 und neuer (ausgenommen iPhone 16e, 17e und iPhone Air)
+- **iPads**: alle iPad Pro (2018 und neuer), iPad Air (4. Generation und neuer), iPad mini (6. Generation und neuer) sowie iPad (10. Generation und neuer)
+- **Android-Telefone (Samsung als Beispiel)**: Samsung Galaxy S8 und neuer, Galaxy Note 8 und neuer, Galaxy Z Fold/Flip-Serie sowie Galaxy Tab S-Serie
+- **Laptops und Mini-PCs**: die meisten Modelle mit USB-C-Anschluss, der Videoausgabe unterstuetzt, einschliesslich MacBooks, Mac mini und den meisten modernen Windows-Laptops
 
-## Package Contents
+## Lieferumfang
 
 - 1 x Comet Q (GL-RMQ1)
-- 1 x User manual
-- 1 x Protective sleeve
+- 1 x Benutzerhandbuch
+- 1 x Schutzhuelle
 
-Watch the unboxing video below.
+Sehen Sie sich unten das Unboxing-Video an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_SC_HSsBDOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

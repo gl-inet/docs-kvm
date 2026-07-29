@@ -1,62 +1,62 @@
-# How to check if your device's USB-C port supports DP Alt Mode
+# Pruefen, ob der USB-C-Port Ihres Geraets DP Alt Mode unterstuetzt
 
-## What is DP Alt Mode
+## Was ist DP Alt Mode?
 
-DP Alt Mode (or DisplayPort Alternate Mode) is a feature built into certain USB-C ports that enables them to transmit a high-quality video signal — in addition to the data and power they normally handle.
+DP Alt Mode, oder DisplayPort Alternate Mode, ist eine Funktion bestimmter USB-C-Ports. Sie ermoeglicht es, zusaetzlich zu den normalerweise uebertragenen Daten und der Stromversorgung ein hochwertiges Videosignal auszugeben.
 
-In plain terms: it allows a single USB-C cable to transmit video from your phone, tablet, or laptop straight to a monitor, TV, or projector — no special adapter or docking station required. Without DP Alt Mode, the port can only transfer data and supply power; it cannot output video to an external display.
+Einfach gesagt: Ein einzelnes USB-C-Kabel kann Video von Ihrem Smartphone, Tablet oder Laptop direkt an einen Monitor, Fernseher oder Projektor uebertragen, ohne speziellen Adapter oder Dockingstation. Ohne DP Alt Mode kann der Port nur Daten uebertragen und Strom liefern. Eine Videoausgabe an ein externes Display ist dann nicht moeglich.
 
-## Why it matters
+## Warum das wichtig ist
 
-DP Alt Mode matters for **Comet Q**, as Comet Q relies on it to receive video from your device. If your USB-C port supports it, Comet Q just works — plug and play. If not, no external display adapter can resolve this limitation.
+DP Alt Mode ist fuer **Comet Q** wichtig, da Comet Q darueber das Videosignal von Ihrem Geraet empfaengt. Wenn Ihr USB-C-Port DP Alt Mode unterstuetzt, funktioniert Comet Q direkt per Plug and Play. Wenn nicht, kann auch kein externer Display-Adapter diese Einschraenkung umgehen.
 
-Not every USB-C port is created equal. Some only carry data and power; others can also output video. The shape of the connector is the same, but the capabilities behind it are not. Two USB-C ports can look identical and behave very differently — which is why it pays to check before buying any USB-C display accessory.
+Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur Daten und Strom, andere koennen auch Video ausgeben. Der Anschluss sieht gleich aus, die dahinterliegenden Funktionen koennen sich jedoch unterscheiden. Zwei USB-C-Ports koennen identisch aussehen und sich voellig unterschiedlich verhalten. Deshalb sollten Sie dies pruefen, bevor Sie USB-C-Display-Zubehoer kaufen.
 
-## General methods to verify DP Alt Mode
+## Allgemeine Methoden zum Pruefen von DP Alt Mode
 
-1. **Check the spec sheet**.
+1. **Datenblatt pruefen**.
 
-    Look up your exact model on the manufacturer's website. Search for keywords such as DisplayPort, DP Alt Mode, video output, or Thunderbolt.
+    Suchen Sie Ihr genaues Modell auf der Website des Herstellers. Suchen Sie nach Begriffen wie DisplayPort, DP Alt Mode, video output oder Thunderbolt.
 
-2. **Look for port markings**.
+2. **Port-Markierungen pruefen**.
 
-    A D-shaped DisplayPort logo or Thunderbolt lightning icon next to the USB-C port indicates video output capability.
+    Ein D-foermiges DisplayPort-Logo oder ein Thunderbolt-Blitzsymbol neben dem USB-C-Port weist auf Videoausgabe hin.
 
-3. **Check system settings**.
+3. **Systemeinstellungen pruefen**.
 
-    Your operating system can detect whether the USB-C port supports external display output. See platform-specific instructions below.
+    Ihr Betriebssystem kann erkennen, ob der USB-C-Port externe Displayausgabe unterstuetzt. Beachten Sie die plattformspezifischen Anweisungen unten.
 
-    - [How to check on Windows](#how-to-check-on-windows)
-    - [How to check on Mac](#how-to-check-on-mac)
-    - [How to check on Android](#how-to-check-on-android)
-    - [How to check on iPhone & iPad](#how-to-check-on-iphone-and-ipad)
-    - [Handhelds, tablets & other devices](#handhelds-tablets-and-other-devices)
+    - [Auf Windows pruefen](#auf-windows-pruefen)
+    - [Auf Mac pruefen](#auf-mac-pruefen)
+    - [Auf Android pruefen](#auf-android-pruefen)
+    - [Auf iPhone und iPad pruefen](#auf-iphone-und-ipad-pruefen)
+    - [Handhelds, Tablets und andere Geraete](#handhelds-tablets-und-andere-geraete)
 
-4. **Perform a quick test**.
+4. **Schnelltest durchfuehren**.
 
-    Connect your device to a monitor or TV via a USB-C to HDMI / DisplayPort cable. If the screen mirrors or extends your display, DP Alt Mode is functioning properly.
+    Verbinden Sie Ihr Geraet ueber ein USB-C-auf-HDMI- oder USB-C-auf-DisplayPort-Kabel mit einem Monitor oder Fernseher. Wenn der Bildschirm gespiegelt oder erweitert wird, funktioniert DP Alt Mode ordnungsgemaess.
 
 ---
 
-## How to check on Windows
+## Auf Windows pruefen
 
-1. Press `Win + X` and open **Device Manager**.
-2. Expand **Universal Serial Bus controllers** and look for entries that mention *"USB4"*, *"Thunderbolt"*, or *"DisplayLink"*.
-3. Alternatively, open **Settings** > **System** > **Display** > **Multiple displays**. With Comet Q (or another display) plugged in, your monitor should appear.
-4. You can also check your laptop's user manual or the manufacturer's product page — search for *"DisplayPort over USB-C"* or *"DP Alt Mode"*.
+1. Druecken Sie `Win + X` und oeffnen Sie den **Device Manager**.
+2. Erweitern Sie **Universal Serial Bus controllers** und suchen Sie nach Eintraegen, die *"USB4"*, *"Thunderbolt"* oder *"DisplayLink"* enthalten.
+3. Alternativ oeffnen Sie **Settings** > **System** > **Display** > **Multiple displays**. Wenn Comet Q oder ein anderes Display angeschlossen ist, sollte Ihr Monitor angezeigt werden.
+4. Sie koennen auch das Benutzerhandbuch Ihres Laptops oder die Produktseite des Herstellers pruefen. Suchen Sie nach *"DisplayPort over USB-C"* oder *"DP Alt Mode"*.
 
-**Note**: If your laptop has multiple USB-C ports, only some may support video output. Check each port individually.
+**Hinweis**: Wenn Ihr Laptop mehrere USB-C-Ports hat, unterstuetzen moeglicherweise nur einige davon Videoausgabe. Pruefen Sie jeden Port einzeln.
 
-## How to check on Mac
+## Auf Mac pruefen
 
-1. Click the **Apple menu** > **About This Mac** > **More Info**.
-2. Scroll down and click **System Report**.
-3. Under **Hardware**, select **Thunderbolt / USB4** or **USB**.
-4. Any USB-C port listed under Thunderbolt / USB4 supports DisplayPort Alt Mode by default.
+1. Klicken Sie auf das **Apple menu** > **About This Mac** > **More Info**.
+2. Scrollen Sie nach unten und klicken Sie auf **System Report**.
+3. Waehlen Sie unter **Hardware** die Option **Thunderbolt / USB4** oder **USB** aus.
+4. Jeder unter Thunderbolt / USB4 aufgefuehrte USB-C-Port unterstuetzt DisplayPort Alt Mode standardmaessig.
 
-**Tip**: All modern Macs with USB-C / Thunderbolt ports support DisplayPort Alt Mode out of the box. 
+**Tipp**: Alle aktuellen Macs mit USB-C- oder Thunderbolt-Ports unterstuetzen DisplayPort Alt Mode ohne zusaetzliche Konfiguration.
 
-!!! note "Here are the supported models"
+!!! note "Unterstuetzte Modelle"
 
     - MacBook Neo (A18 Pro)
     - MacBook Air
@@ -119,16 +119,16 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Mac Pro (M2 UItra)
         - Mac Pro (Intel, 2019)
 
-## How to check on Android
+## Auf Android pruefen
 
-1. Open your phone's **Settings** and search for *"display"*, *"HDMI"*, or *"desktop mode"*.
-2. Look for features such as **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection**, or *"External display"*. If any are present, your device's USB-C port supports DP Alt Mode.
-3. If your phone supports it, you'll typically see a notification like *"External display connected"* when you plug into a monitor.
-4. You can also install a free app such as *USB Device Info* to inspect port capabilities.
+1. Oeffnen Sie die **Settings** Ihres Smartphones und suchen Sie nach *"display"*, *"HDMI"* oder *"desktop mode"*.
+2. Suchen Sie nach Funktionen wie **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection** oder *"External display"*. Wenn eine dieser Funktionen vorhanden ist, unterstuetzt der USB-C-Port Ihres Geraets DP Alt Mode.
+3. Wenn Ihr Smartphone DP Alt Mode unterstuetzt, sehen Sie beim Anschliessen an einen Monitor in der Regel eine Benachrichtigung wie *"External display connected"*.
+4. Sie koennen auch eine kostenlose App wie *USB Device Info* installieren, um die Port-Faehigkeiten zu pruefen.
 
-**Note**: Many budget Android phones omit DP Alt Mode even though they have USB-C. Always confirm before purchasing Comet Q.
+**Hinweis**: Viele guenstige Android-Smartphones haben zwar USB-C, unterstuetzen aber keinen DP Alt Mode. Bestaetigen Sie die Unterstuetzung immer, bevor Sie Comet Q kaufen.
 
-!!! note "Here are the supported models, using Samsung as example:"
+!!! note "Unterstuetzte Modelle am Beispiel Samsung:"
 
     - Galaxy A90 5G
     - Galaxy Book
@@ -160,14 +160,14 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Galaxy Z Fold3
         - Galaxy Z Fold4
 
-## How to check on iPhone and iPad
+## Auf iPhone und iPad pruefen
 
-1. iPhone 15 series and newer all support DisplayPort Alt Mode through their USB-C port.
-2. iPhone 14 and earlier use Lightning and are not compatible.
-3. All iPad models with USB-C (iPad Pro, iPad Air 4th gen and later, iPad mini 6th gen and later, iPad 10th gen and later) support video output.
-4. iPads with the older Lightning port are not compatible.
+1. Die iPhone 15 Serie und neuere Modelle unterstuetzen DisplayPort Alt Mode ueber ihren USB-C-Port.
+2. iPhone 14 und aeltere Modelle verwenden Lightning und sind nicht kompatibel.
+3. Alle iPad-Modelle mit USB-C, einschliesslich iPad Pro, iPad Air ab der 4. Generation, iPad mini ab der 6. Generation und iPad ab der 10. Generation, unterstuetzen Videoausgabe.
+4. iPads mit aelterem Lightning-Port sind nicht kompatibel.
 
-!!! note "Here are the supported models"
+!!! note "Unterstuetzte Modelle"
 
     - iPhone
         - iPhone 17 Pro
@@ -206,12 +206,12 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - iPad Pro 13‑inch (M5)
         - iPad Pro 13‑inch (M4)
 
-## Handhelds, tablets and other devices
+## Handhelds, Tablets und andere Geraete
 
-1. **Steam Deck**, **ROG Ally**, **Lenovo Legion Go** — all support DP Alt Mode.
-2. **Nintendo Switch / Switch 2** — supports DP Alt Mode (this is how the dock outputs to your TV).
-3. **Most Windows tablets** with USB-C (Surface Pro 8 and newer, etc.) — supported.
-4. For anything else, check the official spec page and search for the keywords *"DisplayPort"*, *"Alt Mode"*, *"video output"*, or *"Thunderbolt"*.
+1. **Steam Deck**, **ROG Ally** und **Lenovo Legion Go** unterstuetzen alle DP Alt Mode.
+2. **Nintendo Switch / Switch 2** unterstuetzt DP Alt Mode. So gibt das Dock das Bild an Ihren Fernseher aus.
+3. **Die meisten Windows-Tablets** mit USB-C, z. B. Surface Pro 8 und neuer, werden unterstuetzt.
+4. Pruefen Sie bei allen anderen Geraeten die offizielle Spezifikationsseite und suchen Sie nach Begriffen wie *"DisplayPort"*, *"Alt Mode"*, *"video output"* oder *"Thunderbolt"*.
 
 ---
 
