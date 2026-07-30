@@ -22,6 +22,7 @@
 - For navigation paths, keep the structure exactly as in the English source, for example: `**System** -> **Upgrade**`.
 - If a button or menu label is visibly English in the UI, it is acceptable to keep the label in English.
 - Do not invent German UI labels that are not shown in the product.
+- Do not create or sync `fcc_ic_compliance_statements.md` pages into German docs. German product guides should omit those files and their navigation or index links even when the English source has them.
 
 ## KVM-Specific Accuracy
 

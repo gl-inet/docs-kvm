@@ -9,4 +9,3 @@ Es ist das weltweit erste KVM mit iPhone-Unterstuetzung und ermoeglicht es, ein 
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)
-- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)

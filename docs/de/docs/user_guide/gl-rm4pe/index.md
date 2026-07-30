@@ -7,4 +7,3 @@ Comet X ist ein Remote-KVM mit vier Ports und PoE-Unterstuetzung, das bis zu 4 S
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)
-- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)

@@ -9,4 +9,3 @@ Der integrierte Touchscreen vereinfacht Konfiguration und taegliche Bedienung un
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)
-- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)

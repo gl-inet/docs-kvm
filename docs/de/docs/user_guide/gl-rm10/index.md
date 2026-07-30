@@ -9,4 +9,3 @@ Fuer die Konnektivitaet unterstuetzt es Dual Band Wi-Fi 6 (stabil und schnell) s
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)
-- [FCC- und IC-Konformitaetserklaerungen](fcc_ic_compliance_statements.md)
