@@ -24,7 +24,7 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 4. Connect Comet 5G to a network source.
 
-    - 5G: With SIM card inserted, the 5G connection will be automatically established upon system startup. The connection priority is Ethernet > Wi-Fi > 5G.
+    - 5G: With SIM card inserted, the 5G connection will be automatically established upon system startup.   
 
     - Wi-Fi: Swipe left on the touchscreen, and connect Comet 5G to an existing Wi-Fi network (2.4G and 5G supported).
 
@@ -33,6 +33,9 @@ For clarity, Device A refers to the controlling device, and Device B the control
     - Ethernet: Connect the Comet 5G's Ethernet port to a network source.
 
         ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/04-network-ethernet.png){class="glboxshadow"}
+
+    !!! Note
+        The connection priority is **Ethernet** > **Wi-Fi** > **5G**. For the complete logic of WAN Network Detection and Failover, please see [**here**](./console_guide.md#network).
 
 5. Device connection is complete. Now you can access the Comet 5G's console via nearby control, local access, or remote access.
 
