@@ -183,6 +183,12 @@ You can check and modify Comet 5G's network details here, such as Hostname and I
 
     In summary, the cellular connection serves as a robust backup network option when Ethernet or Wi-Fi connections are unavailable.
 
+- **WAN Network Detection and Switching Logic**
+    1. Ping detection is used, sending a ping packet to all interfaces every **3 seconds** and performing a switchover logic judgment every **9 seconds**.  
+    2. If all ping packets to a higher-priority interface fail within **9 seconds**, while ping packets to a lower-priority interface succeed, then a switchover occurs at the **9th second**; if all interfaces fail, then no switchover occurs.  
+    3. Interfaces marked as offline maintain continuous background ping probes.  
+    4. Recovery Mechanism: If the higher-priority interface can be pinged successfully within **9 seconds**, the device switches back to this higher-priority interface at the **9th second**.
+
 ## Toolbox
 
 On the console, navigate to **Toolbox**. The toolbox page includes four sections: 
