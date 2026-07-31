@@ -6,6 +6,7 @@ Der integrierte Touchscreen vereinfacht Konfiguration und taegliche Bedienung un
 
 ![comet 5g scenario](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_scenario.jpg){class="glboxshadow"}
 
+- [Sicherheitshinweise](safety_information.md)
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)

@@ -6,6 +6,7 @@ Es ist das weltweit erste KVM mit iPhone-Unterstuetzung und ermoeglicht es, ein 
 
 ![get to know comet q](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_comet-q.jpg){class="glboxshadow"}
 
+- [Sicherheitshinweise](safety_information.md)
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)

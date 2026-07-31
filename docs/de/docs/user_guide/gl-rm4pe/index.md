@@ -4,6 +4,7 @@ Comet X ist ein Remote-KVM mit vier Ports und PoE-Unterstuetzung, das bis zu 4 S
 
 ![comet x scene server](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/gl-rm4pe_scene_server.png){class="glboxshadow"}
 
+- [Sicherheitshinweise](safety_information.md)
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)

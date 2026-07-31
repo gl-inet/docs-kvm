@@ -6,6 +6,7 @@ Fuer die Konnektivitaet unterstuetzt es Dual Band Wi-Fi 6 (stabil und schnell) s
 
 ![comet pro scenario](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-scenario-office.png){class="glboxshadow"}
 
+- [Sicherheitshinweise](safety_information.md)
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)

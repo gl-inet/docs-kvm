@@ -106,31 +106,37 @@ nav:
       - Uebersicht: user_guide/index.md
       - GL-RM1/GL-RM1 V2 (Comet/Comet V2):
           - Comet Benutzerhandbuch: user_guide/gl-rm1/index.md
+          - Sicherheitshinweise: user_guide/gl-rm1/safety_information.md
           - Produktuebersicht: user_guide/gl-rm1/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rm1/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rm1/console_guide.md
       - GL-RM1PE (Comet PoE):
           - Comet PoE Benutzerhandbuch: user_guide/gl-rm1pe/index.md
+          - Sicherheitshinweise: user_guide/gl-rm1pe/safety_information.md
           - Produktuebersicht: user_guide/gl-rm1pe/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rm1pe/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rm1pe/console_guide.md
       - GL-RM10 (Comet Pro):
           - Comet Pro Benutzerhandbuch: user_guide/gl-rm10/index.md
+          - Sicherheitshinweise: user_guide/gl-rm10/safety_information.md
           - Produktuebersicht: user_guide/gl-rm10/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rm10/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rm10/console_guide.md
       - GL-RM10RC (Comet 5G):
           - Comet 5G Benutzerhandbuch: user_guide/gl-rm10rc/index.md
+          - Sicherheitshinweise: user_guide/gl-rm10rc/safety_information.md
           - Produktuebersicht: user_guide/gl-rm10rc/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rm10rc/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rm10rc/console_guide.md
       - GL-RMQ1 (Comet Q):
           - Comet Q Benutzerhandbuch: user_guide/gl-rmq1/index.md
+          - Sicherheitshinweise: user_guide/gl-rmq1/safety_information.md
           - Produktuebersicht: user_guide/gl-rmq1/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rmq1/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rmq1/console_guide.md
       - GL-RM4PE (Comet X):
           - Comet X Benutzerhandbuch: user_guide/gl-rm4pe/index.md
+          - Sicherheitshinweise: user_guide/gl-rm4pe/safety_information.md
           - Produktuebersicht: user_guide/gl-rm4pe/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rm4pe/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rm4pe/console_guide.md

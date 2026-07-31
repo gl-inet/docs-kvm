@@ -6,6 +6,7 @@ Zusaetzlich wurde bei dieser Version die EMMC-Kapazitaet auf 32 GB erhoeht, soda
 
 ![comet poe scenario](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_scenario_shelf.png){class="glboxshadow"}
 
+- [Sicherheitshinweise](safety_information.md)
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)

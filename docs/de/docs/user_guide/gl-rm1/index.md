@@ -4,6 +4,7 @@ Comet (GL-RM1) V1/V2 ist ein Remote-KVM-Geraet mit vielseitigen Einsatzmoeglichk
 
 ![comet scenario office](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_scenario_office.jpg){class="glboxshadow"}
 
+- [Sicherheitshinweise](safety_information.md)
 - [Produktuebersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)
