@@ -15,6 +15,7 @@ If your question is not listed below, please contact our technical support team 
 * [Quick FAQs about GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Firmware upgrade](firmware_upgrade.md)
 * [Download GLKVM app](glkvm_app.md)
+* [What is the WAN Network Detection and Failover logic of Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Local & Remote Access
 
