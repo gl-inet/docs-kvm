@@ -44,9 +44,7 @@ This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through
 
     ![bind with code 8](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_8.png){class="glboxshadow"}
 
-8. Click on the device you want to remotely access. 
-
-    It will redirect to a new webpage with the domain `glkvm.xyz`, `glkvm.site`, or `glkvm.top`. These domains are secure and provided by GL.iNet. Enter the admin password to log in.
+8. Click on the device you want to remotely access. In the newly opened webpage, enter your admin password to log in.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
