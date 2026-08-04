@@ -99,11 +99,11 @@
     }
   },
   "docs/en/docs/faq/index.md": {
-    "source_hash": "972c234be96a29fad0b4b4fc7713eb9d89a0141c4acd42b2108c12a74e395a4e",
+    "source_hash": "5b9c6d9abe25de11c5ea2a777cf1b86301993d6132997a95e4de09bf4034361b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "gpt-5-codex",
+        "updated_at": 1785726752
       }
     }
   },
@@ -255,8 +255,8 @@
     "source_hash": "e332e0fa92a60d094fa9ef3c4a33ee59241fa7a330fb92a58e66f3e8bbce8d44",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "gpt-5-codex",
+        "updated_at": 1785726752
       }
     }
   },
@@ -606,11 +606,11 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm10rc/quick_setup_guide.md": {
-    "source_hash": "9b5468a90d43871cba9b53f57ed71d16fa0fa1650f43337ef6c6c7a9b85a5634",
+    "source_hash": "f7ace7908eb810cffc60f68420fb6c7a335a05c77d94ecef67d5ebf57b51b26b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329150
+        "model": "gpt-5-codex",
+        "updated_at": 1785726752
       }
     }
   },
@@ -658,8 +658,8 @@
     "source_hash": "51e5083d68b04ac282907f97f9c258c4f31ff34768d32d0481a5e61f772802e9",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329031
+        "model": "gpt-5-codex",
+        "updated_at": 1785726752
       }
     }
   },
@@ -812,6 +812,15 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329032
+      }
+    }
+  },
+  "docs/en/docs/faq/wan_network_detection_and_failover_logic_of_comet5g.md": {
+    "source_hash": "6bcd0c0fd3d94f43da99f112e2e32de7485d56646ee3173e354dec6b26d795c7",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1785726752
       }
     }
   }
