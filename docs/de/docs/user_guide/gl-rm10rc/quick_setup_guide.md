@@ -24,7 +24,7 @@ Zur besseren Verst채ndlichkeit bezeichnet Ger채t A das steuernde Ger채t und Ger�
 
 4. Verbinden Sie den Comet 5G mit einer Netzwerkquelle.
 
-    - 5G: Wenn eine SIM-Karte eingelegt ist, wird die 5G-Verbindung beim Systemstart automatisch hergestellt. Die Verbindungspriorit채t lautet Ethernet > Wi-Fi > 5G.
+    - 5G: Wenn eine SIM-Karte eingelegt ist, wird die 5G-Verbindung beim Systemstart automatisch hergestellt.
 
     - Wi-Fi: Wischen Sie auf dem Touchscreen nach links und verbinden Sie den Comet 5G mit einem vorhandenen Wi-Fi-Netzwerk (2.4G und 5G werden unterst체tzt).
 
@@ -33,6 +33,9 @@ Zur besseren Verst채ndlichkeit bezeichnet Ger채t A das steuernde Ger채t und Ger�
     - Ethernet: Verbinden Sie den Ethernet-Anschluss des Comet 5G mit einer Netzwerkquelle.
 
         ![Connect via ethernet](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/04-network-ethernet.png){class="glboxshadow"}
+
+    !!! Note
+        Die Verbindungspriorit채t lautet **Ethernet** > **Wi-Fi** > **5G**. Die vollst채ndige Logik f체r WAN Network Detection and Failover finden Sie [**hier**](../../faq/wan_network_detection_and_failover_logic_of_comet5g.md).
 
 5. Die Ger채teverbindung ist abgeschlossen. Sie k철nnen nun 체ber Nearby Control, lokalen Zugriff oder Fernzugriff auf die Konsole des Comet 5G zugreifen.
 
