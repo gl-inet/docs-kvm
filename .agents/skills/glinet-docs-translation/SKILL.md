@@ -27,6 +27,7 @@ If a task touches both languages, read both references before editing.
 - Keep image URLs unchanged. Keep relative links unchanged unless the localized target path intentionally differs.
 - Remove machine-translation artifacts and unintended source-language fragments from localized prose.
 - Check technical words such as `all`, `only`, `must`, `default`, `enabled`, `disabled`, `remote`, `local`, `client`, `host`, and `does not` carefully because they often change device behavior.
+- Treat KVM regulatory and compliance statement pages as English-only unless the user explicitly asks to localize them. This includes pages such as `regulatory_statement.md` and legacy `fcc_ic_compliance_statements.md`, plus their corresponding nav entries, redirects, and index links.
 
 ## Incremental Sync Workflow
 
@@ -39,6 +40,7 @@ Use this workflow when syncing English changes into localized docs, especially a
    - If no baseline is available, ask for the intended commit range before doing broad translation work.
 3. Build an English change list covering modified, added, deleted, and renamed files under `docs/en/`, plus changes to `docs/en/mkdocs.yml`, nav, redirects, plugins, and path references.
 4. Handle structure before prose:
+   - Filter out English-only regulatory and compliance statement changes. Do not create, rename, delete, translate, or add localized nav/redirect/index entries for these pages unless explicitly requested.
    - Mirror English renames in `docs/de/` and `docs/jp/` when those language roots exist.
    - Create matching localized pages when English adds pages and the user asks to add that target language.
    - Sync localized `mkdocs.yml` changes when English changes nav, redirects, plugins, or path references.
