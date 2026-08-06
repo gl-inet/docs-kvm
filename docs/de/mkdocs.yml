@@ -12,13 +12,13 @@ copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 theme:
   name: material
   language: de
-  logo: images/logo_white.svg
+  logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
   custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
-  favicon: images/favicon.png
+  favicon: https://static.gl-inet.com/docs/router/common/favicon.png
 
 plugins:
   - search
@@ -148,6 +148,7 @@ nav:
           - Kurze FAQs zu GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Firmware-Upgrade: faq/firmware_upgrade.md
           - GLKVM-App herunterladen: faq/glkvm_app.md
+          - WAN Network Detection and Failover-Logik von Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Lokaler Zugriff und Fernzugriff:
           - Lokaler Zugriff ueber den Browser: faq/local_access_via_browser.md
           - Fernzugriff ueber Cloud: faq/remote_access_via_cloud.md
@@ -208,6 +209,7 @@ nav:
       - Fehlerbehebung:
           - KVM ueber U-Boot entbricken: faq/debrick.md
           - KVM ueber RKDevTool entbricken: tutorials/how_to_debrick_kvm_via_rkdevtool.md
+          - KVM ueber USB OTG entbricken: tutorials/how_to_unbrick_kvm_via_usb_otg.md
           - Geraete- und App-Protokolle exportieren: tutorials/how_to_export_device_and_app_logs.md
           - Mobilfunkprotokolle exportieren: tutorials/how_to_export_cellular_logs.md
           - Mauslatenz beheben, wenn RPi4 RPi3 steuert: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
