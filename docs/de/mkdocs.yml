@@ -12,13 +12,13 @@ copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 theme:
   name: material
   language: de
-  logo: images/logo_white.svg
+  logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
   custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
-  favicon: images/favicon.png
+  favicon: https://static.gl-inet.com/docs/router/common/favicon.png
 
 plugins:
   - search

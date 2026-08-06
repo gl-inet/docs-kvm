@@ -9,11 +9,11 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "ebc265fe4b5bf414a18b746f66b3ad52458f3ec9c379b5677aaa7aa0c88c9fd5",
+    "source_hash": "2c7e931d0465b9a4025663cb6f87adf9d7a8482792752076a455764cbc4e3587",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "updated_at": 1786002431
       }
     }
   },
@@ -332,15 +332,6 @@
       }
     }
   },
-  "docs/en/docs/images/favicon.png": {
-    "source_hash": "43c1832ff98ba02221eb25e7f5ab7a9431784d310726e7b133cff74b3b53d4a0",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
-      }
-    }
-  },
   "docs/en/docs/images/logo_white.svg": {
     "source_hash": "437220ae8b5d2334dfcbf01d353cde442da2e1c3155db19a7a49bb900d2de117",
     "targets": {
@@ -377,53 +368,8 @@
       }
     }
   },
-  "docs/en/docs/javascripts/photoswipe-ui-default.min.js": {
-    "source_hash": "3d61ce954cdcf7aa4c73c4e1c112173e7f321f834e2eee36450d1bf52a67a459",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
-      }
-    }
-  },
-  "docs/en/docs/javascripts/photoswipe.min.js": {
-    "source_hash": "5299510acf6fe0a5d526f558fa9f914a8e50e2294051787b9298f220fe687727",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
-      }
-    }
-  },
-  "docs/en/docs/stylesheets/default-skin.min.css": {
-    "source_hash": "045788d55f95875464dfbc2cc2e3989f996c4dc694f7a846688ece51508b8cf7",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
-      }
-    }
-  },
-  "docs/en/docs/stylesheets/default-skin.png": {
-    "source_hash": "97c501c08c2a8aaec01401501030908426fc9e73ac2f7c6ef9b0f0f7e6635a2d",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
-      }
-    }
-  },
   "docs/en/docs/stylesheets/extra.css": {
     "source_hash": "04546dff82b803b66e171ffefe957104e8eec628c559457e66582d295b45ad75",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
-      }
-    }
-  },
-  "docs/en/docs/stylesheets/photoswipe.min.css": {
-    "source_hash": "b029793d438630b7c561cb730d6dccb5189bd1cb7252f23d42c9aadb05ce7816",
     "targets": {
       "de": {
         "model": "pre-existing",
