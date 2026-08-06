@@ -159,6 +159,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Galaxy Z Fold2
         - Galaxy Z Fold3
         - Galaxy Z Fold4
+        - Galaxy Z Fold7
 
 ## How to check on iPhone and iPad
 
