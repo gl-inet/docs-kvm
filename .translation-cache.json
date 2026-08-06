@@ -1,4 +1,31 @@
 {
+  "docs/en/mkdocs.fast.yml": {
+    "source_hash": "8bf225d8683497b3561ae442005e074de0f443d5e713ef23f4403221ca2b7d26",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1785317580
+      }
+    }
+  },
+  "docs/en/mkdocs.yml": {
+    "source_hash": "ebc265fe4b5bf414a18b746f66b3ad52458f3ec9c379b5677aaa7aa0c88c9fd5",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/index.md": {
+    "source_hash": "0cecb20f9b89e3815e4f1a10e106c07fd66e7bb63e7384dc51ed6ac899596281",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1785319702
+      }
+    }
+  },
   "docs/en/docs/faq/cannot_control_mouse_and_keyboard.md": {
     "source_hash": "88a11b237b4be94e196b1aa5c7d5cfda79e77d63c688dfa9ad2179d27e4d3c74",
     "targets": {
@@ -189,11 +216,11 @@
     }
   },
   "docs/en/docs/faq/remote_access_via_cloud.md": {
-    "source_hash": "93d6930dc5b21307095094d2d87d969d7c19caf9abf86d42cfa50d7b9b5c237a",
+    "source_hash": "89fba1501404d6dadf4482cb1c85b95f2a40391d8935ef121ae1d3ef4556324c",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329029
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
   },
@@ -243,7 +270,7 @@
     }
   },
   "docs/en/docs/faq/remote_screen_goes_blank_no_hdmi_signal.md": {
-    "source_hash": "6f32ca57c47a16cdf74b6308fa4345de91bcd474837bea674be68428b7b05ab9",
+    "source_hash": "4d350bb49636bae097ef6ca058018687ae98d18ea381b6e403e90e729d1f4fd5",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -278,6 +305,15 @@
       }
     }
   },
+  "docs/en/docs/faq/wan_network_detection_and_failover_logic_of_comet5g.md": {
+    "source_hash": "f0e2a6339cca4a689001a20efaf77e649be9e3f48ddf0f4a740171caa4f52761",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
+      }
+    }
+  },
   "docs/en/docs/features_update/firmware_v1.9.md": {
     "source_hash": "536fe0366903c1a90b49590aab203e8282a5e3f895e20d95a95a66c3638bf266",
     "targets": {
@@ -296,12 +332,102 @@
       }
     }
   },
-  "docs/en/docs/index.md": {
-    "source_hash": "0cecb20f9b89e3815e4f1a10e106c07fd66e7bb63e7384dc51ed6ac899596281",
+  "docs/en/docs/images/favicon.png": {
+    "source_hash": "43c1832ff98ba02221eb25e7f5ab7a9431784d310726e7b133cff74b3b53d4a0",
     "targets": {
       "de": {
         "model": "pre-existing",
-        "updated_at": 1785319702
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/images/logo_white.svg": {
+    "source_hash": "437220ae8b5d2334dfcbf01d353cde442da2e1c3155db19a7a49bb900d2de117",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/images/logo.svg": {
+    "source_hash": "33ee4228ccf99a3b002043083daa7f65caf4c52c05705acfff2635b72e3d199f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/javascripts/cookieconsent.js": {
+    "source_hash": "4da2f3947225bd869373b13aae860758306b555f81d01fcb0957a65de6132058",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/javascripts/extra.js": {
+    "source_hash": "ab8211c6ee21654ba8f9472dbf1025d35a9cb9903b217080c98319a89cb4cc52",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/javascripts/photoswipe-ui-default.min.js": {
+    "source_hash": "3d61ce954cdcf7aa4c73c4e1c112173e7f321f834e2eee36450d1bf52a67a459",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/javascripts/photoswipe.min.js": {
+    "source_hash": "5299510acf6fe0a5d526f558fa9f914a8e50e2294051787b9298f220fe687727",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/stylesheets/default-skin.min.css": {
+    "source_hash": "045788d55f95875464dfbc2cc2e3989f996c4dc694f7a846688ece51508b8cf7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/stylesheets/default-skin.png": {
+    "source_hash": "97c501c08c2a8aaec01401501030908426fc9e73ac2f7c6ef9b0f0f7e6635a2d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/stylesheets/extra.css": {
+    "source_hash": "04546dff82b803b66e171ffefe957104e8eec628c559457e66582d295b45ad75",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
+      }
+    }
+  },
+  "docs/en/docs/stylesheets/photoswipe.min.css": {
+    "source_hash": "b029793d438630b7c561cb730d6dccb5189bd1cb7252f23d42c9aadb05ce7816",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1786000750
       }
     }
   },
@@ -315,11 +441,11 @@
     }
   },
   "docs/en/docs/tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md": {
-    "source_hash": "efc69512856ee7bc3ddbf6830bd81364ea0c21c0478af05e01c437b2f86e703c",
+    "source_hash": "866167b1f9bc077c45d0957c737695cbcb9de18d9b49e4de9674af05d77ac180",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319669
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
   },
@@ -351,11 +477,11 @@
     }
   },
   "docs/en/docs/tutorials/how_to_check_usb-c_port_dp_alt_mode.md": {
-    "source_hash": "bd4f38d124d0b9d2612d9a2649b38a0b0905babd34afc5f1d3ae9d26688b7a71",
+    "source_hash": "11093f10b459127232e16f54cbfa7652ad5f071352bf646a6a7d07cd8a76abf2",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
   },
@@ -458,6 +584,15 @@
       }
     }
   },
+  "docs/en/docs/tutorials/how_to_unbrick_kvm_via_usb_otg.md": {
+    "source_hash": "02de170ee0f303a1429bac01810e5a30b4d6ded2b97ecd1009f361ed41053f3f",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
+      }
+    }
+  },
   "docs/en/docs/tutorials/how_to_use_screen_wall.md": {
     "source_hash": "9e3b36def5f858ca2f8658f16a87b99b6aa6ce850af5baa3930b2f05bc5702cc",
     "targets": {
@@ -473,6 +608,15 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      }
+    }
+  },
+  "docs/en/docs/user_guide/index.md": {
+    "source_hash": "42104257d843b9c52aa5ea8f6efd41f1d55366424757a29d6bfccc88a0545285",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1785329032
       }
     }
   },
@@ -503,12 +647,8 @@
       }
     }
   },
-  "docs/en/docs/user_guide/gl-rm1/fcc_ic_compliance_statements.md": {
-    "source_hash": "cc48c06d352c9052bd25a78cf4fcaf3d7f0a431e80aeefe8e3679e3280bf985d",
-    "targets": {}
-  },
   "docs/en/docs/user_guide/gl-rm1/index.md": {
-    "source_hash": "8a2125a1b35d36bcc7d2715b66301086d0de4afc2d36ef9b195faa462416a5f3",
+    "source_hash": "a24ee7271542d4043c4086f0d932a4d265c0ba9f14527fdb05ca69218d29a2c1",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -526,13 +666,17 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm1/quick_setup_guide.md": {
-    "source_hash": "b0a34f9b3578b78bdcf70d8f02aca2e4cec953cd210dc8a42010f07d84fbb8a4",
+    "source_hash": "b7d86955b305df9167457356519a3206e8e7cfd0149d00562b53dedee95840e6",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329150
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
+  },
+  "docs/en/docs/user_guide/gl-rm1/regulatory_statement.md": {
+    "source_hash": "d1a0f1f317480b1a0c0c05498d107073a18c75cf8c1735b51988bb7c732f7cd0",
+    "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10/console_guide.md": {
     "source_hash": "eea8da4b409818a5b87d98ac2a91fc7e8df61ae74531fcbc43473d51f64b2f91",
@@ -543,12 +687,8 @@
       }
     }
   },
-  "docs/en/docs/user_guide/gl-rm10/fcc_ic_compliance_statements.md": {
-    "source_hash": "cc48c06d352c9052bd25a78cf4fcaf3d7f0a431e80aeefe8e3679e3280bf985d",
-    "targets": {}
-  },
   "docs/en/docs/user_guide/gl-rm10/index.md": {
-    "source_hash": "5a511aee72013f01e033480524f5d49b6518f939d0210afcf9ebdbdd0934d4fe",
+    "source_hash": "c6a883b357a21886111318c55a8f34774f55743574254aaf33f30ed760784808",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -566,29 +706,29 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm10/quick_setup_guide.md": {
-    "source_hash": "dc2450f42b40d962c9299754b0beb0e11f04aa4d4a1f006cfa256507e3a53ec3",
+    "source_hash": "07376a5563fb3c63eeddfae3a693232c1378d05cf7d7dab95775e7036bda1811",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329150
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
   },
-  "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
-    "source_hash": "4f32035b27cd5849f9f8337f9db1974e3d75ee92d8beb72a3fed7ceae487d40d",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329030
-      }
-    }
-  },
-  "docs/en/docs/user_guide/gl-rm10rc/fcc_ic_compliance_statements.md": {
-    "source_hash": "cc48c06d352c9052bd25a78cf4fcaf3d7f0a431e80aeefe8e3679e3280bf985d",
+  "docs/en/docs/user_guide/gl-rm10/regulatory_statement.md": {
+    "source_hash": "42dcde3c7f498979e010cf19f2d7ac6d285c7f65595edd47e27fb700e298a1ee",
     "targets": {}
   },
+  "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
+    "source_hash": "410c17b857b6edf2dabab7a6826f2e6a169074d51c7c0f787e278c8e60e3a0f8",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
+      }
+    }
+  },
   "docs/en/docs/user_guide/gl-rm10rc/index.md": {
-    "source_hash": "8e6f9cc138164fdf438829efdeb06a5072127e92f749289752410cad28067266",
+    "source_hash": "5895f6deb4b0e423fce51399aeae2e15991c2fe9d3ee883b860020cac1853bdd",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -606,13 +746,17 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm10rc/quick_setup_guide.md": {
-    "source_hash": "f7ace7908eb810cffc60f68420fb6c7a335a05c77d94ecef67d5ebf57b51b26b",
+    "source_hash": "3a6149d9d7b115c3b5b840d03c29ca5ad3aa9d776ff3795618f80024287a91b6",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1785726752
+        "updated_at": 1786000750
       }
     }
+  },
+  "docs/en/docs/user_guide/gl-rm10rc/regulatory_statement.md": {
+    "source_hash": "a4b228dca60a5708e02f6851a18a24d19b70ff474c47ed6f9baa1eec62e5685b",
+    "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm1pe/console_guide.md": {
     "source_hash": "8a6a2c76e8faa85a50136dd931d61d9d542a2ee2b8136f0569ace55048db8521",
@@ -623,12 +767,8 @@
       }
     }
   },
-  "docs/en/docs/user_guide/gl-rm1pe/fcc_ic_compliance_statements.md": {
-    "source_hash": "cc48c06d352c9052bd25a78cf4fcaf3d7f0a431e80aeefe8e3679e3280bf985d",
-    "targets": {}
-  },
   "docs/en/docs/user_guide/gl-rm1pe/index.md": {
-    "source_hash": "72292b3aff54e1649cd9fa622e8b557334a359ee32b7322f00979bcb65e9f583",
+    "source_hash": "76c2887628eda566f2ba505da957d56f4a464f859ebb92c639217851bf642325",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -646,13 +786,17 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm1pe/quick_setup_guide.md": {
-    "source_hash": "0149f0569a2a848f941f37b2f89aa466695e5a52267de9f2d4ba59935b4dc6cd",
+    "source_hash": "501d47bc1e1f6c4a0ae255ae3794186187d16aa8ec526ec37d41cf464f73e5c8",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329151
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
+  },
+  "docs/en/docs/user_guide/gl-rm1pe/regulatory_statement.md": {
+    "source_hash": "bf32c33297bad2bde4b78c294373d24da4a07e8bae13139e36a061ff3a7afe0d",
+    "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
     "source_hash": "51e5083d68b04ac282907f97f9c258c4f31ff34768d32d0481a5e61f772802e9",
@@ -663,12 +807,8 @@
       }
     }
   },
-  "docs/en/docs/user_guide/gl-rm4pe/fcc_ic_compliance_statements.md": {
-    "source_hash": "cc48c06d352c9052bd25a78cf4fcaf3d7f0a431e80aeefe8e3679e3280bf985d",
-    "targets": {}
-  },
   "docs/en/docs/user_guide/gl-rm4pe/index.md": {
-    "source_hash": "8f1d6a67abc419910f153bec94fdbbddf17c46430131f06ea8d5a1f7de907b10",
+    "source_hash": "3b3fb985c60b75474940f66677a0693e0049784219f3d933da10d286af83cd80",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -694,6 +834,10 @@
       }
     }
   },
+  "docs/en/docs/user_guide/gl-rm4pe/regulatory_statement.md": {
+    "source_hash": "0a23eb57da23e57ce4e6e958d4e984b33da8e182af8582be0d476b82eb8815fd",
+    "targets": {}
+  },
   "docs/en/docs/user_guide/gl-rmq1/console_guide.md": {
     "source_hash": "ebf23dd3f5746e47981e3bad7329ac446166941b8e7aa0ad7bad673a9c167dc9",
     "targets": {
@@ -703,12 +847,8 @@
       }
     }
   },
-  "docs/en/docs/user_guide/gl-rmq1/fcc_ic_compliance_statements.md": {
-    "source_hash": "cc48c06d352c9052bd25a78cf4fcaf3d7f0a431e80aeefe8e3679e3280bf985d",
-    "targets": {}
-  },
   "docs/en/docs/user_guide/gl-rmq1/index.md": {
-    "source_hash": "f26e40f5699e6af96ddddd98ea6acb9980f0ba61842c7ba19f4dc09ab464b894",
+    "source_hash": "4a98fe8d62f20f642a2740713f968c792361382c494af4bc6a397f59da940db5",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -726,22 +866,17 @@
     }
   },
   "docs/en/docs/user_guide/gl-rmq1/quick_setup_guide.md": {
-    "source_hash": "c7e34bed88776cfdaaa2a76fdf33e8475b394b38167f600fec6ad6af7ff62cf9",
+    "source_hash": "cc89599ec2a576d182e025c5bae9c3aa9b7b0f2649ff278e570b5ec19f818859",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329151
+        "model": "gpt-5-codex",
+        "updated_at": 1786000750
       }
     }
   },
-  "docs/en/docs/user_guide/index.md": {
-    "source_hash": "42104257d843b9c52aa5ea8f6efd41f1d55366424757a29d6bfccc88a0545285",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329032
-      }
-    }
+  "docs/en/docs/user_guide/gl-rmq1/regulatory_statement.md": {
+    "source_hash": "0997cd0dd9cc300dce2d92b1f5d43e2c98ecfeb6ded5f72fdef782c2cee150c3",
+    "targets": {}
   },
   "docs/en/docs/video_library/features.md": {
     "source_hash": "d51623ae07c730f4566b01b7a39c3fb8a1c5781aa847366ac7e761879c7a394d",
@@ -779,24 +914,6 @@
       }
     }
   },
-  "docs/en/mkdocs.fast.yml": {
-    "source_hash": "8bf225d8683497b3561ae442005e074de0f443d5e713ef23f4403221ca2b7d26",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1785317580
-      }
-    }
-  },
-  "docs/en/mkdocs.yml": {
-    "source_hash": "6366bc0aa4eca4afc7167e9ac04542c2ce37745e1a29b17df60f8da672515ca3",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1785489720
-      }
-    }
-  },
   "docs/en/overrides/home.html": {
     "source_hash": "698302112c2a041613d743352f72cd67bfcdf34229e9ceba509e70e9f9421a8b",
     "targets": {
@@ -812,15 +929,6 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329032
-      }
-    }
-  },
-  "docs/en/docs/faq/wan_network_detection_and_failover_logic_of_comet5g.md": {
-    "source_hash": "6bcd0c0fd3d94f43da99f112e2e32de7485d56646ee3173e354dec6b26d795c7",
-    "targets": {
-      "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1785726752
       }
     }
   }

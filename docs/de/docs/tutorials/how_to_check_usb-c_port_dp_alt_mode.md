@@ -159,6 +159,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
         - Galaxy Z Fold2
         - Galaxy Z Fold3
         - Galaxy Z Fold4
+        - Galaxy Z Fold7
 
 ## Auf iPhone und iPad pruefen
 

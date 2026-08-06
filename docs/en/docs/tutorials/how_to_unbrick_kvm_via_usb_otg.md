@@ -22,8 +22,6 @@
 > 
 > The backup file will appear in **Virtual Media** and can be downloaded to your local machine.
 
-## 
-
 ## Windows
 
 ### Install
@@ -161,3 +159,5 @@ Downloading image ROOTFS
 Downloading image SPL
 Done
 ```
+
+</details>
