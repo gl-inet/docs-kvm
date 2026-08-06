@@ -29,6 +29,24 @@ If a task touches both languages, read both references before editing.
 - Check technical words such as `all`, `only`, `must`, `default`, `enabled`, `disabled`, `remote`, `local`, `client`, `host`, and `does not` carefully because they often change device behavior.
 - Treat KVM regulatory and compliance statement pages as English-only unless the user explicitly asks to localize them. This includes pages such as `regulatory_statement.md` and legacy `fcc_ic_compliance_statements.md`, plus their corresponding nav entries, redirects, and index links.
 
+## Translation Cache
+
+When `.translation-cache.json` exists, use `scripts/translation_delta.py` to build the incremental English change list and to update the cache after syncing.
+
+```powershell
+python scripts/translation_delta.py list
+python scripts/translation_delta.py update --target de
+```
+
+The cache stores `source_hash` values for files under `docs/en/**`.
+
+- For text files, calculate `source_hash` as SHA-256 over UTF-8 text after normalizing line endings to LF (`\n`). Do not use raw file-byte hashes on Windows, because CRLF checkout conversion produces false mismatches.
+- Treat these extensions as text: `.md`, `.yml`, `.yaml`, `.html`, `.css`, `.js`, `.svg`, `.txt`, `.json`.
+- For binary files, calculate SHA-256 over raw bytes.
+- Scan all current files under `docs/en/**`; include missing cache entries and hash mismatches in the English change list.
+- Include cached `docs/en/**` entries whose source file no longer exists as deleted.
+- Treat KVM regulatory and compliance statement pages as English-only unless explicitly requested.
+
 ## Incremental Sync Workflow
 
 Use this workflow when syncing English changes into localized docs, especially after a commit.
@@ -36,7 +54,7 @@ Use this workflow when syncing English changes into localized docs, especially a
 1. Report the current branch and working tree status before building the change set.
 2. Establish the English change set:
    - If the user gives a commit, diff `commit..HEAD`.
-   - If a `.translation-cache.json` or `scripts/translation_delta.py` is later added to this repo, prefer that cache/script for incremental sync.
+   - If `.translation-cache.json` and `scripts/translation_delta.py` exist, run the script and prefer its cache-based change list for incremental sync.
    - If no baseline is available, ask for the intended commit range before doing broad translation work.
 3. Build an English change list covering modified, added, deleted, and renamed files under `docs/en/`, plus changes to `docs/en/mkdocs.yml`, nav, redirects, plugins, and path references.
 4. Handle structure before prose:
