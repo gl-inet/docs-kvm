@@ -1,8 +1,8 @@
-# Most Frequently Asked Questions about Comet Q
+# Frequently Asked Questions about Comet Q
 
 ## General 
 
-1. **Q: What should I do if the KVM control screen shows "Unable to Display" when Comet Q connects to the controlled device? **
+1. **Q: What should I do if the KVM control screen shows "Unable to Display" when Comet Q connects to the controlled device?**
 
     A: This is because your controlled device does not support **USB-C DisplayPort Alt Mode**, which prevents video stream output.
     
@@ -12,7 +12,7 @@
     
     A: Due to iOS/Android security restrictions, the system blocks the password entry page during screen mirroring or remote control. You may directly enter the unlock password from the controlling end to unlock your device.
 
-3. Q: Why can't the sound be transmitted to the controlling device when the controlled device is making a voice call?
+3. **Q: Why can't the sound be transmitted to the controlling device when the controlled device is making a voice call?**
     
     A: This problem commonly occurs on iPhones and some Android devices. When voice interaction software (e.g., WhatsApp, Microsoft Teams) is running on the controlled device for voice calls, due to iOS/Android system restrictions, audio can only be output through local speakers on the controlled device and cannot be transmitted to the controlling end through KVM.
 
@@ -44,7 +44,7 @@
     
     To fix this, turn on the **Portrait Orientation Lock**/**Rotation Lock** on your iPhone/iPad to guarantee accurate cursor tracking.
 
-    ![Portrait Lock](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/faqs/portrait_lock.png){class="glboxshadow" width="360"}
+    ![Portrait Lock](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/faqs/portrait_lock.png){class="glboxshadow" width="360"}  
     <small>(Portrait Orientation Lock on iPhone)</small>
 
 ## Android
