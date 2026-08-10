@@ -82,9 +82,7 @@ Nach der Anmeldung sehen Sie die Geräte, die an Ihr Konto gebunden sind. Klicke
 
 ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
-Sie werden auf eine neue Webseite mit der Domain `glkvm.xyz`, `glkvm.site` oder `glkvm.top` weitergeleitet (zufällig zugewiesen). Diese Domains sind sicher und werden von GL.iNet bereitgestellt.
-
-Geben Sie Ihr Admin-Passwort ein, um sich anzumelden.
+Geben Sie auf der neu geöffneten Webseite Ihr Admin-Passwort ein, um sich anzumelden.
 
 ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 

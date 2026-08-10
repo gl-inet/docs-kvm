@@ -105,7 +105,6 @@ If you access the controlled device via a browser and encounter a blank screen i
         ```
         update-grub
         ```
-
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

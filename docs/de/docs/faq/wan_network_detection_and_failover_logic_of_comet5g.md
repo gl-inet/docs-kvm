@@ -1,4 +1,4 @@
-# Was ist die WAN Network Detection and Failover-Logik von Comet 5G?
+# Was ist die WAN Network Detection and Failover-Logik von Comet 5G
 
 1. Das System verwendet pingbasierte Erkennung, sendet alle **3 Sekunden** Prüfungen an alle Schnittstellen und bewertet alle **9 Sekunden** die Bedingungen für ein Failover.
 

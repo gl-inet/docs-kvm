@@ -44,9 +44,7 @@ Dieses Tutorial zeigt, wie Sie GL.iNet KVM einfach per dynamischem Code mit der 
 
     ![bind with code 8](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_8.png){class="glboxshadow"}
 
-8. Klicken Sie auf das Geraet, auf das Sie remote zugreifen moechten. 
-
-    Sie werden auf eine neue Webseite mit der Domain `glkvm.xyz`, `glkvm.site` oder `glkvm.top` weitergeleitet. Diese Domains sind sicher und werden von GL.iNet bereitgestellt. Geben Sie das Admin-Passwort ein, um sich anzumelden.
+8. Klicken Sie auf das Geraet, auf das Sie remote zugreifen moechten. Geben Sie auf der neu geoeffneten Webseite Ihr Admin-Passwort ein, um sich anzumelden.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
