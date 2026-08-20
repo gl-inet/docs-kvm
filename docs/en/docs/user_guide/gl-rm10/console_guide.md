@@ -381,31 +381,33 @@ On the console, navigate to the top right corner to access the following tools:
 
 Click the upward arrow icon in the top right corner to collapse the toolbar.
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/collapse1.png){class="glboxshadow"}
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/collapse_1.png){class="glboxshadow"}
 
 When the toolbar is collapsed, click the downward arrow icon at the top to expand it.
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/collapse2.png){class="glboxshadow"}
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/collapse_2.png){class="glboxshadow"}
 
 ### Fullscreen
 
 Click the fullscreen icon (square-shaped) in the upper right corner to switch to fullscreen mode.
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen1.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen_1.png){class="glboxshadow"}
 
 To exit fullscreen, press and hold the **Esc** key, or click the exit fullscreen icon (grid-shaped) in the upper right corner. 
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen2.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen_2.png){class="glboxshadow"}
 
 ### Upgrade
 
 Click the firmware version in the upper right corner to check for updates.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade1.png){class="glboxshadow"}
+![firmware upgrade 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_1.png){class="glboxshadow"}
 
-In the pop-up window, you can click **Update Settings** to perform a local upgrade, join Beta program, or save current configuration.
+In the pop-up window, you can click **Local Upgradate** to upload a firmware file.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade2.png){class="glboxshadow"}
+![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_2.png){class="glboxshadow"}
+
+![firmware upgrade 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_3.png){class="glboxshadow" width=350}
 
 Download the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} before performing a local upgrade.
 
@@ -482,6 +484,8 @@ The Preferences provides management of Layout Preferences, System Settings, and 
 
 You can check and modify Comet Pro's network details, such as Hostname and IP address.
 
+![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_network.png){class="glboxshadow"}
+
 - **Hostname**: You can modify the device hostname directly on the console. This feature was introduced in firmware v1.7.0.
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_network_hostname.png){class="glboxshadow" width=600}
@@ -528,15 +532,15 @@ The security allows you to change admin password, enable two-factor authenticati
 
 The Cloud allows you to remotely access and manage your device through cloud services.
 
-- Cloud binding is available via URL. In **More Settings**, you'll find other options like Bind With Code and App Download. Disable is also available if needed.
+You can bind your device to the Cloud via URL. In **More Settings**, you'll find other options like Bind With Code and App Download. Disable is also available if needed.
 
-    ![Cloud 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_cloud_1.png){class="glboxshadow"} 
+![Cloud 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_cloud_1.png){class="glboxshadow"} 
 
-- Once bound successfully, you can view the bound cloud account information. Click **Access Cloud** to manage Devices or click **More Settings** to disable or unbind as needed. 
-    
-    Alternatively, you can also perform the above management operations via Cloud Service on the top toolbar.
+Once bound successfully, you can view the bound cloud account information. Click **Access Cloud** to manage Devices or click **More Settings** to disable or unbind as needed. 
 
-    ![Cloud 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_cloud_2.png){class="glboxshadow"} 
+![Cloud 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_cloud_2.png){class="glboxshadow"} 
+
+Alternatively, you can also perform the above management operations via Cloud Service on the top toolbar.
 
 ### System
 
