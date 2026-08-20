@@ -75,7 +75,7 @@ Sie können die relevanten Einstellungen für Audio, Tastatur und Maus anpassen.
 
 - **Show Local Cursor**: Zeigt die Maus des aktuellen Geräts auf dem Bildschirm an.
 
-- **Mouse Jiggle**: Die Funktion Mouse Jiggler simuliert dezente, periodische Mausbewegungen, um zu verhindern, dass der Computer (d. h. das gesteuerte Gerät) aufgrund längerer Inaktivität in den Ruhezustand wechselt, beispielsweise während Remote-Meetings oder bei der Serververwaltung.
+- **Mouse Jiggle**: Die Funktion Mouse Jiggle simuliert dezente, periodische Mausbewegungen, um zu verhindern, dass das gesteuerte Gerät aufgrund längerer Inaktivität in den Ruhezustand wechselt, beispielsweise während Remote-Meetings oder bei der Serververwaltung.
 
 - **Scroll Rate**: Bezeichnet die Geschwindigkeit, mit der das Mausrad scrollt, bzw. die Anzahl der Zeilen/Einheiten pro Mausradbewegung. Dies beeinflusst, wie schnell sich Inhalte auf der Gegenstelle bewegen.
 

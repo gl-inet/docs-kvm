@@ -1,163 +1,174 @@
 # KVM ueber USB OTG entbricken
 
+In dieser Anleitung wird erklaert, wie Sie ein GL.iNet KVM-Geraet ueber USB OTG entbricken. Diese Methode eignet sich, wenn das KVM-Geraet gebrickt ist und nicht ueber ein normales Firmware-Update oder den U-Boot-Safe-Mode wiederhergestellt werden kann.
+
 ## Unterstuetzte Geraete
 
 - RMQ1
 
 ## Voraussetzungen
 
-- Ein Windows-PC / macOS / Ubuntu
+Bereiten Sie bitte die folgenden Werkzeuge vor, um das Geraet zu entbricken.
 
-- RMQ1-Geraet
+- Ein Computer mit Windows, macOS oder Ubuntu
 
-- `.axp`-Firmwaredatei - laden Sie die neueste Firmware von der [offiziellen Firmware-Seite](https://dl.gl-inet.com/kvm/rmq1/beta) herunter; suchen Sie nach der Datei mit der Kennzeichnung **DOWNLOAD FOR USB OTG**
+**Hinweis**
 
-  ![rmq1-usbotg](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
+- Verbinden Sie den RMQ1 nicht ueber seinen USB-C-Port mit einem Netzteil.
 
-> **Wichtig:** Sichern Sie vor dem Flashen die Partition `factory`, um geraetespezifische Daten wie MAC-Adresse und Zertifikatsdaten zu erhalten. Wenn das Geraet noch ueber die Weboberflaeche erreichbar ist, gehen Sie zu **Toolbox** -> **Terminal** -> **Access** und fuehren Sie dann aus:
->
-> ```bash
-> dd if=/dev/mtd6 of=/userdata/media/factory.bin
-> ```
->
-> Die Sicherungsdatei erscheint unter **Virtual Media** und kann auf Ihren lokalen Computer heruntergeladen werden.
+- Sichern Sie vor dem Flashen der Firmware die Partition `factory`, um geraetespezifische Daten wie MAC-Adresse und Zertifikat zu erhalten. Wenn die Weboberflaeche weiterhin erreichbar ist, navigieren Sie bitte zu **Toolbox** -> **Terminal** -> **Access** und fuehren Sie den folgenden Befehl aus:
 
-## Windows
+      ```
+      dd if=/dev/mtd6 of=/userdata/media/factory.bin
+      ```
 
-### Installation
+      Die Sicherungsdatei erscheint unter **Virtual Media** und kann auf Ihren lokalen Computer heruntergeladen werden.
 
-1. **USB-Treiber installieren**
+- Trennen Sie das USB-C-Kabel zwischen RMQ1 und Computer waehrend der Wiederherstellung nicht. Andernfalls kann das Geraet beschaedigt werden.
 
-    Entpacken und installieren Sie den Treiber aus `Driver_V1.20.46.1.7z`.
+- Wenn das Geraet nach dem Flashen automatisch neu starten soll, navigieren Sie vor Beginn zu **Settings** -> **Options** -> **Reboot to Normal Mode After Download** und aktivieren Sie diese Option. Wenn diese Option nicht aktiviert ist, muessen Sie das Geraet nach Abschluss des Flashens manuell neu starten, d. h. das Stromkabel trennen und wieder anschliessen.
 
-    ![driver-1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/driver-1.png){class="glboxshadow"}
+## Schritte zum Entbricken
 
-    ![driver-2](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/driver-2.png){class="glboxshadow"}
+### Windows
 
-    ![driver-3](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/driver-3.png){class="glboxshadow"}
+1. Laden Sie die U-Boot-Firmware fuer Ihr RMQ1-Geraet [hier](https://dl.gl-inet.com/kvm/rmq1/stable) auf Ihren Computer herunter (waehlen Sie **DOWNLOAD FOR USB OTG**).
 
-2. **Flashing-Tool starten**
+      ![rmq1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
 
-    Entpacken Sie das Flashing-Tool aus `AXDL_V1.24.22.1.7z` und starten Sie `AXDL.exe`.
+2. Installieren Sie die USB-Treiber:
 
-    ![axdl-1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-1.png){class="glboxshadow"}
+      * Laden Sie das Treiberpaket [hier](https://fw.gl-inet.com/tools/ax/Driver_V1.20.46.1.7z) auf Ihren Computer herunter und entpacken Sie es in ein beliebiges Verzeichnis.
 
-    > **Optional:** Wenn das Geraet nach dem Flashen automatisch neu starten soll, gehen Sie vor dem Start zu **Settings** -> **Options** und aktivieren Sie **Reboot to normal after download**. Wenn diese Option nicht aktiviert ist, muessen Sie das Geraet nach Abschluss des Flashens manuell aus- und wieder einschalten (Stromkabel trennen und erneut anschliessen).
+      * Doppelklicken Sie auf die Datei `DriverSetup.exe`, um das Installationsprogramm auszufuehren.
 
-### Flashen
+         ![driver-1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/driver-1.png){class="glboxshadow"}
 
-1. **Firmware laden**
+         ![driver-2](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/driver-2.png){class="glboxshadow"}
 
-    Klicken Sie auf **Load .axp**, um die `.axp`-Firmwaredatei auszuwaehlen und zu laden, und klicken Sie dann auf **Start downloading**.
+         ![driver-3](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/driver-3.png){class="glboxshadow"}
 
-    ![axdl-2](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-2.png){class="glboxshadow"}
+3. Installieren Sie das AXDL-Tool.
 
-    ![axdl-3](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-3.png){class="glboxshadow"}
+      * Laden Sie AXDL [hier](https://www.teambition.com/task/6a55bcdb655bb6b2abdd5def) auf Ihren Computer herunter und entpacken Sie es in ein leicht erreichbares Verzeichnis.
 
-2. **Geraet im Flashing-Modus verbinden**
+      * Doppelklicken Sie auf die Datei `AXDL.exe`, um das Flashing-Tool auszufuehren.
 
-    - Verbinden Sie den RMQ1 **nicht** ueber seinen USB-C-Port mit einem Netzteil.
-    - Halten Sie die **RESET-Taste** an der Unterseite des RMQ1 gedrueckt.
-    - Verbinden Sie den RMQ1 waehrenddessen per USB-C-Kabel mit Ihrem PC.
-    - Das Flashing-Tool erkennt das Geraet automatisch und startet den Flashvorgang. Sobald das Tool den Fortschritt des Flashens anzeigt, koennen Sie die **RESET-Taste loslassen**.
+         ![axdl-1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-1.png){class="glboxshadow"}
 
-    ![axdl-4](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-4.png){class="glboxshadow"}
+4. Oeffnen Sie das AXDL-Fenster, klicken Sie auf `load.axp` und waehlen Sie die in Schritt 1 heruntergeladene Firmware aus, um sie zu laden.
 
-## macOS / Linux
+      ![axdl-2](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-2.png){class="glboxshadow"}
 
-Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Alternativ koennen Sie das Open-Source-Tool [axdl-rs](https://github.com/ciniml/axdl-rs) verwenden, einen inoffiziellen Axera Image Downloader in Rust.
+      Klicken Sie auf `Start downloading`.
 
-### Installation
+      ![axdl-3](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-3.png){class="glboxshadow"}
 
-- Rust-Toolchain - Installation ueber [rustup](https://rustup.rs/)
+5. Schalten Sie Ihr KVM-Geraet aus. Halten Sie die RESET-Taste an der Unterseite des RMQ1 gedrueckt und verbinden Sie das Geraet mit dem mitgelieferten USB-C-Kabel mit Ihrem Computer.
 
-- `.axp`-Firmwaredatei - laden Sie die neueste Firmware von der [offiziellen Firmware-Seite](https://dl.gl-inet.com/kvm/rmq1/beta) herunter; suchen Sie nach der Datei mit der Kennzeichnung **DOWNLOAD FOR USB OTG**
+6. Wenn in der Statusspalte `Downloading...` angezeigt wird, lassen Sie die RESET-Taste los.
 
-- Plattformspezifische Abhaengigkeiten:
+      ![axdl-4](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-4.png){class="glboxshadow"}
 
-  **Linux (Debian-basiert):**
+7. Warten Sie, bis das AXDL-Tool `Passed` anzeigt. Damit wird bestaetigt, dass der Flashvorgang abgeschlossen ist.
 
-  ```bash
-  sudo apt install -y libudev-dev libusb-1.0-0-dev
-  ```
+      ![axdl-5](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-5.png){class="glboxshadow"}
 
-  Konfigurieren Sie udev-Regeln, um Zugriff auf das Geraet ohne Root-Rechte zu erlauben:
+### macOS / Linux
 
-  ```bash
-  git clone https://github.com/gl-inet/axdl-rs.git
-  cd axdl-rs
-  sudo cp 99-axdl.rules /etc/udev/rules.d/
-  sudo udevadm control --reload
-  ```
+Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux koennen Sie axdl-rs verwenden, einen quelloffenen, inoffiziellen Axera Image Downloader in Rust.
 
-  Wenn Ihr Benutzer nicht Mitglied der Gruppe `plugdev` ist, fuegen Sie ihn hinzu und melden Sie sich erneut an:
+1. Installieren Sie die Rust-Toolchain ueber [rustup](https://rustup.rs/)
 
-  ```bash
-  sudo usermod -a -G plugdev $USER
-  ```
+2. Laden Sie die U-Boot-Firmware fuer Ihr RMQ1-Geraet [hier](https://dl.gl-inet.com/kvm/rmq1/stable) auf Ihren Computer herunter (waehlen Sie **DOWNLOAD FOR USB OTG**).
 
-  **macOS:**
+      ![rmq1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
 
-  ```
-  brew install libusb
-  ```
+3. Installieren Sie die plattformspezifischen Abhaengigkeiten:
 
-  **Build:**
+      - **Linux (Debian-basiert)**
 
-  ```bash
-  cargo build --bin axdl-cli --package axdl-cli
-  ```
+         ```
+         sudo apt install -y libudev-dev libusb-1.0-0-dev
+         ```
+         Konfigurieren Sie udev-Regeln, damit normale Benutzer auf das Geraet zugreifen koennen:
 
-### Flashen
+         ```
+         # Repository klonen
+         git clone https://github.com/gl-inet/axdl-rs.git
 
-1. Fuehren Sie den Flashing-Befehl aus. Verwenden Sie dabei den Pfad zu Ihrer heruntergeladenen `.axp`-Datei:
+         # In das Verzeichnis wechseln
+         cd axdl-rs
 
-   ```bash
-   cargo run --bin axdl-cli --package axdl-cli -- --file /path/to/firmware.axp --wait-for-device
-   ```
+         # udev-Regeldatei in das Systemverzeichnis kopieren
+         sudo cp 99-axdl.rules /etc/udev/rules.d/
 
-   Das Tool zeigt `Waiting for the device to be ready` an und wartet.
+         # udev-Regeln neu laden, damit die Aenderungen wirksam werden
+         sudo udevadm control --reload
+         ```
 
-2. **Geraet im Flashing-Modus verbinden**
+         Wenn der Benutzer nicht Mitglied der Gruppe `plugdev` ist, fuegen Sie ihn bitte der Gruppe hinzu und melden Sie sich danach erneut an, damit die Aenderung wirksam wird.
 
-   - Verbinden Sie den RMQ1 **nicht** mit einem Netzteil.
-   - Halten Sie die **RESET-Taste** an der Unterseite des RMQ1 gedrueckt.
-   - Verbinden Sie den RMQ1 waehrenddessen per USB-C-Kabel mit Ihrem PC.
-   - Sobald das Tool den Fortschritt des Flashens anzeigt, koennen Sie die **RESET-Taste loslassen**.
+         ```
+         sudo usermod -a -G plugdev $USER
+         ```
 
-3. Nach Abschluss des Flashens startet das Geraet moeglicherweise nicht automatisch neu. Schalten Sie den RMQ1 manuell aus und wieder ein (Stromkabel trennen und erneut anschliessen), damit er mit der neuen Firmware startet.
+      - **macOS**
 
-**Erwartete Ausgabe**
+         Installieren Sie `libusb` ueber `brew`, um die USB-Kommunikation mit KVM-Geraeten zu ermoeglichen:
 
-Ein erfolgreicher Flashvorgang sieht wie folgt aus (Compiler-Warnungen koennen ignoriert werden):
+         ```
+         brew install libusb
+         ```
 
-<details>
-<summary>Beispielprotokoll</summary>
+         Erstellen Sie das Tool `axdl-cli`
 
-```
-$ cargo run --bin axdl-cli --package axdl-cli -- --file glkvm-RMQ1-nand-1.8.1-0518-1779101289.axp --wait-for-device
-warning: `axdl` (lib) generated 6 warnings
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.07s
-     Running `target/debug/axdl-cli --file glkvm-RMQ1-nand-1.8.1-0518-1779101289.axp --wait-for-device`
-Waiting for the device to be ready
-Loading the AXP image configuration
-Start download
-Handshaking with the device
-Downloading the flash downloaders
- [00:00:03] [############################################################################]
-Downloading the partition table
-Skipping partition: FACTORY (excluded by default)
-Downloading image DDRINIT
-Downloading image UBOOT
-Downloading image LOGO
-Downloading image DTB
-Downloading image KERNEL
-Downloading image RECOVERY
-Downloading image MEDIA
-Downloading image ROOTFS
- [00:00:26] [############################################################################]
-Downloading image SPL
-Done
-```
+         ```
+         cargo build --bin axdl-cli --package axdl-cli
+         ```
 
-</details>
+4. Geben Sie den folgenden Befehl ein, um die Firmware zu flashen. Ersetzen Sie ` /path/to/firmware.axp ` bitte durch den tatsaechlichen Pfad zu Ihrer heruntergeladenen Firmwaredatei.
+
+      ```
+      cargo run --bin axdl-cli --package axdl-cli -- --file /path/to/firmware.axp --wait-for-device
+      ```
+
+      Das Tool zeigt `Waiting for device to be ready` an und wechselt in einen Wartezustand.
+
+5. Schalten Sie Ihr KVM-Geraet aus. Halten Sie die RESET-Taste an der Unterseite des RMQ1 gedrueckt und verbinden Sie das Geraet mit dem mitgelieferten USB-C-Kabel mit Ihrem Computer.
+
+6. Warten Sie, bis der Flashvorgang abgeschlossen ist.
+
+      **Hinweis:** Nach Abschluss des Flashens startet das Geraet moeglicherweise nicht automatisch neu. Fuehren Sie beim RMQ1 manuell einen **Power Cycle** durch (aus- und wieder einschalten), um die neue Firmware zu aktivieren.
+
+      **Erwartete Ausgabe**
+
+      Nach einem erfolgreichen Flashvorgang zeigt das Terminal die folgende Ausgabe an.
+
+      Hinweis: Compiler-Warnungen koennen gefahrlos ignoriert werden.
+
+      ```
+      $ cargo run --bin axdl-cli --package axdl-cli -- --file glkvm-RMQ1-nand-1.8.1-0518-1779101289.axp --wait-for-device
+      warning: `axdl` (lib) generated 6 warnings
+         Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.07s
+         Running `target/debug/axdl-cli --file glkvm-RMQ1-nand-1.8.1-0518-1779101289.axp --wait-for-device`
+      Waiting for the device to be ready
+      Loading the AXP image configuration
+      Start download
+      Handshaking with the device
+      Downloading the flash downloaders
+      [00:00:03] [############################################################################]
+      Downloading the partition table
+      Skipping partition: FACTORY (excluded by default)
+      Downloading image DDRINIT
+      Downloading image UBOOT
+      Downloading image LOGO
+      Downloading image DTB
+      Downloading image KERNEL
+      Downloading image RECOVERY
+      Downloading image MEDIA
+      Downloading image ROOTFS
+      [00:00:26] [############################################################################]
+      Downloading image SPL
+      Done
+      ```

@@ -134,6 +134,7 @@ nav:
           - Produktuebersicht: user_guide/gl-rmq1/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rmq1/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rmq1/console_guide.md
+          - Comet Q FAQs: user_guide/gl-rmq1/faqs.md
       - GL-RM4PE (Comet X):
           - Comet X Benutzerhandbuch: user_guide/gl-rm4pe/index.md
           - Sicherheitshinweise: user_guide/gl-rm4pe/safety_information.md
