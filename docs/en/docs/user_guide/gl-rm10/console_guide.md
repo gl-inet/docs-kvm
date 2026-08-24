@@ -403,7 +403,7 @@ Click the firmware version in the upper right corner to check for updates.
 
 ![firmware upgrade 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_1.png){class="glboxshadow"}
 
-In the pop-up window, you can click **Local Upgradate** to upload a firmware file.
+In the pop-up window, you can click **Local Upgrade** to upload a firmware file.
 
 ![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_2.png){class="glboxshadow"}
 
