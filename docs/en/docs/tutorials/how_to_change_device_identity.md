@@ -77,9 +77,9 @@ However, users may need to change KVM's device identity in the following scenari
 
     ![identity customize3](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize3.png){class="glboxshadow"}
 
-4. Verify device identity.
+4. Verify device identity. The following example uses Windows 11 Pro as the controlled device to verify device identity.
 
-    Access your controlled device through KVM, and navigate to **Settings** -> **Bluetooth & devices** (taking Windows 11 Pro as an example). The input device has been recognized as the custom devices you set, instead of the default GLKVM.
+    On the controlled device, go to **Settings** -> **Bluetooth & devices**. The input and audio devices have been recognized as the ones you set.
 
     ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize4.png){class="glboxshadow"}
 
@@ -101,9 +101,9 @@ However, users may need to change KVM's device identity in the following scenari
 
     ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize4.jpg){class="glboxshadow"}
 
-4. Verify device identity.
+4. Verify device identity. The following example uses Windows 10 Pro as the controlled device to verify device identity.
 
-    Access your controlled device through KVM, and navigate to **Settings** -> **Bluetooth & devices** (taking Windows 10 Pro as an example). The input devices (keyboard and mouse), audio device (microphone), and display (monitor) will be recognized as the custom devices you set, instead of the default GLKVM.
+    On the controlled device, go to **Settings** -> **Bluetooth & devices**. The input and audio devices have been recognized as the ones you set.
 
     ![identity customize5](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_modified.png){class="glboxshadow"}
 
