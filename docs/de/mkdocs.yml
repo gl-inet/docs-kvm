@@ -52,6 +52,9 @@ plugins:
         "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
         "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
 
+hooks:
+  - ../../scripts/alternate_links.py
+
 extra:
   social:
     - icon: fontawesome/solid/globe

@@ -58,6 +58,9 @@ plugins:
         "user_guide/gl-rm4pe/fcc_ic_compliance_statements.md": "user_guide/gl-rm4pe/regulatory_statement.md"
         "user_guide/gl-rmq1/fcc_ic_compliance_statements.md": "user_guide/gl-rmq1/regulatory_statement.md"
 
+hooks:
+  - ../../scripts/alternate_links.py
+
 extra:
   social:
     - icon: fontawesome/solid/globe
