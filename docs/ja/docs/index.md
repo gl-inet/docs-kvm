@@ -1,4 +1,4 @@
 ---
-テンプレート: home.html
+template: home.html
 title: ホームページ
 ---
