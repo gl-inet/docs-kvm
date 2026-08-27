@@ -404,7 +404,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![firmware upgrade 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_1.png){class="glboxshadow"}
 
-ポップアップ ウィンドウで、**Local Upgradate** をクリックしてファームウェア ファイルをアップロードできます。
+ポップアップ ウィンドウで、**Local Upgrade** をクリックしてファームウェア ファイルをアップロードできます。
 
 ![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_2.png){class="glboxshadow"}
 

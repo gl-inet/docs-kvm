@@ -1,5 +1,9 @@
 # Comet Q (GL-RMQ1) クイックセットアップ
 
+この動画を見るか、以下の手順に従って Comet Q をセットアップしてください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## デバイスを接続する
 
 明確にするために、デバイス A は制御側デバイスを指し、デバイス B は制御側デバイスを指します。

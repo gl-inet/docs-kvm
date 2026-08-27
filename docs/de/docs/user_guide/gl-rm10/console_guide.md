@@ -403,7 +403,7 @@ Klicken Sie oben rechts auf die Firmware-Version, um nach Updates zu suchen.
 
 ![firmware upgrade 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_1.png){class="glboxshadow"}
 
-Im Pop-up-Fenster können Sie auf **Local Upgradate** klicken, um eine Firmwaredatei hochzuladen.
+Im Pop-up-Fenster können Sie auf **Local Upgrade** klicken, um eine Firmwaredatei hochzuladen.
 
 ![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/upgrade_2.png){class="glboxshadow"}
 

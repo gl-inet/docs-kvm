@@ -585,15 +585,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_change_device_identity.md": {
-    "source_hash": "3e0183b2ded31c18769261427d212a551db7b2f42fa20f905e867d3ec9e66db6",
+    "source_hash": "2ac19a410fefff18fd5c7d585b212d160ff577c01b07b788e44a2dae56fdcc0b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "gpt-5-codex",
+        "updated_at": 1787817168
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1787817168
       }
     }
   },
@@ -901,15 +901,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10/console_guide.md": {
-    "source_hash": "18d6c6cfcdbb1426ba111ef1c17a0ce68b70de4b47e1a87f5bff1461470a57a5",
+    "source_hash": "21889168069a971e620c8342369978e13923af5d1c14656e7339662e8141fa05",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1787212601
+        "updated_at": 1787817168
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1787817168
       }
     }
   },
@@ -1164,15 +1164,15 @@
     }
   },
   "docs/en/docs/user_guide/gl-rmq1/quick_setup_guide.md": {
-    "source_hash": "cc89599ec2a576d182e025c5bae9c3aa9b7b0f2649ff278e570b5ec19f818859",
+    "source_hash": "4a6318da00e4a5bf97bdbeece8462aff236a0245e1adf057599d6f6f42b07c9b",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "updated_at": 1787817168
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1787817168
       }
     }
   },
