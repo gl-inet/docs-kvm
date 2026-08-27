@@ -1,0 +1,222 @@
+repo_name: gl-inet/docs-kvm
+repo_url: https://github.com/gl-inet/docs-kvm
+edit_uri: ""
+
+site_name: GL.iNet KVM Docs
+site_description: GL.iNet KVM 製品のドキュメント
+site_author: GL.iNet
+site_url: https://docs.gl-inet.com/kvm/jp/
+site_dir: site
+copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
+
+theme:
+  name: material
+  language: ja
+  logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+  favicon: https://static.gl-inet.com/docs/router/common/favicon.png
+
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/frequently_askedquestions_about_glinet_kvm.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/power_on_off_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/does_glkvm_application_support_chromeos_or_linux.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/can_comet_connect_to_wireless_network.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
+        "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
+        "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
+        "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
+        "user_guide/gl-rm10rc/control_panel_guide.md": "user_guide/gl-rm10rc/console_guide.md"
+        "faq/local_access_to_controlled_device_via_browser.md": "faq/local_access_via_browser.md"
+        "faq/remote_access_to_controlled_device_via_cloud.md": "faq/remote_access_via_cloud.md"
+        "faq/remote_access_to_controlled_device_via_glkvm_app.md": "faq/remote_access_via_glkvm_app.md"
+        "faq/remote_access_to_controlled_device_via_tailscale.md": "faq/remote_access_via_tailscale.md"
+        "faq/remote_access_to_controlled_device_via_zerotier.md": "faq/remote_access_via_zerotier.md"
+        "faq/connect_usb_ttl.md": "tutorials/how_to_access_serial_console_via_usb_ttl.md"
+        "faq/how_to_record_screen.md": "tutorials/how_to_record_remote_screen.md"
+        "faq/disable_ping_icmp.md": "tutorials/how_to_disable_ping_icmp_packets.md"
+        "faq/configure_reduce_stun_detection.md": "tutorials/how_to_reduce_stun_public_ip_detection_frequency.md"
+        "faq/how_to_set_edid_for_glkvm.md": "tutorials/how_to_set_edid_for_glkvm.md"
+        "faq/display_blank_screen_when_using_glkvm.md": "faq/remote_screen_goes_blank_no_hdmi_signal.md"
+        "faq/bios_does_not_display_in_glkvm.md": "faq/remote_screen_does_not_show_bios_interface.md"
+        "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
+        "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.gl-inet.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/gl-inet/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/gl.inet.wifi/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GLiNetWiFi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gl-inet.com/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCBfNEzurltlIeFFCbUgHQyg
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/glinetWiFi/
+  alternate:
+    - name: English
+      link: /kvm/en/
+      lang: en
+    - name: Deutsch
+      link: /kvm/de/
+      lang: de
+    - name: 日本語
+      link: /kvm/jp/
+      lang: ja
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  - javascripts/extra.js
+  - javascripts/cookieconsent.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - admonition
+
+nav:
+  - ホーム: index.md
+  - ユーザーガイド:
+      - 概要: user_guide/index.md
+      - GL-RM1/GL-RM1 V2 (Comet/Comet V2):
+          - Comet ユーザーガイド: user_guide/gl-rm1/index.md
+          - 製品概要: user_guide/gl-rm1/product_overview.md
+          - クイックセットアップ: user_guide/gl-rm1/quick_setup_guide.md
+          - コンソールガイド: user_guide/gl-rm1/console_guide.md
+      - GL-RM1PE (Comet PoE):
+          - Comet PoE ユーザーガイド: user_guide/gl-rm1pe/index.md
+          - 製品概要: user_guide/gl-rm1pe/product_overview.md
+          - クイックセットアップ: user_guide/gl-rm1pe/quick_setup_guide.md
+          - コンソールガイド: user_guide/gl-rm1pe/console_guide.md
+      - GL-RM10 (Comet Pro):
+          - Comet Pro ユーザーガイド: user_guide/gl-rm10/index.md
+          - 製品概要: user_guide/gl-rm10/product_overview.md
+          - クイックセットアップ: user_guide/gl-rm10/quick_setup_guide.md
+          - コンソールガイド: user_guide/gl-rm10/console_guide.md
+      - GL-RM10RC (Comet 5G):
+          - Comet 5G ユーザーガイド: user_guide/gl-rm10rc/index.md
+          - 製品概要: user_guide/gl-rm10rc/product_overview.md
+          - クイックセットアップ: user_guide/gl-rm10rc/quick_setup_guide.md
+          - コンソールガイド: user_guide/gl-rm10rc/console_guide.md
+      - GL-RMQ1 (Comet Q):
+          - Comet Q ユーザーガイド: user_guide/gl-rmq1/index.md
+          - 製品概要: user_guide/gl-rmq1/product_overview.md
+          - クイックセットアップ: user_guide/gl-rmq1/quick_setup_guide.md
+          - コンソールガイド: user_guide/gl-rmq1/console_guide.md
+          - Comet Q よくある質問: user_guide/gl-rmq1/faqs.md
+      - GL-RM4PE (Comet X):
+          - Comet X ユーザーガイド: user_guide/gl-rm4pe/index.md
+          - 製品概要: user_guide/gl-rm4pe/product_overview.md
+          - クイックセットアップ: user_guide/gl-rm4pe/quick_setup_guide.md
+          - コンソールガイド: user_guide/gl-rm4pe/console_guide.md
+      - GL-ATXPC (ATXボード): user_guide/gl-atx-board/index.md
+      - GL-FGB-01 (フィンガーボット): user_guide/gl-fgb-01/index.md
+  - よくある質問:
+      - 概要: faq/index.md
+      - クイックスタート:
+          - GL.iNet KVM クイック FAQ: faq/quick_faqs_about_glinet_kvm.md
+          - ファームウェアのアップグレード: faq/firmware_upgrade.md
+          - GLKVM アプリをダウンロード: faq/glkvm_app.md
+          - Comet 5G の WAN ネットワーク検出とフェイルオーバーロジック: faq/wan_network_detection_and_failover_logic_of_comet5g.md
+      - ローカルおよびリモートアクセス:
+          - ブラウザ経由のローカルアクセス: faq/local_access_via_browser.md
+          - クラウド経由でリモートアクセス: faq/remote_access_via_cloud.md
+          - GLKVM アプリ経由のリモート アクセス: faq/remote_access_via_glkvm_app.md
+          - Tailscale 経由のリモート アクセス: faq/remote_access_via_tailscale.md
+          - ZeroTier 経由のリモート アクセス: faq/remote_access_via_zerotier.md
+          - NetBird 経由のリモート アクセス: faq/remote_access_via_netbird.md
+          - ブラウザ経由でアクセスするとプライバシーエラーが発生する: faq/privacy_error_from_your_browser.md
+      - クラウドサービス:
+          - コードでバインドする: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - KVMのバインドを解除: faq/unbind.md
+          - クラウドサービスを無効にする: faq/disable_cloud.md
+          - クラウドアカウントを削除する: faq/delete_cloud_account.md
+      - デバイスの電源の問題:
+          - デバイスの電源が入らない: faq/power_cable_connected_but_device_unpowered.md
+          - デバイスを復旧する: faq/debrick.md
+      - GLKVM アプリの問題:
+          - デバイスが見つかりませんでした: faq/no_device_is_found_in_the_glkvm_app.md
+          - デバイスのバインドに失敗しました: faq/failed_to_bind_device_to_glkvm_app.md
+          - デバイスの接続に失敗しました: faq/connection_failed_when_remote_access_via_glkvm_app.md
+          - Windows に GLKVM をインストールできませんでした: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
+      - 表示の問題:
+          - リモート画面にはデスクトップの壁紙のみが表示されます: faq/remote_screen_only_displays_desktop_wallpaper.md
+          - リモート画面が空白になるか、HDMI 信号が表示されない: faq/remote_screen_goes_blank_no_hdmi_signal.md
+          - リモート画面に BIOS インターフェイスが表示されない: faq/remote_screen_does_not_show_bios_interface.md
+      - キーボードとマウスの問題:
+          - マウスとキーボードを制御できない: faq/cannot_control_mouse_and_keyboard.md
+          - マウスカーソルの位置が合わない: faq/mouse_cursors_fail_to_align.md
+          - キーボードが期待どおりに入力または出力されない: faq/keyboard_does_not_input_output_as_expected.md
+          - Reolink NVR で相対マウスが機能しない: faq/relative_mouse_not_working_on_reolink_nvr.md
+          - 絶対マウスと相対マウスの違い: faq/difference_between_absolute_and_relative_mouse.md
+          - RPi4 が KVM 経由で RPi3 を制御する場合のマウス レイテンシ: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
+      - オーディオの問題:
+          - 制御対象デバイスから音声が聞こえない: faq/no_audio_from_the_controlled_device.md
+          - スピーカーとマイクの設定は保持されません: faq/speaker_microphone_settings_cannot_be_retained.md
+  - チュートリアル:
+      - 概要: tutorials/index.md
+      - ネットワークとシステム:
+          - KVM の静的 IP を設定する方法: tutorials/how_to_set_static_ip_for_comet.md
+          - KVM ホスト名を変更する方法: tutorials/how_to_change_kvm_hostname.md
+          - KVM デバイス ID を変更する方法: tutorials/how_to_change_device_identity.md
+          - KVM に EDID を設定する方法: tutorials/how_to_set_edid_for_glkvm.md
+          - リモート画面からテキストをキャプチャする方法: tutorials/how_to_capture_text_from_remote_screen.md
+          - USB-C ポートの DP Alt Mode を確認する方法: tutorials/how_to_check_usb-c_port_dp_alt_mode.md
+          - KVM からの送信 PING/ICMP パケットを無効にする方法: tutorials/how_to_disable_ping_icmp_packets.md
+          - STUN パブリック IP の検出頻度を減らす方法: tutorials/how_to_reduce_stun_public_ip_detection_frequency.md
+      - クラウドサービス:
+          - 動的コードを介してKVMをクラウドにバインドする方法: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - クラウドベースのスクリーンウォール機能の使用方法: tutorials/how_to_use_screen_wall.md
+      - 仮想メディア:
+          - KVM 経由でファイルを共有する方法: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
+          - OSをリモートインストールする方法: tutorials/how_to_install_os_remotely.md
+          - リモート画面を録画する方法: tutorials/how_to_record_remote_screen.md
+      - アプリセンター:
+          - Tailscale 経由で KVM にリモートアクセスする方法: faq/remote_access_via_tailscale.md
+          - ZeroTier 経由で KVM にリモートアクセスする方法: faq/remote_access_via_zerotier.md
+          - NetBird 経由で KVM にリモートアクセスする方法: faq/remote_access_via_netbird.md
+      - トラブルシューティング:
+          - U-Boot 経由で KVM のブリックを解除する方法: faq/debrick.md
+          - RKDevTool 経由で KVM のブリックを解除する方法: tutorials/how_to_debrick_kvm_via_rkdevtool.md
+          - USB OTG 経由で KVM を復旧する方法: tutorials/how_to_unbrick_kvm_via_usb_otg.md
+          - デバイスとアプリのログをエクスポートする方法: tutorials/how_to_export_device_and_app_logs.md
+          - セルラーログをエクスポートする方法: tutorials/how_to_export_cellular_logs.md
+          - RPi4 が RPi3 を制御する場合のマウスの遅延を修正する方法: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
+      - ハードウェアとUSB:
+          - USB TTL 経由でシリアル コンソールにアクセスする方法: tutorials/how_to_access_serial_console_via_usb_ttl.md
+  - ビデオライブラリ:
+      - 概要: video_library/index.md
+      - 当社の製品をご紹介します: video_library/products.md
+      - 開梱と初回セットアップ: video_library/unboxing_first_set_up.md
+      - 機能: video_library/features.md
+  - 機能のアップデート:
+      - ファームウェアv1.9: features_update/firmware_v1.9.md
