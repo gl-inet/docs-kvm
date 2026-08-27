@@ -22,6 +22,7 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized
   - redirects:
       redirect_maps:
         "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
