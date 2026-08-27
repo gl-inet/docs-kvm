@@ -1,6 +1,6 @@
 ---
 name: glinet-docs-translation
-description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when Codex is asked to translate English KVM docs into German or Japanese; add or update docs/de/** or docs/jp/** after changes under docs/en/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
+description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when Codex is asked to translate English KVM docs into German or Japanese; add or update docs/de/** or docs/ja/** after changes under docs/en/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
 ---
 
 # GL.iNet KVM Docs Translation
@@ -59,7 +59,7 @@ Use this workflow when syncing English changes into localized docs, especially a
 3. Build an English change list covering modified, added, deleted, and renamed files under `docs/en/`, plus changes to `docs/en/mkdocs.yml`, nav, redirects, plugins, and path references.
 4. Handle structure before prose:
    - Filter out English-only regulatory and compliance statement changes. Do not create, rename, delete, translate, or add localized nav/redirect/index entries for these pages unless explicitly requested.
-   - Mirror English renames in `docs/de/` and `docs/jp/` when those language roots exist.
+   - Mirror English renames in `docs/de/` and `docs/ja/` when those language roots exist.
    - Create matching localized pages when English adds pages and the user asks to add that target language.
    - Sync localized `mkdocs.yml` changes when English changes nav, redirects, plugins, or path references.
 5. Translate only the changed English portions. Do not retranslate whole pages unless the English page is new or the localized page is unusable and the user agrees.
@@ -82,7 +82,7 @@ Use this workflow when syncing English changes into localized docs, especially a
 
 - English source docs live under `docs/en/`.
 - German docs should live under `docs/de/`.
-- Japanese docs should live under `docs/jp/`.
+- Japanese docs should live under `docs/ja/`.
 - Page content lives under each language root's `docs/` subdirectory, for example `docs/en/docs/faq/index.md` -> `docs/de/docs/faq/index.md`.
 - Language-level files such as `mkdocs.yml` and `overrides/` belong directly under each language root.
 
@@ -96,7 +96,7 @@ For translation work, build every touched language that has a `mkdocs.yml`. Also
 $mkdocs="..\Scripts\mkdocs.exe"
 & $mkdocs build -f "docs/en/mkdocs.yml" --strict --site-dir "$env:TEMP\docs-kvm-site-en"
 & $mkdocs build -f "docs/de/mkdocs.yml" --strict --site-dir "$env:TEMP\docs-kvm-site-de"
-& $mkdocs build -f "docs/jp/mkdocs.yml" --strict --site-dir "$env:TEMP\docs-kvm-site-jp"
+& $mkdocs build -f "docs/ja/mkdocs.yml" --strict --site-dir "$env:TEMP\docs-kvm-site-ja"
 ```
 
 Skip a localized build only when that language root does not exist yet, and state that clearly in the final response.

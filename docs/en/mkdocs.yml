@@ -82,7 +82,7 @@ extra:
       link: /kvm/de/
       lang: de
     - name: 日本語
-      link: /kvm/jp/
+      link: /kvm/ja/
       lang: ja
 
 extra_css:

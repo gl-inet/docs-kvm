@@ -5,7 +5,7 @@ edit_uri: ""
 site_name: GL.iNet KVM Docs
 site_description: GL.iNet KVM 製品のドキュメント
 site_author: GL.iNet
-site_url: https://docs.gl-inet.com/kvm/jp/
+site_url: https://docs.gl-inet.com/kvm/ja/
 site_dir: site
 copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
@@ -76,7 +76,7 @@ extra:
       link: /kvm/de/
       lang: de
     - name: 日本語
-      link: /kvm/jp/
+      link: /kvm/ja/
       lang: ja
 
 extra_css:

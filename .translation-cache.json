@@ -6,22 +6,22 @@
         "model": "pre-existing",
         "updated_at": 1785317580
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "1fb83ebbb907e9496a3cc1de9ab944e8abe89199a4a764350f627408453da8ad",
+    "source_hash": "3bad16859016d0587eff564ce8481ed0889bd709dab9ab777c3570d1bac6bc16",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786529720
+        "updated_at": 1787816663
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1787816663
       }
     }
   },
@@ -32,7 +32,7 @@
         "model": "pre-existing",
         "updated_at": 1785319702
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -45,7 +45,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -58,7 +58,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -71,7 +71,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -84,7 +84,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -97,7 +97,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -110,7 +110,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -123,7 +123,7 @@
         "model": "pre-existing",
         "updated_at": 1785329029
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -136,7 +136,7 @@
         "model": "pre-existing",
         "updated_at": 1785329029
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -149,7 +149,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -162,7 +162,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -175,7 +175,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -188,7 +188,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1785726752
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -201,7 +201,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -214,7 +214,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -227,7 +227,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -240,7 +240,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -253,7 +253,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -266,7 +266,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -279,7 +279,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -292,7 +292,7 @@
         "model": "pre-existing",
         "updated_at": 1785329097
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -305,7 +305,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -318,7 +318,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -331,7 +331,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -344,7 +344,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -357,7 +357,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -370,7 +370,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -383,7 +383,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -396,7 +396,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -409,7 +409,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1785726752
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -422,7 +422,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -435,7 +435,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -448,7 +448,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -461,7 +461,7 @@
         "model": "pre-existing",
         "updated_at": 1785329031
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -474,7 +474,7 @@
         "model": "pre-existing",
         "updated_at": 1785319258
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -487,7 +487,7 @@
         "model": "pre-existing",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -500,7 +500,7 @@
         "model": "pre-existing",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -513,7 +513,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786529720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -526,7 +526,7 @@
         "model": "pre-existing",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -539,7 +539,7 @@
         "model": "pre-existing",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -552,7 +552,7 @@
         "model": "pre-existing",
         "updated_at": 1785319520
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -565,7 +565,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -578,7 +578,7 @@
         "model": "pre-existing",
         "updated_at": 1785319520
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -591,7 +591,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -604,7 +604,7 @@
         "model": "pre-existing",
         "updated_at": 1785319520
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -617,7 +617,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -630,7 +630,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -643,7 +643,7 @@
         "model": "pre-existing",
         "updated_at": 1785319520
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -656,7 +656,7 @@
         "model": "pre-existing",
         "updated_at": 1785319668
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -669,7 +669,7 @@
         "model": "pre-existing",
         "updated_at": 1785319521
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -682,7 +682,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -695,7 +695,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -708,7 +708,7 @@
         "model": "pre-existing",
         "updated_at": 1785319521
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -721,7 +721,7 @@
         "model": "pre-existing",
         "updated_at": 1785319521
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -734,7 +734,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -747,7 +747,7 @@
         "model": "pre-existing",
         "updated_at": 1785319522
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -760,7 +760,7 @@
         "model": "pre-existing",
         "updated_at": 1785319668
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -773,7 +773,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786529720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -786,7 +786,7 @@
         "model": "pre-existing",
         "updated_at": 1785319668
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -799,7 +799,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -812,7 +812,7 @@
         "model": "pre-existing",
         "updated_at": 1785329032
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -825,7 +825,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -838,7 +838,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -851,7 +851,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1787212601
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -864,7 +864,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -877,7 +877,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -890,7 +890,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -907,7 +907,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1787212601
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -920,7 +920,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -933,7 +933,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -946,7 +946,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -963,7 +963,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1787212601
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -976,7 +976,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -989,7 +989,7 @@
         "model": "pre-existing",
         "updated_at": 1785329031
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1002,7 +1002,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1019,7 +1019,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1787212601
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1032,7 +1032,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1045,7 +1045,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1058,7 +1058,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1075,7 +1075,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1787212601
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1088,7 +1088,7 @@
         "model": "pre-existing",
         "updated_at": 1785489720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1101,7 +1101,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1114,7 +1114,7 @@
         "model": "pre-existing",
         "updated_at": 1785329151
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1131,7 +1131,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1787212601
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1144,7 +1144,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786529720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1157,7 +1157,7 @@
         "model": "pre-existing",
         "updated_at": 1785325473
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1170,7 +1170,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786000750
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1187,7 +1187,7 @@
         "model": "pre-existing",
         "updated_at": 1785319302
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1200,7 +1200,7 @@
         "model": "pre-existing",
         "updated_at": 1785319258
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1213,7 +1213,7 @@
         "model": "pre-existing",
         "updated_at": 1785319286
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1226,7 +1226,7 @@
         "model": "pre-existing",
         "updated_at": 1785319286
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1239,7 +1239,7 @@
         "model": "pre-existing",
         "updated_at": 1785319155
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1252,7 +1252,7 @@
         "model": "pre-existing",
         "updated_at": 1785329032
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }
@@ -1265,7 +1265,7 @@
         "model": "gpt-5-codex",
         "updated_at": 1786529720
       },
-      "jp": {
+      "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
       }

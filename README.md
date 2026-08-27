@@ -2,9 +2,11 @@
 
 This repository contains the source files for GL.iNet KVM documentation.
 
-It is structured as a multilingual documentation repository. The current language site is:
+It is structured as a multilingual documentation repository. The current language sites are:
 
 - English: `docs/en/`
+- German: `docs/de/`
+- Japanese: `docs/ja/`
 
 Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
@@ -41,11 +43,11 @@ The root `docs/` folder contains one MkDocs project per language:
 ```text
 docs/
   en/
-    mkdocs.yml
-    mkdocs.fast.yml
-    docs/
-    overrides/
+  de/
+  ja/
 ```
+
+Each language directory contains `mkdocs.yml`, `mkdocs.fast.yml`, `docs/`, and `overrides/`.
 
 In most cases, localized pages should mirror the corresponding English page path under `docs/en/docs/`.
 
@@ -65,7 +67,9 @@ mkdocs serve -f docs/en/mkdocs.fast.yml --dirty
 
 ## Online View
 
-Please view the docs online at [https://docs.gl-inet.com/kvm/en/](https://docs.gl-inet.com/kvm/en/)
+- English: [https://docs.gl-inet.com/kvm/en/](https://docs.gl-inet.com/kvm/en/)
+- German: [https://docs.gl-inet.com/kvm/de/](https://docs.gl-inet.com/kvm/de/)
+- Japanese: [https://docs.gl-inet.com/kvm/ja/](https://docs.gl-inet.com/kvm/ja/)
 
 ## Guide
 
