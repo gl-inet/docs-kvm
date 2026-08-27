@@ -55,8 +55,8 @@ Fingerbot をインストールするには、このビデオを視聴するか�
 
     ![install 7](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install7.png){class="glboxshadow"}
 
-7. 被制御デバイスがラップトップの場合は、電源ボタンの近くにブラケット (同梱) を固定し、締めます。 
-    
+7. 被制御デバイスがラップトップの場合は、電源ボタンの近くにブラケット (同梱) を固定し、締めます。
+
     注: ブラケットは、電源ボタンが側端にある場合にのみ使用してください。
 
     ![install 8](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install8.png){class="glboxshadow"}
@@ -66,7 +66,7 @@ Fingerbot をインストールするには、このビデオを視聴するか�
     ![install 9](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install9.png){class="glboxshadow"}
 
 8. インストールが完了しました。以下に示すように、Fingerbot のロボット アームを押すと電源ボタンに触れ、電源の遠隔制御が可能になります。
-    
+
     ![install 10](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install10.jpg){class="glboxshadow"}
 
 ## セットアップ
@@ -84,7 +84,7 @@ Fingerbot をインストールするには、このビデオを視聴するか�
     - 強さ: 押す強さは軽く押すモードと強く押すモードの 2 段階があります。
 
         - ライトプレスモード: 短いボタンまたはソフトタッチボタンに最適です。
-        
+
         - 強押しモード: 深いボタンまたはしっかりとしたボタンに最適です。
 
         ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}

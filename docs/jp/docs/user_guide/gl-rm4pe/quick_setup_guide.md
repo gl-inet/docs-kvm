@@ -74,7 +74,7 @@ Comet X は、HDMI OUT ポートと 2 つの追加の USB ポートを備えて�
 
 ### IP アドレス
 
-1. タッチスクリーンで Comet X の IP アドレスを見つけます。この例では、Comet X の IP アドレスは `192.168.8.197` です。 
+1. タッチスクリーンで Comet X の IP アドレスを見つけます。この例では、Comet X の IP アドレスは `192.168.8.197` です。
 
 2. ブラウザを起動し、アドレス バーにこの IP を入力します。 GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
 
@@ -92,7 +92,7 @@ Comet X にリモートでアクセスするには、クラウド サービス�
 
 ### クラウド サービス
 
-1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。 
+1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
     KVM をクラウドにバインドするには、通常のバインドと動的コード バインドの 2 つの方法があります。ここでは例として通常のバインドを取り上げます。動的コード バインディングを希望する場合は、[ここ](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} をクリックして詳細を確認してください。
 
@@ -100,7 +100,7 @@ Comet X にリモートでアクセスするには、クラウド サービス�
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_to_cloud.png){class="glboxshadow"}
 
-    ログイン ページにリダイレクトされます。 glinet クラウド アカウントでログインします。 
+    ログイン ページにリダイレクトされます。 glinet クラウド アカウントでログインします。
 
     ![cloud bind device1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_bind1.png){class="glboxshadow"}
 
@@ -119,15 +119,15 @@ Comet X にリモートでアクセスするには、クラウド サービス�
     ![cloud devices list](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_devices.png){class="glboxshadow"}
 
     ***Tip**: リダイレクトされない場合は、アドレス バーに `glkvm.com` を手動で入力し、glinet アカウントにログインします。ログイン後、デバイスがアカウントにバインドされていることがわかります。*
-    
-    リモート アクセスするデバイスをクリックします。 
-    
+
+    リモート アクセスするデバイスをクリックします。
+
     ![cloud access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access.png){class="glboxshadow"}
-    
+
     新しい Web ページが開きます。管理者パスワードを入力してログインします。
 
     ![cloud access1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access1.png){class="glboxshadow"}
-    
+
     これで、Comet X と被制御デバイスにクラウド経由でリモートからアクセスできるようになります。
 
     ![cloud access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access2.png){class="glboxshadow"}
@@ -136,12 +136,12 @@ Comet X にリモートでアクセスするには、クラウド サービス�
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
-2. GL.iNet アカウントでログインします。 
+2. GL.iNet アカウントでログインします。
 
     ![log in](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_login.jpg){class="glboxshadow"}
 
     お持ちでない場合は、まずサインアップしてログインしてください。
-    
+
     ![sign up](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_signup.png){class="glboxshadow"}
 
 3. デバイスをバインドします。
@@ -153,43 +153,43 @@ Comet X にリモートでアクセスするには、クラウド サービス�
     自動検出、S/N コード、動的バインディング コードの 3 つの方法でデバイスをバインドできます。
 
     ??? "Auto Discover"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet X と同じ LAN 上にあることを確認し、KVM デバイス ID を用意してください。
-    
+
         「**Auto Discover**」をクリックします。検索が始まります。
-    
+
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/auto_discover1.png){class="glboxshadow"}
-        
+
         KVM を見つけて、その **Device ID** を入力してアカウントにバインドします。
-    
+
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/auto_discover2.png){class="glboxshadow"}
 
         ![auto discover 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/auto_discover3.png){class="glboxshadow"}
-    
+
     ??? "S/N Code"
-    
+
         これは、KVM が検出されないか、同じ LAN 上にないが、シリアル番号 (S/N) はわかっているというシナリオに当てはまります。
-        
+
         「**S/N Code**」をクリックします。ポップアップ ウィンドウでデバイス名を設定し、KVM デバイスの下部に印刷されている S/N を入力します。
-    
+
         ![sn code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/add_sncode.png){class="glboxshadow"}
-    
+
     ??? "Dynamic Binding Code"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet X と同じ LAN 上にあることを確認してください。
-    
-        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](#lan-access)をクリックしてください。 
-    
-        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。 
-    
+
+        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](#lan-access)をクリックしてください。
+
+        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。
+
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_with_code1.png){class="glboxshadow"}
-    
+
         3. デバイス バインド用に 8 桁の動的コードがランダムに生成され、60 秒間有効です。コードをクリックしてコピーします。
-    
+
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_with_code2.png){class="glboxshadow"}
-    
+
         4. GLKVM アプリに戻り、動的バインディング コードを入力して、**Bind** をクリックします。
-    
+
             ![dynamic code](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/bind_with_code3.png){class="glboxshadow"}
 
 4. GLKVM アプリ経由のリモート アクセス。
@@ -214,7 +214,7 @@ Comet X にリモートでアクセスするには、クラウド サービス�
 
 Comet X は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
-コンソールで、**Apps Center** -> **Tailscale** に移動し、有効にして、Comet X を Tailscale アカウントにバインドします。 
+コンソールで、**Apps Center** -> **Tailscale** に移動し、有効にして、Comet X を Tailscale アカウントにバインドします。
 
 次に、制御側デバイスを同じアカウントにバインドします。その後、GLKVM アプリをインストールしなくても、制御側デバイスの Web ブラウザーに **Tailscale 仮想 IP** を入力することで、Comet X にリモート アクセスできるようになります。
 

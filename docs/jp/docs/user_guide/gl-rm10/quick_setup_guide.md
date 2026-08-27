@@ -56,7 +56,7 @@
 
 ### IPアドレス
 
-1. タッチスクリーンで Comet Pro の IP アドレスを見つけます。この例では、Comet Pro の IP アドレスは `192.168.8.197` です。 
+1. タッチスクリーンで Comet Pro の IP アドレスを見つけます。この例では、Comet Pro の IP アドレスは `192.168.8.197` です。
 
 2. ブラウザを起動し、アドレス バーにこの IP を入力します。 GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
 
@@ -74,7 +74,7 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
 
 ### クラウド サービス
 
-1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。 
+1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
     KVM をクラウドにバインドするには、通常のバインドと動的コード バインドの 2 つの方法があります。ここでは例として通常のバインドを取り上げます。動的コード バインディングをご希望の場合は、[こちら](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} をクリックして詳細をご確認ください。
 
@@ -82,7 +82,7 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
-    ログイン ページにリダイレクトされます。 glinet クラウド アカウントでログインします。 
+    ログイン ページにリダイレクトされます。 glinet クラウド アカウントでログインします。
 
     ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow"}
 
@@ -116,12 +116,12 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
-2. GL.iNet アカウントでログインします。 
+2. GL.iNet アカウントでログインします。
 
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
     お持ちでない場合は、まずサインアップしてログインしてください。
-    
+
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
 3. デバイスをバインドします。
@@ -133,41 +133,41 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
     自動検出、S/N コード、動的バインディング コードの 3 つの方法でデバイスをバインドできます。
 
     ??? "Auto Discover"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet Pro と同じ LAN 上にあることを確認してください。
-    
+
         「**Auto Discover**」をクリックします。自動的に検索が始まります。
-    
+
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
-        
+
         KVM を見つけて、そのデバイス ID を入力してアカウントにバインドします。
-    
+
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
-    
+
     ??? "S/N Code"
-    
+
         これは、KVM が検出されないか、同じ LAN 上にないが、シリアル番号 (S/N) はわかっているというシナリオに当てはまります。
-        
+
         「**S/N Code**」をクリックします。ポップアップ ウィンドウで、デバイス名をカスタマイズし、KVM デバイスのラベル下部に印刷されている S/N を入力します。
-    
+
         ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
-    
+
     ??? "Dynamic Binding Code"
-    
+
         これはローカル ネットワークで実行する必要があります。制御側デバイスが Comet Pro と同じ LAN 上にあることを確認してください。
-    
-        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](../../faq/local_access_via_browser.md)をクリックしてください。 
-    
-        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。 
-    
+
+        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](../../faq/local_access_via_browser.md)をクリックしてください。
+
+        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。
+
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
-    
+
         3. デバイス バインド用に 8 桁の動的コードがランダムに生成され、60 秒間有効です。コードをクリックしてコピーします。
-    
+
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
-    
+
         4. GLKVM アプリに戻り、動的バインディング コードを入力し、**Bind** をクリックします。
-    
+
             ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
 4. GLKVM アプリ経由のリモート アクセス。
@@ -192,7 +192,7 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
 
 Comet Pro は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
-コンソールで、**Apps Center** -> **Tailscale** に移動し、有効にして、Comet Pro を Tailscale アカウントにバインドします。 
+コンソールで、**Apps Center** -> **Tailscale** に移動し、有効にして、Comet Pro を Tailscale アカウントにバインドします。
 
 次に、制御側デバイスを同じアカウントにバインドします。その後、GLKVM アプリをインストールしなくても、制御側デバイスの Web ブラウザーに **Tailscale 仮想 IP** を入力することで、Comet Pro にリモート アクセスできるようになります。
 
@@ -210,9 +210,9 @@ Comet Pro は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由
 
 ### NetBird
 
-Comet Pro は NetBird と統合され、NetBird 仮想ネットワーク経由でリモート アクセスできるようになります。 
+Comet Pro は NetBird と統合され、NetBird 仮想ネットワーク経由でリモート アクセスできるようになります。
 
-コンソールで、**Apps Center** -> **NetBird** に移動し、有効にして、Comet Pro を NetBird アカウントにバインドします。 
+コンソールで、**Apps Center** -> **NetBird** に移動し、有効にして、Comet Pro を NetBird アカウントにバインドします。
 
 次に、制御側デバイスを同じアカウントにバインドします。その後、GLKVM アプリをインストールしなくても、制御側デバイスの Web ブラウザーに **NetBird 仮想 IP** を入力することで、Comet Pro にリモート アクセスできるようになります。
 

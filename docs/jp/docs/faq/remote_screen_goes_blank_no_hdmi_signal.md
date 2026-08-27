@@ -8,7 +8,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
 ![black screen](https://static.gl-inet.com/docs/kvm/faq/blank_screen/black_screen.png){class="glboxshadow"}
 <small>(黒い画面)</small>
 
-まず、これがビデオ送信に関連しているかどうかを確認します。 KVM にログインし、**Settings** -> **Video** -> **Transfer** に移動し、転送モードを **Direct** に設定します。 
+まず、これがビデオ送信に関連しているかどうかを確認します。 KVM にログインし、**Settings** -> **Video** -> **Transfer** に移動し、転送モードを **Direct** に設定します。
 
 ![change transfer](https://static.gl-inet.com/docs/kvm/faq/blank_screen/change_transfer.png){class="glboxshadow" width="360"}
 
@@ -34,8 +34,8 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
 
 3. **Improper Use of Adapters**
 
-    HDMI アダプターが必要な場合は、**VGA-to-HDMI** アダプターを使用して、被制御デバイスを GL.iNet KVM の HDMI IN ポートに接続します。 
-    
+    HDMI アダプターが必要な場合は、**VGA-to-HDMI** アダプターを使用して、被制御デバイスを GL.iNet KVM の HDMI IN ポートに接続します。
+
     この接続に HDMI - VGA アダプターを使用すると、ビデオ信号が適切に送信されず、空白の画面が表示されます。
 
     ![adapter comparison](https://static.gl-inet.com/docs/kvm/faq/blank_screen/adapter_comparison.png){class="glboxshadow"}
@@ -46,7 +46,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
 
 1. **複数のブラウザでテストします。** Chrome、Firefox、Edge などを試して、問題がブラウザ固有のものであるかどうかを判断します。
 
-2. **WebRTC リーク保護/制御拡張機能を無効にします。** WebRTC 接続に影響を与える可能性のある拡張機能/プラグインを Web ブラウザにインストールしている場合は、それらを無効にして再度テストしてください。ブラウザの [設定] -> [プライバシーとセキュリティ] に移動して、Web ブラウザが WebRTC 接続を許可していることを確認することもできます。  
+2. **WebRTC リーク保護/制御拡張機能を無効にします。** WebRTC 接続に影響を与える可能性のある拡張機能/プラグインを Web ブラウザにインストールしている場合は、それらを無効にして再度テストしてください。ブラウザの [設定] -> [プライバシーとセキュリティ] に移動して、Web ブラウザが WebRTC 接続を許可していることを確認することもできます。
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
@@ -73,11 +73,11 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
     被制御デバイスが標準モニターと互換性があるかどうか、また特定のモニターとの互換性に問題があるかどうかを確認してください。
 
 5. **Resolution Issue**
-   
+
     GLKVM が特定のオペレーティング システム (Proxmox VE Hypervisor など) に接続されている場合、利用可能なディスプレイ解像度を正しくネゴシエートできず、ディスプレイの問題が発生する場合があります。これは、被制御デバイスの解像度を手動で調整することで解決できます。
 
     ここでは、Proxmox VE Hypervisor でシステム解像度を変更する方法についてのガイドを参照してください。
-    
+
     1. PVE ターミナルを開き、以下のコマンドを入力してファイル `/etc/default/grub` を編集します。
 
         ```
@@ -90,7 +90,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
         GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset
         ```
 
-    3. `#` を削除して `GRUB_GFXMODE` 行のコメントを解除し、`1024x768` などの目的の解像度を設定します。 
+    3. `#` を削除して `GRUB_GFXMODE` 行のコメントを解除し、`1024x768` などの目的の解像度を設定します。
 
         ```
         GRUB_GFXMODE=1024x768

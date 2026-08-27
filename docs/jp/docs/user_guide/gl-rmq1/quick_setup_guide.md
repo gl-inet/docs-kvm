@@ -104,12 +104,12 @@ Comet Q にリモートでアクセスするには、クラウド サービス�
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
-2. GL.iNet アカウントでログインします。 
+2. GL.iNet アカウントでログインします。
 
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
     お持ちでない場合は、まずサインアップしてログインしてください。
-    
+
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
 3. デバイスをバインドします。
@@ -121,41 +121,41 @@ Comet Q にリモートでアクセスするには、クラウド サービス�
     自動検出、S/N コード、動的バインディング コードの 3 つの方法でデバイスをバインドできます。
 
     ??? "Auto Discover"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet Q と同じ LAN 上にあることを確認してください。
-    
+
         「**Auto Discover**」をクリックします。自動的に検索が始まります。
-    
+
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
-        
+
         KVM を見つけて、デバイス ID を入力してアカウントにバインドします。
-    
+
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
-    
+
     ??? "S/N Code"
-    
+
         これは、KVM が検出されないか、同じ LAN 上にないが、シリアル番号 (S/N) はわかっているというシナリオに当てはまります。
-        
+
         「**S/N Code**」をクリックします。ポップアップ ウィンドウで、デバイス名をカスタマイズし、KVM デバイスのラベル下部に印刷されている S/N を入力します。
-    
+
         ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
-    
+
     ??? "Dynamic Binding Code"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet Q と同じ LAN 上にあることを確認してください。
-    
-        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](../../faq/local_access_via_browser.md)をクリックしてください。 
-    
-        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。 
-    
+
+        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](../../faq/local_access_via_browser.md)をクリックしてください。
+
+        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。
+
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
-    
+
         3. デバイス バインド用に 8 桁の動的コードがランダムに生成され、60 秒間有効です。コードをクリックしてコピーします。
-    
+
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
-    
+
         4. GLKVM アプリに戻り、動的バインディング コードを入力し、**Bind** をクリックします。
-    
+
             ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
 4. GLKVM アプリ経由のリモート アクセス。
@@ -180,7 +180,7 @@ Comet Q にリモートでアクセスするには、クラウド サービス�
 
 Comet Q は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
-コンソールで、**Apps Center** -> **Tailscale** に移動し、有効にして、Comet Q を Tailscale アカウントにバインドします。 
+コンソールで、**Apps Center** -> **Tailscale** に移動し、有効にして、Comet Q を Tailscale アカウントにバインドします。
 
 次に、制御側デバイスを同じアカウントにバインドします。その後、GLKVM アプリをインストールしなくても、制御側デバイスの Web ブラウザーに **Tailscale 仮想 IP** を入力することで、Comet Q にリモート アクセスできるようになります。
 

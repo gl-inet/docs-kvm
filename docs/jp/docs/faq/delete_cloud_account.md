@@ -23,7 +23,7 @@
 2. **Account**設定で、**Delete**ボタンをクリックします。すべてのデータが消去されます。慎重に作業を進めてください。
 
     ![app delete 2](https://static.gl-inet.com/docs/kvm/faq/delete_cloud_account/app_delete2.png){class="glboxshadow"}
-    
+
 ## クラウドで削除
 
 1. コンピューターで Web ブラウザーを起動します (互換性を高めるために Chrome または Edge をお勧めします)。アドレスバーに「`glkvm.com`」と入力し、クラウドアカウントでログインします。

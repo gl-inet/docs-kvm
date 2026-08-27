@@ -35,7 +35,7 @@
 * [クラウドアカウントの削除方法](delete_cloud_account.md)
 
 ## デバイスの電源の問題
-  
+
 * [KVM の電源が入らない場合はどうすればよいですか](power_cable_connected_but_device_unpowered.md)
 * [KVM がブリックされている場合はどうすればよいですか](debrick.md)
 

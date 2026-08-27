@@ -24,7 +24,7 @@
 
 4. Comet 5G をネットワーク ソースに接続します。
 
-    - 5G: SIM カードが挿入されている場合、システム起動時に 5G 接続が自動的に確立されます。   
+    - 5G: SIM カードが挿入されている場合、システム起動時に 5G 接続が自動的に確立されます。
 
     - Wi-Fi: タッチスクリーンを左にスワイプし、Comet 5G を既存の Wi-Fi ネットワーク (2.4G および 5G をサポート) に接続します。
 
@@ -41,7 +41,7 @@
 
 ## 近くのコントロール
 
-Nearby Control は、Comet 5G の近くにいるときの素早いセットアップと管理に最適です。 
+Nearby Control は、Comet 5G の近くにいるときの素早いセットアップと管理に最適です。
 
 タッチスクリーンで、Wi-Fi ネットワーク モードを **AP Mode** に切り替えるだけで、一意の Wi-Fi SSID が生成され、ネットワークの詳細が画面に表示されます。
 
@@ -73,7 +73,7 @@ Nearby Control は、Comet 5G の近くにいるときの素早いセットア�
 
 ### IP アドレス
 
-1. タッチスクリーンで Comet 5G の IP アドレスを見つけます。この例では、Comet 5G の IP アドレスは `192.168.8.197` です。 
+1. タッチスクリーンで Comet 5G の IP アドレスを見つけます。この例では、Comet 5G の IP アドレスは `192.168.8.197` です。
 
 2. ブラウザを起動し、アドレス バーにこの IP を入力します。 GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
 
@@ -91,7 +91,7 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
 
 ### クラウド サービス
 
-1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。 
+1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
     KVM をクラウドにバインドするには、通常のバインドと動的コード バインドの 2 つの方法があります。ここでは例として通常のバインドを取り上げます。動的コード バインディングを希望する場合は、[ここ](../../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md){target="_blank"} をクリックして詳細を確認してください。
 
@@ -99,7 +99,7 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
 
     ![bind to cloud](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_to_cloud.png){class="glboxshadow"}
 
-    ログイン ページにリダイレクトされます。 glinet クラウド アカウントでログインします。 
+    ログイン ページにリダイレクトされます。 glinet クラウド アカウントでログインします。
 
     ![bind device login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_1.png){class="glboxshadow"}
 
@@ -122,7 +122,7 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
     ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
     新しく開いた Web ページで、管理者パスワードを入力してログインします。
-    
+
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
     これで、アプリをインストールしなくても、Comet 5G と制御対象のデバイスにクラウド経由でリモートからアクセスできるようになります。
@@ -133,12 +133,12 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
-2. GL.iNet アカウントでログインします。 
+2. GL.iNet アカウントでログインします。
 
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
     お持ちでない場合は、まずサインアップしてログインしてください。
-    
+
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
 3. デバイスをバインドします。
@@ -150,41 +150,41 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
     自動検出、S/N コード、動的バインディング コードの 3 つの方法でデバイスをバインドできます。
 
     ??? "Auto Discover"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet 5G と同じ LAN 上にあることを確認してください。
-    
+
         「**Auto Discover**」をクリックします。自動的に検索が始まります。
-    
+
         ![auto discover 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_1.png){class="glboxshadow"}
-        
+
         KVM を見つけて、そのデバイス ID を入力してアカウントにバインドします。
-    
+
         ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
-    
+
     ??? "S/N Code"
-    
+
         これは、KVM が検出されないか、同じ LAN 上にないが、シリアル番号 (S/N) はわかっているというシナリオに当てはまります。
-        
+
         「**S/N Code**」をクリックします。ポップアップ ウィンドウで、デバイス名をカスタマイズし、KVM デバイスのラベル下部に印刷されている S/N を入力します。
-    
+
         ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
-    
+
     ??? "Dynamic Binding Code"
-    
+
         これはローカル ネットワークで行う必要があります。制御側デバイスが Comet 5G と同じ LAN 上にあることを確認してください。
-    
-        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](../../faq/local_access_via_browser.md)をクリックしてください。 
-    
-        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。 
-    
+
+        1. ドメインまたは IP アドレスを使用して、ローカルで KVM にログインします。詳細は[こちら](../../faq/local_access_via_browser.md)をクリックしてください。
+
+        2. 右上隅の **Cloud Service** に移動し、**Bind With Code** をクリックします。
+
             ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
-    
+
         3. デバイス バインド用に 8 桁の動的コードがランダムに生成され、有効期間は 60 秒です。コードをクリックしてコピーします。
-    
+
             ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
-    
+
         4. GLKVM アプリに戻り、動的バインディング コードを入力して、**Bind** をクリックします。
-    
+
             ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
 4. GLKVM アプリ経由のリモート アクセス。

@@ -1,6 +1,6 @@
 # GLKVM アプリ経由のリモート アクセス時に接続が失敗しました
 
-GLKVM アプリを介してリモートにアクセスすると、KVM デバイスが GLKVM アプリでオンラインと表示されているにもかかわらず、クリックすると「接続中」のままになるという問題が発生することがあります。 
+GLKVM アプリを介してリモートにアクセスすると、KVM デバイスが GLKVM アプリでオンラインと表示されているにもかかわらず、クリックすると「接続中」のままになるという問題が発生することがあります。
 
 ![device online](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/device_online.png){class="glboxshadow"}
 
@@ -25,9 +25,9 @@ GLKVM アプリを介してリモートにアクセスすると、KVM デバイ�
         1. MySky アプリを開き、**Broadband** -> **Advanced Security** に移動し、GL.iNet 関連のドメインが制限されているかどうかを確認します。
 
             ![mysky-1](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-1.png){class="glboxshadow"}
-        
+
         2. ドメインがブロックされていることがわかった場合は、下向き矢印をクリックして詳細を表示し、**Allow Access** を選択して制限を解除します。
- 
+
             ![mysky-2](https://static.gl-inet.com/docs/kvm/faq/connection_failed_when_remotely_accessing_via_glkvm/mysky-2.png){class="glboxshadow" width="300"}
 
 3. 制御側デバイスで VPN/プロキシを無効にします。

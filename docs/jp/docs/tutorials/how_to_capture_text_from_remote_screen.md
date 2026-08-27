@@ -10,7 +10,7 @@
 
     ![text recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/1.png){class="glboxshadow"}
 
-2. ツールバーの上部中央にある **"T"** アイコンをクリックすると、リモート画面が暗くなります。 
+2. ツールバーの上部中央にある **"T"** アイコンをクリックすると、リモート画面が暗くなります。
 
     ![text recognition 2](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/2.png){class="glboxshadow"}
 
@@ -18,8 +18,8 @@
 
     ![text recognition 3](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/3.png){class="glboxshadow"}
 
-4. システムは、選択した領域内のテキストを自動的に識別します。必要に応じて、認識されたテキストをコピーできます。 
-    
+4. システムは、選択した領域内のテキストを自動的に識別します。必要に応じて、認識されたテキストをコピーできます。
+
     ![text recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/4.png){class="glboxshadow"}
 
 ---

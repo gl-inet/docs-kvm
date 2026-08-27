@@ -4,7 +4,7 @@
 
 ![cursor misalignment](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/mouse_cursor.png){class="glboxshadow"}
 
-1. **マウスの移動時に問題が発生するか、アイドル時に発生するかを確認します。** 
+1. **マウスの移動時に問題が発生するか、アイドル時に発生するかを確認します。**
 
     <u>ケース1</u>。マウスがアイドル状態のときはカーソルが正しく位置合わせされているが、移動中に同期が失われる場合は、両端のネットワークをチェックして、接続が安定していることを確認してください。
 
@@ -14,18 +14,18 @@
 
     ![hide local cursor](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>ケース2</u>。マウスがアイドル状態でもカーソルの位置が合わない場合は、KVM コンソールでデバイス タイプを再選択してください (Comet Q / GL-RMQ1 のみ)。 
-    
+    <u>ケース2</u>。マウスがアイドル状態でもカーソルの位置が合わない場合は、KVM コンソールでデバイス タイプを再選択してください (Comet Q / GL-RMQ1 のみ)。
+
     ![device type](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
-    
+
     問題が解決しない場合は、次の手順に進みます。
 
-2. **被制御デバイスがラップトップの場合、これはディスプレイ解像度が正しくないことが原因である可能性があります。** 
+2. **被制御デバイスがラップトップの場合、これはディスプレイ解像度が正しくないことが原因である可能性があります。**
 
     ラップトップの画面アスペクト比を確認し、制御されているラップトップの解像度を調整するか、KVM デバイスの EDID 設定を変更できます。
-    
+
     ??? note "制御されているラップトップの解像度を調整する"
-    
+
         **macOS の場合**:
 
         1. **Settings** -> **Displays** -> **Optimize for** に進みます。
@@ -58,11 +58,11 @@
 
     ??? note "KVM デバイスの EDID 設定を変更します"
 
-        EDID (Extended Display Identification Data) は、最適なディスプレイ パラメーターを自動的に照合します。デフォルトの EDID はほとんどのシナリオに適しており、通常は変更する必要はありません。詳細は[こちら](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご参照ください。 
-        
+        EDID (Extended Display Identification Data) は、最適なディスプレイ パラメーターを自動的に照合します。デフォルトの EDID はほとんどのシナリオに適しており、通常は変更する必要はありません。詳細は[こちら](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご参照ください。
+
         EDIDを変更しても画面が更新されない場合は、制御対象機器を再起動してみてください。
 
-3. **制御されるデバイスがラップトップではない場合 (例: 外部モニターに接続されたデスクトップ PC)**、プライマリ ディスプレイ アスペクト比を確認し、それに応じて EDID を KVM に切り替えます。詳細は[こちら](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご覧ください。 
+3. **制御されるデバイスがラップトップではない場合 (例: 外部モニターに接続されたデスクトップ PC)**、プライマリ ディスプレイ アスペクト比を確認し、それに応じて EDID を KVM に切り替えます。詳細は[こちら](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご覧ください。
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## 設定
 
-コンソールで、**Settings**に移動します。設定ページには 4 つのセクションが含まれています。 
+コンソールで、**Settings**に移動します。設定ページには 4 つのセクションが含まれています。
 
 - [ビデオ](#video)
 - [オーディオ&キーボード&マウス](#audiokeyboardmouse)
@@ -21,7 +21,7 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 ![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/settings-video.png){class="glboxshadow"}
 
-- **Type**: 被制御デバイスのタイプを選択します。 
+- **Type**: 被制御デバイスのタイプを選択します。
 
     システムは、推奨されるマウス モードと EDID 設定を自動的に適用して、最高のディスプレイ アスペクト比と制御精度を実現します。デバイスが正しく認識されない場合、またはカスタム タイプを使用する必要がある場合は、このオプションを切り替えます。
 
@@ -38,9 +38,9 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
     !!! note "WebRTC、WebRTC (FEC) とダイレクトの違いは何ですか?"
 
         - **WebRTC**: リアルタイム リモート コントロールのために、滑らかなビデオと安定したオーディオのバランスをとります。
-        
+
         - **WebRTC (FEC)**: 前方誤り訂正を追加して、ネットワーク状態が劣悪または不安定な場合の接続の安定性を向上させます。選択すると、少量の冗長データを送信することで失われたデータ パケットが自動的に修復され、画面のちらつきや遅延が軽減されます。
-        
+
         - **Direct**: 最低の遅延とロスレスビデオ品質を提供しますが、オーディオ送信はサポートしていません。
 
 - **Orientation**: コンソールの回転角度を 0°/90°/180°/270° に調整します。
@@ -79,9 +79,9 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 - **Scroll Rate**: マウス ホイールのスクロール速度、またはホイール 1 回転ごとにスクロールされる行/単位数を指し、リモコン上でコンテンツが移動する速度に影響します。
 
-- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。 
+- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。
 
-    標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。  
+    標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。
 
 - **Mouse Mode**: 絶対モードと相対モードを切り替えて、さまざまなリモート コントロール シナリオでスムーズかつ正確なカーソル制御を保証します。
 
@@ -109,7 +109,7 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 - **Color Mode**: テーマの色をライト モードまたはダーク モードにカスタマイズします。
 
-- **Time Zone**: KVM コンソールのタイムゾーンをカスタマイズします。 
+- **Time Zone**: KVM コンソールのタイムゾーンをカスタマイズします。
 
 - **Reset KVM**: ワンクリックで KVM を工場出荷時設定にリセットします。
 
@@ -131,7 +131,7 @@ Comet Q のホスト名や IP アドレスなどのネットワークの詳細�
 
 ## ツールボックス
 
-コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 3 つのセクションが含まれています。 
+コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 3 つのセクションが含まれています。
 
 - [クリップボード](#clipboard)
 - [ショートカット](#shortcut)
@@ -151,7 +151,7 @@ Comet Q のホスト名や IP アドレスなどのネットワークの詳細�
 
 **Modify** をクリックして、必要に応じてショートカット オプションを調整します。
 
-![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-shortcut2.png){class="glboxshadow"}  
+![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-shortcut2.png){class="glboxshadow"}
 
 ### ターミナル
 
@@ -173,19 +173,19 @@ GLKVM ターミナルにリダイレクトされます。
 
 **制御側デバイスから被制御デバイスにファイルを共有するには、以下の手順に従ってください。**
 
-1. ボックスをドラッグまたはクリックして、制御側デバイスからファイルをアップロードするか、URL からアップロードします。 
+1. ボックスをドラッグまたはクリックして、制御側デバイスからファイルをアップロードするか、URL からアップロードします。
 
     アップロードされると、以下のようにファイルが表示されます。
 
     ![file-sharing1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing1.png){class="glboxshadow"}
 
-2. 「**Mount To Remote**」→「**File Sharing**」をクリックします。 
+2. 「**Mount To Remote**」→「**File Sharing**」をクリックします。
 
     ![file-sharing2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing2.png){class="glboxshadow"}
 以下に示すように、
 
 3. A ウィンドウがコンソールにポップアップ表示され、ファイル共有の手順が示されます。
-    
+
     ![file-sharing3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing3.png){class="glboxshadow"}
 
 4. 少し待つと、**"GLKVM"** という名前のドライブが画面に自動的に表示されます。以前に制御側デバイスから Comet Q にアップロードしたファイルが、制御側デバイスに共有されていることがわかります。これで、被制御デバイス上のこのドライブ内のファイルを表示、移動、または削除できるようになります。
@@ -195,7 +195,7 @@ GLKVM ターミナルにリダイレクトされます。
     **Tips**: ドライブが自動的にポップアップしない場合は、被制御デバイスの **This PC** に移動します。
 
     ![this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/thispc.png){class="glboxshadow"}
-    
+
     次に、**GLKVM** という名前のドライブを見つけます。これで、このドライブ内のファイルを表示、移動、または削除できるようになります。
 
 5. 共有を停止する場合は、ツールバーの **Virtual Media** をクリックし、**Stop Sharing** をクリックします。
@@ -204,16 +204,16 @@ GLKVM ターミナルにリダイレクトされます。
 
 **被制御デバイスから制御側デバイスにファイルを共有するには、以下の手順に従ってください。**
 
-1. 被制御デバイスで、共有するファイルをドライブ **GLKVM** に移動またはコピーします。 
+1. 被制御デバイスで、共有するファイルをドライブ **GLKVM** に移動またはコピーします。
 
-    たとえば、「gl-rm10_datasheet」という名前の PDF ファイルが、被制御デバイスのデスクトップからドライブ **GLKVM** に移動されました。 
+    たとえば、「gl-rm10_datasheet」という名前の PDF ファイルが、被制御デバイスのデスクトップからドライブ **GLKVM** に移動されました。
 
     ![file-sharing5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing5.png){class="glboxshadow"}
-    
+
 2. Comet Q のコンソールに移動し、ツールバーの **Virtual Media** をクリックして、**Stop Sharing** をクリックします。
 
     ![stop sharing2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/stop-sharing2.png){class="glboxshadow"}
-    
+
 3. このファイルは、次に示すように、**Virtual Media** の下に表示されます。これで、このファイルを Comet Q から制御側デバイスにダウンロードできるようになります。
 
     ![file sharing6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing6.png){class="glboxshadow"}
@@ -226,7 +226,7 @@ GLKVM ターミナルにリダイレクトされます。
 
 - **Format**: ディスク上のすべてのデータを消去し、ファイル システム構造を再初期化します。
 
-- **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。 
+- **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
 ## アプリ センター
 
@@ -292,7 +292,7 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/fullscreen1.png){class="glboxshadow"}
 
-全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。 
+全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/fullscreen2.png){class="glboxshadow"}
 
@@ -316,7 +316,7 @@ Comet Q がクラウドにバインドされると、コンソールには次の
 
 ### セキュリティ
 
-セキュリティにより、管理者パスワードの変更、2 要素認証の有効化、TLS 証明書のカスタマイズが可能になります。 
+セキュリティにより、管理者パスワードの変更、2 要素認証の有効化、TLS 証明書のカスタマイズが可能になります。
 
 ![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/security.png){class="glboxshadow"}
 

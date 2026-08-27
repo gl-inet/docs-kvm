@@ -37,39 +37,39 @@ A2.被制御デバイスにソフトウェアをインストールする必要�
     同じローカル エリア ネットワーク (LAN) 経由で KVM にアクセスする場合は、制御側デバイスにソフトウェアをインストールする必要はありません。
 
     制御側デバイスでブラウザを開き、アドレス バーに KVM の IP アドレスまたは `glkvm.local` を入力するだけで、KVM にローカルでアクセスできます。
-    
+
     詳しくは[こちら](local_access_via_browser.md){target="_blank"}
-    
+
 ??? "リモートアクセス"
 
     - **GLKVM App**
-    
+
         制御側デバイスが Windows、macOS、Android、または iOS を実行している場合は、[GLKVM アプリ ](https://www.gl-inet.com/app-rm/){target="_blank"} をそれにインストールし、KVM にリモートでアクセスし、制御側デバイスにアクセスできます。
-        
+
         詳しくは[こちら](remote_access_via_glkvm_app.md){target="_blank"}
-        
+
     - **Cloud Service**
-    
+
         この方法は、GLKVM アプリをインストールできない、またはインストールしたくない人に最適です。
 
         KVM をクラウド サービスにバインドすると、制御側デバイスの Web ブラウザに `glkvm.com` と入力することで、KVM にリモートでアクセスできるようになり、GLKVM アプリをインストールしなくても制御側デバイスにアクセスできます。
 
         詳しくは[こちら](remote_access_via_cloud.md){target="_blank"}
-    
+
     - **Tailscale**
-    
+
         この方法は、手順が多くなりますが、GLKVM アプリやクラウド サービスを使用できない、または使用したくない人に適しています。
 
         KVM と制御側デバイスを同じ Tailscale アカウントにバインドすると、制御側デバイスの Web ブラウザに KVM の Tailscale 仮想 IP を入力して、制御側デバイスにアクセスすることで、KVM にリモートでアクセスできます。
-    
+
         詳しくは[こちら](remote_access_via_tailscale.md){target="_blank"}
 
     - **ZeroTier**
-    
+
         この方法は、手順が多くなりますが、GLKVM アプリやクラウド サービスを使用できない、または使用したくない人に適しています。
 
         KVM と制御側デバイスを同じ ZeroTier ネットワークに参加すると、制御側デバイスの Web ブラウザに KVM の ZeroTier IP を入力して、制御側デバイスにアクセスすることで、KVM にリモートでアクセスできます。
-    
+
         詳しくは[こちら](remote_access_via_zerotier.md){target="_blank"}
 
     - **NetBird**
@@ -77,8 +77,8 @@ A2.被制御デバイスにソフトウェアをインストールする必要�
         この方法は、手順が増えますが、GLKVM アプリやクラウド サービスを使用できない、または使用したくない人に適しています。
 
         [NetBird](https://netbird.io/){target="_blank"} は、家庭用およびビジネス用の安全なプライベート ネットワークを構築できるオープンソースのゼロトラスト ネットワーキング プラットフォームです。 WireGuard® ベースのオーバーレイ ネットワークとして、NetBird は、いつでもどこでもデバイスへの安全なアクセスを可能にします。
-        
-        GL.iNet KVM は NetBird を統合し、リモート アクセス用に NetBird 仮想ネットワークにバインドできるようにします。 
+
+        GL.iNet KVM は NetBird を統合し、リモート アクセス用に NetBird 仮想ネットワークにバインドできるようにします。
 
         詳しくは[こちら](remote_access_via_netbird.md){target="_blank"}
 
@@ -110,7 +110,7 @@ A4。いいえ。開いているポートやパブリック IP さえも必要�
 
 **Q5. GLKVM アプリは ChromeOS/Linux をサポートしていますか?**
 
-A5。いいえ。現在、GLKVM アプリは Chrome または Linux OS へのインストールをサポートしていません。 
+A5。いいえ。現在、GLKVM アプリは Chrome または Linux OS へのインストールをサポートしていません。
 
 制御側デバイスが Chrome/Linux OS を実行している場合、GLKVM アプリをインストールできないため、GLKVM アプリを介した制御側デバイスへのリモート アクセスはサポートされません。
 
@@ -162,7 +162,7 @@ A2。 [ATX ボード ユーザーガイド](../user_guide/gl-atx-board/index.md)
 
 **Q1. KVM クラウド サービスを使用する必要がありますか?**
 
-A1。いいえ。クラウド サービスはオプションです。 
+A1。いいえ。クラウド サービスはオプションです。
 
 リモート アクセスにクラウドに依存しない場合は、Tailscale、ZeroTier、NetBird などのサードパーティのオーバーレイ ネットワーク ツールを使用できます。
 

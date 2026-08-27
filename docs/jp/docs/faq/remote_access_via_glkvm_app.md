@@ -13,7 +13,7 @@ GLKVM アプリを介して KVM および被制御デバイスにリモートで
     ![log in](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_login.jpg){class="glboxshadow"}
 
     GL.iNet アカウントをお持ちでない場合は、アカウントを作成してログインしてください。
-    
+
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
 ## KVM をバインドします

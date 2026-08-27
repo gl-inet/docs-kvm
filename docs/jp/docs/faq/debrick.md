@@ -75,7 +75,7 @@ DIY プロジェクトや間違ったファームウェアのフラッシュが�
         9. 「**Save**」ボタンをクリックします。
 
     ??? "macOS"
-    
+
         1. 画面の左上隅にある **Apple** アイコンをクリックし、**System Preferences** を選択します。
 
             ![macos system preferences](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences.png){class="glboxshadow"}
@@ -100,7 +100,7 @@ DIY プロジェクトや間違ったファームウェアのフラッシュが�
 
 6. **ファイルを選択** をクリックし、ファームウェア ファイルを選択します。次に、**ファームウェアの更新** ボタンをクリックします。
 
-7. 3分ほど待ちます。 **更新中は KVM の電源を切らないでください。** 
+7. 3分ほど待ちます。 **更新中は KVM の電源を切らないでください。**
 
     KVM の LED が **白色に点滅**すると準備完了です。
 

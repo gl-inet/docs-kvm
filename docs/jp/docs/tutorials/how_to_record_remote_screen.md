@@ -8,7 +8,7 @@ SSH 経由で次のコマンドを実行して、画面の記録を開始しま�
 ustreamer-dump --sink kvmd::ustreamer::h264 --output - | ffmpeg -use_wallclock_as_timestamps 1 -i pipe: -c:v copy /userdata/media/my_video.mp4
 ```
 
-録画されたビデオは次のディレクトリに保存されます。 
+録画されたビデオは次のディレクトリに保存されます。
 
 `/userdata/media/my_video.mp4`
 

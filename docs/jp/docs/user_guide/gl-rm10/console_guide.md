@@ -2,7 +2,7 @@
 
 ## セッション
 
-コンソールで、**Session**に移動します。設定ページには 4 つのセクションが含まれています。 
+コンソールで、**Session**に移動します。設定ページには 4 つのセクションが含まれています。
 
 - [ビデオ](#video)
 - [オーディオ＆カメラ](#audio--camera)
@@ -20,11 +20,11 @@
     !!! note "WebRTC、WebRTC (FEC)、WebRTC (ネイティブ) とダイレクトの違いは何ですか?"
 
         - **WebRTC**: リアルタイム リモート コントロールのために、滑らかなビデオと安定したオーディオのバランスをとります。
-        
+
         - **WebRTC (FEC)**: 前方誤り訂正を追加して、ネットワーク状態が劣悪または不安定な場合の接続の安定性を向上させます。選択すると、少量の冗長データを送信することで失われたデータ パケットが自動的に修復され、画面のちらつきや遅延が軽減されます。
-  
+
         - **WebRTC (ネイティブ)**: Google WebRTC ライブラリを利用して、ストリーミング パフォーマンスの向上とよりスムーズなリアルタイム リモート コントロール エクスペリエンスを提供します。この転送モードはファームウェア v1.10.0 で導入されました。
-        
+
         - **Direct**: 最低の遅延とロスレスビデオ品質を提供しますが、オーディオ送信はサポートしていません。
 
 - **Mode**: 必要に応じてスマート モードとノーマル モードを切り替えます。スマート モードは、特に弱いネットワークでの帯域幅の消費を削減するのに役立ちます。
@@ -48,7 +48,7 @@
     デフォルト設定はほとんどのシナリオに適用され、通常は変更する必要はありません。詳細は[こちら](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご参照ください。 EDID 調整後に画面が更新されない場合は、被制御デバイスを再起動してください。
 
 - **View**: この設定は、ブラウザ ウィンドウのサイズを変更するときの画面のスケーリングを決定します。利用可能なオプション: アダプティブ、最高画質、オリジナル ピクセル。この機能はファームウェア v1.8.0 で導入されました。
-  
+
 - **Screen Privacy**: プライバシー画面が有効になると、HDMI-OUT 外部ディスプレイにコンテンツが表示されなくなり、リモート操作のプライバシーが確保されます。
 
 ### オーディオ&カメラ
@@ -64,7 +64,7 @@
     **Note**: ショートカットは、使用する前に [設定](#usb-devices) で手動で設定する必要があります。
 
 - **Camera**: 制御側デバイスでカメラが有効になっている場合、ローカル ビデオ フレームはパススルー経由でリモート ホストに送信され、そこで仮想 USB カメラがエミュレートされます。リモート ホスト上で実行されているアプリケーション (会議ツールや FaceTime など) は、このビデオ フィードを利用して、リモート ホストに直接接続されている物理カメラと同じユーザー エクスペリエンスを提供できます。
-    
+
     **Note**: この機能はファームウェア v1.10.0 で導入され、WebRTC (FEC) モードでのみサポートされます。現時点では、Web ブラウザ経由でのみアクセスできます。アプリとデスクトップ クライアントのサポートはまだ利用できません。
 
 ### キーボード
@@ -93,9 +93,9 @@
 
 - **Scroll Rate**: マウス ホイールのスクロール速度、またはホイール 1 回転ごとにスクロールされる行/単位数を指し、リモコン上でコンテンツが移動する速度に影響します。
 
-- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。 
+- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。
 
-    標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。  
+    標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。
 
 - **Mouse Mode**: 絶対モードと相対モードを切り替えて、さまざまなリモート コントロール シナリオでスムーズかつ正確なカーソル制御を保証します。
 
@@ -113,7 +113,7 @@
 
 ## ツールボックス
 
-コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 5 つのセクションが含まれています。 
+コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 5 つのセクションが含まれています。
 
 - [クリップボード](#clipboard)
 - [OCR](#ocr)
@@ -135,7 +135,7 @@ OCR はテキスト認識機能で、リモート画面上の領域を選択し�
 
 ![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox_ocr.png){class="glboxshadow"}
 
-次に、**Capture** をクリックすると、リモート画面が暗くなります。抽出したいテキストの周りにボックスを描くと、システムが自動的にそれを識別します。必要に応じて、認識されたテキストをコピーできます。 
+次に、**Capture** をクリックすると、リモート画面が暗くなります。抽出したいテキストの周りにボックスを描くと、システムが自動的にそれを識別します。必要に応じて、認識されたテキストをコピーできます。
 
 ![copy text](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/ocr_copy_text.png){class="glboxshadow"}
 
@@ -149,7 +149,7 @@ OCR はテキスト認識機能で、リモート画面上の領域を選択し�
 
 **Modify** をクリックして、必要に応じてショートカット オプションを調整します。
 
-![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox_shorcut_modify.png){class="glboxshadow"}  
+![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox_shorcut_modify.png){class="glboxshadow"}
 
 ### ウェイク オン ラン
 
@@ -177,7 +177,7 @@ GLKVM ターミナルにリダイレクトされます。
 
 ## アクセサリー
 
-GL.iNet は、デバイスの電源オン/オフをリモート制御するためのオプションの KVM アクセサリを提供します。 
+GL.iNet は、デバイスの電源オン/オフをリモート制御するためのオプションの KVM アクセサリを提供します。
 
 まず、対応するユーザー ガイドを参照して、アクセサリを被制御デバイスに接続します。
 
@@ -188,9 +188,9 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 2 番目に、KVM コンソールにログインし、**Accessories** に移動します。アクセサリの設定は、アクセサリをインストールした後にのみ使用できます。
 
 ### フィンガーボット
-    
+
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
-    
+
 本体の設定に従って動作します。
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/accessories-fgb.png){class="glboxshadow"}
@@ -200,7 +200,7 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 - **Strength**:押す強さは軽く押す、強く押すの2段階あります。
 
     - **Lightly Press**: 短いボタンまたはソフトタッチのボタンに最適です。
-    
+
     - **Firmly Press**: 深いボタンやしっかりしたボタンに最適です。
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
@@ -229,36 +229,36 @@ ATX ボードはコンピューター ケースに取り付けられており、
 - [ディスクのフォーマット](#format-disk)
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/virtual-media.png){class="glboxshadow"}
-    
+
 ### ファイル共有
 
 Comet Pro は、読み取り/書き込み USB ドライブをエミュレートし、制御側デバイスと制御側デバイスの間でファイルを共有および管理できるようにします。
 
 **制御側デバイスから被制御デバイスにファイルを共有するには、以下の手順に従ってください。**
 
-1. ボックスをドラッグまたはクリックして、制御側デバイスからファイルをアップロードするか、URL からアップロードします。 
+1. ボックスをドラッグまたはクリックして、制御側デバイスからファイルをアップロードするか、URL からアップロードします。
 
     アップロードされると、以下のようにファイルが表示されます。
 
     ![upload files](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-sharing-uploaded.png){class="glboxshadow"}
 
-2. 「**Mount To Remote**」→「**File Sharing**」をクリックします。 
+2. 「**Mount To Remote**」→「**File Sharing**」をクリックします。
 
     ![file sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mount1.png){class="glboxshadow"}
 以下に示すように、
 
 3. A ウィンドウがコンソールにポップアップ表示され、ファイル共有の手順が示されます。
-    
+
     ![file sharing prompt](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mount2-prompt.png){class="glboxshadow"}
 
 4. 少し待つと、**"GLKVM"** という名前のドライブが画面に自動的に表示されます。以前に制御側デバイスから Comet Pro にアップロードしたファイルが、制御側デバイスに共有されていることがわかります。これで、被制御デバイス上のこのドライブ内のファイルを表示、移動、または削除できるようになります。
 
     ![file sharing glkvm drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mount3.png){class="glboxshadow"}
 
-    **Tips**: ドライブが自動的にポップアップしない場合は、被制御デバイスの **This PC** に移動します。 
+    **Tips**: ドライブが自動的にポップアップしない場合は、被制御デバイスの **This PC** に移動します。
 
     ![this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-sharing-thispc.png){class="glboxshadow"}
-    
+
     次に、**GLKVM** という名前のドライブを見つけます。これで、このドライブ内のファイルを表示、移動、または削除できるようになります。
 
 5. 共有を停止する場合は、ツールバーの **Virtual Media** をクリックし、**Stop Sharing** をクリックします。
@@ -267,32 +267,32 @@ Comet Pro は、読み取り/書き込み USB ドライブをエミュレート�
 
 **被制御デバイスから制御側デバイスにファイルを共有するには、以下の手順に従ってください。**
 
-1. 被制御デバイスで、共有するファイルをドライブ **GLKVM** に移動またはコピーします。 
+1. 被制御デバイスで、共有するファイルをドライブ **GLKVM** に移動またはコピーします。
 
-    たとえば、「slate7-pro_gl-be10000」という名前のイメージが、被制御デバイスのデスクトップからドライブ **GLKVM** に移動されました。 
+    たとえば、「slate7-pro_gl-be10000」という名前のイメージが、被制御デバイスのデスクトップからドライブ **GLKVM** に移動されました。
 
     ![move file to drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-sharing-copy.png){class="glboxshadow"}
-    
+
 2. Comet Pro のコンソールに移動し、ツールバーの **Virtual Media** をクリックして、**Stop Sharing** をクリックします。
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/stop-sharing2.png){class="glboxshadow"}
-    
+
 3. このファイルは、次に示すように、**Virtual Media** の下に表示されます。これで、このファイルを Comet Pro から制御側デバイスにダウンロードできるようになります。
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-shared.png){class="glboxshadow"}
 
 ### イメージのマウント
 
-Comet Pro は、被制御デバイス上の読み取り専用の仮想 CD/DVD またはディスク ドライブをシミュレートできます。 BIOS または UEFI 起動プロセス中にこのドライブにアクセスできます。 
-    
+Comet Pro は、被制御デバイス上の読み取り専用の仮想 CD/DVD またはディスク ドライブをシミュレートできます。 BIOS または UEFI 起動プロセス中にこのドライブにアクセスできます。
+
 この機能は、オペレーティング システムを再インストールしたり、ISO をマウントして制御対象のデバイスにアプリケーションをインストールしたり、その他のタスクを実行したりするのに役立ちます。
-    
+
 1. ボックスをドラッグまたはクリックしてファイルをアップロードします。 **このファイルが ISO 形式としてマウントできることを確認してください**。
 
     アップロードされると、以下のようにファイルが表示されます。
 
     ![image mount1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/image-mount1.png){class="glboxshadow"}
-    
+
 2. 「**Mount To Remote**」→「**Image Mounting**」をクリックします。
 
     ![image mount2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/image-mount2.png){class="glboxshadow"}
@@ -319,7 +319,7 @@ USB ストレージ デバイスを KVM USB ポートに挿入して、内部ス
 
 - **Format**: ディスク上のすべてのデータを消去し、ファイル システム構造を再初期化します。
 
-- **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。 
+- **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
 ## アプリ センター
 
@@ -394,7 +394,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen_1.png){class="glboxshadow"}
 
-全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。 
+全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen_2.png){class="glboxshadow"}
 
@@ -438,7 +438,7 @@ Comet Pro がクラウドにバインドされると、コンソールには次�
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/logout.png){class="glboxshadow"}
 
 ## 設定
-コンソールで、ナビゲーション バーの [設定] アイコンをクリックして、次の [設定] ページを開きます。この機能はファームウェア v1.10.0 で導入されました。 
+コンソールで、ナビゲーション バーの [設定] アイコンをクリックして、次の [設定] ページを開きます。この機能はファームウェア v1.10.0 で導入されました。
 
 - [USB デバイス](#usb-devices)
 - [設定](#preferences)
@@ -456,7 +456,7 @@ USB デバイスは、すべての USB エミュレーション デバイスを�
 ![USB Emulated Devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_usb_devices.png){class="glboxshadow"}
 
 - **Microphone**
-        
+
     マイクがミュートになっている場合、[設定] をクリックして、使用習慣に基づいてショートカットをカスタマイズできます。割り当てられたショートカット キーを押したままにすると、話し始めます。ボタンを放すと再びマイクがミュートになります。
 
     ![mic settings 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mic_setting_1.png){class="glboxshadow" width=600}
@@ -476,7 +476,7 @@ USB デバイスは、すべての USB エミュレーション デバイスを�
 ![Preferences](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_preference.png){class="glboxshadow"}
 
 - **Layout Preferences**:必要に応じて、全画面でツールバーを表示したり、ウィンドウ モードでステータス バーを表示したりすることを管理できます。
-  
+
 - **System Settings**: システム設定をカスタマイズするには、ブラウザーのタブ タイトル、言語 (中国語、英語、または日本語)、カラー モード (ライトまたはダーク)、および地域に基づいてタイムゾーンを選択します。
 
 - **Device Screen**: デバイス画面を管理およびプレビューできます。利用可能な設定には、ロック画面モード (世界時計、時計のみ、または壁紙のみ)、時間形式、日付形式、壁紙が含まれます。
@@ -491,7 +491,7 @@ Comet Pro のホスト名や IP アドレスなどのネットワークの詳細
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_network_hostname.png){class="glboxshadow" width=600}
 
-- **Ethernet Settings**: Comet Pro がイーサネット ケーブル経由で上流のネットワーク デバイスに接続すると、そのイーサネットの詳細がここに表示されます。 
+- **Ethernet Settings**: Comet Pro がイーサネット ケーブル経由で上流のネットワーク デバイスに接続すると、そのイーサネットの詳細がここに表示されます。
 
     プロトコルが DHCP の場合、ページは次のように表示されます。
 
@@ -552,7 +552,7 @@ URL を介してデバイスをクラウドにバインドできます。 **More
 - **System**: **Reboot** をクリックしてデバイスを再起動するか、**Reset** をクリックして現在のデバイス構成をクリアし、デバイスを再度セットアップします。
 
 - **Upgrade**: ベータ センターを有効にしてベータ ファームウェアのアップデートを受信したり、ローカル アップグレードを使用してローカル ファイルから手動でインストールしたりできます。
-  
-    ![local Upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setthing_system_local_update.png){class="glboxshadow" width=400} 
+
+    ![local Upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setthing_system_local_update.png){class="glboxshadow" width=400}
 
 - **ヘルプとサポート**: ログ ファイルのエクスポートを使用すると、トラブルシューティングやアフター サポートのためにデバイスの実行時ログを保存できます。ヘルプ ドキュメントでは、ユーザー ガイド、FAQ、トラブルシューティング ドキュメントにアクセスできます。

@@ -54,7 +54,7 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
 3. **Hardware** で、**Thunderbolt / USB4** または **USB** を選択します。
 4. Thunderbolt / USB4 にリストされているすべての USB-C ポートは、デフォルトで DisplayPort Alt Mode をサポートします。
 
-**Tip**: USB-C / Thunderbolt ポートを備えたすべての最新の Mac は、すぐに DisplayPort Alt Mode をサポートします。 
+**Tip**: USB-C / Thunderbolt ポートを備えたすべての最新の Mac は、すぐに DisplayPort Alt Mode をサポートします。
 
 !!! note "対応機種はこちら"
 

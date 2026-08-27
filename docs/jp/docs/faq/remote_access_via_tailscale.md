@@ -9,7 +9,7 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 **始める前に、KVM と制御側デバイスを同じローカル ネットワークに接続してください。**
 
 1. 制御側デバイスでブラウザを開きます。互換性を高めるために Chrome または Edge をお勧めします。
-    
+
 2. ドメインまたは IP アドレスを使用して、ローカルで KVM コンソールにログインします。ここでは例としてデフォルトのドメインを使用します。
 
     アドレスバーに「`glkvm.local`」と入力します。 GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
@@ -28,10 +28,10 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 
     ![connect kvm to tailnet](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/connect_kvm_to_tailscale.png){class="glboxshadow"}
 
-    KVM デバイスはテールネットに正常にバインドされます。 
+    KVM デバイスはテールネットに正常にバインドされます。
 
     ![bind kvm successful](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/bind_kvm_successful.png){class="glboxshadow"}
-    
+
 6. Tailscale コンソールにリダイレクトされ、**glkvm** というラベルのデバイスが **Machines** の下に表示されます。
 
     ![tailscale console 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_1.png){class="glboxshadow"}

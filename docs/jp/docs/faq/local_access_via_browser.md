@@ -32,7 +32,7 @@ Web ブラウザーを介してローカルで KVM にアクセスするには�
 
     ![find glkvm ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/find_glkvm_ip.png){class="glboxshadow"}
 
-3. ブラウザで新しいタブを開き、アドレス バーに Comet の IP **192.168.8.197** を入力します。 
+3. ブラウザで新しいタブを開き、アドレス バーに Comet の IP **192.168.8.197** を入力します。
 
     GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
 

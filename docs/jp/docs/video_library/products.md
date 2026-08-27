@@ -16,7 +16,7 @@
 
 ## Cometプロ(GL-RM10)
 
-Wi-Fi 経由のリモート KVM 
+Wi-Fi 経由のリモート KVM
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QQIAW5E1KNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

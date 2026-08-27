@@ -33,7 +33,7 @@ KVM 経由で被制御デバイスにアクセスするときに、デスクト�
     2. サイドバーを下にスクロールして、**Displays** を選択します。
 
         ![mac system settings](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/mac-system-settings.png){class="glboxshadow"}
- 
+
     3. レイアウト ビューで、**外部ディスプレイ**をクリックします。 MacBook の画面と接続されているモニターが表示されます。
 
     4. **使用方法** ドロップダウン メニューをクリックし、**ミラー モード** (通常は内蔵ディスプレイのミラー) を選択します。
@@ -41,10 +41,10 @@ KVM 経由で被制御デバイスにアクセスするときに、デスクト�
         ![mac mirror display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/mac-mirror-display.png){class="glboxshadow"}
 
     セットアップ後は、被制御デバイス上のデスクトップ全体とすべてのアプリケーション ウィンドウにリモートからアクセスできるようになります。
-    
+
 !!! note
     この解決策は、拡張表示モードによって引き起こされる表示の問題にのみ適用されます。ミラーリングを有効にしても問題が解決しない場合は、デバイスがローカル ユーザー ログインを完了し、システム ログイン画面でスタックしていないことを確認してください。
-      
+
 ---
 
 まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
