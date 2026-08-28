@@ -172,3 +172,7 @@ The official AXDL tool is Windows-only. For macOS and Linux, you can use axdl-rs
       Downloading image SPL
       Done
       ```
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

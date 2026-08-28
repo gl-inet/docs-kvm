@@ -1,3 +1,18 @@
 run_docs4.cmd
 site/
 docs/*/site/
+
+# All doc content images must be referenced via external CDN links, not committed as binaries.
+# Only site theme assets (logo, favicon, etc. under docs/images and docs/stylesheets) are allowed.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.svg
+*.ico
+*.tif
+*.tiff
+!**/docs/images/**
+!**/docs/stylesheets/**

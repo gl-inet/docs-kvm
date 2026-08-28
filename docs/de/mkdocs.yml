@@ -22,6 +22,7 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized
   - redirects:
       redirect_maps:
         "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
@@ -52,6 +53,9 @@ plugins:
         "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
         "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
 
+hooks:
+  - ../../scripts/alternate_links.py
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -75,6 +79,9 @@ extra:
     - name: English
       link: /kvm/en/
       lang: en
+    - name: 日本語
+      link: /kvm/ja/
+      lang: ja
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
@@ -134,6 +141,7 @@ nav:
           - Produktuebersicht: user_guide/gl-rmq1/product_overview.md
           - Schnelle Einrichtung: user_guide/gl-rmq1/quick_setup_guide.md
           - Konsolenhandbuch: user_guide/gl-rmq1/console_guide.md
+          - Comet Q FAQs: user_guide/gl-rmq1/faqs.md
       - GL-RM4PE (Comet X):
           - Comet X Benutzerhandbuch: user_guide/gl-rm4pe/index.md
           - Sicherheitshinweise: user_guide/gl-rm4pe/safety_information.md

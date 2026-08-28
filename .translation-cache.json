@@ -5,15 +5,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785317580
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "2c7e931d0465b9a4025663cb6f87adf9d7a8482792752076a455764cbc4e3587",
+    "source_hash": "3bad16859016d0587eff564ce8481ed0889bd709dab9ab777c3570d1bac6bc16",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786002431
+        "updated_at": 1787816663
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787816663
       }
     }
   },
@@ -23,6 +31,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319702
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -32,6 +44,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -41,6 +57,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -50,6 +70,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -59,6 +83,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -68,6 +96,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -77,6 +109,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -86,6 +122,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329029
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -95,6 +135,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329029
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -104,6 +148,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -113,6 +161,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -122,6 +174,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -131,6 +187,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1785726752
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -140,6 +200,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -149,6 +213,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -158,6 +226,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -167,6 +239,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -176,6 +252,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -185,6 +265,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -194,6 +278,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -203,6 +291,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329097
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -212,6 +304,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -221,6 +317,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -230,6 +330,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -239,6 +343,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -248,6 +356,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -257,6 +369,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -266,6 +382,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -275,6 +395,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -284,6 +408,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1785726752
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -293,6 +421,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -302,6 +434,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -311,6 +447,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -320,6 +460,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329031
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -329,6 +473,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319258
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -338,6 +486,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -347,15 +499,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/docs/javascripts/cookieconsent.js": {
-    "source_hash": "4da2f3947225bd869373b13aae860758306b555f81d01fcb0957a65de6132058",
+    "source_hash": "11ac66219985b77d84a40e811a5d5164f7e04ff1c6eae1f3904065c4ba94b30e",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1786000750
+        "model": "gpt-5-codex",
+        "updated_at": 1786529720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -365,6 +525,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -374,6 +538,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -383,6 +551,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319520
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -392,6 +564,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -401,15 +577,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319520
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/docs/tutorials/how_to_change_device_identity.md": {
-    "source_hash": "3e0183b2ded31c18769261427d212a551db7b2f42fa20f905e867d3ec9e66db6",
+    "source_hash": "2ac19a410fefff18fd5c7d585b212d160ff577c01b07b788e44a2dae56fdcc0b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "gpt-5-codex",
+        "updated_at": 1787817168
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787817168
       }
     }
   },
@@ -419,6 +603,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319520
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -428,6 +616,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -437,6 +629,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -446,6 +642,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319520
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -455,6 +655,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319668
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -464,6 +668,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319521
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -473,6 +681,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -482,6 +694,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -491,6 +707,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319521
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -500,6 +720,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319521
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -509,6 +733,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -518,6 +746,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319522
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -527,15 +759,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319668
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/docs/tutorials/how_to_unbrick_kvm_via_usb_otg.md": {
-    "source_hash": "02de170ee0f303a1429bac01810e5a30b4d6ded2b97ecd1009f361ed41053f3f",
+    "source_hash": "189ef89807fb90277def3b58397754451ef2b078bfb472db1065b8cee8972626",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "updated_at": 1786529720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -545,6 +785,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319668
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -554,6 +798,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -563,6 +811,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329032
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -572,6 +824,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -581,15 +837,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/docs/user_guide/gl-rm1/console_guide.md": {
-    "source_hash": "228620bfb0d26446d70ace50ab26f771b169708b2ace9d2bc2c8ba555dad6ce4",
+    "source_hash": "6ac5106055da3949ad3de988bd6fbeadc8c4163b7438cf806b1ba72cffcae226",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329030
+        "model": "gpt-5-codex",
+        "updated_at": 1787212601
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -599,6 +863,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -608,6 +876,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -617,6 +889,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -625,11 +901,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10/console_guide.md": {
-    "source_hash": "eea8da4b409818a5b87d98ac2a91fc7e8df61ae74531fcbc43473d51f64b2f91",
+    "source_hash": "21889168069a971e620c8342369978e13923af5d1c14656e7339662e8141fa05",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329030
+        "model": "gpt-5-codex",
+        "updated_at": 1787817168
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787817168
       }
     }
   },
@@ -639,6 +919,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -648,6 +932,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -657,6 +945,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -665,11 +957,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
-    "source_hash": "410c17b857b6edf2dabab7a6826f2e6a169074d51c7c0f787e278c8e60e3a0f8",
+    "source_hash": "d1546e8ec59a42cae91a753a22d3db733fcb15187382f611f741acdffdd63a90",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "updated_at": 1787212601
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -679,6 +975,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -688,6 +988,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329031
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -697,6 +1001,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -705,11 +1013,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm1pe/console_guide.md": {
-    "source_hash": "8a6a2c76e8faa85a50136dd931d61d9d542a2ee2b8136f0569ace55048db8521",
+    "source_hash": "08ab9b37e67576c567a658fdc834ecad6b6cf90286e5ada5428eb988e9244658",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329030
+        "model": "gpt-5-codex",
+        "updated_at": 1787212601
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -719,6 +1031,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -728,6 +1044,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -737,6 +1057,10 @@
       "de": {
         "model": "gpt-5-codex",
         "updated_at": 1786000750
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -745,11 +1069,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
-    "source_hash": "51e5083d68b04ac282907f97f9c258c4f31ff34768d32d0481a5e61f772802e9",
+    "source_hash": "6c7d3dd45ebbaee73c1574fb6ca713ba5b7b09b42adf987b3b3064dd37779063",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1785726752
+        "updated_at": 1787212601
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -759,6 +1087,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785489720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -768,6 +1100,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -777,6 +1113,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329151
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -785,20 +1125,28 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rmq1/console_guide.md": {
-    "source_hash": "ebf23dd3f5746e47981e3bad7329ac446166941b8e7aa0ad7bad673a9c167dc9",
+    "source_hash": "7e5410e0d62de0aff56e9afe69dd8f61aa786ef29042d55a6bbc453f2ccfd35b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325991
+        "model": "gpt-5-codex",
+        "updated_at": 1787212601
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/docs/user_guide/gl-rmq1/index.md": {
-    "source_hash": "4a98fe8d62f20f642a2740713f968c792361382c494af4bc6a397f59da940db5",
+    "source_hash": "4a52674d7877543c0e98635f9dcdd8b407aed58c6d68de3f97489561587ceaca",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785489720
+        "model": "gpt-5-codex",
+        "updated_at": 1786529720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -808,15 +1156,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785325473
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
   "docs/en/docs/user_guide/gl-rmq1/quick_setup_guide.md": {
-    "source_hash": "cc89599ec2a576d182e025c5bae9c3aa9b7b0f2649ff278e570b5ec19f818859",
+    "source_hash": "4a6318da00e4a5bf97bdbeece8462aff236a0245e1adf057599d6f6f42b07c9b",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "updated_at": 1787817168
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787817168
       }
     }
   },
@@ -830,6 +1186,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319302
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -839,6 +1199,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319258
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -848,6 +1212,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319286
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -857,6 +1225,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319286
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -866,6 +1238,10 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785319155
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   },
@@ -875,6 +1251,23 @@
       "de": {
         "model": "pre-existing",
         "updated_at": 1785329032
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-rmq1/faqs.md": {
+    "source_hash": "590a427f2b29e4a802ccbd4f5e0ca4a2abf6372fe12adc23a328b757f86b2b6e",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1786529720
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1787215459
       }
     }
   }

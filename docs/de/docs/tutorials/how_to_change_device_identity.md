@@ -4,32 +4,28 @@
 
 Die Geraeteidentitaet eines GL.iNet KVM ist die Kennung, ueber die das KVM bei der Kommunikation vom verbundenen Geraet erkannt und unterschieden wird.
 
-Da GL.iNet KVM fuer die Benutzerinteraktion mehrere Geraete kombiniert emuliert, wird es beim Anschluss an das gesteuerte Geraet als Gruppe mehrerer Geraete erkannt. Dazu gehoeren ein Monitor, mehrere USB-Geraete wie Maus und Tastatur sowie ein USB-Laufwerk.
-
-Standardmaessig lautet die Geraeteidentitaet **GLKVM**. Sie finden sie in der KVM-Konsole unter **Settings** -> **System**.
-
-![device identity](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/device_identity.png){class="glboxshadow"}
-
 In der Regel ist das KVM mit einem Type-C-Port ausgestattet, wie unten dargestellt. Dieser Port wird mit dem USB-Port des gesteuerten Geraets verbunden, um Peripheriegeraete wie Tastatur, Maus, USB-Laufwerk und Mikrofon sowie ein CD-ROM-Laufwerk zu simulieren.
 
 ![gl-rm1 type-c](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/gl-rm1-type-c.png){class="glboxshadow gl-60-desktop"}
 
-Wenn der Benutzer auf dem steuernden Geraet mit der Maus klickt, auf der Tastatur tippt oder das Mikrofon verwendet, werden diese Signale per Fernzugriff an das physische KVM-Geraet uebertragen. Das KVM leitet sie anschliessend ueber seinen Type-C-Port an das gesteuerte Geraet weiter. Daher wird das KVM normalerweise als zusammengesetztes Geraet betrachtet, das mehrere an den USB-Ports des gesteuerten Geraets angeschlossene Peripheriegeraete emuliert.
+Wenn Sie auf dem steuernden Geraet mit der Maus klicken, auf der Tastatur tippen oder das Mikrofon verwenden, werden diese Signale per Fernzugriff an das physische KVM-Geraet uebertragen. Das KVM leitet sie anschliessend ueber seinen Type-C-Port an das gesteuerte Geraet weiter.
+
+Daher wird das KVM normalerweise als zusammengesetztes Geraet betrachtet, das mehrere an den USB-Ports des gesteuerten Geraets angeschlossene Peripheriegeraete emuliert.
+
+![device identity principle](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/principle.png){class="glboxshadow"}
 
 !!! Note
 
     Wenn Eingabemethode oder Tastaturlayout des steuernden Geraets nicht mit dem gesteuerten Geraet uebereinstimmen, koennen einige Symbole oder Buchstaben auf anderen Tasten liegen. Dadurch kann die Ausgabe auf dem gesteuerten Geraet von der Eingabe auf dem steuernden Geraet abweichen. Weitere Informationen finden Sie [hier](../faq/keyboard_does_not_input_output_as_expected.md).
 
-Da die Geraeteidentitaet von GL.iNet KVM standardmaessig GLKVM lautet, wird es in den Systemeinstellungen des gesteuerten Geraets, z. B. unter Bluetooth & devices, als GLKVM oder Glinet Composite Device angezeigt.
-
-![device identity default](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_default.png){class="glboxshadow"}
-
 ## Warum die Geraeteidentitaet aendern?
 
-Standardmaessig wird GL.iNet KVM vom gesteuerten Geraet als zusammengesetztes Geraet erkannt, das Peripheriegeraete wie Tastatur, Maus, Mikrofon und Monitor emuliert. Normalerweise verursacht dies keine Einschraenkungen, da diese Einstellungen nur fuer den Benutzer selbst sichtbar sind.
+Da GL.iNet KVM fuer die Benutzerinteraktion mehrere Geraete kombiniert emuliert, wird es beim Anschluss an das gesteuerte Geraet als Gruppe mehrerer Geraete erkannt. Dazu gehoeren ein Monitor, mehrere USB-Geraete wie Maus und Tastatur sowie ein USB-Laufwerk.
 
-![mic settings](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/mic.png){class="glboxshadow"}
-<small>(Mikrofoneinstellungen)</small>
+Standardmaessig lautet die Geraeteidentitaet **GLKVM**. Daher wird das KVM in den Systemeinstellungen des gesteuerten Geraets als GLKVM oder Glinet Composite Device angezeigt. Normalerweise verursacht dies keine Einschraenkungen, da diese Einstellungen nur fuer den Benutzer selbst sichtbar sind.
+
+![device identity default](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_default.png){class="glboxshadow"}
+<small>(Einstellungen unter Bluetooth & devices)</small>
 
 ![speaker settings](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/speaker.png){class="glboxshadow"}
 <small>(Lautsprechereinstellungen)</small>
@@ -67,25 +63,49 @@ In den folgenden Szenarien kann es jedoch erforderlich sein, die KVM-Geraeteiden
 
 ## KVM-Geraeteidentitaet aendern
 
+### Firmware v1.10 und neuer
+
+1. Melden Sie sich bei Ihrem KVM an und navigieren Sie oben rechts zu **Settings**. Suchen Sie unter **USB Devices** nach **Device Identity** und passen Sie die Identitaet an.
+
+    ![identity customize1](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize1.png){class="glboxshadow"}
+
+2. Klicken Sie im Pop-up-Fenster auf **Confirm**, um das Geraet neu zu starten.
+
+    ![identity customize2](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize2.png){class="glboxshadow"}
+
+3. Nach dem Neustart ist die Device Identity in der KVM-Konsole geaendert.
+
+    ![identity customize3](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize3.png){class="glboxshadow"}
+
+4. Ueberpruefen Sie die Geraeteidentitaet. Im folgenden Beispiel wird Windows 11 Pro als gesteuertes Geraet verwendet.
+
+    Navigieren Sie auf dem gesteuerten Geraet zu **Settings** -> **Bluetooth & devices**. Die Eingabe- und Audiogeraete werden nun mit den von Ihnen festgelegten Identitaeten erkannt.
+
+    ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize4.png){class="glboxshadow"}
+
+### Firmware v1.9 und aelter
+
 1. Melden Sie sich bei Ihrem KVM an und navigieren Sie zu **Settings** -> **System** -> **Device Identity**. Waehlen Sie in der Dropdown-Liste eine voreingestellte Identitaet aus.
 
-    ![customize1](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize1.jpg){class="glboxshadow"}
+    ![identity customize1](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize1.jpg){class="glboxshadow"}
 
     Oder klicken Sie auf **Customize** und geben Sie im Pop-up-Fenster die gewuenschten Parameter ein.
 
-    ![customize2](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize2.jpg){class="glboxshadow"}
+    ![identity customize2](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize2.jpg){class="glboxshadow"}
 
-2. Nach der Auswahl erscheint ein Pop-up-Fenster, das zum Neustart auffordert. Klicken Sie auf **Confirm**, um neu zu starten.
+2. Klicken Sie im Pop-up-Fenster auf **Confirm**, um das Geraet neu zu starten.
 
-    ![customize3](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize3.png){class="glboxshadow"}
+    ![identity customize3](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize3.png){class="glboxshadow"}
 
-3. Nach dem Neustart ist die Device Identity in der KVM-Konsole auf die geaenderte Identitaet gesetzt.
+3. Nach dem Neustart ist die Device Identity in der KVM-Konsole geaendert.
 
-    ![customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize4.jpg){class="glboxshadow"}
+    ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/customize4.jpg){class="glboxshadow"}
 
-    Greifen Sie ueber KVM auf Ihr gesteuertes Geraet zu und navigieren Sie zu **Settings** -> **Bluetooth & devices**. Im Beispiel wird Windows 10 Pro verwendet. Die Eingabegeraete (Tastatur und Maus), das Audiogeraet (Mikrofon) und die Anzeige (Monitor) werden nun als die von Ihnen festgelegten benutzerdefinierten Geraete erkannt, nicht mehr als standardmaessiges GLKVM.
+4. Ueberpruefen Sie die Geraeteidentitaet. Im folgenden Beispiel wird Windows 10 Pro als gesteuertes Geraet verwendet.
 
-    ![customize5](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_modified.png){class="glboxshadow"}
+    Navigieren Sie auf dem gesteuerten Geraet zu **Settings** -> **Bluetooth & devices**. Die Eingabe- und Audiogeraete werden nun mit den von Ihnen festgelegten Identitaeten erkannt.
+
+    ![identity customize5](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_modified.png){class="glboxshadow"}
 
 ---
 

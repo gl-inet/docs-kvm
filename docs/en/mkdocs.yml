@@ -22,6 +22,7 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized
   - redirects:
       redirect_maps:
         "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
@@ -58,6 +59,9 @@ plugins:
         "user_guide/gl-rm4pe/fcc_ic_compliance_statements.md": "user_guide/gl-rm4pe/regulatory_statement.md"
         "user_guide/gl-rmq1/fcc_ic_compliance_statements.md": "user_guide/gl-rmq1/regulatory_statement.md"
 
+hooks:
+  - ../../scripts/alternate_links.py
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -81,6 +85,9 @@ extra:
     - name: Deutsch
       link: /kvm/de/
       lang: de
+    - name: 日本語
+      link: /kvm/ja/
+      lang: ja
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
@@ -110,7 +117,7 @@ nav:
   - Home: index.md
   - User Guide:
       - Overview: user_guide/index.md
-      - GL-RM1/GL-RM1 V2 (Comet/Comet V2):
+      - GL-RM1/GL-RM1V2 (Comet):
           - Comet User Guide: user_guide/gl-rm1/index.md
           - Product Overview: user_guide/gl-rm1/product_overview.md
           - Quick Setup: user_guide/gl-rm1/quick_setup_guide.md
@@ -139,6 +146,7 @@ nav:
           - Product Overview: user_guide/gl-rmq1/product_overview.md
           - Quick Setup: user_guide/gl-rmq1/quick_setup_guide.md
           - Console Guide: user_guide/gl-rmq1/console_guide.md
+          - Comet Q FAQs: user_guide/gl-rmq1/faqs.md
           - Regulatory Statement: user_guide/gl-rmq1/regulatory_statement.md
       - GL-RM4PE (Comet X):
           - Comet X User Guide: user_guide/gl-rm4pe/index.md

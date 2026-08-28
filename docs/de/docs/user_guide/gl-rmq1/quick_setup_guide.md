@@ -1,5 +1,9 @@
 # Comet Q (GL-RMQ1) Schnellstart
 
+Sehen Sie sich dieses Video an oder folgen Sie den nachstehenden Schritten, um Ihren Comet Q einzurichten.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Geraete verbinden
 
 Zur besseren Verstaendlichkeit bezeichnet Geraet A das steuernde Geraet und Geraet B das gesteuerte Geraet.

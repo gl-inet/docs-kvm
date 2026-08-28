@@ -7,3 +7,7 @@
 3. Interfaces marked offline continue to receive background ping probes.  
    
 4. Recovery: If the higher‑priority interface becomes ping‑reachable within **9 seconds**, the system switches back to it after that period.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -57,7 +57,7 @@ You can adjust the relevant settings of the controlled device.
 
 ![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-remote-device.png){class="glboxshadow"}
 
-- **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio)
+- **Speaker**: Control audio output from the controlled device (e.g., system sounds, video audio).
 
 - **Microphone**: Transmit local audio (e.g., your voice) from the controlling device to the remote end. It supports one-click mute, and a long-press shortcut to activate the microphone (i.e., Press To Speak).
 
@@ -79,7 +79,7 @@ You can adjust the relevant settings of the controlled device.
 
 - **Show Local Cursor**: Display the mouse of the current device on the screen.
 
-- **Mouse Jiggle**: The Mouse Jiggler feature simulates subtle, periodic mouse movements to prevent the computer (i.e., the controlled device) from going to sleep due to prolonged inactivity, such as during remote meetings and server management.
+- **Mouse Jiggle**: The Mouse Jiggle feature simulates subtle, periodic mouse movements to prevent the controlled device from going to sleep due to prolonged inactivity, such as during remote meetings and server management.
 
 - **Scroll Rate**: It refers to the speed at which the mouse wheel scrolls or the number of lines/units scrolled per wheel rotation, affecting how quickly content moves on the remote.
 
