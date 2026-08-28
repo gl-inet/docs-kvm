@@ -50,7 +50,7 @@ Please prepare the following tools to unbrick the device.
 
 3. Install the AXDL Tool.
   
-      * Download AXDL to your computer from [here](https://www.teambition.com/task/6a55bcdb655bb6b2abdd5def) and extract it to an easily accessible directory.
+      * Download AXDL to your computer from [here](https://fw.gl-inet.com/tools/ax/AXDL_V1.24.22.1.7z) and extract it to an easily accessible directory.
          
       * Double click the `AXDL.exe` file to run the flashing tool.
 
