@@ -8,6 +8,18 @@ This tutorial introduces two methods for changing the hostname: via the KVM cons
 
 > **Note**: This feature is available in firmware version 1.7.0 and above.
 
+### Firmware v1.10 and above
+
+1.  Log in to your KVM and click the Settings icon in the navigation bar to open the Settings page.
+
+    ![settings network](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings-network.png){class="glboxshadow"}
+
+2. Go to **Network**, enter your custom hostname, and the modification will take effect.
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/modify-hostname.png){class="glboxshadow"}
+
+### Firmware v1.9 and earlier
+
 1. Log in to your KVM and navigate to **Settings** -> **Network**. Click the hostname or right arrow icon. 
 
     ![settings network](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings_network.png){class="glboxshadow"}
