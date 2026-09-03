@@ -6,6 +6,26 @@ With this feature, you can easily capture text from the remote screen (i.e., the
 
 Follow the steps below to capture text from the remote screen.
 
+## Firmware v1.10 and above
+
+1. Log in your KVM console, and navigate to **Toolbox** -> **OCR**. Click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
+
+    ![OCR recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_1.png){class="glboxshadow"}
+
+2. Click **Capture** and the remote screen will dim. If you want to exit text capture, click **Cancel**.
+
+    ![OCR recognition 2](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_2.png){class="glboxshadow"}
+
+3. Draw a box around the text you want to extrat, as shown below.
+
+    ![OCR recognition 3](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_3.png){class="glboxshadow"}
+
+4. The system will identify the text within the selected area automatically. You can then copy the recognized text as needed. 
+
+    ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
+
+## Firmware v1.9 and earlier
+
 1. Log in to your KVM console. Click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
 
     ![text recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/1.png){class="glboxshadow"}
