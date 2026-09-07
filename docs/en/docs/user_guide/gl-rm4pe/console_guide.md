@@ -39,7 +39,7 @@ You can customize video settings on the Session settings, such as display mode, 
 
 - **Quality**: Adjust the video quality to Auto/Low/Medium/High/Ultra-high/Lossless according to your network environment and resolution requirements.
 
-- **FEC Packets**：When the network is unstable, it automatically repairs lost data packets by sending a small amount of redundant data, reducing screen flickering and lag. You can adjust the FEC ratio to 5%/10%/15%/20%.
+- **FEC Packets**: When the network is unstable, it automatically repairs lost data packets by sending a small amount of redundant data, reducing screen flickering and lag. You can adjust the FEC ratio to 5%/10%/15%/20%.
 
 - **Orientation**: Adjust the console's rotation angle to 0°/90°/180°/270°.
 
