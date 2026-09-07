@@ -16,7 +16,7 @@ Follow the steps below to capture text from the remote screen.
 
     ![OCR recognition 2](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_2.png){class="glboxshadow"}
 
-3. Draw a box around the text you want to extrat, as shown below.
+3. Draw a box around the text you want to extract, as shown below.
 
     ![OCR recognition 3](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_3.png){class="glboxshadow"}
 

@@ -167,7 +167,7 @@ If the device you want to add is not in the list, click **Add Manually** and ent
 
 ### Terminal
 
-You can access Comet Pro's terminal to perform advanced settings. Click **Access**.
+You can access Comet X's terminal to perform advanced settings. Click **Access**.
 
 ![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal_1.png){class="glboxshadow"}
 
@@ -437,7 +437,7 @@ Click the chart icon to view statistical data, including network latency, networ
 
 GL.iNet KVM Cloud allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
 
-Once your Comet Pro is bound to the Cloud, the console will display the cloud status as follows.
+Once your Comet X is bound to the Cloud, the console will display the cloud status as follows.
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_cloud_service.png){class="glboxshadow"}
 
@@ -492,7 +492,7 @@ The Preferences provides management of Layout Preferences, System Settings, and 
 
 ### Network
 
-You can check and modify Comet Pro's network details, such as Hostname and IP address.
+You can check and modify Comet X's network details, such as Hostname and IP address.
 
 ![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network.png){class="glboxshadow"}
 
@@ -500,7 +500,7 @@ You can check and modify Comet Pro's network details, such as Hostname and IP ad
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network_hostname.png){class="glboxshadow" width=600}
 
-- **Ethernet Settings**: When Comet Pro connects to an upstream network device via an Ethernet cable, its Ethernet details will be displayed here. 
+- **Ethernet Settings**: When Comet X connects to an upstream network device via an Ethernet cable, its Ethernet details will be displayed here.
 
     If the protocol is DHCP, the page displays as follows.
 

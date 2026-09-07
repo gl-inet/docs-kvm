@@ -10,7 +10,7 @@ This tutorial explains how to unbrick a GL.iNet KVM device using USB OTG. This m
 
 Please prepare the following tools to unbrick the device.
 
-- A Windows running Windows, macOS or Ubuntu
+- A computer running Windows, macOS, or Ubuntu
 
 **Note**
 
@@ -28,7 +28,7 @@ Please prepare the following tools to unbrick the device.
   
 - If you want the device to reboot automatically after the flashing, navigate to **Settings** → **Options** → **Reboot to Normal Mode After Download** and enable it before you begin. If this option is not enabled, you must manually reboot the device after the flashing is complete (i.e., by unplugging and reconnecting the power cable).
 
-## Unbirck Steps
+## Unbrick Steps
 
 ### Windows
 
@@ -145,7 +145,7 @@ The official AXDL tool is Windows-only. For macOS and Linux, you can use axdl-rs
 
       After a successful flash, the terminal will display the output below. 
 
-      Note: compiler warnings can be safely ignored"
+      Note: compiler warnings can be safely ignored
 
       ```
       $ cargo run --bin axdl-cli --package axdl-cli -- --file glkvm-RMQ1-nand-1.8.1-0518-1779101289.axp --wait-for-device
