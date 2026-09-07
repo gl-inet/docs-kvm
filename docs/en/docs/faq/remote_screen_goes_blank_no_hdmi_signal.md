@@ -87,7 +87,7 @@ If you access the controlled device via a browser and encounter a blank screen i
     2. Add the following line.
 
         ```
-        GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset
+        GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset"
         ```
 
     3. Uncomment the line `GRUB_GFXMODE` by removing the `#` and set the desired resolution, such as `1024x768`. 
@@ -100,8 +100,7 @@ If you access the controlled device via a browser and encounter a blank screen i
 
     5. Press `Ctrl + X` to exit the nano editor.
 
-    6. Enter the command below to apply the configuration.
-
+    6. Enter the command below to apply the configuration
         ```
         update-grub
         ```
