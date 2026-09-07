@@ -50,7 +50,7 @@
 
 3. AXDL ツールをインストールします。
 
-      * [ここ](https://www.teambition.com/task/6a55bcdb655bb6b2abdd5def) から AXDL をコンピュータにダウンロードし、簡単にアクセスできるディレクトリに解凍します。
+      * [ここ](https://fw.gl-inet.com/tools/ax/AXDL_V1.24.22.1.7z) から AXDL をコンピュータにダウンロードし、簡単にアクセスできるディレクトリに解凍します。
 
       * `AXDL.exe` ファイルをダブルクリックして、フラッシュ ツールを実行します。
 
@@ -172,3 +172,7 @@
       Downloading image SPL
       Done
       ```
+
+---
+
+まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

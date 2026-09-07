@@ -7,3 +7,7 @@
 3. Als offline markierte Schnittstellen erhalten weiterhin Ping-Prüfungen im Hintergrund.
 
 4. Wiederherstellung: Wenn die Schnittstelle mit höherer Priorität innerhalb von **9 Sekunden** wieder per Ping erreichbar ist, schaltet das System nach diesem Zeitraum zu ihr zurück.
+
+---
+
+Noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

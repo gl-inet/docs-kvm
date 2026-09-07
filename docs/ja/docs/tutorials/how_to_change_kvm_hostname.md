@@ -8,6 +8,18 @@ GL.iNet KVM のデフォルトのホスト名は **glkvm** です。これは、
 
 > **Note**: この機能はファームウェア バージョン 1.7.0 以降で利用できます。
 
+### Firmware v1.10 以降
+
+1. KVM にログインし、ナビゲーションバーの Settings アイコンをクリックして Settings ページを開きます。
+
+    ![settings network](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings-network.png){class="glboxshadow"}
+
+2. **Network** に移動し、任意のホスト名を入力すると、変更が反映されます。
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/modify-hostname.png){class="glboxshadow"}
+
+### Firmware v1.9 以前
+
 1. KVM にログインし、**Settings** -> **Network** に移動します。ホスト名または右矢印アイコンをクリックします。
 
     ![settings network](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/settings_network.png){class="glboxshadow"}

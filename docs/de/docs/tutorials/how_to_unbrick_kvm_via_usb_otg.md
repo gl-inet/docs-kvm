@@ -50,7 +50,7 @@ Bereiten Sie bitte die folgenden Werkzeuge vor, um das Geraet zu entbricken.
 
 3. Installieren Sie das AXDL-Tool.
 
-      * Laden Sie AXDL [hier](https://www.teambition.com/task/6a55bcdb655bb6b2abdd5def) auf Ihren Computer herunter und entpacken Sie es in ein leicht erreichbares Verzeichnis.
+      * Laden Sie AXDL [hier](https://fw.gl-inet.com/tools/ax/AXDL_V1.24.22.1.7z) auf Ihren Computer herunter und entpacken Sie es in ein leicht erreichbares Verzeichnis.
 
       * Doppelklicken Sie auf die Datei `AXDL.exe`, um das Flashing-Tool auszufuehren.
 
@@ -172,3 +172,7 @@ Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux 
       Downloading image SPL
       Done
       ```
+
+---
+
+Noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

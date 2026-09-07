@@ -6,6 +6,26 @@ Mit dieser Funktion koennen Sie Text vom Remote-Bildschirm, also vom gesteuerten
 
 Fuehren Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfassen.
 
+## Firmware v1.10 und neuer
+
+1. Melden Sie sich an Ihrer KVM-Konsole an und navigieren Sie zu **Toolbox** -> **OCR**. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
+
+    ![OCR recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_1.png){class="glboxshadow"}
+
+2. Klicken Sie auf **Capture**. Der Remote-Bildschirm wird daraufhin abgedunkelt. Wenn Sie die Texterfassung beenden moechten, klicken Sie auf **Cancel**.
+
+    ![OCR recognition 2](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_2.png){class="glboxshadow"}
+
+3. Ziehen Sie wie unten gezeigt einen Rahmen um den Text, den Sie extrahieren moechten.
+
+    ![OCR recognition 3](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_3.png){class="glboxshadow"}
+
+4. Das System erkennt den Text innerhalb des ausgewaehlten Bereichs automatisch. Anschliessend koennen Sie den erkannten Text bei Bedarf kopieren.
+
+    ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
+
+## Firmware v1.9 und aelter
+
 1. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 
     ![text recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/1.png){class="glboxshadow"}

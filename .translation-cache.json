@@ -13,15 +13,15 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "3bad16859016d0587eff564ce8481ed0889bd709dab9ab777c3570d1bac6bc16",
+    "source_hash": "58a4cdd4fdb63bfc7ee2de3be13e3de6eefab24a17f99b904f5d4cf0370e07b9",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1787816663
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787816663
+        "updated_at": 1788750207
       }
     }
   },
@@ -117,15 +117,15 @@
     }
   },
   "docs/en/docs/faq/failed_to_bind_device_to_glkvm_app.md": {
-    "source_hash": "90b0fd61138d6c16c7c8835ee15e410474aa4b784437e62fd78e593be2f478f8",
+    "source_hash": "05bf01aadc607e1603eb3b849d2653cc65303845503aece9037f5712addebcb7",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329029
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -442,15 +442,15 @@
     }
   },
   "docs/en/docs/faq/wan_network_detection_and_failover_logic_of_comet5g.md": {
-    "source_hash": "f0e2a6339cca4a689001a20efaf77e649be9e3f48ddf0f4a740171caa4f52761",
+    "source_hash": "79db5f621989b97dfc9f435b42c1409d77f24c5036b78f3a7fc09a8ebe2b3e2e",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -572,15 +572,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_capture_text_from_remote_screen.md": {
-    "source_hash": "eb87d170f5b1586d9955f636232486b1fb1adc87db84b6e236952245b28730ce",
+    "source_hash": "402f739816ca70e6e895d3d6a9c07edd93aaf50feab5b4d7fc5fa3d702a5310f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319520
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -598,15 +598,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_change_kvm_hostname.md": {
-    "source_hash": "715f2ce41ce2db135020573543acad93672c9c7bbf39f0aca4319054d2a46afa",
+    "source_hash": "55bb5557a35af639e7d4481cc0e03712f67bfb93d6aaebcbab90d846508b92dc",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319520
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -741,15 +741,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_static_ip_for_comet.md": {
-    "source_hash": "af74ee5571fd8df0f78c9cf7aa7964ef441e72afc9d9942b5d577255de18881e",
+    "source_hash": "68694d18625eb7e897aba3d0dd86f9ecc839de3c80a792bc4da728647832c835",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319522
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -767,15 +767,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_unbrick_kvm_via_usb_otg.md": {
-    "source_hash": "189ef89807fb90277def3b58397754451ef2b078bfb472db1065b8cee8972626",
+    "source_hash": "f5526356992b24fa0191a712ccf85686edfb2cbaac2894ea375c458beb3d3b0b",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1786529720
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -1069,15 +1069,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
-    "source_hash": "6c7d3dd45ebbaee73c1574fb6ca713ba5b7b09b42adf987b3b3064dd37779063",
+    "source_hash": "17c90619d91e56eaf23f2642ecc09fd7608a3aeda9b06b2d3aac685d33679cf1",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1787212601
+        "updated_at": 1788750207
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1788750207
       }
     }
   },
@@ -1268,6 +1268,45 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      }
+    }
+  },
+  "docs/en/docs/stylesheets/docs-footer.css": {
+    "source_hash": "02f8e0edbef6b6d5835616885670d676e2acfb1c3b25c3e5646d893883d618b7",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
+      }
+    }
+  },
+  "docs/en/overrides/partials/alternate.html": {
+    "source_hash": "44781fdc5e78213fa1e18f69a08bb2eafb22772e99b5eee8a3d2f96ec704f678",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
+      }
+    }
+  },
+  "docs/en/overrides/partials/copyright.html": {
+    "source_hash": "9e550c753a292ee273cd631d826c0ef0fc5721c0bc2ae575b9ac1a487f1399dc",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1788750207
       }
     }
   }

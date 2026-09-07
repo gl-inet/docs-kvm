@@ -110,3 +110,7 @@
     AstroWarp、Tailscale、ZeroTier などの VPN またはプロキシ ソフトウェアを無効にしてから、KVM を GLKVM アプリに再度バインドしてみてください。
 
 問題が解決しない場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までご連絡いただき、デバイス モデル、ファームウェア バージョン、MAC アドレスをお知らせください。
+
+---
+
+まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

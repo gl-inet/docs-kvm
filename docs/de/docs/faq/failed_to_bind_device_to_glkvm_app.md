@@ -110,3 +110,7 @@ Klicken Sie unten auf die jeweilige Fehlermeldung, um die passende Lösung anzuz
     Deaktivieren Sie VPN- oder Proxy-Software, einschließlich AstroWarp, Tailscale und ZeroTier, und versuchen Sie anschließend erneut, Ihr KVM an die GLKVM App zu binden.
 
 Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte unter [support@gl-inet.com](mailto:support@gl-inet.com) und geben Sie Gerätemodell, Firmware-Version und MAC-Adresse an.
+
+---
+
+Noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

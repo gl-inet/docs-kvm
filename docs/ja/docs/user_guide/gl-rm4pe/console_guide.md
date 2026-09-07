@@ -1,180 +1,179 @@
 # Comet X (GL-RM4PE) コンソール ガイド
 
-## 設定
+## セッション
 
-コンソールで、**Settings**に移動します。設定ページには 4 つのセクションが含まれています。
+コンソールで Session アイコンをクリックし、**Session Settings** を開きます。このページには次の 4 つのセクションがあります。
 
 - [ビデオ](#video)
-- [リモートデバイス設定](#remote-device-settings)
-- [システム](#system)
-- [ネットワーク](#network)
+- [オーディオとカメラ](#audio--camera)
+- [キーボード](#keyboard)
+- [マウス](#mouse)
 
-### クイック検索
+### ビデオ {#video}
 
-[設定] ページの上部にキーワードを入力すると、必要な設定をすぐに見つけることができます。
+Session Settings では、表示モード、画質、ビデオ転送方式、画面の向き、EDID などのビデオ設定をカスタマイズできます。
 
-![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/quick-search.png){class="glboxshadow"}
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/session_video.png){class="glboxshadow"}
 
-### ビデオ
+- **Transfer**: ビデオ転送方式を WebRTC、WebRTC (FEC)、WebRTC (Native)、Direct から選択します。Direct では音声が伝送されません。
 
-表示モード、ビデオ送信、画面の向き、EDID など、本体のビデオ設定をカスタマイズできます。
+    !!! note "WebRTC、WebRTC (FEC)、WebRTC (Native)、Direct の違い"
 
-![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings-video.png){class="glboxshadow"}
+        - **WebRTC**: リアルタイムのリモート制御に適した、滑らかな映像と安定した音声のバランスを提供します。
 
-- **Mode**: 必要に応じてスマート モードとノーマル モードを切り替えます。スマート モードは、特に弱いネットワークでの帯域幅の消費を削減するのに役立ちます。
+        - **WebRTC (FEC)**: 前方誤り訂正により、不安定なネットワーク環境での接続安定性を高めます。少量の冗長データを送信してパケットロスを自動的に補完し、画面のちらつきや遅延を軽減します。
 
-- **Transfer**: ビデオ伝送方式を WebRTC、WebRTC (FEC)、ダイレクトの間で切り替えます。ダイレクト転送では音が出ませんのでご注意ください。
+        - **WebRTC (Native)**: Google WebRTC Library を使用し、ストリーミング性能とリアルタイムのリモート制御体験を向上させます。この転送モードはファームウェア v1.10.0 で導入されました。
 
-    !!! note "WebRTC、WebRTC (FEC) とダイレクトの違いは何ですか?"
+        - **Direct**: 最小の遅延とロスレスの映像品質を提供しますが、音声伝送には対応しません。
 
-        - **WebRTC**: リアルタイム リモート コントロールのために、滑らかなビデオと安定したオーディオのバランスをとります。
+- **Mode**: 必要に応じて Smart と Normal を切り替えます。Smart は、特にネットワーク環境が不安定な場合に、帯域幅の消費を抑えるのに役立ちます。
 
-        - **WebRTC (FEC)**: 前方誤り訂正を追加して、貧弱または不安定なネットワーク条件下での接続の安定性を向上させます。選択すると、少量の冗長データを送信することで失われたデータ パケットが自動的に修復され、画面のちらつきや遅延が軽減されます。
+- **Latency Mode**: Lowest Latency または Smooth Display を選択できます。この機能はファームウェア v1.9.0 で導入されました。
 
-        - **Direct**: 最低の遅延とロスレスビデオ品質を提供しますが、オーディオ送信はサポートしていません。
+    !!! note "Lowest Latency と Smooth Display の違い"
+
+        - **Lowest Latency**: 入力遅延を最小化し、キーボードとマウスの応答性を高めます。
+
+        - **Smooth Display**: 表示パフォーマンスを最適化し、カクつきやフレーム落ちを抑えて安定した再生を実現します。
+
+- **Quality**: ネットワーク環境と解像度の要件に合わせて、画質を Auto/Low/Medium/High/Ultra-high/Lossless から選択します。
+
+- **FEC Packets**: ネットワークが不安定なときに少量の冗長データを送信し、パケットロスを自動的に補完して画面のちらつきや遅延を軽減します。FEC 比率は 5%/10%/15%/20% から選択できます。
 
 - **Orientation**: コンソールの回転角度を 0°/90°/180°/270° に調整します。
 
-- **EDID**: Extended Display Identification Data の略で、最適な表示パラメータに自動的に一致します。
+- **EDID**: Extended Display Identification Data の略称で、最適な表示パラメーターを自動的に適用します。
 
-    デフォルト設定はほとんどのシナリオに適用され、通常は変更する必要はありません。詳細は[こちら](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご覧ください。 EDID 調整後に画面が更新されない場合は、被制御デバイスを再起動してください。
+    デフォルト設定はほとんどの利用環境に適しており、通常は変更する必要がありません。詳細は[こちら](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}をご覧ください。EDID 調整後に画面が更新されない場合は、被制御デバイスを再起動してください。
 
-- **View**: この設定は、ブラウザ ウィンドウのサイズを変更するときの画面のスケーリングを決定します。利用可能なオプション: アダプティブ、最高画質、オリジナル ピクセル。
+- **View**: ブラウザウィンドウのサイズ変更時に、画面をどのようにスケーリングするかを指定します。Adaptive、Best Picture Quality、Original Pixel から選択できます。この機能はファームウェア v1.8.0 で導入されました。
 
-### リモートデバイスの設定
+- **Screen Privacy**: プライバシー画面を有効にすると、HDMI-OUT 接続の外部ディスプレイにコンテンツが表示されなくなり、リモート操作のプライバシーを保護できます。
 
-被制御デバイスの関連設定を調整できます。
+### オーディオとカメラ {#audio--camera}
 
-![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings-remote-device.png){class="glboxshadow"}
+被制御デバイスのオーディオとカメラの設定を調整できます。
 
-- **Speaker**: 被制御デバイスからのオーディオ出力を制御します (システム サウンド、ビデオ オーディオなど)。
+![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/session_audio_camera.png){class="glboxshadow"}
 
-- **Microphone**: ローカル オーディオ (ユーザーの声など) を制御側デバイスからリモート エンドに送信します。ワンクリックのミュート、およびマイクをアクティブにするための長押しショートカット (つまり、Press To Speak) をサポートしています。
+- **Speaker**: 被制御デバイスからの音声出力（システム音や動画の音声など）を制御します。
 
-    ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/mic-settings.png){class="glboxshadow"}
+- **Microphone**: 制御側デバイスのローカル音声（ユーザーの声など）をリモート側に送信します。ワンクリックのミュートと、長押しショートカットでマイクを有効にする Press To Speak に対応しています。
 
-    ![press to speak](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/press-to-speak.png){class="glboxshadow"}
+    **Note**: 使用前に [Settings](#usb-devices) でショートカットを手動で設定する必要があります。
 
-- **Keyboard**: 被制御デバイスのキーボードをオンまたはオフにします。
+- **Camera**: 制御側デバイスでカメラを有効にすると、ローカルの映像フレームがパススルーでリモートホストに送信され、仮想 USB カメラとしてエミュレートされます。リモートホスト上のアプリケーション（会議ツールや FaceTime など）はこの映像を使用でき、物理カメラをリモートホストに直接接続した場合と同様に利用できます。
 
-- **Bad Link Mode**: つまり、すぐにキーを放します。各キーの押下は 1 回の素早い押して放す動作として送信され、リモート制御中のキーの固着や意図しない繰り返し入力を防ぎます。
+    **Note**: この機能はファームウェア v1.10.0 で導入され、WebRTC (FEC) モードでのみ使用できます。現在は Web ブラウザーからのみ利用でき、アプリやデスクトップクライアントには対応していません。
+
+### キーボード {#keyboard}
+
+被制御デバイスで使用するキーボードの設定を行えます。
+
+![keyboard image](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/session_keyboard.png){class="glboxshadow"}
+
+- **Bad Link Mode**: キーを直ちに放すモードです。キー操作ごとに 1 回の短い押下と解放として送信し、リモート制御中のキーの固着や意図しない連続入力を防ぎます。
 
 - **Show Virtual Keyboard**: コンソールに仮想キーボードを表示して使用します。
 
-    ![virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/virtual-keyboard.png){class="glboxshadow"}
+    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/session_virtual_keyboard.png){class="glboxshadow"}
 
-- **Swap Command and Ctrl for MacOS**: この機能は、Cmd キーと Ctrl キーを交換して、さまざまなオペレーティング システム間でキーボードの互換性を確保します。
+- **Swap Command and Ctrl for MacOS**: Cmd キーと Ctrl キーを入れ替え、異なるオペレーティングシステム間でキーボードの互換性を確保します。
 
-- **Mouse**: 被制御デバイスのマウスをオンまたはオフにします。
+### マウス {#mouse}
 
-- **Show Local Cursor**: 現在のデバイスのマウスを画面上に表示します。
+被制御デバイスをより快適に操作できるよう、マウス設定を調整できます。
 
-- **Mouse Jiggle**: マウス ジグル機能は、微妙な周期的なマウスの動きをシミュレートし、リモート会議やサーバー管理中など、長時間非アクティブな状態が原因で被制御デバイスがスリープ状態になるのを防ぎます。
+![mouse image](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/session_mouse.png){class="glboxshadow"}
 
-- **Scroll Rate**: マウス ホイールのスクロール速度、またはホイール 1 回転ごとにスクロールされる行/単位数を指し、リモコン上でコンテンツが移動する速度に影響します。
+- **Show Local Cursor**: 制御側デバイスのマウスカーソルを画面に表示します。
 
-- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。
+- **Mouse Jiggle**: 微小なマウス操作を定期的にシミュレートし、リモート会議やサーバー管理などで長時間操作しない場合に、被制御デバイスがスリープ状態に入るのを防ぎます。
 
-    標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。
+- **Scroll Rate**: マウスホイールのスクロール速度または 1 回転あたりのスクロール量を設定し、リモート画面のコンテンツが移動する速さを調整します。
 
-- **Mouse Mode**: 絶対モードと相対モードを切り替えて、さまざまなリモート コントロール シナリオでスムーズかつ正確なカーソル制御を保証します。
+- **Scroll Direction**: マウスホイールを上下にスクロールしたとき、リモート画面のコンテンツを同じ方向（ナチュラルスクロール）または逆方向（従来のスクロール）に移動させるかを設定します。
 
-    !!! note "絶対モードと相対モードの違いは何ですか?"
+    Standard、Vertical Invert、Horizontal Invert、Both Invert の 4 つのモードがあります。
 
-        - **Relative Mode**: マウスの位置は、固定された画面座標ではなく動きに基づいて計算されます。マウスを制御するには、リモート ウィンドウ内をクリックする必要があります。カーソルがリモート画面内でロックされ、スムーズに移動できません。このモードでは、BIOS、古いシステム、組み込みデバイスとの互換性が向上します。
+- **Mouse Mode**: 絶対マウスと相対マウスを切り替え、リモート制御の用途に応じて滑らかで正確なカーソル操作を実現します。
 
-        - **Absolute Mode**: マウスの位置は正確な画面座標に対応します。リモート カーソルはローカル カーソルをスムーズかつ正確に追従するため、ローカル画面とリモート画面の間でシームレスに移動できます。ネットワーク伝送により若干の遅延が発生する場合がありますが、日常のデスクトップ制御や正確な操作に最適です。
+    !!! note "絶対マウスと相対マウスの違い"
 
-        要するに、毎日の制御をスムーズに行うには、Absolute を使用します。 BIOS アクセス、絶対位置をサポートしていない一部の古いデバイス、または誤ったカーソルの移動を避けるために相対を使用します。
+        - **Relative Mode**: マウスの位置を固定画面座標ではなく移動量に基づいて計算します。マウスを操作するにはリモートウィンドウ内をクリックする必要があります。カーソルはリモート画面内にロックされ、画面外へ滑らかに移動できません。BIOS、古いシステム、組み込みデバイスとの互換性に優れています。
 
-- **Relative Sensitivity**: マウス モードが相対の場合に使用できます。
+        - **Absolute Mode**: マウスの位置が正確な画面座標に対応します。リモートカーソルはローカルカーソルに滑らかで正確に追従し、ローカル画面とリモート画面の間をシームレスに移動できます。ネットワーク転送によりわずかな遅延が生じることはありますが、通常のデスクトップ操作や精密操作に適しています。
 
-### システム
+        通常の操作を滑らかに行う場合は Absolute、BIOS へのアクセス、絶対座標に対応していない古いデバイス、または意図しないカーソル移動を避ける場合は Relative を使用してください。
 
-コンソールのシステム表示設定をカスタマイズしたり、ワンクリックでデバイスをリセットしたりできます。
+- **Relative Sensitivity**: Mouse Mode が Relative の場合に使用できます。
 
-![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings-system.png){class="glboxshadow"}
-
-- **Device Identity**: 被制御デバイスによって認識される KVM の ID をカスタマイズまたは変更します。 EDID とデバイス ID は同期されたままであることに注意してください。どちらかを変更すると、もう一方も自動的に更新され、デバイスが正しく認識されるようになります。
-
-    ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/device-identity.png){class="glboxshadow"}
-
-- **Language**: コンソールの言語を中国語または英語に設定します。
-
-- **Color Mode**: テーマの色をライト モードまたはダーク モードにカスタマイズします。
-
-- **Time Zone**: KVM コンソールのタイムゾーンをカスタマイズします。
-
-- **Reset KVM**: ワンクリックで KVM を出荷時設定にリセットします。
-
-### ネットワーク
-
-Comet X のホスト名や IP アドレスなどのネットワークの詳細を確認および変更できます。
-
-![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings-network.png){class="glboxshadow"}
-
-- **Hostname**: デバイスのホスト名はコンソールで直接変更できます。
-
-    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/hostname.png){class="glboxshadow"}
-
-- **Ethernet**: Comet X がイーサネット ケーブル経由でネットワーク デバイスに接続すると、ここに IP アドレスが表示されます。 IP アドレスまたは右矢印をクリックして、イーサネットの詳細を表示します。
-
-    プロトコルが DHCP の場合、ページは次のように表示されます。
-
-    ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/eth-dhcp.png){class="glboxshadow"}
-
-    静的 IP アドレスを設定する場合は、プロトコルを **Static** に切り替え、必要なネットワーク パラメーター (IP アドレス、ネットマスク、ゲートウェイなど) をそれに応じて入力します。
-
-    ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/eth-static.png){class="glboxshadow"}
+- **Primary Button**: 主ボタンとして左ボタンまたは右ボタンを選択します。この機能はファームウェア v1.9.0 で導入されました。
 
 ## ツールボックス
 
-コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 4 つのセクションが含まれています。
+コンソールで **Toolbox** に移動します。ツールボックスページには、次の 5 つのセクションがあります。
 
 - [クリップボード](#clipboard)
+- [OCR](#ocr)
 - [ショートカット](#shortcut)
 - [ウェイク オン ラン](#wake-on-lan)
 - [端末](#terminal)
 
-### クリップボード
+### クリップボード {#clipboard}
 
 クリップボードを使用すると、ファイルを転送することなく、制御側デバイスから被制御デバイスにテキストを簡単に貼り付けることができます。
 
-![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-clipboard.png){class="glboxshadow"}
+![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_clipboard.png){class="glboxshadow"}
 
-### ショートカット
+### OCR {#ocr}
+
+OCR はテキスト認識機能です。リモート画面で範囲を選択し、その中のテキストを簡単に抽出できます。この機能はファームウェア v1.9.0 で導入されました。
+
+使用するには、下向き矢印をクリックし、中国語、英語、バイリンガル（Zh/En）などの認識言語を選択します。
+
+![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_ocr_language.png){class="glboxshadow"}
+
+次に **Capture** をクリックすると、リモート画面が暗くなります。抽出するテキストを囲むように範囲を指定すると、システムが自動的に認識します。認識したテキストは必要に応じてコピーできます。
+
+![copy text](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_ocr_copy_text.png){class="glboxshadow"}
+
+この機能を使うと、リモート画面（被制御デバイス）からテキストを取得し、ローカルの制御側デバイスにコピーできます。
+
+### ショートカット {#shortcut}
 
 ショートカットを使用すると、仮想キーボードを使用せずにアクションをより速く実行できるため、より効率的に作業し、日常業務の時間を節約できます。ここでいくつかの一般的なショートカットを見つけることができます。
 
-![toolbox-shortcut1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-shortcut1.png){class="glboxshadow"}
+![toolbox-shortcut1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_shortcut_1.png){class="glboxshadow"}
 
 **Modify** をクリックして、必要に応じてショートカット オプションを調整します。
 
-![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-shortcut2.png){class="glboxshadow"}
+![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_shortcut_2.png){class="glboxshadow"}
 
-### ウェイク オン ラン
+### ウェイク オン ラン {#wake-on-lan}
 
 Wake-on-LAN (WOL) は、被制御デバイスの電源をリモートでオンにしたり、低電力状態から復帰したりできるようにするテクノロジーです。
 
 **Add Device** をクリックし、同じ LAN からデバイスを選択します。
 
-![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-wol.png){class="glboxshadow"}
+![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_wol.png){class="glboxshadow"}
 
-![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/wol-add-device.png){class="glboxshadow"}
+![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_wol_add_devices.png){class="glboxshadow" width=500}
 
 追加したいデバイスがリストにない場合は、**Add Manually** をクリックしてデバイス名と MAC アドレスを入力します。
 
-![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/wol-add-manually.png){class="glboxshadow"}
+![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox_add_manually.png){class="glboxshadow" width=500}
 
-### ターミナル
+### ターミナル {#terminal}
 
-Comet Xの端末にアクセスして、詳細な設定を行うことができます。 「**Access**」をクリックします。
+Comet Pro のターミナルにアクセスして高度な設定を行えます。**Access** をクリックします。
 
-![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal1.png){class="glboxshadow"}
+![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal_1.png){class="glboxshadow"}
 
 GLKVM ターミナルにリダイレクトされます。
 
-![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal2.png){class="glboxshadow"}
+![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal_2.png){class="glboxshadow"}
 
 ## アクセサリー
 
@@ -194,7 +193,7 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 
 本体の設定に従って動作します。
 
-![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-fgb.png){class="glboxshadow"}
+![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories_fingerbot.png){class="glboxshadow"}
 
 - **Time**: フィンガーボットの押し続ける時間。 0.5秒/3秒/8秒に設定できます。
 
@@ -226,9 +225,9 @@ ATX ボードはコンピューターのケースに取り付けられており�
 - [画像取付](#image-mounting)
 - [ディスクのフォーマット](#format-disk)
 
-![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/virtual-media.png){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/virtual_media.png){class="glboxshadow"}
 
-### ファイル共有
+### ファイル共有 {#file-sharing}
 
 Comet X は、読み取り/書き込み USB ドライブをエミュレートできるため、制御側デバイスと制御側デバイスの間でファイルを共有および管理できます。
 
@@ -238,30 +237,29 @@ Comet X は、読み取り/書き込み USB ドライブをエミュレートで
 
     アップロードされると、以下のようにファイルが表示されます。
 
-    ![file sharing1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file-sharing1.png){class="glboxshadow"}
+    ![file sharing1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file_sharing_1.png){class="glboxshadow"}
 
 2. 「**Mount To Remote**」→「**File Sharing**」をクリックします。
 
-    ![file sharing2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file-sharing2.png){class="glboxshadow"}
-以下に示すように、
+    ![file sharing2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file_sharing_2.png){class="glboxshadow"}
 
 3. A ウィンドウがコンソールにポップアップ表示され、ファイル共有の手順が示されます。
 
-    ![file sharing3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file-sharing3.png){class="glboxshadow"}
+    ![file sharing3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file_sharing_3.png){class="glboxshadow"}
 
 4. 少し待つと、**"GLKVM"** という名前のドライブが画面に自動的に表示されます。以前に制御側デバイスから Comet X にアップロードしたファイルが、制御側デバイスに共有されていることがわかります。これで、被制御デバイス上のこのドライブ内のファイルを表示、移動、または削除できるようになります。
 
-    ![file sharing4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file-sharing4.png){class="glboxshadow"}
+    ![file sharing4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file_sharing_4.png){class="glboxshadow"}
 
     **Tips**: ドライブが自動的にポップアップしない場合は、被制御デバイスの **This PC** に移動します。
 
-    ![this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/thispc.png){class="glboxshadow"}
+    ![this pc](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/this_pc.png){class="glboxshadow"}
 
     次に、**GLKVM** という名前のドライブを見つけます。これで、このドライブ内のファイルを表示、移動、または削除できるようになります。
 
 5. 共有を停止する場合は、ツールバーの **Virtual Media** をクリックし、**Stop Sharing** をクリックします。
 
-    ![stop sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/stop-sharing1.png){class="glboxshadow"}
+    ![stop sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/stop_sharing_1.png){class="glboxshadow"}
 
 **被制御デバイスから制御側デバイスにファイルを共有するには、以下の手順に従ってください。**
 
@@ -269,17 +267,17 @@ Comet X は、読み取り/書き込み USB ドライブをエミュレートで
 
     たとえば、「gl-rm10_datasheet」という名前のイメージが、被制御デバイスのデスクトップからドライブ **GLKVM** に移動されました。
 
-    ![file sharing5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file-sharing5.png){class="glboxshadow"}
+    ![file sharing5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file_sharing_5.png){class="glboxshadow"}
 
 2. Comet X のコンソールに移動し、ツールバーの **Virtual Media** をクリックして、**Stop Sharing** をクリックします。
 
-    ![stop sharing2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/stop-sharing2.png){class="glboxshadow"}
+    ![stop sharing2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/stop_sharing_2.png){class="glboxshadow"}
 
 3. このファイルは、次に示すように、**Virtual Media** の下に表示されます。これで、このファイルを Comet X から制御側デバイスにダウンロードできるようになります。
 
-    ![file sharing6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file-sharing6.png){class="glboxshadow"}
+    ![file sharing6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/file_sharing_6.png){class="glboxshadow"}
 
-### イメージのマウント
+### イメージのマウント {#image-mounting}
 
 Comet X は、被制御デバイス上の読み取り専用の仮想 CD/DVD またはディスク ドライブをシミュレートできます。 BIOS または UEFI 起動プロセス中にこのドライブにアクセスできます。
 
@@ -303,11 +301,11 @@ Comet X は、被制御デバイス上の読み取り専用の仮想 CD/DVD ま�
 
     ![image mount4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/image-mount4.png){class="glboxshadow"}
 
-### ディスクをフォーマットします
+### ディスクのフォーマット {#format-disk}
 
 ワンクリックでディスクをフォーマットしたり、仮想メディアを無効にしたりできます。
 
-![format disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/format-disable.png){class="glboxshadow"}
+![format disk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/format_disk.png){class="glboxshadow"}
 
 - **Format**: ディスク上のすべてのデータを消去し、ファイル システム構造を再初期化します。
 
@@ -317,7 +315,7 @@ Comet X は、被制御デバイス上の読み取り専用の仮想 CD/DVD ま�
 
 コンソールで、**Apps Center**に移動します。統合されたアプリケーションはここにあります。
 
-![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/apps-center.png){class="glboxshadow"}
+![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/app_center.png){class="glboxshadow"}
 
 ### Tailscale
 
@@ -343,6 +341,16 @@ Comet X と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
+### NetBird
+
+[NetBird](https://netbird.io/){target="_blank"} は、家庭や企業向けの安全なプライベートネットワークを構築できる、オープンソースのゼロトラストネットワーキングプラットフォームです。WireGuard® ベースのオーバーレイネットワークにより、いつでもどこからでもデバイスに安全にアクセスできます。
+
+Comet X は NetBird と統合されており、NetBird 仮想ネットワーク経由でリモートアクセスできます。詳細は[こちら](../../faq/remote_access_via_netbird.md){target="_blank"}をご覧ください。
+
+バインド後、コンソールに NetBird 仮想 IP が表示されます。
+
+![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/apps-netbird-enabled.png){class="glboxshadow"}
+
 ## ヘルプ
 
 コンソールで、**Help**に移動します。ここでは、GL.iNet KVM に関する詳細情報とヘルプ ドキュメント、およびトラブルシューティング用のログをエクスポートできます。
@@ -351,18 +359,17 @@ Comet X と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ## ツールバー
 
-コンソールで、右上隅に移動して次のツールにアクセスします。
+コンソールの右上には、次のツールがあります。
 
 - [スイッチ信号](#switch-signal)
 - [ツールバーを折りたたむ](#collapse)
 - [フルスクリーン](#fullscreen)
 - [アップグレード](#upgrade)
+- [接続統計](#connection-stats)
 - [クラウドサービス](#cloud-service)
-- [セキュリティ](#security)
-- 再起動
-- ログアウト
+- [ログアウト](#logout)
 
-### スイッチ信号
+### スイッチ信号 {#switch-signal}
 
 Comet X は、ローカルまたはリモート制御のために最大 4 台のサーバーに接続できます。接続されている他のすべてのサーバーはスタンバイ モードのままですが、一度に制御できるサーバーは 1 台だけです。
 
@@ -376,64 +383,179 @@ Comet X は、ローカルまたはリモート制御のために最大 4 台の
 
 3. (オプション) 必要に応じてポート名をカスタマイズします。
 
-    ![port edit 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/port-edit1.png){class="glboxshadow"}
+    ![port edit 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/port_edit1.png){class="glboxshadow"}
 
-    ![port edit 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/port-edit2.png){class="glboxshadow"}
+    ![port edit 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/port_edit2.png){class="glboxshadow" width=500}
 
-### 折りたたむ
+### 折りたたむ {#collapse}
 
 右上隅の上向き矢印アイコンをクリックして、ツールバーを折りたたみます。
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/collapse1.png){class="glboxshadow"}
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_collapse_1.png){class="glboxshadow"}
 
 ツールバーが折りたたまれている場合、上部の下向き矢印アイコンをクリックして展開します。
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/collapse2.png){class="glboxshadow"}
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_collapse_2.png){class="glboxshadow"}
 
-### フルスクリーン
+### フルスクリーン {#fullscreen}
 
 右上隅にある全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/fullscreen1.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_fullscreen_1.png){class="glboxshadow"}
 
 全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/fullscreen2.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 
-### アップグレード
+### アップグレード {#upgrade}
 
 右上隅にあるファームウェアのバージョンをクリックして、アップデートを確認します。
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/upgrade1.png){class="glboxshadow"}
+![firmware upgrade 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_upgrade_1.png){class="glboxshadow"}
 
-新しいファームウェアが利用可能な場合は、ポップアップ ウィンドウでオンライン アップグレードを実行できます。または、[ファームウェア ダウンロード センター](https://dl.gl-inet.com/kvm){target="_blank"} から最新のファームウェアをダウンロードし、必要に応じてローカル アップグレードを実行します。
+ポップアップウィンドウで **Local Upgrade** をクリックし、ファームウェアファイルをアップロードできます。
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/upgrade2.png){class="glboxshadow"}
+![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_upgrade_2.png){class="glboxshadow"}
 
-### クラウド サービス
+![firmware upgrade 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_upgrade_3.png){class="glboxshadow" width=350}
+
+ローカルアップグレードを実行する前に、[ファームウェアダウンロードセンター](https://dl.gl-inet.com/kvm){target="_blank"} から最新のファームウェアをダウンロードしてください。
+
+### 接続統計 {#connection-stats}
+
+Connection Stats には、遅延、ジッター、その他のリアルタイムメトリクスを監視する Data Dashboard があります。
+
+List アイコンをクリックすると、デバイスの状態とリアルタイムデータが表示されます。
+
+![data dashboard 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/data_dashboard_1.png){class="glboxshadow"}
+
+チャートアイコンをクリックすると、ネットワーク遅延、ネットワークジッター、パケットロス率、リアルタイムフレームレート、再生遅延などの統計データを確認できます。
+
+![data dashboard 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/data_dashboard_2.png){class="glboxshadow"}
+
+### クラウドサービス {#cloud-service}
 
 GL.iNet KVM クラウドを使用すると、制御対象のデバイスにリモートからアクセスできます。詳細は[こちら](../../faq/remote_access_via_cloud.md){target="_blank"}をご参照ください。
 
-Comet X がクラウドにバインドされると、コンソールには次のようにクラウドのステータスが表示されます。
+Comet Pro をクラウドにバインドすると、コンソールにクラウドのステータスが次のように表示されます。
 
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/cloud.png){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_cloud_service.png){class="glboxshadow"}
 
-### セキュリティ
+### ログアウト {#logout}
+
+ログアウトするには、Logout アイコンをクリックします。
+
+![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_layout.png){class="glboxshadow"}
+
+## 設定
+
+コンソールでナビゲーションバーの Settings アイコンをクリックすると、次の Settings ページが開きます。この機能はファームウェア v1.10.0 で導入されました。
+
+- [USB デバイス](#usb-devices)
+- [環境設定](#preferences)
+- [ネットワーク](#network)
+- [セキュリティ](#security)
+- [クラウド](#cloud)
+- [システム](#system)
+
+![Settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings.png){class="glboxshadow"}
+
+### USB デバイス {#usb-devices}
+
+USB Devices ページでは、すべての USB エミュレーションデバイスを一元管理できます。このページから仮想周辺機器のオンとオフを切り替え、被制御ホストとの互換性を高めることができます。
+
+![USB Emulated Devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_usb_devices.png){class="glboxshadow"}
+
+- **Microphone**
+
+    マイクがミュートのときに Settings をクリックすると、利用方法に合わせてショートカットをカスタマイズできます。割り当てたショートカットキーを押し続けると音声の送信が開始され、放すと再びミュートになります。
+
+    ![mic settings 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_1.png){class="glboxshadow" width=600}
+
+    ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_2.png){class="glboxshadow" width=434}
+
+  - **Device Identity**
+
+    被制御デバイスによって認識される KVM のデバイス ID をカスタマイズまたは変更できます。EDID とデバイス ID は同期されます。いずれかを変更するともう一方も自動的に更新され、デバイスが正しく認識されるようになります。
+
+    ![Device Identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_device_identity.png){class="glboxshadow" width=350}
+
+### 環境設定 {#preferences}
+
+Preferences では、Layout Preferences、System Settings、Device Screen を管理できます。
+
+![Preferences](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_preferences.png){class="glboxshadow"}
+
+- **Layout Preferences**: 全画面モードでのツールバー表示と、ウィンドウモードでのステータスバー表示を必要に応じて設定できます。
+
+- **System Settings**: ブラウザーの Tab Title、Language（Chinese、English、Japanese）、Color Mode（Light または Dark）、地域に合わせた Timezone を選択できます。
+
+- **Device Screen**: デバイス画面を管理およびプレビューできます。Lock Screen モード（World Clock、Clock Only、Wallpaper Only）、Time Format、Date Format、Wallpaper を設定できます。
+
+### ネットワーク {#network}
+
+Comet Pro のホスト名や IP アドレスなどのネットワーク情報を確認、変更できます。
+
+![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network.png){class="glboxshadow"}
+
+- **Hostname**: デバイスのホスト名をコンソール上で直接変更できます。この機能はファームウェア v1.7.0 で導入されました。
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network_hostname.png){class="glboxshadow" width=600}
+
+- **Ethernet Settings**: Comet Pro が Ethernet ケーブルで上流のネットワークデバイスに接続されると、ここに Ethernet の情報が表示されます。
+
+    プロトコルが DHCP の場合、ページは次のように表示されます。
+
+    ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network_dhcp.png){class="glboxshadow" width=600}
+
+    静的 IP アドレスを設定するには、プロトコルを **Static** に切り替え、必要なネットワークパラメーター（IP アドレス、ネットマスク、ゲートウェイなど）を入力します。
+
+    ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network_static.png){class="glboxshadow" width=600}
+
+### セキュリティ {#security}
 
 セキュリティにより、管理者パスワードの変更、2 要素認証の有効化、TLS 証明書のカスタマイズが可能になります。
 
-![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/security.png){class="glboxshadow"}
+![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/setting_security.png){class="glboxshadow"}
 
 - Change Admin Password
 
-    ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/admin-password.png){class="glboxshadow" width="434"}
+    ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_change_password.png){class="glboxshadow" width="434"}
 
 - 2FA: アカウントを保護するために 2 要素認証を有効にします。
 
-    ![2FA](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/2fa.png){class="glboxshadow"}
+    ![2FA](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_security_2fa.png){class="glboxshadow"}
 
 - TLS Certificate
 
-    システムは、ブラウザー アクセスにプリインストールされたデフォルトの証明書を使用します。 Web ブラウザー アクセス用の TLS 証明書をカスタマイズする場合は、コンソールの右上隅にある **TLS Certificate** をクリックし、**Custom Certificate** を選択して、**証明書ファイルと秘密キー ファイル**をアップロードします。
+    システムは、ブラウザーアクセスにプリインストール済みのデフォルト証明書を使用します。Web ブラウザーアクセス用の TLS 証明書をカスタマイズする場合は、TLS Certificate の **Custom** をクリックし、**証明書ファイルと秘密鍵ファイル**をアップロードします。
 
-    ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/tls-certificate.png){class="glboxshadow"}
+    ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_tls_certificate.png){class="glboxshadow" width=600}
+
+### クラウド {#cloud}
+
+Cloud では、クラウドサービスを通じてデバイスにリモートアクセスし、管理できます。
+
+URL 経由でデバイスをクラウドにバインドできます。**More Settings** には Bind With Code、App Download、Disable などのオプションがあります。
+
+![Cloud 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_cloud_1.png){class="glboxshadow"}
+
+バインドが完了すると、バインド済みのクラウドアカウント情報を確認できます。**Access Cloud** をクリックして Devices を管理するか、**More Settings** をクリックして必要に応じて無効化またはバインド解除できます。
+
+![Cloud 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_cloud_2.png){class="glboxshadow"}
+
+同じ管理操作は、上部ツールバーの Cloud Service からも実行できます。
+
+### システム {#system}
+
+System 設定では、次の設定を行えます。
+
+![system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/setting_system.png){class="glboxshadow"}
+
+- **System**: **Reboot** をクリックするとデバイスが再起動します。**Reset** をクリックすると現在のデバイス設定が消去され、再セットアップできます。
+
+- **Upgrade**: Beta Center を有効にしてベータ版ファームウェアの更新を受け取るか、Local Upgrade を使用してローカルファイルから手動でインストールできます。
+
+    ![local Upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/setthing_system_local_update.png){class="glboxshadow" width=400}
+
+- **Help & Support**: Export Log Files では、トラブルシューティングやアフターサービスに使用するデバイスの実行ログを保存できます。Help Document からは、ユーザーガイド、FAQ、トラブルシューティングドキュメントにアクセスできます。
