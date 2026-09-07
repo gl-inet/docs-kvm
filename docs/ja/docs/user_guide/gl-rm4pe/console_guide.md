@@ -167,7 +167,7 @@ Wake-on-LAN (WOL) は、被制御デバイスの電源をリモートでオン�
 
 ### ターミナル {#terminal}
 
-Comet Pro のターミナルにアクセスして高度な設定を行えます。**Access** をクリックします。
+Comet X のターミナルにアクセスして高度な設定を行えます。**Access** をクリックします。
 
 ![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal_1.png){class="glboxshadow"}
 
@@ -437,7 +437,7 @@ List アイコンをクリックすると、デバイスの状態とリアルタ
 
 GL.iNet KVM クラウドを使用すると、制御対象のデバイスにリモートからアクセスできます。詳細は[こちら](../../faq/remote_access_via_cloud.md){target="_blank"}をご参照ください。
 
-Comet Pro をクラウドにバインドすると、コンソールにクラウドのステータスが次のように表示されます。
+Comet X をクラウドにバインドすると、コンソールにクラウドのステータスが次のように表示されます。
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_cloud_service.png){class="glboxshadow"}
 
@@ -494,7 +494,7 @@ Preferences では、Layout Preferences、System Settings、Device Screen を管
 
 ### ネットワーク {#network}
 
-Comet Pro のホスト名や IP アドレスなどのネットワーク情報を確認、変更できます。
+Comet X のホスト名や IP アドレスなどのネットワーク情報を確認、変更できます。
 
 ![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network.png){class="glboxshadow"}
 
@@ -502,7 +502,7 @@ Comet Pro のホスト名や IP アドレスなどのネットワーク情報を
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network_hostname.png){class="glboxshadow" width=600}
 
-- **Ethernet Settings**: Comet Pro が Ethernet ケーブルで上流のネットワークデバイスに接続されると、ここに Ethernet の情報が表示されます。
+- **Ethernet Settings**: Comet X が Ethernet ケーブルで上流のネットワークデバイスに接続されると、ここに Ethernet の情報が表示されます。
 
     プロトコルが DHCP の場合、ページは次のように表示されます。
 

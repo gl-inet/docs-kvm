@@ -167,7 +167,7 @@ Wenn das Gerät, das Sie hinzufügen möchten, nicht in der Liste enthalten ist,
 
 ### Terminal
 
-Sie können auf das Terminal des Comet Pro zugreifen, um erweiterte Einstellungen vorzunehmen. Klicken Sie auf **Access**.
+Sie können auf das Terminal des Comet X zugreifen, um erweiterte Einstellungen vorzunehmen. Klicken Sie auf **Access**.
 
 ![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal_1.png){class="glboxshadow"}
 
@@ -437,7 +437,7 @@ Klicken Sie auf das Diagrammsymbol, um statistische Daten wie Netzwerklatenz, Ne
 
 GL.iNet KVM Cloud ermöglicht Ihnen den Fernzugriff auf das gesteuerte Gerät. Details finden Sie [hier](../../faq/remote_access_via_cloud.md){target="_blank"}.
 
-Sobald Ihr Comet Pro an die Cloud gebunden ist, zeigt die Konsole den Cloud-Status wie folgt an.
+Sobald Ihr Comet X an die Cloud gebunden ist, zeigt die Konsole den Cloud-Status wie folgt an.
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_cloud_service.png){class="glboxshadow"}
 
@@ -494,7 +494,7 @@ Unter Preferences verwalten Sie Layout Preferences, System Settings und Device S
 
 ### Network
 
-Hier können Sie die Netzwerkdetails des Comet Pro prüfen und ändern, z. B. Hostname und IP-Adresse.
+Hier können Sie die Netzwerkdetails des Comet X prüfen und ändern, z. B. Hostname und IP-Adresse.
 
 ![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network.png){class="glboxshadow"}
 
@@ -502,7 +502,7 @@ Hier können Sie die Netzwerkdetails des Comet Pro prüfen und ändern, z. B. Ho
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_network_hostname.png){class="glboxshadow" width=600}
 
-- **Ethernet Settings**: Wenn Comet Pro über ein Ethernet-Kabel mit einem Upstream-Netzwerkgerät verbunden ist, werden hier die Ethernet-Details angezeigt.
+- **Ethernet Settings**: Wenn Comet X über ein Ethernet-Kabel mit einem Upstream-Netzwerkgerät verbunden ist, werden hier die Ethernet-Details angezeigt.
 
     Wenn das Protokoll DHCP ist, wird die Seite wie folgt angezeigt.
 

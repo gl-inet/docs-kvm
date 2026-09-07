@@ -572,15 +572,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_capture_text_from_remote_screen.md": {
-    "source_hash": "402f739816ca70e6e895d3d6a9c07edd93aaf50feab5b4d7fc5fa3d702a5310f",
+    "source_hash": "8050fe516cb0d030fb8a016fce0cf70e17d5d73c6b9a216a2d80c04aca1e1a08",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1788750207
+        "updated_at": 1788753338
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1788750207
+        "updated_at": 1788753338
       }
     }
   },
@@ -767,15 +767,15 @@
     }
   },
   "docs/en/docs/tutorials/how_to_unbrick_kvm_via_usb_otg.md": {
-    "source_hash": "f5526356992b24fa0191a712ccf85686edfb2cbaac2894ea375c458beb3d3b0b",
+    "source_hash": "006dd80912ba649a9d266dd74c9294f9a41837d2341083871d1401dd9642170f",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1788750207
+        "updated_at": 1788753338
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1788750207
+        "updated_at": 1788753338
       }
     }
   },
@@ -1069,15 +1069,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
-    "source_hash": "17c90619d91e56eaf23f2642ecc09fd7608a3aeda9b06b2d3aac685d33679cf1",
+    "source_hash": "d7fa2c863d9a788461b7ca69e895de83b86af8e2ade25c90a5be1d303ae490f9",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1788750207
+        "updated_at": 1788753338
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1788750207
+        "updated_at": 1788753338
       }
     }
   },
