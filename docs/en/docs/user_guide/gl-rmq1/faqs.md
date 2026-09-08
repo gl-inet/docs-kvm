@@ -47,6 +47,12 @@
     ![Portrait Lock](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/faqs/portrait_lock.png){class="glboxshadow" width="360"}  
     <small>(Portrait Orientation Lock on iPhone)</small>
 
+5. **Q: Why does the keyboard not work properly on iOS devices, with some keys not working or the mouse pointer drifting?**
+
+    A: This issue is usually caused by the **Mouse Keys** feature being enabled on the iOS device. Mouse Keys allows users to move the mouse pointer using a keyboard or numeric keypad.
+
+    To resolve the issue, navigate to **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** and turn off Mouse Keys.
+
 ## Android
 
 1. **Q: Why can't I control the device in absolute mouse mode?**
