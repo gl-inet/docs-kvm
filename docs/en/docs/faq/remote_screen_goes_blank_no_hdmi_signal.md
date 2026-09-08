@@ -100,10 +100,12 @@ If you access the controlled device via a browser and encounter a blank screen i
 
     5. Press `Ctrl + X` to exit the nano editor.
 
-    6. Enter the command below to apply the configuration
+    6. Enter the command below to apply the configuration.
+
         ```
         update-grub
         ```
+        
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
