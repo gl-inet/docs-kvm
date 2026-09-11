@@ -6,11 +6,11 @@ The cloud-based screen wall is a premium feature that lets you view screens of m
 
 Follow the steps below to use the cloud-based screen wall.
 
-1. Bind your KVM device to your Cloud account, then log in to the Cloud. See [Bind your KVM to the Cloud](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud) for details.
+1. Bind your KVM device to the Cloud. See [Bind your KVM to the Cloud](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud) for details.
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 
-2. After login, you will see the bound devices in the device list. Make sure they are online.
+2. After binding, log in to [https://glkvm.com/](https://glkvm.com/){target="_blank"}. Your bound devices will appear in the device list. Ensure the devices are online.
 
     ![device list](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/device_list.png){class="glboxshadow"}
 
