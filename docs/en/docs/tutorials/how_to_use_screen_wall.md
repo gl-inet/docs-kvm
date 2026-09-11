@@ -1,12 +1,12 @@
 # How to use the cloud-based screen wall feature
 
-With the Screen Wall, you can view the screens of multiple devices on a single page and keep track of their statuses easily.
+The cloud-based screen wall is a premium feature that lets you view screens of multiple devices on a single page and easily keep track of their statuses.
 
-This tutorial will introduce how to use the cloud-based screen wall feature.
+**Note:** Please upgrade your KVM firmware to version 1.7 before using this feature. 
 
-**Note:** Please upgrade your KVM firmware to version 1.7 before using this feature.
+Follow the steps below to use the cloud-based screen wall.
 
-1. Bind your KVM device to your Cloud account, then log in to the Cloud. Click [here](http://127.0.0.1:8000/kvm/en/faq/remote_access_via_cloud/#1-bind-your-device-to-kvm-cloud) for detailed instructions.
+1. Bind your KVM device to your Cloud account, then log in to the Cloud. See [Bind your KVM to the Cloud](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud) for details.
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 
@@ -22,9 +22,7 @@ This tutorial will introduce how to use the cloud-based screen wall feature.
 
     ![select device](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/select_device.png){class="glboxshadow"}
 
-    If your device is running firmware lower than version 1.7, it will be grayed-out and unselectable. Please upgrade the firmware first before using this feature.
-
-    ![not supported firmware](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/not_supported.png){class="glboxshadow"}
+    **Note:** If your device is running firmware lower than version 1.7, it will be grayed-out and unselectable. Please upgrade the firmware first before using this feature.
 
 5. After saving the settings, it will start connecting to the selected device over the Cloud.
 
