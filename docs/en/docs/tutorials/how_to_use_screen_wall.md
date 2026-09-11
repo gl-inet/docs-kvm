@@ -1,12 +1,12 @@
 # How to use the cloud-based screen wall feature
 
-The cloud-based screen wall enables you to view screens from multiple devices on a single page and easily keep track of their statuses. This is a premium feature; you need a subscription on the cloud platform before using it.
+The cloud-based screen wall is a premium feature that lets you view screens of multiple devices on a single page and easily keep track of their statuses.
 
 **Note:** Please upgrade your KVM firmware to version 1.7 before using this feature. 
 
-Follow the steps below to use the cloud-based screen wall feature.
+Follow the steps below to use the cloud-based screen wall.
 
-1. Bind your KVM device to your Cloud account, then log in to the Cloud. Click [here](http://127.0.0.1:8000/kvm/en/faq/remote_access_via_cloud/#1-bind-your-device-to-kvm-cloud) for detailed instructions.
+1. Bind your KVM device to your Cloud account, then log in to the Cloud. See [Bind your KVM to the Cloud](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud) for details.
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 
