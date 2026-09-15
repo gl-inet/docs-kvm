@@ -3,6 +3,10 @@ site/
 docs/*/site/
 .codex/
 
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
 # All doc content images must be referenced via external CDN links, not committed as binaries.
 # Only site theme assets (logo, favicon, etc. under docs/images and docs/stylesheets) are allowed.
 *.png
