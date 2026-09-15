@@ -33,6 +33,7 @@ If your question is not listed below, please contact our technical support team 
 * [How to unbind KVM from the Cloud](unbind.md)
 * [How to disable Cloud service](disable_cloud.md)
 * [How to delete Cloud account](delete_cloud_account.md)
+* [How to share KVM devices with others](../tutorials/how_to_share_kvm_devices_with_others.md)
 
 ## Device Power Issues
   

@@ -177,6 +177,7 @@ nav:
           - Unbind KVM: faq/unbind.md
           - Disable Cloud service: faq/disable_cloud.md
           - Delete Cloud account: faq/delete_cloud_account.md
+          - Share KVM devices with others: tutorials/how_to_share_kvm_devices_with_others.md
       - Device Power Issues:
           - Device not turning on: faq/power_cable_connected_but_device_unpowered.md
           - Device is bricked: faq/debrick.md
@@ -213,7 +214,7 @@ nav:
       - Cloud Service:
           - How to bind KVM to cloud via dynamic code: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
           - How to use the cloud-based screen wall feature: tutorials/how_to_use_screen_wall.md
-          - How to use the cloud-based share device feature: tutorials/how_to_use_share_device.md
+          - How to share KVM devices with others: tutorials/how_to_share_kvm_devices_with_others.md 
       - Virtual Media:
           - How to share files via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
           - How to install OS remotely: tutorials/how_to_install_os_remotely.md
