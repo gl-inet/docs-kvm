@@ -30,6 +30,7 @@ If your question is not listed below, please contact our technical support team 
 ## Cloud Service
 
 * [How to bind KVM to the Cloud via dynamic code](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+* [How to share KVM devices with others](../tutorials/how_to_share_kvm_devices_with_others.md)
 * [How to unbind KVM from the Cloud](unbind.md)
 * [How to disable Cloud service](disable_cloud.md)
 * [How to delete Cloud account](delete_cloud_account.md)

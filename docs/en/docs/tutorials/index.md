@@ -23,6 +23,7 @@ Learn to use our devices correctly or troubleshoot with detailed steps.
 
 * [How to bind KVM to the cloud via dynamic code](how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [How to use the cloud-based screen wall feature](how_to_use_screen_wall.md)
+* [How to share KVM devices with others](how_to_share_kvm_devices_with_others.md)
 
 ## Virtual Media
 
