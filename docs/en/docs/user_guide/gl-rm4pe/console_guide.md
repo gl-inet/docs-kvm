@@ -48,8 +48,6 @@ You can customize video settings on the Session settings, such as display mode, 
     The default setting applies to most scenarios and generally does not need to be modified. See [here](../../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} for details. If the screen does not refresh after EDID adjustment, restart the controlled device.
 
 - **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
-  
-- **Screen Privacy**: When the privacy screen is enabled, the HDMI-OUT external display will no longer show content, ensuring the privacy of remote operations.
 
 ### Audio & Camera
 
