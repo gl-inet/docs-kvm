@@ -209,6 +209,8 @@ The ATX Board is installed in the computer case to remotely control the device's
 
 It works according to the settings on the console.
 
+![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
+
 - **Power (Short Press)**: Used for regular power-on or system wake-up.
 
 - **Power (Long Press)**: Performs a forced shutdown operation.
