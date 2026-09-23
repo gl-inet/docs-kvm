@@ -47,6 +47,12 @@
     ![Portrait Lock](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/faqs/portrait_lock.png){class="glboxshadow" width="360"}
     <small>(Portrait Orientation Lock auf dem iPhone)</small>
 
+5. **F: Warum funktioniert die Tastatur auf iOS-Geräten nicht richtig, sodass einige Tasten nicht reagieren oder sich der Mauszeiger unbeabsichtigt bewegt?**
+
+    A: Meist ist auf dem iOS-Gerät die Funktion **Mouse Keys** aktiviert. Damit lässt sich der Mauszeiger über die Tastatur oder den Ziffernblock bewegen.
+
+    Öffnen Sie **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** und deaktivieren Sie Mouse Keys.
+
 ## Android
 
 1. **F: Warum kann ich das Geraet nicht im absoluten Mausmodus steuern?**

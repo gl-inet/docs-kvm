@@ -49,8 +49,6 @@ Session Settings では、表示モード、画質、ビデオ転送方式、画
 
 - **View**: ブラウザウィンドウのサイズ変更時に、画面をどのようにスケーリングするかを指定します。Adaptive、Best Picture Quality、Original Pixel から選択できます。この機能はファームウェア v1.8.0 で導入されました。
 
-- **Screen Privacy**: プライバシー画面を有効にすると、HDMI-OUT 接続の外部ディスプレイにコンテンツが表示されなくなり、リモート操作のプライバシーを保護できます。
-
 ### オーディオとカメラ {#audio--camera}
 
 被制御デバイスのオーディオとカメラの設定を調整できます。
@@ -192,6 +190,8 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
 
 本体の設定に従って動作します。
+
+![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories_fingerbot.png){class="glboxshadow"}
 

@@ -30,6 +30,8 @@
 ## クラウド サービス
 
 * [動的コード経由で KVM をクラウドにバインドする方法](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+* [KVM Cloud のプランの選び方](which_kvm_cloud_service_plan_is_right_for_you.md)
+* [KVM デバイスをほかのユーザーと共有する方法](../tutorials/how_to_share_kvm_devices_with_others.md)
 * [KVM をクラウドからバインド解除する方法](unbind.md)
 * [クラウドサービスを無効にする方法](disable_cloud.md)
 * [クラウドアカウントの削除方法](delete_cloud_account.md)

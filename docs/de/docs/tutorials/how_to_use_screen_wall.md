@@ -1,16 +1,16 @@
 # Cloudbasierte Screen-Wall-Funktion verwenden
 
-Mit der Screen Wall koennen Sie die Bildschirme mehrerer Geraete auf einer einzigen Seite anzeigen und deren Status einfach ueberwachen.
-
-Dieses Tutorial zeigt, wie Sie die cloudbasierte Screen-Wall-Funktion verwenden.
+Die cloudbasierte Screen Wall ist eine Premiumfunktion. Damit koennen Sie die Bildschirme mehrerer Geraete auf einer einzigen Seite anzeigen und deren Status einfach ueberwachen.
 
 **Hinweis:** Aktualisieren Sie Ihre KVM-Firmware auf Version 1.7, bevor Sie diese Funktion verwenden.
 
-1. Binden Sie Ihr KVM-Geraet an Ihr Cloud-Konto und melden Sie sich anschliessend in der Cloud an. Detaillierte Anweisungen finden Sie [hier](../faq/remote_access_via_cloud.md#1-bind-your-device-to-kvm-cloud).
+Gehen Sie wie folgt vor, um die cloudbasierte Screen Wall zu verwenden.
+
+1. Binden Sie Ihr KVM-Geraet an die Cloud. Einzelheiten finden Sie unter [KVM an die Cloud binden](../faq/remote_access_via_cloud.md#kvm-an-die-cloud-binden).
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 
-2. Nach der Anmeldung sehen Sie die gebundenen Geraete in der Geraeteliste. Stellen Sie sicher, dass sie online sind.
+2. Melden Sie sich nach dem Binden unter [https://glkvm.com/](https://glkvm.com/){target="_blank"} an. Ihre gebundenen Geraete erscheinen in der Geraeteliste. Stellen Sie sicher, dass sie online sind.
 
     ![device list](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/device_list.png){class="glboxshadow"}
 
@@ -22,9 +22,7 @@ Dieses Tutorial zeigt, wie Sie die cloudbasierte Screen-Wall-Funktion verwenden.
 
     ![select device](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/select_device.png){class="glboxshadow"}
 
-    Wenn auf Ihrem Geraet eine Firmware-Version niedriger als 1.7 laeuft, wird es ausgegraut und kann nicht ausgewaehlt werden. Aktualisieren Sie zuerst die Firmware, bevor Sie diese Funktion verwenden.
-
-    ![not supported firmware](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/not_supported.png){class="glboxshadow"}
+    **Hinweis:** Wenn auf Ihrem Geraet eine Firmware-Version niedriger als 1.7 laeuft, wird es ausgegraut und kann nicht ausgewaehlt werden. Aktualisieren Sie zuerst die Firmware.
 
 5. Nach dem Speichern der Einstellungen wird die Verbindung zum ausgewaehlten Geraet ueber die Cloud gestartet.
 

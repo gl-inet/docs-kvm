@@ -87,7 +87,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
     2. 次の行を追加します。
 
         ```
-        GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset
+        GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset"
         ```
 
     3. `#` を削除して `GRUB_GFXMODE` 行のコメントを解除し、`1024x768` などの目的の解像度を設定します。

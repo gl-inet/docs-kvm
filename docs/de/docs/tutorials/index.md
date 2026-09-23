@@ -23,6 +23,7 @@ Erfahren Sie in detaillierten Schritten, wie Sie unsere Geraete korrekt verwende
 
 * [KVM per dynamischem Code mit der Cloud binden](how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [Cloudbasierte Screen-Wall-Funktion verwenden](how_to_use_screen_wall.md)
+* [KVM-Geräte mit anderen teilen](how_to_share_kvm_devices_with_others.md)
 
 ## Virtuelle Medien
 

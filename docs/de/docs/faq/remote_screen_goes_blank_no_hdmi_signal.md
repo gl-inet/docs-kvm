@@ -87,7 +87,7 @@ Wenn Sie über einen Browser auf das gesteuerte Gerät zugreifen und ein leerer 
     2. Fügen Sie die folgende Zeile hinzu.
 
         ```
-        GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset
+        GRUB_CMDLINE_LINUX_DEFAULT="quiet gfxpayload=text nomodeset"
         ```
 
     3. Kommentieren Sie die Zeile `GRUB_GFXMODE` aus, indem Sie das `#` entfernen, und legen Sie die gewünschte Auflösung fest, z. B. `1024x768`.

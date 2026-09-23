@@ -1,16 +1,16 @@
 # クラウドベースのスクリーン ウォール機能の使用方法
 
-Screen Wall を使用すると、複数のデバイスの画面を 1 つのページに表示し、それらのステータスを簡単に追跡できます。
-
-このチュートリアルでは、クラウドベースのスクリーン ウォール機能の使用方法を紹介します。
+クラウドベースのスクリーンウォールは、複数のデバイスの画面を 1 つのページに表示し、状態を確認できるプレミアム機能です。
 
 **注:** この機能を使用する前に、KVM ファームウェアをバージョン 1.7 にアップグレードしてください。
 
-1. KVM デバイスをクラウドアカウントにバインドし、クラウドにログインします。詳しい手順は、[クラウド経由のリモートアクセス](../faq/remote_access_via_cloud.md)を参照してください。
+次の手順でクラウドベースのスクリーンウォールを使用します。
+
+1. KVM デバイスを Cloud にバインドします。詳しくは、[KVM を Cloud にバインドする](../faq/remote_access_via_cloud.md#kvm_1)をご覧ください。
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 
-2. ログイン後、デバイスリストにバインドされたデバイスが表示されます。オンラインであることを確認してください。
+2. バインド後、[https://glkvm.com/](https://glkvm.com/){target="_blank"} にログインします。バインド済みデバイスが一覧に表示されます。デバイスがオンラインであることを確認してください。
 
     ![device list](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/device_list.png){class="glboxshadow"}
 
@@ -22,9 +22,7 @@ Screen Wall を使用すると、複数のデバイスの画面を 1 つのペ�
 
     ![select device](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/select_device.png){class="glboxshadow"}
 
-    デバイスがバージョン 1.7 より前のファームウェアを実行している場合は、グレー表示され選択できません。この機能を使用する前に、まずファームウェアをアップグレードしてください。
-
-    ![not supported firmware](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/not_supported.png){class="glboxshadow"}
+    **注:** ファームウェアがバージョン 1.7 より前のデバイスはグレー表示され、選択できません。先にファームウェアをアップグレードしてください。
 
 5. 設定を保存すると、選択したデバイスへのクラウド経由の接続が開始されます。
 

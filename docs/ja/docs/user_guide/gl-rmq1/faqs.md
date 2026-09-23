@@ -47,6 +47,12 @@
     ![Portrait Lock](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/faqs/portrait_lock.png){class="glboxshadow" width="360"}<br>
     <small>(iPhoneの縦向きロック)</small>
 
+5. **Q: iOS デバイスで一部のキーが反応しない、またはマウスポインターが勝手に動くなど、キーボードが正常に動作しないのはなぜですか？**
+
+    A: 通常は、iOS デバイスの **Mouse Keys** 機能が有効になっていることが原因です。この機能を使うと、キーボードやテンキーでマウスポインターを動かせます。
+
+    **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** を開き、Mouse Keys をオフにしてください。
+
 ## アンドロイド
 
 1. **Q: 絶対マウス モードでデバイスを制御できないのはなぜですか?**

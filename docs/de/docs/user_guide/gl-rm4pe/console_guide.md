@@ -49,8 +49,6 @@ Sie können unter Session Settings Videoeinstellungen wie Anzeigemodus, Videoqua
 
 - **View**: Diese Einstellung bestimmt die Bildschirmskalierung beim Ändern der Größe des Browserfensters. Verfügbare Optionen: Adaptive, Best Picture Quality, Original Pixel. Diese Funktion wurde mit Firmware v1.8.0 eingeführt.
 
-- **Screen Privacy**: Wenn der Sichtschutz aktiviert ist, zeigt der externe HDMI-OUT-Bildschirm keine Inhalte mehr an. Dadurch bleibt die Privatsphäre bei Fernzugriffen gewahrt.
-
 ### Audio & Camera
 
 Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpassen.
@@ -192,6 +190,8 @@ Melden Sie sich anschließend bei der KVM-Konsole an und navigieren Sie zu **Acc
 Der Fingerbot wird am physischen Ein-/Aus-Schalter des gesteuerten Geräts befestigt, um die Stromversorgung des gesteuerten Geräts aus der Ferne zu steuern.
 
 Er arbeitet entsprechend den Einstellungen in der Konsole.
+
+![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories_fingerbot.png){class="glboxshadow"}
 

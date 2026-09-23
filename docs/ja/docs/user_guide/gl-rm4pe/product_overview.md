@@ -22,7 +22,7 @@ Comet X は同時に 4 つのターゲット デバイスに接続できます�
 | ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/passcode.png)| **画面パスワードを設定します**<br>プライバシーを保護するために、Comet X の画面パスワードを設定します。|
 | ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/home.png){width="600"}| **ホーム画面**<br>**Top-right**: クラウドのステータスとシステム時間。<br>**Middle**: デバイスの IP アドレス。インターネットに接続する場合にのみ表示されます。<br>**Bottom**: 4 つの信号ソースに対応する 4 つのポート。青は物理接続を示します。緑色のチェックマークは、このポートが使用中であることを示します。
 | ![active signal port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/active_port.png){width="600"}| **Active Signal Port**<br>ホーム画面でアクティブなポートをタップして、HDMI 解像度、キーボード、およびマウスの信号ステータスを表示します。
-| ![switch signal port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/switch.png){width="600"}| **Switch Siganl Port**<br>ホーム画面で非アクティブなポートをタップして、HDMI、キーボード、およびマウスの信号ステータスを表示するか、信号ソースとしてこのポートに切り替えます。
+| ![switch signal port](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/switch.png){width="600"}| **Switch Signal Port**<br>ホーム画面で非アクティブなポートをタップして、HDMI、キーボード、およびマウスの信号ステータスを表示するか、信号ソースとしてこのポートに切り替えます。
 | ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/basic_settings.png)| **基本設定**<br>ホーム画面で右から左にスワイプして、**Screen Display** や **Cloud Service** などの基本設定にアクセスします。|
 | ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **System Menu**<br>ホーム画面で上から下にスワイプして、**Reboot** や **Lock Screen** などのシステム メニューにアクセスします。 |
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **ロック画面**<br>ロック画面には時刻と日付が表示されます。 |

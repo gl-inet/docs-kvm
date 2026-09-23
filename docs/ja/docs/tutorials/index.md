@@ -23,6 +23,7 @@
 
 * [動的コード経由で KVM をクラウドにバインドする方法](how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [クラウドベースのスクリーンウォール機能の使用方法](how_to_use_screen_wall.md)
+* [KVM デバイスをほかのユーザーと共有する方法](how_to_share_kvm_devices_with_others.md)
 
 ## 仮想メディア
 

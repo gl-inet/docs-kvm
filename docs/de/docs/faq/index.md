@@ -30,6 +30,8 @@ Wenn Ihre Frage unten nicht aufgeführt ist, wenden Sie sich bitte an unser tech
 ## Cloud-Dienst
 
 * [KVM per dynamischem Code mit der Cloud binden](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
+* [Welcher KVM-Cloud-Tarif ist der richtige für Sie?](which_kvm_cloud_service_plan_is_right_for_you.md)
+* [KVM-Geräte mit anderen teilen](../tutorials/how_to_share_kvm_devices_with_others.md)
 * [Bindung von KVM zur Cloud aufheben](unbind.md)
 * [Cloud-Dienst deaktivieren](disable_cloud.md)
 * [Cloud-Konto löschen](delete_cloud_account.md)
