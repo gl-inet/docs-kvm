@@ -37,7 +37,7 @@ Previous firmware versions only supported Chinese and English; this build adds n
 
 This release integrates [NetBird](https://netbird.io/){target="_blank"}, an open-source zero-trust networking platform for building secure private home and business networks. Built on WireGuard®, this overlay solution enables secure remote access to your KVM from anywhere over NetBird virtual networks. See [here](../faq/remote_access_via_netbird.md){target="_blank"} for setup instructions.
 
-![netbird](https://static.gl-inet.com/docs/kvm/features_update/1.9/nerbird.png){class="glboxshadow"}
+![netbird](https://static.gl-inet.com/docs/kvm/features_update/1.9/netbird.png){class="glboxshadow"}
 
 ## Other Enhancements
 

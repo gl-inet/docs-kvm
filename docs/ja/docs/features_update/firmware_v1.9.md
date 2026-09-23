@@ -38,7 +38,7 @@
 このリリースでは、安全なプライベート ホーム ネットワークとビジネス ネットワークを構築するためのオープンソースのゼロトラスト ネットワーキング プラットフォームである [**NetBird**](https://netbird.io/){target="_blank"} が統合されています。 WireGuard® 上に構築されたこのオーバーレイ ソリューションにより、NetBird 仮想ネットワークを介してどこからでも KVM への安全なリモート アクセスが可能になります。
 セットアップ手順については、[こちら](../faq/remote_access_via_netbird.md){target="_blank"}を参照してください。
 
-![netbird](https://static.gl-inet.com/docs/kvm/features_update/1.9/nerbird.png){class="glboxshadow"}
+![netbird](https://static.gl-inet.com/docs/kvm/features_update/1.9/netbird.png){class="glboxshadow"}
 
 ## その他の機能強化
 

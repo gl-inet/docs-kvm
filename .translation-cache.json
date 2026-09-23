@@ -455,15 +455,15 @@
     }
   },
   "docs/en/docs/features_update/firmware_v1.9.md": {
-    "source_hash": "e5f340d5ab2759ff18d323e022115b916f2e44d8e935242a626a29d0a38cc09e",
+    "source_hash": "be542958ad62a14fe137cbc7576e9a4025217a3eca7a5834ea23e570b85e860f",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "updated_at": 1790153272
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "updated_at": 1790153272
       }
     }
   },
