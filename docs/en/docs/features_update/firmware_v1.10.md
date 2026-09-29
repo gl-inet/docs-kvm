@@ -7,7 +7,7 @@ Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.c
 ## WebRTC (Native) Mode
 This firmware introduces **WebRTC (Native) Mode**. It uses the Google WebRTC Library to improve streaming performance and provide a smoother real-time remote control experience.
 
-![webrtc mode](https://static.gl-inet.com/docs/kvm/features_update/1.10/WebRTC (Native) mode.png){class="glboxshadow" width=400}
+![webrtc mode](https://static.gl-inet.com/docs/kvm/features_update/1.10/webrtc_native_mode.png){class="glboxshadow" width=400}
 
 ## Connection Stats
 
@@ -31,7 +31,7 @@ The **USB Devices** provides centralized management for USB emulation devices. F
 
 ![usb devices](https://static.gl-inet.com/docs/kvm/features_update/1.10/settings_usb_devices.png){class="glboxshadow"}
 
-- **Microphone**: When the microphone is enabled, you can customize its shortcut keys in Settings. Hold the assigned shortcut key to transmit audio; release it to mute the microphone again.
+- **USB Emulated Devices**: Enable or disable USB emulated devices, including the mouse, keyboard, microphone, camera, and virtual media. Some devices cannot be enabled at the same time. Availability is updated automatically.
 
 - **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
 
@@ -69,9 +69,7 @@ The **Security** lets you change the administrator password, enable two-factor a
 
 ![security](https://static.gl-inet.com/docs/kvm/features_update/1.10/setting_security.png){class="glboxshadow"}
 
-- **Change Admin Password**: Update the administrator password.
-
-- **2FA**: Enable two-factor authentication to add an extra layer of account protection.
+- **Access Password**: Manage the admin password or enable two-factor authentication (2FA) to secure device access.
 
 - **TLS Certificate**: Use the default certificate or upload a custom certificate and private key for browser access.
 
