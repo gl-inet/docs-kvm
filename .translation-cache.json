@@ -13,15 +13,15 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "f20f9728ff4f7e5f70a128e1e1362dc7c9d567559841c8557d15b014c8aebde4",
+    "source_hash": "4a0ba4f3a2f997c892bd299c0458629410ed6b4332ac281ceb690ef8fa53653b",
     "targets": {
       "de": {
         "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "updated_at": 1790926575
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "updated_at": 1790926575
       }
     }
   },
@@ -468,15 +468,15 @@
     }
   },
   "docs/en/docs/features_update/index.md": {
-    "source_hash": "ddafd6345c715c336cb5bb5f86452ec80304aa84c175f6a795faa9ab0cc63ffe",
+    "source_hash": "1716d89b2df102616f94ac53cc4144778f9826a29b92ceedd550ce61f018b157",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319258
+        "model": "gpt-5-codex",
+        "updated_at": 1790926575
       },
       "ja": {
         "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "updated_at": 1790926575
       }
     }
   },
@@ -1333,6 +1333,19 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      }
+    }
+  },
+  "docs/en/docs/features_update/firmware_v1.10.md": {
+    "source_hash": "2f2698aa1a846c4147c2bd0f7fe0366d2de7537960140e54f7429af02a74fc0f",
+    "targets": {
+      "de": {
+        "model": "gpt-5-codex",
+        "updated_at": 1790926575
+      },
+      "ja": {
+        "model": "gpt-5-codex",
+        "updated_at": 1790926575
       }
     }
   }

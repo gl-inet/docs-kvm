@@ -233,4 +233,6 @@ nav:
       - Auspacken und erste Einrichtung: video_library/unboxing_first_set_up.md
       - Funktionen: video_library/features.md
   - Funktionsupdates:
+      - Uebersicht: features_update/index.md
+      - Firmware v1.10: features_update/firmware_v1.10.md
       - Firmware v1.9: features_update/firmware_v1.9.md

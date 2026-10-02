@@ -227,4 +227,6 @@ nav:
       - 開梱と初回セットアップ: video_library/unboxing_first_set_up.md
       - 機能: video_library/features.md
   - 機能のアップデート:
+      - 概要: features_update/index.md
+      - ファームウェアv1.10: features_update/firmware_v1.10.md
       - ファームウェアv1.9: features_update/firmware_v1.9.md
