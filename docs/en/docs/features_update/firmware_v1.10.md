@@ -13,13 +13,13 @@ This firmware introduces **WebRTC (Native) Mode**. It uses the Google WebRTC Lib
 
 **Connection Stats** displays real-time connection information and trend charts, including network latency, jitter, packet loss rate, bitrate, frame rate, and playback delay.
 
-- Click the list icon to view real-time connection data and device status.
+Click the list icon to view real-time connection data and device status.
 
-    ![Connection Stats 1](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_1.png){class="glboxshadow"}
+![Connection Stats 1](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_1.png){class="glboxshadow"}
 
-- Click the chart icon to view trend charts for network latency, jitter, and packet loss rate.
+Click the chart icon to view trend charts for network latency, jitter, and packet loss rate.
 
-    ![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
+![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
 ## Settings Center
 
