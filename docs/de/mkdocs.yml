@@ -57,6 +57,21 @@ hooks:
   - ../../scripts/alternate_links.py
 
 extra:
+  analytics:
+    feedback:
+      title: War diese Seite hilfreich?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Diese Seite war hilfreich
+          data: 1
+          note: Vielen Dank für Ihr Feedback!
+        - icon: material/emoticon-sad-outline
+          name: Diese Seite könnte verbessert werden
+          data: 0
+          note: >-
+            Vielen Dank für Ihr Feedback! Helfen Sie uns, diese Seite zu verbessern, indem Sie uns
+            <a href="https://glinet.feishu.cn/share/base/form/shrcnbojSI6bg5XpcptdEzhQjpc"
+            data-prefill="Which page needs improvement?" target="_blank" rel="noopener">mitteilen, was Ihnen fehlt</a>.
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com
@@ -94,6 +109,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  - javascripts/analytics.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js
 
