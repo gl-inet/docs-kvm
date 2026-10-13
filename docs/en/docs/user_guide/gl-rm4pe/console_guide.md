@@ -177,7 +177,13 @@ You will be redirected to the GLKVM terminal.
 
 GL.iNet offers optional KVM accessories to remotely control the device's power on/off. 
 
-First, see the corresponding user guide to connect the accessory to your controlled device. Note that Comet X can connect to four Fingerbots or ATX boards simultaneously, though only one can be controlled at a time.
+**Note**:
+
+1. Connect each accessory to the USB 2.0 port on the rear panel that corresponds to the target device you want to control. 
+
+2. Comet X can connect to four Fingerbots or ATX boards simultaneously, though only one can be controlled at a time.
+
+First, see the corresponding user guide to connect the accessory to your controlled device. 
 
 - [Fingerbot (FGB-01) User Guide](../gl-fgb-01/index.md){target="_blank"}
 
