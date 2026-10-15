@@ -7,6 +7,7 @@ It is structured as a multilingual documentation repository. The current languag
 - English: `docs/en/`
 - German: `docs/de/`
 - Japanese: `docs/ja/`
+- Spanish: `docs/es/`
 
 Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
@@ -45,11 +46,14 @@ docs/
   en/
   de/
   ja/
+  es/
 ```
 
 Each language directory contains `mkdocs.yml`, `mkdocs.fast.yml`, `docs/`, and `overrides/`.
 
 In most cases, localized pages should mirror the corresponding English page path under `docs/en/docs/`.
+
+English is the source for translations. Regulatory and compliance statements remain English-only and are omitted from localized navigation.
 
 ## Local Preview
 
@@ -65,11 +69,14 @@ For faster local editing, use:
 mkdocs serve -f docs/en/mkdocs.fast.yml --dirty
 ```
 
+To preview the Spanish site, use `mkdocs serve -f docs/es/mkdocs.fast.yml --dirty`.
+
 ## Online View
 
 - English: [https://docs.gl-inet.com/kvm/en/](https://docs.gl-inet.com/kvm/en/)
 - German: [https://docs.gl-inet.com/kvm/de/](https://docs.gl-inet.com/kvm/de/)
 - Japanese: [https://docs.gl-inet.com/kvm/ja/](https://docs.gl-inet.com/kvm/ja/)
+- Spanish: [https://docs.gl-inet.com/kvm/es/](https://docs.gl-inet.com/kvm/es/)
 
 ## Guide
 

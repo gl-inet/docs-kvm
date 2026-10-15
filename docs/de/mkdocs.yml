@@ -97,6 +97,9 @@ extra:
     - name: 日本語
       link: /kvm/ja/
       lang: ja
+    - name: Español
+      link: /kvm/es/
+      lang: es
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

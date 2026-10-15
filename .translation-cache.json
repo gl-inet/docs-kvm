@@ -9,19 +9,27 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "5819f4ad999aa2013e7d23985764b3bba21fa9f915e3f2a2b5be434a269670b8",
+    "source_hash": "10604dae6ae7c4d4172b1a78488ed825e940092bfe928dffb022501274a0b186",
     "targets": {
       "de": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792054801
       },
       "ja": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792054801
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -35,6 +43,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -48,6 +60,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -61,6 +77,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -74,6 +94,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -87,6 +111,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -100,6 +128,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -113,6 +145,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -126,6 +162,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -139,6 +179,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -152,6 +196,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -165,6 +213,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -178,6 +230,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -191,6 +247,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -204,6 +264,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -217,6 +281,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -230,6 +298,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -243,6 +315,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -256,6 +332,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -269,6 +349,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -282,6 +366,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -295,6 +383,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -308,6 +400,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -321,6 +417,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -334,6 +434,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -347,6 +451,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -360,6 +468,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -373,6 +485,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -386,6 +502,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -399,6 +519,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -412,6 +536,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -425,6 +553,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -438,6 +570,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -451,6 +587,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -464,6 +604,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790153272
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -477,6 +621,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790926575
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -490,6 +638,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -503,6 +655,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -516,6 +672,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -529,6 +689,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -542,6 +706,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -555,6 +723,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -568,6 +740,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -581,6 +757,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788753338
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -594,6 +774,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787817168
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -607,6 +791,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -620,6 +808,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -633,6 +825,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -646,6 +842,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -659,6 +859,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -672,6 +876,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -685,6 +893,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -698,6 +910,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -711,6 +927,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -724,6 +944,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -737,6 +961,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -750,6 +978,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -763,6 +995,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -776,6 +1012,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788753338
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -789,6 +1029,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -802,6 +1046,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -815,6 +1063,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -828,6 +1080,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -841,6 +1097,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -854,6 +1114,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -867,6 +1131,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -880,6 +1148,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -893,6 +1165,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -910,6 +1186,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787817168
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -923,6 +1203,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -936,6 +1220,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -949,6 +1237,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -966,6 +1258,10 @@
       "ja": {
         "model": "gpt-6",
         "updated_at": 1792052651
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -979,6 +1275,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -992,6 +1292,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1005,6 +1309,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1022,6 +1330,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1035,6 +1347,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1048,6 +1364,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1061,6 +1381,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1078,6 +1402,10 @@
       "ja": {
         "model": "gpt-6",
         "updated_at": 1792052285
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1091,6 +1419,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1104,6 +1436,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1117,6 +1453,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1134,6 +1474,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1147,6 +1491,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1160,6 +1508,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1173,6 +1525,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787817168
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1190,6 +1546,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1203,6 +1563,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1216,6 +1580,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1229,6 +1597,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1787215459
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1242,6 +1614,10 @@
       "ja": {
         "model": "gpt-6",
         "updated_at": 1792052285
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1255,6 +1631,10 @@
       "ja": {
         "model": "gpt-6",
         "updated_at": 1792052285
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1268,6 +1648,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1281,6 +1665,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1294,6 +1682,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1307,6 +1699,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1788750207
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1320,6 +1716,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1333,6 +1733,10 @@
       "ja": {
         "model": "gpt-5-codex",
         "updated_at": 1790152427
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1346,6 +1750,10 @@
       "ja": {
         "model": "gpt-6",
         "updated_at": 1792052285
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   },
@@ -1359,6 +1767,10 @@
       "ja": {
         "model": "gpt-6",
         "updated_at": 1792052285
+      },
+      "es": {
+        "model": "gpt-6",
+        "updated_at": 1792054801
       }
     }
   }
