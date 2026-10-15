@@ -957,15 +957,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
-    "source_hash": "7cb8c4de6a250edadc30fd3448fa8d206e217ee63bcba1e1f9580fc99f34d27d",
+    "source_hash": "d681e2e7c437b59a55767f6021d315bad7656edb67444b96bd0628bfffec6f92",
     "targets": {
       "de": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792052651
       },
       "ja": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792052651
       }
     }
   },
