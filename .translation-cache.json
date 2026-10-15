@@ -13,15 +13,15 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "4a0ba4f3a2f997c892bd299c0458629410ed6b4332ac281ceb690ef8fa53653b",
+    "source_hash": "5819f4ad999aa2013e7d23985764b3bba21fa9f915e3f2a2b5be434a269670b8",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790926575
+        "model": "gpt-6",
+        "updated_at": 1792052285
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790926575
+        "model": "gpt-6",
+        "updated_at": 1792052285
       }
     }
   },
@@ -957,15 +957,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
-    "source_hash": "d1546e8ec59a42cae91a753a22d3db733fcb15187382f611f741acdffdd63a90",
+    "source_hash": "7cb8c4de6a250edadc30fd3448fa8d206e217ee63bcba1e1f9580fc99f34d27d",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787212601
+        "model": "gpt-6",
+        "updated_at": 1792052285
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792052285
       }
     }
   },
@@ -1069,15 +1069,15 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
-    "source_hash": "e8d3f982242a6f199d66b7a715045fc9bdcf1bf161bb1031c60ea42f669a98ea",
+    "source_hash": "aa6d5a498ce6754a8caa44a5633cff65dee0f26977c5971abf7b4e1fdfdf7a34",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "gpt-6",
+        "updated_at": 1792052285
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "gpt-6",
+        "updated_at": 1792052285
       }
     }
   },
@@ -1233,28 +1233,28 @@
     }
   },
   "docs/en/overrides/home.html": {
-    "source_hash": "698302112c2a041613d743352f72cd67bfcdf34229e9ceba509e70e9f9421a8b",
+    "source_hash": "9745a0e54cc3e060725d50184cda122fd9aafcfbe9fff98271c193db2145af86",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319155
+        "model": "gpt-6",
+        "updated_at": 1792052285
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792052285
       }
     }
   },
   "docs/en/overrides/main.html": {
-    "source_hash": "427fb716ed424a006dd7d03c707c54333f1ab57c26dceea4e2ce440abadaa021",
+    "source_hash": "635c7b7462e792f3e04fab1ca198791f09efa280dce99cf0a0fde8ee9acaa390",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329032
+        "model": "gpt-6",
+        "updated_at": 1792052285
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792052285
       }
     }
   },
@@ -1337,15 +1337,28 @@
     }
   },
   "docs/en/docs/features_update/firmware_v1.10.md": {
-    "source_hash": "2f2698aa1a846c4147c2bd0f7fe0366d2de7537960140e54f7429af02a74fc0f",
+    "source_hash": "3f598cff0d4d6f3a5f79a1ca46d37e489baebdf8858034e1932806bb897d7426",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790926575
+        "model": "gpt-6",
+        "updated_at": 1792052285
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790926575
+        "model": "gpt-6",
+        "updated_at": 1792052285
+      }
+    }
+  },
+  "docs/en/docs/javascripts/analytics.js": {
+    "source_hash": "425494170bf7d9f1b86b030272d273f3949bb5f3d95d11f87fc3ebc7a8734947",
+    "targets": {
+      "de": {
+        "model": "gpt-6",
+        "updated_at": 1792052285
+      },
+      "ja": {
+        "model": "gpt-6",
+        "updated_at": 1792052285
       }
     }
   }

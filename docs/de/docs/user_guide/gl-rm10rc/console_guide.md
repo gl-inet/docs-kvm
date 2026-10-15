@@ -1,25 +1,31 @@
 # Comet 5G (GL-RM10RC) Konsolenhandbuch
 
-## Settings
+## Session
 
-Navigieren Sie in der Konsole zu **Settings**. Die Einstellungsseite umfasst vier Bereiche:
+Navigieren Sie in der Konsole zu **Session**. Die Einstellungsseite umfasst vier Bereiche:
 
 - [Video](#video)
-- [Remote Device Settings](#remote-device-settings)
-- [System](#system)
-- [Network](#network)
-
-### Quick Search
-
-Sie können die gewünschten Einstellungen schnell finden, indem Sie oben auf der Seite **Settings** Schlüsselwörter eingeben.
-
-![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/quick-search.png){class="glboxshadow"}
+- [Audio & Camera](#audio--camera)
+- [Keyboard](#keyboard)
+- [Mouse](#mouse)
 
 ### Video
 
-Sie können die Videoeinstellungen in der Konsole anpassen, z. B. Anzeigemodus, Videoqualität, Videoübertragung, Bildschirmausrichtung und EDID.
+Sie können die Videoeinstellungen unter Session anpassen, z. B. Anzeigemodus, Videoqualität, Videoübertragung, Bildschirmausrichtung und EDID.
 
-![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-video.png){class="glboxshadow"}
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session-video.png){class="glboxshadow"}
+
+- **Transfer**: Wechseln Sie die Videoübertragungsmethode zwischen WebRTC, WebRTC (FEC), WebRTC (Native) und Direct. Beachten Sie, dass Direct keine Tonübertragung bietet.
+
+    !!! note "Worin unterscheiden sich WebRTC, WebRTC (FEC), WebRTC (Native) und Direct?"
+
+        - **WebRTC**: Bietet ein ausgewogenes Verhältnis zwischen flüssigem Video und stabilem Audio für die Echtzeit-Fernsteuerung.
+
+        - **WebRTC (FEC)**: Fügt Forward Error Correction hinzu, um die Verbindungsstabilität bei schlechten oder instabilen Netzwerkbedingungen zu verbessern. Bei Auswahl dieser Option werden verlorene Datenpakete automatisch durch die Übertragung einer kleinen Menge redundanter Daten repariert, wodurch Bildschirmflackern und Verzögerungen reduziert werden.
+
+        - **WebRTC (Native)**: Nutzt die Google WebRTC Library, um die Streaming-Leistung zu verbessern und eine flüssigere Fernsteuerung in Echtzeit zu ermöglichen. Dieser Übertragungsmodus wurde mit Firmware v1.10.0 eingeführt.
+
+        - **Direct**: Bietet die geringste Latenz und verlustfreie Videoqualität, unterstützt jedoch keine Audioübertragung.
 
 - **Mode**: Wechseln Sie je nach Bedarf zwischen Smart mode und Normal mode. Smart mode hilft, den Bandbreitenverbrauch zu reduzieren, insbesondere bei schwachen Netzwerken.
 
@@ -33,15 +39,7 @@ Sie können die Videoeinstellungen in der Konsole anpassen, z. B. Anzeigemodus, 
 
 - **Quality**: Passen Sie die Videoqualität entsprechend Ihrer Netzwerkumgebung und den Anforderungen an die Auflösung auf Auto/Low/Medium/High/Ultra-high/Lossless an.
 
-- **Transfer**: Wechseln Sie die Videoübertragungsmethode zwischen WebRTC, WebRTC (FEC) und Direct. Beachten Sie, dass Direct keine Tonübertragung bietet.
-
-    !!! note "Worin unterscheiden sich WebRTC, WebRTC (FEC) und Direct?"
-
-        - **WebRTC**: Bietet ein ausgewogenes Verhältnis zwischen flüssigem Video und stabilem Audio für die Echtzeit-Fernsteuerung.
-        
-        - **WebRTC (FEC)**: Fügt Forward Error Correction hinzu, um die Verbindungsstabilität bei schlechten oder instabilen Netzwerkbedingungen zu verbessern. Bei Auswahl dieser Option werden verlorene Datenpakete automatisch durch die Übertragung einer kleinen Menge redundanter Daten repariert, wodurch Bildschirmflackern und Verzögerungen reduziert werden.
-        
-        - **Direct**: Bietet die geringste Latenz und verlustfreie Videoqualität, unterstützt jedoch keine Audioübertragung.
+- **FEC Packets**: Bei instabilen Netzwerken werden verlorene Datenpakete automatisch durch das Senden einer kleinen Menge redundanter Daten repariert, wodurch Bildschirmflackern und Verzögerungen reduziert werden. Sie können den FEC-Anteil auf 5%/10%/15%/20% einstellen.
 
 - **Orientation**: Stellen Sie den Drehwinkel der Konsole auf 0°/90°/180°/270° ein.
 
@@ -51,31 +49,41 @@ Sie können die Videoeinstellungen in der Konsole anpassen, z. B. Anzeigemodus, 
 
 - **View**: Diese Einstellung bestimmt die Bildschirmskalierung beim Ändern der Größe des Browserfensters. Verfügbare Optionen: Adaptive, Best Picture Quality, Original Pixel. Diese Funktion wurde mit Firmware v1.8.0 eingeführt.
 
-### Remote Device Settings
+### Audio & Camera {#audio--camera}
 
-Sie können die relevanten Einstellungen des gesteuerten Geräts anpassen.
+Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpassen.
 
-![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-remote-device.png){class="glboxshadow"}
+![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session-audio-camera.png){class="glboxshadow"}
 
 - **Speaker**: Steuert die Audioausgabe des gesteuerten Geräts (z. B. Systemtöne, Videoaudio).
 
 - **Microphone**: Überträgt lokales Audio (z. B. Ihre Stimme) vom steuernden Gerät an die Gegenstelle. Es unterstützt eine Ein-Klick-Stummschaltung sowie eine Shortcut-Funktion durch langes Drücken zum Aktivieren des Mikrofons (d. h. Press To Speak).
 
-    ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic-settings.png){class="glboxshadow"}
+    **Hinweis**: Der Shortcut muss vor der Verwendung unter [Settings](#usb-devices) manuell konfiguriert werden.
 
-    ![press to speak](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/press-to-speak.png){class="glboxshadow"}
+- **Camera**: Wenn die Kamera auf dem steuernden Gerät aktiviert ist, werden lokale Videobilder an den Remote-Host durchgereicht, auf dem eine virtuelle USB-Kamera emuliert wird. Anwendungen auf dem Remote-Host (z. B. Konferenzprogramme und FaceTime) können diesen Videostream nutzen, als wäre eine physische Kamera direkt an den Remote-Host angeschlossen.
 
-- **Keyboard**: Schalten Sie die Tastatur des gesteuerten Geräts ein oder aus.
+    **Hinweis**: Diese Funktion wurde mit Firmware v1.10.0 eingeführt und wird ausschließlich im Modus WebRTC (FEC) unterstützt. Derzeit ist sie nur über einen Webbrowser verfügbar; die App und der Desktop-Client werden noch nicht unterstützt.
+
+### Keyboard
+
+Unter Keyboard können Sie die Einstellungen für die Tastaturnutzung auf dem gesteuerten Gerät konfigurieren.
+
+![keyboard image ](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session_keyboard.png){class="glboxshadow"}
 
 - **Bad Link Mode**: Bedeutet, dass Tasten sofort losgelassen werden. Jeder Tastendruck wird als einzelne schnelle Drücken-und-Loslassen-Aktion gesendet, wodurch während der Fernsteuerung hängende Tasten oder unbeabsichtigte wiederholte Eingaben verhindert werden.
 
 - **Show Virtual Keyboard**: Zeigen Sie die virtuelle Tastatur in der Konsole an und verwenden Sie sie.
 
-    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/show-virtual-keyboard.png){class="glboxshadow"}
+    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session_show_virtual_keyboard.png){class="glboxshadow"}
 
 - **Swap Command and Ctrl for MacOS**: Diese Funktion vertauscht die Tasten Cmd und Ctrl, um die Tastaturkompatibilität zwischen verschiedenen Betriebssystemen sicherzustellen.
 
-- **Mouse**: Schalten Sie die Maus des gesteuerten Geräts ein oder aus.
+### Mouse
+
+Sie können die Mauseinstellungen anpassen, um die Bedienung des gesteuerten Geräts zu verbessern.
+
+![mouse image](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session_mouse.png){class="glboxshadow"}
 
 - **Show Local Cursor**: Zeigt die Maus des aktuellen Geräts auf dem Bildschirm an.
 
@@ -101,112 +109,45 @@ Sie können die relevanten Einstellungen des gesteuerten Geräts anpassen.
 
 - **Primary Button**: Wählen Sie die linke oder rechte Taste als primäre Klicktaste aus. Diese Funktion wurde mit Firmware v1.9.0 eingeführt.
 
-### System
-
-Sie können die Anzeigeeinstellungen des Konsolensystems anpassen oder das Gerät mit einem Klick zurücksetzen.
-
-![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-system.png){class="glboxshadow"}
-
-- **Device Identity**: Passen Sie die Identität des KVM an oder ändern Sie sie, wie sie vom gesteuerten Gerät erkannt wird. Beachten Sie, dass EDID und Geräteidentifikation synchronisiert bleiben. Wenn eines von beiden geändert wird, wird das andere automatisch aktualisiert, um eine korrekte Geräteerkennung sicherzustellen.
-
-    ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/device-identity.png){class="glboxshadow"}
-
-- **Language**: Stellen Sie die Sprache der Konsole auf Chinesisch, Englisch oder Japanisch ein.
-
-- **Color Mode**: Passen Sie die Designfarbe auf Light oder Dark mode an.
-
-- **Time Zone**: Passen Sie die Zeitzone der KVM-Konsole an.
-
-- **Reset KVM**: Setzen Sie Ihren KVM mit nur einem Klick auf die Werkseinstellungen zurück.
-
-- **Screen Display**: Sie können die Bildschirmanzeige nach Bedarf anpassen. Diese Funktion wurde mit Firmware v1.9.1 eingeführt.
-
-    ![screen display](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/screen-display.png){class="glboxshadow"}
-
-### Network
-
-Hier können Sie die Netzwerkdetails des Comet 5G prüfen und ändern, z. B. Hostname und IP-Adresse.
-
-![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-network.png){class="glboxshadow"}
-
-- **Hostname**: Sie können den Geräte-Hostnamen direkt in der Konsole ändern. Diese Funktion wurde mit Firmware v1.7.0 eingeführt.
-
-    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/hostname.png){class="glboxshadow"}
-
-- **Ethernet**: Wenn Comet 5G über ein Ethernet-Kabel mit einem Upstream-Netzwerkgerät verbunden ist, wird seine Ethernet-IP-Adresse hier angezeigt. Sie können auf die IP-Adresse oder den Pfeil nach rechts klicken, um die Ethernet-Details anzuzeigen.
-
-    Wenn das Protokoll DHCP ist, wird die Seite wie folgt angezeigt.
-
-    ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ethernet1.png){class="glboxshadow"}
-    
-    Wenn Sie eine statische IP-Adresse festlegen möchten, stellen Sie das Protokoll auf **Static** um und geben Sie die erforderlichen Netzwerkparameter (z. B. IP-Adresse, Netzmaske, Gateway) entsprechend ein.
-
-    ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ethernet2.png){class="glboxshadow"}
-
-- **Wireless**: Comet 5G unterstützt zwei drahtlose Betriebsmodi: **Station Mode** und **AP Mode**, passend für unterschiedliche Anforderungen an den Netzwerkzugriff.
-
-    - **Station Mode**
-
-        Dieser Modus eignet sich für Szenarien, in denen ein vorhandenes drahtloses Netzwerk verfügbar ist, mit dem sich Ihr Comet 5G verbinden kann.
-
-        In diesem Modus arbeitet Comet 5G als drahtloser Client, der nach einem Upstream-Wi-Fi-Hotspot (z. B. einem Router) suchen und sich damit verbinden kann, um Netzwerkzugriff zu erhalten.
-
-        ![wifi station](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-sta-mode.png){class="glboxshadow"}
-
-        Wenn Sie ihn mit einem anderen Wi‑Fi-Netzwerk verbinden möchten, klicken Sie unten auf **Switch Wi-Fi**.
-
-        ![switch wifi 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi1.png){class="glboxshadow"}
-
-        Wählen Sie anschließend ein Wi-Fi aus der Liste der verfügbaren Netzwerke aus.
-
-        ![switch wifi 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi2.png){class="glboxshadow"}
-
-    - **AP Mode**
-
-        Dieser Modus ist ideal zum Einrichten eines lokalen Netzwerks und ermöglicht die Offline-Steuerung Ihres KVM aus kurzer Entfernung, ohne dass ein externes Netzwerk erforderlich ist.
-    
-        In diesem Modus fungiert Comet 5G selbst als Wi-Fi-Hotspot und sendet Signale aus, mit denen sich Endgeräte wie Smartphones und Laptops verbinden können. Der Comet 5G kann jedoch nicht mehr über Wi-Fi auf das Upstream-Netzwerk zugreifen.
-    
-        ![wifi ap](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-ap-mode.png){class="glboxshadow"}
-
-- **Cellular**: Comet 5G verfügt über ein integriertes Mobilfunkmodul, das mobilen Netzwerkzugriff über eine SIM-Karte ermöglicht.
-
-    Nachdem die SIM-Karte erkannt wurde, können Sie in dieser Oberfläche Details zur Mobilfunkverbindung anzeigen (z. B. Anbieterinformationen, Telefonnummer, ICCID und aktuelles APN-Profil).
-
-    ![cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cellular.png){class="glboxshadow"}
-    
-    - **SIM Settings** ermöglicht Ihnen die Verwaltung Ihrer Mobilfunkkonfigurationen (z. B. APN und MTU anpassen).
-    
-    - **AT command** ermöglicht Ihnen das Ausführen von AT-Befehlen, um modembezogene Ausgaben abzurufen.
-    
-    - **Cellular Firewall** wird verwendet, um Firewall-Regeln für Mobilfunknetzwerke einzurichten.
-
-    Zusammengefasst dient die Mobilfunkverbindung als robuste Backup-Netzwerkoption, wenn Ethernet- oder Wi-Fi-Verbindungen nicht verfügbar sind.
-
 ## Toolbox
 
-Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst vier Bereiche:
+Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst fünf Bereiche:
 
 - [Clipboard](#clipboard)
+- [OCR](#ocr)
 - [Shortcut](#shortcut)
-- [Wake On Lan](#wake-on-lan)
+- [Wake on Lan](#wake-on-lan)
 - [Terminal](#terminal)
 
 ### Clipboard
 
 Die Zwischenablage ermöglicht es Ihnen, Text einfach vom steuernden Gerät auf das gesteuerte Gerät einzufügen, ohne Dateien übertragen zu müssen.
 
-![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-clipboard.png){class="glboxshadow"}
+![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_clipboard.png){class="glboxshadow"}
+
+### OCR
+
+OCR ist eine Texterkennungsfunktion, mit der Sie einen Bereich auf dem Remote-Bildschirm auswählen und Text daraus einfach extrahieren können. Diese Funktion wurde mit Firmware v1.9.0 eingeführt.
+
+Um sie zu verwenden, klicken Sie auf den Abwärtspfeil, um Ihre bevorzugte Erkennungssprache auszuwählen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
+
+![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_ocr.png){class="glboxshadow"}
+
+Klicken Sie anschließend auf **Capture**. Der Remote-Bildschirm wird abgedunkelt. Ziehen Sie einen Rahmen um den Text, den Sie extrahieren möchten, und das System erkennt ihn automatisch. Anschließend können Sie den erkannten Text bei Bedarf kopieren.
+
+![copy text](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ocr_copy_text.png){class="glboxshadow"}
+
+Mit dieser Funktion können Sie Text einfach vom Remote-Bildschirm (d. h. dem gesteuerten Gerät) erfassen und auf das lokale steuernde Gerät kopieren.
 
 ### Shortcut
 
 Mit Shortcuts können Sie Aktionen schneller ausführen, ohne die virtuelle Tastatur zu verwenden. So arbeiten Sie effizienter und sparen Zeit bei alltäglichen Aufgaben. Hier finden Sie einige häufig verwendete Shortcuts.
 
-![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-shortcut1.png){class="glboxshadow"}
+![toolbox-shortcut1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_shorcut.png){class="glboxshadow"}
 
 Klicken Sie auf **Modify**, um die Shortcut-Optionen nach Bedarf anzupassen.
 
-![toolbox-shortcut-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-shortcut2.png){class="glboxshadow"}  
+![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_shorcut_modify.png){class="glboxshadow"}
 
 ### Wake-on-Lan
 
@@ -214,23 +155,23 @@ Wake-on-LAN (WOL) ist eine Technologie, mit der das gesteuerte Gerät aus der Fe
 
 Klicken Sie auf **Add Device** und wählen Sie ein Gerät aus demselben LAN aus.
 
-![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-wol.png){class="glboxshadow"}
+![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_wake_on_lan.png){class="glboxshadow"}
 
-![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-device.png){class="glboxshadow"}
+![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-device.png){class="glboxshadow" width=400}
 
 Wenn das Gerät, das Sie hinzufügen möchten, nicht in der Liste enthalten ist, klicken Sie auf **Add Manually** und geben Sie Gerätenamen und MAC-Adresse ein.
 
-![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-manually.png){class="glboxshadow"}
+![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-manually.png){class="glboxshadow" width=400}
 
 ### Terminal
 
 Sie können auf das Terminal des Comet 5G zugreifen, um erweiterte Einstellungen vorzunehmen. Klicken Sie auf **Access**.
 
-![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-terminal1.png){class="glboxshadow"}
+![toolbox-terminal1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_terminal_1.png){class="glboxshadow"}
 
 Sie werden zum GLKVM-Terminal weitergeleitet.
 
-![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-terminal2.png){class="glboxshadow"}
+![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_terminal_2.png){class="glboxshadow"}
 
 ## Accessories
 
@@ -431,58 +372,58 @@ Navigieren Sie in der Konsole zu **Help**. Hier finden Sie weitere Informationen
 
 Navigieren Sie in der Konsole in die obere rechte Ecke, um auf die folgenden Werkzeuge zuzugreifen:
 
-- [Text Recognition](#text-recognition)
 - [Collapse Toolbar](#collapse)
 - [Fullscreen](#fullscreen)
 - [Upgrade](#upgrade)
+- [Connection Stats](#connection-stats)
 - [Cloud Service](#cloud-service)
-- [Security](#security)
-- Reboot
-- Logout
-
-### Text Recognition
-
-Mit der Funktion Text Recognition können Sie einen Bereich auf dem Remote-Bildschirm auswählen und Text daraus einfach extrahieren. Sie basiert auf Optical Character Recognition (OCR) und wurde mit Firmware v1.9.0 eingeführt.
-
-Um sie zu verwenden, klicken Sie auf den Abwärtspfeil, um Ihre bevorzugte Erkennungssprache auszuwählen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
-
-![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ocr_function.png){class="glboxshadow"}
-
-Klicken Sie anschließend auf das Symbol "T". Der Remote-Bildschirm wird abgedunkelt. Ziehen Sie einen Rahmen um den Text, den Sie extrahieren möchten, und das System erkennt ihn automatisch. Anschließend können Sie den erkannten Text bei Bedarf kopieren.
-
-Mit dieser Funktion können Sie Text einfach vom Remote-Bildschirm (d. h. dem gesteuerten Gerät) erfassen und auf das lokale steuernde Gerät kopieren.
+- [Logout](#logout)
 
 ### Collapse
 
 Klicken Sie oben rechts auf das Symbol mit dem Aufwärtspfeil, um die Symbolleiste einzuklappen.
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/collapse1.png){class="glboxshadow"}
+![collapse 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_collapse_1.png){class="glboxshadow"}
 
 Wenn die Symbolleiste eingeklappt ist, klicken Sie oben auf das Symbol mit dem Abwärtspfeil, um sie auszuklappen.
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/collapse2.png){class="glboxshadow"}
+![collapse 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_collapse_2.png){class="glboxshadow"}
 
 ### Fullscreen
 
 Klicken Sie oben rechts auf das Vollbildsymbol (quadratisch), um in den Vollbildmodus zu wechseln.
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/fullscreen1.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_fullscreen_1.png){class="glboxshadow"}
 
 Um den Vollbildmodus zu verlassen, halten Sie die Taste **Esc** gedrückt oder klicken Sie oben rechts auf das Symbol zum Beenden des Vollbildmodus (gitterförmig).
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/fullscreen2.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 
 ### Upgrade
 
 Klicken Sie oben rechts auf die Firmware-Version, um nach Updates zu suchen.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/upgrade1.png){class="glboxshadow"}
+![firmware upgrade 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_upgrade_1.png){class="glboxshadow"}
 
-Im Pop-up-Fenster können Sie auf **Update Settings** klicken, um ein lokales Upgrade durchzuführen, am Beta-Programm teilzunehmen oder die aktuelle Konfiguration zu speichern.
+Im Pop-up-Fenster können Sie auf **Local Upgrade** klicken, um eine Firmwaredatei hochzuladen.
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/upgrade2.png){class="glboxshadow"}
+![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_upgrade_2.png){class="glboxshadow" width=400}
+
+![firmware upgrade 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_upgrade_3.png){class="glboxshadow" width=400}
 
 Laden Sie vor einem lokalen Upgrade die neueste Firmware aus dem [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} herunter.
+
+### Connection Stats
+
+Connection Stats enthält ein Data Dashboard, das Latenz, Jitter und weitere Echtzeitmesswerte überwacht.
+
+Klicken Sie auf das Listensymbol, um den Gerätestatus und die Echtzeitdaten anzuzeigen.
+
+![data dashboard 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/data_dashboard_1.png){class="glboxshadow"}
+
+Klicken Sie auf das Diagrammsymbol, um statistische Daten wie Netzwerklatenz, Netzwerk-Jitter, Paketverlustrate, Echtzeit-Bildrate und Wiedergabeverzögerung anzuzeigen.
+
+![data dashboard 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/data_dashboard_2.png){class="glboxshadow"}
 
 ### Cloud Service
 
@@ -490,15 +431,132 @@ GL.iNet KVM Cloud ermöglicht Ihnen den Fernzugriff auf das gesteuerte Gerät. D
 
 Sobald Ihr Comet 5G an die Cloud gebunden ist, zeigt die Konsole den Cloud-Status wie folgt an.
 
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cloud.png){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cloud-services.png){class="glboxshadow"}
+
+### Logout
+
+Klicken Sie zum Abmelden auf das Symbol Logout.
+
+![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/logout.png){class="glboxshadow"}
+
+## Settings
+
+Klicken Sie in der Konsole in der Navigationsleiste auf das Symbol Settings, um die folgende Einstellungsseite zu öffnen. Diese Funktion wurde mit Firmware v1.10.0 eingeführt.
+
+- [USB Devices](#usb-devices)
+- [Preferences](#preferences)
+- [Network](#network)
+- [Security](#security)
+- [Cloud](#cloud)
+- [System](#system)
+
+![Settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting.png){class="glboxshadow"}
+
+### USB Devices
+
+Unter USB Device werden alle emulierten USB-Geräte zentral verwaltet. Auf dieser Seite können Sie virtuelle Peripheriegeräte ein- oder ausschalten, um die Kompatibilität mit dem gesteuerten Host zu verbessern.
+
+![USB Emulated Devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_usb_devices.png){class="glboxshadow"}
+
+- **Microphone**
+
+    Wenn das Mikrofon stummgeschaltet ist, können Sie auf Settings klicken und die Shortcuts an Ihre Nutzungsgewohnheiten anpassen. Halten Sie die zugewiesene Shortcut-Taste gedrückt, um zu sprechen; beim Loslassen wird das Mikrofon wieder stummgeschaltet.
+
+    ![mic settings 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic_setting_1.png){class="glboxshadow" width=600}
+
+    ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic_setting_2.png){class="glboxshadow" width=434}
+
+  - **Device Identity**
+
+    Passen Sie die Identität des KVM an oder ändern Sie sie, wie sie vom gesteuerten Gerät erkannt wird. Beachten Sie, dass EDID und Geräteidentifikation synchronisiert bleiben. Wenn eines von beiden geändert wird, wird das andere automatisch aktualisiert, um eine korrekte Geräteerkennung sicherzustellen.
+
+    ![Device Identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings_device_identity.png){class="glboxshadow" width=350}
+
+### Preferences
+
+Unter Preferences verwalten Sie Layout Preferences, System Settings und Device Screen.
+
+![Preferences](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_preference.png){class="glboxshadow"}
+
+- **Layout Preferences**: Sie können nach Bedarf festlegen, ob die Symbolleiste im Vollbildmodus und die Statusleiste im Fenstermodus angezeigt werden.
+
+- **System Settings**: Passen Sie die Systemeinstellungen an, indem Sie den Tab Title des Browsers, die Language (Chinesisch, Englisch oder Japanisch), den Color Mode (Light oder Dark) und die Timezone entsprechend Ihrer Region auswählen.
+
+- **Device Screen**: Sie können den Gerätebildschirm verwalten und in der Vorschau anzeigen. Zu den verfügbaren Einstellungen gehören der Lock Screen-Modus (World Clock, Clock Only oder Wallpaper Only), Time Format, Date Format und Wallpaper.
+
+### Network
+
+Hier können Sie die Netzwerkdetails des Comet 5G prüfen und ändern, z. B. Hostname und IP-Adresse.
+
+![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network.png){class="glboxshadow"}
+
+- **Hostname**: Sie können den Geräte-Hostnamen direkt in der Konsole ändern. Diese Funktion wurde mit Firmware v1.7.0 eingeführt.
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_hostname.png){class="glboxshadow" width=600}
+
+- **Ethernet Settings**: Wenn Comet 5G über ein Ethernet-Kabel mit einem Upstream-Netzwerkgerät verbunden ist, werden hier die Ethernet-Details angezeigt.
+
+    Wenn das Protokoll DHCP ist, wird die Seite wie folgt angezeigt.
+
+    ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_dhcp.png){class="glboxshadow" width=600}
+
+    Wenn Sie eine statische IP-Adresse festlegen möchten, stellen Sie das Protokoll auf **Static** um und geben Sie die erforderlichen Netzwerkparameter (z. B. IP-Adresse, Netzmaske, Gateway) entsprechend ein.
+
+    ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_static.png){class="glboxshadow" width=600}
+
+- **Wireless**: Comet 5G unterstützt zwei drahtlose Betriebsmodi: **Station Mode** und **AP Mode**, passend für unterschiedliche Anforderungen an den Netzwerkzugriff.
+
+    Klicken Sie auf **Modify**, um den Netzwerkmodus zu wechseln oder die IP-Adresse, das Gateway und die MAC-Adresse anzuzeigen.
+
+    ![modify wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_modify_wifi.png){class="glboxshadow" width=600}
+
+    - **Station Mode**
+
+        Dieser Modus eignet sich für Szenarien, in denen ein vorhandenes drahtloses Netzwerk verfügbar ist, mit dem sich Ihr Comet 5G verbinden kann.
+
+        In diesem Modus arbeitet Comet 5G als drahtloser Client, der nach einem Upstream-Wi-Fi-Hotspot (z. B. einem Router) suchen und sich damit verbinden kann, um Netzwerkzugriff zu erhalten.
+
+        ![wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_wifi.png){class="glboxshadow"}
+
+        Wenn Sie ihn mit einem anderen Wi‑Fi-Netzwerk verbinden möchten, klicken Sie unten auf **Switch Wi-Fi**.
+
+        ![switch wifi 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch_wifi_1.png){class="glboxshadow"}
+
+        Wählen Sie anschließend ein Wi-Fi aus der Liste der verfügbaren Netzwerke aus.
+
+        ![switch wifi 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi2.png){class="glboxshadow"}
+
+    - **AP Mode**
+
+        Dieser Modus ist ideal zum Einrichten eines lokalen Netzwerks und ermöglicht die Offline-Steuerung Ihres KVM aus kurzer Entfernung, ohne dass ein externes Netzwerk erforderlich ist.
+
+        In diesem Modus fungiert Comet 5G selbst als Wi-Fi-Hotspot und sendet Signale aus, mit denen sich Endgeräte wie Smartphones und Laptops verbinden können. Der Comet 5G kann jedoch nicht mehr über Wi-Fi auf das Upstream-Netzwerk zugreifen.
+
+        ![wifi ap](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-ap-mode.png){class="glboxshadow"}
+
+- **Cellular**: Comet 5G verfügt über ein integriertes Mobilfunkmodul, das mobilen Netzwerkzugriff über eine SIM-Karte ermöglicht.
+
+    Nachdem die SIM-Karte erkannt wurde, können Sie auf **Modify** klicken, um Details zur Mobilfunkverbindung anzuzeigen (z. B. Anbieterinformationen, Telefonnummer, ICCID und aktuelles APN-Profil).
+
+    ![modify cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/celluar_modify.png){class="glboxshadow" width=600}
+
+    ![cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_cellular.png){class="glboxshadow"}
+
+    - **SIM Settings** ermöglicht Ihnen die Verwaltung Ihrer Mobilfunkkonfigurationen (z. B. APN und MTU anpassen).
+
+    - **AT command** ermöglicht Ihnen das Ausführen von AT-Befehlen, um modembezogene Ausgaben abzurufen.
+
+    - **Cellular Firewall** wird verwendet, um Firewall-Regeln für Mobilfunknetzwerke einzurichten.
+
+    Zusammengefasst dient die Mobilfunkverbindung als robuste Backup-Netzwerkoption, wenn Ethernet- oder Wi-Fi-Verbindungen nicht verfügbar sind.
 
 ### Security
 
 Unter Security können Sie das Admin-Passwort ändern, die Zwei-Faktor-Authentifizierung aktivieren und ein TLS-Zertifikat anpassen.
 
-![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/security.png){class="glboxshadow"}
+![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_security.png){class="glboxshadow"}
 
-- Admin-Passwort ändern.
+- Admin-Passwort ändern
 
     ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/change-password.png){class="glboxshadow" width="434"}
 
@@ -508,6 +566,34 @@ Unter Security können Sie das Admin-Passwort ändern, die Zwei-Faktor-Authentif
 
 - TLS Certificate
 
-    Das System verwendet das vorinstallierte Standardzertifikat für den Browserzugriff. Wenn Sie das TLS-Zertifikat für den Webbrowser-Zugriff anpassen möchten, klicken Sie oben rechts in der Konsole auf **TLS Certificate**, wählen Sie **Custom Certificate** aus und laden Sie anschließend Ihre **certificate file & private key file** hoch.
+    Das System verwendet das vorinstallierte Standardzertifikat für den Browserzugriff. Wenn Sie das TLS-Zertifikat für den Webbrowser-Zugriff anpassen möchten, klicken Sie unter TLS Certificate auf **Custom** und laden Sie anschließend Ihre **certificate file & private key file** hoch.
 
-    ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/tls-cert-custom.png){class="glboxshadow"}
+    ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_security_custom.png){class="glboxshadow"}
+
+### Cloud
+
+Über Cloud können Sie per Cloud-Dienst aus der Ferne auf Ihr Gerät zugreifen und es verwalten.
+
+Sie können Ihr Gerät über eine URL an die Cloud binden. Unter **More Settings** finden Sie weitere Optionen wie Bind With Code und App Download. Bei Bedarf ist auch Disable verfügbar.
+
+![Cloud 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_cloud_1.png){class="glboxshadow"}
+
+Nach erfolgreicher Bindung können Sie die Informationen zum gebundenen Cloud-Konto anzeigen. Klicken Sie auf **Access Cloud**, um Devices zu verwalten, oder auf **More Settings**, um den Dienst nach Bedarf zu deaktivieren oder die Bindung aufzuheben.
+
+![Cloud 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_cloud_2.png){class="glboxshadow"}
+
+Alternativ können Sie die oben genannten Verwaltungsvorgänge auch über Cloud Service in der oberen Symbolleiste ausführen.
+
+### System
+
+Unter System können Sie Folgendes konfigurieren:
+
+![system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_system.png){class="glboxshadow"}
+
+- **System**: Klicken Sie auf **Reboot**, um das Gerät neu zu starten, oder auf **Reset**, um die aktuelle Gerätekonfiguration zu löschen und das Gerät erneut einzurichten.
+
+- **Upgrade**: Sie können Beta Center aktivieren, um Beta-Firmwareupdates zu erhalten, oder über Local Upgrade eine lokale Datei manuell installieren.
+
+    ![local Upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setthing_system_local_update.png){class="glboxshadow" width=400}
+
+- **Help & Support**: Mit Export Log Files können Sie die Laufzeitprotokolle des Geräts zur Fehlerbehebung und für den Kundendienst speichern. Help Document bietet Zugriff auf Benutzerhandbücher, FAQs und Dokumentation zur Fehlerbehebung.

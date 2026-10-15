@@ -177,7 +177,13 @@ Sie werden zum GLKVM-Terminal weitergeleitet.
 
 GL.iNet bietet optionales KVM-Zubehör an, um das Ein-/Ausschalten des Geräts aus der Ferne zu steuern.
 
-Lesen Sie zuerst die entsprechende Bedienungsanleitung, um das Zubehör mit Ihrem gesteuerten Gerät zu verbinden. Beachten Sie, dass Comet X gleichzeitig mit vier Fingerbots oder ATX Boards verbunden werden kann, jedoch immer nur eines davon gesteuert werden kann.
+**Hinweis**:
+
+1. Verbinden Sie jedes Zubehör mit dem USB-2.0-Anschluss auf der Rückseite, der dem Zielgerät entspricht, das Sie steuern möchten.
+
+2. Comet X kann gleichzeitig mit vier Fingerbots oder ATX Boards verbunden werden, jedoch kann immer nur eines davon gesteuert werden.
+
+Lesen Sie zuerst die entsprechende Bedienungsanleitung, um das Zubehör mit Ihrem gesteuerten Gerät zu verbinden.
 
 - [Fingerbot (FGB-01) Benutzerhandbuch](../gl-fgb-01/index.md){target="_blank"}
 

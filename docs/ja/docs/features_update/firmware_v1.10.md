@@ -13,13 +13,13 @@
 
 **Connection Stats** では、ネットワークのレイテンシー、ジッター、パケット損失率、ビットレート、フレームレート、再生遅延など、リアルタイムの接続情報と推移グラフを表示します。
 
-- リストアイコンをクリックすると、リアルタイムの接続データとデバイスの状態を確認できます。
+リストアイコンをクリックすると、リアルタイムの接続データとデバイスの状態を確認できます。
 
-    ![Connection Stats 1](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_1.png){class="glboxshadow"}
+![Connection Stats 1](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_1.png){class="glboxshadow"}
 
-- グラフアイコンをクリックすると、ネットワークのレイテンシー、ジッター、パケット損失率の推移グラフを確認できます。
+グラフアイコンをクリックすると、ネットワークのレイテンシー、ジッター、パケット損失率の推移グラフを確認できます。
 
-    ![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
+![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
 ## Settings Center
 

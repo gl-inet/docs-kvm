@@ -13,13 +13,13 @@ Diese Firmware führt den **WebRTC (Native) Mode** ein. Er nutzt die Google WebR
 
 **Connection Stats** zeigt Verbindungsinformationen und Verlaufsdiagramme in Echtzeit an, darunter Netzwerklatenz, Jitter, Paketverlustrate, Bitrate, Bildrate und Wiedergabeverzögerung.
 
-- Klicken Sie auf das Listensymbol, um Verbindungsdaten in Echtzeit und den Gerätestatus anzuzeigen.
+Klicken Sie auf das Listensymbol, um Verbindungsdaten in Echtzeit und den Gerätestatus anzuzeigen.
 
-    ![Connection Stats 1](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_1.png){class="glboxshadow"}
+![Connection Stats 1](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_1.png){class="glboxshadow"}
 
-- Klicken Sie auf das Diagrammsymbol, um Verlaufsdiagramme für Netzwerklatenz, Jitter und Paketverlustrate anzuzeigen.
+Klicken Sie auf das Diagrammsymbol, um Verlaufsdiagramme für Netzwerklatenz, Jitter und Paketverlustrate anzuzeigen.
 
-    ![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
+![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
 ## Settings Center
 

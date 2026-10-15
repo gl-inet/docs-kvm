@@ -1,25 +1,31 @@
 # Comet 5G (GL-RM10RC) コンソール ガイド
 
-## 設定
+## セッション
 
-コンソールで、**Settings**に移動します。設定ページには 4 つのセクションが含まれています。
+コンソールで、**Session** に移動します。このページには次の 4 つのセクションがあります。
 
 - [ビデオ](#video)
-- [リモートデバイス設定](#remote-device-settings)
-- [システム](#system)
-- [ネットワーク](#network)
+- [オーディオとカメラ](#audio--camera)
+- [キーボード](#keyboard)
+- [マウス](#mouse)
 
-### クイック検索
+### ビデオ {#video}
 
-[設定] ページの上部にキーワードを入力すると、必要な設定をすぐに見つけることができます。
+Session では、表示モード、ビデオ品質、ビデオ伝送方式、画面の向き、EDID などのビデオ設定をカスタマイズできます。
 
-![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/quick-search.png){class="glboxshadow"}
+![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session-video.png){class="glboxshadow"}
 
-### ビデオ
+- **Transfer**: ビデオ伝送方式を WebRTC、WebRTC (FEC)、WebRTC (Native)、Direct の間で切り替えます。Direct 転送では音声を利用できません。
 
-表示モード、ビデオ品質、ビデオ送信、画面の向き、EDID など、本体のビデオ設定をカスタマイズできます。
+    !!! note "WebRTC、WebRTC (FEC)、WebRTC (Native)、Direct の違いは何ですか?"
 
-![settings-video](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-video.png){class="glboxshadow"}
+        - **WebRTC**: リアルタイム リモート コントロールのために、滑らかなビデオと安定したオーディオのバランスをとります。
+
+        - **WebRTC (FEC)**: 前方誤り訂正を追加して、貧弱なまたは不安定なネットワーク条件下での接続の安定性を向上させます。選択すると、少量の冗長データを送信することで失われたデータ パケットが自動的に修復され、画面のちらつきや遅延が軽減されます。
+
+        - **WebRTC (Native)**: Google WebRTC Library を使用してストリーミング性能を向上させ、よりスムーズなリアルタイムのリモート操作を実現します。この伝送モードはファームウェア v1.10.0 で導入されました。
+
+        - **Direct**: 最低の遅延とロスレスビデオ品質を提供しますが、オーディオ送信はサポートしていません。
 
 - **Mode**: 必要に応じてスマート モードとノーマル モードを切り替えます。スマート モードは、特に弱いネットワークでの帯域幅の消費を削減するのに役立ちます。
 
@@ -33,15 +39,7 @@
 
 - **Quality**: ネットワーク環境と解像度要件に応じて、ビデオ品質を自動/低/中/高/超高/ロスレスに調整します。
 
-- **Transfer**: ビデオ伝送方式を WebRTC、WebRTC (FEC)、ダイレクトの間で切り替えます。ダイレクト転送では音が出ませんのでご注意ください。
-
-    !!! note "WebRTC、WebRTC (FEC) とダイレクトの違いは何ですか?"
-
-        - **WebRTC**: リアルタイム リモート コントロールのために、滑らかなビデオと安定したオーディオのバランスをとります。
-
-        - **WebRTC (FEC)**: 前方誤り訂正を追加して、貧弱なまたは不安定なネットワーク条件下での接続の安定性を向上させます。選択すると、少量の冗長データを送信することで失われたデータ パケットが自動的に修復され、画面のちらつきや遅延が軽減されます。
-
-        - **Direct**: 最低の遅延とロスレスビデオ品質を提供しますが、オーディオ送信はサポートしていません。
+- **FEC Packets**: ネットワークが不安定な場合に、少量の冗長データを送信して失われたデータパケットを自動的に修復し、画面のちらつきや遅延を軽減します。FEC の比率は 5%/10%/15%/20% に調整できます。
 
 - **Orientation**: コンソールの回転角度を 0°/90°/180°/270° に調整します。
 
@@ -51,31 +49,41 @@
 
 - **View**: この設定は、ブラウザ ウィンドウのサイズを変更するときの画面のスケーリングを決定します。利用可能なオプション: アダプティブ、最高画質、オリジナル ピクセル。この機能はファームウェア v1.8.0 で導入されました。
 
-### リモートデバイスの設定
+### オーディオとカメラ {#audio--camera}
 
-被制御デバイスの関連設定を調整できます。
+被制御デバイスのオーディオとカメラの設定を調整できます。
 
-![settings-remote device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-remote-device.png){class="glboxshadow"}
+![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session-audio-camera.png){class="glboxshadow"}
 
 - **Speaker**: 被制御デバイスからのオーディオ出力を制御します (システム サウンド、ビデオ オーディオなど)。
 
 - **Microphone**: ローカル オーディオ (ユーザーの声など) を制御側デバイスからリモート エンドに送信します。ワンクリックのミュート、およびマイクをアクティブにするための長押しショートカット (つまり、Press To Speak) をサポートしています。
 
-    ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic-settings.png){class="glboxshadow"}
+    **注意**: ショートカットは、使用する前に [Settings](#usb-devices) で手動で設定する必要があります。
 
-    ![press to speak](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/press-to-speak.png){class="glboxshadow"}
+- **Camera**: 制御側デバイスでカメラを有効にすると、ローカルの映像フレームがリモートホストにパススルーで送信され、リモートホスト上で仮想 USB カメラがエミュレートされます。リモートホスト上のアプリケーション（会議ツールや FaceTime など）は、この映像を利用でき、物理カメラを直接接続した場合と同じように使用できます。
 
-- **Keyboard**: 被制御デバイスのキーボードをオンまたはオフにします。
+    **注意**: この機能はファームウェア v1.10.0 で導入され、WebRTC (FEC) モードでのみ利用できます。現在は Web ブラウザーからのみ利用でき、アプリとデスクトップクライアントには対応していません。
+
+### キーボード {#keyboard}
+
+被制御デバイスで使用するキーボードの設定を行えます。
+
+![keyboard image](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session_keyboard.png){class="glboxshadow"}
 
 - **Bad Link Mode**: つまり、すぐにキーを放します。各キーの押下は 1 回の素早い押して放す動作として送信され、リモート制御中のキーの固着や意図しない繰り返し入力を防ぎます。
 
 - **Show Virtual Keyboard**: コンソールに仮想キーボードを表示して使用します。
 
-    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/show-virtual-keyboard.png){class="glboxshadow"}
+    ![show virtual keyboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session_show_virtual_keyboard.png){class="glboxshadow"}
 
 - **Swap Command and Ctrl for MacOS**: この機能は、Cmd キーと Ctrl キーを交換して、さまざまなオペレーティング システム間でキーボードの互換性を確保します。
 
-- **Mouse**: 被制御デバイスのマウスをオンまたはオフにします。
+### マウス {#mouse}
+
+被制御デバイスをより快適に操作できるように、マウスの設定を調整できます。
+
+![mouse image](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session_mouse.png){class="glboxshadow"}
 
 - **Show Local Cursor**: 現在のデバイスのマウスを画面上に表示します。
 
@@ -101,136 +109,69 @@
 
 - **Primary Button**: プライマリ クリックとして左ボタンまたは右ボタンを選択します。この機能はファームウェア v1.9.0 で導入されました。
 
-### システム
-
-コンソールのシステム表示設定をカスタマイズしたり、ワンクリックでデバイスをリセットしたりできます。
-
-![settings-system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-system.png){class="glboxshadow"}
-
-- **Device Identity**: 被制御デバイスによって認識される KVM の ID をカスタマイズまたは変更します。 EDID とデバイス ID は同期されたままであることに注意してください。どちらかを変更すると、もう一方も自動的に更新され、デバイスが正しく認識されるようになります。
-
-    ![device identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/device-identity.png){class="glboxshadow"}
-
-- **Language**: コンソールの言語を中国語、英語、または日本語に設定します。
-
-- **Color Mode**: テーマの色をライト モードまたはダーク モードにカスタマイズします。
-
-- **Time Zone**: KVM コンソールのタイムゾーンをカスタマイズします。
-
-- **Reset KVM**: ワンクリックで KVM を出荷時設定にリセットします。
-
-- **Screen Display**: 必要に応じて画面表示をカスタマイズできます。この機能はファームウェア v1.9.1 で導入されました。
-
-    ![screen display](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/screen-display.png){class="glboxshadow"}
-
-### ネットワーク
-
-ここで、ホスト名やIPアドレスなど、Comet 5Gのネットワークの詳細を確認および変更できます。
-
-![settings-network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings-network.png){class="glboxshadow"}
-
-- **Hostname**: デバイスのホスト名はコンソールで直接変更できます。この機能はファームウェア v1.7.0 で導入されました。
-
-    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/hostname.png){class="glboxshadow"}
-
-- **Ethernet**: Comet 5G がイーサネット ケーブル経由で上流のネットワーク デバイスに接続すると、そのイーサネット IP アドレスがここに表示されます。 IP アドレスまたは右矢印をクリックすると、イーサネットの詳細が表示されます。
-
-    プロトコルが DHCP の場合、ページは次のように表示されます。
-
-    ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ethernet1.png){class="glboxshadow"}
-
-    静的 IP アドレスを設定する場合は、プロトコルを **Static** に切り替え、必要なネットワーク パラメーター (IP アドレス、ネットマスク、ゲートウェイなど) をそれに応じて入力します。
-
-    ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ethernet2.png){class="glboxshadow"}
-
-- **Wireless**: Comet 5G は、**Station Mode** および **AP Mode** の 2 つのワイヤレス動作モードをサポートし、さまざまなネットワーク アクセス要件に対応します。
-
-    - **Station Mode**
-
-        このモードは、既存のワイヤレス ネットワークが Comet 5G に接続できるシナリオに適しています。
-
-        このモードでは、Comet 5G はワイヤレス クライアントとして機能し、上流の Wi-Fi ホットスポット (ルーターなど) をスキャンして接続し、ネットワーク アクセスを取得できます。
-
-        ![wifi station](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-sta-mode.png){class="glboxshadow"}
-
-        別の Wi‑Fi ネットワークに接続する場合は、下部の **Switch Wi-Fi** をクリックします。
-
-        ![switch wifi 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi1.png){class="glboxshadow"}
-
-        次に、利用可能なネットワークのリストから Wi-Fi を選択します。
-
-        ![switch wifi 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi2.png){class="glboxshadow"}
-
-    - **AP Mode**
-
-        このモードはローカル エリア ネットワークのセットアップに最適で、外部ネットワークを必要とせずに KVM のオフライン近距離制御を可能にします。
-
-        このモードでは、Comet 5G 自体が Wi-Fi ホットスポットとして機能し、スマートフォンやラップトップなどの端末デバイスが接続するための信号をブロードキャストします。ただし、Wi-Fi 経由でアップストリーム ネットワークにアクセスすることはできなくなります。
-
-        ![wifi ap](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-ap-mode.png){class="glboxshadow"}
-
-- **Cellular**: Comet 5G にはセルラーモジュールが内蔵されており、SIM カード経由でモバイル ネットワーク アクセスが可能です。
-
-    SIM カードが検出されると、このインターフェイスで携帯電話接続の詳細 (キャリア情報、電話番号、ICCID、現在の APN プロファイルなど) を表示できます。
-
-    ![cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cellular.png){class="glboxshadow"}
-
-    - **SIM Settings** を使用すると、携帯電話の設定を管理できます (APN や MTU の調整など)。
-
-    - **AT コマンド** を使用すると、AT コマンドを実行してモデム関連の出力を取得できます。
-
-    - **Cellular Firewall** は、携帯電話ネットワークのファイアウォール ルールを設定するために使用されます。
-
-    要約すると、セルラー接続は、イーサネットまたは Wi-Fi 接続が利用できない場合の堅牢なバックアップ ネットワーク オプションとして機能します。
-
 ## ツールボックス
 
-コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 4 つのセクションが含まれています。
+コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 5 つのセクションが含まれています。
 
 - [クリップボード](#clipboard)
+- [OCR](#ocr)
 - [ショートカット](#shortcut)
 - [ウェイク オン ラン](#wake-on-lan)
 - [端末](#terminal)
 
-### クリップボード
+### クリップボード {#clipboard}
 
 クリップボードを使用すると、ファイルを転送することなく、制御側デバイスから被制御デバイスにテキストを簡単に貼り付けることができます。
 
-![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-clipboard.png){class="glboxshadow"}
+![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_clipboard.png){class="glboxshadow"}
 
-### ショートカット
+### OCR
+
+OCR はテキスト認識機能で、リモート画面上の領域を選択してテキストを簡単に抽出できます。この機能はファームウェア v1.9.0 で導入されました。
+
+これを使用するには、下向き矢印をクリックして、中国語、英語、バイリンガル (Zh/En) などの優先認識言語を選択します。
+
+![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_ocr.png){class="glboxshadow"}
+
+次に、**Capture** をクリックすると、リモート画面が暗くなります。抽出したいテキストの周りにボックスを描くと、システムが自動的にそれを識別します。必要に応じて、認識されたテキストをコピーできます。
+
+![copy text](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ocr_copy_text.png){class="glboxshadow"}
+
+この機能を使用すると、リモート画面 (つまり、被制御デバイス) からテキストを簡単にキャプチャし、それをローカル制御側デバイスにコピーできます。
+
+### ショートカット {#shortcut}
 
 ショートカットを使用すると、仮想キーボードを使用せずにアクションをより速く実行できるため、より効率的に作業し、日常業務の時間を節約できます。ここでいくつかの一般的なショートカットを見つけることができます。
 
-![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-shortcut1.png){class="glboxshadow"}
+![toolbox-shortcut-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_shorcut.png){class="glboxshadow"}
 
 **Modify** をクリックして、必要に応じてショートカット オプションを調整します。
 
-![toolbox-shortcut-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-shortcut2.png){class="glboxshadow"}
+![toolbox-shortcut-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_shorcut_modify.png){class="glboxshadow"}
 
-### ウェイク オン ラン
+### ウェイク オン ラン {#wake-on-lan}
 
 Wake-on-LAN (WOL) は、被制御デバイスの電源をリモートでオンにしたり、低電力状態から復帰したりできるテクノロジーです。
 
 **Add Device** をクリックし、同じ LAN からデバイスを選択します。
 
-![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-wol.png){class="glboxshadow"}
+![toolbox-wol](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_wake_on_lan.png){class="glboxshadow"}
 
-![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-device.png){class="glboxshadow"}
+![wol-add-device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-device.png){class="glboxshadow" width=400}
 
 追加したいデバイスがリストにない場合は、**Add Manually** をクリックし、デバイス名と MAC アドレスを入力します。
 
-![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-manually.png){class="glboxshadow"}
+![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wol-add-manually.png){class="glboxshadow" width=400}
 
-### ターミナル
+### ターミナル {#terminal}
 
 Comet 5Gの端末にアクセスして詳細設定を行うことができます。 「**Access**」をクリックします。
 
-![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-terminal1.png){class="glboxshadow"}
+![toolbox-terminal-1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_terminal_1.png){class="glboxshadow"}
 
 GLKVM ターミナルにリダイレクトされます。
 
-![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox-terminal2.png){class="glboxshadow"}
+![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_terminal_2.png){class="glboxshadow"}
 
 ## アクセサリー
 
@@ -287,7 +228,7 @@ ATX ボードはコンピューターのケースに取り付けられており�
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/virtual-media.png){class="glboxshadow"}
 
-### ファイル共有
+### ファイル共有 {#file-sharing}
 
 Comet 5G は、読み取り/書き込み USB ドライブをエミュレートできるため、制御側デバイスと制御側デバイスの間でファイルを共有および管理できます。
 
@@ -338,7 +279,7 @@ Comet 5G は、読み取り/書き込み USB ドライブをエミュレート�
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/file-sharing6.png){class="glboxshadow"}
 
-### イメージのマウント
+### イメージのマウント {#image-mounting}
 
 Comet 5G は、被制御デバイス上の読み取り専用の仮想 CD/DVD またはディスク ドライブをシミュレートできます。 BIOS または UEFI 起動プロセス中にこのドライブにアクセスできます。
 
@@ -367,13 +308,13 @@ Comet 5G は、被制御デバイス上の読み取り専用の仮想 CD/DVD ま
 
     ![image mounting 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/image-mounting5.png){class="glboxshadow"}
 
-### ストレージ ドライブを交換する
+### ストレージ ドライブを交換する {#replace-storage-drive}
 
 USB ストレージ デバイスを KVM USB ポートに挿入して、内部ストレージを置き換えることができます。
 
 ![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/replace-storage.png){class="glboxshadow"}
 
-### ディスクをフォーマットします
+### ディスクをフォーマットします {#format-disk}
 
 ワンクリックでディスクをフォーマットしたり、仮想メディアを無効にしたりできます。
 
@@ -433,72 +374,189 @@ Comet 5G は NetBird と統合されており、NetBird 仮想ネットワーク
 
 コンソールで、右上隅に移動して次のツールにアクセスします。
 
-- [テキスト認識](#text-recognition)
 - [ツールバーを折りたたむ](#collapse)
 - [フルスクリーン](#fullscreen)
 - [アップグレード](#upgrade)
+- [接続統計](#connection-stats)
 - [クラウドサービス](#cloud-service)
-- [セキュリティ](#security)
-- 再起動
-- ログアウト
+- [ログアウト](#logout)
 
-### テキスト認識
-
-テキスト認識機能を使用すると、リモート画面上の領域を選択し、そこからテキストを簡単に抽出できます。これは光学式文字認識 (OCR) テクノロジーを搭載しており、ファームウェア v1.9.0 で導入されました。
-
-これを使用するには、下向き矢印をクリックして、中国語、英語、バイリンガル (Zh/En) などの優先認識言語を選択します。
-
-![recognition language](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ocr_function.png){class="glboxshadow"}
-
-次に、「T」アイコンをクリックすると、リモート画面が暗くなります。抽出したいテキストの周りにボックスを描くと、システムが自動的にそれを識別します。必要に応じて、認識されたテキストをコピーできます。
-
-この機能を使用すると、リモート画面 (つまり、被制御デバイス) からテキストを簡単にキャプチャし、それをローカル制御側デバイスにコピーできます。
-
-### 折りたたむ
+### 折りたたむ {#collapse}
 
 右上隅の上向き矢印アイコンをクリックして、ツールバーを折りたたみます。
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/collapse1.png){class="glboxshadow"}
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_collapse_1.png){class="glboxshadow"}
 
 ツールバーが折りたたまれている場合、上部の下向き矢印アイコンをクリックして展開します。
 
-![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/collapse2.png){class="glboxshadow"}
+![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_collapse_2.png){class="glboxshadow"}
 
-### フルスクリーン
+### フルスクリーン {#fullscreen}
 
 右上隅にある全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/fullscreen1.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_fullscreen_1.png){class="glboxshadow"}
 
 全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
 
-![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/fullscreen2.png){class="glboxshadow"}
+![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 
-### アップグレード
+### アップグレード {#upgrade}
 
 右上隅にあるファームウェアのバージョンをクリックして、アップデートを確認します。
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/upgrade1.png){class="glboxshadow"}
+![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_upgrade_1.png){class="glboxshadow"}
 
-ポップアップ ウィンドウで **Update Settings** をクリックして、ローカル アップグレードを実行したり、ベータ プログラムに参加したり、現在の構成を保存したりできます。
+ポップアップウィンドウで **Local Upgrade** をクリックすると、ファームウェアファイルをアップロードできます。
 
-![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/upgrade2.png){class="glboxshadow"}
+![firmware upgrade 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_upgrade_2.png){class="glboxshadow" width=400}
+
+![firmware upgrade 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_upgrade_3.png){class="glboxshadow" width=400}
 
 ローカル アップグレードを実行する前に、[ファームウェア ダウンロード センター](https://dl.gl-inet.com/kvm){target="_blank"} から最新のファームウェアをダウンロードしてください。
 
-### クラウド サービス
+### 接続統計 {#connection-stats}
+
+Connection Stats には、レイテンシー、ジッターなどのリアルタイムの指標を監視する Data Dashboard があります。
+
+リストアイコンをクリックすると、デバイスの状態とリアルタイムのデータを表示します。
+
+![data dashboard 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/data_dashboard_1.png){class="glboxshadow"}
+
+グラフアイコンをクリックすると、ネットワークのレイテンシー、ジッター、パケット損失率、リアルタイムのフレームレート、再生遅延などの統計データを確認できます。
+
+![data dashboard 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/data_dashboard_2.png){class="glboxshadow"}
+
+### クラウド サービス {#cloud-service}
 
 GL.iNet KVM クラウドを使用すると、制御対象のデバイスにリモートからアクセスできます。詳細は[こちら](../../faq/remote_access_via_cloud.md){target="_blank"}をご参照ください。
 
 Comet 5G がクラウドにバインドされると、コンソールには次のようにクラウドのステータスが表示されます。
 
-![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cloud.png){class="glboxshadow"}
+![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/cloud-services.png){class="glboxshadow"}
 
-### セキュリティ
+### ログアウト {#logout}
+
+ログアウトするには、Logout アイコンをクリックします。
+
+![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/logout.png){class="glboxshadow"}
+
+## 設定
+
+コンソールのナビゲーションバーにある Settings アイコンをクリックすると、次の設定ページが開きます。この機能はファームウェア v1.10.0 で導入されました。
+
+- [USB デバイス](#usb-devices)
+- [環境設定](#preferences)
+- [ネットワーク](#network)
+- [セキュリティ](#security)
+- [クラウド](#cloud)
+- [システム](#system)
+
+![Settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting.png){class="glboxshadow"}
+
+### USB デバイス {#usb-devices}
+
+USB Devices では、USB エミュレーションデバイスを一元管理できます。このページから仮想周辺機器を有効または無効にして、被制御デバイスとの互換性を向上させることができます。
+
+![USB Emulated Devices](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_usb_devices.png){class="glboxshadow"}
+
+- **Microphone**
+
+    マイクがミュートされているときに、Settings をクリックして使い方に合わせたショートカットを設定できます。割り当てたショートカットキーを長押しすると音声を送信し、キーを放すと再びミュートになります。
+
+    ![mic settings 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic_setting_1.png){class="glboxshadow" width=600}
+
+    ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/mic_setting_2.png){class="glboxshadow" width=434}
+
+- **Device Identity**
+
+    被制御デバイスによって認識される KVM の ID をカスタマイズまたは変更します。 EDID とデバイス ID は同期されたままであることに注意してください。どちらかを変更すると、もう一方も自動的に更新され、デバイスが正しく認識されるようになります。
+
+    ![Device Identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/settings_device_identity.png){class="glboxshadow" width=350}
+
+### 環境設定 {#preferences}
+
+Preferences では、Layout Preferences、System Settings、Device Screen の設定を管理できます。
+
+![Preferences](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_preference.png){class="glboxshadow"}
+
+- **Layout Preferences**: 必要に応じて、フルスクリーン時のツールバー表示とウィンドウモード時のステータスバー表示を設定できます。
+
+- **System Settings**: ブラウザーの Tab Title、Language（中国語、英語、日本語）、Color Mode（Light、Dark）、お住まいの地域に合わせた Timezone を選択して、システム設定をカスタマイズできます。
+
+- **Device Screen**: デバイスの画面を管理し、プレビューできます。Lock Screen モード（World Clock、Clock Only、Wallpaper Only）、Time Format、Date Format、Wallpaper を設定できます。
+
+### ネットワーク {#network}
+
+ホスト名や IP アドレスなど、Comet 5G のネットワークの詳細を確認および変更できます。
+
+![network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network.png){class="glboxshadow"}
+
+- **Hostname**: デバイスのホスト名はコンソールで直接変更できます。この機能はファームウェア v1.7.0 で導入されました。
+
+    ![modify hostname](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_hostname.png){class="glboxshadow" width=600}
+
+- **Ethernet Settings**: Comet 5G がイーサネットケーブル経由で上流のネットワークデバイスに接続すると、そのイーサネット接続の詳細がここに表示されます。
+
+    プロトコルが DHCP の場合、ページは次のように表示されます。
+
+    ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_dhcp.png){class="glboxshadow" width=600}
+
+    静的 IP アドレスを設定する場合は、プロトコルを **Static** に切り替え、必要なネットワーク パラメーター (IP アドレス、ネットマスク、ゲートウェイなど) をそれに応じて入力します。
+
+    ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_static.png){class="glboxshadow" width=600}
+
+- **Wireless**: Comet 5G は、**Station Mode** および **AP Mode** の 2 つのワイヤレス動作モードをサポートし、さまざまなネットワーク アクセス要件に対応します。
+
+    **Modify** をクリックすると、ネットワークモードを切り替えたり、IP アドレス、ゲートウェイ、MAC アドレスを確認したりできます。
+
+    ![modify wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_modify_wifi.png){class="glboxshadow" width=600}
+
+    - **Station Mode**
+
+        このモードは、Comet 5G が接続できる既存のワイヤレスネットワークがある場合に適しています。
+
+        このモードでは、Comet 5G はワイヤレス クライアントとして機能し、上流の Wi-Fi ホットスポット (ルーターなど) をスキャンして接続し、ネットワーク アクセスを取得できます。
+
+        ![wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_wifi.png){class="glboxshadow"}
+
+        別の Wi‑Fi ネットワークに接続する場合は、下部の **Switch Wi-Fi** をクリックします。
+
+        ![switch wifi 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch_wifi_1.png){class="glboxshadow"}
+
+        次に、利用可能なネットワークのリストから Wi-Fi を選択します。
+
+        ![switch wifi 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/switch-wifi2.png){class="glboxshadow"}
+
+    - **AP Mode**
+
+        このモードはローカル エリア ネットワークのセットアップに最適で、外部ネットワークを必要とせずに KVM のオフライン近距離制御を可能にします。
+
+        このモードでは、Comet 5G 自体が Wi-Fi ホットスポットとして機能し、スマートフォンやラップトップなどの端末デバイスが接続するための信号をブロードキャストします。ただし、Wi-Fi 経由でアップストリーム ネットワークにアクセスすることはできなくなります。
+
+        ![wifi ap](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/wifi-ap-mode.png){class="glboxshadow"}
+
+- **Cellular**: Comet 5G にはセルラーモジュールが内蔵されており、SIM カード経由でモバイル ネットワーク アクセスが可能です。
+
+    SIM カードが検出されたら、**Modify** をクリックして、セルラー接続の詳細（キャリア情報、電話番号、ICCID、現在の APN プロファイルなど）を確認できます。
+
+    ![modify cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/celluar_modify.png){class="glboxshadow" width=600}
+
+    ![cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_cellular.png){class="glboxshadow"}
+
+    - **SIM Settings** を使用すると、携帯電話の設定を管理できます (APN や MTU の調整など)。
+
+    - **AT コマンド** を使用すると、AT コマンドを実行してモデム関連の出力を取得できます。
+
+    - **Cellular Firewall** は、携帯電話ネットワークのファイアウォール ルールを設定するために使用されます。
+
+    要約すると、セルラー接続は、イーサネットまたは Wi-Fi 接続が利用できない場合の堅牢なバックアップ ネットワーク オプションとして機能します。
+
+### セキュリティ {#security}
 
 セキュリティにより、管理者パスワードの変更、2 要素認証の有効化、TLS 証明書のカスタマイズが可能になります。
 
-![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/security.png){class="glboxshadow"}
+![security](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_security.png){class="glboxshadow"}
 
 - 管理者パスワードを変更します。
 
@@ -510,6 +568,34 @@ Comet 5G がクラウドにバインドされると、コンソールには次�
 
 - TLS 証明書
 
-    システムは、ブラウザー アクセスにプリインストールされたデフォルトの証明書を使用します。 Web ブラウザー アクセス用の TLS 証明書をカスタマイズする場合は、コンソールの右上隅にある **TLS Certificate** をクリックし、**Custom Certificate** を選択して、**証明書ファイルと秘密キー ファイル**をアップロードします。
+    システムは、ブラウザー アクセスにプリインストールされたデフォルトの証明書を使用します。 Web ブラウザー アクセス用の TLS 証明書をカスタマイズする場合は、TLS Certificate の **Custom** をクリックして、**証明書ファイルと秘密キー ファイル**をアップロードします。
 
-    ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/tls-cert-custom.png){class="glboxshadow"}
+    ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_security_custom.png){class="glboxshadow"}
+
+### クラウド {#cloud}
+
+Cloud では、クラウドサービスを利用してデバイスにリモートアクセスし、管理できます。
+
+URL を使用してデバイスをクラウドにバインドできます。**More Settings** には、Bind With Code や App Download などのオプションがあります。必要に応じて無効にすることもできます。
+
+![Cloud 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_cloud_1.png){class="glboxshadow"}
+
+バインドが完了すると、バインド先のクラウドアカウント情報を確認できます。**Access Cloud** をクリックしてデバイスを管理したり、**More Settings** をクリックして必要に応じて無効にしたり、バインドを解除したりできます。
+
+![Cloud 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_cloud_2.png){class="glboxshadow"}
+
+上部ツールバーの Cloud Service からも、同じ管理操作を行えます。
+
+### システム {#system}
+
+System の設定では、次の項目を設定できます。
+
+![system](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_system.png){class="glboxshadow"}
+
+- **System**: **Reboot** をクリックするとデバイスが再起動します。**Reset** をクリックすると現在のデバイス設定が消去され、デバイスを再設定できます。
+
+- **Upgrade**: Beta Center を有効にしてベータ版ファームウェアの更新を受け取るか、Local Upgrade を使用してローカルファイルから手動でインストールできます。
+
+    ![local Upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setthing_system_local_update.png){class="glboxshadow" width=400}
+
+- **Help & Support**: Export Log Files では、トラブルシューティングやアフターサポートに使用するデバイスの実行ログを保存できます。Help Document からは、ユーザーガイド、FAQ、トラブルシューティングのドキュメントにアクセスできます。
