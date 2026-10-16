@@ -8,7 +8,7 @@ DP 代替モード (または DisplayPort 代替モード) は、特定の USB-C
 
 ## なぜそれが重要なのか
 
-DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバイスからビデオを受信するために Alt モードに依存しているためです。 USB-C ポートがサポートしている場合、Comet Q はプラグ アンド プレイで動作します。そうしないと、どの外部ディスプレイ アダプタもこの制限を解決できません。
+DP Alt Mode は、**Comet Q** がデバイスから映像を受信するために必要です。被制御デバイスは、USB-C ポート経由のネイティブ映像出力に対応している必要があります。Comet Q に直接接続する場合、DisplayLink アダプタを使用しても、この機能を追加できるとは限りません。
 
 すべての USB-C ポートが同じように作成されているわけではありません。データと電力だけを運ぶものもあります。他の人はビデオを出力することもできます。コネクタの形状は同じですが、その背後にある機能は異なります。 2 つの USB-C ポートは、見た目は同じでも動作が大きく異なる場合があります。だからこそ、USB-C ディスプレイ アクセサリを購入する前に確認することが重要です。
 
@@ -24,7 +24,7 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
 
 3. **システム設定を確認してください**。
 
-    ご使用のオペレーティング システムは、USB-C ポートが外部ディスプレイ出力をサポートしているかどうかを検出できます。以下のプラットフォーム固有の手順を参照してください。
+    システム設定は接続済みディスプレイの確認に役立ちますが、特定の USB-C ポートがネイティブの DP Alt Mode に対応しているかを常に判断できるわけではありません。メーカーの仕様と直接接続によるテストも併せて確認してください。各プラットフォームの手順は以下のとおりです。
 
     - [Windows での確認方法](#how-to-check-on-windows)
     - [Macでの確認方法](#how-to-check-on-mac)
@@ -34,20 +34,24 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
 
 4. **簡単なテストを実行します**。
 
-    USB-C - HDMI / DisplayPort ケーブルを介してデバイスをモニターまたはテレビに接続します。画面がディスプレイをミラーリングまたは拡張している場合、DP Alt モードは適切に機能しています。
+    DP Alt Mode を必要とすることが明記された USB-C - HDMI / DisplayPort ケーブルまたはアダプタを使用して、デバイスをモニターやテレビに接続します。画面のミラーリングや拡張ができれば、そのポートのネイティブ映像出力が機能しています。このテストでは DisplayLink アダプタを使用しないでください。
 
 ---
 
-## Windows での確認方法
+## Windows での確認方法 {#how-to-check-on-windows}
 
 1. `Win + X`を押して、**Device Manager**を開きます。
-2. **ユニバーサル シリアル バス コントローラー**を展開し、*"USB4"*、*"Thunderbolt"*、または *"DisplayLink"* を含むエントリを探します。
-3. または、**Settings** > **System** > **Display** > **複数のディスプレイ**を開きます。 Comet Q (または別のディスプレイ) を接続すると、モニターが表示されるはずです。
-4. ラップトップのユーザー マニュアルまたはメーカーの製品ページを確認することもできます。*「DisplayPort over USB-C」* または *「DP Alt Mode」* を検索してください。
+2. *"USB4"* または *"Thunderbolt"* を含むエントリを探します。ハードウェアの特定には役立ちますが、Device Manager だけでは特定のポートの DP Alt Mode 対応を確認できません。
+3. ノートパソコンのユーザーマニュアルやメーカーの製品ページで、対象ポートの仕様を確認します。*"DisplayPort over USB-C"* または *"DP Alt Mode"* を検索してください。
+4. Comet Q を直接接続するか、DP Alt Mode を必要とすることが明記されたアダプタを使用してディスプレイを接続します。**Settings** > **System** > **Display** > **Multiple displays** を開き、ディスプレイが検出されるか確認します。
 
-**Note**: ラップトップに複数の USB-C ポートがある場合、一部のポートのみがビデオ出力をサポートする可能性があります。各ポートを個別に確認してください。
+**注意**:
 
-## Macでの確認方法
+1. **DisplayLink は DP Alt Mode 対応の証拠にはなりません。** DisplayLink は USB データ通信で映像を転送し、USB-A でも動作します。Device Manager の DisplayLink エントリや、DisplayLink ドック経由で動作するディスプレイだけでは、ネイティブの USB-C 映像出力に対応しているとは判断できません。[Synaptics: USB-C と DisplayLink](https://www.synaptics.com/products/displaylink-graphics/usb-c){target="_blank"} を参照してください。
+
+2. ノートパソコンに複数の USB-C ポートがある場合、映像出力に対応するポートは一部だけの可能性があります。各ポートを個別に確認してください。
+
+## Macでの確認方法 {#how-to-check-on-mac}
 
 1. **アップル メニュー** > **About This Mac** > **More Info** をクリックします。
 2. 下にスクロールして、**System Report** をクリックします。
@@ -119,16 +123,18 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
         - Mac Pro (M2 UItra)
         - Mac Pro (インテル、2019)
 
-## Androidでの確認方法
+## Androidでの確認方法 {#how-to-check-on-android}
 
 1. 携帯電話の **Settings** を開き、*「ディスプレイ」*、*「HDMI」*、または *「デスクトップ モード」* を検索します。
-2. **Samsung DeX**、**Motorola Ready For**、**Huawei EasyProjection**、または *「外部ディスプレイ」* などの機能を探します。存在する場合、デバイスの USB-C ポートは DP Alt モードをサポートしています。
+2. **Samsung DeX**、**Motorola Ready For**、**Huawei EasyProjection**、*"External display"* などの機能を探します。メーカーの資料で、対象モデルが **USB-C による有線ディスプレイ接続**に対応していることを確認してください。ワイヤレス表示機能があるだけでは、DP Alt Mode 対応の証拠にはなりません。
 3. 携帯電話がサポートしている場合は、通常、モニターに接続すると *「外部ディスプレイが接続されました」* のような通知が表示されます。
-4. *USB Device Info* などの無料アプリをインストールして、ポートの機能を検査することもできます。
+4. Comet Q に直接接続するか、DP Alt Mode を必要とするアダプタを使用してディスプレイに接続し、映像出力を確認してください。USB 情報アプリだけでは、ネイティブ映像出力への対応を確実には判断できません。
 
 **Note**: 多くの低価格 Android スマートフォンは、USB-C を搭載しているにもかかわらず、DP Alt モードを省略しています。 Comet Qご購入前に必ずご確認ください。
 
-!!! note "Samsung を例として、サポートされているモデルを次に示します。"
+!!! note "有線映像出力に対応する Samsung デバイスの例"
+
+    以下の Samsung モデルは、[Samsung の DeX 互換性情報](https://www.samsung.com/us/support/answer/ANS10001955/){target="_blank"} に基づいて確認されています。
 
     - Galaxy A90 5G
     - ギャラクシーブック
@@ -155,22 +161,27 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
         - Galaxy Tab S5e
         - Galaxy Tab S6
     - ギャラクシー Z
-        - ギャラクシー Z フリップ
+        - Galaxy Z Flip7
+        - Galaxy Z Flip8
         - Galaxy Z Fold2
         - Galaxy Z Fold3
         - Galaxy Z Fold4
         - Galaxy Z Fold7
 
-## iPhone、iPadでの確認方法
+## iPhone、iPadでの確認方法 {#how-to-check-on-iphone-and-ipad}
 
-1. iPhone 15 シリーズ以降はすべて、USB-C ポートを通じて DisplayPort Alt モードをサポートしています。
+1. iPhone 15 シリーズ以降（iPhone 16e と iPhone 17e を除く）は、USB-C ポート経由の DisplayPort Alt Mode に対応しています。対象モデルについては、[Apple のディスプレイ接続に関する資料](https://support.apple.com/en-ie/105099#displays){target="_blank"} を確認してください。
 2. iPhone 14 以前は Lightning を使用しているため、互換性がありません。
 3. USB-C を備えたすべての iPad モデル (iPad Pro、iPad Air 第 4 世代以降、iPad mini 第 6 世代以降、iPad 第 10 世代以降) はビデオ出力をサポートしています。
 4. 古いLightningポートを搭載したiPadには互換性がありません。
 
-!!! note "対応機種はこちら"
+!!! note "USB-C 映像出力に対応するモデルの例"
+
+    以下の iPhone モデルは、[Apple の外部ディスプレイに関する資料](https://support.apple.com/en-ie/105099#displays){target="_blank"} に基づいて確認されています。
 
     - iPhone
+        - iPhone 18 Pro
+        - iPhone 18 Pro Max
         - iPhone 17 Pro
         - iPhone 17 Pro Max
         - iPhone 17
@@ -179,7 +190,7 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
         - iPhone 16
         - iPhone 16 プラス
         - iPhone 15 Pro
-        - iPhone 15 ProMax
+        - iPhone 15 Pro Max
         - iPhone 15
         - iPhone 15 プラス
     - iPad
@@ -207,12 +218,11 @@ DP Alt モードは、**Comet Q** にとって重要です。Comet Q はデバ�
         - iPad Pro 13 インチ (M5)
         - iPad Pro 13 インチ (M4)
 
-## ハンドヘルド、タブレット、その他のデバイス
+## ハンドヘルド、タブレット、その他のデバイス {#handhelds-tablets-and-other-devices}
 
 1. **Steam Deck**、**ROG Ally**、**Lenovo Legion Go** — すべて DP Alt モードをサポートします。
-2. **Nintendo Switch / Switch 2** — DP Alt モードをサポートします (これがドックからテレビへの出力方法です)。
-3. **USB-C を搭載したほとんどの Windows タブレット** (Surface Pro 8 以降など) — サポートされています。
-4. その他については、公式仕様ページを確認し、キーワード *「DisplayPort」*、*「Alt Mode」*、*「video Output」*、または *「Thunderbolt」* を検索してください。
+2. **USB-C を搭載したほとんどの Windows タブレット** (Surface Pro 8 以降など) — サポートされています。
+3. その他については、公式仕様ページを確認し、キーワード *「DisplayPort」*、*「Alt Mode」*、*「video Output」*、または *「Thunderbolt」* を検索してください。
 
 ---
 

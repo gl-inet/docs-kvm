@@ -24,7 +24,7 @@ Fuehren Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfasse
 
     ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9 und aelter
+## Firmware v1.9.x
 
 1. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 

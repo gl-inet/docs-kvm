@@ -84,7 +84,16 @@
 
       ![rmq1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
 
-3. プラットフォーム固有の依存関係をインストールします。
+3. ソースリポジトリをクローンし、そのディレクトリに移動します。この手順は macOS と Linux の両方で必要です。Git がインストールされていることを確認し、次のコマンドを実行してください。
+
+      ```bash
+      git clone https://github.com/gl-inet/axdl-rs.git
+      cd axdl-rs
+      ```
+
+      以降のコマンドは、このディレクトリ内で実行してください。
+
+4. プラットフォーム固有の依存関係をインストールします。
 
       - **Linux (Debian ベース)**
 
@@ -94,12 +103,6 @@
          通常のユーザーがデバイスにアクセスできるように udev ルールを構成します。
 
          ```
-         # Clone the repository
-         git clone https://github.com/gl-inet/axdl-rs.git
-
-         # Change directory
-         cd axdl-rs
-
          # Copy the udev rule file to the system directory
          sudo cp 99-axdl.rules /etc/udev/rules.d/
 
@@ -121,13 +124,13 @@
          brew install libusb
          ```
 
-         `axdl-cli` ツールをビルドする
+5. どちらのプラットフォームでも、`axdl-cli` ツールをビルドします。
 
-         ```
-         cargo build --bin axdl-cli --package axdl-cli
-         ```
+      ```bash
+      cargo build --bin axdl-cli --package axdl-cli
+      ```
 
-4. 次のコマンドを入力してファームウェアをフラッシュします。 ` /path/to/firmware.axp ` を、ダウンロードしたファームウェア ファイルへの実際のパスに置き換えてください。
+6. 次のコマンドを入力してファームウェアをフラッシュします。 ` /path/to/firmware.axp ` を、ダウンロードしたファームウェア ファイルへの実際のパスに置き換えてください。
 
       ```
       cargo run --bin axdl-cli --package axdl-cli -- --file /path/to/firmware.axp --wait-for-device
@@ -135,9 +138,9 @@
 
       ツールは `Waiting for device to be ready` を表示し、待機状態になります。
 
-5. KVM デバイスの電源を切ります。 RMQ1 の底部にある RESET ボタンを押したままにし、付属の USB-C ケーブルを使用してデバイスをコンピュータに接続します。
+7. KVM デバイスの電源を切ります。 RMQ1 の底部にある RESET ボタンを押したままにし、付属の USB-C ケーブルを使用してデバイスをコンピュータに接続します。
 
-6. フラッシュプロセスが完了するまで待ちます。
+8. フラッシュプロセスが完了するまで待ちます。
 
       **注意:** フラッシュが完了しても、デバイスは自動的に再起動しない場合があります。 RMQ1 を手動で **電源を入れ直し** (電源をオフにしてからオンにします)、新しいファームウェアをアクティブにします。
 

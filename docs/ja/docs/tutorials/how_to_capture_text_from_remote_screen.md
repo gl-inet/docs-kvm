@@ -24,7 +24,7 @@
 
     ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9 以前
+## Firmware v1.9.x
 
 1. KVM コンソールにログインします。下向き矢印をクリックして、中国語、英語、バイリンガル (Zh/En) など、優先する認識言語を選択します。
 

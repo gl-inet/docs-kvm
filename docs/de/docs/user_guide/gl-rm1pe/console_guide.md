@@ -49,7 +49,7 @@ Sie können unter Session Settings Videoeinstellungen wie Anzeigemodus, Videoqua
 
 - **View**: Diese Einstellung bestimmt die Bildschirmskalierung beim Ändern der Größe des Browserfensters. Verfügbare Optionen: Adaptive, Best Picture Quality, Original Pixel. Diese Funktion wurde mit Firmware v1.8.0 eingeführt.
 
-### Audio & Camera
+### Audio & Camera {#audio-camera}
 
 Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpassen.
 

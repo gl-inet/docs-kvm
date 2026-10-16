@@ -84,7 +84,16 @@ Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux 
 
       ![rmq1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
 
-3. Installieren Sie die plattformspezifischen Abhaengigkeiten:
+3. Klonen Sie das Quellcode-Repository und wechseln Sie in dessen Verzeichnis. Dieser Schritt ist sowohl unter macOS als auch unter Linux erforderlich. Stellen Sie sicher, dass Git installiert ist, und führen Sie dann Folgendes aus:
+
+      ```bash
+      git clone https://github.com/gl-inet/axdl-rs.git
+      cd axdl-rs
+      ```
+
+      Führen Sie die weiteren Befehle in diesem Verzeichnis aus.
+
+4. Installieren Sie die plattformspezifischen Abhängigkeiten:
 
       - **Linux (Debian-basiert)**
 
@@ -94,12 +103,6 @@ Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux 
          Konfigurieren Sie udev-Regeln, damit normale Benutzer auf das Geraet zugreifen koennen:
 
          ```
-         # Repository klonen
-         git clone https://github.com/gl-inet/axdl-rs.git
-
-         # In das Verzeichnis wechseln
-         cd axdl-rs
-
          # udev-Regeldatei in das Systemverzeichnis kopieren
          sudo cp 99-axdl.rules /etc/udev/rules.d/
 
@@ -121,13 +124,13 @@ Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux 
          brew install libusb
          ```
 
-         Erstellen Sie das Tool `axdl-cli`
+5. Erstellen Sie das Tool `axdl-cli` auf der jeweiligen Plattform:
 
-         ```
-         cargo build --bin axdl-cli --package axdl-cli
-         ```
+      ```bash
+      cargo build --bin axdl-cli --package axdl-cli
+      ```
 
-4. Geben Sie den folgenden Befehl ein, um die Firmware zu flashen. Ersetzen Sie ` /path/to/firmware.axp ` bitte durch den tatsaechlichen Pfad zu Ihrer heruntergeladenen Firmwaredatei.
+6. Geben Sie den folgenden Befehl ein, um die Firmware zu flashen. Ersetzen Sie ` /path/to/firmware.axp ` bitte durch den tatsaechlichen Pfad zu Ihrer heruntergeladenen Firmwaredatei.
 
       ```
       cargo run --bin axdl-cli --package axdl-cli -- --file /path/to/firmware.axp --wait-for-device
@@ -135,9 +138,9 @@ Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux 
 
       Das Tool zeigt `Waiting for device to be ready` an und wechselt in einen Wartezustand.
 
-5. Schalten Sie Ihr KVM-Geraet aus. Halten Sie die RESET-Taste an der Unterseite des RMQ1 gedrueckt und verbinden Sie das Geraet mit dem mitgelieferten USB-C-Kabel mit Ihrem Computer.
+7. Schalten Sie Ihr KVM-Geraet aus. Halten Sie die RESET-Taste an der Unterseite des RMQ1 gedrueckt und verbinden Sie das Geraet mit dem mitgelieferten USB-C-Kabel mit Ihrem Computer.
 
-6. Warten Sie, bis der Flashvorgang abgeschlossen ist.
+8. Warten Sie, bis der Flashvorgang abgeschlossen ist.
 
       **Hinweis:** Nach Abschluss des Flashens startet das Geraet moeglicherweise nicht automatisch neu. Fuehren Sie beim RMQ1 manuell einen **Power Cycle** durch (aus- und wieder einschalten), um die neue Firmware zu aktivieren.
 

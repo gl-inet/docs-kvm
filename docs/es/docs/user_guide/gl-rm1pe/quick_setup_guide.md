@@ -200,7 +200,7 @@ Comet PoE integra ZeroTier, lo que permite acceder a él de forma remota a trav�
 
 En la consola de Comet PoE, vaya a **Apps Center** -> **ZeroTier** y actívelo.
 
-Después, una Comet PoE y el dispositivo de control a la misma red de ZeroTier utilizando un Network ID alfanumérico de 16 caracteres. Podrá acceder a Comet de forma remota introduciendo su **IP de ZeroTier** en un navegador web del dispositivo de control, sin instalar la aplicación GLKVM.
+Después, una Comet PoE y el dispositivo de control a la misma red de ZeroTier utilizando un Network ID alfanumérico de 16 caracteres. Podrá acceder a Comet PoE de forma remota introduciendo su **IP de ZeroTier** en un navegador web del dispositivo de control, sin instalar la aplicación GLKVM.
 
 Consulte los detalles [aquí](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 

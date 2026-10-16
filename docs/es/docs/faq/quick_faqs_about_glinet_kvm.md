@@ -120,9 +120,9 @@ También puede acceder al KVM de forma local mediante un navegador. Consulte la 
 
 ---
 
-**P7. ¿Puede Comet (GL-RM1) conectarse a una red inalámbrica?**
+**P6. ¿Puede Comet (GL-RM1) conectarse a una red inalámbrica?**
 
-R7. No. Comet (GL-RM1) no admite conexiones de red inalámbricas.
+R6. No. Comet (GL-RM1) no admite conexiones de red inalámbricas.
 
 Debe conectarse a un dispositivo de red, como un router, mediante un cable Ethernet para acceder a Internet.
 

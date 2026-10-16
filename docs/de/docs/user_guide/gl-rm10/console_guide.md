@@ -51,7 +51,7 @@ Sie können unter Session Videoeinstellungen wie Anzeigemodus, Videoqualität, V
 
 - **Screen Privacy**: Wenn der Sichtschutz aktiviert ist, zeigt der externe HDMI-OUT-Bildschirm keine Inhalte mehr an. Dadurch bleibt die Privatsphäre bei Fernzugriffen gewahrt.
 
-### Audio & Camera
+### Audio & Camera {#audio-camera}
 
 Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpassen.
 

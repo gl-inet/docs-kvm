@@ -120,9 +120,9 @@ Alternativ können Sie lokal per Webbrowser auf das KVM zugreifen. Details finde
 
 ---
 
-**Q7. Kann Comet (GL-RM1) eine Verbindung zu einem drahtlosen Netzwerk herstellen?**
+**Q6. Kann Comet (GL-RM1) eine Verbindung zu einem drahtlosen Netzwerk herstellen?**
 
-A7. Nein. Comet (GL-RM1) unterstützt keine drahtlose Netzwerkverbindung.
+A6. Nein. Comet (GL-RM1) unterstützt keine drahtlose Netzwerkverbindung.
 
 Für den Internetzugang muss es über ein Ethernet-Kabel mit einem Netzwerkgerät (z. B. einem Router) verbunden werden.
 

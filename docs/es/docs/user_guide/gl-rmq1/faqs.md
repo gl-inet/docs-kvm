@@ -51,7 +51,7 @@
 
     R: Este problema suele deberse a que la función **Mouse Keys** está activada en el dispositivo iOS. Mouse Keys permite mover el cursor del ratón mediante un teclado o teclado numérico.
 
-    Para resolverlo, vaya a **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** y desactive Mouse Keys.
+    Para resolverlo, vaya a **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** y desactive Mouse Keys.
 
 ## Android {#android}
 

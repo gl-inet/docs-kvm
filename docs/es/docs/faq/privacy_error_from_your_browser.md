@@ -4,7 +4,7 @@ Al acceder al KVM GL.iNet mediante un navegador, puede aparecer la advertencia *
 
 ![Advertencia de privacidad](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/privacy_error_1.png){class="glboxshadow"}
 
-Es una advertencia de seguridad habitual que los navegadores muestran al detectar un sitio sin certificado SSL/TLS, ya que las conexiones HTTPS dependen de estos certificados para verificar la identidad del servidor y cifrar los datos.
+Esta advertencia indica que el navegador no puede validar el certificado SSL/TLS que presenta el KVM. Por ejemplo, puede que no lo haya emitido una autoridad de certificación de confianza para el navegador o que no coincida con la dirección IP o el nombre de host utilizado para acceder a la consola.
 
 ## Por qué aparece esta advertencia {#why-do-i-get-this-warning}
 
@@ -16,13 +16,13 @@ En el ejemplo anterior, **192.168.8.11** es la IP local del KVM, asignada dinám
 
 Esta IP local se utiliza para acceder a la consola KVM GL.iNet, no a un sitio web público.
 
-Sin embargo, los navegadores normalmente no distinguen entre una consola local y un sitio web público. Tratan las direcciones IP como sitios web y esperan que las conexiones HTTPS estén protegidas por certificados SSL/TLS.
+El KVM utiliza un certificado TLS predeterminado para el acceso HTTPS desde el navegador. Los navegadores validan los certificados de las consolas locales igual que los de los sitios web públicos: el certificado debe ser de confianza, ser válido y coincidir con la dirección de acceso.
 
-Un sitio web seguro utiliza un certificado SSL/TLS. Por ello, al acceder a una consola local que no tiene certificado, el navegador muestra una advertencia de seguridad por la ausencia del certificado.
+Si el navegador no confía en el certificado predeterminado, o si este no incluye la IP local o el nombre de host introducido, se muestra una advertencia. Esto no significa que el KVM carezca de certificado. HTTPS puede seguir cifrando la conexión, pero el navegador no puede verificar la identidad del KVM.
 
 ## Cómo resolver la advertencia {#how-to-resolve-the-warning}
 
-Haga clic en **Advanced** y en **Continue to "192.168.8.11"**.
+Para el acceso local, confirme primero que la dirección pertenece a su KVM. Después, haga clic en **Advanced** y en **Continue to "192.168.8.11"** (el texto exacto varía según el navegador).
 
 ![Continuar a 192.168.8.11](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/privacy_error_2.jpg){class="glboxshadow"}
 
@@ -34,7 +34,7 @@ Se abrirá la consola del KVM GL.iNet.
 
 Sí. Puede instalar y utilizar su propio certificado SSL/TLS en el KVM. Siga estos pasos.
 
-1. Solicite un certificado SSL/TLS o utilice uno autofirmado.
+1. Obtenga un certificado SSL/TLS que incluya el nombre de host o la dirección IP que utiliza para acceder al KVM. Para evitar las advertencias del navegador, el certificado debe ser válido y estar emitido por una autoridad de certificación de confianza para el navegador. Un certificado autofirmado seguirá generando una advertencia a menos que configure expresamente el dispositivo de control para que confíe en él.
 
 2. Inicie sesión en la consola KVM. Haga clic en el icono de escudo de la esquina superior derecha para acceder a **Security** -> **TLS Certificate**.
 
@@ -44,7 +44,7 @@ Sí. Puede instalar y utilizar su propio certificado SSL/TLS en el KVM. Siga est
 
     ![Cargar un certificado personalizado](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/custom_cert2.png){class="glboxshadow"}
 
-    También puede editar los archivos de configuración del KVM mediante un terminal SSH o WinSCP. El certificado y la clave generados automáticamente se encuentran en:
+    También puede sustituir el certificado y la clave privada del KVM mediante un terminal SSH o WinSCP. Ambos se encuentran en el siguiente directorio:
 
     `/etc/kvmd/user/ssl`
 

@@ -200,7 +200,7 @@ Comet PoE は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由
 
 Comet PoE のコンソールで、**Apps Center** -> **ZeroTier** に移動して有効にします。
 
-次に、Comet PoE と制御側デバイスの両方を同じ ZeroTier ネットワーク (16 文字の英数字のネットワーク ID を使用) に参加させます。その後、GLKVM をインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet にリモート アクセスできます。アプリ。
+次に、Comet PoE と制御側デバイスの両方を同じ ZeroTier ネットワーク（16 文字の英数字の Network ID を使用）に参加させます。その後、GLKVM アプリをインストールせずに、制御側デバイスの Web ブラウザに **ZeroTier IP** を入力して Comet PoE にリモートアクセスできます。
 
 詳細は[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご参照ください。
 

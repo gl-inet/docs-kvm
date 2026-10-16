@@ -4,7 +4,7 @@ Beim Zugriff auf das GL.iNet KVM per Browser kann eine Browserwarnung angezeigt 
 
 ![privacy error](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/privacy_error_1.png){class="glboxshadow"}
 
-Dies ist eine übliche Sicherheitswarnung, die Browser anzeigen, wenn sie eine Website ohne SSL/TLS-Zertifikat erkennen. HTTPS-Verbindungen verwenden Zertifikate, um die Serveridentität zu prüfen und Daten zu verschlüsseln.
+Diese Warnung bedeutet, dass der Browser das vom KVM bereitgestellte SSL/TLS-Zertifikat nicht validieren kann. Beispielsweise wurde es möglicherweise nicht von einer Zertifizierungsstelle ausgestellt, der Ihr Browser vertraut, oder es stimmt nicht mit der IP-Adresse oder dem Hostnamen überein, über den Sie auf die Konsole zugreifen.
 
 ## Warum wird diese Warnung angezeigt?
 
@@ -16,13 +16,13 @@ Im obigen Beispiel ist **192.168.8.11** die lokale IP-Adresse des KVM, die vom v
 
 Diese lokale IP-Adresse wird verwendet, um auf die GL.iNet KVM-Konsole zuzugreifen, nicht auf eine öffentliche Website.
 
-Browser unterscheiden jedoch normalerweise nicht zwischen einer lokalen Konsole und normalen öffentlichen Websites. Sie behandeln alle IP-Adressen als Websites und erwarten, dass HTTPS-Verbindungen durch SSL/TLS-Zertifikate abgesichert sind.
+Das KVM verwendet für den HTTPS-Zugriff per Browser ein Standard-TLS-Zertifikat. Browser prüfen Zertifikate lokaler Konsolen genauso wie die öffentlicher Websites: Das Zertifikat muss vertrauenswürdig und gültig sein und zur aufgerufenen Adresse passen.
 
-Eine tatsächlich sichere Website verwendet ein SSL/TLS-Zertifikat. Wenn Browser daher auf eine lokale Konsole ohne Zertifikat zugreifen, lösen sie wegen des fehlenden Zertifikats eine Sicherheitswarnung aus.
+Wenn Ihr Browser dem Standardzertifikat nicht vertraut oder dieses die eingegebene lokale IP-Adresse bzw. den Hostnamen nicht abdeckt, zeigt er eine Warnung an. Diese bedeutet nicht, dass das KVM kein Zertifikat besitzt. HTTPS kann die Verbindung weiterhin verschlüsseln, aber der Browser kann die Identität des KVM nicht überprüfen.
 
 ## Wie lässt sich die Warnung beheben?
 
-Klicken Sie auf **Advanced** und **Continue to "192.168.8.11"**.
+Prüfen Sie beim lokalen Zugriff zunächst, ob die Adresse zu Ihrem KVM gehört. Klicken Sie anschließend auf **Advanced** und **Continue to "192.168.8.11"** (der genaue Wortlaut hängt vom Browser ab).
 
 ![Continue to 192.168.8.11](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/privacy_error_2.jpg){class="glboxshadow"}
 
@@ -34,7 +34,7 @@ Danach werden Sie zur GL.iNet KVM-Konsole weitergeleitet.
 
 Ja. Sie können auf dem KVM Ihr eigenes SSL/TLS-Zertifikat installieren und verwenden. Führen Sie die folgenden Schritte aus.
 
-1. Beantragen Sie ein SSL/TLS-Zertifikat oder verwenden Sie ein selbstsigniertes Zertifikat.
+1. Besorgen Sie ein SSL/TLS-Zertifikat, das den Hostnamen oder die IP-Adresse abdeckt, über die Sie auf das KVM zugreifen. Um Browserwarnungen zu vermeiden, muss das Zertifikat gültig sein und von einer Zertifizierungsstelle stammen, der Ihr Browser vertraut. Ein selbstsigniertes Zertifikat löst weiterhin eine Warnung aus, sofern Sie Ihr steuerndes Gerät nicht ausdrücklich so konfigurieren, dass es diesem Zertifikat vertraut.
 
 2. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie oben rechts auf das Schildsymbol, um zu **Security** -> **TLS Certificate** zu wechseln.
 
@@ -44,7 +44,7 @@ Ja. Sie können auf dem KVM Ihr eigenes SSL/TLS-Zertifikat installieren und verw
 
     ![custom cert 2](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/custom_cert2.png){class="glboxshadow"}
 
-    Alternativ können Sie die Konfigurationsdateien auf dem KVM per SSH-Terminal oder WinSCP bearbeiten. Das automatisch erzeugte Zertifikat und der Schlüssel werden unter folgendem Pfad gespeichert:
+    Alternativ können Sie das Zertifikat und den privaten Schlüssel auf dem KVM per SSH-Terminal oder WinSCP ersetzen. Beide werden in folgendem Verzeichnis gespeichert:
 
     `/etc/kvmd/user/ssl`
 

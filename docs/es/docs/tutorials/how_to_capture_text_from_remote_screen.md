@@ -24,7 +24,7 @@ Siga estos pasos para capturar texto de la pantalla remota.
 
     ![OCR: texto reconocido](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9 y anteriores {#firmware-v19-and-earlier}
+## Firmware v1.9.x {#firmware-v19x}
 
 1. Inicie sesión en la consola KVM. Haga clic en la flecha hacia abajo para seleccionar el idioma de reconocimiento: chino, inglés o bilingüe (Zh/En).
 

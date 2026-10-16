@@ -8,7 +8,7 @@ Einfach gesagt: Ein einzelnes USB-C-Kabel kann Video von Ihrem Smartphone, Table
 
 ## Warum das wichtig ist
 
-DP Alt Mode ist fuer **Comet Q** wichtig, da Comet Q darueber das Videosignal von Ihrem Geraet empfaengt. Wenn Ihr USB-C-Port DP Alt Mode unterstuetzt, funktioniert Comet Q direkt per Plug and Play. Wenn nicht, kann auch kein externer Display-Adapter diese Einschraenkung umgehen.
+DP Alt Mode ist für **Comet Q** wichtig, da Comet Q darüber das Videosignal von Ihrem Gerät empfängt. Das gesteuerte Gerät muss die native Videoausgabe über seinen USB-C-Port unterstützen. Beachten Sie, dass ein DisplayLink-Adapter diese Fähigkeit für eine direkte Verbindung mit Comet Q möglicherweise nicht bereitstellen kann.
 
 Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur Daten und Strom, andere koennen auch Video ausgeben. Der Anschluss sieht gleich aus, die dahinterliegenden Funktionen koennen sich jedoch unterscheiden. Zwei USB-C-Ports koennen identisch aussehen und sich voellig unterschiedlich verhalten. Deshalb sollten Sie dies pruefen, bevor Sie USB-C-Display-Zubehoer kaufen.
 
@@ -24,7 +24,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 
 3. **Systemeinstellungen pruefen**.
 
-    Ihr Betriebssystem kann erkennen, ob der USB-C-Port externe Displayausgabe unterstuetzt. Beachten Sie die plattformspezifischen Anweisungen unten.
+    Die Systemeinstellungen können helfen, ein angeschlossenes Display zu erkennen. Sie belegen jedoch nicht immer, ob ein bestimmter USB-C-Port natives DP Alt Mode unterstützt. Ziehen Sie zusätzlich die Herstellerangaben heran und testen Sie eine direkte Verbindung. Beachten Sie die plattformspezifischen Anweisungen unten.
 
     - [Auf Windows pruefen](#auf-windows-pruefen)
     - [Auf Mac pruefen](#auf-mac-pruefen)
@@ -34,18 +34,22 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 
 4. **Schnelltest durchfuehren**.
 
-    Verbinden Sie Ihr Geraet ueber ein USB-C-auf-HDMI- oder USB-C-auf-DisplayPort-Kabel mit einem Monitor oder Fernseher. Wenn der Bildschirm gespiegelt oder erweitert wird, funktioniert DP Alt Mode ordnungsgemaess.
+    Verbinden Sie Ihr Gerät über ein USB-C-auf-HDMI- oder USB-C-auf-DisplayPort-Kabel bzw. einen Adapter, der ausdrücklich DP Alt Mode voraussetzt, mit einem Monitor oder Fernseher. Wenn der Bildschirm gespiegelt oder erweitert wird, funktioniert die native Videoausgabe an diesem Port. Verwenden Sie für diesen Test keinen DisplayLink-Adapter.
 
 ---
 
 ## Auf Windows pruefen
 
 1. Druecken Sie `Win + X` und oeffnen Sie den **Device Manager**.
-2. Erweitern Sie **Universal Serial Bus controllers** und suchen Sie nach Eintraegen, die *"USB4"*, *"Thunderbolt"* oder *"DisplayLink"* enthalten.
-3. Alternativ oeffnen Sie **Settings** > **System** > **Display** > **Multiple displays**. Wenn Comet Q oder ein anderes Display angeschlossen ist, sollte Ihr Monitor angezeigt werden.
-4. Sie koennen auch das Benutzerhandbuch Ihres Laptops oder die Produktseite des Herstellers pruefen. Suchen Sie nach *"DisplayPort over USB-C"* oder *"DP Alt Mode"*.
+2. Suchen Sie nach Einträgen mit *"USB4"* oder *"Thunderbolt"*. Diese helfen bei der Identifizierung der Hardware, aber der Device Manager allein bestätigt keine DP-Alt-Mode-Unterstützung für einen bestimmten Port.
+3. Prüfen Sie im Benutzerhandbuch Ihres Laptops oder auf der Produktseite des Herstellers die Angaben zum jeweiligen Port. Suchen Sie nach *"DisplayPort over USB-C"* oder *"DP Alt Mode"*.
+4. Schließen Sie Comet Q direkt an oder verbinden Sie ein Display über einen Adapter, der ausdrücklich DP Alt Mode voraussetzt. Öffnen Sie **Settings** > **System** > **Display** > **Multiple displays**, um zu prüfen, ob das Display erkannt wird.
 
-**Hinweis**: Wenn Ihr Laptop mehrere USB-C-Ports hat, unterstuetzen moeglicherweise nur einige davon Videoausgabe. Pruefen Sie jeden Port einzeln.
+**Hinweis**:
+
+1. **DisplayLink ist kein Nachweis für DP-Alt-Mode-Unterstützung.** DisplayLink überträgt Video über USB-Daten und funktioniert auch über USB-A. Ein DisplayLink-Eintrag im Device Manager oder ein funktionierendes Display an einem DisplayLink-Dock belegt keine native USB-C-Videoausgabe. Siehe [Synaptics: USB-C mit DisplayLink](https://www.synaptics.com/products/displaylink-graphics/usb-c){target="_blank"}.
+
+2. Wenn Ihr Laptop mehrere USB-C-Ports hat, unterstützen möglicherweise nur einige davon die Videoausgabe. Prüfen Sie jeden Port einzeln.
 
 ## Auf Mac pruefen
 
@@ -122,13 +126,15 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 ## Auf Android pruefen
 
 1. Oeffnen Sie die **Settings** Ihres Smartphones und suchen Sie nach *"display"*, *"HDMI"* oder *"desktop mode"*.
-2. Suchen Sie nach Funktionen wie **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection** oder *"External display"*. Wenn eine dieser Funktionen vorhanden ist, unterstuetzt der USB-C-Port Ihres Geraets DP Alt Mode.
+2. Suchen Sie nach Funktionen wie **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection** oder *"External display"*. Prüfen Sie in der Herstellerdokumentation, ob das genaue Modell eine **kabelgebundene USB-C-Displayverbindung** unterstützt. Eine drahtlose Displayfunktion allein belegt keine DP-Alt-Mode-Unterstützung.
 3. Wenn Ihr Smartphone DP Alt Mode unterstuetzt, sehen Sie beim Anschliessen an einen Monitor in der Regel eine Benachrichtigung wie *"External display connected"*.
-4. Sie koennen auch eine kostenlose App wie *USB Device Info* installieren, um die Port-Faehigkeiten zu pruefen.
+4. Bestätigen Sie die Videoausgabe durch eine direkte Verbindung mit Comet Q oder einem Display über einen Adapter, der DP Alt Mode voraussetzt. Apps zur Anzeige von USB-Informationen allein können die native Videoausgabe nicht zuverlässig nachweisen.
 
 **Hinweis**: Viele guenstige Android-Smartphones haben zwar USB-C, unterstuetzen aber keinen DP Alt Mode. Bestaetigen Sie die Unterstuetzung immer, bevor Sie Comet Q kaufen.
 
-!!! note "Unterstuetzte Modelle am Beispiel Samsung:"
+!!! note "Beispiele für Samsung-Geräte mit kabelgebundener Videoausgabe"
+
+    Die folgenden Samsung-Einträge wurden anhand der [DeX-Kompatibilitätsinformationen von Samsung](https://www.samsung.com/us/support/answer/ANS10001955/){target="_blank"} geprüft.
 
     - Galaxy A90 5G
     - Galaxy Book
@@ -155,7 +161,8 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
         - Galaxy Tab S5e
         - Galaxy Tab S6
     - Galaxy Z
-        - Galaxy Z Flip
+        - Galaxy Z Flip7
+        - Galaxy Z Flip8
         - Galaxy Z Fold2
         - Galaxy Z Fold3
         - Galaxy Z Fold4
@@ -163,14 +170,18 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 
 ## Auf iPhone und iPad pruefen
 
-1. Die iPhone 15 Serie und neuere Modelle unterstuetzen DisplayPort Alt Mode ueber ihren USB-C-Port.
+1. Die iPhone-15-Serie und neuere Modelle (außer iPhone 16e und iPhone 17e) unterstützen DisplayPort Alt Mode über ihren USB-C-Port. Prüfen Sie die Angaben zu Ihrem genauen Modell in [Apples Dokumentation zum Anschluss von Displays](https://support.apple.com/en-ie/105099#displays){target="_blank"}.
 2. iPhone 14 und aeltere Modelle verwenden Lightning und sind nicht kompatibel.
 3. Alle iPad-Modelle mit USB-C, einschliesslich iPad Pro, iPad Air ab der 4. Generation, iPad mini ab der 6. Generation und iPad ab der 10. Generation, unterstuetzen Videoausgabe.
 4. iPads mit aelterem Lightning-Port sind nicht kompatibel.
 
-!!! note "Unterstuetzte Modelle"
+!!! note "Beispiele für Modelle mit USB-C-Videoausgabe"
+
+    Die folgenden iPhone-Einträge wurden anhand von [Apples Dokumentation zu externen Displays](https://support.apple.com/en-ie/105099#displays){target="_blank"} geprüft.
 
     - iPhone
+        - iPhone 18 Pro
+        - iPhone 18 Pro Max
         - iPhone 17 Pro
         - iPhone 17 Pro Max
         - iPhone 17
@@ -179,7 +190,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
         - iPhone 16
         - iPhone 16 Plus
         - iPhone 15 Pro
-        - iPhone 15 ProMax
+        - iPhone 15 Pro Max
         - iPhone 15
         - iPhone 15 Plus
     - iPad
@@ -210,9 +221,8 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 ## Handhelds, Tablets und andere Geraete
 
 1. **Steam Deck**, **ROG Ally** und **Lenovo Legion Go** unterstuetzen alle DP Alt Mode.
-2. **Nintendo Switch / Switch 2** unterstuetzt DP Alt Mode. So gibt das Dock das Bild an Ihren Fernseher aus.
-3. **Die meisten Windows-Tablets** mit USB-C, z. B. Surface Pro 8 und neuer, werden unterstuetzt.
-4. Pruefen Sie bei allen anderen Geraeten die offizielle Spezifikationsseite und suchen Sie nach Begriffen wie *"DisplayPort"*, *"Alt Mode"*, *"video output"* oder *"Thunderbolt"*.
+2. **Die meisten Windows-Tablets** mit USB-C, z. B. Surface Pro 8 und neuer, werden unterstuetzt.
+3. Pruefen Sie bei allen anderen Geraeten die offizielle Spezifikationsseite und suchen Sie nach Begriffen wie *"DisplayPort"*, *"Alt Mode"*, *"video output"* oder *"Thunderbolt"*.
 
 ---
 

@@ -84,7 +84,16 @@ La herramienta oficial AXDL solo está disponible para Windows. En macOS y Linux
 
       ![RMQ1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
 
-3. Instale las dependencias de su plataforma:
+3. Clone el repositorio de código fuente y acceda a su directorio. Este paso es necesario tanto en macOS como en Linux. Compruebe que Git está instalado y ejecute:
+
+      ```bash
+      git clone https://github.com/gl-inet/axdl-rs.git
+      cd axdl-rs
+      ```
+
+      Ejecute los comandos restantes en este directorio.
+
+4. Instale las dependencias de su plataforma:
 
       - **Linux basado en Debian**
 
@@ -94,12 +103,6 @@ La herramienta oficial AXDL solo está disponible para Windows. En macOS y Linux
          Configure las reglas udev para que los usuarios normales puedan acceder al dispositivo:
 
          ```
-         # Clone the repository
-         git clone https://github.com/gl-inet/axdl-rs.git
-
-         # Change directory
-         cd axdl-rs
-
          # Copy the udev rule file to the system directory
          sudo cp 99-axdl.rules /etc/udev/rules.d/
 
@@ -121,13 +124,13 @@ La herramienta oficial AXDL solo está disponible para Windows. En macOS y Linux
          brew install libusb
          ```
 
-         Compile la herramienta `axdl-cli`.
+5. Compile la herramienta `axdl-cli` en cualquiera de las dos plataformas:
 
-         ```
-         cargo build --bin axdl-cli --package axdl-cli
-         ```
+      ```bash
+      cargo build --bin axdl-cli --package axdl-cli
+      ```
 
-4. Ejecute este comando para instalar el firmware. Sustituya ` /path/to/firmware.axp ` por la ruta real del archivo descargado.
+6. Ejecute este comando para instalar el firmware. Sustituya ` /path/to/firmware.axp ` por la ruta real del archivo descargado.
 
       ```
       cargo run --bin axdl-cli --package axdl-cli -- --file /path/to/firmware.axp --wait-for-device
@@ -135,9 +138,9 @@ La herramienta oficial AXDL solo está disponible para Windows. En macOS y Linux
 
       La herramienta mostrará `Waiting for device to be ready` y quedará a la espera.
 
-5. Apague el KVM. Mantenga pulsado RESET, en la parte inferior del RMQ1, y conecte el dispositivo al equipo con el cable USB-C incluido.
+7. Apague el KVM. Mantenga pulsado RESET, en la parte inferior del RMQ1, y conecte el dispositivo al equipo con el cable USB-C incluido.
 
-6. Espere a que finalice la instalación.
+8. Espere a que finalice la instalación.
 
       **Nota:** el dispositivo puede no reiniciarse automáticamente. **Desconecte y vuelva a conectar la alimentación** del RMQ1 para activar el nuevo firmware.
 

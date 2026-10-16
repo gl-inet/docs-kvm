@@ -357,36 +357,36 @@
     }
   },
   "docs/en/docs/faq/privacy_error_from_your_browser.md": {
-    "source_hash": "558fe8e2c511581644534d62ee2375124fdc361a98fde060b9c73514b5fb30f4",
+    "source_hash": "a28cd60876ac1bd25dbb0c9595f05053ea46a7c06b4eec2d7692814525337688",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
   "docs/en/docs/faq/quick_faqs_about_glinet_kvm.md": {
-    "source_hash": "aef6bb95375cae5e8fdfae1e511f7b711fef2eeafa31e8a03991e8dce7be8571",
+    "source_hash": "ef69aa2ae67f66265effb4ae2a1220169fd350569af1dd527816f85240451bb8",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785329097
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -748,19 +748,19 @@
     }
   },
   "docs/en/docs/tutorials/how_to_capture_text_from_remote_screen.md": {
-    "source_hash": "8050fe516cb0d030fb8a016fce0cf70e17d5d73c6b9a216a2d80c04aca1e1a08",
+    "source_hash": "917faf002b9226c0a1b624c73a4fa3b5e3e9cef088fe823c93b7bcd5ad0decf2",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1788753338
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1788753338
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -799,19 +799,19 @@
     }
   },
   "docs/en/docs/tutorials/how_to_check_usb-c_port_dp_alt_mode.md": {
-    "source_hash": "11093f10b459127232e16f54cbfa7652ad5f071352bf646a6a7d07cd8a76abf2",
+    "source_hash": "f4c1a631371d475c859f917495ca2566034e3dc410df76f4e4cc1dd927b469f4",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -935,19 +935,19 @@
     }
   },
   "docs/en/docs/tutorials/how_to_reduce_stun_public_ip_detection_frequency.md": {
-    "source_hash": "12ec0159cddd82dd1f1db89ddee3a81ae55805eea5ebb87c0d571f3e976ec5b8",
+    "source_hash": "c5c9f9219ee7808367e6ab39972e6ee7030d74322b41a10cb5bd4ae77f288a02",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785319521
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1003,19 +1003,19 @@
     }
   },
   "docs/en/docs/tutorials/how_to_unbrick_kvm_via_usb_otg.md": {
-    "source_hash": "006dd80912ba649a9d266dd74c9294f9a41837d2341083871d1401dd9642170f",
+    "source_hash": "70d847195d3b3ca82d01c9012fe13d003c7919e478bd20689051a27cfef079e3",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1788753338
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1788753338
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1177,19 +1177,19 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10/console_guide.md": {
-    "source_hash": "21889168069a971e620c8342369978e13923af5d1c14656e7339662e8141fa05",
+    "source_hash": "1dd32495e3cf83d220cd8c00d820638de7089c464c88c604d6eeb4d2ba0abd7a",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787817168
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787817168
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1249,19 +1249,19 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
-    "source_hash": "d681e2e7c437b59a55767f6021d315bad7656edb67444b96bd0628bfffec6f92",
+    "source_hash": "8eaa1a1884de6143e88c9845f9623807e505f7f114d8673c0b991942ca6016bb",
     "targets": {
       "de": {
         "model": "gpt-6",
-        "updated_at": 1792052651
+        "updated_at": 1792139366
       },
       "ja": {
         "model": "gpt-6",
-        "updated_at": 1792052651
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1321,19 +1321,19 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm1pe/console_guide.md": {
-    "source_hash": "b46940dcf4da4ecad21dd8e71c9376a3649f3e654c8d38ee039df0b7a0f3b70a",
+    "source_hash": "c590b0fef9f2d210a1df2f154a6a8a7d47b42beb6bf1770746766f0d90c6f726",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1372,19 +1372,19 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm1pe/quick_setup_guide.md": {
-    "source_hash": "501d47bc1e1f6c4a0ae255ae3794186187d16aa8ec526ec37d41cf464f73e5c8",
+    "source_hash": "5dea09e5315547504d591e1254feda8e2765429bba67b0d5692241ca31b5825c",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1786000750
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1393,19 +1393,19 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
-    "source_hash": "aa6d5a498ce6754a8caa44a5633cff65dee0f26977c5971abf7b4e1fdfdf7a34",
+    "source_hash": "dbfe0cf64190ff7c83e6eba2631ca9f2959ec3eeecd8c0cd611da31ad571ef32",
     "targets": {
       "de": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792139366
       },
       "ja": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1482,19 +1482,19 @@
     }
   },
   "docs/en/docs/user_guide/gl-rmq1/index.md": {
-    "source_hash": "4a52674d7877543c0e98635f9dcdd8b407aed58c6d68de3f97489561587ceaca",
+    "source_hash": "60fd7e1f6433a900173056bc4ab6328a4b4765d3abe011b5918ca0908d69fb46",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1786529720
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1605,19 +1605,19 @@
     }
   },
   "docs/en/overrides/home.html": {
-    "source_hash": "9745a0e54cc3e060725d50184cda122fd9aafcfbe9fff98271c193db2145af86",
+    "source_hash": "d6701216b3e4fbb3e21082c83dd59dfe68ead5f4d394cea8cf74358b92879432",
     "targets": {
       "de": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792139366
       },
       "ja": {
         "model": "gpt-6",
-        "updated_at": 1792052285
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },
@@ -1639,19 +1639,19 @@
     }
   },
   "docs/en/docs/user_guide/gl-rmq1/faqs.md": {
-    "source_hash": "6bdd6288720698081042efcc3aceaa7e794fc1d17b1ca1d8a311ff225211d2f8",
+    "source_hash": "b45aa5079f1b4e9166d1a8dee139ee9423a108c0930742337275edb674f16423",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "gpt-6",
+        "updated_at": 1792139366
       },
       "es": {
         "model": "gpt-6",
-        "updated_at": 1792054801
+        "updated_at": 1792139366
       }
     }
   },

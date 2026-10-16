@@ -51,7 +51,7 @@
 
     A: 通常は、iOS デバイスの **Mouse Keys** 機能が有効になっていることが原因です。この機能を使うと、キーボードやテンキーでマウスポインターを動かせます。
 
-    **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** を開き、Mouse Keys をオフにしてください。
+    **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** を開き、Mouse Keys をオフにしてください。
 
 ## アンドロイド
 

@@ -51,7 +51,7 @@
 
     A: Meist ist auf dem iOS-Gerät die Funktion **Mouse Keys** aktiviert. Damit lässt sich der Mauszeiger über die Tastatur oder den Ziffernblock bewegen.
 
-    Öffnen Sie **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** und deaktivieren Sie Mouse Keys.
+    Öffnen Sie **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** und deaktivieren Sie Mouse Keys.
 
 ## Android
 

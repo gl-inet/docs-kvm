@@ -51,7 +51,7 @@ You can customize video settings on the Session, such as display mode, video qua
   
 - **Screen Privacy**: When the privacy screen is enabled, the HDMI-OUT external display will no longer show content, ensuring the privacy of remote operations.
 
-### Audio & Camera {#audio--camera}
+### Audio & Camera {#audio-camera}
 
 You can adjust the Audio and Camera settings for the controlled device.
 

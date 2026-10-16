@@ -8,7 +8,7 @@ Permite que un único cable USB-C transmita vídeo desde un teléfono, tableta o
 
 ## Por qué es importante {#why-it-matters}
 
-DP Alt Mode es necesario para **Comet Q**, que depende de esta función para recibir vídeo del dispositivo. Si el puerto USB-C la admite, basta con conectar Comet Q para utilizarlo. Si no la admite, ningún adaptador de pantalla externa puede resolver esta limitación.
+DP Alt Mode es necesario para **Comet Q**, que depende de esta función para recibir vídeo del dispositivo. El dispositivo controlado debe admitir salida de vídeo nativa por su puerto USB-C. Tenga en cuenta que un adaptador DisplayLink puede no aportar esta capacidad para una conexión directa con Comet Q.
 
 No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten datos y alimentación; otros también envían vídeo. Aunque el conector sea idéntico, sus capacidades pueden ser muy diferentes. Por eso conviene comprobarlas antes de comprar un accesorio de pantalla USB-C.
 
@@ -24,7 +24,7 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
 
 3. **Compruebe los ajustes del sistema**.
 
-    El sistema operativo puede detectar si el puerto USB-C admite una pantalla externa. Consulte las instrucciones de cada plataforma.
+    Los ajustes del sistema pueden ayudar a identificar una pantalla conectada, pero no siempre permiten determinar si un puerto USB-C concreto admite DP Alt Mode nativo. Combine estas comprobaciones con las especificaciones del fabricante y una prueba de conexión directa. Consulte las instrucciones de cada plataforma.
 
     - [Cómo comprobarlo en Windows](#how-to-check-on-windows)
     - [Cómo comprobarlo en Mac](#how-to-check-on-mac)
@@ -34,18 +34,22 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
 
 4. **Haga una prueba rápida**.
 
-    Conecte el dispositivo a un monitor o televisor mediante un cable USB-C a HDMI o DisplayPort. Si puede duplicar o extender la pantalla, DP Alt Mode funciona correctamente.
+    Conecte el dispositivo a un monitor o televisor mediante un cable o adaptador USB-C a HDMI o DisplayPort que requiera expresamente DP Alt Mode. Si puede duplicar o extender la pantalla, la salida de vídeo nativa funciona en ese puerto. No utilice un adaptador DisplayLink para esta prueba.
 
 ---
 
 ## Cómo comprobarlo en Windows {#how-to-check-on-windows}
 
 1. Pulse `Win + X` y abra **Device Manager**.
-2. Expanda **Universal Serial Bus controllers** y busque entradas que mencionen *"USB4"*, *"Thunderbolt"* o *"DisplayLink"*.
-3. También puede abrir **Settings** > **System** > **Display** > **Multiple displays**. Con Comet Q u otra pantalla conectado, el monitor debería aparecer.
-4. Consulte también el manual del portátil o su página en el sitio del fabricante y busque *"DisplayPort over USB-C"* o *"DP Alt Mode"*.
+2. Busque entradas que mencionen *"USB4"* o *"Thunderbolt"*. Pueden ayudar a identificar el hardware, pero Device Manager por sí solo no confirma la compatibilidad de un puerto concreto con DP Alt Mode.
+3. Consulte las especificaciones del puerto exacto en el manual del portátil o en su página en el sitio del fabricante. Busque *"DisplayPort over USB-C"* o *"DP Alt Mode"*.
+4. Conecte Comet Q directamente, o una pantalla mediante un adaptador que requiera expresamente DP Alt Mode. Abra **Settings** > **System** > **Display** > **Multiple displays** para comprobar si se detecta la pantalla.
 
-**Nota**: si el portátil tiene varios puertos USB-C, es posible que solo algunos admitan salida de vídeo. Compruebe cada uno por separado.
+**Nota**:
+
+1. **DisplayLink no demuestra la compatibilidad con DP Alt Mode.** DisplayLink transmite vídeo mediante datos USB y también funciona por USB-A. Una entrada DisplayLink en Device Manager, o una pantalla que funcione conectada a una base DisplayLink, no demuestra que exista salida de vídeo USB-C nativa. Consulte [Synaptics: USB-C con DisplayLink](https://www.synaptics.com/products/displaylink-graphics/usb-c){target="_blank"}.
+
+2. Si el portátil tiene varios puertos USB-C, es posible que solo algunos admitan salida de vídeo. Compruebe cada uno por separado.
 
 ## Cómo comprobarlo en Mac {#how-to-check-on-mac}
 
@@ -122,13 +126,15 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
 ## Cómo comprobarlo en Android {#how-to-check-on-android}
 
 1. Abra **Settings** del teléfono y busque *"display"*, *"HDMI"* o *"desktop mode"*.
-2. Busque funciones como **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection** o *"External display"*. Si aparecen, el puerto USB-C admite DP Alt Mode.
+2. Busque funciones como **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection** o *"External display"*. Consulte la documentación del fabricante para confirmar que el modelo exacto admite una **conexión por cable a una pantalla USB-C**; una función de pantalla inalámbrica por sí sola no demuestra la compatibilidad con DP Alt Mode.
 3. Si el teléfono es compatible, normalmente aparecerá una notificación como *"External display connected"* al conectarlo a un monitor.
-4. También puede instalar una aplicación gratuita como *USB Device Info* para consultar las capacidades del puerto.
+4. Confirme la salida de vídeo conectando directamente Comet Q o una pantalla mediante un adaptador que requiera DP Alt Mode. Las aplicaciones de información USB por sí solas no permiten confirmar con fiabilidad la salida de vídeo nativa.
 
 **Nota**: muchos teléfonos Android económicos no admiten DP Alt Mode aunque tengan USB-C. Confírmelo antes de comprar Comet Q.
 
-!!! note "Modelos compatibles, tomando Samsung como ejemplo"
+!!! note "Ejemplos de dispositivos Samsung con salida de vídeo por cable"
+
+    Los modelos Samsung siguientes se han contrastado con la [información de compatibilidad de DeX de Samsung](https://www.samsung.com/us/support/answer/ANS10001955/){target="_blank"}.
 
     - Galaxy A90 5G
     - Galaxy Book
@@ -155,7 +161,8 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
         - Galaxy Tab S5e
         - Galaxy Tab S6
     - Galaxy Z
-        - Galaxy Z Flip
+        - Galaxy Z Flip7
+        - Galaxy Z Flip8
         - Galaxy Z Fold2
         - Galaxy Z Fold3
         - Galaxy Z Fold4
@@ -163,14 +170,18 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
 
 ## Cómo comprobarlo en iPhone y iPad {#how-to-check-on-iphone-and-ipad}
 
-1. Todos los modelos de la serie iPhone 15 y posteriores admiten DisplayPort Alt Mode mediante su puerto USB-C.
+1. La serie iPhone 15 y posteriores (excepto iPhone 16e y iPhone 17e) admiten DisplayPort Alt Mode mediante su puerto USB-C. Consulte la [documentación de Apple sobre la conexión de pantallas](https://support.apple.com/en-ie/105099#displays){target="_blank"} para su modelo exacto.
 2. Los iPhone 14 y anteriores utilizan Lightning y no son compatibles.
 3. Todos los iPad con USB-C admiten salida de vídeo: iPad Pro, iPad Air de 4.ª generación y posteriores, iPad mini de 6.ª generación y posteriores, e iPad de 10.ª generación y posteriores.
 4. Los iPad con el antiguo puerto Lightning no son compatibles.
 
-!!! note "Modelos compatibles"
+!!! note "Ejemplos de modelos con salida de vídeo USB-C"
+
+    Los modelos de iPhone siguientes se han contrastado con la [documentación de Apple sobre pantallas externas](https://support.apple.com/en-ie/105099#displays){target="_blank"}.
 
     - iPhone
+        - iPhone 18 Pro
+        - iPhone 18 Pro Max
         - iPhone 17 Pro
         - iPhone 17 Pro Max
         - iPhone 17
@@ -179,7 +190,7 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
         - iPhone 16
         - iPhone 16 Plus
         - iPhone 15 Pro
-        - iPhone 15 ProMax
+        - iPhone 15 Pro Max
         - iPhone 15
         - iPhone 15 Plus
     - iPad
@@ -210,9 +221,8 @@ No todos los puertos USB-C ofrecen las mismas funciones. Algunos solo transmiten
 ## Consolas portátiles, tabletas y otros dispositivos {#handhelds-tablets-and-other-devices}
 
 1. **Steam Deck**, **ROG Ally** y **Lenovo Legion Go** admiten DP Alt Mode.
-2. **Nintendo Switch / Switch 2** admiten DP Alt Mode, utilizado por la base para enviar vídeo al televisor.
-3. La **mayoría de las tabletas Windows** con USB-C, como Surface Pro 8 y posteriores, son compatibles.
-4. Para otros dispositivos, consulte la ficha técnica oficial y busque *"DisplayPort"*, *"Alt Mode"*, *"video output"* o *"Thunderbolt"*.
+2. La **mayoría de las tabletas Windows** con USB-C, como Surface Pro 8 y posteriores, son compatibles.
+3. Para otros dispositivos, consulte la ficha técnica oficial y busque *"DisplayPort"*, *"Alt Mode"*, *"video output"* o *"Thunderbolt"*.
 
 ---
 
