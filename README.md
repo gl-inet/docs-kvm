@@ -10,6 +10,7 @@ It is structured as a multilingual documentation repository. The current languag
 - Spanish: `docs/es/`
 - French: `docs/fr/`
 - Italian: `docs/it/`
+- Polish: `docs/pl/`
 
 Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
@@ -51,6 +52,7 @@ docs/
   es/
   fr/
   it/
+  pl/
 ```
 
 Each language directory contains `mkdocs.yml`, `mkdocs.fast.yml`, `docs/`, and `overrides/`.
@@ -76,6 +78,7 @@ mkdocs serve -f docs/en/mkdocs.fast.yml --dirty
 To preview the Spanish site, use `mkdocs serve -f docs/es/mkdocs.fast.yml --dirty`.
 To preview the French site, use `mkdocs serve -f docs/fr/mkdocs.fast.yml --dirty`.
 To preview the Italian site, use `mkdocs serve -f docs/it/mkdocs.fast.yml --dirty`.
+To preview the Polish site, use `mkdocs serve -f docs/pl/mkdocs.fast.yml --dirty`.
 
 ## Online View
 
@@ -85,6 +88,7 @@ To preview the Italian site, use `mkdocs serve -f docs/it/mkdocs.fast.yml --dirt
 - Spanish: [https://docs.gl-inet.com/kvm/es/](https://docs.gl-inet.com/kvm/es/)
 - French: [https://docs.gl-inet.com/kvm/fr/](https://docs.gl-inet.com/kvm/fr/)
 - Italian: [https://docs.gl-inet.com/kvm/it/](https://docs.gl-inet.com/kvm/it/)
+- Polish: [https://docs.gl-inet.com/kvm/pl/](https://docs.gl-inet.com/kvm/pl/)
 
 ## Guide
 
