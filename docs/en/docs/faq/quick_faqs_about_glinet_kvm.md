@@ -120,9 +120,9 @@ Alternatively, you can access the KVM locally via a web browser. See Q3 above fo
 
 ---
 
-**Q7. Can Comet (GL-RM1) connect to wireless network?**
+**Q6. Can Comet (GL-RM1) connect to wireless network?**
 
-A7. No. Comet (GL-RM1) does not support wireless network connection.
+A6. No. Comet (GL-RM1) does not support wireless network connection.
 
 It needs to be connected to a network device (e.g., a router) via an Ethernet cable for Internet access.
 

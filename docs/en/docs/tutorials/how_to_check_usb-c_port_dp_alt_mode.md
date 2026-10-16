@@ -8,7 +8,7 @@ In plain terms: it allows a single USB-C cable to transmit video from your phone
 
 ## Why it matters
 
-DP Alt Mode matters for **Comet Q**, as Comet Q relies on it to receive video from your device. If your USB-C port supports it, Comet Q just works — plug and play. If not, no external display adapter can resolve this limitation.
+DP Alt Mode matters for **Comet Q**, as Comet Q relies on it to receive video from your device. The controlled device must support native video output through its USB-C port. Note that a DisplayLink adapter may not add this capability for a direct connection to Comet Q.
 
 Not every USB-C port is created equal. Some only carry data and power; others can also output video. The shape of the connector is the same, but the capabilities behind it are not. Two USB-C ports can look identical and behave very differently — which is why it pays to check before buying any USB-C display accessory.
 
@@ -24,7 +24,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 3. **Check system settings**.
 
-    Your operating system can detect whether the USB-C port supports external display output. See platform-specific instructions below.
+    System settings can help identify a connected display, but they do not always establish whether a specific USB-C port supports native DP Alt Mode. Combine these checks with the manufacturer's specifications and a direct connection test. See platform-specific instructions below.
 
     - [How to check on Windows](#how-to-check-on-windows)
     - [How to check on Mac](#how-to-check-on-mac)
@@ -34,18 +34,22 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 4. **Perform a quick test**.
 
-    Connect your device to a monitor or TV via a USB-C to HDMI / DisplayPort cable. If the screen mirrors or extends your display, DP Alt Mode is functioning properly.
+    Connect your device to a monitor or TV using a USB-C to HDMI / DisplayPort cable or adapter that explicitly requires DP Alt Mode. If the screen mirrors or extends your display, native video output is working on that port. Do not use a DisplayLink adapter for this test.
 
 ---
 
 ## How to check on Windows
 
 1. Press `Win + X` and open **Device Manager**.
-2. Expand **Universal Serial Bus controllers** and look for entries that mention *"USB4"*, *"Thunderbolt"*, or *"DisplayLink"*.
-3. Alternatively, open **Settings** > **System** > **Display** > **Multiple displays**. With Comet Q (or another display) plugged in, your monitor should appear.
-4. You can also check your laptop's user manual or the manufacturer's product page — search for *"DisplayPort over USB-C"* or *"DP Alt Mode"*.
+2. Look for entries mentioning *"USB4"* or *"Thunderbolt"*. These can help identify the hardware, but Device Manager alone does not confirm DP Alt Mode support on a specific port.
+3. Check your laptop's user manual or the manufacturer's product page for the exact port — search for *"DisplayPort over USB-C"* or *"DP Alt Mode"*.
+4. Connect Comet Q directly, or connect a display using an adapter that explicitly requires DP Alt Mode. Open **Settings** > **System** > **Display** > **Multiple displays** to check whether the display is detected.
 
-**Note**: If your laptop has multiple USB-C ports, only some may support video output. Check each port individually.
+**Note**:
+
+1. **DisplayLink is not proof of DP Alt Mode support.** DisplayLink transmits video over USB data and can also work through USB-A. A DisplayLink entry in Device Manager, or a working display connected through a DisplayLink dock, does not establish native USB-C video output. See [Synaptics: USB-C with DisplayLink](https://www.synaptics.com/products/displaylink-graphics/usb-c){target="_blank"}.
+
+2. If your laptop has multiple USB-C ports, only some may support video output. Check each port individually.
 
 ## How to check on Mac
 
@@ -122,13 +126,15 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 ## How to check on Android
 
 1. Open your phone's **Settings** and search for *"display"*, *"HDMI"*, or *"desktop mode"*.
-2. Look for features such as **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection**, or *"External display"*. If any are present, your device's USB-C port supports DP Alt Mode.
+2. Look for features such as **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection**, or *"External display"*. Check the manufacturer's documentation to confirm that the exact model supports a **wired USB-C display connection**; a wireless display feature alone is not proof of DP Alt Mode support.
 3. If your phone supports it, you'll typically see a notification like *"External display connected"* when you plug into a monitor.
-4. You can also install a free app such as *USB Device Info* to inspect port capabilities.
+4. Confirm video output with a direct connection to Comet Q or a display using an adapter that requires DP Alt Mode. USB information apps alone cannot reliably establish native video output support.
 
 **Note**: Many budget Android phones omit DP Alt Mode even though they have USB-C. Always confirm before purchasing Comet Q.
 
-!!! note "Here are the supported models, using Samsung as example:"
+!!! note "Examples of Samsung devices with wired display output"
+
+    Check the exact model against [Samsung's DeX compatibility information](https://www.samsung.com/us/support/answer/ANS10001955/){target="_blank"}. Wireless DeX support alone does not confirm wired USB-C video output. These examples do not constitute a list of devices tested with Comet Q.
 
     - Galaxy A90 5G
     - Galaxy Book
@@ -155,7 +161,8 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Galaxy Tab S5e
         - Galaxy Tab S6
     - Galaxy Z
-        - Galaxy Z Flip
+        - Galaxy Z Flip7
+        - Galaxy Z Flip8
         - Galaxy Z Fold2
         - Galaxy Z Fold3
         - Galaxy Z Fold4
@@ -163,14 +170,18 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 ## How to check on iPhone and iPad
 
-1. iPhone 15 series and newer all support DisplayPort Alt Mode through their USB-C port.
+1. iPhone 15 series and newer: Apple's current external-display support list includes iPhone 15 models, iPhone 16 models (except iPhone 16e), iPhone 17 models (except iPhone 17e), and iPhone 18 Pro models. **iPhone 16e and iPhone 17e do not support USB-C external displays.** Check [Apple's display connection documentation](https://support.apple.com/en-ie/105099#displays){target="_blank"} for your exact model.
 2. iPhone 14 and earlier use Lightning and are not compatible.
 3. All iPad models with USB-C (iPad Pro, iPad Air 4th gen and later, iPad mini 6th gen and later, iPad 10th gen and later) support video output.
 4. iPads with the older Lightning port are not compatible.
 
-!!! note "Here are the supported models"
+!!! note "Examples of models with USB-C video output"
+
+    The iPhone entries below were checked against Apple's external-display documentation.
 
     - iPhone
+        - iPhone 18 Pro
+        - iPhone 18 Pro Max
         - iPhone 17 Pro
         - iPhone 17 Pro Max
         - iPhone 17
@@ -179,7 +190,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - iPhone 16
         - iPhone 16 Plus
         - iPhone 15 Pro
-        - iPhone 15 ProMax
+        - iPhone 15 Pro Max
         - iPhone 15
         - iPhone 15 Plus
     - iPad
@@ -210,9 +221,8 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 ## Handhelds, tablets and other devices
 
 1. **Steam Deck**, **ROG Ally**, **Lenovo Legion Go** — all support DP Alt Mode.
-2. **Nintendo Switch / Switch 2** — supports DP Alt Mode (this is how the dock outputs to your TV).
-3. **Most Windows tablets** with USB-C (Surface Pro 8 and newer, etc.) — supported.
-4. For anything else, check the official spec page and search for the keywords *"DisplayPort"*, *"Alt Mode"*, *"video output"*, or *"Thunderbolt"*.
+2. **Most Windows tablets** with USB-C (Surface Pro 8 and newer, etc.) — supported.
+3. For anything else, check the official spec page and search for the keywords *"DisplayPort"*, *"Alt Mode"*, *"video output"*, or *"Thunderbolt"*.
 
 ---
 

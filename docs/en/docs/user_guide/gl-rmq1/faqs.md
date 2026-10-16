@@ -51,7 +51,7 @@
 
     A: This issue is usually caused by the **Mouse Keys** feature being enabled on the iOS device. Mouse Keys allows users to move the mouse pointer using a keyboard or numeric keypad.
 
-    To resolve the issue, navigate to **Settings** -> **Accessibility** -> **AssistiveTouch** -> **Mouse Keys** and turn off Mouse Keys.
+    To resolve the issue, navigate to **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** and turn off Mouse Keys.
 
 ## Android
 

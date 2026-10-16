@@ -84,7 +84,16 @@ The official AXDL tool is Windows-only. For macOS and Linux, you can use axdl-rs
 
       ![rmq1](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/rmq1-usbotg.png){class="glboxshadow"}
 
-3. Install platform-specific dependencies:
+3. Clone the source repository and enter its directory. This step is required on both macOS and Linux. Make sure Git is installed, then run:
+
+      ```bash
+      git clone https://github.com/gl-inet/axdl-rs.git
+      cd axdl-rs
+      ```
+
+      Run the remaining commands in this directory.
+
+4. Install platform-specific dependencies:
   
       - **Linux (Debian-based)**
 
@@ -94,12 +103,6 @@ The official AXDL tool is Windows-only. For macOS and Linux, you can use axdl-rs
          Configure udev rules to allow regular users to access the device:
 
          ```
-         # Clone the repository
-         git clone https://github.com/gl-inet/axdl-rs.git
-
-         # Change directory
-         cd axdl-rs
-
          # Copy the udev rule file to the system directory
          sudo cp 99-axdl.rules /etc/udev/rules.d/
 
@@ -121,13 +124,13 @@ The official AXDL tool is Windows-only. For macOS and Linux, you can use axdl-rs
          brew install libusb
          ```
 
-         Build the `axdl-cli` tool
+5. Build the `axdl-cli` tool on either platform:
 
-         ```
-         cargo build --bin axdl-cli --package axdl-cli
-         ```
+      ```bash
+      cargo build --bin axdl-cli --package axdl-cli
+      ```
 
-4. Enter the following command to flash the firmware. Please replace the ` /path/to/firmware.axp ` with the actual path to your downloaded firmware file.
+6. Enter the following command to flash the firmware. Please replace the ` /path/to/firmware.axp ` with the actual path to your downloaded firmware file.
 
       ```
       cargo run --bin axdl-cli --package axdl-cli -- --file /path/to/firmware.axp --wait-for-device
@@ -135,9 +138,9 @@ The official AXDL tool is Windows-only. For macOS and Linux, you can use axdl-rs
 
       The tool will display `Waiting for device to be ready` and enter a waiting state.
 
-5. Power off your KVM device. Press and hold the RESET button on the bottom of the RMQ1, connect the device to your computer using the included USB-C cable.
+7. Power off your KVM device. Press and hold the RESET button on the bottom of the RMQ1, connect the device to your computer using the included USB-C cable.
   
-6. Wait until the flashing process is complete.
+8. Wait until the flashing process is complete.
 
       **Note:** Once flashing is complete, the device may not reboot automatically. Manually **power cycle** (power off and on) the RMQ1 to activate the new firmware.
 
