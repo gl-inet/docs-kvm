@@ -5,7 +5,7 @@
 Navigieren Sie in der Konsole zu **Session**. Die Einstellungsseite umfasst vier Bereiche:
 
 - [Video](#video)
-- [Audio & Camera](#audio--camera)
+- [Audio & Camera](#audio-camera)
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 

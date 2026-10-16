@@ -5,7 +5,7 @@
 Navigieren Sie in der Konsole zu **Session**. Die Einstellungsseite umfasst vier Bereiche:
 
 - [Video](#video)
-- [Audio & Camera](#audio--camera)
+- [Audio & Camera](#audio-camera)
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 
@@ -49,7 +49,7 @@ Sie können die Videoeinstellungen unter Session anpassen, z. B. Anzeigemodus, V
 
 - **View**: Diese Einstellung bestimmt die Bildschirmskalierung beim Ändern der Größe des Browserfensters. Verfügbare Optionen: Adaptive, Best Picture Quality, Original Pixel. Diese Funktion wurde mit Firmware v1.8.0 eingeführt.
 
-### Audio & Camera {#audio--camera}
+### Audio & Camera {#audio-camera}
 
 Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpassen.
 

@@ -5,7 +5,7 @@
 Klicken Sie in der Konsole auf das Symbol Session, um **Session Settings** zu öffnen. Diese Seite umfasst vier Bereiche:
 
 - [Video](#video)
-- [Audio & Camera](#audio--camera)
+- [Audio & Camera](#audio-camera)
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 

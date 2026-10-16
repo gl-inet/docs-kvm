@@ -5,7 +5,7 @@
 On the console, navigate to **Session**. The settings page includes four sections: 
 
 - [Video](#video)
-- [Audio & Camera](#audio--camera)
+- [Audio & Camera](#audio-camera)
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 
@@ -49,7 +49,7 @@ You can customize video settings on the Session, such as display mode, video qua
 
 - **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
   
-### Audio & Camera {#audio--camera}
+### Audio & Camera {#audio-camera}
 
 You can adjust the Audio and Camera settings for the controlled device.
 

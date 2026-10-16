@@ -5,7 +5,7 @@
 On the console, navigate to **Session**. The settings page includes four sections: 
 
 - [Video](#video)
-- [Audio & Camera](#audio--camera)
+- [Audio & Camera](#audio-camera)
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 

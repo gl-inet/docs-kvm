@@ -5,7 +5,7 @@
 コンソールで Session アイコンをクリックし、**Session Settings** を開きます。このページには次の 4 つのセクションがあります。
 
 - [ビデオ](#video)
-- [オーディオとカメラ](#audio--camera)
+- [オーディオとカメラ](#audio-camera)
 - [キーボード](#keyboard)
 - [マウス](#mouse)
 
@@ -49,7 +49,7 @@ Session Settings では、表示モード、画質、ビデオ転送方式、画
 
 - **View**: ブラウザウィンドウのサイズ変更時に、画面をどのようにスケーリングするかを指定します。Adaptive、Best Picture Quality、Original Pixel から選択できます。この機能はファームウェア v1.8.0 で導入されました。
 
-### オーディオとカメラ {#audio--camera}
+### オーディオとカメラ {#audio-camera}
 
 被制御デバイスのオーディオとカメラの設定を調整できます。
 

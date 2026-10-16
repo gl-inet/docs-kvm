@@ -5,7 +5,7 @@
 On the console, click the Session icon to open **Session Settings**.  This page includes four sections: 
 
 - [Video](#video)
-- [Audio & Camera](#audio--camera)
+- [Audio & Camera](#audio-camera)
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 

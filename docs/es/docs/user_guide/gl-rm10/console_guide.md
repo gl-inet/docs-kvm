@@ -5,7 +5,7 @@
 En la consola, vaya a **Session**. La página de ajustes incluye cuatro secciones:
 
 - [Vídeo](#video)
-- [Audio y cámara](#audio--camera)
+- [Audio y cámara](#audio-camera)
 - [Teclado](#keyboard)
 - [Ratón](#mouse)
 
@@ -51,7 +51,7 @@ Puede personalizar los ajustes de vídeo de Session, como el modo de visualizaci
 
 - **Screen Privacy**: Cuando se activa la privacidad de pantalla, el monitor externo HDMI-OUT deja de mostrar contenido para garantizar la privacidad de las operaciones remotas.
 
-### Audio y cámara {#audio--camera}
+### Audio y cámara {#audio-camera}
 
 Puede ajustar las opciones de audio y cámara del dispositivo controlado.
 
