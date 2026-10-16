@@ -134,7 +134,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 !!! note "Examples of Samsung devices with wired display output"
 
-    Check the exact model against [Samsung's DeX compatibility information](https://www.samsung.com/us/support/answer/ANS10001955/){target="_blank"}. Wireless DeX support alone does not confirm wired USB-C video output. These examples do not constitute a list of devices tested with Comet Q.
+    The Samsung entries below were checked against [Samsung's DeX compatibility information](https://www.samsung.com/us/support/answer/ANS10001955/){target="_blank"}.
 
     - Galaxy A90 5G
     - Galaxy Book
@@ -170,14 +170,14 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 ## How to check on iPhone and iPad
 
-1. iPhone 15 series and newer: Apple's current external-display support list includes iPhone 15 models, iPhone 16 models (except iPhone 16e), iPhone 17 models (except iPhone 17e), and iPhone 18 Pro models. **iPhone 16e and iPhone 17e do not support USB-C external displays.** Check [Apple's display connection documentation](https://support.apple.com/en-ie/105099#displays){target="_blank"} for your exact model.
+1. iPhone 15 series and newer (except iPhone 16e and iPhone 17e) support DisplayPort Alt Mode through their USB-C port. Check [Apple's display connection documentation](https://support.apple.com/en-ie/105099#displays){target="_blank"} for your exact model.
 2. iPhone 14 and earlier use Lightning and are not compatible.
 3. All iPad models with USB-C (iPad Pro, iPad Air 4th gen and later, iPad mini 6th gen and later, iPad 10th gen and later) support video output.
 4. iPads with the older Lightning port are not compatible.
 
 !!! note "Examples of models with USB-C video output"
 
-    The iPhone entries below were checked against Apple's external-display documentation.
+    The iPhone entries below were checked against [Apple's external-display documentation](https://support.apple.com/en-ie/105099#displays){target="_blank"}.
 
     - iPhone
         - iPhone 18 Pro
