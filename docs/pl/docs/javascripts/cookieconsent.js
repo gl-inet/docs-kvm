@@ -93,7 +93,7 @@
         }
     },
 
-    onConsent: ({ cookie }) => {   
+    onConsent: ({ cookie }) => {
         gtag('consent', 'update', {
             'ad_storage': cookie.categories.includes('marketing') ? 'granted' : 'denied',
             'ad_user_data': cookie.categories.includes('marketing') ? 'granted' : 'denied',

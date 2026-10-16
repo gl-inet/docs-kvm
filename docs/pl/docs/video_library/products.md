@@ -22,7 +22,7 @@ Zdalny KVM przez 5G RedCap
 
 ## Comet Pro (GL-RM10)
 
-Zdalny KVM przez Wi-Fi 
+Zdalny KVM przez Wi-Fi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QQIAW5E1KNU" title="Odtwarzacz wideo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

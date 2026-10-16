@@ -212,7 +212,7 @@ Nie wszystkie porty USB-C mają te same możliwości. Niektóre przesyłają tyl
         - iPad Pro 11‑inch (M5)
         - iPad Pro 11‑inch (M4)
         - iPad Pro 11-inch (4. generacji)
-        - iPad Pro 11-inch (3rd generation)
+        - iPad Pro 11-inch (3. generacji)
         - iPad Pro 12.9-inch (5. generacji)
         - iPad Pro 12.9-inch (6. generacji)
         - iPad Pro 13‑inch (M5)

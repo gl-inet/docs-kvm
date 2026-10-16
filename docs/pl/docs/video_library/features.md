@@ -6,7 +6,7 @@ Poznaj wybrane funkcje naszych produktów.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wKNMYdua5Ts" title="Odtwarzacz wideo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Dźwięk dwukierunkowy {#two-way-audio} 
+## Dźwięk dwukierunkowy {#two-way-audio}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KS0NYbxKWCU" title="Odtwarzacz wideo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
