@@ -9,6 +9,7 @@ It is structured as a multilingual documentation repository. The current languag
 - Japanese: `docs/ja/`
 - Spanish: `docs/es/`
 - French: `docs/fr/`
+- Italian: `docs/it/`
 
 Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
@@ -49,6 +50,7 @@ docs/
   ja/
   es/
   fr/
+  it/
 ```
 
 Each language directory contains `mkdocs.yml`, `mkdocs.fast.yml`, `docs/`, and `overrides/`.
@@ -73,6 +75,7 @@ mkdocs serve -f docs/en/mkdocs.fast.yml --dirty
 
 To preview the Spanish site, use `mkdocs serve -f docs/es/mkdocs.fast.yml --dirty`.
 To preview the French site, use `mkdocs serve -f docs/fr/mkdocs.fast.yml --dirty`.
+To preview the Italian site, use `mkdocs serve -f docs/it/mkdocs.fast.yml --dirty`.
 
 ## Online View
 
@@ -81,6 +84,7 @@ To preview the French site, use `mkdocs serve -f docs/fr/mkdocs.fast.yml --dirty
 - Japanese: [https://docs.gl-inet.com/kvm/ja/](https://docs.gl-inet.com/kvm/ja/)
 - Spanish: [https://docs.gl-inet.com/kvm/es/](https://docs.gl-inet.com/kvm/es/)
 - French: [https://docs.gl-inet.com/kvm/fr/](https://docs.gl-inet.com/kvm/fr/)
+- Italian: [https://docs.gl-inet.com/kvm/it/](https://docs.gl-inet.com/kvm/it/)
 
 ## Guide
 

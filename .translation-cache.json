@@ -21,23 +21,23 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "ab20f60809418a5368106149a4f2171665f5b27aa228803262bc4ba96ffa01d7",
+    "source_hash": "afdbaaabdf1a546c7fb9011b5f80c0ea75f712b81754b0279dfe14f6842fa3d7",
     "targets": {
       "de": {
         "model": "codex",
-        "updated_at": 1792142549
+        "updated_at": 1792143503
       },
       "ja": {
         "model": "codex",
-        "updated_at": 1792142549
+        "updated_at": 1792143503
       },
       "es": {
         "model": "codex",
-        "updated_at": 1792142549
+        "updated_at": 1792143503
       },
       "fr": {
         "model": "codex",
-        "updated_at": 1792142549
+        "updated_at": 1792143503
       }
     }
   },

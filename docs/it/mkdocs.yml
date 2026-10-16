@@ -1,0 +1,258 @@
+repo_name: gl-inet/docs-kvm
+repo_url: https://github.com/gl-inet/docs-kvm
+edit_uri: ""
+
+site_name: Documentazione GL.iNet KVM
+site_description: Documentazione dei prodotti KVM GL.iNet
+site_author: GL.iNet
+site_url: https://docs.gl-inet.com/kvm/it/
+site_dir: site
+copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
+
+theme:
+  name: material
+  language: it
+  logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+  favicon: https://static.gl-inet.com/docs/router/common/favicon.png
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - redirects:
+      redirect_maps:
+        "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/frequently_askedquestions_about_glinet_kvm.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/power_on_off_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/does_glkvm_application_support_chromeos_or_linux.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/can_comet_connect_to_wireless_network.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
+        "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
+        "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
+        "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
+        "user_guide/gl-rm10rc/control_panel_guide.md": "user_guide/gl-rm10rc/console_guide.md"
+        "faq/local_access_to_controlled_device_via_browser.md": "faq/local_access_via_browser.md"
+        "faq/remote_access_to_controlled_device_via_cloud.md": "faq/remote_access_via_cloud.md"
+        "faq/remote_access_to_controlled_device_via_glkvm_app.md": "faq/remote_access_via_glkvm_app.md"
+        "faq/remote_access_to_controlled_device_via_tailscale.md": "faq/remote_access_via_tailscale.md"
+        "faq/remote_access_to_controlled_device_via_zerotier.md": "faq/remote_access_via_zerotier.md"
+        "faq/connect_usb_ttl.md": "tutorials/how_to_access_serial_console_via_usb_ttl.md"
+        "faq/how_to_record_screen.md": "tutorials/how_to_record_remote_screen.md"
+        "faq/disable_ping_icmp.md": "tutorials/how_to_disable_ping_icmp_packets.md"
+        "faq/configure_reduce_stun_detection.md": "tutorials/how_to_reduce_stun_public_ip_detection_frequency.md"
+        "faq/how_to_set_edid_for_glkvm.md": "tutorials/how_to_set_edid_for_glkvm.md"
+        "faq/display_blank_screen_when_using_glkvm.md": "faq/remote_screen_goes_blank_no_hdmi_signal.md"
+        "faq/bios_does_not_display_in_glkvm.md": "faq/remote_screen_does_not_show_bios_interface.md"
+        "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
+        "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
+
+hooks:
+  - ../../scripts/alternate_links.py
+
+extra:
+  analytics:
+    feedback:
+      title: Questa pagina è stata utile?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Questa pagina è stata utile
+          data: 1
+          note: Grazie per il tuo feedback!
+        - icon: material/emoticon-sad-outline
+          name: Questa pagina potrebbe essere migliorata
+          data: 0
+          note: >-
+            Grazie per il tuo feedback! Aiutaci a migliorare questa pagina
+            <a href="https://glinet.feishu.cn/share/base/form/shrcnbojSI6bg5XpcptdEzhQjpc"
+            data-prefill="Which page needs improvement?" target="_blank" rel="noopener">indicandoci
+            cosa manca</a>.
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.gl-inet.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/gl-inet/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/gl.inet.wifi/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GLiNetWiFi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gl-inet.com/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCBfNEzurltlIeFFCbUgHQyg
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/glinetWiFi/
+  alternate:
+    - name: English
+      link: /kvm/en/
+      lang: en
+    - name: Deutsch
+      link: /kvm/de/
+      lang: de
+    - name: 日本語
+      link: /kvm/ja/
+      lang: ja
+    - name: Español
+      link: /kvm/es/
+      lang: es
+    - name: Français
+      link: /kvm/fr/
+      lang: fr
+    - name: Italiano
+      link: /kvm/it/
+      lang: it
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+  - stylesheets/extra.css
+  - stylesheets/docs-footer.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  - javascripts/analytics.js
+  - javascripts/extra.js
+  - javascripts/cookieconsent.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - admonition
+
+nav:
+  - Home: index.md
+  - Guide utente:
+      - Panoramica: user_guide/index.md
+      - GL-RM1/GL-RM1V2 (Comet):
+          - Guida utente di Comet: user_guide/gl-rm1/index.md
+          - Panoramica del prodotto: user_guide/gl-rm1/product_overview.md
+          - Configurazione rapida: user_guide/gl-rm1/quick_setup_guide.md
+          - Guida alla console: user_guide/gl-rm1/console_guide.md
+      - GL-RM1PE (Comet PoE):
+          - Guida utente di Comet PoE: user_guide/gl-rm1pe/index.md
+          - Panoramica del prodotto: user_guide/gl-rm1pe/product_overview.md
+          - Configurazione rapida: user_guide/gl-rm1pe/quick_setup_guide.md
+          - Guida alla console: user_guide/gl-rm1pe/console_guide.md
+      - GL-RM10 (Comet Pro):
+          - Guida utente di Comet Pro: user_guide/gl-rm10/index.md
+          - Panoramica del prodotto: user_guide/gl-rm10/product_overview.md
+          - Configurazione rapida: user_guide/gl-rm10/quick_setup_guide.md
+          - Guida alla console: user_guide/gl-rm10/console_guide.md
+      - GL-RM10RC (Comet 5G):
+          - Guida utente di Comet 5G: user_guide/gl-rm10rc/index.md
+          - Panoramica del prodotto: user_guide/gl-rm10rc/product_overview.md
+          - Configurazione rapida: user_guide/gl-rm10rc/quick_setup_guide.md
+          - Guida alla console: user_guide/gl-rm10rc/console_guide.md
+      - GL-RMQ1 (Comet Q):
+          - Guida utente di Comet Q: user_guide/gl-rmq1/index.md
+          - Panoramica del prodotto: user_guide/gl-rmq1/product_overview.md
+          - Configurazione rapida: user_guide/gl-rmq1/quick_setup_guide.md
+          - Guida alla console: user_guide/gl-rmq1/console_guide.md
+          - Domande frequenti su Comet Q: user_guide/gl-rmq1/faqs.md
+      - GL-RM4PE (Comet X):
+          - Guida utente di Comet X: user_guide/gl-rm4pe/index.md
+          - Panoramica del prodotto: user_guide/gl-rm4pe/product_overview.md
+          - Configurazione rapida: user_guide/gl-rm4pe/quick_setup_guide.md
+          - Guida alla console: user_guide/gl-rm4pe/console_guide.md
+      - GL-ATXPC (scheda ATX): user_guide/gl-atx-board/index.md
+      - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
+  - FAQ:
+      - Panoramica: faq/index.md
+      - Primi passi:
+          - Domande frequenti su GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
+          - Aggiornamento del firmware: faq/firmware_upgrade.md
+          - Download dell’app GLKVM: faq/glkvm_app.md
+          - Rilevamento della rete WAN e logica di failover di Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
+      - Accesso locale e remoto:
+          - Accesso locale tramite browser: faq/local_access_via_browser.md
+          - Accesso remoto tramite cloud: faq/remote_access_via_cloud.md
+          - Accesso remoto tramite l’app GLKVM: faq/remote_access_via_glkvm_app.md
+          - Accesso remoto tramite Tailscale: faq/remote_access_via_tailscale.md
+          - Accesso remoto tramite ZeroTier: faq/remote_access_via_zerotier.md
+          - Accesso remoto tramite NetBird: faq/remote_access_via_netbird.md
+          - Errore di privacy durante l’accesso tramite browser: faq/privacy_error_from_your_browser.md
+      - Servizio cloud:
+          - Associazione tramite codice: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - Piani del servizio KVM Cloud: faq/which_kvm_cloud_service_plan_is_right_for_you.md
+          - Condivisione dei dispositivi KVM: tutorials/how_to_share_kvm_devices_with_others.md
+          - Rimozione dell’associazione del KVM: faq/unbind.md
+          - Disattivazione del servizio cloud: faq/disable_cloud.md
+          - Eliminazione dell’account cloud: faq/delete_cloud_account.md
+      - Problemi di alimentazione del dispositivo:
+          - Il dispositivo non si accende: faq/power_cable_connected_but_device_unpowered.md
+          - Il dispositivo è bloccato: faq/debrick.md
+      - Problemi con l’app GLKVM:
+          - Dispositivo non trovato: faq/no_device_is_found_in_the_glkvm_app.md
+          - Impossibile associare il dispositivo: faq/failed_to_bind_device_to_glkvm_app.md
+          - Impossibile connettersi al dispositivo: faq/connection_failed_when_remote_access_via_glkvm_app.md
+          - Impossibile installare GLKVM su Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
+      - Problemi di visualizzazione:
+          - Lo schermo remoto mostra solo lo sfondo del desktop: faq/remote_screen_only_displays_desktop_wallpaper.md
+          - Lo schermo remoto diventa nero o non riceve il segnale HDMI: faq/remote_screen_goes_blank_no_hdmi_signal.md
+          - Lo schermo remoto non mostra l’interfaccia del BIOS: faq/remote_screen_does_not_show_bios_interface.md
+      - Problemi con tastiera e mouse:
+          - Impossibile controllare mouse e tastiera: faq/cannot_control_mouse_and_keyboard.md
+          - I puntatori del mouse non si allineano: faq/mouse_cursors_fail_to_align.md
+          - La tastiera non funziona come previsto: faq/keyboard_does_not_input_output_as_expected.md
+          - Il mouse relativo non funziona su Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
+          - Differenza tra mouse assoluto e relativo: faq/difference_between_absolute_and_relative_mouse.md
+          - Latenza del mouse quando RPi4 controlla RPi3 tramite KVM: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
+      - Problemi audio:
+          - Nessun audio dal dispositivo controllato: faq/no_audio_from_the_controlled_device.md
+          - Le impostazioni di altoparlante e microfono non vengono mantenute: faq/speaker_microphone_settings_cannot_be_retained.md
+  - Tutorial:
+      - Panoramica: tutorials/index.md
+      - Rete e sistema:
+          - Come impostare un IP statico per il KVM: tutorials/how_to_set_static_ip_for_comet.md
+          - Come modificare il nome host del KVM: tutorials/how_to_change_kvm_hostname.md
+          - Come modificare l’identità del dispositivo KVM: tutorials/how_to_change_device_identity.md
+          - Come impostare l’EDID per il KVM: tutorials/how_to_set_edid_for_glkvm.md
+          - Come acquisire testo dallo schermo remoto: tutorials/how_to_capture_text_from_remote_screen.md
+          - Come verificare la modalità DP Alt Mode di una porta USB-C: tutorials/how_to_check_usb-c_port_dp_alt_mode.md
+          - Come disattivare i pacchetti PING/ICMP in uscita dal KVM: tutorials/how_to_disable_ping_icmp_packets.md
+          - Come ridurre la frequenza di rilevamento dell’IP pubblico tramite STUN: tutorials/how_to_reduce_stun_public_ip_detection_frequency.md
+      - Servizio cloud:
+          - Come associare il KVM al cloud tramite codice dinamico: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - Come utilizzare la funzione di mosaico degli schermi nel cloud: tutorials/how_to_use_screen_wall.md
+          - Come condividere i dispositivi KVM con altri utenti: tutorials/how_to_share_kvm_devices_with_others.md
+      - Supporti virtuali:
+          - Come condividere file tramite KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
+          - Come installare un sistema operativo da remoto: tutorials/how_to_install_os_remotely.md
+          - Come registrare lo schermo remoto: tutorials/how_to_record_remote_screen.md
+      - Centro app:
+          - Come accedere al KVM da remoto tramite Tailscale: faq/remote_access_via_tailscale.md
+          - Come accedere al KVM da remoto tramite ZeroTier: faq/remote_access_via_zerotier.md
+          - Come accedere al KVM da remoto tramite NetBird: faq/remote_access_via_netbird.md
+      - Risoluzione dei problemi:
+          - Come ripristinare il KVM tramite U-Boot: faq/debrick.md
+          - Come ripristinare il KVM tramite RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
+          - Come ripristinare il KVM tramite USB OTG: tutorials/how_to_unbrick_kvm_via_usb_otg.md
+          - Come esportare i log del dispositivo e dell’app: tutorials/how_to_export_device_and_app_logs.md
+          - Come esportare i log della rete cellulare: tutorials/how_to_export_cellular_logs.md
+          - Come risolvere la latenza del mouse quando RPi4 controlla RPi3: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
+      - Hardware e USB:
+          - Come accedere alla console seriale tramite USB TTL: tutorials/how_to_access_serial_console_via_usb_ttl.md
+  - Videoteca:
+      - Panoramica: video_library/index.md
+      - Scopri i nostri prodotti: video_library/products.md
+      - Unboxing e prima configurazione: video_library/unboxing_first_set_up.md
+      - Funzionalità: video_library/features.md
+  - Novità del firmware:
+      - Panoramica: features_update/index.md
+      - Firmware v1.10: features_update/firmware_v1.10.md
+      - Firmware v1.9: features_update/firmware_v1.9.md
