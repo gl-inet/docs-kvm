@@ -27,5 +27,24 @@ of "KVM Products"; `docs/en/docs/faq/debrick.md:41` has "IP adress" and its
 macOS instructions repeat step number 4; the Mac model list in the DP Alt Mode
 tutorial contains inconsistent spellings such as "M3 UIitra" and "M2 UItra".
 
-These are source review findings, not results of hardware testing. No English
-prose or technical values were changed as part of adding Italian.
+These are source review findings, not results of hardware testing. No source
+corrections were made speculatively. The upstream video-library additions from
+`5601432` were merged and included in the Italian translation.
+
+## Validation
+
+- All six language sites passed `mkdocs build --strict` with the repository's
+  parent virtual environment. English and Italian were rebuilt after the
+  upstream video update.
+- Italian also passed the strict build using `mkdocs.fast.yml`.
+- All 90 localizable Markdown pages and all supporting files are present;
+  the six regulatory statements remain English-only.
+- Media URLs, link targets, fenced code, inline code, heading counts and
+  admonition types were compared with English.
+- The rendered Italian site has no broken internal links or fragments.
+  Equivalent-page language selection and the English-only-page fallback
+  were checked.
+- Italian text was checked for UTF-8 encoding, untranslated English prose
+  and mojibake. Product names, UI labels and technical lists remain intact.
+- The translation cache reports no missing targets or source-hash deltas
+  for Italian.

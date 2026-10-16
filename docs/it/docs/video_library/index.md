@@ -10,6 +10,7 @@ Scopri i nostri prodotti e impara a utilizzarli attraverso i video.
 
 ## Scopri i nostri prodotti
 
+- [Comet X (GL-RM4PE)](products.md#comet-x-gl-rm4pe)
 - [Comet Q (GL-RMQ1)](products.md#comet-q-gl-rmq1)
 - [Comet 5G (GL-RM10RC)](products.md#comet-5g-gl-rm10rc)
 - [Comet Pro (GL-RM10)](products.md#comet-pro-gl-rm10)
@@ -22,6 +23,8 @@ Scopri i nostri prodotti e impara a utilizzarli attraverso i video.
 - [Comet PoE (GL-RM1PE)](unboxing_first_set_up.md#comet-poe-gl-rm1pe)
 - [Comet Pro (GL-RM10)](unboxing_first_set_up.md#comet-pro-gl-rm10)
 - [Comet 5G (GL-RM10RC)](unboxing_first_set_up.md#comet-5g-gl-rm10rc)
+- [Comet Q (GL-RMQ1)](unboxing_first_set_up.md#comet-q-gl-rmq1)
+- [Comet X (GL-RM4PE)](unboxing_first_set_up.md#comet-x-gl-rm4pe)
 - [ATX Board (GL-ATXPC)](unboxing_first_set_up.md#atx-board-gl-atxpc)
 - [Fingerbot (FGB-01)](unboxing_first_set_up.md#fingerbot-fgb-01)
 

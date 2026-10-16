@@ -43,7 +43,3 @@ Segui i passaggi indicati di seguito per condividere un dispositivo KVM con altr
 ---
 
 Hai altre domande? Visita il nostro [forum della community](https://forum.gl-inet.com){target="_blank"} oppure [contattaci](https://www.gl-inet.com/contacts/){target="_blank"}.
-
-
-
-
