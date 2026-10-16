@@ -49,7 +49,7 @@ You can customize video settings on the Session settings, such as display mode, 
 
 - **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
 
-### Audio & Camera
+### Audio & Camera {#audio--camera}
 
 You can adjust the Audio and Camera settings for the controlled device.
 

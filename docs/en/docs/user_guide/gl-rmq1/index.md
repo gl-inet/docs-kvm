@@ -1,6 +1,6 @@
 # Comet Q (GL-RMQ1) User Guide
 
-Comet Q is a palm-sized device that can plug into mobile phones, Mac mini, or any laptop via USB‑C. Once connected, you may open a browser to gain full control of the target device, with no extra software installation or complex configuration required. Its built-in 1.8" touchscreen enables quick setup, status checks, and on-device action triggers directly from the unit.
+Comet Q is a palm-sized device that connects via USB-C to compatible mobile phones, Mac mini computers, and laptops (DP Alt Mode support required). Once connected, you may open a browser to gain full control of the target device, with no extra software installation or complex configuration required. Its built-in 1.8" touchscreen enables quick setup, status checks, and on-device action triggers directly from the unit.
 
 It is the world's first KVM supporting iPhones, letting you unlock, tap, swipe and fully operate an iOS device from a Windows PC — a feature previously unavailable.
 
