@@ -14,7 +14,7 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
 2. ドメインまたは IP アドレスを使用して、KVM コンソールにローカルでログインします。ここでは例としてローカル IP アドレスを使用します。
 
-    KVM の **LAN IP アドレス** (タッチスクリーンまたはルーターに表示されます) をアドレス バーに入力します。 GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
+    KVM の **LAN IP アドレス** （タッチスクリーンまたはルーターに表示されます）をアドレス バーに入力します。 GLKVM ログイン ページが表示されます。管理者パスワードを入力します。
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/1_local_access.png){class="glboxshadow"}
 
@@ -74,13 +74,13 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
 ## 制御側デバイスをバインドする {#bind-the-controlling-device}
 
-以下の例は、Windows ラップトップ (制御側デバイスとして) を ZeroTier ネットワークにバインドする方法を示しています。
+以下の例は、Windows ラップトップ（制御側デバイスとして）を ZeroTier ネットワークにバインドする方法を示しています。
 
 1. [こちら](https://www.zerotier.com/download/){target="_blank"}からラップトップにZeroTierをインストールします。
 
 2. ラップトップで ZeroTier を実行し、同じ ZeroTier ネットワークに追加します。
 
-    ZeroTier はデスクトップ上に別のウィンドウ/UI を表示しないことに注意してください。システム トレイ (右下隅) にアイコンとしてのみ存在します。すべての操作は右クリック メニューから実行されます。
+    ZeroTier はデスクトップ上に別のウィンドウ/UI を表示しないことに注意してください。システム トレイ（右下隅）にアイコンとしてのみ存在します。すべての操作は右クリック メニューから実行されます。
 
     ZeroTier アイコンを右クリックし、**Join New Network** をクリックします。ポップアップ ウィンドウで同じ **Network ID** を入力して、この PC を同じ ZeroTier ネットワークに追加します。
 
@@ -116,4 +116,4 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

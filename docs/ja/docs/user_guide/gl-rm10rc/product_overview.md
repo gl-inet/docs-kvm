@@ -14,7 +14,7 @@
 | :-------------------------------- | :------------------ |
 | ![booting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/booting.png){width="800"}| **起動中**<br>Comet 5G の電源を入れます。 GL.iNet ロゴが表示され、その後に起動進行状況バーが表示されます。プログレス バーが完全に読み込まれると、デバイスの起動が完了します。|
 | ![screen password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/passcode.png) | **画面パスワードを設定します**<br>プライバシーを保護するために、Comet 5G の画面パスワードを設定します。|
-| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/setup_network.png) | **ネットワークのセットアップ**<br>Comet 5G を 2.4GHz/5GHz Wi-Fi に接続するか、イーサネット ケーブル経由でネットワーク デバイス (ルータ、ネットワーク スイッチ、イーサネット ジャックなど) に接続します。|
+| ![setup network](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/setup_network.png) | **ネットワークのセットアップ**<br>Comet 5G を 2.4GHz/5GHz Wi-Fi に接続するか、イーサネット ケーブル経由でネットワーク デバイス（ルータ、ネットワーク スイッチ、イーサネット ジャックなど）に接続します。|
 | ![home](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/network1.png) | **ホーム画面**<br>**Top-left**: ネットワークのステータス。<br>**Top-right**: クラウドのステータスとシステム時間。<br>**Middle**: デバイスの IP アドレス。<br>**Bottom**: キーボードとマウスの信号、 HDMI信号、USB接続状態。 |
 | ![basic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/basic_settings.png) | **基本設定**<br>ホーム画面で右から左にスワイプして、**Screen Display**、**Wi-Fi**、**Cellular**、**Cloud Service** などの基本設定にアクセスします。|
 | ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/system_menu.png) | **System Menu**<br>ホーム画面で上から下にスワイプして、**Reboot** や **Lock Screen** などのシステム メニューにアクセスします。 |
@@ -39,7 +39,7 @@
 
     Comet 5G は Wi-Fi Nearby Control を備えており、有線接続を使用せずに迅速なローカル管理を可能にします。 Comet 5G の Wi-Fi ネットワーク モードを AP モードに切り替えるだけで、固有の Wi-Fi SSID が生成されます。 Comet 5G のコンソールに安全にアクセスするには、この SSID に接続します。
 
-    **Note**: AP モードをアクティブにすると、Comet 5G がアップストリーム Wi-Fi から切断され、近くのアクセスのみが提供されます (インターネット接続なし)。
+    **Note**: AP モードをアクティブにすると、Comet 5G がアップストリーム Wi-Fi から切断され、近くのアクセスのみが提供されます（インターネット接続なし）。
 
 5. **Browser-Based Remote Access**
 
@@ -88,7 +88,7 @@ Comet 5G は次の周波数帯域をサポートします。
 - 1×HDMIケーブル
 - 1 x USB ケーブル (Type-A - Type-C)
 - 1 x 電源アダプター
-- 1 x コンバーター (配送国に基づく)
+- 1 x コンバーター（配送国に基づく）
 
 ![rm10rc package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_package.png){class="glboxshadow"}
 

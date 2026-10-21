@@ -1,10 +1,10 @@
 # 被制御デバイスから音声が聞こえない場合はどうすればよいですか {#what-should-i-do-if-theres-no-audio-from-the-controlled-device}
 
-KVM と被制御デバイスを接続した後、被制御デバイスから音声が聞こえない場合 (デバイスでビデオを再生するときに音が出ないなど)、トラブルシューティングのヒントをいくつか示します。
+KVM と被制御デバイスを接続した後、被制御デバイスから音声が聞こえない場合（デバイスでビデオを再生するときに音が出ないなど）、トラブルシューティングのヒントをいくつか示します。
 
 1. KVM コンソールでスピーカーが有効になっていることを確認します。
 
-    KVM コンソールで、**Settings** -> **Remote Device Settings** -> **Speaker** に移動し、スピーカーが有効になっていることを確認します。その間、右下隅のアイコンが点灯していることを確認します (アクティブであることを示します)。
+    KVM コンソールで、**Settings** -> **Remote Device Settings** -> **Speaker** に移動し、スピーカーが有効になっていることを確認します。その間、右下隅のアイコンが点灯していることを確認します（アクティブであることを示します）。
 
     ![speaker](https://static.gl-inet.com/docs/kvm/faq/cannot_hear_audio/speaker.png){class="glboxshadow"}
 
@@ -52,4 +52,4 @@ KVM と被制御デバイスを接続した後、被制御デバイスから音�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

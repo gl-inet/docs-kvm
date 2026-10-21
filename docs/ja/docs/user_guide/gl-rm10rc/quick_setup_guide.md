@@ -26,7 +26,7 @@
 
     - 5G: SIM カードが挿入されている場合、システム起動時に 5G 接続が自動的に確立されます。
 
-    - Wi-Fi: タッチスクリーンを左にスワイプし、Comet 5G を既存の Wi-Fi ネットワーク (2.4G および 5G をサポート) に接続します。
+    - Wi-Fi: タッチスクリーンを左にスワイプし、Comet 5G を既存の Wi-Fi ネットワーク（2.4G および 5G をサポート）に接続します。
 
         ![Connect via wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/04-network-wifi.png){class="glboxshadow"}
 
@@ -113,7 +113,7 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
 
 2. クラウドサービス経由のリモートアクセス。
 
-    ブラウザを開き (Google Chrome を例にします)、アドレス バーに「`glkvm.com`」と入力します。ログインページが表示されます。 glinet アカウントを使用してログインします。
+    ブラウザを開き（Google Chrome を例にします）、アドレス バーに「`glkvm.com`」と入力します。ログインページが表示されます。 glinet アカウントを使用してログインします。
 
     ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow"}
 
@@ -221,7 +221,7 @@ Comet 5G は ZeroTier と統合されており、ZeroTier 仮想ネットワー�
 
 コンソールで、**Apps Center** -> **ZeroTier** に移動し、有効にします。
 
-次に、Comet 5G と制御側デバイスの両方を同じ ZeroTier ネットワークに参加させます (16 文字の英数字のネットワーク ID を使用)。その後、GLKVM アプリをインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet 5G にリモート アクセスできます。
+次に、Comet 5G と制御側デバイスの両方を同じ ZeroTier ネットワークに参加させます（16 文字の英数字のネットワーク ID を使用）。その後、GLKVM アプリをインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet 5G にリモート アクセスできます。
 
 詳細は[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご参照ください。
 

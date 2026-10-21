@@ -17,7 +17,7 @@
 
         1. 制御側デバイスを KVM と同じネットワークに接続します。
 
-        2. 制御側デバイスでブラウザ (Chrome または Edge を推奨) を起動し、アドレス バーに `glkvm.local` と入力します。管理者パスワードを入力してログインします。
+        2. 制御側デバイスでブラウザ（Chrome または Edge を推奨）を起動し、アドレス バーに `glkvm.local` と入力します。管理者パスワードを入力してログインします。
 
             ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
@@ -49,7 +49,7 @@
 
         1. 制御側デバイスを KVM と同じネットワークに接続します。
 
-        2. 制御側デバイスでブラウザ (Chrome または Edge を推奨) を起動し、アドレス バーに `glkvm.local` と入力します。管理者パスワードを入力してログインします。
+        2. 制御側デバイスでブラウザ（Chrome または Edge を推奨）を起動し、アドレス バーに `glkvm.local` と入力します。管理者パスワードを入力してログインします。
 
             ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_1.png){class="glboxshadow"}
 
@@ -113,4 +113,4 @@
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

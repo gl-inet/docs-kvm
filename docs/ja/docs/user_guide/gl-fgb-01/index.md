@@ -37,7 +37,7 @@ Fingerbot をインストールするには、このビデオを視聴するか�
 
     ![install 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install2.png){class="glboxshadow"}
 
-3. USB Bluetooth レシーバーを見つけて、GL.iNet KVM (例: Comet GL-RM1) の USB ポートに挿入し、フィンガーボットに蓋を戻します。
+3. USB Bluetooth レシーバーを見つけて、GL.iNet KVM（例: Comet GL-RM1）の USB ポートに挿入し、フィンガーボットに蓋を戻します。
 
     ![install 3](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install3.png){class="glboxshadow"}
 
@@ -55,7 +55,7 @@ Fingerbot をインストールするには、このビデオを視聴するか�
 
     ![install 7](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install7.png){class="glboxshadow"}
 
-7. 被制御デバイスがラップトップの場合は、電源ボタンの近くにブラケット (同梱) を固定し、締めます。
+7. 被制御デバイスがラップトップの場合は、電源ボタンの近くにブラケット（同梱）を固定し、締めます。
 
     注: ブラケットは、電源ボタンが側端にある場合にのみ使用してください。
 
@@ -89,7 +89,7 @@ Fingerbot をインストールするには、このビデオを視聴するか�
 
         ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow"}
 
-        **Test Button** (Fingerbot 内、上部カバーを取り外した後に表示) を使用して、好みのプレス レベルを見つけることもできます。
+        **Test Button** （Fingerbot 内、上部カバーを取り外した後に表示）を使用して、好みのプレス レベルを見つけることもできます。
 
         ![test button](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/test-button.png){class="glboxshadow"}
 
@@ -125,10 +125,10 @@ A4。次の GL.iNet KVM は 1 つの Fingerbot のみを制御できます。
 
 * Comet(GL-RM1)
 * Comet PoE (GL-RM1PE)
-* Cometプロ(GL-RM10)
+* Cometプロ（GL-RM10）
 * Comet 5G (GL-RM10RC)
 
-ただし、Comet X (GL-RM4PE) は、最大 4 つのフィンガーボットを同時にサポートします。 Comet X はリアパネルに 4 つの独立したチャンネルを提供します。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器 (Fingerbot や ATX ボードなど) 用の USB 2.0 ポートが付属しています。
+ただし、Comet X (GL-RM4PE) は、最大 4 つのフィンガーボットを同時にサポートします。 Comet X はリアパネルに 4 つの独立したチャンネルを提供します。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器（Fingerbot や ATX ボードなど）用の USB 2.0 ポートが付属しています。
 
 **Note**: Comet Q (GL-RMQ1) は Fingerbot では動作しません。
 
@@ -142,4 +142,4 @@ A5。アドオンは、照明スイッチなどの通常の電源スイッチを
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

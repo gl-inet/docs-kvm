@@ -16,7 +16,7 @@ GL.iNet KVM コンソールで、**Settings** -> **Video** -> **EDID** に移動
 
 **デフォルトの EDID または GL.iNet KVM はすでにほとんどのシナリオに適しており、通常は変更する必要はありません**。
 
-UEFI/BIOS の構成や解像度/リフレッシュ レートのカスタマイズなどの特別な状況の場合は、プリセット値 (例: 1920×1280/AUO/60HZ) を選択できます。
+UEFI/BIOS の構成や解像度/リフレッシュ レートのカスタマイズなどの特別な状況の場合は、プリセット値（例: 1920×1280/AUO/60HZ）を選択できます。
 
 ## カスタム EDID {#custom-edid}
 
@@ -42,4 +42,4 @@ UEFI/BIOS の構成や解像度/リフレッシュ レートのカスタマイ�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

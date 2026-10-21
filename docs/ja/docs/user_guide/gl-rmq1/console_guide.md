@@ -53,9 +53,9 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 ![audio keyboard mouse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/audio-keyboard-mouse.png){class="glboxshadow"}
 
-- **Speaker**: 被制御デバイスからのオーディオ出力を制御します (システム サウンド、ビデオ オーディオなど)。
+- **Speaker**: 被制御デバイスからのオーディオ出力を制御します（システム サウンド、ビデオ オーディオなど）。
 
-- **Microphone**: ローカル オーディオ (ユーザーの声など) を制御側デバイスからリモート エンドに送信します。ワンクリックのミュート、およびマイクをアクティブにするための長押しショートカット (つまり、Press To Speak) をサポートしています。
+- **Microphone**: ローカル オーディオ（ユーザーの声など）を制御側デバイスからリモート エンドに送信します。ワンクリックのミュート、およびマイクをアクティブにするための長押しショートカット（つまり、Press To Speak）をサポートしています。
 
     ![mic settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/mic-settings.png){class="glboxshadow"}
 
@@ -79,7 +79,7 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 - **Scroll Rate**: マウス ホイールのスクロール速度、またはホイール 1 回転ごとにスクロールされる行/単位数を指し、リモコン上でコンテンツが移動する速度に影響します。
 
-- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。
+- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向（自然スクロール）に移動するか、逆方向（従来のスクロール）に移動するかを決定します。
 
     標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。
 
@@ -288,11 +288,11 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ### フルスクリーン {#fullscreen}
 
-右上隅の全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
+右上隅の全画面アイコン（四角形）をクリックして、全画面モードに切り替えます。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/fullscreen1.png){class="glboxshadow"}
 
-全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
+全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン（格子状）をクリックします。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/fullscreen2.png){class="glboxshadow"}
 

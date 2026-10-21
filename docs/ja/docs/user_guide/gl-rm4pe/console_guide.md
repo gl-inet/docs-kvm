@@ -185,7 +185,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 まず、対応するユーザー ガイドを参照して、アクセサリを被制御デバイスに接続します。
 
-- [フィンガーボット(FGB-01) ユーザーガイド](../gl-fgb-01/index.md){target="_blank"}
+- [フィンガーボット（FGB-01）ユーザーガイド](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX ボード (GL-ATXPC) ユーザーガイド](../gl-atx-board/index.md){target="_blank"}
 
@@ -196,8 +196,6 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
 
 本体の設定に従って動作します。
-
-![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
 
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories_fingerbot.png){class="glboxshadow"}
 
@@ -216,6 +214,8 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 ATX ボードはコンピューターのケースに取り付けられており、デバイスの電源オン/オフ/再起動をリモートで制御します。
 
 本体の設定に従って動作します。
+
+![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
 
 - **電源 (短く押す)**: 通常の電源投入またはシステムのウェイクアップに使用されます。
 
@@ -387,7 +387,7 @@ Comet X は、ローカルまたはリモート制御のために最大 4 台の
 
     ![switch signal](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/switch-signal.png){class="glboxshadow"}
 
-3. (オプション) 必要に応じてポート名をカスタマイズします。
+3. （オプション）必要に応じてポート名をカスタマイズします。
 
     ![port edit 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/port_edit1.png){class="glboxshadow"}
 
@@ -405,11 +405,11 @@ Comet X は、ローカルまたはリモート制御のために最大 4 台の
 
 ### フルスクリーン {#fullscreen}
 
-右上隅にある全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
+右上隅にある全画面アイコン（四角形）をクリックして、全画面モードに切り替えます。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_fullscreen_1.png){class="glboxshadow"}
 
-全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
+全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン（格子状）をクリックします。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 

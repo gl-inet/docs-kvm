@@ -2,6 +2,12 @@
 
 Una breve presentación de nuestros productos y un vistazo a nuestras últimas novedades.
 
+## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
+
+KVM remoto de cuatro puertos con soporte PoE
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9tzhymgJ5a4" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Comet Q (GL-RMQ1) {#comet-q-gl-rmq1}
 
 KVM USB-C todo en uno para controlar móviles y portátiles de forma remota

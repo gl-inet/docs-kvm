@@ -92,7 +92,7 @@ Comet PoE にリモートでアクセスするには、クラウド サービス
 
 2. クラウドサービス経由のリモートアクセス。
 
-    ブラウザを開き (Google Chrome を例にします)、アドレス バーに「`glkvm.com`」と入力します。ログインページが表示されます。 glinet アカウントを使用してログインします。
+    ブラウザを開き（Google Chrome を例にします）、アドレス バーに「`glkvm.com`」と入力します。ログインページが表示されます。 glinet アカウントを使用してログインします。
 
     ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow"}
 

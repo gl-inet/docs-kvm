@@ -34,7 +34,7 @@ NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の�
 
 ## 制御側デバイスをバインドする {#bind-the-controlling-device}
 
-以下の例は、Windows ラップトップ (制御側デバイスとして) を NetBird ネットワークにバインドする方法を示しています。
+以下の例は、Windows ラップトップ（制御側デバイスとして）を NetBird ネットワークにバインドする方法を示しています。
 
 1. [ここから](https://app.netbird.io/install){target="_blank"} からラップトップに NetBird をインストールします。
 
@@ -42,7 +42,7 @@ NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の�
 
 2. ラップトップで NetBird を実行し、同じ NetBird ネットワークに追加します。
 
-    NetBird はデスクトップ上に別のウィンドウ/UI を表示しません。システム トレイ (右下隅) にアイコンとしてのみ存在します。すべての操作は右クリック メニューから実行されます。
+    NetBird はデスクトップ上に別のウィンドウ/UI を表示しません。システム トレイ（右下隅）にアイコンとしてのみ存在します。すべての操作は右クリック メニューから実行されます。
 
     NetBird アイコンを右クリックし、**Connect** をクリックします。
 
@@ -66,7 +66,7 @@ NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の�
 
 1. ラップトップで、NetBird ダッシュボードにサインインし、**Peers** に移動します。
 
-    KVM デバイスを見つけて、その **NetBird IP** (この例では `100.100.141.229`) をクリックして仮想 IP をコピーします。
+    KVM デバイスを見つけて、その **NetBird IP** （この例では `100.100.141.229`）をクリックして仮想 IP をコピーします。
 
     ![kvm netbird ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/11-kvm-netbird-ip.png){class="glboxshadow"}
 
@@ -84,4 +84,4 @@ NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

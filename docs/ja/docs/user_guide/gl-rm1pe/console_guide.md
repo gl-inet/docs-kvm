@@ -179,7 +179,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 まず、アクセサリを被制御デバイスに接続するための対応するユーザー ガイドを参照してください。
 
-- [フィンガーボット(FGB-01) ユーザーガイド](../gl-fgb-01/index.md){target="_blank"}
+- [フィンガーボット（FGB-01）ユーザーガイド](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX ボード (GL-ATXPC) ユーザーガイド](../gl-atx-board/index.md){target="_blank"}
 
@@ -393,11 +393,11 @@ Comet PoE は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ### フルスクリーン {#fullscreen}
 
-右上隅にある全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
+右上隅にある全画面アイコン（四角形）をクリックして、全画面モードに切り替えます。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbar_fullscreen_1.png){class="glboxshadow"}
 
-全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
+全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン（格子状）をクリックします。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 

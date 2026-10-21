@@ -55,9 +55,9 @@ Session では、表示モード、ビデオ品質、ビデオ伝送方式、画
 
 ![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/session-audio-camera.png){class="glboxshadow"}
 
-- **Speaker**: 被制御デバイスからのオーディオ出力を制御します (システム サウンド、ビデオ オーディオなど)。
+- **Speaker**: 被制御デバイスからのオーディオ出力を制御します（システム サウンド、ビデオ オーディオなど）。
 
-- **Microphone**: ローカル オーディオ (ユーザーの声など) を制御側デバイスからリモート エンドに送信します。ワンクリックのミュート、およびマイクをアクティブにするための長押しショートカット (つまり、Press To Speak) をサポートしています。
+- **Microphone**: ローカル オーディオ（ユーザーの声など）を制御側デバイスからリモート エンドに送信します。ワンクリックのミュート、およびマイクをアクティブにするための長押しショートカット（つまり、Press To Speak）をサポートしています。
 
     **注意**: ショートカットは、使用する前に [Settings](#usb-devices) で手動で設定する必要があります。
 
@@ -91,7 +91,7 @@ Session では、表示モード、ビデオ品質、ビデオ伝送方式、画
 
 - **Scroll Rate**: マウス ホイールのスクロール速度、またはホイール 1 回転ごとにスクロールされる行/単位数を指し、リモコン上でコンテンツが移動する速度に影響します。
 
-- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向 (自然スクロール) に移動するか、逆方向 (従来のスクロール) に移動するかを決定します。
+- **Scroll Direction**: マウス ホイールを上下にスクロールすると、リモート画面上のコンテンツが同じ方向（自然スクロール）に移動するか、逆方向（従来のスクロール）に移動するかを決定します。
 
     標準、垂直反転、水平反転、両反転の 4 つの方向モードが利用可能です。
 
@@ -137,7 +137,7 @@ OCR はテキスト認識機能で、リモート画面上の領域を選択し�
 
 ![copy text](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/ocr_copy_text.png){class="glboxshadow"}
 
-この機能を使用すると、リモート画面 (つまり、被制御デバイス) からテキストを簡単にキャプチャし、それをローカル制御側デバイスにコピーできます。
+この機能を使用すると、リモート画面（つまり、被制御デバイス）からテキストを簡単にキャプチャし、それをローカル制御側デバイスにコピーできます。
 
 ### ショートカット {#shortcut}
 
@@ -179,7 +179,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 まず、対応するユーザー ガイドを参照して、アクセサリを被制御デバイスに接続します。
 
-- [フィンガーボット(FGB-01) ユーザーガイド](../gl-fgb-01/index.md){target="_blank"}
+- [フィンガーボット（FGB-01）ユーザーガイド](../gl-fgb-01/index.md){target="_blank"}
 
 - [ATX ボード (GL-ATXPC) ユーザーガイド](../gl-atx-board/index.md){target="_blank"}
 
@@ -393,11 +393,11 @@ Comet 5G は NetBird と統合されており、NetBird 仮想ネットワーク
 
 ### フルスクリーン {#fullscreen}
 
-右上隅にある全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
+右上隅にある全画面アイコン（四角形）をクリックして、全画面モードに切り替えます。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_fullscreen_1.png){class="glboxshadow"}
 
-全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン (格子状) をクリックします。
+全画面表示を終了するには、**Esc** キーを押し続けるか、右上隅にある全画面表示を終了するアイコン（格子状）をクリックします。
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 
@@ -502,7 +502,7 @@ Preferences では、Layout Preferences、System Settings、Device Screen の設
 
     ![ethernet dhcp](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_dhcp.png){class="glboxshadow" width=600}
 
-    静的 IP アドレスを設定する場合は、プロトコルを **Static** に切り替え、必要なネットワーク パラメーター (IP アドレス、ネットマスク、ゲートウェイなど) をそれに応じて入力します。
+    静的 IP アドレスを設定する場合は、プロトコルを **Static** に切り替え、必要なネットワーク パラメーター（IP アドレス、ネットマスク、ゲートウェイなど）をそれに応じて入力します。
 
     ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_static.png){class="glboxshadow" width=600}
 
@@ -516,7 +516,7 @@ Preferences では、Layout Preferences、System Settings、Device Screen の設
 
         このモードは、Comet 5G が接続できる既存のワイヤレスネットワークがある場合に適しています。
 
-        このモードでは、Comet 5G はワイヤレス クライアントとして機能し、上流の Wi-Fi ホットスポット (ルーターなど) をスキャンして接続し、ネットワーク アクセスを取得できます。
+        このモードでは、Comet 5G はワイヤレス クライアントとして機能し、上流の Wi-Fi ホットスポット（ルーターなど）をスキャンして接続し、ネットワーク アクセスを取得できます。
 
         ![wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_wifi.png){class="glboxshadow"}
 
@@ -544,7 +544,7 @@ Preferences では、Layout Preferences、System Settings、Device Screen の設
 
     ![cellular](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/setting_network_cellular.png){class="glboxshadow"}
 
-    - **SIM Settings** を使用すると、携帯電話の設定を管理できます (APN や MTU の調整など)。
+    - **SIM Settings** を使用すると、携帯電話の設定を管理できます（APN や MTU の調整など）。
 
     - **AT コマンド** を使用すると、AT コマンドを実行してモデム関連の出力を取得できます。
 

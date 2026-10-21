@@ -185,7 +185,7 @@ nav:
           - Kurze FAQs zu GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Firmware-Upgrade: faq/firmware_upgrade.md
           - GLKVM-App herunterladen: faq/glkvm_app.md
-          - WAN Network Detection and Failover-Logik von Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
+          - WAN-Netzwerkerkennung und Failover-Logik von Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Lokaler Zugriff und Fernzugriff:
           - Lokaler Zugriff ueber den Browser: faq/local_access_via_browser.md
           - Fernzugriff ueber Cloud: faq/remote_access_via_cloud.md

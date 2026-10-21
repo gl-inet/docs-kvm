@@ -22,7 +22,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsPceu7OKco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cometプロ(GL-RM10) {#comet-pro-gl-rm10}
+## Cometプロ（GL-RM10） {#comet-pro-gl-rm10}
 
 開封ビデオ
 
@@ -42,13 +42,29 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Comet Q (GL-RMQ1) {#comet-q-gl-rmq1}
+
+開封ビデオ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_SC_HSsBDOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+セットアップビデオ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
+
+開封ビデオ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## ATX ボード (GL-ATXPC) {#atx-board-gl-atxpc}
 
 セットアップビデオ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## フィンガーボット(FGB-01) {#fingerbot-fgb-01}
+## フィンガーボット（FGB-01） {#fingerbot-fgb-01}
 
 開封ビデオ
 

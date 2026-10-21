@@ -24,7 +24,7 @@ A2.被制御デバイスにソフトウェアをインストールする必要�
 
     Comet 5G は Wi-Fi Nearby Control を備えており、有線接続を使用せずに迅速なローカル管理を可能にします。 Comet 5G の Wi-Fi ネットワーク モードを AP モードに切り替えるだけで、固有の Wi-Fi SSID が生成されます。 Comet 5G のコンソールに安全にアクセスするには、この SSID に接続します。詳細は[こちら](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control)をクリックしてください。
 
-    AP モードをアクティブにすると、Comet 5G が上流の Wi-Fi から切断され、近くのアクセスのみが提供されます (インターネット接続なし)。
+    AP モードをアクティブにすると、Comet 5G が上流の Wi-Fi から切断され、近くのアクセスのみが提供されます（インターネット接続なし）。
 
 ??? "ローカルコントロール(Comet Xのみ)"
 
@@ -97,8 +97,8 @@ A3。通常、GL.iNet KVM には、さまざまな方法でローカルまたは
 
 さらに、一部の GL.iNet KVM モデルは、Nearby Control または Local Control をサポートしており、他のルーターに接続せずにオンサイトでアクセスできます。
 
-- [ニアバイコントロール(Comet 5Gのみ)](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control){target="_blank"}
-- [ローカルコントロール(Comet Xのみ)](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control){target="_blank"}
+- [ニアバイコントロール（Comet 5Gのみ）](../user_guide/gl-rm10rc/quick_setup_guide.md#nearby-control){target="_blank"}
+- [ローカルコントロール（Comet Xのみ）](../user_guide/gl-rm4pe/quick_setup_guide.md#local-control){target="_blank"}
 
 ---
 
@@ -124,7 +124,7 @@ A5。いいえ。現在、GLKVM アプリは Chrome または Linux OS へのイ
 
 A6. いいえ。 Comet (GL-RM1) はワイヤレスネットワーク接続をサポートしていません。
 
-インターネットにアクセスするには、イーサネット ケーブルを介してネットワーク デバイス (ルーターなど) に接続する必要があります。
+インターネットにアクセスするには、イーサネット ケーブルを介してネットワーク デバイス（ルーターなど）に接続する必要があります。
 
 Wi-Fi をサポートする KVM をご希望の場合は、次のモデルを検討してください。
 
@@ -140,11 +140,11 @@ Wi-Fi をサポートする KVM をご希望の場合は、次のモデルを検
 
 A1。 GL.iNet KVM を使用すると、以下の方法でターゲット デバイスの電源をリモートでオン/オフできます。
 
-- Wake-on-LAN (組み込みソフトウェア サービス)
+- Wake-on-LAN（組み込みソフトウェア サービス）
 
-- [ATX ボード](../user_guide/gl-atx-board/index.md){target="_blank"} (別売り。Comet Q では動作しません。)
+- [ATX ボード](../user_guide/gl-atx-board/index.md){target="_blank"} （別売り。Comet Q では動作しません。）
 
-- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} (別売り。Comet Q では動作しません。)
+- [FingerBot](../user_guide/gl-fgb-01/index.md){target="_blank"} （別売り。Comet Q では動作しません。）
 
 ---
 
@@ -174,13 +174,13 @@ A2。次の GL.iNet KVM は 1 つのターゲット デバイスのみを制御�
 
 * Comet(GL-RM1)
 * Comet PoE (GL-RM1PE)
-* Cometプロ(GL-RM10)
+* Cometプロ（GL-RM10）
 * Comet 5G (GL-RM10RC)
 * CometQ(GL-RMQ1)
 
 ただし、Comet X (GL-RM4PE) は、同時に最大 4 台のターゲット デバイスに接続できますが、一度に制御できるデバイスは 1 台のみです。現場にいる場合はフロント パネルの物理ボタンを使用して、または離れている場合はリモート コンソールを使用して、接続された 4 つのデバイスをすばやく切り替えることができます。
 
-Comet X (GL-RM4PE) は、リアパネルに 4 つの独立したチャンネルを備えています。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器 (Fingerbot や ATX ボードなど) 用の USB 2.0 ポートが付属しています。
+Comet X (GL-RM4PE) は、リアパネルに 4 つの独立したチャンネルを備えています。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器（Fingerbot や ATX ボードなど）用の USB 2.0 ポートが付属しています。
 
 ---
 
@@ -194,7 +194,7 @@ A3。 Wake-on-LAN (WOL) は、ネットワーク経由でコンピューター�
 
 A4。はい。 KVM コンソールでマウス ジグルを有効にできます。
 
-マウス ジグラー機能は、マウスの微妙な周期的な動きをシミュレートし、リモート会議やサーバー管理中など、長時間非アクティブな状態が続いてコンピューター (つまり、制御対象のデバイス) がスリープ状態になるのを防ぎます。
+マウス ジグラー機能は、マウスの微妙な周期的な動きをシミュレートし、リモート会議やサーバー管理中など、長時間非アクティブな状態が続いてコンピューター（つまり、制御対象のデバイス）がスリープ状態になるのを防ぎます。
 
 ---
 
@@ -204,4 +204,4 @@ A5。はい。 KVM コンソールでスピーカーとマイクを有効にし�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

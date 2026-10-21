@@ -1,6 +1,6 @@
 # ATX ボード (GL-ATXPC) ユーザーガイド {#atx-board-gl-atxpc-user-guide}
 
-ATX ボードは、GL.iNet KVM デバイスのオプションのアクセサリです。スマート電源管理モジュールとして、物理的な電源ボタン操作 (電源オン/オフ/再起動) をシミュレートすることで、被制御デバイスの電源を遠隔制御できます。
+ATX ボードは、GL.iNet KVM デバイスのオプションのアクセサリです。スマート電源管理モジュールとして、物理的な電源ボタン操作（電源オン/オフ/再起動）をシミュレートすることで、被制御デバイスの電源を遠隔制御できます。
 
 ATX ボードは被制御デバイスのシャーシに取り付けられ、より隠蔽された安定した電源管理を提供します。
 
@@ -34,7 +34,7 @@ ATX ボードは被制御デバイスのシャーシに取り付けられ、よ�
 
     1. インターフェイス 4 と 5 は相互に接続できます。つまり、インターフェイス 5 はコンピュータ パネルの制御ラインに接続でき、インターフェイス 4 は F_PANEL に接続できます。
 
-    2. ATX ボードには 2 つの LED があり、両方の LED の動作は電源 LED と同じです (青は ATX システムを示し、緑は PC の電源を示します)。 ATX ボードには HDD LED がありません。ボード上の LED ステータスは、コンピュータ パネルの電源 LED ステータスと一致します。
+    2. ATX ボードには 2 つの LED があり、両方の LED の動作は電源 LED と同じです（青は ATX システムを示し、緑は PC の電源を示します）。 ATX ボードには HDD LED がありません。ボード上の LED ステータスは、コンピュータ パネルの電源 LED ステータスと一致します。
 
 インターフェイス 4/5 図:
 
@@ -72,7 +72,7 @@ ATX パッケージで提供される 9 ピン ワイヤ セットを使用す�
 
     ![10-1pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/10-1pin_panel_1.png){class="glboxshadow"}
 
-    接続については、下の図を参照してください。シルクスクリーン印刷 (つまり、HDDLED±、RESET SW、POWER SW、POWERLED+ などの文字) が外側に向かって見え、内側に向かって隠れていないことを確認してください。
+    接続については、下の図を参照してください。シルクスクリーン印刷（つまり、HDDLED±、RESET SW、POWER SW、POWERLED+ などの文字）が外側に向かって見え、内側に向かって隠れていないことを確認してください。
 
     ![10-1pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/10-1pin_panel_2.jpg){class="glboxshadow"}
     <small>正面図</small>
@@ -88,7 +88,7 @@ ATX パッケージで提供される 9 ピン ワイヤ セットを使用す�
 
     ![20-5pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-5pin_panel_1.jpg){class="glboxshadow"}
 
-    接続については、下の図を参照してください。シルクスクリーン印刷 (つまり、HDDLED±、RESET SW、POWER SW、POWERLED+ などの文字) が外側に向かって見え、内側に向かって隠れていないことを確認してください。
+    接続については、下の図を参照してください。シルクスクリーン印刷（つまり、HDDLED±、RESET SW、POWER SW、POWERLED+ などの文字）が外側に向かって見え、内側に向かって隠れていないことを確認してください。
 
     ![20-5pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-5pin_panel_2.jpg){class="glboxshadow"}
     <small>正面図</small>
@@ -104,7 +104,7 @@ ATX パッケージで提供される 9 ピン ワイヤ セットを使用す�
 
     ![20-8pin panel 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-8pin_panel_1.jpg){class="glboxshadow"}
 
-    接続については、下の図を参照してください。シルクスクリーン印刷 (つまり、HDDLED±、RESET SW、POWER SW、POWERLED+ などの文字) が外側に向かって見え、内側に向かって隠れていないことを確認してください。
+    接続については、下の図を参照してください。シルクスクリーン印刷（つまり、HDDLED±、RESET SW、POWER SW、POWERLED+ などの文字）が外側に向かって見え、内側に向かって隠れていないことを確認してください。
 
     ![20-8pin panel 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/20-8pin_panel_2.png){class="glboxshadow"}
 
@@ -124,7 +124,7 @@ ATX パッケージで提供される 9 ピン ワイヤ セットを使用す�
 
 ### 3。 ATXボードとKVMを接続します {#3-connect-atx-board-and-kvm}
 
-付属の USB ケーブルを使用して、ATX ボードの Type-C ポートを KVM デバイス (Comet GL-RM1 など) の USB-A ポートに接続します。
+付属の USB ケーブルを使用して、ATX ボードの Type-C ポートを KVM デバイス（Comet GL-RM1 など）の USB-A ポートに接続します。
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install3.png){class="glboxshadow gl-90-desktop"}
 
@@ -156,7 +156,7 @@ A2.以下の方法をお試しください。
 
     ![connector polarity](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/power-sw-connector.png){class="glboxshadow gl-90-desktop"}
 
-- 被制御デバイスのマザーボード上の F_PANEL インターフェイスに接続するときは、シルクスクリーン印刷 (HDDLED±、RESET SW、POWER SW、POWERLED+ など) が内側に向かって隠れず、外側に向かって見えるようにしてください。
+- 被制御デバイスのマザーボード上の F_PANEL インターフェイスに接続するときは、シルクスクリーン印刷（HDDLED±、RESET SW、POWER SW、POWERLED+ など）が内側に向かって隠れず、外側に向かって見えるようにしてください。
 
 - KVM のファームウェアをアップグレードします。
 
@@ -168,13 +168,13 @@ A3。次の GL.iNet KVM は 1 つの ATX ボードのみを制御できます。
 
 * Comet(GL-RM1)
 * Comet PoE (GL-RM1PE)
-* Cometプロ(GL-RM10)
+* Cometプロ（GL-RM10）
 * Comet 5G (GL-RM10RC)
 
-ただし、Comet X (GL-RM4PE) は、最大 4 枚の ATX ボードを同時にサポートします。 Comet X はリアパネルに 4 つの独立したチャンネルを提供します。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器 (Fingerbot や ATX ボードなど) 用の USB 2.0 ポートが付属しています。
+ただし、Comet X (GL-RM4PE) は、最大 4 枚の ATX ボードを同時にサポートします。 Comet X はリアパネルに 4 つの独立したチャンネルを提供します。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器（Fingerbot や ATX ボードなど）用の USB 2.0 ポートが付属しています。
 
 **Note**: Comet Q (GL-RMQ1) は ATX ボードでは動作しません。
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

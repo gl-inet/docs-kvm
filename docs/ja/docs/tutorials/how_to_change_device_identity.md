@@ -4,7 +4,7 @@
 
 GL.iNet KVM のデバイス ID は、通信中に接続されたデバイスが KVM を認識および区別できるようにする識別子を指します。
 
-通常、KVM には、以下に示すように Type-C ポートが装備されており、被制御デバイスの USB ポートに接続して、周辺機器 (キーボード、マウス、USB ドライブ、マイクなど) および CD-ROM をシミュレートします。
+通常、KVM には、以下に示すように Type-C ポートが装備されており、被制御デバイスの USB ポートに接続して、周辺機器（キーボード、マウス、USB ドライブ、マイクなど）および CD-ROM をシミュレートします。
 
 ![gl-rm1 type-c](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/gl-rm1-type-c.png){class="glboxshadow gl-60-desktop"}
 
@@ -25,10 +25,10 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 デフォルトのデバイス ID は **GLKVM** です。そのため、被制御デバイスのシステム設定では GLKVM または Glinet Composite Device と表示されます。これらの設定はユーザー本人にしか表示されないため、通常は不都合を生じません。
 
 ![device identity default](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/identity_default.png){class="glboxshadow"}
-<small>(Bluetooth & devices の設定)</small>
+<small>（Bluetooth & devices の設定）</small>
 
 ![speaker settings](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/speaker.png){class="glboxshadow"}
-<small>(Speaker の設定)</small>
+<small>（Speaker の設定）</small>
 
 ただし、次のシナリオでは、ユーザーは KVM のデバイス ID を変更する必要がある場合があります。
 
@@ -40,12 +40,12 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 
 ??? "シナリオ 2: オンライン会議の画面共有中に KVM のリモート使用を非表示にする"
 
-    画面共有が必要なオンライン会議中、被制御デバイスのシステム設定 (Bluetooth やデバイスなど) に KVM のデフォルト ID が表示される場合があります。これにより、KVM リモート アクセスの使用状況が会議参加者に公開される可能性があり、一部のユーザーにとっては望ましくない可能性があります。
+    画面共有が必要なオンライン会議中、被制御デバイスのシステム設定（Bluetooth やデバイスなど）に KVM のデフォルト ID が表示される場合があります。これにより、KVM リモート アクセスの使用状況が会議参加者に公開される可能性があり、一部のユーザーにとっては望ましくない可能性があります。
 
     デバイス ID を変更すると、KVM が共有画面で非表示のままになります。
 
     ![screen sharing](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/screen_sharing.png){class="glboxshadow"}
-    <small>(画面共有)</small>
+    <small>（画面共有）</small>
 
 ??? "シナリオ 3: 被制御デバイス上で応答しないマウス/キーボード コントロールを解決する"
 
@@ -55,9 +55,9 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 
 !!! warning "行動検出ソフトウェアは依然として KVM を識別する可能性がある"
 
-    USB デバイス ID をカスタマイズする方法に関係なく、仮想化デバイス (キーボード、マウス、マイク、カメラなど) の USB **構造**は、動作検出ソフトウェアにとって依然として不審に見える可能性があります。
+    USB デバイス ID をカスタマイズする方法に関係なく、仮想化デバイス（キーボード、マウス、マイク、カメラなど）の USB **構造**は、動作検出ソフトウェアにとって依然として不審に見える可能性があります。
 
-    根本的な問題は、これらすべての仮想化ペリフェラルが **単一の複合 USB デバイス**に属していることです。キーボードとマウスのみを含む複合デバイスは比較的一般的ですが、多くのワイヤレス キーボード/マウス レシーバー (Logicool Unifying など) は同様の構造を示していますが、**キーボード、マウス、マイク**を同時に含む単一の複合 USB デバイスは、実際には非常にまれです。
+    根本的な問題は、これらすべての仮想化ペリフェラルが **単一の複合 USB デバイス**に属していることです。キーボードとマウスのみを含む複合デバイスは比較的一般的ですが、多くのワイヤレス キーボード/マウス レシーバー（Logicool Unifying など）は同様の構造を示していますが、**キーボード、マウス、マイク**を同時に含む単一の複合 USB デバイスは、実際には非常にまれです。
 
     したがって、デバイス ID を変更するだけでは、高度な監視ソフトウェアや動作分析ソフトウェアによる検出を回避するには**十分ではない可能性があります**。
 
@@ -109,4 +109,4 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

@@ -96,7 +96,7 @@ Comet にリモートでアクセスするには、クラウド サービス、G
 
 2. クラウドサービス経由のリモートアクセス。
 
-    ブラウザを開き (Google Chrome を例にします)、アドレス バーに「`glkvm.com`」と入力します。ログインページが表示されます。 glinet アカウントを使用してログインします。
+    ブラウザを開き（Google Chrome を例にします）、アドレス バーに「`glkvm.com`」と入力します。ログインページが表示されます。 glinet アカウントを使用してログインします。
 
     ![remote access login](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_1.png){class="glboxshadow"}
 
@@ -204,7 +204,7 @@ Comet は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由で�
 
 Comet のコンソールで、**Apps Center** -> **ZeroTier** に移動して有効にします。
 
-次に、Comet と制御側デバイスの両方を同じ ZeroTier ネットワーク (16 文字の英数字のネットワーク ID を使用) に参加させます。その後、GLKVM をインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet にリモート アクセスできます。アプリ。
+次に、Comet と制御側デバイスの両方を同じ ZeroTier ネットワーク（16 文字の英数字のネットワーク ID を使用）に参加させます。その後、GLKVM をインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet にリモート アクセスできます。アプリ。
 
 詳しくは[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご覧ください。
 

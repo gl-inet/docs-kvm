@@ -8,7 +8,7 @@
 
 - A Windows コンピューター
 - A USB データ ケーブル
-- A 電源アダプター (KVM デバイス用)
+- A 電源アダプター（KVM デバイス用）
 
 !!! note
 
@@ -62,4 +62,4 @@
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

@@ -1,6 +1,6 @@
 # Tailscale 経由で KVM にリモートでアクセスする方法 {#how-to-access-kvm-remotely-via-tailscale}
 
-GL.iNet KVM は Tailscale を統合し、リモート アクセスのために Tailscale 仮想ネットワークにバインドできるようにします。GLKVM アプリをインストールしたり、クラウド サービスを使用したりする必要はありません。これは、制御側デバイスが Windows、macOS、Android、または iOS を実行していない場合 (したがって、GLKVM アプリをインストールできない場合)、または GLKVM アプリやクラウド サービスを使用したくない場合に特に便利です。
+GL.iNet KVM は Tailscale を統合し、リモート アクセスのために Tailscale 仮想ネットワークにバインドできるようにします。GLKVM アプリをインストールしたり、クラウド サービスを使用したりする必要はありません。これは、制御側デバイスが Windows、macOS、Android、または iOS を実行していない場合（したがって、GLKVM アプリをインストールできない場合）、または GLKVM アプリやクラウド サービスを使用したくない場合に特に便利です。
 
 Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次の手順に従います。
 
@@ -38,7 +38,7 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 
 ## 制御側デバイスをバインドする {#bind-the-controlling-device}
 
-以下の例は、Windows ラップトップ (制御側デバイスとして) を Tailscale ネットワークにバインドする方法を示しています。
+以下の例は、Windows ラップトップ（制御側デバイスとして）を Tailscale ネットワークにバインドする方法を示しています。
 
 1. [ここから](https://tailscale.com/download){target="_blank"}からラップトップにTailscaleをインストールします。
 
@@ -46,7 +46,7 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 
     ![log in tailscale](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/log_in_tailscale.png){class="glboxshadow"}
 
-3. ログイン後、ラップトップ (制御側デバイスなど) をテールネットに接続しようとしていることがページに表示されます。 「**Connect**」をクリックします。
+3. ログイン後、ラップトップ（制御側デバイスなど）をテールネットに接続しようとしていることがページに表示されます。 「**Connect**」をクリックします。
 
     ![connect pc to tailnet](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/connect_pc_to_tailscale.png){class="glboxshadow"}
 
@@ -60,16 +60,16 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 
 ## Tailscale 経由のリモート アクセス {#remote-access-via-tailscale}
 
-Tailscale コンソールで、glkvm の **Address** (この例では `100.104.185.26`) をクリックします。
+Tailscale コンソールで、glkvm の **Address** （この例では `100.104.185.26`）をクリックします。
 
 ![get vittual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/get_vitual_ip.png){class="glboxshadow"}
 
 次の 4 つの値が表示されます。
 
-- glkvm (デバイス名)
-- glkvm.tail1fd0.ts.net (Tailscale が割り当てたドメイン)
-- fd7a:115c:a1e0:301:b92f (仮想 IPv6)
-- 100.104.185.26 (仮想 IPv4)。
+- glkvm（デバイス名）
+- glkvm.tail1fd0.ts.net（Tailscale が割り当てたドメイン）
+- fd7a:115c:a1e0:301:b92f（仮想 IPv6）
+- 100.104.185.26（仮想 IPv4）。
 
 これらは、デバイスの識別と仮想ネットワーク通信のために Tailscale によって割り当てられます。 Tailscale が割り当てたドメイン、仮想 IPv4 および仮想 IPv6 を使用して、KVM デバイスにリモート アクセスできます。
 
@@ -81,7 +81,7 @@ Tailscale コンソールで、glkvm の **Address** (この例では `100.104.1
 
     ![access vitual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enter_vitual_ip.png){class="glboxshadow"}
 
-    A プライバシー エラーが表示される場合があります。 [このプライバシー エラーが発生するのはなぜですか?](privacy_error_from_your_browser.md){target="_blank"}
+    A プライバシー エラーが表示される場合があります。 [このプライバシー エラーが発生するのはなぜですか？](privacy_error_from_your_browser.md){target="_blank"}
 
     ![privacy error](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/privacy_error.png){class="glboxshadow"}
 
@@ -95,4 +95,4 @@ Tailscale コンソールで、glkvm の **Address** (この例では `100.104.1
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

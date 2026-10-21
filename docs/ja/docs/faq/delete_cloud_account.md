@@ -26,7 +26,7 @@
 
 ## クラウドで削除 {#delete-in-the-cloud}
 
-1. コンピューターで Web ブラウザーを起動します (互換性を高めるために Chrome または Edge をお勧めします)。アドレスバーに「`glkvm.com`」と入力し、クラウドアカウントでログインします。
+1. コンピューターで Web ブラウザーを起動します（互換性を高めるために Chrome または Edge をお勧めします）。アドレスバーに「`glkvm.com`」と入力し、クラウドアカウントでログインします。
 
 2. ログイン後、右上隅にあるプロフィールをクリックし、**Personal Center** をクリックします。
 
@@ -38,4 +38,4 @@
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

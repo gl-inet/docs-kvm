@@ -2,6 +2,12 @@
 
 当社の製品の簡単な紹介と、当社の最新開発の概要を紹介します。
 
+## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
+
+PoE 対応の 4 ポートリモート KVM
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9tzhymgJ5a4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## CometQ(GL-RMQ1) {#comet-q-gl-rmq1}
 
 オールインワン USB-C KVM、モバイルおよびラップトップ用リモコン
@@ -14,7 +20,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sxixvzqed0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cometプロ(GL-RM10) {#comet-pro-gl-rm10}
+## Cometプロ（GL-RM10） {#comet-pro-gl-rm10}
 
 Wi-Fi 経由のリモート KVM
 

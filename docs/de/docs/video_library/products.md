@@ -2,6 +2,12 @@
 
 Eine kurze Einfuehrung in unsere Produkte und ein Einblick in unsere neuesten Entwicklungen.
 
+## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
+
+Remote KVM mit vier Ports und PoE
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9tzhymgJ5a4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Comet Q (GL-RMQ1) {#comet-q-gl-rmq1}
 
 All-in-One USB-C KVM, Fernsteuerung fuer Mobilgeraete und Laptops

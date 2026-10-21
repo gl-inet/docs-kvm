@@ -197,8 +197,6 @@ Der Fingerbot wird am physischen Ein-/Aus-Schalter des gesteuerten Geräts befes
 
 Er arbeitet entsprechend den Einstellungen in der Konsole.
 
-![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
-
 ![accessories fingerbot](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories_fingerbot.png){class="glboxshadow"}
 
 - **Time**: Die Druckdauer des Fingerbot. Sie können sie auf 0.5s/3s/8s einstellen.
@@ -215,7 +213,9 @@ Er arbeitet entsprechend den Einstellungen in der Konsole.
 
 Das ATX Board wird im Computergehäuse installiert, um das Ein-/Ausschalten/Neustarten des Geräts aus der Ferne zu steuern.
 
-Er arbeitet entsprechend den Einstellungen in der Konsole.
+Es arbeitet entsprechend den Einstellungen in der Konsole.
+
+![accessories atx](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/accessories-atx.jpg){class="glboxshadow"}
 
 - **Power (Short Press)**: Wird zum normalen Einschalten oder Aufwecken des Systems verwendet.
 

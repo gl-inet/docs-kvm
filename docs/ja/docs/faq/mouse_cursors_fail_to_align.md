@@ -14,7 +14,7 @@
 
     ![hide local cursor](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>ケース2</u>。マウスがアイドル状態でもカーソルの位置が合わない場合は、KVM コンソールでデバイス タイプを再選択してください (Comet Q / GL-RMQ1 のみ)。
+    <u>ケース2</u>。マウスがアイドル状態でもカーソルの位置が合わない場合は、KVM コンソールでデバイス タイプを再選択してください（Comet Q / GL-RMQ1 のみ）。
 
     ![device type](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
 
@@ -66,4 +66,4 @@
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

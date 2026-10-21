@@ -42,6 +42,22 @@ Vidéo de configuration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Comet Q (GL-RMQ1) {#comet-q-gl-rmq1}
+
+Vidéo de déballage
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_SC_HSsBDOk" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Vidéo de configuration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
+
+Vidéo de déballage
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## ATX Board (GL-ATXPC) {#atx-board-gl-atxpc}
 
 Vidéo de configuration

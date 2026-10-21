@@ -36,7 +36,7 @@ KVM 経由で被制御デバイスにアクセスするときに、デスクト�
 
     3. レイアウト ビューで、**外部ディスプレイ**をクリックします。 MacBook の画面と接続されているモニターが表示されます。
 
-    4. **使用方法** ドロップダウン メニューをクリックし、**ミラー モード** (通常は内蔵ディスプレイのミラー) を選択します。
+    4. **使用方法** ドロップダウン メニューをクリックし、**ミラー モード** （通常は内蔵ディスプレイのミラー）を選択します。
 
         ![mac mirror display](https://static.gl-inet.com/docs/kvm/faq/can_only_see_desktop_wallpaper_when_using_glkvm/mac-mirror-display.png){class="glboxshadow"}
 
@@ -47,4 +47,4 @@ KVM 経由で被制御デバイスにアクセスするときに、デスクト�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

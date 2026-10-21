@@ -2,7 +2,7 @@
 
 GL.iNet KVM のデフォルトのホスト名は **glkvm** です。これは、同じネットワークに接続されている場合、ドメイン `glkvm.local` 経由でローカルにアクセスできることを意味します。
 
-このチュートリアルでは、ホスト名を変更するための 2 つの方法 (KVM コンソール経由またはターミナル コマンド経由) を紹介します。
+このチュートリアルでは、ホスト名を変更するための 2 つの方法（KVM コンソール経由またはターミナル コマンド経由）を紹介します。
 
 ## 方法 1. KVM コンソール {#method-1-kvm-console}
 
@@ -34,7 +34,7 @@ GL.iNet KVM のデフォルトのホスト名は **glkvm** です。これは、
 
     ![access terminal](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/access_terminal.png){class="glboxshadow"}
 
-2. ターミナルで次のコマンドを入力し、Enter キーを押します (「example」を希望のホスト名に置き換えます)。その後、KVM が再起動します。
+2. ターミナルで次のコマンドを入力し、Enter キーを押します（「example」を希望のホスト名に置き換えます）。その後、KVM が再起動します。
 
     `echo example > /etc/hostname && reboot`
 
@@ -52,4 +52,4 @@ GL.iNet KVM のデフォルトのホスト名は **glkvm** です。これは、
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

@@ -16,7 +16,7 @@
 
     ![image mounting](https://static.gl-inet.com/docs/kvm/tutorials/install_os_remotely/image-mounting-2.png){class="glboxshadow"}
 
-4. リモート制御されているコンピューターを再起動し、起動中に **すぐに適切なキーを押し** (この例では DEL など)、BIOS/UEFI に入ります。
+4. リモート制御されているコンピューターを再起動し、起動中に **すぐに適切なキーを押し** （この例では DEL など）、BIOS/UEFI に入ります。
 
     ![enter bios](https://static.gl-inet.com/docs/kvm/tutorials/install_os_remotely/enter_bios.png){class="glboxshadow"}
 
@@ -28,4 +28,4 @@
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

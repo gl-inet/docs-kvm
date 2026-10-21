@@ -6,13 +6,13 @@
 
 この警告は、KVM が提示した SSL/TLS 証明書をブラウザが検証できないことを示します。たとえば、ブラウザが信頼する認証局によって発行されていない場合や、コンソールへのアクセスに使用した IP アドレスまたはホスト名と証明書が一致しない場合に表示されます。
 
-## この警告が表示されるのはなぜですか? {#why-do-i-get-this-warning}
+## この警告が表示されるのはなぜですか？ {#why-do-i-get-this-warning}
 
 上記の例では、**192.168.8.11** は、DHCP 経由で上位ルーターによって動的に割り当てられる KVM ローカル IP アドレスです。
 
 !!! note
 
-    GL.iNet KVM が接続されているルーターのゲートウェイが「192.168.x.1」(プライベート ネットワークでは x は通常 0、1、または 8) の場合、KVM のローカル IP は「192.168.x.y」(y は有効なホスト アドレス) である必要があります。サブネット内)。
+    GL.iNet KVM が接続されているルーターのゲートウェイが「192.168.x.1」（プライベート ネットワークでは x は通常 0、1、または 8）の場合、KVM のローカル IP は「192.168.x.y」（y は有効なホスト アドレス）である必要があります。サブネット内）。
 
 このローカル IP アドレスは、公開 Web サイトではなく、GL.iNet KVM コンソールにアクセスするために使用されます。
 
@@ -20,7 +20,7 @@ KVM は、ブラウザからの HTTPS アクセスにデフォルトの TLS 証�
 
 デフォルトの証明書をブラウザが信頼していない場合や、入力したローカル IP アドレスまたはホスト名が証明書の対象に含まれていない場合、警告が表示されます。この警告は、KVM に証明書がないことを意味するものではありません。HTTPS による通信の暗号化は可能ですが、ブラウザは KVM の身元を確認できません。
 
-## 警告を解決するにはどうすればよいですか? {#how-to-resolve-the-warning}
+## 警告を解決するにはどうすればよいですか？ {#how-to-resolve-the-warning}
 
 ローカルアクセスでは、まずアドレスがご使用の KVM のものであることを確認してください。その後、**Advanced**、**Continue to "192.168.8.11"** の順にクリックします（表示される文言はブラウザによって異なります）。
 
@@ -30,7 +30,7 @@ KVM は、ブラウザからの HTTPS アクセスにデフォルトの TLS 証�
 
 ![local access to kvm admin](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/local_access.png){class="glboxshadow"}
 
-## 独自の証明書を使用できますか? {#can-i-use-my-own-certificate}
+## 独自の証明書を使用できますか？ {#can-i-use-my-own-certificate}
 
 はい。独自の SSL/TLS 証明書を KVM にインストールして使用できます。以下の手順に従ってください。
 
@@ -52,4 +52,4 @@ KVM は、ブラウザからの HTTPS アクセスにデフォルトの TLS 証�
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

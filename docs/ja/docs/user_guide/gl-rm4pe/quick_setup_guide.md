@@ -10,7 +10,7 @@
 
     ![connect2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect2.png){class="glboxshadow"}
 
-    ***Note**: 電源アダプターを使用して電源を供給する場合は、インターネット アクセス用のイーサネット ケーブルを介して Comet X をネットワーク デバイス (ルーターなど) に接続します。
+    ***Note**: 電源アダプターを使用して電源を供給する場合は、インターネット アクセス用のイーサネット ケーブルを介して Comet X をネットワーク デバイス（ルーターなど）に接続します。
 
 2. HDMI ケーブルを使用して、Comet X の **HDMI IN** ポートをデバイス B に接続します。これにより映像信号の伝送が可能となります。
 
@@ -20,7 +20,7 @@
 
     ![connect4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/connect4.png){class="glboxshadow"}
 
-4. (オプション) Comet X の **HDMI OUT** ポートを外部モニターに接続して、ディスプレイを複製します (ビデオ ループアウト)。詳細については、[ローカルコントロール](#local-control)を参照してください。
+4. （オプション） Comet X の **HDMI OUT** ポートを外部モニターに接続して、ディスプレイを複製します（ビデオ ループアウト）。詳細については、[ローカルコントロール](#local-control)を参照してください。
 
 5. 接続が完了しました。これで、Comet X のコンソールにローカルまたはリモートでアクセスできるようになりました。
 
@@ -42,7 +42,7 @@
 
 Comet X は、HDMI OUT ポートと 2 つの追加の USB ポートを備えており、ローカルのトラブルシューティング、構成、OS のインストールに最適です。モニター、マウス、キーボードを接続するだけで、プラグアンドプレイのローカルハードウェア制御が可能になります。
 
-1. Comet X の背面パネルの **HDMI OUT** ポートを外部モニターに接続して、ディスプレイを複製します (ビデオ ループアウト)。
+1. Comet X の背面パネルの **HDMI OUT** ポートを外部モニターに接続して、ディスプレイを複製します（ビデオ ループアウト）。
 
     ![local control1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_control1.png){class="glboxshadow"}
 
@@ -226,6 +226,6 @@ Comet X は ZeroTier と統合されており、ZeroTier 仮想ネットワー�
 
 コンソールで、**Apps Center** -> **ZeroTier** に移動し、有効にします。
 
-次に、Comet X と制御側デバイスの両方を同じ ZeroTier ネットワーク (16 文字の英数字のネットワーク ID を使用) に参加させます。その後、GLKVM をインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet X にリモート アクセスできます。アプリ。
+次に、Comet X と制御側デバイスの両方を同じ ZeroTier ネットワーク（16 文字の英数字のネットワーク ID を使用）に参加させます。その後、GLKVM をインストールせずに、制御側デバイスの Web ブラウザーに **ZeroTier IP** を入力することで、Comet X にリモート アクセスできます。アプリ。
 
 詳しくは[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご覧ください。

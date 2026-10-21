@@ -18,7 +18,7 @@
 
     ![qlog 1](https://static.gl-inet.com/docs/kvm/tutorials/export_cellular_logs/qlog1.jpg){class="glboxshadow"}
 
-    ページには、以下に示すように、QLog の起動に関連する初期化が表示され、続いてリアルタイムのデータ統計 (受信したデータ量や経過時間など) が表示されます。
+    ページには、以下に示すように、QLog の起動に関連する初期化が表示され、続いてリアルタイムのデータ統計（受信したデータ量や経過時間など）が表示されます。
 
     ![qlog 2](https://static.gl-inet.com/docs/kvm/tutorials/export_cellular_logs/qlog2.jpg){class="glboxshadow"}
 
@@ -52,4 +52,4 @@
 
 ---
 
-まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
+まだ質問がありますか？ [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。
