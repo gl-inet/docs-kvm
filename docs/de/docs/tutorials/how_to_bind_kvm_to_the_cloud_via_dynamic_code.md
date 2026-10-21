@@ -12,11 +12,11 @@ Dieses Tutorial zeigt, wie Sie GL.iNet KVM einfach per dynamischem Code mit der 
 
     ![bind with code 1](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_1.png){class="glboxshadow"}
 
-3. Fuer die Geraetebindung wird zufaellig ein 8-stelliger dynamischer Code erzeugt, der 60 Sekunden gueltig ist. Klicken Sie auf den Code, um ihn zu kopieren.
+3. Für die Gerätebindung wird zufällig ein 8-stelliger dynamischer Code erzeugt, der 60 Sekunden gültig ist. Klicken Sie auf den Code, um ihn zu kopieren.
 
     ![bind with code 2](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_2.png){class="glboxshadow"}
 
-4. Oeffnen Sie [https://glkvm.com/](https://glkvm.com/){target="_blank"} und melden Sie sich mit Ihrem glinet Cloud-Konto an. 
+4. Öffnen Sie [https://glkvm.com/](https://glkvm.com/){target="_blank"} und melden Sie sich mit Ihrem glinet Cloud-Konto an. 
 
     ![bind with code 3](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_3.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@ Dieses Tutorial zeigt, wie Sie GL.iNet KVM einfach per dynamischem Code mit der 
 
     ![bind with code 4](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_4.png){class="glboxshadow"}
 
-    Klicken Sie auf **Add Device** und waehlen Sie **Bind with Code**.
+    Klicken Sie auf **Add Device** und wählen Sie **Bind with Code**.
 
     ![bind with code 5](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_5.png){class="glboxshadow"}
 
@@ -32,31 +32,31 @@ Dieses Tutorial zeigt, wie Sie GL.iNet KVM einfach per dynamischem Code mit der 
 
     ![bind with code 6](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_6.png){class="glboxshadow"}
 
-    **Hinweis**: Der dynamische Code ist 60 Sekunden gueltig. Wenn er ablaeuft, kehren Sie zur KVM-Konsole zurueck und klicken Sie auf **Regenerate Code**, um einen neuen Code zu erhalten.
+    **Hinweis**: Der dynamische Code ist 60 Sekunden gültig. Wenn er abläuft, kehren Sie zur KVM-Konsole zurück und klicken Sie auf **Regenerate Code**, um einen neuen Code zu erhalten.
 
     ![regenerate code](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/regenerate_code.png){class="glboxshadow"}
 
-7. Das Geraet wird erfolgreich mit Ihrem Cloud-Konto gebunden. Klicken Sie auf **Done**.
+7. Das Gerät wird erfolgreich mit Ihrem Cloud-Konto gebunden. Klicken Sie auf **Done**.
 
     ![bind with code 7](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_7.png){class="glboxshadow"}
 
-    Das KVM erscheint in der Geraeteliste. Jetzt koennen Sie ueber den Cloud-Dienst remote darauf zugreifen.
+    Das KVM erscheint in der Geräteliste. Jetzt können Sie über den Cloud-Dienst remote darauf zugreifen.
 
     ![bind with code 8](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/bind_with_code_8.png){class="glboxshadow"}
 
-8. Klicken Sie auf das Geraet, auf das Sie remote zugreifen moechten. Geben Sie auf der neu geoeffneten Webseite Ihr Admin-Passwort ein, um sich anzumelden.
+8. Klicken Sie auf das Gerät, auf das Sie remote zugreifen möchten. Geben Sie auf der neu geöffneten Webseite Ihr Admin-Passwort ein, um sich anzumelden.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
-    Danach koennen Sie ueber die Cloud remote auf das KVM und das gesteuerte Geraet zugreifen.
+    Danach können Sie über die Cloud remote auf das KVM und das gesteuerte Gerät zugreifen.
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
 ## FAQ {#faq}
 
-1. **F: Wie lange ist der dynamische Code gueltig? Was kann ich tun, wenn er ablaeuft?** 
+1. **F: Wie lange ist der dynamische Code gültig? Was kann ich tun, wenn er abläuft?** 
 
-    A: Der dynamische Code ist 60 Sekunden gueltig. Wenn er ablaeuft, kehren Sie zur KVM-Konsole zurueck und klicken Sie auf **Regenerate Code**, um einen neuen Code zu erhalten.
+    A: Der dynamische Code ist 60 Sekunden gültig. Wenn er abläuft, kehren Sie zur KVM-Konsole zurück und klicken Sie auf **Regenerate Code**, um einen neuen Code zu erhalten.
 
     ![regenerate code](https://static.gl-inet.com/docs/kvm/tutorials/bind_to_cloud_via_code/regenerate_code.png){class="glboxshadow"}
 
@@ -64,9 +64,9 @@ Dieses Tutorial zeigt, wie Sie GL.iNet KVM einfach per dynamischem Code mit der 
 
     A: Wenn der dynamische Code nicht erzeugt werden kann, kann dies an einem instabilen Netzwerk oder an der Upstream-DNS-Konfiguration liegen. 
     
-    - Pruefen Sie, ob Ihr Netzwerk stabil ist, oder wechseln Sie zu einem anderen Netzwerk und versuchen Sie es erneut.
+    - Prüfen Sie, ob Ihr Netzwerk stabil ist, oder wechseln Sie zu einem anderen Netzwerk und versuchen Sie es erneut.
 
-    - Aendern Sie Ihre Upstream-DNS-Einstellungen und erzeugen Sie den Code erneut.
+    - Ändern Sie Ihre Upstream-DNS-Einstellungen und erzeugen Sie den Code erneut.
     
     Wenn das Problem weiterhin besteht, kontaktieren Sie unseren Support unter [support@gl-inet.com](mailto:support@gl-inet.com).
 

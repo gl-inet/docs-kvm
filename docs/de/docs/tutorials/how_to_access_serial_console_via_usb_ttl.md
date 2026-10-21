@@ -1,9 +1,9 @@
-# Auf die serielle Konsole ueber USB TTL zugreifen {#how-to-access-serial-console-via-usb-ttl}
+# Auf die serielle Konsole über USB TTL zugreifen {#how-to-access-serial-console-via-usb-ttl}
 
-Fuehren Sie die folgenden Schritte aus, um den USB TTL-Adapter fuer serielles Debugging zu verwenden:
+Führen Sie die folgenden Schritte aus, um den USB TTL-Adapter für serielles Debugging zu verwenden:
 
-1. Stecken Sie den USB TTL-Adapter in den USB-Port Ihres KVM-Geraets.
-2. Fuehren Sie den folgenden Befehl aus, um die serielle Verbindung zu oeffnen:
+1. Stecken Sie den USB TTL-Adapter in den USB-Port Ihres KVM-Geräts.
+2. Führen Sie den folgenden Befehl aus, um die serielle Verbindung zu öffnen:
 
 ```bash
 minicom -D /dev/ttyUSB0 -b 115200

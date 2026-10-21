@@ -1,6 +1,6 @@
 # Auspacken und erste Einrichtung {#unboxing-first-time-setup}
 
-Packen Sie unsere Geraete aus und sehen Sie, wie einfach die erste Einrichtung ist.
+Packen Sie unsere Geräte aus und sehen Sie, wie einfach die erste Einrichtung ist.
 
 ## Comet (GL-RM1) {#comet-gl-rm1}
 

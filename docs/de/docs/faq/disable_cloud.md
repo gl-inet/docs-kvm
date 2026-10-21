@@ -2,7 +2,7 @@
 
 Der GL.iNet KVM Cloud-Dienst ist standardmäßig aktiviert. Dadurch können Benutzer KVM-Geräte für den Fernzugriff mit ihrem Cloud-Konto binden.
 
-Wenn Sie den Cloud-Dienst nicht verwenden möchten, können Sie ihn manuell deaktivieren. Nach der Deaktivierung ist Fernzugriff über den Cloud-Dienst und die GLKVM App nicht mehr verfügbar. Zum erneuten Aktivieren muessen Sie sich lokal per Domain oder IP-Adresse am KVM anmelden oder remote über Tailscale zugreifen.
+Wenn Sie den Cloud-Dienst nicht verwenden möchten, können Sie ihn manuell deaktivieren. Nach der Deaktivierung ist Fernzugriff über den Cloud-Dienst und die GLKVM App nicht mehr verfügbar. Zum erneuten Aktivieren müssen Sie sich lokal per Domain oder IP-Adresse am KVM anmelden oder remote über Tailscale zugreifen.
 
 Führen Sie bei Bedarf die folgenden Schritte aus, um den Cloud-Dienst zu deaktivieren.
 

@@ -1,6 +1,6 @@
 # Unsere Produkte kennenlernen {#meet-our-products}
 
-Eine kurze Einfuehrung in unsere Produkte und ein Einblick in unsere neuesten Entwicklungen.
+Eine kurze Einführung in unsere Produkte und ein Einblick in unsere neuesten Entwicklungen.
 
 ## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
 
@@ -10,19 +10,19 @@ Remote KVM mit vier Ports und PoE
 
 ## Comet Q (GL-RMQ1) {#comet-q-gl-rmq1}
 
-All-in-One USB-C KVM, Fernsteuerung fuer Mobilgeraete und Laptops
+All-in-One USB-C KVM, Fernsteuerung für Mobilgeräte und Laptops
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ynFee4N-0fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Comet 5G (GL-RM10RC) {#comet-5g-gl-rm10rc}
 
-Remote KVM ueber 5G RedCap
+Remote KVM über 5G RedCap
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sxixvzqed0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Comet Pro (GL-RM10) {#comet-pro-gl-rm10}
 
-Remote KVM ueber WLAN 
+Remote KVM über WLAN 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QQIAW5E1KNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -34,6 +34,6 @@ Power-over-Ethernet-Version des Comet
 
 ## Comet (GL-RM1) {#comet-gl-rm1}
 
-Remote KVM ueber das Internet
+Remote KVM über das Internet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5ra15-D345E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

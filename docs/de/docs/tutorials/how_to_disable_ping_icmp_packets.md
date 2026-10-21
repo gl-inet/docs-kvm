@@ -1,24 +1,24 @@
 # Ausgehende PING/ICMP-Pakete vom KVM deaktivieren {#how-to-disable-outgoing-pingicmp-packets-from-kvm}
 
-Das KVM-Geraet sendet regelmaessig PING (ICMP)-Pakete, um die Netzwerkverbindung zu pruefen. Dieses Dokument erklaert, wie Sie dieses Verhalten deaktivieren und welche Nebenwirkungen damit verbunden sind.
+Das KVM-Gerät sendet regelmäßig PING (ICMP)-Pakete, um die Netzwerkverbindung zu prüfen. Dieses Dokument erklärt, wie Sie dieses Verhalten deaktivieren und welche Nebenwirkungen damit verbunden sind.
 
-## Fuer reine Ethernet-Geraete {#for-ethernet-only-devices}
+## Für reine Ethernet-Geräte {#for-ethernet-only-devices}
 
-Bei Geraeten mit ausschliesslich Ethernet-Verbindung, z. B. Comet (GL-RM1) und Comet PoE (GL-RM1PE), sendet das System PING-Pakete an das Standard-Gateway, um die Internetverbindung zu pruefen. Das Ergebnis wird ueber den LED-Status angezeigt.
+Bei Geräten mit ausschließlich Ethernet-Verbindung, z. B. Comet (GL-RM1) und Comet PoE (GL-RM1PE), sendet das System PING-Pakete an das Standard-Gateway, um die Internetverbindung zu prüfen. Das Ergebnis wird über den LED-Status angezeigt.
 
-Fuehren Sie den folgenden Befehl aus, um dieses Verhalten temporaer zu deaktivieren:
+Führen Sie den folgenden Befehl aus, um dieses Verhalten temporär zu deaktivieren:
 
 ```bash
 /etc/init.d/S23led stop
 ```
 
-> **Hinweis:** Wenn dieser Dienst deaktiviert wird, ist auch die **Reset button** nicht verfuegbar.
+> **Hinweis:** Wenn dieser Dienst deaktiviert wird, ist auch die **Reset button** nicht verfügbar.
 
-## Fuer Geraete mit Ethernet und Wi-Fi {#for-devices-with-both-ethernet-and-wi-fi}
+## Für Geräte mit Ethernet und Wi-Fi {#for-devices-with-both-ethernet-and-wi-fi}
 
-Bei Geraeten mit Ethernet und Wi-Fi sendet das System PING-Pakete an oeffentliche DNS-Server, um den Internetzugriff fuer jede Netzwerkschnittstelle zu pruefen. Dieser Mechanismus dient dem dynamischen Multi-WAN-Failover und stellt sicher, dass das Geraet zu Wi-Fi wechseln kann, wenn die Ethernet-Verbindung den Internetzugriff verliert.
+Bei Geräten mit Ethernet und Wi-Fi sendet das System PING-Pakete an öffentliche DNS-Server, um den Internetzugriff für jede Netzwerkschnittstelle zu prüfen. Dieser Mechanismus dient dem dynamischen Multi-WAN-Failover und stellt sicher, dass das Gerät zu Wi-Fi wechseln kann, wenn die Ethernet-Verbindung den Internetzugriff verliert.
 
-Fuehren Sie den folgenden Befehl aus, um dieses Verhalten temporaer zu deaktivieren:
+Führen Sie den folgenden Befehl aus, um dieses Verhalten temporär zu deaktivieren:
 
 ```bash
 /etc/init.d/S98multi-wan stop

@@ -1,4 +1,4 @@
-# Comet (GL-RM1) V1/V2 Uebersicht {#comet-gl-rm1-v1v2-overview}
+# Comet (GL-RM1) V1/V2 Übersicht {#comet-gl-rm1-v1v2-overview}
 
 ## Aussehen {#appearance}
 
@@ -17,7 +17,7 @@ Auf der Oberseite des Comet befindet sich eine LED-Anzeige.
 | Solid Blue              | Startvorgang                    |
 | Flashing White          | Gestartet, aber kein Internet   |
 | Solid White             | Mit dem Internet verbunden      |
-| Flashing Blue & White   | Firmware-Upgrade laeuft         |
+| Flashing Blue & White   | Firmware-Upgrade läuft         |
 
 ## Taste {#button}
 
@@ -25,8 +25,8 @@ An der Seite des Comet befindet sich eine Taste.
 
 | Funktion                  | Bedienung                                | LED Status                            |
 | :------------------------ | :--------------------------------------- | :------------------------------------ |
-| U-Boot Flashing Mode aufrufen | Bei eingeschaltetem Geraet die Taste laenger als **3 s** gedrueckt halten und dann loslassen | Beim Druecken der Taste: blau blinkend <br>U-Boot-Modus aufgerufen: dauerhaft blau |
-| Reset                     | Bei eingeschaltetem Geraet die Taste **8-20 s** gedrueckt halten und dann loslassen | Druecken fuer 1-8 s: langsam blinkend <br>Druecken fuer 8-20 s: schnell blinkend |
+| U-Boot Flashing Mode aufrufen | Bei eingeschaltetem Gerät die Taste länger als **3 s** gedrückt halten und dann loslassen | Beim Drücken der Taste: blau blinkend <br>U-Boot-Modus aufgerufen: dauerhaft blau |
+| Reset                     | Bei eingeschaltetem Gerät die Taste **8-20 s** gedrückt halten und dann loslassen | Drücken für 1-8 s: langsam blinkend <br>Drücken für 8-20 s: schnell blinkend |
 
 ## Lieferumfang {#package-contents}
 
@@ -40,7 +40,7 @@ An der Seite des Comet befindet sich eine Taste.
 
 !!! Warning
 
-    PD-Adapter koennen nicht verwendet werden.
+    PD-Adapter können nicht verwendet werden.
 
 ![gl-rm1 package](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_package.png){class="glboxshadow"}
 

@@ -6,7 +6,7 @@ hide:
 
 # Funktionsupdates {#features-update}
 
-Informieren Sie sich ueber die wichtigsten neuen Funktionen, funktionalen Verbesserungen und strukturellen Anpassungen der neuesten Firmware-Version.
+Informieren Sie sich über die wichtigsten neuen Funktionen, funktionalen Verbesserungen und strukturellen Anpassungen der neuesten Firmware-Version.
 
 - [Firmware v1.10](firmware_v1.10.md)
 

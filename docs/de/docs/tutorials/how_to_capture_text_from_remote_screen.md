@@ -1,32 +1,32 @@
 # Text vom Remote-Bildschirm erfassen {#how-to-capture-text-from-the-remote-screen}
 
-Mit der Funktion Text Recognition koennen Sie einen Bereich auf dem Remote-Bildschirm auswaehlen und daraus einfach Text extrahieren. Sie basiert auf Optical Character Recognition (OCR) und wurde mit Firmware v1.9.0 eingefuehrt.
+Mit der Funktion Text Recognition können Sie einen Bereich auf dem Remote-Bildschirm auswählen und daraus einfach Text extrahieren. Sie basiert auf Optical Character Recognition (OCR) und wurde mit Firmware v1.9.0 eingeführt.
 
-Mit dieser Funktion koennen Sie Text vom Remote-Bildschirm, also vom gesteuerten Geraet, erfassen und auf das steuernde Geraet kopieren.
+Mit dieser Funktion können Sie Text vom Remote-Bildschirm, also vom gesteuerten Gerät, erfassen und auf das steuernde Gerät kopieren.
 
-Fuehren Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfassen.
+Führen Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfassen.
 
 ## Firmware v1.10 und neuer {#firmware-v110-and-above}
 
-1. Melden Sie sich an Ihrer KVM-Konsole an und navigieren Sie zu **Toolbox** -> **OCR**. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
+1. Melden Sie sich an Ihrer KVM-Konsole an und navigieren Sie zu **Toolbox** -> **OCR**. Klicken Sie auf den Abwärtspfeil, um Ihre bevorzugte Erkennungssprache auszuwählen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 
     ![OCR recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_1.png){class="glboxshadow"}
 
-2. Klicken Sie auf **Capture**. Der Remote-Bildschirm wird daraufhin abgedunkelt. Wenn Sie die Texterfassung beenden moechten, klicken Sie auf **Cancel**.
+2. Klicken Sie auf **Capture**. Der Remote-Bildschirm wird daraufhin abgedunkelt. Wenn Sie die Texterfassung beenden möchten, klicken Sie auf **Cancel**.
 
     ![OCR recognition 2](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_2.png){class="glboxshadow"}
 
-3. Ziehen Sie wie unten gezeigt einen Rahmen um den Text, den Sie extrahieren moechten.
+3. Ziehen Sie wie unten gezeigt einen Rahmen um den Text, den Sie extrahieren möchten.
 
     ![OCR recognition 3](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_3.png){class="glboxshadow"}
 
-4. Das System erkennt den Text innerhalb des ausgewaehlten Bereichs automatisch. Anschliessend koennen Sie den erkannten Text bei Bedarf kopieren.
+4. Das System erkennt den Text innerhalb des ausgewählten Bereichs automatisch. Anschließend können Sie den erkannten Text bei Bedarf kopieren.
 
     ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
 ## Firmware v1.9.x {#firmware-v19x}
 
-1. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
+1. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie auf den Abwärtspfeil, um Ihre bevorzugte Erkennungssprache auszuwählen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 
     ![text recognition 1](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/1.png){class="glboxshadow"}
 
@@ -34,11 +34,11 @@ Fuehren Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfasse
 
     ![text recognition 2](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/2.png){class="glboxshadow"}
 
-3. Ziehen Sie wie unten gezeigt einen Rahmen um den Text, den Sie extrahieren moechten.
+3. Ziehen Sie wie unten gezeigt einen Rahmen um den Text, den Sie extrahieren möchten.
 
     ![text recognition 3](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/3.png){class="glboxshadow"}
 
-4. Das System erkennt den Text innerhalb des ausgewaehlten Bereichs automatisch. Anschliessend koennen Sie den erkannten Text bei Bedarf kopieren. 
+4. Das System erkennt den Text innerhalb des ausgewählten Bereichs automatisch. Anschließend können Sie den erkannten Text bei Bedarf kopieren. 
     
     ![text recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/4.png){class="glboxshadow"}
 

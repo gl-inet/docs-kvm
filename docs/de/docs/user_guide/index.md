@@ -49,7 +49,7 @@
   </div>
 </div>
 
-### Zubehoer {#accessories}
+### Zubehör {#accessories}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

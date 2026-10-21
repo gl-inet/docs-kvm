@@ -1,6 +1,6 @@
-# STUN-Erkennung der oeffentlichen IP seltener ausfuehren {#how-to-reduce-stun-public-ip-detection-frequency}
+# STUN-Erkennung der öffentlichen IP seltener ausführen {#how-to-reduce-stun-public-ip-detection-frequency}
 
-Das KVM-Geraet verwendet STUN-Anfragen, um seine oeffentliche IP-Adresse fuer den Fernzugriff zu erkennen. Standardmaessig sendet das Geraet in regelmaessigen Abstaenden STUN-Erkennungsanfragen. Wenn Sie nur ueber ein lokales Netzwerk oder VPN auf das KVM zugreifen, koennen Sie die Konfiguration anpassen, um die STUN-Anfragehaeufigkeit zu reduzieren.
+Das KVM-Gerät verwendet STUN-Anfragen, um seine öffentliche IP-Adresse für den Fernzugriff zu erkennen. Standardmäßig sendet das Gerät in regelmäßigen Abständen STUN-Erkennungsanfragen. Wenn Sie nur über ein lokales Netzwerk oder VPN auf das KVM zugreifen, können Sie die Konfiguration anpassen, um die STUN-Anfragehäufigkeit zu reduzieren.
 
 Melden Sie sich per SSH am KVM an oder öffnen Sie **Toolbox** > **Terminal** in der KVM-Konsole. Sichern Sie die vorhandene Override-Datei, bevor Sie sie bearbeiten:
 
@@ -21,7 +21,7 @@ janus:
 
 Wenn bereits ein Abschnitt `janus` existiert, ergänzen oder aktualisieren Sie darin `check.retries`. Falls unter `janus` bereits `check` vorhanden ist, aktualisieren Sie dort den Wert `retries` oder fügen Sie ihn hinzu. Erstellen Sie keine doppelten Schlüssel `janus` oder `check`. Verwenden Sie Leerzeichen für die YAML-Einrückung und speichern Sie die Datei anschließend.
 
-> **Hinweis:** Diese Konfiguration reduziert die Anzahl der von Janus initiierten STUN-Anfragen erheblich. Sie kann jedoch auch die Erfolgsrate von STUN Hole Punching fuer externe Netzwerknutzung verringern. **Wenden Sie dies nur an, wenn Sie ausschliesslich ueber ein lokales Netzwerk oder VPN auf das KVM zugreifen.**
+> **Hinweis:** Diese Konfiguration reduziert die Anzahl der von Janus initiierten STUN-Anfragen erheblich. Sie kann jedoch auch die Erfolgsrate von STUN Hole Punching für externe Netzwerknutzung verringern. **Wenden Sie dies nur an, wenn Sie ausschließlich über ein lokales Netzwerk oder VPN auf das KVM zugreifen.**
 
 ---
 

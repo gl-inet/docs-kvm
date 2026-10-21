@@ -1,16 +1,16 @@
 # Mobilfunkprotokolle exportieren {#how-to-export-cellular-logs}
 
-Dieses Tutorial beschreibt die Schritte zum Exportieren mobilfunkbezogener Protokolle vom KVM-Geraet fuer die Fehlerbehebung.
+Dieses Tutorial beschreibt die Schritte zum Exportieren mobilfunkbezogener Protokolle vom KVM-Gerät für die Fehlerbehebung.
 
 Die folgenden Schritte verwenden Comet 5G (GL-RM10RC) als Beispiel.
 
 1. Melden Sie sich an der KVM-Konsole an, navigieren Sie zu **Virtual Media** und stellen Sie sicher, dass es aktiviert ist.
 
-2. Navigieren Sie zu **Toolbox** -> **Terminal**. Klicken Sie auf **Access**, um das KVM-Terminal zu oeffnen.
+2. Navigieren Sie zu **Toolbox** -> **Terminal**. Klicken Sie auf **Access**, um das KVM-Terminal zu öffnen.
 
     ![access terminal](https://static.gl-inet.com/docs/kvm/tutorials/export_cellular_logs/access_terminal.png){class="glboxshadow"}
 
-3. Fuehren Sie im Terminalfenster den folgenden Befehl aus, um das QLog-Programm zu starten.
+3. Führen Sie im Terminalfenster den folgenden Befehl aus, um das QLog-Programm zu starten.
 
     ```
     QLog_1.5.22 -s /userdata/media/ -f /etc/HN_default.cfg & ubus call modem at '{"AT":"AT+QCFG=\"DBGCTL\",0"}'
@@ -18,11 +18,11 @@ Die folgenden Schritte verwenden Comet 5G (GL-RM10RC) als Beispiel.
 
     ![qlog 1](https://static.gl-inet.com/docs/kvm/tutorials/export_cellular_logs/qlog1.jpg){class="glboxshadow"}
 
-    Die Seite zeigt anschliessend die Initialisierung des QLog-Starts und danach Echtzeit-Datenstatistiken an, z. B. empfangenes Datenvolumen und verstrichene Zeit, wie unten dargestellt.
+    Die Seite zeigt anschließend die Initialisierung des QLog-Starts und danach Echtzeit-Datenstatistiken an, z. B. empfangenes Datenvolumen und verstrichene Zeit, wie unten dargestellt.
 
     ![qlog 2](https://static.gl-inet.com/docs/kvm/tutorials/export_cellular_logs/qlog2.jpg){class="glboxshadow"}
 
-4. Druecken Sie die Enter-Taste und fuehren Sie die folgenden Befehle nacheinander aus, um das Modem neu zu starten. So wird sichergestellt, dass das Geraet vollstaendige Protokolle des Startvorgangs erfasst.
+4. Drücken Sie die Enter-Taste und führen Sie die folgenden Befehle nacheinander aus, um das Modem neu zu starten. So wird sichergestellt, dass das Gerät vollständige Protokolle des Startvorgangs erfasst.
 
     ```
     ubus call modem at '{"AT":"AT+CFUN=0"}'

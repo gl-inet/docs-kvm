@@ -1,4 +1,4 @@
-# Comet PoE (GL-RM1PE) Uebersicht {#comet-poe-gl-rm1pe-overview}
+# Comet PoE (GL-RM1PE) Übersicht {#comet-poe-gl-rm1pe-overview}
 
 ## Aussehen {#appearance}
 
@@ -17,7 +17,7 @@ Auf der Oberseite des Comet PoE befindet sich eine LED-Anzeige.
 | Solid Blue              | Startvorgang                    |
 | Flashing White          | Gestartet, aber kein Internet   |
 | Solid White             | Mit dem Internet verbunden      |
-| Flashing Blue & White   | Firmware-Upgrade laeuft         |
+| Flashing Blue & White   | Firmware-Upgrade läuft         |
 
 ## Lieferumfang {#package-contents}
 

@@ -1,10 +1,10 @@
 # Comet (GL-RM1) V1/V2 Benutzerhandbuch {#comet-gl-rm1-v1v2-user-guide}
 
-Comet (GL-RM1) V1/V2 ist ein Remote-KVM-Geraet mit vielseitigen Einsatzmoeglichkeiten. Sie koennen es verwenden, um Ihren Heimcomputer unterwegs fernzusteuern, auf lokale Ressourcen zuzugreifen und vieles mehr. Es unterstuetzt die Fernsteuerung von Offline-Geraeten, sodass Sie Startfehler beheben und BIOS-Einstellungen anpassen koennen. Ausserdem bietet es eine Funktion zur Dateiuebertragung aus der Ferne, mit der Daten sowohl fuer Online- als auch Offline-Computer einfach uebertragen werden koennen. Mit Audiounterstuetzung sorgt es fuer ein intensiveres Remote-Interaktionserlebnis. Kurz gesagt: Es ist ein wichtiges Werkzeug fuer Remote-Arbeit und Geraeteverwaltung.
+Comet (GL-RM1) V1/V2 ist ein Remote-KVM-Gerät mit vielseitigen Einsatzmöglichkeiten. Sie können es verwenden, um Ihren Heimcomputer unterwegs fernzusteuern, auf lokale Ressourcen zuzugreifen und vieles mehr. Es unterstützt die Fernsteuerung von Offline-Geräten, sodass Sie Startfehler beheben und BIOS-Einstellungen anpassen können. Außerdem bietet es eine Funktion zur Dateiübertragung aus der Ferne, mit der Daten sowohl für Online- als auch Offline-Computer einfach übertragen werden können. Mit Audiounterstützung sorgt es für ein intensiveres Remote-Interaktionserlebnis. Kurz gesagt: Es ist ein wichtiges Werkzeug für Remote-Arbeit und Geräteverwaltung.
 
 ![comet scenario office](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_scenario_office.jpg){class="glboxshadow"}
 
 - [Sicherheitshinweise](safety_information.md)
-- [Produktuebersicht](product_overview.md)
+- [Produktübersicht](product_overview.md)
 - [Schnellstart](quick_setup_guide.md)
 - [Konsolenhandbuch](console_guide.md)

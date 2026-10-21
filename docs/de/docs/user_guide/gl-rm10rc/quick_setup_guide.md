@@ -121,7 +121,7 @@ Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet 5G zuzugreifen: ü
 
     ![remote access select device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_2.jpg){class="glboxshadow"}
 
-    Geben Sie auf der neu geoeffneten Webseite Ihr Administratorpasswort ein, um sich anzumelden.
+    Geben Sie auf der neu geöffneten Webseite Ihr Administratorpasswort ein, um sich anzumelden.
 
     ![remote access admin](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_3.png){class="glboxshadow"}
 
