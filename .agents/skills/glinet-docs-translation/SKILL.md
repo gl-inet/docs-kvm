@@ -91,6 +91,15 @@ Use this workflow when syncing English changes into localized docs, especially a
 
 Use the parent virtual environment for MkDocs in this repository. Do not install dependencies unless the environment is missing required packages.
 
+Run the structure and language checks for every touched language, and fix the translation instead of allowlisting:
+
+```powershell
+python scripts/i18n_check.py --lang de ja
+python scripts/anchors.py check
+```
+
+`i18n_check.py` reports sections, images, admonitions, code blocks, tables, links, and values that differ from English, orphan or missing pages, redirect mismatches, untranslated English, and language rules (for Japanese: full-width `（） ？ ！` next to Japanese text and half-width letters and digits). Add an entry to `scripts/i18n_allowlist.yml` only for an intentional difference, with a reason.
+
 For translation work, build every touched language that has a `mkdocs.yml`. Also build English if source structure, nav, redirects, shared assets, or overrides changed.
 
 ```powershell

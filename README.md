@@ -145,6 +145,18 @@ python scripts/anchors.py add --lang en              # turn generated English ID
 python scripts/anchors.py add --lang de [pages ...]  # copy IDs from the matching English headings
 ```
 
+### Localized page checks
+
+After adding, renaming, or deleting pages, editing `redirect_maps`, or changing localized pages, run:
+
+```bash
+python scripts/i18n_check.py [--lang de ja ...] [pages ...]
+```
+
+It compares each localized page with the English page section by section (images, admonitions, code blocks, tables, links, IP addresses, and version numbers) and reports orphan pages, missing pages, and broken redirects. It also flags untranslated English and language rules, such as Italian accents, French spaces before `: ; ? !`, and full-width `（） ？ ！` next to Japanese text.
+
+English-only regulatory pages and German-only safety information are not compared. Fix the translation for everything else; add an entry to `scripts/i18n_allowlist.yml` only for intentional differences, with a reason.
+
 ### Use relative path to link internal content
 
 ```

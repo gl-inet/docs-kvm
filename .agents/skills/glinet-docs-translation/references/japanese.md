@@ -31,8 +31,16 @@
 - Translate `absolute mouse` and `relative mouse` consistently within a file. Prefer `絶対マウス` and `相対マウス` unless nearby Japanese docs use a better established term.
 - Translate `screen wall` consistently as `スクリーンウォール`.
 
+## Japanese Punctuation
+
+- Use full-width `（）`, `？`, and `！` next to Japanese text, without half-width spaces around the brackets: `ネットワーク ソース（ルーターなど）に接続します`, `まだ質問がありますか？`.
+- Keep half-width brackets around Latin-only text between Latin words, for example `QoS (Quality of Service)`.
+- Use half-width letters and digits, not full-width `Ａ` or `１`.
+- `python scripts/i18n_check.py --lang ja` reports these rules.
+
 ## Japanese-Specific Pitfalls
 
+- Do not leave English list or feature headings such as `**Network Failover**` untranslated; the checks skip bold text, so review it by hand.
 - Do not leave untranslated fragments such as `Enabled`, `Sort`, `Bind`, `Unbind`, or similar English UI words inside Japanese prose unless they are literal UI labels.
 - Do not confuse device identity, hostname, cloud binding, and GLKVM app account actions.
 - Do not confuse the GLKVM app with browser-based local access.
