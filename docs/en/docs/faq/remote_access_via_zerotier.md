@@ -86,15 +86,15 @@ The example below demonstrates how to bind a Windows laptop (as the controlling 
 
     ![join network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/11_pc_join_network.jpg){class="glboxshadow"}
 
-    Then go to ZeroTier Central, fine the Pending device and authorize it.
+    Then go to ZeroTier Central, find the Pending device and authorize it.
 
     ![authorize](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/12_authorize.png){class="glboxshadow"}
 
-2. Once authorized, the status will change to Authorized in green, as shown below.
+3. Once authorized, the status will change to Authorized in green, as shown below.
 
     ![authorized](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/13_authorized.png){class="glboxshadow"}
 
-3. Now your KVM and the laptop are both added into the same ZeroTier network. You can tell by their Network ID, as shown below.
+4. Now your KVM and the laptop are both added into the same ZeroTier network. You can tell by their Network ID, as shown below.
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 

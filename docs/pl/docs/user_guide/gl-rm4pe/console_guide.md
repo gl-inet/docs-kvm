@@ -478,7 +478,7 @@ Sekcja USB Device umożliwia centralne zarządzanie wszystkimi emulowanymi urzą
 
     ![Ustawienia mikrofonu — krok 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Dostosuj lub zmień identyfikację KVM widoczną dla sterowanego urządzenia. EDID i identyfikacja urządzenia pozostają zsynchronizowane: zmiana jednego ustawienia automatycznie aktualizuje drugie, zapewniając prawidłowe rozpoznawanie urządzenia.
 

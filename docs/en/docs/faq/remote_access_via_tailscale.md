@@ -46,7 +46,7 @@ The example below demonstrates how to bind a Windows laptop (as the controlling 
 
     ![log in tailscale](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/log_in_tailscale.png){class="glboxshadow"}
 
-3. After logging in, the page prompts that you are about to connect the laptop (e.g. the controlling device) to your Tailnet. Click **Connect**.
+3. After logging in, the page prompts that you are about to connect the laptop (i.e. the controlling device) to your Tailnet. Click **Connect**.
 
     ![connect pc to tailnet](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/connect_pc_to_tailscale.png){class="glboxshadow"}
 
@@ -62,7 +62,7 @@ The example below demonstrates how to bind a Windows laptop (as the controlling 
 
 In the Tailscale console, click the glkvm's **Address** (`100.104.185.26` in this example).
 
-![get vittual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/get_vitual_ip.png){class="glboxshadow"}
+![get virtual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/get_vitual_ip.png){class="glboxshadow"}
 
 You will see four values:
 
@@ -71,7 +71,7 @@ You will see four values:
 - fd7a:115c:a1e0:301:b92f (virtual IPv6)
 - 100.104.185.26 (virtual IPv4). 
 
-They are allocated by Tailscale for device identification and virtual network communication. You can remotely access your KVM device using the Tailscale-assigned domain, vitual IPv4 and virtual IPv6.
+They are allocated by Tailscale for device identification and virtual network communication. You can remotely access your KVM device using the Tailscale-assigned domain, virtual IPv4 and virtual IPv6.
 
 Take the virtual IPv4 as an example.
 
@@ -79,7 +79,7 @@ Take the virtual IPv4 as an example.
 
 2. Open a new tab and paste the IP address into the address bar.
 
-    ![access vitual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enter_vitual_ip.png){class="glboxshadow"}
+    ![access virtual ip](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/enter_vitual_ip.png){class="glboxshadow"}
 
     A privacy error may appear. [Why do I get this privacy error?](privacy_error_from_your_browser.md){target="_blank"}
 

@@ -1,4 +1,4 @@
-# Wat moet ik doen als het toetsenbord niet de verwachte invoer of uitvoer geeft? {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Wat moet ik doen als het toetsenbord niet de verwachte invoer of uitvoer geeft? {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Als het besturende en het bestuurde apparaat **verschillende invoermethoden of toetsenbordindelingen** gebruiken, worden symbolen en tekens zoals "!", "@" en "#" die u lokaal invoert, mogelijk niet correct aan de externe kant weergegeven.
 

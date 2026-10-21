@@ -37,39 +37,39 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "e936e717fc775ff349cf336fef5a67aabea49c5df4497374782effa4debfd753",
+    "source_hash": "d305b83a4e42e29d9e58cd1eb83460abbe9c95f247b03167fe53b3eeb073efa0",
     "targets": {
       "de": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "ja": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "es": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "fr": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "it": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "pl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -185,39 +185,39 @@
     }
   },
   "docs/en/docs/faq/debrick.md": {
-    "source_hash": "0342f7f5eafcd84463ca3cf0eacdd49e099b6547d4e6b0fb59df8ff9de71494f",
+    "source_hash": "2e78d307567fae6d141c236abbf0cdf3a7f22bae60426c33b46e4e80019fb42f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -518,113 +518,113 @@
     }
   },
   "docs/en/docs/faq/index.md": {
-    "source_hash": "34a03228ee9b6cb20b683be77e39ac8c21492ff5e8f6ac6bda4e48917889676e",
+    "source_hash": "40be3041b869ed758a3f049c2be9280854f6144cb8c755356ffd3cf29c654c82",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
   "docs/en/docs/faq/keyboard_does_not_input_output_as_expected.md": {
-    "source_hash": "fc6af3719d394d39b3cf40de623d5012cc147c47126736184a45fd94a03da4c1",
+    "source_hash": "3cf98b6a7eea20d2c4b9c9fd2a5f3e4cca717529a670aa550fb3bbda10cee1e3",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
   "docs/en/docs/faq/local_access_via_browser.md": {
-    "source_hash": "4e4b86955a5114f4cf8d2c99e962d82f679471f44cbb74056568ffa335f05a8a",
+    "source_hash": "11202f4da751a81616f9fc36e4f29bfdc810046602bf646bd35f0c5c41fab7b7",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -999,76 +999,76 @@
     }
   },
   "docs/en/docs/faq/remote_access_via_tailscale.md": {
-    "source_hash": "b26febbc70c00132f29b47b35f94d9bd40a3ec977c1aa51109981019726394ee",
+    "source_hash": "c0341b064f64e61d22f9ba78c2f58ed66d1ab75322ed71f42059c5fae57c0f9e",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
   "docs/en/docs/faq/remote_access_via_zerotier.md": {
-    "source_hash": "fc38f3f00658aa7fc9084553fb1688c538842eba12d1703d4bfd9323e694299e",
+    "source_hash": "12a4d745ba5837df9a73dab79716dda19f3148aa60094175e576c9f879173da6",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -1739,39 +1739,39 @@
     }
   },
   "docs/en/docs/tutorials/how_to_check_usb-c_port_dp_alt_mode.md": {
-    "source_hash": "8609ec11420174a5eeefc3f638d24f801dc9efa1518f2d5d99ba8bb38828a5ad",
+    "source_hash": "e5045251e26da55aca31deacd25cdf8e8c8f78133d4bffb37f0c984393cec0a0",
     "targets": {
       "de": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -2072,39 +2072,39 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_edid_for_glkvm.md": {
-    "source_hash": "189a7fde59dfd6df1654177a6902ff844f987ff1535d5a42c00876b48b86f033",
+    "source_hash": "315f515a61b50ba1d84f33cf9d3cbb26c2afd7ebc7b6a1027cea96dfe65e0840",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1785325473
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1787215459
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -2257,39 +2257,39 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "a7f3861df17c1607ab3df471f6715f988666f57527845e6f1672b17df2f62ee8",
+    "source_hash": "5af8fca2ac0ec827488562b1006c631a3cd7c9ee31b866d096dc4d258f9a8684",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -2405,39 +2405,39 @@
     }
   },
   "docs/en/docs/user_guide/gl-rm1/console_guide.md": {
-    "source_hash": "b4439701919f8cf74f81f38a1939d322fd9a62db29b7169c407810fb924b5557",
+    "source_hash": "8de8d52766396957c6e6bde3fc6ca185d9d34141d3d3610c89f26b81da6220fa",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -2557,39 +2557,39 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10/console_guide.md": {
-    "source_hash": "d61dc93df7c020bd37989613469793cd4f5f2b5f85201afc91027fc7404a5a65",
+    "source_hash": "8b0597137f974cd4b5a94e75f55345ec8fed6ea3a672ff9f3aa0d53b1e180869",
     "targets": {
       "de": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -2709,39 +2709,39 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm10rc/console_guide.md": {
-    "source_hash": "d0d6d49c638e70d6943cb18e12e71f7a441446f3bf2d43192a82ae5bad4094eb",
+    "source_hash": "1ecf9c6b9b98775a5429fe31c6df6a7e9282ec410e86b6595a889ad5c0e07ce8",
     "targets": {
       "de": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -2861,39 +2861,39 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm1pe/console_guide.md": {
-    "source_hash": "d4ebec499f476ad62418db20b618391a2318199bdbfe7794cded7ce6bbfe2c4c",
+    "source_hash": "74de1023bf02a981406291cb8d48b169198506b02eef5dac7c19b9fbe780752c",
     "targets": {
       "de": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -3013,39 +3013,39 @@
     "targets": {}
   },
   "docs/en/docs/user_guide/gl-rm4pe/console_guide.md": {
-    "source_hash": "3ebdad142316a7baf10530f12bdc60bae743dd9523b95977c9a6b1ecb15a3024",
+    "source_hash": "39164497741f5088dad7eb445cdf9ab1c6e2b8db9ac26270749be253dab3a1ad",
     "targets": {
       "de": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792139366
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },
@@ -3724,39 +3724,39 @@
     }
   },
   "docs/en/docs/tutorials/how_to_share_kvm_devices_with_others.md": {
-    "source_hash": "a10621abd69e39493c5794d36bf0523f734247ecfb130f3bd34ee2659243ba1f",
+    "source_hash": "9664cf095d7d088224984bbc99c112f3cf46a2e39271a798995301cf20a880b5",
     "targets": {
       "de": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "ja": {
-        "model": "gpt-5-codex",
-        "updated_at": 1790152427
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "es": {
-        "model": "gpt-6",
-        "updated_at": 1792054801
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792142549
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792144005
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792576342
       },
       "nl": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       },
       "sv": {
         "model": "claude-opus-5-5",
-        "updated_at": 1792575694
+        "updated_at": 1792576342
       }
     }
   },

@@ -58,7 +58,7 @@ If your question is not listed below, please contact our technical support team 
 
 * [What should I do if I cannot control the mouse and keyboard](cannot_control_mouse_and_keyboard.md)
 * [What should I do if mouse cursors fail to align](mouse_cursors_fail_to_align.md)
-* [What shoud I do if keyboard does not input or output as expected](keyboard_does_not_input_output_as_expected.md)
+* [What should I do if keyboard does not input or output as expected](keyboard_does_not_input_output_as_expected.md)
 * [What should I do if relative mouse mode does not work on Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md)
 * [What is the difference between Absolute mouse and Relative mouse](difference_between_absolute_and_relative_mouse.md)
 * [How to fix mouse latency when RPi4 controls RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)

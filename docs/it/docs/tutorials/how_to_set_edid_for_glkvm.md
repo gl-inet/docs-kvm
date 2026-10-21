@@ -20,13 +20,13 @@ In situazioni particolari, ad esempio per configurare UEFI/BIOS o personalizzare
 
 ## EDID personalizzato {#custom-edid}
 
-Se non trovi un codice EDID adatto, consulta [questo link](https://github.com/linuxhw/EDID){target="blank"} oppure segui i passaggi indicati di seguito per personalizzare la configurazione EDID.
+Se non trovi un codice EDID adatto, consulta [questo link](https://github.com/linuxhw/EDID){target="_blank"} oppure segui i passaggi indicati di seguito per personalizzare la configurazione EDID.
 
 !!! Tip "Suggerimento"
 
     Trovare un EDID che corrisponda esattamente alla risoluzione e alla frequenza di aggiornamento desiderate può essere difficile. Puoi usare strumenti di modifica EDID come **RTDtool** o **EEditZ** per adattare un EDID esistente alle tue esigenze.
 
-1. Trova un EDID adatto [qui](https://github.com/linuxhw/EDID){target="blank"} e copialo.
+1. Trova un EDID adatto [qui](https://github.com/linuxhw/EDID){target="_blank"} e copialo.
 
 2. Accedi alla console del KVM GL.iNet e vai su **Settings** -> **EDID**. Passa alla modalità **Customize**, incolla i parametri nel campo di input e fai clic su **Set Custom** per applicare le impostazioni.
 

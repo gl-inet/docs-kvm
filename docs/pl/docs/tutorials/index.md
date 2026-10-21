@@ -41,6 +41,7 @@ Dowiedz się, jak prawidłowo korzystać z naszych urządzeń i rozwiązywać pr
 
 * [Jak przywrócić działanie KVM przez U-Boot](../faq/debrick.md)
 * [Jak przywrócić działanie KVM za pomocą RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
+* [Jak przywrócić działanie KVM przez USB OTG](how_to_unbrick_kvm_via_usb_otg.md)
 * [Jak wyeksportować logi urządzenia i aplikacji](how_to_export_device_and_app_logs.md)
 * [Jak wyeksportować logi sieci komórkowej](how_to_export_cellular_logs.md)
 * [Jak usunąć opóźnienia myszy podczas sterowania RPi3 z RPi4](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

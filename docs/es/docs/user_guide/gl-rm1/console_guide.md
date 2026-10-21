@@ -459,7 +459,7 @@ USB Device permite gestionar de forma centralizada todos los dispositivos USB em
 
     ![Ajustes del micrófono 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/mic_setting_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Personalice o modifique la identidad con la que el dispositivo controlado reconoce al KVM. Tenga en cuenta que el EDID y la identificación del dispositivo permanecen sincronizados. Al cambiar uno de ellos, el otro se actualiza automáticamente para garantizar el reconocimiento correcto del dispositivo.
 

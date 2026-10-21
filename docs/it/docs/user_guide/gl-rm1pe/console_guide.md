@@ -464,7 +464,7 @@ La sezione USB Devices centralizza la gestione di tutti i dispositivi USB emulat
 
     ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/mic_settings_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Consente di personalizzare o modificare l'identità del KVM riconosciuta dal dispositivo controllato. EDID e identificazione del dispositivo restano sincronizzati: modificando uno dei due, l'altro si aggiorna automaticamente per garantire il corretto riconoscimento del dispositivo.
 

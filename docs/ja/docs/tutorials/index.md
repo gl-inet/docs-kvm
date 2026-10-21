@@ -41,6 +41,7 @@
 
 * [U-Boot 経由で KVM をアンブリックする方法](../faq/debrick.md)
 * [RKDevTool 経由で KVM をアンブリックする方法](how_to_debrick_kvm_via_rkdevtool.md)
+* [USB OTG 経由で KVM をアンブリックする方法](how_to_unbrick_kvm_via_usb_otg.md)
 * [デバイスとアプリのログをエクスポートする方法](how_to_export_device_and_app_logs.md)
 * [セルラーログのエクスポート方法](how_to_export_cellular_logs.md)
 * [RPi4 が RPi3](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md) を制御する場合のマウスの遅延を修正する方法

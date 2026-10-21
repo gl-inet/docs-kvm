@@ -90,11 +90,11 @@ In het onderstaande voorbeeld ziet u hoe u een Windows-laptop (als besturend app
 
     ![Autoriseren](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/12_authorize.png){class="glboxshadow"}
 
-2. Na de autorisatie verandert de status in een groene status Authorized, zoals hieronder weergegeven.
+3. Na de autorisatie verandert de status in een groene status Authorized, zoals hieronder weergegeven.
 
     ![Geautoriseerd](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/13_authorized.png){class="glboxshadow"}
 
-3. Uw KVM en de laptop zijn nu allebei toegevoegd aan hetzelfde ZeroTier-netwerk. U ziet dit aan de netwerk-ID, zoals hieronder weergegeven.
+4. Uw KVM en de laptop zijn nu allebei toegevoegd aan hetzelfde ZeroTier-netwerk. U ziet dit aan de netwerk-ID, zoals hieronder weergegeven.
 
     ![Hetzelfde ZeroTier-netwerk](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 

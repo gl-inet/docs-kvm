@@ -20,7 +20,7 @@ There are two ways to access the KVM locally via a web browser: using a domain n
 
 Find the IP address of your KVM in the upstream network (e.g., your router), and enter this IP address in the browser. You will then be able to access your KVM locally, thus access the controlled device.
 
-Take **GL-AXT1800** (the router) and **GL-RM1 Comet** (the KVM) as an example: Comet is connected to the LAN port of GL-AXT1800 router via an Ethernet cable. The controlled device is connected to Comet correctly via HD cable and USB cable.
+Take **GL-AXT1800** (the router) and **GL-RM1 Comet** (the KVM) as an example: Comet is connected to the LAN port of GL-AXT1800 router via an Ethernet cable. The controlled device is connected to Comet correctly via HDMI cable and USB cable.
 
 Follow the steps below to access the KVM console.
 

@@ -38,7 +38,7 @@ Befolgen Sie die folgenden Schritte genau, um Fehler bei der Wiederherstellung z
 
         3. Klicken Sie auf **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Stellen Sie die **IP adress** manuell auf `192.168.1.2` ein.
+        4. Stellen Sie die **IP address** manuell auf `192.168.1.2` ein.
 
         5. Stellen Sie die **Subnet mask** auf `255.255.255.0` ein.
 
@@ -84,7 +84,7 @@ Befolgen Sie die folgenden Schritte genau, um Fehler bei der Wiederherstellung z
 
             ![macos system preferences network](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences_network.png){class="glboxshadow"}
 
-        4. Klicken Sie links auf **Ethernet**, dann auf das Dropdown-Feld neben **Configure IPv4** und wählen Sie **Manually**. Wenn Sie einen USB-Ethernet-Adapter verwenden, wird Ethernet möglicherweise nicht angezeigt; stattdessen kann der Name des USB-Ethernet-Adapters erscheinen.
+        3. Klicken Sie links auf **Ethernet**, dann auf das Dropdown-Feld neben **Configure IPv4** und wählen Sie **Manually**. Wenn Sie einen USB-Ethernet-Adapter verwenden, wird Ethernet möglicherweise nicht angezeigt; stattdessen kann der Name des USB-Ethernet-Adapters erscheinen.
 
             ![macos ip manually](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_1.png){class="glboxshadow"}
 

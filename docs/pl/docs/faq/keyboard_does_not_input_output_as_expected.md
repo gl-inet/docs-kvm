@@ -1,4 +1,4 @@
-# Co zrobić, jeśli klawiatura nie wprowadza lub nie wyświetla oczekiwanych znaków {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Co zrobić, jeśli klawiatura nie wprowadza lub nie wyświetla oczekiwanych znaków {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Jeśli urządzenie sterujące i docelowe korzystają z **różnych metod wprowadzania lub układów klawiatury**, znaki i symbole, takie jak „!”, „@” czy „#”, wpisywane lokalnie mogą być nieprawidłowo wyświetlane po stronie zdalnej.
 

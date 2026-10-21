@@ -90,11 +90,11 @@ Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das
 
     ![authorize](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/12_authorize.png){class="glboxshadow"}
 
-2. Nach der Autorisierung wechselt der Status wie unten gezeigt in Grün zu Authorized.
+3. Nach der Autorisierung wechselt der Status wie unten gezeigt in Grün zu Authorized.
 
     ![authorized](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/13_authorized.png){class="glboxshadow"}
 
-3. Nun wurden Ihr KVM und der Laptop demselben ZeroTier-Netzwerk hinzugefügt. Das erkennen Sie an ihrer Network ID, wie unten gezeigt.
+4. Nun wurden Ihr KVM und der Laptop demselben ZeroTier-Netzwerk hinzugefügt. Das erkennen Sie an ihrer Network ID, wie unten gezeigt.
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 

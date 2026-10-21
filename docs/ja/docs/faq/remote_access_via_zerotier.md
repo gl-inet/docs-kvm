@@ -90,11 +90,11 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
     ![authorize](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/12_authorize.png){class="glboxshadow"}
 
-2. 承認されると、以下に示すように、ステータスが緑色で承認済みに変わります。
+3. 承認されると、以下に示すように、ステータスが緑色で承認済みに変わります。
 
     ![authorized](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/13_authorized.png){class="glboxshadow"}
 
-3. これで、KVM とラップトップの両方が同じ ZeroTier ネットワークに追加されました。以下に示すように、ネットワーク ID でわかります。
+4. これで、KVM とラップトップの両方が同じ ZeroTier ネットワークに追加されました。以下に示すように、ネットワーク ID でわかります。
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 

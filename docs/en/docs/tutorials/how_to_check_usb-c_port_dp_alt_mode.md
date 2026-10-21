@@ -106,7 +106,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - iMac 21.5-in. (Intel, 2017)
         - iMac 24-in. (M1, two ports, 2021)
         - iMac 24-in. (M1, four ports, 2021)
-        - iMac27-in. (Intel,2020)
+        - iMac 27-in. (Intel, 2020)
         - iMac Pro (Intel, 2017)
     - Mac mini
         - Mac mini (M4)
@@ -116,11 +116,11 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Mac mini (Intel, 2018)
     - Mac Studio
         - Mac Studio (M4 Max)
-        - Mac Studio (M3 UIitra)
-        - Mac Studio (M2 Max or M2 UItra)
-        - Mac Studio (M1 Max or M1 UItra, 2022)
+        - Mac Studio (M3 Ultra)
+        - Mac Studio (M2 Max or M2 Ultra)
+        - Mac Studio (M1 Max or M1 Ultra, 2022)
     - Mac Pro
-        - Mac Pro (M2 UItra)
+        - Mac Pro (M2 Ultra)
         - Mac Pro (Intel, 2019)
 
 ## How to check on Android {#how-to-check-on-android}

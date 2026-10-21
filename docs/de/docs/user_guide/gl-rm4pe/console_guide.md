@@ -480,7 +480,7 @@ Unter USB Device werden alle emulierten USB-Geräte zentral verwaltet. Auf diese
 
     ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Passen Sie die Identität des KVM an oder ändern Sie sie, wie sie vom gesteuerten Gerät erkannt wird. Beachten Sie, dass EDID und Geräteidentifikation synchronisiert bleiben. Wenn eines von beiden geändert wird, wird das andere automatisch aktualisiert, um eine korrekte Geräteerkennung sicherzustellen.
 

@@ -106,7 +106,7 @@ Les ports USB-C n’offrent pas tous les mêmes fonctions. Certains transmettent
         - iMac 21,5 pouces (Intel, 2017)
         - iMac 24 pouces (M1, deux ports, 2021)
         - iMac 24 pouces (M1, quatre ports, 2021)
-        - iMac 27 pouces (Intel,2020)
+        - iMac 27 pouces (Intel, 2020)
         - iMac Pro (Intel, 2017)
     - Mac mini
         - Mac mini (M4)
@@ -116,11 +116,11 @@ Les ports USB-C n’offrent pas tous les mêmes fonctions. Certains transmettent
         - Mac mini (Intel, 2018)
     - Mac Studio
         - Mac Studio (M4 Max)
-        - Mac Studio (M3 UIitra)
-        - Mac Studio (M2 Max ou M2 UItra)
-        - Mac Studio (M1 Max ou M1 UItra, 2022)
+        - Mac Studio (M3 Ultra)
+        - Mac Studio (M2 Max ou M2 Ultra)
+        - Mac Studio (M1 Max ou M1 Ultra, 2022)
     - Mac Pro
-        - Mac Pro (M2 UItra)
+        - Mac Pro (M2 Ultra)
         - Mac Pro (Intel, 2019)
 
 ## Vérification sous Android {#how-to-check-on-android}

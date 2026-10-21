@@ -38,7 +38,7 @@ Följ stegen nedan noggrant för att undvika att återställningen misslyckas.
 
         3. Klicka på **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Ange **IP adress** manuellt till `192.168.1.2`.
+        4. Ange **IP address** manuellt till `192.168.1.2`.
 
         5. Ange **Subnet mask** till `255.255.255.0`.
 

@@ -20,13 +20,13 @@ In bijzondere situaties, bijvoorbeeld om UEFI/BIOS te configureren of de resolut
 
 ## Aangepaste EDID {#custom-edid}
 
-Als u geen geschikte EDID-code kunt vinden, kunt u [deze link](https://github.com/linuxhw/EDID){target="blank"} raadplegen of de onderstaande stappen volgen om een aangepaste EDID-configuratie te maken.
+Als u geen geschikte EDID-code kunt vinden, kunt u [deze link](https://github.com/linuxhw/EDID){target="_blank"} raadplegen of de onderstaande stappen volgen om een aangepaste EDID-configuratie te maken.
 
 !!! Tip "Tip"
 
     Het kan lastig zijn een EDID te vinden die precies overeenkomt met de gewenste resolutie en verversingsfrequentie. U kunt EDID-bewerkingstools zoals **RTDtool** of **EEditZ** gebruiken om een bestaande EDID naar uw specifieke wensen aan te passen.
 
-1. Zoek [hier](https://github.com/linuxhw/EDID){target="blank"} een geschikte EDID en kopieer deze.
+1. Zoek [hier](https://github.com/linuxhw/EDID){target="_blank"} een geschikte EDID en kopieer deze.
 
 2. Meld u aan bij de console van de GL.iNet KVM en ga naar **Settings** -> **EDID**. Schakel over naar de modus **Customize**, plak de parameters in het invoervak en klik op **Set Custom** om de instellingen toe te passen.
 

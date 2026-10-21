@@ -1,4 +1,4 @@
-# Que faire si le clavier ne produit pas la saisie attendue ? {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Que faire si le clavier ne produit pas la saisie attendue ? {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Si les appareils de contrôle et contrôlé utilisent des **méthodes de saisie ou des dispositions de clavier différentes**, les symboles et caractères comme « ! », « @ » ou « # » saisis localement peuvent s’afficher incorrectement à distance.
 

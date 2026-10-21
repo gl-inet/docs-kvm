@@ -84,7 +84,7 @@ Volg de onderstaande stappen nauwkeurig om te voorkomen dat het herstel mislukt.
 
             ![Netwerk in de systeemvoorkeuren van macOS](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences_network.png){class="glboxshadow"}
 
-        4. Klik links op **Ethernet**, klik vervolgens op de vervolgkeuzelijst naast **Configure IPv4** en selecteer **Manually**. Als u een USB-ethernetadapter gebruikt, wordt Ethernet mogelijk niet gevonden en wordt in plaats daarvan de naam van de USB-ethernetadapter weergegeven.
+        3. Klik links op **Ethernet**, klik vervolgens op de vervolgkeuzelijst naast **Configure IPv4** en selecteer **Manually**. Als u een USB-ethernetadapter gebruikt, wordt Ethernet mogelijk niet gevonden en wordt in plaats daarvan de naam van de USB-ethernetadapter weergegeven.
 
             ![Handmatig IP-adres in macOS](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_1.png){class="glboxshadow"}
 

@@ -84,7 +84,7 @@ DIY プロジェクトや間違ったファームウェアのフラッシュが�
 
             ![macos system preferences network](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences_network.png){class="glboxshadow"}
 
-        4. 左側の **Ethernet** をクリックし、**Configure IPv4** の横にあるドロップダウン ボックスをクリックして、**Manually** を選択します。 USB イーサネット アダプターを使用している場合、イーサネットが見つからず、USB イーサネット アダプターの名前として表示される場合があります。
+        3. 左側の **Ethernet** をクリックし、**Configure IPv4** の横にあるドロップダウン ボックスをクリックして、**Manually** を選択します。 USB イーサネット アダプターを使用している場合、イーサネットが見つからず、USB イーサネット アダプターの名前として表示される場合があります。
 
             ![macos ip manually](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_1.png){class="glboxshadow"}
 

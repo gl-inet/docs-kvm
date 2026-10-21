@@ -1,4 +1,4 @@
-# キーボードが期待どおりに入力または出力しない場合はどうすればよいですか {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# キーボードが期待どおりに入力または出力しない場合はどうすればよいですか {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 制御機器と被制御デバイスで**異なる入力方法やキーボードレイアウト**を使用している場合、ローカルで入力された「!」、「@」、「#」などの記号や文字がリモート側で正しく表示されない場合があります。
 

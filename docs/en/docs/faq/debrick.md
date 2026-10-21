@@ -38,7 +38,7 @@ To avoid unbrick failure, please follow the steps below strictly.
 
         3. Click **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Set the **IP adress** to `192.168.1.2` manually.
+        4. Set the **IP address** to `192.168.1.2` manually.
 
         5. Set the **Subnet mask** to `255.255.255.0`.
 
@@ -84,7 +84,7 @@ To avoid unbrick failure, please follow the steps below strictly.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences_network.png){class="glboxshadow"}
 
-        4. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
+        3. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
 
             ![macos ip manually](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_1.png){class="glboxshadow"}
 

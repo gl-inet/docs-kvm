@@ -41,6 +41,7 @@ Erfahren Sie in detaillierten Schritten, wie Sie unsere Geraete korrekt verwende
 
 * [KVM ueber U-Boot entbricken](../faq/debrick.md)
 * [KVM mit RKDevTool debricken](how_to_debrick_kvm_via_rkdevtool.md)
+* [KVM mit USB OTG debricken](how_to_unbrick_kvm_via_usb_otg.md)
 * [Geraete- und App-Protokolle exportieren](how_to_export_device_and_app_logs.md)
 * [Mobilfunkprotokolle exportieren](how_to_export_cellular_logs.md)
 * [Mauslatenz beheben, wenn RPi4 RPi3 steuert](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

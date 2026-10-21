@@ -41,6 +41,7 @@ Apprenez à utiliser nos appareils et à résoudre les problèmes grâce à des 
 
 * [Restaurer un KVM via U-Boot](../faq/debrick.md)
 * [Restaurer un KVM via RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
+* [Restaurer un KVM via USB OTG](how_to_unbrick_kvm_via_usb_otg.md)
 * [Exporter les journaux de l’appareil et de l’application](how_to_export_device_and_app_logs.md)
 * [Exporter les journaux cellulaires](how_to_export_cellular_logs.md)
 * [Corriger la latence de la souris lorsque le RPi4 contrôle le RPi3](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

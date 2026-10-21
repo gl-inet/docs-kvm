@@ -114,13 +114,13 @@ DP Alt Mode は、**Comet Q** がデバイスから映像を受信するため�
         - Mac mini (M2 または M2 Pro)
         - Mac mini (M1、2020)
         - Mac mini（インテル、2018）
-    - Mac スタジオ
-        - Mac スタジオ (M4 Max)
-        - Mac スタジオ (M3 UIitra)
-        - Mac スタジオ (M2 Max または M2 UItra)
-        - Mac Studio (M1 Max または M1 UItra、2022)
+    - Mac Studio
+        - Mac Studio (M4 Max)
+        - Mac Studio (M3 Ultra)
+        - Mac Studio (M2 Max または M2 Ultra)
+        - Mac Studio (M1 Max または M1 Ultra、2022)
     - Mac Pro
-        - Mac Pro (M2 UItra)
+        - Mac Pro (M2 Ultra)
         - Mac Pro（インテル、2019）
 
 ## Androidでの確認方法 {#how-to-check-on-android}

@@ -1,4 +1,4 @@
-# What shoud I do if keyboard does not input or output as expected {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# What should I do if keyboard does not input or output as expected {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 If the controlling and controlled devices use **different input methods or keyboard layouts**, symbols and characters such as "!", "@", "#" entered locally may not display correctly on the remote side.
 

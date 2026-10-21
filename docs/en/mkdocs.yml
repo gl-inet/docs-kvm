@@ -3,7 +3,7 @@ repo_url: https://github.com/gl-inet/docs-kvm
 edit_uri: ""
 
 site_name: GL.iNet KVM Docs
-site_description: Documentation for GL.iNet KVM Productions
+site_description: Documentation for GL.iNet KVM Products
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/kvm/en/
 site_dir: site

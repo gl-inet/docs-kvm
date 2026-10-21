@@ -480,7 +480,7 @@ USB Devices ページでは、すべての USB エミュレーションデバイ
 
     ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     被制御デバイスによって認識される KVM のデバイス ID をカスタマイズまたは変更できます。EDID とデバイス ID は同期されます。いずれかを変更するともう一方も自動的に更新され、デバイスが正しく認識されるようになります。
 

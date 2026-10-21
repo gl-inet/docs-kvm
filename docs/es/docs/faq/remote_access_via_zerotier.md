@@ -90,11 +90,11 @@ Este ejemplo muestra cómo vincular un portátil Windows, que actuará como disp
 
     ![Autorizar el portátil](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/12_authorize.png){class="glboxshadow"}
 
-2. Una vez autorizado, el estado cambiará a Authorized en verde.
+3. Una vez autorizado, el estado cambiará a Authorized en verde.
 
     ![Portátil autorizado](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/13_authorized.png){class="glboxshadow"}
 
-3. El KVM y el portátil ya pertenecen a la misma red ZeroTier. Puede comprobarlo comparando sus Network ID, como se muestra a continuación.
+4. El KVM y el portátil ya pertenecen a la misma red ZeroTier. Puede comprobarlo comparando sus Network ID, como se muestra a continuación.
 
     ![Ambos dispositivos en la misma red ZeroTier](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 

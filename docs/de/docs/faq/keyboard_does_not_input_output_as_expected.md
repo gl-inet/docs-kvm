@@ -1,4 +1,4 @@
-# Was tun, wenn die Tastatureingabe oder -ausgabe nicht wie erwartet funktioniert {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Was tun, wenn die Tastatureingabe oder -ausgabe nicht wie erwartet funktioniert {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Wenn steuerndes und gesteuertes Gerät **unterschiedliche Eingabemethoden oder Tastaturlayouts** verwenden, werden lokal eingegebene Symbole und Zeichen wie "!", "@", "#" auf der Remote-Seite möglicherweise nicht korrekt angezeigt.
 

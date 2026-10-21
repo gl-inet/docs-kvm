@@ -462,7 +462,7 @@ USB Devices ger central hantering av alla emulerade USB-enheter. På den här si
 
     ![Mikrofoninställningar 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/mic_setting_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Anpassa eller ändra den KVM-identitet som den styrda enheten identifierar. Observera att EDID och enhetsidentiteten hålls synkroniserade. Om du ändrar den ena uppdateras den andra automatiskt, så att enheten identifieras korrekt.
 

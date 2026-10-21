@@ -41,6 +41,7 @@ Lär dig att använda våra enheter på rätt sätt eller felsöka med detaljera
 
 * [Så återställer du en obrukbar KVM via U-Boot](../faq/debrick.md)
 * [Så återställer du en obrukbar KVM via RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
+* [Så återställer du en obrukbar KVM via USB OTG](how_to_unbrick_kvm_via_usb_otg.md)
 * [Så exporterar du enhets- och apploggar](how_to_export_device_and_app_logs.md)
 * [Så exporterar du mobilnätsloggar](how_to_export_cellular_logs.md)
 * [Så åtgärdar du musfördröjning när RPi4 styr RPi3](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

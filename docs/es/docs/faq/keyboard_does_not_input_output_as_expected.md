@@ -1,4 +1,4 @@
-# Qué hacer si el teclado no introduce o muestra los caracteres esperados {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Qué hacer si el teclado no introduce o muestra los caracteres esperados {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Si los dispositivos de control y controlado utilizan **métodos de entrada o distribuciones de teclado diferentes**, los símbolos y caracteres como "!", "@" o "#" introducidos de forma local pueden no aparecer correctamente en el dispositivo remoto.
 

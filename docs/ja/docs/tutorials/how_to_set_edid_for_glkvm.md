@@ -20,13 +20,13 @@ UEFI/BIOS の構成や解像度/リフレッシュ レートのカスタマイ�
 
 ## カスタム EDID {#custom-edid}
 
-適切な EDID コードが見つからない場合は、[このリンク](https://github.com/linuxhw/EDID){target="blank"} または以下の手順を参照して、EDID 構成をカスタマイズしてください。
+適切な EDID コードが見つからない場合は、[このリンク](https://github.com/linuxhw/EDID){target="_blank"} または以下の手順を参照して、EDID 構成をカスタマイズしてください。
 
 !!! tip
 
     希望の解像度とリフレッシュ レートに正確に一致する EDID を見つけるのは難しい場合があります。 **RTDtool** や **EEditZ** などの EDID 編集ツールを使用して、特定のニーズに合わせて既存の EDID を変更できます。
 
-1. 適切な EDID [こちら ](https://github.com/linuxhw/EDID){target="blank"} を見つけてコピーします。
+1. 適切な EDID [こちら ](https://github.com/linuxhw/EDID){target="_blank"} を見つけてコピーします。
 
 2. GL.iNet KVM コンソールにログインし、**Settings** -> **EDID** に移動します。 **Customize** モードに切り替え、パラメータを入力ボックスに貼り付け、**Set Custom** をクリックして設定を適用します。
 

@@ -41,6 +41,7 @@ Leer met gedetailleerde stappen hoe u onze apparaten correct gebruikt en problem
 
 * [Een gebrickte KVM herstellen via U-Boot](../faq/debrick.md)
 * [Een gebrickte KVM herstellen met RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
+* [Een gebrickte KVM herstellen via USB OTG](how_to_unbrick_kvm_via_usb_otg.md)
 * [Apparaat- en app-logboeken exporteren](how_to_export_device_and_app_logs.md)
 * [Logboeken van het mobiele netwerk exporteren](how_to_export_cellular_logs.md)
 * [Muisvertraging verhelpen wanneer een RPi4 een RPi3 bestuurt](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

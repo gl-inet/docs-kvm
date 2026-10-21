@@ -1,4 +1,4 @@
-# Vad gör jag om tangentbordet inte matar in eller ut tecken som förväntat? {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Vad gör jag om tangentbordet inte matar in eller ut tecken som förväntat? {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Om den styrande och den styrda enheten använder **olika inmatningsmetoder eller tangentbordslayouter** kan symboler och tecken som "!", "@" och "#" som du skriver lokalt visas felaktigt på fjärrsidan.
 

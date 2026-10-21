@@ -478,7 +478,7 @@ The USB Device provides centralized management for all USB emulation devices. Fr
 
     ![mic settings 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
 
@@ -490,7 +490,7 @@ The Preferences provides management of Layout Preferences, System Settings, and 
 
 ![Preferences](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_preferences.png){class="glboxshadow"}
 
-- **Layout Preferences**:You can manage show toolbar in fullscreen and show status bar in window mode as needed.
+- **Layout Preferences**: You can manage show toolbar in fullscreen and show status bar in window mode as needed.
   
 - **System Settings**: To customize System Settings, select the browser Tab Title, Language (Chinese, English, or Japanese), Color Mode (Light or Dark), and Timezone based on your region.
 

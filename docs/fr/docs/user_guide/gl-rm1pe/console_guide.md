@@ -464,7 +464,7 @@ La section **USB Device** centralise la gestion de tous les périphériques USB 
 
     ![Paramètres du microphone 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/mic_settings_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Personnalisez ou modifiez l’identité du KVM reconnue par l’appareil contrôlé. L’EDID et l’identification de l’appareil restent synchronisés : toute modification de l’un met automatiquement à jour l’autre pour garantir une reconnaissance correcte de l’appareil.
 

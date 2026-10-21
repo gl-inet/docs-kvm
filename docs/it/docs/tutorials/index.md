@@ -41,6 +41,7 @@ Scopri come usare correttamente i nostri dispositivi e risolvere i problemi con 
 
 * [Come ripristinare il KVM tramite U-Boot](../faq/debrick.md)
 * [Come ripristinare il KVM tramite RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
+* [Come ripristinare il KVM tramite USB OTG](how_to_unbrick_kvm_via_usb_otg.md)
 * [Come esportare i log del dispositivo e dell'app](how_to_export_device_and_app_logs.md)
 * [Come esportare i log della connessione cellulare](how_to_export_cellular_logs.md)
 * [Come risolvere il ritardo del mouse quando RPi4 controlla RPi3](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

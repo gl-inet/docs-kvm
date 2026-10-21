@@ -41,6 +41,7 @@ Aprenda a utilizar correctamente nuestros dispositivos o a solucionar problemas 
 
 * [Recuperar un KVM bloqueado mediante U-Boot](../faq/debrick.md)
 * [Recuperar un KVM bloqueado mediante RKDevTool](how_to_debrick_kvm_via_rkdevtool.md)
+* [Recuperar un KVM bloqueado mediante USB OTG](how_to_unbrick_kvm_via_usb_otg.md)
 * [Exportar los registros del dispositivo y de la aplicación](how_to_export_device_and_app_logs.md)
 * [Exportar los registros de la conexión móvil](how_to_export_cellular_logs.md)
 * [Solucionar el retardo del ratón al controlar un RPi3 desde un RPi4](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)

@@ -90,11 +90,11 @@ L'esempio seguente mostra come associare alla rete ZeroTier un portatile Windows
 
     ![authorize](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/12_authorize.png){class="glboxshadow"}
 
-2. Una volta autorizzato, lo stato passerà a Authorized in verde, come mostrato di seguito.
+3. Una volta autorizzato, lo stato passerà a Authorized in verde, come mostrato di seguito.
 
     ![authorized](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/13_authorized.png){class="glboxshadow"}
 
-3. Il KVM e il portatile sono ora entrambi nella stessa rete ZeroTier. Puoi verificarlo dal loro Network ID, come mostrato di seguito.
+4. Il KVM e il portatile sono ora entrambi nella stessa rete ZeroTier. Puoi verificarlo dal loro Network ID, come mostrato di seguito.
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 

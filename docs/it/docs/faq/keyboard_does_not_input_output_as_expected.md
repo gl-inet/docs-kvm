@@ -1,4 +1,4 @@
-# Cosa fare se la tastiera non produce l'input o l'output previsto {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
+# Cosa fare se la tastiera non produce l'input o l'output previsto {#what-should-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Se il dispositivo di controllo e il dispositivo controllato usano **metodi di input o layout di tastiera diversi**, i simboli e i caratteri digitati localmente, come "!", "@" e "#", potrebbero non essere visualizzati correttamente sul dispositivo remoto.
 

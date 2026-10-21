@@ -478,7 +478,7 @@ USB Devices biedt centraal beheer van alle geëmuleerde USB-apparaten. Op deze p
 
     ![Microfooninstellingen 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/settings_microphone_2.png){class="glboxshadow" width=434}
 
-  - **Device Identity**
+- **Device Identity**
 
     Hiermee past u de identiteit van de KVM aan zoals die door het bestuurde apparaat wordt herkend. Let op: EDID en apparaatidentiteit blijven gesynchroniseerd. Als u een van beide wijzigt, wordt de andere automatisch bijgewerkt, zodat het apparaat correct wordt herkend.
 

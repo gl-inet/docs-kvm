@@ -84,7 +84,7 @@ Siga estrictamente estos pasos para evitar que falle la recuperación.
 
             ![Configuración de red en macOS](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_system_preferences_network.png){class="glboxshadow"}
 
-        4. Haga clic en **Ethernet** a la izquierda y, en el desplegable junto a **Configure IPv4**, seleccione **Manually**. Si utiliza un adaptador USB a Ethernet, puede aparecer el nombre del adaptador en lugar de Ethernet.
+        3. Haga clic en **Ethernet** a la izquierda y, en el desplegable junto a **Configure IPv4**, seleccione **Manually**. Si utiliza un adaptador USB a Ethernet, puede aparecer el nombre del adaptador en lugar de Ethernet.
 
             ![Configuración manual de IP en macOS](https://static.gl-inet.com/docs/kvm/faq/debrick/mac_ip_manually_1.png){class="glboxshadow"}
 
