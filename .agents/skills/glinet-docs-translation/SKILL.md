@@ -1,6 +1,6 @@
 ---
 name: glinet-docs-translation
-description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when Codex is asked to translate English KVM docs into German or Japanese; add or update docs/de/** or docs/ja/** after changes under docs/en/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
+description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when asked to translate English KVM docs into German, Japanese, Spanish, French, Italian, or Polish; update localized docs after changes under docs/en/**; fix differences reported by scripts/i18n_check.py; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
 ---
 
 # GL.iNet KVM Docs Translation
@@ -13,6 +13,8 @@ Read the target-language reference before editing that language:
 
 - German: `references/german.md`
 - Japanese: `references/japanese.md`
+
+Spanish, French, Italian, and Polish have no reference file yet; follow the common rules below and the terminology of nearby pages in that language.
 
 If a task touches both languages, read both references before editing.
 
@@ -60,7 +62,7 @@ Use this workflow when syncing English changes into localized docs, especially a
 3. Build an English change list covering modified, added, deleted, and renamed files under `docs/en/`, plus changes to `docs/en/mkdocs.yml`, nav, redirects, plugins, and path references.
 4. Handle structure before prose:
    - Filter out English-only regulatory and compliance statement changes. Do not create, rename, delete, translate, or add localized nav/redirect/index entries for these pages unless explicitly requested.
-   - Mirror English renames in `docs/de/` and `docs/ja/` when those language roots exist.
+   - Mirror English renames and deletions in every localized language root, and delete localized pages whose English page was deleted.
    - Create matching localized pages when English adds pages and the user asks to add that target language.
    - Sync localized `mkdocs.yml` changes when English changes nav, redirects, plugins, or path references.
 5. Translate only the changed English portions. Do not retranslate whole pages unless the English page is new or the localized page is unusable and the user agrees.
@@ -82,8 +84,7 @@ Use this workflow when syncing English changes into localized docs, especially a
 ## Path Conventions
 
 - English source docs live under `docs/en/`.
-- German docs should live under `docs/de/`.
-- Japanese docs should live under `docs/ja/`.
+- Localized docs live under `docs/de/`, `docs/ja/`, `docs/es/`, `docs/fr/`, `docs/it/`, and `docs/pl/`.
 - Page content lives under each language root's `docs/` subdirectory, for example `docs/en/docs/faq/index.md` -> `docs/de/docs/faq/index.md`.
 - Language-level files such as `mkdocs.yml` and `overrides/` belong directly under each language root.
 
