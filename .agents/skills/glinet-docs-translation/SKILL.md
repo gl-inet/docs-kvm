@@ -13,10 +13,14 @@ Read the target-language reference before editing that language:
 
 - German: `references/german.md`
 - Japanese: `references/japanese.md`
+- Spanish: `references/spanish.md`
+- French: `references/french.md`
+- Italian: `references/italian.md`
+- Polish: `references/polish.md`
+- Dutch: `references/dutch.md`
+- Swedish: `references/swedish.md`
 
-Spanish, French, Italian, Polish, Dutch, and Swedish have no reference file yet; follow the common rules below and the terminology of nearby pages in that language.
-
-If a task touches both languages, read both references before editing.
+If a task touches several languages, read each of their references before editing.
 
 ## Common Translation Rules
 
