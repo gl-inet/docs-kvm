@@ -6,6 +6,9 @@ docs/*/site/
 # Python bytecode cache
 __pycache__/
 *.py[cod]
+TRANSLATION_REVIEW_FR.md
+TRANSLATION_REVIEW_IT.md
+TRANSLATION_REVIEW_PL.md
 
 # All doc content images must be referenced via external CDN links, not committed as binaries.
 # Only site theme assets (logo, favicon, etc. under docs/images and docs/stylesheets) are allowed.
