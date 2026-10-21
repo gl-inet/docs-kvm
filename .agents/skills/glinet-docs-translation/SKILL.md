@@ -100,6 +100,8 @@ python scripts/anchors.py check
 
 `i18n_check.py` reports sections, images, admonitions, code blocks, tables, links, and values that differ from English, orphan or missing pages, redirect mismatches, untranslated English, and language rules (for Japanese: full-width `（） ？ ！` next to Japanese text and half-width letters and digits). Add an entry to `scripts/i18n_allowlist.yml` only for an intentional difference, with a reason.
 
+The pre-commit hook in `.githooks/` runs these checks on staged files when enabled with `git config core.hooksPath .githooks`.
+
 For translation work, build every touched language that has a `mkdocs.yml`. Also build English if source structure, nav, redirects, shared assets, or overrides changed.
 
 ```powershell

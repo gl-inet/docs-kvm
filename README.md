@@ -80,6 +80,22 @@ To preview the French site, use `mkdocs serve -f docs/fr/mkdocs.fast.yml --dirty
 To preview the Italian site, use `mkdocs serve -f docs/it/mkdocs.fast.yml --dirty`.
 To preview the Polish site, use `mkdocs serve -f docs/pl/mkdocs.fast.yml --dirty`.
 
+## Checks Before Committing
+
+Enable the repository's pre-commit hook once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The hook checks only the files staged for the commit:
+
+- Heading IDs and anchor links (`scripts/anchors.py`).
+- Localized pages: structure compared with the English page, untranslated English, and language rules such as Japanese full-width punctuation (`scripts/i18n_check.py`).
+- `mkdocs.yml` changes and added, renamed, or deleted pages: orphan pages and redirect problems.
+
+Commits that change only English pages are not blocked. To bypass the hook in an emergency, use `git commit --no-verify`.
+
 ## Online View
 
 - English: [https://docs.gl-inet.com/kvm/en/](https://docs.gl-inet.com/kvm/en/)
