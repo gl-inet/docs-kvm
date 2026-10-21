@@ -1,6 +1,6 @@
 ---
 name: glinet-docs-translation
-description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when asked to translate English KVM docs into German, Japanese, Spanish, French, Italian, or Polish; update localized docs after changes under docs/en/**; fix differences reported by scripts/i18n_check.py; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
+description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when asked to translate English KVM docs into German, Japanese, Spanish, French, Italian, Polish, Dutch, or Swedish; update localized docs after changes under docs/en/**; fix differences reported by scripts/i18n_check.py; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
 ---
 
 # GL.iNet KVM Docs Translation

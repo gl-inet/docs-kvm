@@ -25,35 +25,51 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "fe3380c7df86370ff6cbe4fac04d085876f2740e8b24f52413516fce4e7c720a",
+    "source_hash": "e936e717fc775ff349cf336fef5a67aabea49c5df4497374782effa4debfd753",
     "targets": {
       "de": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       },
       "ja": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       },
       "es": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       },
       "it": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1792145213
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -83,6 +99,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -112,6 +136,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -141,6 +173,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -170,6 +210,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -199,6 +247,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -228,6 +284,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -257,6 +321,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -286,6 +358,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -315,6 +395,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -344,6 +432,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -373,6 +469,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -402,6 +506,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -431,6 +543,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -460,6 +580,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -489,6 +617,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -518,6 +654,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -547,6 +691,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -576,6 +728,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -605,6 +765,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -634,6 +802,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -663,6 +839,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -692,6 +876,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -721,6 +913,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -750,6 +950,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -779,6 +987,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -808,6 +1024,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -837,6 +1061,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -866,6 +1098,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -895,6 +1135,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -924,6 +1172,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -953,6 +1209,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -982,6 +1246,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1011,6 +1283,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1040,6 +1320,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1069,6 +1357,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1098,6 +1394,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1127,6 +1431,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1156,6 +1468,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1185,6 +1505,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1214,6 +1542,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1243,6 +1579,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1272,6 +1616,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1301,6 +1653,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1330,6 +1690,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1359,6 +1727,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1388,6 +1764,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1417,6 +1801,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1446,6 +1838,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1475,6 +1875,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1504,6 +1912,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1533,6 +1949,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1562,6 +1986,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1591,6 +2023,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1620,6 +2060,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1649,6 +2097,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1678,6 +2134,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1707,6 +2171,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1736,6 +2208,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1765,6 +2245,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1794,6 +2282,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1823,6 +2319,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1852,6 +2356,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1881,6 +2393,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1910,6 +2430,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1939,6 +2467,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1968,6 +2504,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -1997,6 +2541,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2030,6 +2582,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2059,6 +2619,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2088,6 +2656,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2117,6 +2693,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2150,6 +2734,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2179,6 +2771,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2208,6 +2808,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2237,6 +2845,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2270,6 +2886,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2299,6 +2923,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2328,6 +2960,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2357,6 +2997,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2390,6 +3038,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2419,6 +3075,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2448,6 +3112,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2477,6 +3149,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2510,6 +3190,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2539,6 +3227,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2568,6 +3264,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2597,6 +3301,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2630,6 +3342,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2659,6 +3379,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2688,6 +3416,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2717,6 +3453,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2746,6 +3490,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2775,6 +3527,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2804,6 +3564,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2833,6 +3601,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2862,6 +3638,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2891,6 +3675,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2920,6 +3712,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2949,6 +3749,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -2978,6 +3786,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   },
@@ -3007,6 +3823,14 @@
       "pl": {
         "model": "codex",
         "updated_at": 1792145213
+      },
+      "nl": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
+      },
+      "sv": {
+        "model": "claude-opus-5-5",
+        "updated_at": 1792575694
       }
     }
   }

@@ -116,6 +116,12 @@ extra:
     - name: Polski
       link: /kvm/pl/
       lang: pl
+    - name: Nederlands
+      link: /kvm/nl/
+      lang: nl
+    - name: Svenska
+      link: /kvm/sv/
+      lang: sv
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

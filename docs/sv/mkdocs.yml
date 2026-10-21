@@ -1,0 +1,267 @@
+repo_name: gl-inet/docs-kvm
+repo_url: https://github.com/gl-inet/docs-kvm
+edit_uri: ""
+
+site_name: GL.iNet KVM-dokumentation
+site_description: Dokumentation för GL.iNet KVM-produkter
+site_author: GL.iNet
+site_url: https://docs.gl-inet.com/kvm/sv/
+site_dir: site
+copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
+
+theme:
+  name: material
+  language: sv
+  logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+  favicon: https://static.gl-inet.com/docs/router/common/favicon.png
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - redirects:
+      redirect_maps:
+        "faq/what_devices_can_glinet_kvm_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/frequently_askedquestions_about_glinet_kvm.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/power_on_off_control.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/does_glkvm_application_support_chromeos_or_linux.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/can_comet_connect_to_wireless_network.md": "faq/quick_faqs_about_glinet_kvm.md"
+        "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
+        "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
+        "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
+        "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
+        "user_guide/gl-rm10rc/control_panel_guide.md": "user_guide/gl-rm10rc/console_guide.md"
+        "faq/local_access_to_controlled_device_via_browser.md": "faq/local_access_via_browser.md"
+        "faq/remote_access_to_controlled_device_via_cloud.md": "faq/remote_access_via_cloud.md"
+        "faq/remote_access_to_controlled_device_via_glkvm_app.md": "faq/remote_access_via_glkvm_app.md"
+        "faq/remote_access_to_controlled_device_via_tailscale.md": "faq/remote_access_via_tailscale.md"
+        "faq/remote_access_to_controlled_device_via_zerotier.md": "faq/remote_access_via_zerotier.md"
+        "faq/connect_usb_ttl.md": "tutorials/how_to_access_serial_console_via_usb_ttl.md"
+        "faq/how_to_record_screen.md": "tutorials/how_to_record_remote_screen.md"
+        "faq/disable_ping_icmp.md": "tutorials/how_to_disable_ping_icmp_packets.md"
+        "faq/configure_reduce_stun_detection.md": "tutorials/how_to_reduce_stun_public_ip_detection_frequency.md"
+        "faq/how_to_set_edid_for_glkvm.md": "tutorials/how_to_set_edid_for_glkvm.md"
+        "faq/display_blank_screen_when_using_glkvm.md": "faq/remote_screen_goes_blank_no_hdmi_signal.md"
+        "faq/bios_does_not_display_in_glkvm.md": "faq/remote_screen_does_not_show_bios_interface.md"
+        "faq/cannot_control_the_mouse.md": "faq/cannot_control_mouse_and_keyboard.md"
+        "faq/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md": "faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md"
+
+hooks:
+  - ../../scripts/alternate_links.py
+
+extra:
+  analytics:
+    feedback:
+      title: Var den här sidan till hjälp?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Den här sidan var till hjälp
+          data: 1
+          note: Tack för din feedback!
+        - icon: material/emoticon-sad-outline
+          name: Den här sidan kan förbättras
+          data: 0
+          note: >-
+            Tack för din feedback! Hjälp oss att förbättra sidan genom att
+            <a href="https://glinet.feishu.cn/share/base/form/shrcnbojSI6bg5XpcptdEzhQjpc"
+            data-prefill="Which page needs improvement?" target="_blank" rel="noopener">berätta
+            vad du saknar</a>.
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.gl-inet.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/gl-inet/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/gl.inet.wifi/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GLiNetWiFi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gl-inet.com/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCBfNEzurltlIeFFCbUgHQyg
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/glinetWiFi/
+  alternate:
+    - name: English
+      link: /kvm/en/
+      lang: en
+    - name: Deutsch
+      link: /kvm/de/
+      lang: de
+    - name: 日本語
+      link: /kvm/ja/
+      lang: ja
+    - name: Español
+      link: /kvm/es/
+      lang: es
+    - name: Français
+      link: /kvm/fr/
+      lang: fr
+    - name: Italiano
+      link: /kvm/it/
+      lang: it
+    - name: Polski
+      link: /kvm/pl/
+      lang: pl
+    - name: Nederlands
+      link: /kvm/nl/
+      lang: nl
+    - name: Svenska
+      link: /kvm/sv/
+      lang: sv
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+  - stylesheets/extra.css
+  - stylesheets/docs-footer.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  - javascripts/analytics.js
+  - javascripts/extra.js
+  - javascripts/cookieconsent.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - admonition
+
+nav:
+  - Startsida: index.md
+  - Användarhandbok:
+      - Översikt: user_guide/index.md
+      - GL-RM1/GL-RM1V2 (Comet):
+          - Användarhandbok för Comet: user_guide/gl-rm1/index.md
+          - Produktöversikt: user_guide/gl-rm1/product_overview.md
+          - Snabbinstallation: user_guide/gl-rm1/quick_setup_guide.md
+          - Konsolguide: user_guide/gl-rm1/console_guide.md
+      - GL-RM1PE (Comet PoE):
+          - Användarhandbok för Comet PoE: user_guide/gl-rm1pe/index.md
+          - Produktöversikt: user_guide/gl-rm1pe/product_overview.md
+          - Snabbinstallation: user_guide/gl-rm1pe/quick_setup_guide.md
+          - Konsolguide: user_guide/gl-rm1pe/console_guide.md
+      - GL-RM10 (Comet Pro):
+          - Användarhandbok för Comet Pro: user_guide/gl-rm10/index.md
+          - Produktöversikt: user_guide/gl-rm10/product_overview.md
+          - Snabbinstallation: user_guide/gl-rm10/quick_setup_guide.md
+          - Konsolguide: user_guide/gl-rm10/console_guide.md
+      - GL-RM10RC (Comet 5G):
+          - Användarhandbok för Comet 5G: user_guide/gl-rm10rc/index.md
+          - Produktöversikt: user_guide/gl-rm10rc/product_overview.md
+          - Snabbinstallation: user_guide/gl-rm10rc/quick_setup_guide.md
+          - Konsolguide: user_guide/gl-rm10rc/console_guide.md
+      - GL-RMQ1 (Comet Q):
+          - Användarhandbok för Comet Q: user_guide/gl-rmq1/index.md
+          - Produktöversikt: user_guide/gl-rmq1/product_overview.md
+          - Snabbinstallation: user_guide/gl-rmq1/quick_setup_guide.md
+          - Konsolguide: user_guide/gl-rmq1/console_guide.md
+          - Vanliga frågor om Comet Q: user_guide/gl-rmq1/faqs.md
+      - GL-RM4PE (Comet X):
+          - Användarhandbok för Comet X: user_guide/gl-rm4pe/index.md
+          - Produktöversikt: user_guide/gl-rm4pe/product_overview.md
+          - Snabbinstallation: user_guide/gl-rm4pe/quick_setup_guide.md
+          - Konsolguide: user_guide/gl-rm4pe/console_guide.md
+      - GL-ATXPC (ATX Board): user_guide/gl-atx-board/index.md
+      - GL-FGB-01 (Fingerbot): user_guide/gl-fgb-01/index.md
+  - Vanliga frågor:
+      - Översikt: faq/index.md
+      - Kom igång:
+          - Snabba svar om GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
+          - Firmwareuppgradering: faq/firmware_upgrade.md
+          - Ladda ned GLKVM-appen: faq/glkvm_app.md
+          - WAN-nätverksidentifiering och failoverlogik i Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
+      - Lokal åtkomst och fjärråtkomst:
+          - Lokal åtkomst via webbläsare: faq/local_access_via_browser.md
+          - Fjärråtkomst via molnet: faq/remote_access_via_cloud.md
+          - Fjärråtkomst via GLKVM-appen: faq/remote_access_via_glkvm_app.md
+          - Fjärråtkomst via Tailscale: faq/remote_access_via_tailscale.md
+          - Fjärråtkomst via ZeroTier: faq/remote_access_via_zerotier.md
+          - Fjärråtkomst via NetBird: faq/remote_access_via_netbird.md
+          - Sekretessfel vid åtkomst via webbläsare: faq/privacy_error_from_your_browser.md
+      - Molntjänst:
+          - Koppla med kod: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - Abonnemang för KVM Cloud: faq/which_kvm_cloud_service_plan_is_right_for_you.md
+          - Dela KVM-enheter: tutorials/how_to_share_kvm_devices_with_others.md
+          - Koppla från KVM: faq/unbind.md
+          - Inaktivera molntjänsten: faq/disable_cloud.md
+          - Ta bort molnkontot: faq/delete_cloud_account.md
+      - Strömproblem:
+          - Enheten startar inte: faq/power_cable_connected_but_device_unpowered.md
+          - Enheten är obrukbar (bricked): faq/debrick.md
+      - Problem med GLKVM-appen:
+          - Enheten hittas inte: faq/no_device_is_found_in_the_glkvm_app.md
+          - Det går inte att koppla enheten: faq/failed_to_bind_device_to_glkvm_app.md
+          - Det går inte att ansluta till enheten: faq/connection_failed_when_remote_access_via_glkvm_app.md
+          - Det går inte att installera GLKVM i Windows: faq/failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md
+      - Bildproblem:
+          - Fjärrskärmen visar bara skrivbordsbakgrunden: faq/remote_screen_only_displays_desktop_wallpaper.md
+          - Fjärrskärmen blir svart eller visar ingen HDMI-signal: faq/remote_screen_goes_blank_no_hdmi_signal.md
+          - Fjärrskärmen visar inte BIOS-gränssnittet: faq/remote_screen_does_not_show_bios_interface.md
+      - Problem med tangentbord och mus:
+          - Det går inte att styra mus och tangentbord: faq/cannot_control_mouse_and_keyboard.md
+          - Muspekarna sammanfaller inte: faq/mouse_cursors_fail_to_align.md
+          - Tangentbordet fungerar inte som förväntat: faq/keyboard_does_not_input_output_as_expected.md
+          - Relativt musläge fungerar inte på Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
+          - Skillnaden mellan absolut och relativt musläge: faq/difference_between_absolute_and_relative_mouse.md
+          - Musfördröjning när en RPi4 styr en RPi3 via KVM: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
+      - Ljudproblem:
+          - Inget ljud från den styrda enheten: faq/no_audio_from_the_controlled_device.md
+          - Inställningar för högtalare och mikrofon sparas inte: faq/speaker_microphone_settings_cannot_be_retained.md
+  - Guider:
+      - Översikt: tutorials/index.md
+      - Nätverk och system:
+          - Så ställer du in en statisk IP-adress för KVM: tutorials/how_to_set_static_ip_for_comet.md
+          - Så ändrar du värdnamnet för KVM: tutorials/how_to_change_kvm_hostname.md
+          - Så ändrar du enhetsidentiteten för KVM: tutorials/how_to_change_device_identity.md
+          - Så ställer du in EDID för KVM: tutorials/how_to_set_edid_for_glkvm.md
+          - Så hämtar du text från fjärrskärmen: tutorials/how_to_capture_text_from_remote_screen.md
+          - Så kontrollerar du DP Alt Mode för en USB-C-port: tutorials/how_to_check_usb-c_port_dp_alt_mode.md
+          - Så inaktiverar du utgående PING/ICMP-paket från KVM: tutorials/how_to_disable_ping_icmp_packets.md
+          - Så minskar du hur ofta STUN identifierar den offentliga IP-adressen: tutorials/how_to_reduce_stun_public_ip_detection_frequency.md
+      - Molntjänst:
+          - Så kopplar du KVM till molnet med en dynamisk kod: tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md
+          - Så använder du den molnbaserade funktionen Screen Wall: tutorials/how_to_use_screen_wall.md
+          - Så delar du KVM-enheter med andra: tutorials/how_to_share_kvm_devices_with_others.md
+      - Virtuella medier:
+          - Så delar du filer via KVM: tutorials/how_to_share_files_between_controlling_device_and_controlled_device.md
+          - Så installerar du ett operativsystem på distans: tutorials/how_to_install_os_remotely.md
+          - Så spelar du in fjärrskärmen: tutorials/how_to_record_remote_screen.md
+      - Appcenter:
+          - Så får du fjärråtkomst till KVM via Tailscale: faq/remote_access_via_tailscale.md
+          - Så får du fjärråtkomst till KVM via ZeroTier: faq/remote_access_via_zerotier.md
+          - Så får du fjärråtkomst till KVM via NetBird: faq/remote_access_via_netbird.md
+      - Felsökning:
+          - Så återställer du KVM via U-Boot: faq/debrick.md
+          - Så återställer du KVM via RKDevTool: tutorials/how_to_debrick_kvm_via_rkdevtool.md
+          - Så återställer du KVM via USB OTG: tutorials/how_to_unbrick_kvm_via_usb_otg.md
+          - Så exporterar du enhets- och apploggar: tutorials/how_to_export_device_and_app_logs.md
+          - Så exporterar du mobilnätsloggar: tutorials/how_to_export_cellular_logs.md
+          - Så åtgärdar du musfördröjning när en RPi4 styr en RPi3: tutorials/how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md
+      - Hårdvara och USB:
+          - Så får du åtkomst till den seriella konsolen via USB TTL: tutorials/how_to_access_serial_console_via_usb_ttl.md
+  - Videobibliotek:
+      - Översikt: video_library/index.md
+      - Lär känna våra produkter: video_library/products.md
+      - Uppackning och första konfiguration: video_library/unboxing_first_set_up.md
+      - Funktioner: video_library/features.md
+  - Funktionsuppdateringar:
+      - Översikt: features_update/index.md
+      - Firmware v1.10: features_update/firmware_v1.10.md
+      - Firmware v1.9: features_update/firmware_v1.9.md

@@ -19,7 +19,7 @@ jobs:
       - name: Define document languages
         id: langs
         run: |
-          echo 'json=["en","de","ja","es","fr","it","pl"]' >> "$GITHUB_OUTPUT"
+          echo 'json=["en","de","ja","es","fr","it","pl","nl","sv"]' >> "$GITHUB_OUTPUT"
 
   build:
     runs-on: ubuntu-latest

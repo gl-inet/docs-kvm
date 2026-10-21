@@ -1,6 +1,6 @@
 ---
 name: glinet-docs-translation
-description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when asked to translate English KVM docs into German, Japanese, Spanish, French, Italian, or Polish; update localized docs after changes under docs/en/**; fix differences reported by scripts/i18n_check.py; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
+description: Translate, sync, or review GL.iNet KVM documentation between English source files and localized docs. Use when asked to translate English KVM docs into German, Japanese, Spanish, French, Italian, Polish, Dutch, or Swedish; update localized docs after changes under docs/en/**; fix differences reported by scripts/i18n_check.py; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
 ---
 
 # GL.iNet KVM Docs Translation
@@ -14,7 +14,7 @@ Read the target-language reference before editing that language:
 - German: `references/german.md`
 - Japanese: `references/japanese.md`
 
-Spanish, French, Italian, and Polish have no reference file yet; follow the common rules below and the terminology of nearby pages in that language.
+Spanish, French, Italian, Polish, Dutch, and Swedish have no reference file yet; follow the common rules below and the terminology of nearby pages in that language.
 
 If a task touches both languages, read both references before editing.
 
@@ -84,7 +84,7 @@ Use this workflow when syncing English changes into localized docs, especially a
 ## Path Conventions
 
 - English source docs live under `docs/en/`.
-- Localized docs live under `docs/de/`, `docs/ja/`, `docs/es/`, `docs/fr/`, `docs/it/`, and `docs/pl/`.
+- Localized docs live under `docs/de/`, `docs/ja/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/pl/`, `docs/nl/`, and `docs/sv/`.
 - Page content lives under each language root's `docs/` subdirectory, for example `docs/en/docs/faq/index.md` -> `docs/de/docs/faq/index.md`.
 - Language-level files such as `mkdocs.yml` and `overrides/` belong directly under each language root.
 
