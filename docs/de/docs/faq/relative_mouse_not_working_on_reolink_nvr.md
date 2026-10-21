@@ -1,4 +1,4 @@
-# Was tun, wenn der relative Mausmodus auf Reolink NVR nicht funktioniert
+# Was tun, wenn der relative Mausmodus auf Reolink NVR nicht funktioniert {#what-should-i-do-if-relative-mouse-mode-doesnt-work-on-reolink-nvr}
 
 Wenn Sie GL.iNet KVM zur Steuerung eines Reolink NVR verwenden (insbesondere bei Modellen, die keine zwei Mäuse unterstützen) oder bestimmte ältere Computer steuern (z. B. Geräte ohne USB-Schnittstellen), funktioniert der relative Mausmodus möglicherweise nicht. Häufige Probleme sind ein vollständiger Ausfall des Modus oder verfolgbare Mausbewegungen bei nicht reagierenden Klicks.
 

@@ -1,8 +1,8 @@
-# Auspacken und erste Einrichtung
+# Auspacken und erste Einrichtung {#unboxing-first-time-setup}
 
 Packen Sie unsere Geraete aus und sehen Sie, wie einfach die erste Einrichtung ist.
 
-## Comet (GL-RM1)
+## Comet (GL-RM1) {#comet-gl-rm1}
 
 Unboxing-Video
 
@@ -12,7 +12,7 @@ Einrichtungsvideo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet PoE (GL-RM1PE)
+## Comet PoE (GL-RM1PE) {#comet-poe-gl-rm1pe}
 
 Unboxing-Video
 
@@ -22,7 +22,7 @@ Einrichtungsvideo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsPceu7OKco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet Pro (GL-RM10)
+## Comet Pro (GL-RM10) {#comet-pro-gl-rm10}
 
 Unboxing-Video
 
@@ -32,7 +32,7 @@ Einrichtungsvideo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/onxj5EEf9Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet 5G (GL-RM10RC)
+## Comet 5G (GL-RM10RC) {#comet-5g-gl-rm10rc}
 
 Unboxing-Video
 
@@ -42,13 +42,13 @@ Einrichtungsvideo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ATX Board (GL-ATXPC)
+## ATX Board (GL-ATXPC) {#atx-board-gl-atxpc}
 
 Einrichtungsvideo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Fingerbot (FGB-01)
+## Fingerbot (FGB-01) {#fingerbot-fgb-01}
 
 Unboxing-Video
 

@@ -1,10 +1,10 @@
-# Jak powiązać KVM z chmurą za pomocą kodu dynamicznego
+# Jak powiązać KVM z chmurą za pomocą kodu dynamicznego {#how-to-bind-kvm-to-the-cloud-via-dynamic-code}
 
 > Uwaga: Przed użyciem tej funkcji zaktualizuj firmware KVM do wersji 1.7.
 
 Ten poradnik pokazuje, jak łatwo powiązać GL.iNet KVM z chmurą za pomocą kodu dynamicznego.
 
-## Kroki powiązania
+## Kroki powiązania {#binding-steps}
 
 1. Zaloguj się lokalnie do GL.iNet KVM, używając nazwy domenowej lub adresu IP. Szczegóły znajdziesz [tutaj](../faq/local_access_via_browser.md).
 
@@ -52,7 +52,7 @@ Ten poradnik pokazuje, jak łatwo powiązać GL.iNet KVM z chmurą za pomocą ko
 
     ![Zdalny dostęp przez chmurę](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-## Najczęstsze pytania
+## Najczęstsze pytania {#faq}
 
 1. **P: Jak długo kod dynamiczny jest ważny? Co zrobić, jeśli wygaśnie?**
 

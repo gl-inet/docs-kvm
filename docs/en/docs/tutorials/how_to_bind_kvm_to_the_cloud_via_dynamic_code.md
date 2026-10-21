@@ -1,10 +1,10 @@
-# How to bind KVM to the Cloud via dynamic code
+# How to bind KVM to the Cloud via dynamic code {#how-to-bind-kvm-to-the-cloud-via-dynamic-code}
 
 > Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
 This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through dynamic code.
 
-## Binding steps
+## Binding steps {#binding-steps}
 
 1. Log in to your GL.iNet KVM locally using domain or IP address. Click [here](../faq/local_access_via_browser.md) for details. 
 
@@ -52,7 +52,7 @@ This tutorial will introduce how to easily bind GL.iNet KVM to the Cloud through
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
 1. **Q: How long is the dynamic code valid? What should I do if it expires?** 
 

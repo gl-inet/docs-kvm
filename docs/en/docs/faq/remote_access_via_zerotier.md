@@ -1,4 +1,4 @@
-# How to access KVM remotely via ZeroTier
+# How to access KVM remotely via ZeroTier {#how-to-access-kvm-remotely-via-zerotier}
 
 > Note: Please upgrade your KVM firmware to v1.8.0 before using this feature.
 
@@ -6,7 +6,7 @@ GL.iNet KVM integrates ZeroTier, allowing you to bind it to the ZeroTier network
 
 Follow these steps to remotely access your GL.iNet KVM via ZeroTier.
 
-## Enable ZeroTier
+## Enable ZeroTier {#enable-zerotier}
 
 **Before you begin, connect your KVM and the controlling device to the same local network.**
 
@@ -24,7 +24,7 @@ Follow these steps to remotely access your GL.iNet KVM via ZeroTier.
 
     ![enable zerotier](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/2_enable_zerotier.png){class="glboxshadow"}
     
-## Bind KVM to ZeroTier
+## Bind KVM to ZeroTier {#bind-kvm-to-zerotier}
 
 1. When signing in to [ZeroTier](https://my.zerotier.com/){target="_blank"} for the first time, you may be required to select ZeroTier Central.
 
@@ -72,7 +72,7 @@ Follow these steps to remotely access your GL.iNet KVM via ZeroTier.
 
     ![authorized2](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/10_authorized2.png){class="glboxshadow"}
 
-## Bind the controlling device
+## Bind the controlling device {#bind-the-controlling-device}
 
 The example below demonstrates how to bind a Windows laptop (as the controlling device) to the ZeroTier network.
 
@@ -98,7 +98,7 @@ The example below demonstrates how to bind a Windows laptop (as the controlling 
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 
-## Remote access via ZeroTier
+## Remote access via ZeroTier {#remote-access-via-zerotier}
 
 The example below demonstrates how to remotely access the KVM console via the ZeroTier IP address.
 

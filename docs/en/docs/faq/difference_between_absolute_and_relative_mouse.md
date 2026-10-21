@@ -1,10 +1,10 @@
-# What is the difference between Absolute mouse and Relative mouse
+# What is the difference between Absolute mouse and Relative mouse {#what-is-the-difference-between-absolute-mouse-and-relative-mouse}
 
 For the GL.iNet KVM, the **Mouse Mode** on the console provides two options: **Absolute** and **Relative**. These two modes differ significantly in mouse control behavior, applicable scenarios, and user experience, which are detailed as follows to help you choose the appropriate mode based on your actual needs.
 
 ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/mouse_mode.jpg){class="glboxshadow"}
 
-## Absolute Mouse
+## Absolute Mouse {#absolute-mouse}
 
 Absolute Mode is designed to achieve seamless and synchronized mouse control between the local computer and the target device. When this mode is enabled, the mouse cursors on both the local computer and the target device are mapped to the same coordinate system. You can smoothly and seamlessly move the local mouse cursor across the KVM console and the remote screen — the remote cursor will follow the local cursor's movement in real time.
 
@@ -12,7 +12,7 @@ A minor delay may occur during use, which is a normal phenomenon caused by netwo
 
 ![absolute](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/absolute.gif)
 
-## Relative Mouse
+## Relative Mouse {#relative-mouse}
 
 Unlike Absolute Mode, Relative Mode does not synchronize the coordinates of the local and remote mouse cursors; they operate in separate layers. Before you can control the target device, you must first click within the remote window to capture the cursor focus.
 
@@ -24,7 +24,7 @@ In Relative mode, you can adjust the **Relative Sensitivity**, which ranges from
 
 ![relative sensitivity](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/relative_sensitivity.jpg){class="glboxshadow"}
 
-## Key Differences
+## Key Differences {#key-differences}
 
 | Features             | Absolute Mouse                 | Relative Mouse                 |
 | -------------------- | ------------------------------ | -----------------------------  |
@@ -33,7 +33,7 @@ In Relative mode, you can adjust the **Relative Sensitivity**, which ranges from
 | Delay                | Slight delay (network/video encoding) | Almost no delay (only sends movement increments) |
 | Applicable Scenarios | Smooth multi‑screen control, frequent switching, precise positioning (remote office, graphic design) | Old devices / BIOS / UEFI that do not support Absolute Mouse mode; avoiding accidental clicks; unstable networks (lower latency) |
 
-## Summary
+## Summary {#summary}
 
 Absolute Mouse prioritizes a smooth and integrated control experience, while Relative Mouse focuses on compatibility and stability. 
 

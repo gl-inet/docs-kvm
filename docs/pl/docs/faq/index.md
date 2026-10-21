@@ -17,7 +17,7 @@ Jeśli nie znajdziesz poniżej swojego pytania, skontaktuj się z naszym zespoł
 * [Pobieranie aplikacji GLKVM](glkvm_app.md)
 * [Jak działa wykrywanie sieci WAN i przełączanie awaryjne w Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
-## Dostęp lokalny i zdalny {#local--remote-access}
+## Dostęp lokalny i zdalny {#local-remote-access}
 
 * [Jak uzyskać lokalny dostęp do KVM przez przeglądarkę](local_access_via_browser.md)
 * [Jak uzyskać zdalny dostęp do KVM przez usługę chmurową](remote_access_via_cloud.md)
@@ -54,7 +54,7 @@ Jeśli nie znajdziesz poniżej swojego pytania, skontaktuj się z naszym zespoł
 * [Ekran zdalny jest pusty lub brak sygnału HDMI](remote_screen_goes_blank_no_hdmi_signal.md)
 * [Na ekranie zdalnym nie widać interfejsu BIOS](remote_screen_does_not_show_bios_interface.md)
 
-## Problemy z klawiaturą i myszą {#keyboard--mouse-issues}
+## Problemy z klawiaturą i myszą {#keyboard-mouse-issues}
 
 * [Co zrobić, jeśli nie mogę sterować myszą i klawiaturą](cannot_control_mouse_and_keyboard.md)
 * [Co zrobić, jeśli kursory myszy się nie pokrywają](mouse_cursors_fail_to_align.md)

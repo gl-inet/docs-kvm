@@ -1,8 +1,8 @@
-# How to unbrick KVM via RKDevTool
+# How to unbrick KVM via RKDevTool {#how-to-unbrick-kvm-via-rkdevtool}
 
 This tutorial will introduce how to unbrick GL.iNet KVM using the RKDevTool. It applies to scenarios where the KVM is bricked and cannot be recovered via regular firmware updates or U-Boot failsafe mode.
 
-## Preparation
+## Preparation {#preparation}
 
 Please prepare the following tools for unbricking.
 
@@ -16,7 +16,7 @@ Please prepare the following tools for unbricking.
     
     It is recommended to back up important data before starting the unbricking process.
 
-## Unbrick steps
+## Unbrick steps {#unbrick-steps}
 
 To avoid unbrick failure, please follow the steps in order. 
 

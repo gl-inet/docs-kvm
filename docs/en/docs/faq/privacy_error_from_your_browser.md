@@ -1,4 +1,4 @@
-# Privacy error when accessing KVM via browser
+# Privacy error when accessing KVM via browser {#privacy-error-when-accessing-kvm-via-browser}
 
 When accessing the GL.iNet KVM via browser, you may encounter a browser alert: **Your connection isn't private**.
 
@@ -6,7 +6,7 @@ When accessing the GL.iNet KVM via browser, you may encounter a browser alert: *
 
 This warning means that the browser cannot validate the SSL/TLS certificate presented by the KVM. For example, the certificate may not be issued by a certificate authority trusted by your browser, or it may not match the IP address or hostname you used to access the console.
 
-## Why do I get this warning?
+## Why do I get this warning? {#why-do-i-get-this-warning}
 
 In the example above, **192.168.8.11** is the KVM local IP address dynamically assigned by the upper router via DHCP. 
 
@@ -20,7 +20,7 @@ The KVM uses a default TLS certificate for HTTPS browser access. Browsers valida
 
 If the default certificate is not trusted by your browser, or does not cover the local IP address or hostname you entered, the browser displays a warning. The warning does not mean that the KVM has no certificate. HTTPS can still encrypt the connection, but the browser cannot verify the KVM's identity.
 
-## How to resolve the warning?
+## How to resolve the warning? {#how-to-resolve-the-warning}
 
 For local access, first confirm that the address belongs to your KVM. Then click **Advanced** and **Continue to "192.168.8.11"** (the exact wording varies by browser).
 
@@ -30,7 +30,7 @@ Then you will be redirected to the GL.iNet KVM console.
 
 ![local access to kvm admin](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/local_access.png){class="glboxshadow"}
 
-## Can I use my own certificate?
+## Can I use my own certificate? {#can-i-use-my-own-certificate}
 
 Yes. You may install and use your own SSL/TLS certificate on the KVM. Follow the steps below.
 

@@ -1,6 +1,6 @@
-# Haeufig gestellte Fragen zu Comet Q
+# Haeufig gestellte Fragen zu Comet Q {#frequently-asked-questions-about-comet-q}
 
-## Allgemein
+## Allgemein {#general}
 
 1. **F: Was soll ich tun, wenn der KVM-Steuerbildschirm "Unable to Display" anzeigt, wenn Comet Q mit dem gesteuerten Geraet verbunden ist?**
 
@@ -18,7 +18,7 @@
 
     **Tipp**: Medienaudio (Videos, Musik, Spiele usw.) kann normalerweise ueber KVM an das steuernde Ende uebertragen werden, wenn keine Sprachkommunikations-Apps aktiv sind.
 
-## iOS
+## iOS {#ios}
 
 1. **F: Warum kann ich die Systemlautstaerke auf iOS-Geraeten nach dem Verbinden mit Comet Q nicht anpassen?**
 
@@ -53,7 +53,7 @@
 
     Öffnen Sie **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** und deaktivieren Sie Mouse Keys.
 
-## Android
+## Android {#android}
 
 1. **F: Warum kann ich das Geraet nicht im absoluten Mausmodus steuern?**
 

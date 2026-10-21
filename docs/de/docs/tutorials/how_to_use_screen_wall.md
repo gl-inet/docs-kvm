@@ -1,4 +1,4 @@
-# Cloudbasierte Screen-Wall-Funktion verwenden
+# Cloudbasierte Screen-Wall-Funktion verwenden {#how-to-use-the-cloud-based-screen-wall-feature}
 
 Die cloudbasierte Screen Wall ist eine Premiumfunktion. Damit koennen Sie die Bildschirme mehrerer Geraete auf einer einzigen Seite anzeigen und deren Status einfach ueberwachen.
 
@@ -6,7 +6,7 @@ Die cloudbasierte Screen Wall ist eine Premiumfunktion. Damit koennen Sie die Bi
 
 Gehen Sie wie folgt vor, um die cloudbasierte Screen Wall zu verwenden.
 
-1. Binden Sie Ihr KVM-Geraet an die Cloud. Einzelheiten finden Sie unter [KVM an die Cloud binden](../faq/remote_access_via_cloud.md#kvm-an-die-cloud-binden).
+1. Binden Sie Ihr KVM-Geraet an die Cloud. Einzelheiten finden Sie unter [KVM an die Cloud binden](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud).
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 

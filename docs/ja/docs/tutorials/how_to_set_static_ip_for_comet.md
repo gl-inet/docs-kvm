@@ -1,10 +1,10 @@
-# KVM の静的 IP を設定する方法
+# KVM の静的 IP を設定する方法 {#how-to-set-a-static-ip-for-kvm}
 
 このチュートリアルでは、上流のルーターが静的 IP を割り当てることができない場合に、コンソール上で GL.iNet KVM の静的 IP を直接設定する手順を紹介します。
 
 ファームウェアバージョンに応じた手順を選択してください。
 
-## Firmware v1.9 以前
+## Firmware v1.9 以前 {#firmware-v19-and-earlier}
 
 次の手順では、Comet (GL-RM1) を例に説明します。
 
@@ -16,7 +16,7 @@
 
     ![ethernet-settings-static](https://static.gl-inet.com/docs/kvm/tutorials/set_static_ip/ethernet-settings-static.png){class="glboxshadow"}
 
-## Firmware v1.10 以降
+## Firmware v1.10 以降 {#firmware-v110-and-above}
 
 次の手順では、Comet Pro (GL-RM10) を例に説明します。
 

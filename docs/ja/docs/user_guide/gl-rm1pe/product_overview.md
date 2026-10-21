@@ -1,14 +1,14 @@
-# Comet PoE (GL-RM1PE) の概要
+# Comet PoE (GL-RM1PE) の概要 {#comet-poe-gl-rm1pe-overview}
 
-## 外観
+## 外観 {#appearance}
 
 ![gl-rm1pe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_interface.png){class="glboxshadow"}
 
-## ディメンション
+## ディメンション {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_dimension.png){class="glboxshadow"}
 
-## LED
+## LED {#led}
 
 Comet PoE の上部パネルには LED インジケーターが 1 つあります。
 
@@ -19,7 +19,7 @@ Comet PoE の上部パネルには LED インジケーターが 1 つありま�
 |ソリッドホワイト |インターネットに接続しています |
 |青と白の点滅 |ファームウェアのアップグレード |
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1×Comet PoE(GL-RM1PE)
 - 1 x ユーザーマニュアル

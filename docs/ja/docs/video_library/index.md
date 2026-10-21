@@ -4,11 +4,11 @@
   - toc
 ---
 
-# ビデオ ライブラリ
+# ビデオ ライブラリ {#video-library}
 
 当社の製品とその使用方法についてビデオで学びましょう。
 
-## 製品のご紹介
+## 製品のご紹介 {#meet-our-products}
 
 - [Comet Q (GL-RMQ1)](products.md#comet-q-gl-rmq1)
 - [Comet 5G (GL-RM10RC)](products.md#comet-5g-gl-rm10rc)
@@ -16,7 +16,7 @@
 - [Comet PoE (GL-RM1PE)](products.md#comet-poe-gl-rm1pe)
 - [Comet (GL-RM1)](products.md#comet-gl-rm1)
 
-## 開梱と初回セットアップ
+## 開梱と初回セットアップ {#unboxing-first-time-setup}
 
 - [Comet (GL-RM1)](unboxing_first_set_up.md#comet-gl-rm1)
 - [Comet PoE (GL-RM1PE)](unboxing_first_set_up.md#comet-poe-gl-rm1pe)
@@ -25,7 +25,7 @@
 - [ATXボード(GL-ATXPC)](unboxing_first_set_up.md#atx-board-gl-atxpc)
 - [フィンガーボット(FGB-01)](unboxing_first_set_up.md#fingerbot-fgb-01)
 
-## 特徴
+## 特徴 {#features}
 
 - [リモートアクセス](features.md#remote-access)
 - [双方向オーディオ](features.md#two-way-audio)

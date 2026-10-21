@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Video Library
+# Video Library {#video-library}
 
 Learn about our products and use them through videos.
 
-## Meet Our Products
+## Meet Our Products {#meet-our-products}
 
 - [Comet X (GL-RM4PE)](products.md#comet-x-gl-rm4pe)
 - [Comet Q (GL-RMQ1)](products.md#comet-q-gl-rmq1)
@@ -17,7 +17,7 @@ Learn about our products and use them through videos.
 - [Comet PoE (GL-RM1PE)](products.md#comet-poe-gl-rm1pe)
 - [Comet (GL-RM1)](products.md#comet-gl-rm1)
 
-## Unboxing & First-Time Setup
+## Unboxing & First-Time Setup {#unboxing-first-time-setup}
 
 - [Comet (GL-RM1)](unboxing_first_set_up.md#comet-gl-rm1)
 - [Comet PoE (GL-RM1PE)](unboxing_first_set_up.md#comet-poe-gl-rm1pe)
@@ -28,7 +28,7 @@ Learn about our products and use them through videos.
 - [ATX Board (GL-ATXPC)](unboxing_first_set_up.md#atx-board-gl-atxpc)
 - [Fingerbot (FGB-01)](unboxing_first_set_up.md#fingerbot-fgb-01)
 
-## Features
+## Features {#features}
 
 - [Remote Access](features.md#remote-access)
 - [Two-Way Audio](features.md#two-way-audio)

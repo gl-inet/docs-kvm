@@ -1,4 +1,4 @@
-# Guida alla console di Comet Q (GL-RMQ1)
+# Guida alla console di Comet Q (GL-RMQ1) {#comet-q-gl-rmq1-console-guide}
 
 ## Impostazioni { #settings }
 
@@ -15,7 +15,7 @@ Per trovare rapidamente le impostazioni desiderate, inserire parole chiave nella
 
 ![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/quick-search.png){class="glboxshadow"}
 
-### Video
+### Video {#video}
 
 Nella console è possibile personalizzare le impostazioni video, come EDID, qualità e trasmissione video e orientamento dello schermo.
 
@@ -233,7 +233,7 @@ Nella console web, aprire **Apps Center** per accedere alle applicazioni integra
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} è un servizio VPN mesh basato su WireGuard che crea reti private peer-to-peer crittografate tra dispositivi, senza port forwarding o configurazioni complesse del firewall.
 
@@ -245,7 +245,7 @@ Dopo l'associazione, la console mostra l'account Tailscale collegato e rende dis
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} crea reti virtuali overlay crittografate che collegano dispositivi distribuiti in tutto il mondo come se fossero sulla stessa rete locale.
 

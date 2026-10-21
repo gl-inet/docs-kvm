@@ -1,4 +1,4 @@
-# Firmware v1.9
+# Firmware v1.9 {#firmware-v19}
 
 Esta versión incorpora nuevas funciones, mejoras de interacción, mayor protección de la privacidad y conexiones de red más fiables para ofrecer una experiencia de KVM remoto más completa, estable y segura.
 

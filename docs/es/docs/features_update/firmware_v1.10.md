@@ -1,4 +1,4 @@
-# Firmware v1.10
+# Firmware v1.10 {#firmware-v110}
 
 Esta versión incorpora WebRTC nativo, supervisión de datos en tiempo real, gestión centralizada de dispositivos USB y un nuevo centro de configuración. También mejora el rendimiento de arranque, la seguridad y la estabilidad del micrófono para ofrecer una experiencia de KVM remoto más fluida y fiable.
 

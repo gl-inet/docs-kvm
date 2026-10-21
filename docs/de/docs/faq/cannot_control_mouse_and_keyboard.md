@@ -1,4 +1,4 @@
-# Was tun, wenn Maus und Tastatur nicht gesteuert werden können
+# Was tun, wenn Maus und Tastatur nicht gesteuert werden können {#what-should-i-do-if-i-cannot-control-the-mouse-and-keyboard}
 
 Wenn Sie Maus und Tastatur auf dem gesteuerten Gerät über KVM nicht steuern können, obwohl alle Kabel korrekt angeschlossen sind, helfen möglicherweise die folgenden Schritte.
 

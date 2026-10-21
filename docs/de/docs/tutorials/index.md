@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Tutorials
+# Tutorials {#tutorials}
 
 Erfahren Sie in detaillierten Schritten, wie Sie unsere Geraete korrekt verwenden oder Fehler beheben.
 
-## Netzwerk und System
+## Netzwerk und System {#network-system}
 
 * [Statische IP fuer KVM festlegen](how_to_set_static_ip_for_comet.md)
 * [KVM-Hostname aendern](how_to_change_kvm_hostname.md)
@@ -19,25 +19,25 @@ Erfahren Sie in detaillierten Schritten, wie Sie unsere Geraete korrekt verwende
 * [Ausgehende PING/ICMP-Pakete vom KVM deaktivieren](how_to_disable_ping_icmp_packets.md)
 * [STUN-Erkennung der oeffentlichen IP seltener ausfuehren](how_to_reduce_stun_public_ip_detection_frequency.md)
 
-## Cloud-Dienst
+## Cloud-Dienst {#cloud-service}
 
 * [KVM per dynamischem Code mit der Cloud binden](how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [Cloudbasierte Screen-Wall-Funktion verwenden](how_to_use_screen_wall.md)
 * [KVM-Geräte mit anderen teilen](how_to_share_kvm_devices_with_others.md)
 
-## Virtuelle Medien
+## Virtuelle Medien {#virtual-media}
 
 * [Dateien zwischen steuerndem und gesteuertem Geraet freigeben](how_to_share_files_between_controlling_device_and_controlled_device.md)
 * [Betriebssystem per Fernzugriff mit virtuellen Medien auf dem gesteuerten Computer installieren](how_to_install_os_remotely.md)
 * [Remote-Bildschirm aufzeichnen](how_to_record_remote_screen.md)
 
-## Apps Center
+## Apps Center {#apps-center}
 
 * [Per Fernzugriff ueber Tailscale auf KVM zugreifen](../faq/remote_access_via_tailscale.md)
 * [Per Fernzugriff ueber ZeroTier auf KVM zugreifen](../faq/remote_access_via_zerotier.md)
 * [Per Fernzugriff ueber NetBird auf KVM zugreifen](../faq/remote_access_via_netbird.md)
 
-## Fehlerbehebung
+## Fehlerbehebung {#troubleshooting}
 
 * [KVM ueber U-Boot entbricken](../faq/debrick.md)
 * [KVM mit RKDevTool debricken](how_to_debrick_kvm_via_rkdevtool.md)
@@ -45,6 +45,6 @@ Erfahren Sie in detaillierten Schritten, wie Sie unsere Geraete korrekt verwende
 * [Mobilfunkprotokolle exportieren](how_to_export_cellular_logs.md)
 * [Mauslatenz beheben, wenn RPi4 RPi3 steuert](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md)
 
-## Hardware und USB
+## Hardware und USB {#hardware-usb}
 
 * [Auf serielle Konsole ueber USB TTL zugreifen](how_to_access_serial_console_via_usb_ttl.md)

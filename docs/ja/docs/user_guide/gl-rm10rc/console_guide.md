@@ -1,6 +1,6 @@
-# Comet 5G (GL-RM10RC) コンソール ガイド
+# Comet 5G (GL-RM10RC) コンソール ガイド {#comet-5g-gl-rm10rc-console-guide}
 
-## セッション
+## セッション {#session}
 
 コンソールで、**Session** に移動します。このページには次の 4 つのセクションがあります。
 
@@ -109,7 +109,7 @@ Session では、表示モード、ビデオ品質、ビデオ伝送方式、画
 
 - **Primary Button**: プライマリ クリックとして左ボタンまたは右ボタンを選択します。この機能はファームウェア v1.9.0 で導入されました。
 
-## ツールボックス
+## ツールボックス {#toolbox}
 
 コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 5 つのセクションが含まれています。
 
@@ -125,7 +125,7 @@ Session では、表示モード、ビデオ品質、ビデオ伝送方式、画
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_clipboard.png){class="glboxshadow"}
 
-### OCR
+### OCR {#ocr}
 
 OCR はテキスト認識機能で、リモート画面上の領域を選択してテキストを簡単に抽出できます。この機能はファームウェア v1.9.0 で導入されました。
 
@@ -173,7 +173,7 @@ GLKVM ターミナルにリダイレクトされます。
 
 ![toolbox-terminal-2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/toolbox_terminal_2.png){class="glboxshadow"}
 
-## アクセサリー
+## アクセサリー {#accessories}
 
 GL.iNet は、デバイスの電源オン/オフをリモート制御するためのオプションの KVM アクセサリを提供します。
 
@@ -185,7 +185,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 2 番目に、KVM コンソールにログインし、**Accessories** に移動します。アクセサリの設定は、アクセサリをインストールした後にのみ使用できます。
 
-### フィンガーボット
+### フィンガーボット {#fingerbot}
 
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
 
@@ -203,7 +203,7 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/press_mode.png){class="glboxshadow gl-70-desktop"}
 
-### ATX 電源
+### ATX 電源 {#atx-power}
 
 ATX ボードはコンピューターのケースに取り付けられており、デバイスの電源オン/オフ/再起動をリモートで制御します。
 
@@ -217,7 +217,7 @@ ATX ボードはコンピューターのケースに取り付けられており�
 
 - **Restart**: デバイスを再起動します。
 
-## 仮想メディア
+## 仮想メディア {#virtual-media}
 
 コンソールで、**Virtual Media**に移動します。ここでは次の操作を実行できます。
 
@@ -324,13 +324,13 @@ USB ストレージ デバイスを KVM USB ポートに挿入して、内部ス
 
 - **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
-## アプリ センター
+## アプリ センター {#apps-center}
 
 コンソールで、**Apps Center**に移動します。統合されたアプリケーションはここにあります。
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} は、ポート転送や複雑なファイアウォール設定を行わずに、デバイス間で暗号化されたピアツーピア プライベート ネットワークを構築する WireGuard ベースのメッシュ VPN サービスです。
 
@@ -342,7 +342,7 @@ Comet 5G と制御側デバイスを同じ Tailscale アカウントにバイン
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} は、暗号化されたオーバーレイ仮想ネットワークを作成し、分散したデバイスをあたかも同じローカル エリア ネットワーク内にあるかのようにグローバルに接続します。
 
@@ -354,7 +354,7 @@ Comet 5G と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} は、家庭用およびビジネス用の安全なプライベート ネットワークを構築できるオープンソースのゼロトラスト ネットワーキング プラットフォームです。 WireGuard® ベースのオーバーレイ ネットワークとして、NetBird は、いつでもどこでもデバイスへの安全なアクセスを可能にします。
 
@@ -364,13 +364,13 @@ Comet 5G は NetBird と統合されており、NetBird 仮想ネットワーク
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/apps-netbird-enabled.png){class="glboxshadow"}
 
-## ヘルプ
+## ヘルプ {#help}
 
 コンソールで、**Help**に移動します。ここでは、GL.iNet KVM に関する詳細情報とヘルプ ドキュメント、およびトラブルシューティングのためのログをエクスポートできます。
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/help.png){class="glboxshadow"}
 
-## ツールバー
+## ツールバー {#toolbar}
 
 コンソールで、右上隅に移動して次のツールにアクセスします。
 
@@ -441,7 +441,7 @@ Comet 5G がクラウドにバインドされると、コンソールには次�
 
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/console/logout.png){class="glboxshadow"}
 
-## 設定
+## 設定 {#settings}
 
 コンソールのナビゲーションバーにある Settings アイコンをクリックすると、次の設定ページが開きます。この機能はファームウェア v1.10.0 で導入されました。
 

@@ -1,6 +1,6 @@
-# User Guide
+# User Guide {#user-guide}
 
-### Remote KVM
+### Remote KVM {#remote-kvm}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -49,7 +49,7 @@
   </div>
 </div>
 
-### Accessories
+### Accessories {#accessories}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

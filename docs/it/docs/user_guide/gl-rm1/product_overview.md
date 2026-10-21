@@ -1,4 +1,4 @@
-# Panoramica di Comet (GL-RM1) V1/V2
+# Panoramica di Comet (GL-RM1) V1/V2 {#comet-gl-rm1-v1v2-overview}
 
 ## Aspetto { #appearance }
 
@@ -8,7 +8,7 @@
 
 ![gl-rm1 dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_dimension.png){class="glboxshadow"}
 
-## LED
+## LED {#led}
 
 Sul pannello superiore di Comet è presente un indicatore LED.
 

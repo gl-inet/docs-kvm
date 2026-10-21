@@ -1,14 +1,14 @@
-# Comet Pro (GL-RM10) Uebersicht
+# Comet Pro (GL-RM10) Uebersicht {#comet-pro-gl-rm10-overview}
 
-## Aussehen
+## Aussehen {#appearance}
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-interface.png){class="glboxshadow"}
 
-## Abmessungen
+## Abmessungen {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-dimension.png){class="glboxshadow"}
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Beschreibung       |
 | :-------------------------------- | :----------------- |
@@ -21,7 +21,7 @@
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/time.png)| **Lock screen**<br>Der Sperrbildschirm zeigt Uhrzeit und Datum an. |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/reset.png)| **Factory Reset**<br>Fuehren Sie bei eingeschaltetem KVM eine Nadel in die Reset-Oeffnung ein und halten Sie sie 8 Sekunden lang gedrueckt, um das Geraet auf Werkseinstellungen zurueckzusetzen. Lassen Sie die Nadel innerhalb von 8 Sekunden los, um den Reset abzubrechen. |
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Comet Pro (GL-RM10)
 - 1 x Benutzerhandbuch

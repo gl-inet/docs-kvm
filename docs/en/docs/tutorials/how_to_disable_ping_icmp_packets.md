@@ -1,8 +1,8 @@
-# How to disable outgoing PING/ICMP packets from KVM
+# How to disable outgoing PING/ICMP packets from KVM {#how-to-disable-outgoing-pingicmp-packets-from-kvm}
 
 The KVM device periodically sends PING (ICMP) packets for network connectivity detection. This document explains how to disable this behavior and the associated side effects.
 
-## For Ethernet-Only Devices
+## For Ethernet-Only Devices {#for-ethernet-only-devices}
 
 For devices with only an Ethernet connection, such as Comet (GL-RM1) and Comet PoE (GL-RM1PE), the system sends PING packets to the default gateway to check internet connectivity. The result is indicated by the LED status.
 
@@ -14,7 +14,7 @@ To temporarily disable this behavior, run the following command:
 
 > **Note:** Disabling this service will also make the **Reset button** unavailable.
 
-## For Devices with Both Ethernet and Wi-Fi
+## For Devices with Both Ethernet and Wi-Fi {#for-devices-with-both-ethernet-and-wi-fi}
 
 For devices equipped with both Ethernet and Wi-Fi, the system sends PING packets to public DNS servers to verify internet access for each network interface. This mechanism is used for dynamic multi-WAN failover, ensuring that the device can switch to Wi-Fi if the Ethernet connection loses internet access.
 

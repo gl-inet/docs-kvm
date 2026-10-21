@@ -1,6 +1,6 @@
-# Frequently Asked Questions about Comet Q
+# Frequently Asked Questions about Comet Q {#frequently-asked-questions-about-comet-q}
 
-## General 
+## General {#general}
 
 1. **Q: What should I do if the KVM control screen shows "Unable to Display" when Comet Q connects to the controlled device?**
 
@@ -18,7 +18,7 @@
 
     **Tip**: Media audio (videos, music, games, etc.) can be normally transmitted to the controlling end via KVM when voice interaction apps are inactive.
 
-## iOS
+## iOS {#ios}
 
 1. **Q: Why can't I adjust the system volume on iOS devices after connecting to Comet Q?**
     
@@ -53,7 +53,7 @@
 
     To resolve the issue, navigate to **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** and turn off Mouse Keys.
 
-## Android
+## Android {#android}
 
 1. **Q: Why can't I control the device in absolute mouse mode?**
     

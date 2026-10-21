@@ -1,6 +1,6 @@
-# ユーザーガイド
+# ユーザーガイド {#user-guide}
 
-### リモート KVM
+### リモート KVM {#remote-kvm}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -49,7 +49,7 @@
   </div>
 </div>
 
-### アクセサリー
+### アクセサリー {#accessories}
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

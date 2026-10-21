@@ -1,4 +1,4 @@
-# Was tun, wenn das Binden des Geräts an die GLKVM App fehlschlägt
+# Was tun, wenn das Binden des Geräts an die GLKVM App fehlschlägt {#what-should-i-do-if-i-failed-to-bind-device-to-the-glkvm-app}
 
 Die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} ermöglicht den Fernzugriff vom steuernden Gerät auf Ihr gesteuertes Gerät. Installieren Sie die App auf dem steuernden Gerät und binden Sie Ihr GL.iNet KVM-Gerät daran. Danach können Sie jederzeit und von überall remote auf das gesteuerte Gerät zugreifen.
 

@@ -1,4 +1,4 @@
-# Guida utente di Fingerbot (FGB-01)
+# Guida utente di Fingerbot (FGB-01) {#fingerbot-fgb-01-user-guide}
 
 Fingerbot FGB-01 è un accessorio per i dispositivi KVM GL.iNet che semplifica la gestione dell'alimentazione da remoto.
 

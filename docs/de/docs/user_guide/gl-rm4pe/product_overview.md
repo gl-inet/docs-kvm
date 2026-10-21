@@ -1,10 +1,10 @@
-# Comet X (GL-RM4PE) Uebersicht
+# Comet X (GL-RM4PE) Uebersicht {#comet-x-gl-rm4pe-overview}
 
-## Aussehen
+## Aussehen {#appearance}
 
 ![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
 
-## Schnittstellen
+## Schnittstellen {#interface}
 
 ![interface1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
 
@@ -14,7 +14,7 @@ Comet X kann gleichzeitig mit vier Zielgeraeten verbunden werden, wobei jeweils 
 
 Das Geraet verfuegt auf der Rueckseite ueber vier unabhaengige Kanaele. Jeder Kanal bietet einen HDMI-Anschluss fuer die Videosignaluebertragung, einen Type-C-Anschluss fuer Tastatur- und Maussignale sowie einen USB-2.0-Anschluss fuer USB-Peripheriegeraete (z. B. Fingerbot oder ATX Board).
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Beschreibung       |
 | :-------------------------------- | :----------------- |

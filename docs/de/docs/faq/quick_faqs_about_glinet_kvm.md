@@ -1,8 +1,8 @@
-# Kurze FAQs zu GL.iNet KVM
+# Kurze FAQs zu GL.iNet KVM {#quick-faqs-about-glinet-kvm}
 
 Dies ist eine kurze Q&A-Sammlung zu GL.iNet KVM mit schnellen Antworten auf häufige grundlegende Fragen.
 
-## Grundlegende Informationen
+## Grundlegende Informationen {#basic-information}
 
 **Q1. Welche Geräte kann GL.iNet KVM steuern?**
 
@@ -134,7 +134,7 @@ Wenn Sie ein KVM bevorzugen, das WLAN unterstützt, können Sie die folgenden Mo
 
 ---
 
-## Stromsteuerung
+## Stromsteuerung {#power-control}
 
 **Q1. Kann ein GL.iNet KVM das Zielgerät remote ein- und ausschalten?**
 
@@ -154,7 +154,7 @@ A2. Bitte lesen Sie das [ATX Board Benutzerhandbuch](../user_guide/gl-atx-board/
 
 ---
 
-## Funktionen
+## Funktionen {#features}
 
 !!! Tip
 

@@ -1,4 +1,4 @@
-# How to access serial console via USB TTL
+# How to access serial console via USB TTL {#how-to-access-serial-console-via-usb-ttl}
 
 Follow the steps below to use the USB TTL adapter for serial debugging:
 

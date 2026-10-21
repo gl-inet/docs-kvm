@@ -1,6 +1,6 @@
-# Comet (GL-RM1) V1/V2 Console Guide 
+# Comet (GL-RM1) V1/V2 Console Guide {#comet-gl-rm1-v1v2-console-guide}
 
-## Session
+## Session {#session}
 
 On the console, navigate to **Session**. The settings page includes four sections: 
 
@@ -9,7 +9,7 @@ On the console, navigate to **Session**. The settings page includes four section
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 
-### Video
+### Video {#video}
 
 You can customize video settings on the Session, such as display mode, video quality, video transmission, screen orientation, and EDID.
 
@@ -49,7 +49,7 @@ You can customize video settings on the Session, such as display mode, video qua
 
 - **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
 
-### Audio
+### Audio {#audio}
 You can adjust the Audio and Camera settings for the controlled device.
 
 ![audio](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
@@ -60,7 +60,7 @@ You can adjust the Audio and Camera settings for the controlled device.
 
     **Note**: The shortcut must be manually configured in [Settings](#usb-devices) prior to use.
 
-### Keyboard
+### Keyboard {#keyboard}
 
 The Keyboard allows you to configure settings for keyboard use on the controlled device.
 
@@ -74,7 +74,7 @@ The Keyboard allows you to configure settings for keyboard use on the controlled
 
 - **Swap Command and Ctrl for MacOS**: This feature swaps the Cmd and Ctrl keys to ensure keyboard compatibility across different operating systems.
 
-### Mouse
+### Mouse {#mouse}
 
 You can adjust the mouse settings for a better experience on the controlled device.
 
@@ -104,7 +104,7 @@ You can adjust the mouse settings for a better experience on the controlled devi
 
 - **Primary Button**: Select the left or right button as the primary click. This feature was introduced in firmware v1.9.0.
 
-## Toolbox
+## Toolbox {#toolbox}
 
 On the console, navigate to **Toolbox**. The toolbox page includes five sections: 
 
@@ -114,13 +114,13 @@ On the console, navigate to **Toolbox**. The toolbox page includes five sections
 - [Wake on Lan](#wake-on-lan)
 - [Terminal](#terminal)
 
-### Clipboard
+### Clipboard {#clipboard}
 
 The clipboard allows you to easily paste text from the controlling device to the controlled device, without the need to transfer files.
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-clipboard.png){class="glboxshadow"}
 
-### OCR
+### OCR {#ocr}
 
 The OCR is Text Recognition feature, which allows you to select an area on the remote screen and extract text from it easily. This feature was introduced in firmware v1.9.0.
 
@@ -134,7 +134,7 @@ Next, click **Capture** and the remote screen will dim. Draw a box around the te
 
 With this feature, you can easily capture text from the remote screen (i.e., the controlled device) and copy it to the local controlling device.
 
-### Shortcut
+### Shortcut {#shortcut}
 
 The shortcut let you perform actions faster without using the virtual keyboard, helping you work more efficiently and save time on daily tasks. You can find some common shortcuts here.
 
@@ -144,7 +144,7 @@ Click **Modify** to adjust the shortcuts options as needed.
 
 ![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox_shorcut_modify.png){class="glboxshadow"}  
 
-### Wake-on-Lan
+### Wake-on-Lan {#wake-on-lan}
 
 Wake-on-LAN (WOL) is a technology that allows the controlled device to be remotely powered on or awakened from a low-power state.
 
@@ -158,7 +158,7 @@ If the device you want to add is not in the list, click **Add Manually** and ent
 
 ![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/wol-add-manually.png){class="glboxshadow" width=400}
 
-### Terminal
+### Terminal {#terminal}
 
 You can access Comet's terminal to perform advanced settings. Click **Access**.
 
@@ -168,7 +168,7 @@ You will be redirected to the GLKVM terminal.
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-terminal-2.png){class="glboxshadow"}
 
-## Accessories
+## Accessories {#accessories}
 
 GL.iNet offers optional KVM accessories to remotely control the device's power on/off. 
 
@@ -180,7 +180,7 @@ First, see the corresponding user guide to connect the accessory to your control
 
 Second, log in to the KVM console and navigate to **Accessories**. The accessory settings are only available after the accessory is installed.
 
-### Fingerbot
+### Fingerbot {#fingerbot}
     
 The Fingerbot is adhered to the physical power button of the controlled device, to achieve remote control of the controlled device's power supply.
     
@@ -198,7 +198,7 @@ It works according to the settings on the console.
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
-### ATX Power
+### ATX Power {#atx-power}
 
 The ATX Board is installed in the computer case to remotely control the device's power on/off/reboot.
 
@@ -212,7 +212,7 @@ It works according to the settings on the console.
 
 - **Restart**: Restart the device.
 
-## Virtual Media
+## Virtual Media {#virtual-media}
 
 On the console, navigate to **Virtual Media**. Here you can perform the following operations:
 
@@ -223,7 +223,7 @@ On the console, navigate to **Virtual Media**. Here you can perform the followin
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/virtual-media.png){class="glboxshadow"}
     
-### File Sharing
+### File Sharing {#file-sharing}
 
 Comet can emulate a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
@@ -273,7 +273,7 @@ Comet can emulate a read-write USB drive, allowing you to share and manage files
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/file-sharing6.png){class="glboxshadow"}
 
-### Image Mounting
+### Image Mounting {#image-mounting}
 
 Comet can simulate a read-only virtual CD/DVD or disk drive on the device being controlled. You can access this drive during the BIOS or UEFI startup process. 
     
@@ -301,13 +301,13 @@ This function can help you reinstall the operating system or mount an ISO to ins
 
     ![image mounting 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/image-mounting5.png){class="glboxshadow"}
 
-### Replace Storage Drive
+### Replace Storage Drive {#replace-storage-drive}
 
 You can insert a USB storage device into the KVM USB port to replace the internal storage.
 
 ![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/replace-storage.png){class="glboxshadow"}
 
-### Format Disk
+### Format Disk {#format-disk}
 
 You can format the disk or disable the virtual media with one click.
 
@@ -317,13 +317,13 @@ You can format the disk or disable the virtual media with one click.
 
 - **Disable**: Disable the virtual media will immediately reboot the KVM device. 
 
-## Apps Center
+## Apps Center {#apps-center}
 
 On the console, navigate to **Apps Center**. The integrated applications can be found here.
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/app_center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} is a WireGuard-based mesh VPN service that builds encrypted peer-to-peer private networks across devices without port forwarding or complex firewall setup.
 
@@ -335,7 +335,7 @@ After binding, the console displays the linked Tailscale account and unlocks adv
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} creates encrypted overlay virtual networks to connect scattered devices globally as if they are inside the same local area network.
 
@@ -347,7 +347,7 @@ After binding, the console displays the ZeroTier Network ID and Virtual IP.
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} is an open-source zero trust networking platform that lets you build secure private networks for home and business use. As a WireGuard®-based overlay network, NetBird enables secure access to your devices anytime and anywhere.
 
@@ -357,13 +357,13 @@ After binding, the console displays the NetBird Virtual IP.
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-netbird-enabled.png){class="glboxshadow"}
 
-## Help
+## Help {#help}
 
 On the console, navigate to **Help**. Here you can find more information about GL.iNet KVM and help documentation, as well as export logs for troubleshooting.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/help.png){class="glboxshadow"}
 
-## Toolbar
+## Toolbar {#toolbar}
 
 On the console, navigate to the top right corner to access the following tools:
 
@@ -374,7 +374,7 @@ On the console, navigate to the top right corner to access the following tools:
 - [Cloud Service](#cloud-service)
 - [Logout](#logout)
 
-### Collapse
+### Collapse {#collapse}
 
 Click the upward arrow icon in the top right corner to collapse the toolbar.
 
@@ -384,7 +384,7 @@ When the toolbar is collapsed, click the downward arrow icon at the top to expan
 
 ![collapse 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/collapse_2.png){class="glboxshadow"}
 
-### Fullscreen
+### Fullscreen {#fullscreen}
 
 Click the fullscreen icon (square-shaped) in the upper right corner to switch to fullscreen mode.
 
@@ -394,7 +394,7 @@ To exit fullscreen, press and hold the **Esc** key, or click the exit fullscreen
 
 ![fullscreen 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/fullscreen_2.png){class="glboxshadow"}
 
-### Upgrade
+### Upgrade {#upgrade}
 
 Click the firmware version in the upper right corner to check for updates.
 
@@ -408,7 +408,7 @@ In the pop-up window, you can click **Local Upgrade** to upload a firmware file.
 
 Download the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} before performing a local upgrade.
 
-### Connection Stats
+### Connection Stats {#connection-stats}
 
 The Connection Stats contains a Data Dashboard, which monitors latency, jitter, and other real-time metrics.
 
@@ -420,7 +420,7 @@ Click the chart icon to view statistical data, including network latency, networ
 
 ![data dashboard 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/connection_stats_2.png){class="glboxshadow"}
 
-### Cloud Service
+### Cloud Service {#cloud-service}
 
 GL.iNet KVM Cloud allows you to access the controlled device remotely. See [here](../../faq/remote_access_via_cloud.md){target="_blank"} for details.
 
@@ -428,12 +428,12 @@ Once your Comet is bound to the Cloud, the console will display the cloud status
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/cloud.png){class="glboxshadow"}
 
-### Logout
+### Logout {#logout}
 
 To log out, click the Logout icon.
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/logout.png){class="glboxshadow"}
 
-## Settings
+## Settings {#settings}
 On the console, click the Settings icon in the navigation bar to open the following Settings page. This feature was introduced in firmware v1.10.0. 
 
 - [USB Devices](#usb-devices)
@@ -445,7 +445,7 @@ On the console, click the Settings icon in the navigation bar to open the follow
 
 ![Settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/setting.png){class="glboxshadow"}
 
-### USB Devices
+### USB Devices {#usb-devices}
 
 The USB Device provides centralized management for all USB emulation devices. From this page, you can toggle virtual peripherals on or off for better compatibility with the controlled host.
 
@@ -465,7 +465,7 @@ The USB Device provides centralized management for all USB emulation devices. Fr
 
     ![Device Identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/device_identification.png){class="glboxshadow" width=350}
 
-### Preferences
+### Preferences {#preferences}
 
 The Preferences provides management of Layout Preferences, System Settings, and Device Screen settings.
 
@@ -475,7 +475,7 @@ The Preferences provides management of Layout Preferences, System Settings, and 
   
 - **System Settings**: To customize System Settings, select the browser Tab Title, Language (Chinese, English, or Japanese), Color Mode (Light or Dark), and Timezone based on your region.
 
-### Network
+### Network {#network}
 
 You can check and modify Comet's network details, such as Hostname and IP address.
 
@@ -495,7 +495,7 @@ You can check and modify Comet's network details, such as Hostname and IP addres
 
     ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/setting_network_static.png){class="glboxshadow" width=600}
 
-### Security
+### Security {#security}
 
 The security allows you to change admin password, enable two-factor authentication, and customize TLS certificate. 
 
@@ -515,7 +515,7 @@ The security allows you to change admin password, enable two-factor authenticati
 
     ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/setting_security_custom.png){class="glboxshadow"} 
 
-### Cloud
+### Cloud {#cloud}
 
 The Cloud allows you to remotely access and manage your device through cloud services.
 
@@ -529,7 +529,7 @@ Once bound successfully, you can view the bound cloud account information. Click
 
 Alternatively, you can also perform the above management operations via Cloud Service on the top toolbar.
 
-### System
+### System {#system}
 
 In the System settings, you can configure the following:
 

@@ -1,10 +1,10 @@
-# How to share files between controlling and controlled devices
+# How to share files between controlling and controlled devices {#how-to-share-files-between-controlling-and-controlled-devices}
 
 GL.iNet KVM emulates a read-write USB drive, allowing you to share and manage files between the controlling device and the controlled device.
 
 In the following steps, we will take Comet (GL-RM1) as an example. 
 
-## Send files to controlled device
+## Send files to controlled device {#send-files-to-controlled-device}
 
 To share files from the controlling device to the controlled one, follow the steps below.
 
@@ -38,7 +38,7 @@ To share files from the controlling device to the controlled one, follow the ste
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/tutorials/share_files_via_virtual_media/stop-sharing1.png){class="glboxshadow"}
 
-## Get files from controlled device
+## Get files from controlled device {#get-files-from-controlled-device}
 
 To receive files from the controlled device, follow the steps below.
 

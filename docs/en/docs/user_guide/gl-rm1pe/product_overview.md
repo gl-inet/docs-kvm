@@ -1,14 +1,14 @@
-# Comet PoE (GL-RM1PE) Overview
+# Comet PoE (GL-RM1PE) Overview {#comet-poe-gl-rm1pe-overview}
 
-## Appearance
+## Appearance {#appearance}
 
 ![gl-rm1pe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_interface.png){class="glboxshadow"}
 
-## Dimension
+## Dimension {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_dimension.png){class="glboxshadow"}
 
-## LED
+## LED {#led}
 
 There is one LED indicator on the top panel of Comet PoE.
 
@@ -19,7 +19,7 @@ There is one LED indicator on the top panel of Comet PoE.
 | Solid White              | Connected to Internet             |
 | Flashing Blue & White    | Firmware Upgrading                |
 
-## Package Contents
+## Package Contents {#package-contents}
 
 - 1 x Comet PoE (GL-RM1PE)
 - 1 x User manual

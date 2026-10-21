@@ -1,4 +1,4 @@
-# Comet Pro (GL-RM10) Benutzerhandbuch
+# Comet Pro (GL-RM10) Benutzerhandbuch {#comet-pro-gl-rm10-user-guide}
 
 Comet Pro (GL-RM10) ist eine Remote-KVM-over-Wi-Fi-Loesung. Das Geraet wird von einer Quad-Core-A53-CPU angetrieben und verfuegt ueber 1 GB DDR3-Speicher sowie 32 GB eMMC-Speicher fuer eine fluessige Leistung. Ueber den Touchscreen koennen Sie die IP-Adresse des Geraets auf einen Blick pruefen und grundlegende Aufgaben wie die WLAN-Einrichtung ausfuehren.
 

@@ -1,6 +1,6 @@
-# Jak zmienić tożsamość urządzenia KVM
+# Jak zmienić tożsamość urządzenia KVM {#how-to-change-kvm-device-identity}
 
-## Czym jest tożsamość urządzenia KVM
+## Czym jest tożsamość urządzenia KVM {#what-is-kvm-device-identity}
 
 Tożsamość urządzenia GL.iNet KVM to identyfikator, dzięki któremu podłączone urządzenie może rozpoznać KVM i odróżnić go od innych urządzeń podczas komunikacji.
 
@@ -18,7 +18,7 @@ KVM jest więc zwykle traktowany jako urządzenie złożone, emulujące kilka ur
 
     Jeśli metoda wprowadzania tekstu lub układ klawiatury na urządzeniu sterującym różnią się od tych na urządzeniu sterowanym, niektóre symbole lub litery mogą znajdować się w innych miejscach klawiatury. W efekcie znaki na sterowanym urządzeniu mogą różnić się od wpisanych. Szczegóły znajdziesz [tutaj](../faq/keyboard_does_not_input_output_as_expected.md).
 
-## Dlaczego warto zmienić tożsamość urządzenia
+## Dlaczego warto zmienić tożsamość urządzenia {#why-change-device-identity}
 
 Ponieważ GL.iNet KVM emuluje kilka urządzeń służących do interakcji z użytkownikiem, sterowane urządzenie rozpoznaje go jako zestaw wielu urządzeń: monitor, urządzenia USB, takie jak mysz i klawiatura, oraz dysk USB.
 
@@ -51,7 +51,7 @@ Zmiana tożsamości urządzenia KVM może być jednak potrzebna w poniższych sy
 
     Jeśli nie możesz sterować myszą i klawiaturą przez KVM, spróbuj zmienić jego tożsamość, aby uniknąć problemów ze zgodnością i umożliwić poprawne przesyłanie sygnałów między KVM a sterowanym urządzeniem.
 
-## Ograniczenia dostosowywania tożsamości urządzenia
+## Ograniczenia dostosowywania tożsamości urządzenia {#limitations-of-device-identity-customization}
 
 !!! Warning "Oprogramowanie analizujące zachowanie nadal może rozpoznać KVM"
 
@@ -61,9 +61,9 @@ Zmiana tożsamości urządzenia KVM może być jednak potrzebna w poniższych sy
 
     Dlatego sama zmiana tożsamości urządzenia **może nie wystarczyć**, aby uniknąć wykrycia przez zaawansowane oprogramowanie monitorujące lub analizujące zachowanie.
 
-## Jak zmienić tożsamość urządzenia
+## Jak zmienić tożsamość urządzenia {#how-to-change-device-identity}
 
-### Firmware v1.10 i nowszy
+### Firmware v1.10 i nowszy {#firmware-v110-and-above}
 
 1. Zaloguj się do KVM i przejdź do **Settings** w prawym górnym rogu. W sekcji **USB Devices** znajdź **Device Identity** i dostosuj tę opcję.
 
@@ -83,7 +83,7 @@ Zmiana tożsamości urządzenia KVM może być jednak potrzebna w poniższych sy
 
     ![Weryfikacja tożsamości](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize4.png){class="glboxshadow"}
 
-### Firmware v1.9 i starszy
+### Firmware v1.9 i starszy {#firmware-v19-and-earlier}
 
 1. Zaloguj się do KVM i przejdź do **Settings** -> **System** -> **Device Identity**. Wybierz gotową tożsamość z listy rozwijanej.
 

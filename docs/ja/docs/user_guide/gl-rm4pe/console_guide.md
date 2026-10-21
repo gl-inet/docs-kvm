@@ -1,6 +1,6 @@
-# Comet X (GL-RM4PE) コンソール ガイド
+# Comet X (GL-RM4PE) コンソール ガイド {#comet-x-gl-rm4pe-console-guide}
 
-## セッション
+## セッション {#session}
 
 コンソールで Session アイコンをクリックし、**Session Settings** を開きます。このページには次の 4 つのセクションがあります。
 
@@ -109,7 +109,7 @@ Session Settings では、表示モード、画質、ビデオ転送方式、画
 
 - **Primary Button**: 主ボタンとして左ボタンまたは右ボタンを選択します。この機能はファームウェア v1.9.0 で導入されました。
 
-## ツールボックス
+## ツールボックス {#toolbox}
 
 コンソールで **Toolbox** に移動します。ツールボックスページには、次の 5 つのセクションがあります。
 
@@ -173,7 +173,7 @@ GLKVM ターミナルにリダイレクトされます。
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbox-terminal_2.png){class="glboxshadow"}
 
-## アクセサリー
+## アクセサリー {#accessories}
 
 GL.iNet は、デバイスの電源オン/オフをリモート制御するためのオプションの KVM アクセサリを提供します。
 
@@ -191,7 +191,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 2 番目に、KVM コンソールにログインし、**Accessories** に移動します。アクセサリの設定は、アクセサリをインストールした後にのみ使用できます。
 
-### フィンガーボット
+### フィンガーボット {#fingerbot}
 
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
 
@@ -211,7 +211,7 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
-### ATX 電源
+### ATX 電源 {#atx-power}
 
 ATX ボードはコンピューターのケースに取り付けられており、デバイスの電源オン/オフ/再起動をリモートで制御します。
 
@@ -223,7 +223,7 @@ ATX ボードはコンピューターのケースに取り付けられており�
 
 - **Restart**: デバイスを再起動します。
 
-## 仮想メディア
+## 仮想メディア {#virtual-media}
 
 コンソールで、**Virtual Media**に移動します。ここでは次の操作を実行できます。
 
@@ -317,13 +317,13 @@ Comet X は、被制御デバイス上の読み取り専用の仮想 CD/DVD ま�
 
 - **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
-## アプリ センター
+## アプリ センター {#apps-center}
 
 コンソールで、**Apps Center**に移動します。統合されたアプリケーションはここにあります。
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/app_center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} は、ポート転送や複雑なファイアウォール設定を行わずに、デバイス間で暗号化されたピアツーピア プライベート ネットワークを構築する WireGuard ベースのメッシュ VPN サービスです。
 
@@ -335,7 +335,7 @@ Comet X と制御側デバイスを同じ Tailscale アカウントにバイン�
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} は、暗号化されたオーバーレイ仮想ネットワークを作成し、分散したデバイスをあたかも同じローカル エリア ネットワーク内にあるかのようにグローバルに接続します。
 
@@ -347,7 +347,7 @@ Comet X と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} は、家庭や企業向けの安全なプライベートネットワークを構築できる、オープンソースのゼロトラストネットワーキングプラットフォームです。WireGuard® ベースのオーバーレイネットワークにより、いつでもどこからでもデバイスに安全にアクセスできます。
 
@@ -357,13 +357,13 @@ Comet X は NetBird と統合されており、NetBird 仮想ネットワーク�
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/apps-netbird-enabled.png){class="glboxshadow"}
 
-## ヘルプ
+## ヘルプ {#help}
 
 コンソールで、**Help**に移動します。ここでは、GL.iNet KVM に関する詳細情報とヘルプ ドキュメント、およびトラブルシューティング用のログをエクスポートできます。
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/help.png){class="glboxshadow"}
 
-## ツールバー
+## ツールバー {#toolbar}
 
 コンソールの右上には、次のツールがあります。
 
@@ -453,7 +453,7 @@ Comet X をクラウドにバインドすると、コンソールにクラウド
 
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/toolbar_layout.png){class="glboxshadow"}
 
-## 設定
+## 設定 {#settings}
 
 コンソールでナビゲーションバーの Settings アイコンをクリックすると、次の Settings ページが開きます。この機能はファームウェア v1.10.0 で導入されました。
 

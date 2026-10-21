@@ -2,7 +2,7 @@
 
 Desembale nuestros dispositivos y descubra lo fácil que es configurarlos por primera vez.
 
-## Comet (GL-RM1)
+## Comet (GL-RM1) {#comet-gl-rm1}
 
 Vídeo de desembalaje
 
@@ -12,7 +12,7 @@ Vídeo de configuración
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet PoE (GL-RM1PE)
+## Comet PoE (GL-RM1PE) {#comet-poe-gl-rm1pe}
 
 Vídeo de desembalaje
 
@@ -22,7 +22,7 @@ Vídeo de configuración
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsPceu7OKco" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet Pro (GL-RM10)
+## Comet Pro (GL-RM10) {#comet-pro-gl-rm10}
 
 Vídeo de desembalaje
 
@@ -32,7 +32,7 @@ Vídeo de configuración
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/onxj5EEf9Ys" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet 5G (GL-RM10RC)
+## Comet 5G (GL-RM10RC) {#comet-5g-gl-rm10rc}
 
 Vídeo de desembalaje
 
@@ -48,7 +48,7 @@ Vídeo de configuración
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Fingerbot (FGB-01)
+## Fingerbot (FGB-01) {#fingerbot-fgb-01}
 
 Vídeo de desembalaje
 

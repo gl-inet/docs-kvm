@@ -1,14 +1,14 @@
-# How to change KVM hostname
+# How to change KVM hostname {#how-to-change-kvm-hostname}
 
 The default hostname of GL.iNet KVM is **glkvm**, which means you can locally access it via the domain `glkvm.local` when connected to the same network.
 
 This tutorial introduces two methods for changing the hostname: via the KVM console or via terminal commands. 
 
-## Method 1. KVM Console
+## Method 1. KVM Console {#method-1-kvm-console}
 
 > **Note**: This feature is available in firmware version 1.7.0 and above.
 
-### Firmware v1.10 and above
+### Firmware v1.10 and above {#firmware-v110-and-above}
 
 1.  Log in to your KVM and click the Settings icon in the navigation bar to open the Settings page.
 
@@ -18,7 +18,7 @@ This tutorial introduces two methods for changing the hostname: via the KVM cons
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/modify-hostname.png){class="glboxshadow"}
 
-### Firmware v1.9 and earlier
+### Firmware v1.9 and earlier {#firmware-v19-and-earlier}
 
 1. Log in to your KVM and navigate to **Settings** -> **Network**. Click the hostname or right arrow icon. 
 
@@ -28,7 +28,7 @@ This tutorial introduces two methods for changing the hostname: via the KVM cons
 
     ![modify hostname](https://static.gl-inet.com/docs/kvm/tutorials/change_hostname/modify_hostname.png){class="glboxshadow"}
 
-## Method 2. Terminal Commands
+## Method 2. Terminal Commands {#method-2-terminal-commands}
 
 1. Log in to your KVM and navigate to **Toolbox** -> **Terminal**. Click **Access**. 
 

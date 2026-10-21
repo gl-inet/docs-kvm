@@ -1,10 +1,10 @@
-# Comet (GL-RM1) V1/V2 クイックセットアップ
+# Comet (GL-RM1) V1/V2 クイックセットアップ {#comet-gl-rm1-v1v2-quick-setup}
 
 このビデオを見るか、以下の手順に従って Comet をセットアップしてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## デバイスを接続する
+## デバイスを接続する {#connect-devices}
 
 明確にするために、デバイス A は制御側デバイスを指し、デバイス B は制御側デバイスを指します。
 
@@ -28,13 +28,13 @@
 
 5. デバイスの接続が完了しました。これで、Comet のコンソールにローカルまたはリモートでアクセスできるようになりました。
 
-## ローカル アクセス
+## ローカル アクセス {#local-access}
 
 ローカル ネットワーク上で Comet にアクセスするには、ドメイン名または IP アドレスを使用する 2 つの方法があります。
 
 アクセスする前に、制御側デバイスが Comet と同じ LAN 上にあることを確認してください。
 
-### ドメイン
+### ドメイン {#domain}
 
 1. 制御側デバイスでブラウザを起動します。互換性を高めるために Chrome または Edge をお勧めします。
 
@@ -48,7 +48,7 @@
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP アドレス
+### IP アドレス {#ip-address}
 
 1. 上位ルーターで Comet の IP アドレスを見つけます。
 
@@ -68,11 +68,11 @@
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## リモート アクセス
+## リモート アクセス {#remote-access}
 
 Comet にリモートでアクセスするには、クラウド サービス、GLKVM アプリ、Tailscale、ZeroTier、NetBird 経由など、複数の方法があります。
 
-### クラウド サービス
+### クラウド サービス {#cloud-service}
 
 1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
@@ -112,7 +112,7 @@ Comet にリモートでアクセスするには、クラウド サービス、G
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM アプリ
+### GLKVM アプリ {#glkvm-app}
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
@@ -188,7 +188,7 @@ Comet にリモートでアクセスするには、クラウド サービス、G
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -198,7 +198,7 @@ Comet のコンソールで、**Apps Center** -> **Tailscale** に移動し、�
 
 詳細は[こちら](../../faq/remote_access_via_tailscale.md){target="_blank"}をご参照ください。
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -208,7 +208,7 @@ Comet のコンソールで、**Apps Center** -> **ZeroTier** に移動して有
 
 詳しくは[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご覧ください。
 
-### NetBird
+### NetBird {#netbird}
 
 Comet は NetBird と統合されており、NetBird 仮想ネットワーク経由でリモート アクセスできるようになります。
 

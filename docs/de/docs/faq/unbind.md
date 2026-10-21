@@ -1,8 +1,8 @@
-# So heben Sie die Bindung Ihres KVM-Geräts an die Cloud auf
+# So heben Sie die Bindung Ihres KVM-Geräts an die Cloud auf {#how-to-unbind-my-kvm-device-from-the-cloud}
 
 Es gibt drei Möglichkeiten, die Bindung von KVM-Geräten an die Cloud aufzuheben: über lokalen Zugriff, die GLKVM App oder die Cloud.
 
-## Bindung über lokalen Zugriff aufheben
+## Bindung über lokalen Zugriff aufheben {#unbind-via-local-access}
 
 1. Stellen Sie sicher, dass sich Ihr Computer im selben lokalen Netzwerk wie Ihr KVM-Gerät befindet.
 
@@ -12,7 +12,7 @@ Es gibt drei Möglichkeiten, die Bindung von KVM-Geräten an die Cloud aufzuhebe
 
     ![unbind via local](https://static.gl-inet.com/docs/kvm/faq/unbind/local_unbind.png){class="glboxshadow"}
 
-## Bindung über die GLKVM App aufheben
+## Bindung über die GLKVM App aufheben {#unbind-via-glkvm-app}
 
 1. Melden Sie sich in der GLKVM App an und klicken Sie oben rechts bei Ihrem Gerät auf **Manage**.
 
@@ -22,7 +22,7 @@ Es gibt drei Möglichkeiten, die Bindung von KVM-Geräten an die Cloud aufzuhebe
 
     ![app unbinding](https://static.gl-inet.com/docs/kvm/faq/unbind/app_unbind_2.png){class="glboxshadow"}
 
-## Bindung über die Cloud aufheben
+## Bindung über die Cloud aufheben {#unbind-via-the-cloud}
 
 1. Öffnen Sie auf Ihrem Computer einen Webbrowser (Chrome oder Edge wird wegen besserer Kompatibilität empfohlen). Geben Sie `glkvm.com` in die Adressleiste ein und melden Sie sich mit Ihrem Cloud-Konto an.
 

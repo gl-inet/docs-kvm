@@ -1,4 +1,4 @@
-# Betriebssystem per Fernzugriff mit virtuellen Medien auf dem gesteuerten Computer installieren
+# Betriebssystem per Fernzugriff mit virtuellen Medien auf dem gesteuerten Computer installieren {#how-to-install-an-os-on-the-controlled-computer-remotely-using-virtual-media}
 
 Dieses Tutorial zeigt, wie Sie mit der GL.iNet KVM-Funktion virtuelle Medien per Fernzugriff ein Betriebssystem auf dem gesteuerten Computer installieren.
 

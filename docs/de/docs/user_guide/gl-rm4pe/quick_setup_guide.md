@@ -1,6 +1,6 @@
-# Comet X (GL-RM4PE) Schnellstart
+# Comet X (GL-RM4PE) Schnellstart {#comet-x-gl-rm4pe-quick-setup}
 
-## Geräte verbinden
+## Geräte verbinden {#connect-devices}
 
 Zur besseren Verständlichkeit bezeichnet Gerät A das steuernde Gerät und Gerät B das gesteuerte Gerät.
 
@@ -24,7 +24,7 @@ Zur besseren Verständlichkeit bezeichnet Gerät A das steuernde Gerät und Ger�
 
 5. Die Verbindung ist abgeschlossen. Sie können nun lokal oder aus der Ferne auf die Konsole des Comet X zugreifen.
 
-## Rack-Montage
+## Rack-Montage {#rack-mounting}
 
 Montieren Sie den Comet X bei Bedarf an den Schienen eines Serverracks.
 
@@ -58,7 +58,7 @@ Es gibt zwei Möglichkeiten, im lokalen Netzwerk auf den Comet X zuzugreifen: ü
 
 Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet X befindet.
 
-### Domain
+### Domain {#domain}
 
 1. Starten Sie auf dem steuernden Gerät einen Browser. Für eine bessere Kompatibilität werden Chrome oder Edge empfohlen.
 
@@ -72,7 +72,7 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LA
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_domain2.png){class="glboxshadow"}
 
-### IP-Adresse
+### IP-Adresse {#ip-address}
 
 1. Ermitteln Sie die IP-Adresse des Comet X auf dem Touchscreen. In diesem Beispiel lautet die IP-Adresse des Comet X `192.168.8.197`.
 
@@ -86,11 +86,11 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LA
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_ip2.png){class="glboxshadow"}
 
-## Fernzugriff
+## Fernzugriff {#remote-access}
 
 Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet X zuzugreifen: über den Cloud-Dienst, die GLKVM App, Tailscale und ZeroTier.
 
-### Cloud-Dienst
+### Cloud-Dienst {#cloud-service}
 
 1. Binden Sie Ihr Gerät an KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
@@ -132,7 +132,7 @@ Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet X zuzugreifen: üb
 
     ![cloud access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access2.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Gerät.
 
@@ -210,7 +210,7 @@ Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet X zuzugreifen: üb
 
     ![app access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_access2.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet X ist in Tailscale integriert, sodass Sie über das virtuelle Netzwerk von Tailscale per Fernzugriff darauf zugreifen können.
 
@@ -220,7 +220,7 @@ Binden Sie anschließend Ihr steuerndes Gerät an dasselbe Konto. Danach können
 
 Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet X ist in ZeroTier integriert, sodass Sie über das virtuelle Netzwerk von ZeroTier per Fernzugriff darauf zugreifen können.
 

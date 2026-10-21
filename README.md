@@ -133,6 +133,18 @@ Example:
 </figure>
 ```
 
+### Heading IDs
+
+Every heading in every language carries an explicit ID, for example `## Local Access {#local-access}`. Always include the `#`; `{local-access}` does not set an ID.
+
+English defines the IDs. A localized heading uses the same ID as the matching English heading, so anchor links such as `quick_setup_guide.md#local-access` work in every language.
+
+```bash
+python scripts/anchors.py check                      # report missing IDs and broken anchor links
+python scripts/anchors.py add --lang en              # turn generated English IDs into explicit IDs
+python scripts/anchors.py add --lang de [pages ...]  # copy IDs from the matching English headings
+```
+
 ### Use relative path to link internal content
 
 ```

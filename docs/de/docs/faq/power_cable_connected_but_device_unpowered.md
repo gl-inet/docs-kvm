@@ -1,4 +1,4 @@
-# Was kann ich tun, wenn sich mein KVM nicht einschaltet
+# Was kann ich tun, wenn sich mein KVM nicht einschaltet {#what-should-i-do-if-my-kvm-does-not-power-on}
 
 Wenn Ihr KVM-Gerät trotz angeschlossenem Stromkabel nicht startet, verwenden Sie die folgenden Methoden zur Fehlerbehebung.
 

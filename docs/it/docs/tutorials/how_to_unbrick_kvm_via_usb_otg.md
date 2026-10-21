@@ -1,12 +1,12 @@
-# Come ripristinare il KVM tramite USB OTG
+# Come ripristinare il KVM tramite USB OTG {#how-to-unbrick-kvm-via-usb-otg}
 
 Questo tutorial spiega come ripristinare un dispositivo KVM GL.iNet tramite USB OTG. Questo metodo è adatto ai casi in cui il KVM è bloccato e non può essere ripristinato con un normale aggiornamento del firmware o con la modalità di ripristino U-Boot.
 
-## Dispositivi supportati
+## Dispositivi supportati {#supported-devices}
 
 - RMQ1
 
-## Prerequisiti
+## Prerequisiti {#prerequisites}
 
 Prepara i seguenti strumenti per ripristinare il dispositivo.
 
@@ -28,9 +28,9 @@ Prepara i seguenti strumenti per ripristinare il dispositivo.
 
 - Se desideri che il dispositivo si riavvii automaticamente dopo la scrittura del firmware, vai su **Settings** → **Options** → **Reboot to Normal Mode After Download** e attiva l'opzione prima di iniziare. Se l'opzione non è attiva, dovrai riavviare manualmente il dispositivo al termine della scrittura, scollegando e ricollegando il cavo di alimentazione.
 
-## Procedura di ripristino
+## Procedura di ripristino {#unbrick-steps}
 
-### Windows
+### Windows {#windows}
 
 1. Scarica sul computer il firmware U-Boot per RMQ1 da [questa pagina](https://dl.gl-inet.com/kvm/rmq1/stable) (seleziona **DOWNLOAD FOR USB OTG**).
 
@@ -74,7 +74,7 @@ Prepara i seguenti strumenti per ripristinare il dispositivo.
 
       ![axdl-5](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-5.png){class="glboxshadow"}
 
-### macOS / Linux
+### macOS / Linux {#macos-linux}
 
 Lo strumento AXDL ufficiale è disponibile solo per Windows. Su macOS e Linux puoi utilizzare axdl-rs, uno strumento non ufficiale e open source per il caricamento delle immagini Axera, scritto in Rust.
 

@@ -1,4 +1,4 @@
-# KVM-Geräte mit anderen teilen
+# KVM-Geräte mit anderen teilen {#how-to-share-kvm-devices-with-others}
 
 Die cloudbasierte Gerätefreigabe ist eine Premiumfunktion. Damit können Sie anderen Benutzern Fernzugriff auf Ihre KVM-Geräte gewähren und deren Berechtigungen aus der Ferne verwalten.
 
@@ -6,7 +6,7 @@ Die cloudbasierte Gerätefreigabe ist eine Premiumfunktion. Damit können Sie an
 
 Gehen Sie wie folgt vor, um ein KVM-Gerät freizugeben.
 
-1. Binden Sie Ihr KVM-Gerät an die Cloud. Einzelheiten finden Sie unter [KVM an die Cloud binden](../faq/remote_access_via_cloud.md#kvm-an-die-cloud-binden).
+1. Binden Sie Ihr KVM-Gerät an die Cloud. Einzelheiten finden Sie unter [KVM an die Cloud binden](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud).
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_share_devices/cloud_login.png){class="glboxshadow"}
 

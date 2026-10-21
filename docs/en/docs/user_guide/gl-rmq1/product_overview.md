@@ -1,10 +1,10 @@
-# Comet Q (GL-RMQ1) Overview
+# Comet Q (GL-RMQ1) Overview {#comet-q-gl-rmq1-overview}
 
-## Dimension
+## Dimension {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Description         |
 | :-------------------------------- | :------------------ |
@@ -17,7 +17,7 @@
 | ![system menu](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/system.png) | **System Menu**<br></br>On the home screen, swipe down from the top to access system menu, including **Rotate**, **Lock Screen** and **Reboot**.|
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/reset.png) | **Factory Reset**<br></br>With the KVM powered on, insert a pin into the reset pinhole and hold for **8 seconds** to factory reset. Release the pin within 8 seconds to cancel the reset. |
 
-## Compatibility
+## Compatibility {#compatibility}
 
 Comet Q works with any device whose USB-C port supports **DisplayPort Alt Mode** for video output. This includes, but is not limited to:
 
@@ -26,7 +26,7 @@ Comet Q works with any device whose USB-C port supports **DisplayPort Alt Mode**
 - **Android phones (Samsung as example)**: Samsung Galaxy S8 and newer, Galaxy Note 8 and newer, Galaxy Z Fold/Flip series, and Galaxy Tab S series
 - **Laptops & mini PCs**: Most models with a USB-C port that supports video output, including MacBooks, Mac mini, and most modern Windows laptops
 
-## Package Contents
+## Package Contents {#package-contents}
 
 - 1 x Comet Q (GL-RMQ1)
 - 1 x User manual

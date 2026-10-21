@@ -1,4 +1,4 @@
-# リモート画面が空白になるか、HDMI 信号が表示されない場合はどうすればよいですか
+# リモート画面が空白になるか、HDMI 信号が表示されない場合はどうすればよいですか {#what-should-i-do-if-the-remote-screen-goes-blank-or-shows-no-hdmi-signal}
 
 KVM を通じて被制御デバイスにアクセスするときに、リモート画面が空白になるか、HDMI 信号が表示されない場合は、次の手順に従ってトラブルシューティングを行ってください。
 
@@ -14,7 +14,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
 
 問題が解決しない場合は、以下に挙げる考えられる原因を 1 つずつ確認してください。
 
-## ハードウェア接続を確認してください
+## ハードウェア接続を確認してください {#check-hardware-connection}
 
 1. **Faulty HDMI Cable**
 
@@ -40,7 +40,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
 
     ![adapter comparison](https://static.gl-inet.com/docs/kvm/faq/blank_screen/adapter_comparison.png){class="glboxshadow"}
 
-## ブラウザ設定を確認してください
+## ブラウザ設定を確認してください {#check-browser-settings}
 
 ブラウザ経由で制御対象のデバイスにアクセスし、画面が空白になる問題が発生した場合は、次の方法を試してください。
 
@@ -50,7 +50,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
-## 被制御デバイスのステータスと設定を確認する
+## 被制御デバイスのステータスと設定を確認する {#check-controlled-device-status-and-settings}
 
 1. **デバイスの電源が入っていないか、スリープ モードになっています**
 
@@ -105,6 +105,7 @@ KVM を通じて被制御デバイスにアクセスするときに、リモー�
         ```
         update-grub
         ```
+
 ---
 
 まだ質問がありますか? [コミュニティ フォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

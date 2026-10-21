@@ -1,8 +1,8 @@
-# Quick FAQs about GL.iNet KVM
+# Quick FAQs about GL.iNet KVM {#quick-faqs-about-glinet-kvm}
 
 This is a brief Q&A collection for GL.iNet KVM, designed to provide quick answers to some common basic questions.
 
-## Basic Information
+## Basic Information {#basic-information}
 
 **Q1. What devices can GL.iNet KVM control?**
 
@@ -134,7 +134,7 @@ If you prefer a KVM that supports Wi-Fi, you may consider the following models:
 
 ---
 
-## Power Control
+## Power Control {#power-control}
 
 **Q1. Can a GL.iNet KVM remotely power the target device on and off?**
 
@@ -154,7 +154,7 @@ A2. Please refer to [ATX Board User Guide](../user_guide/gl-atx-board/index.md){
 
 ---
 
-## Features
+## Features {#features}
 
 !!! Tip
 

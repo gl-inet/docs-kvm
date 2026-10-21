@@ -1,15 +1,15 @@
-# Firmware v1.10
+# Firmware v1.10 {#firmware-v110}
 
 Diese Version führt natives WebRTC, Echtzeit-Datenüberwachung, eine zentrale Verwaltung von USB-Geräten und ein neues Settings Center ein. Zudem verbessert sie die Startleistung, die Sicherheit und die Mikrofonstabilität für ein flüssigeres und zuverlässigeres Remote-KVM-Erlebnis.
 
 Laden Sie die neueste Firmware im [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} herunter.
 
-## WebRTC (Native) Mode
+## WebRTC (Native) Mode {#webrtc-native-mode}
 Diese Firmware führt den **WebRTC (Native) Mode** ein. Er nutzt die Google WebRTC Library, um die Streaming-Leistung zu verbessern und eine flüssigere Fernsteuerung in Echtzeit zu ermöglichen.
 
 ![webrtc mode](https://static.gl-inet.com/docs/kvm/features_update/1.10/webrtc_native_mode.png){class="glboxshadow" width=400}
 
-## Connection Stats
+## Connection Stats {#connection-stats}
 
 **Connection Stats** zeigt Verbindungsinformationen und Verlaufsdiagramme in Echtzeit an, darunter Netzwerklatenz, Jitter, Paketverlustrate, Bitrate, Bildrate und Wiedergabeverzögerung.
 
@@ -21,11 +21,11 @@ Klicken Sie auf das Diagrammsymbol, um Verlaufsdiagramme für Netzwerklatenz, Ji
 
 ![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
-## Settings Center
+## Settings Center {#settings-center}
 
 Diese Version ergänzt ein neues **Settings Center**, das Einstellungen für USB-Geräte, persönliche Präferenzen, Netzwerk, Sicherheit, Cloud und System zentral zusammenfasst. Bestehende Optionen wie die Hostnamenkonfiguration, die Cloud-Verwaltung und Firmware-Upgrades sind nun leichter an einem zentralen Ort zugänglich.
 
-### USB Devices
+### USB Devices {#usb-devices}
 
 Unter **USB Devices** werden emulierte USB-Geräte zentral verwaltet. Auf dieser Seite können Sie virtuelle Peripheriegeräte aktivieren oder deaktivieren, um die Kompatibilität mit dem gesteuerten Gerät zu verbessern.
 
@@ -35,7 +35,7 @@ Unter **USB Devices** werden emulierte USB-Geräte zentral verwaltet. Auf dieser
 
 - **Device Identity**: Passen Sie die Identität des KVM an, die das gesteuerte Gerät erkennt. Beachten Sie, dass EDID und Geräteidentifikation synchron bleiben. Wenn Sie einen der beiden Werte ändern, wird der andere automatisch aktualisiert, um eine korrekte Geräteerkennung sicherzustellen.
 
-### Preferences
+### Preferences {#preferences}
 
 Unter **Preferences** können Sie Layout-Präferenzen, Systemeinstellungen und Einstellungen für den Gerätebildschirm verwalten.
 
@@ -49,7 +49,7 @@ Unter **Preferences** können Sie Layout-Präferenzen, Systemeinstellungen und E
 
     **Hinweis**: Diese Funktion ist nur bei Modellen mit integriertem Display verfügbar.
 
-### Network
+### Network {#network}
 
 Sie können die Netzwerkeinstellungen des Geräts anzeigen und verwalten, einschließlich Hostname, Ethernet-Verbindung und Informationen zum drahtlosen Netzwerk.
 
@@ -63,7 +63,7 @@ Sie können die Netzwerkeinstellungen des Geräts anzeigen und verwalten, einsch
 
     **Hinweis**: Die Funktion Wireless ist nur bei unterstützten Modellen verfügbar.
 
-### Security
+### Security {#security}
 
 Unter **Security** können Sie das Administratorpasswort ändern, die Zwei-Faktor-Authentifizierung aktivieren und das TLS-Zertifikat anpassen.
 
@@ -73,13 +73,13 @@ Unter **Security** können Sie das Administratorpasswort ändern, die Zwei-Fakto
 
 - **TLS Certificate**: Verwenden Sie das Standardzertifikat oder laden Sie ein benutzerdefiniertes Zertifikat und einen privaten Schlüssel für den Browserzugriff hoch.
 
-### Cloud
+### Cloud {#cloud}
 
 Geräte können per URL oder Code an Cloud-Dienste gebunden werden, um Fernzugriff und Verwaltung zu ermöglichen. Sie können außerdem die mobile App herunterladen, die Verbindung verwalten oder bei Bedarf die Bindung des Geräts aufheben.
 
 ![cloud](https://static.gl-inet.com/docs/kvm/features_update/1.10/settings_cloud.png){class="glboxshadow"}
 
-### System
+### System {#system}
 
 Unter **System** finden Sie Optionen zur Systemverwaltung, zum Firmware-Upgrade und zum Support.
 
@@ -91,7 +91,7 @@ Unter **System** finden Sie Optionen zur Systemverwaltung, zum Firmware-Upgrade 
 
 - **Help & Support**: Exportieren Sie Geräteprotokolle zur Fehlerbehebung und greifen Sie auf Benutzerhandbücher, FAQs und weitere Supportdokumente zu.
 
-## Weitere Verbesserungen
+## Weitere Verbesserungen {#other-enhancements}
 
 - **Startup Performance**: Die Startgeschwindigkeit des Geräts wurde verbessert.
 

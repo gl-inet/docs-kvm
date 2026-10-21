@@ -1,8 +1,8 @@
-# Welcher KVM-Cloud-Tarif ist der richtige für Sie?
+# Welcher KVM-Cloud-Tarif ist der richtige für Sie? {#which-kvm-cloud-service-plan-is-right-for-you}
 
 Der KVM-Cloud-Dienst bietet zwei Tarife: den kostenlosen Standard-Tarif und den kostenpflichtigen Advanced-Tarif. Screen Wall und Device Sharing sind Premiumfunktionen, die nur im Advanced-Tarif verfügbar sind. Die folgende Tabelle vergleicht die enthaltenen Funktionen. Sie können bei Bedarf auf Advanced umsteigen.
 
-## Funktionsvergleich
+## Funktionsvergleich {#benefits-comparison}
 
 | Funktion | Standard | Advanced |
 | ---- | ---- | ---- |

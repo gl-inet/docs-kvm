@@ -1,4 +1,4 @@
-# Failed to install GLKVM app on Windows: "The code execution cannot proceed"
+# Failed to install GLKVM app on Windows: "The code execution cannot proceed" {#failed-to-install-glkvm-app-on-windows-the-code-execution-cannot-proceed}
 
 When installing the GLKVM app on Windows, an error may occur: "The code execution cannot proceed because VCRUNTIME140_1.dll was not found".
 

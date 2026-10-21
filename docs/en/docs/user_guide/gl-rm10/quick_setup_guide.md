@@ -1,10 +1,10 @@
-# Comet Pro (GL-RM10) Quick Setup
+# Comet Pro (GL-RM10) Quick Setup {#comet-pro-gl-rm10-quick-setup}
 
 Watch this video or follow the steps below to set up your Comet Pro.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/onxj5EEf9Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Connect Devices
+## Connect Devices {#connect-devices}
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
@@ -34,13 +34,13 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 5. Device connection is complete. Now you can access the Comet Pro's console locally or remotely.
 
-## Local Access
+## Local Access {#local-access}
 
 There are two ways to access Comet Pro on the local network: via domain name or IP address.
 
 Before accessing, ensure your controlling device is on the same LAN as Comet Pro.
 
-### Domain
+### Domain {#domain}
 
 1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
 
@@ -54,7 +54,7 @@ Before accessing, ensure your controlling device is on the same LAN as Comet Pro
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP address
+### IP address {#ip-address}
 
 1. Find Comet Pro's IP address on the touchscreen. In this example, the Comet Pro's IP address is `192.168.8.197`. 
 
@@ -68,11 +68,11 @@ Before accessing, ensure your controlling device is on the same LAN as Comet Pro
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Remote Access
+## Remote Access {#remote-access}
 
 There are multiple ways to access Comet Pro remotely: via Cloud service, GLKVM App, Tailscale, ZeroTier, and NetBird.
 
-### Cloud service
+### Cloud service {#cloud-service}
 
 1. Bind your device to KVM Cloud. This needs to be done on the local network. 
 
@@ -112,7 +112,7 @@ There are multiple ways to access Comet Pro remotely: via Cloud service, GLKVM A
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -188,7 +188,7 @@ There are multiple ways to access Comet Pro remotely: via Cloud service, GLKVM A
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet Pro integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
@@ -198,7 +198,7 @@ Next, bind your controlling device to the same account. You will then be able to
 
 See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet Pro integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
 
@@ -208,7 +208,7 @@ Next, join both Comet Pro and your controlling device to the same ZeroTier netwo
 
 See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
 
-### NetBird
+### NetBird {#netbird}
 
 Comet Pro integrates with NetBird, allowing you to remotely access it through NetBird virtual network. 
 

@@ -1,4 +1,4 @@
-# Mobilfunkprotokolle exportieren
+# Mobilfunkprotokolle exportieren {#how-to-export-cellular-logs}
 
 Dieses Tutorial beschreibt die Schritte zum Exportieren mobilfunkbezogener Protokolle vom KVM-Geraet fuer die Fehlerbehebung.
 

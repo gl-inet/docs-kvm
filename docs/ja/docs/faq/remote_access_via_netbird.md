@@ -1,4 +1,4 @@
-# NetBird 経由で KVM にリモートでアクセスする方法
+# NetBird 経由で KVM にリモートでアクセスする方法 {#how-to-access-kvm-remotely-via-netbird}
 
 > 注: この機能を使用する前に、KVM ファームウェアを v1.9.0 にアップグレードしてください。
 
@@ -8,7 +8,7 @@ GL.iNet KVM は NetBird を統合し、リモート アクセスのために Net
 
 NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の手順に従います。
 
-## KVM を NetBird にバインド
+## KVM を NetBird にバインド {#bind-kvm-to-netbird}
 
 **始める前に、KVM と制御側デバイスを同じローカル ネットワークに接続してください。**
 
@@ -32,7 +32,7 @@ NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の�
 
     ![netbird dashboard](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/5-dashboard.png){class="glboxshadow"}
 
-## 制御側デバイスをバインドする
+## 制御側デバイスをバインドする {#bind-the-controlling-device}
 
 以下の例は、Windows ラップトップ (制御側デバイスとして) を NetBird ネットワークにバインドする方法を示しています。
 
@@ -60,7 +60,7 @@ NetBird 経由で GL.iNet KVM にリモート アクセスするには、次の�
 
     ![netbird dashboard](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/10-dashboard.png){class="glboxshadow"}
 
-## NetBird 経由のリモート アクセス
+## NetBird 経由のリモート アクセス {#remote-access-via-netbird}
 
 以下の例は、NetBird 仮想 IP アドレスを介して KVM コンソールにリモート アクセスする方法を示しています。
 

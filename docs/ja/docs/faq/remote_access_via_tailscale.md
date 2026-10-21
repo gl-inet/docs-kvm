@@ -1,10 +1,10 @@
-# Tailscale 経由で KVM にリモートでアクセスする方法
+# Tailscale 経由で KVM にリモートでアクセスする方法 {#how-to-access-kvm-remotely-via-tailscale}
 
 GL.iNet KVM は Tailscale を統合し、リモート アクセスのために Tailscale 仮想ネットワークにバインドできるようにします。GLKVM アプリをインストールしたり、クラウド サービスを使用したりする必要はありません。これは、制御側デバイスが Windows、macOS、Android、または iOS を実行していない場合 (したがって、GLKVM アプリをインストールできない場合)、または GLKVM アプリやクラウド サービスを使用したくない場合に特に便利です。
 
 Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次の手順に従います。
 
-## KVM を Tailscale にバインド
+## KVM を Tailscale にバインド {#bind-kvm-to-tailscale}
 
 **始める前に、KVM と制御側デバイスを同じローカル ネットワークに接続してください。**
 
@@ -36,7 +36,7 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 
     ![tailscale console 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_1.png){class="glboxshadow"}
 
-## 制御側デバイスをバインドする
+## 制御側デバイスをバインドする {#bind-the-controlling-device}
 
 以下の例は、Windows ラップトップ (制御側デバイスとして) を Tailscale ネットワークにバインドする方法を示しています。
 
@@ -58,7 +58,7 @@ Tailscale 経由で GL.iNet KVM にリモート アクセスするには、次�
 
     ![tailscale console 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_2.png){class="glboxshadow"}
 
-## Tailscale 経由のリモート アクセス
+## Tailscale 経由のリモート アクセス {#remote-access-via-tailscale}
 
 Tailscale コンソールで、glkvm の **Address** (この例では `100.104.185.26`) をクリックします。
 

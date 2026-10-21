@@ -1,10 +1,10 @@
-# Jak ustawić statyczny adres IP dla KVM
+# Jak ustawić statyczny adres IP dla KVM {#how-to-set-a-static-ip-for-kvm}
 
 Ten poradnik przedstawia kroki ustawiania statycznego adresu IP GL.iNet KVM bezpośrednio w konsoli, gdy nadrzędny router nie może go przydzielić.
 
 Wybierz instrukcję odpowiednią dla swojej wersji firmware.
 
-## Firmware v1.9 i starszy
+## Firmware v1.9 i starszy {#firmware-v19-and-earlier}
 
 W poniższym przykładzie użyto Comet (GL-RM1).
 
@@ -16,7 +16,7 @@ W poniższym przykładzie użyto Comet (GL-RM1).
 
     ![Statyczne ustawienia Ethernet](https://static.gl-inet.com/docs/kvm/tutorials/set_static_ip/ethernet-settings-static.png){class="glboxshadow"}
 
-## Firmware v1.10 i nowszy
+## Firmware v1.10 i nowszy {#firmware-v110-and-above}
 
 W poniższym przykładzie użyto Comet Pro (GL-RM10).
 

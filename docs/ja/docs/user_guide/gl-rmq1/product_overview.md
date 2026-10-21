@@ -1,10 +1,10 @@
-# CometQ (GL-RMQ1) 概要
+# CometQ (GL-RMQ1) 概要 {#comet-q-gl-rmq1-overview}
 
-## ディメンション
+## ディメンション {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 |画面表示 |説明 |
 | :-------------------------------- | :------------------ |
@@ -17,7 +17,7 @@
 | ![system menu](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/system.png) | **System Menu**<br></br>ホーム画面で上から下にスワイプして、**Rotate**、**Lock Screen**、**Reboot** などのシステム メニューにアクセスします。
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/reset.png) | **Factory Reset**<br></br>KVM の電源が入っている状態で、ピンをリセット ピンホールに挿入し、**8 seconds** を工場出荷時設定にリセットするまで押し続けます。リセットをキャンセルするには、8 秒以内にピンを放します。 |
 
-## 互換性
+## 互換性 {#compatibility}
 
 Comet Q は、USB-C ポートがビデオ出力用に **DisplayPort Alt Mode** をサポートする任意のデバイスで動作します。これには以下が含まれますが、これらに限定されません。
 
@@ -26,7 +26,7 @@ Comet Q は、USB-C ポートがビデオ出力用に **DisplayPort Alt Mode** �
 - **Android スマートフォン (Samsung など)**: Samsung Galaxy S8 以降、Galaxy Note 8 以降、Galaxy Z Fold/Flip シリーズ、および Galaxy Tab S シリーズ
 - **ラップトップおよびミニ PC**: ビデオ出力をサポートする USB-C ポートを備えたほとんどのモデル (MacBook、Mac mini、およびほとんどの最新の Windows ラップトップを含む)
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1×Comet Q(GL-RMQ1)
 - 1 x ユーザーマニュアル

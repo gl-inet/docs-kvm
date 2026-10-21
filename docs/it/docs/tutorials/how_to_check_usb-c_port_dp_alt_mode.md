@@ -1,18 +1,18 @@
-# Come verificare se la porta USB-C del dispositivo supporta DP Alt Mode
+# Come verificare se la porta USB-C del dispositivo supporta DP Alt Mode {#how-to-check-if-your-devices-usb-c-port-supports-dp-alt-mode}
 
-## Che cos'è DP Alt Mode
+## Che cos'è DP Alt Mode {#what-is-dp-alt-mode}
 
 DP Alt Mode (DisplayPort Alternate Mode) è una funzionalità integrata in alcune porte USB-C che permette di trasmettere un segnale video di alta qualità, oltre ai dati e all'alimentazione normalmente gestiti.
 
 In pratica, un solo cavo USB-C può trasmettere il video da smartphone, tablet o computer portatile direttamente a un monitor, un televisore o un proiettore, senza adattatori speciali o docking station. Senza DP Alt Mode, la porta può solo trasferire dati e fornire alimentazione; non può inviare video a uno schermo esterno.
 
-## Perché è importante
+## Perché è importante {#why-it-matters}
 
 DP Alt Mode è importante per **Comet Q**, che si basa su questa funzionalità per ricevere il video dal dispositivo. Il dispositivo controllato deve supportare l'uscita video nativa tramite la propria porta USB-C. Un adattatore DisplayLink potrebbe non aggiungere questa capacità per un collegamento diretto a Comet Q.
 
 Le porte USB-C non offrono tutte le stesse funzionalità. Alcune trasportano solo dati e alimentazione; altre possono anche trasmettere video. Il connettore ha la stessa forma, ma le funzionalità possono essere diverse. Due porte USB-C possono sembrare identiche e comportarsi in modo molto diverso: per questo è utile verificarle prima di acquistare un accessorio video USB-C.
 
-## Metodi generali per verificare DP Alt Mode
+## Metodi generali per verificare DP Alt Mode {#general-methods-to-verify-dp-alt-mode}
 
 1. **Consulta la scheda tecnica**.
 

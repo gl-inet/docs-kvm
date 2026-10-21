@@ -1,4 +1,4 @@
-# Jak uzyskać dostęp do konsoli szeregowej przez USB TTL
+# Jak uzyskać dostęp do konsoli szeregowej przez USB TTL {#how-to-access-serial-console-via-usb-ttl}
 
 Aby użyć adaptera USB TTL do debugowania przez port szeregowy, wykonaj poniższe kroki:
 

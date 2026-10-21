@@ -1,4 +1,4 @@
-# RPi4 が KVM 経由で RPi3 を制御するときにマウスの遅延を修正する方法
+# RPi4 が KVM 経由で RPi3 を制御するときにマウスの遅延を修正する方法 {#how-to-fix-mouse-latency-when-rpi4-controls-rpi3-via-kvm}
 
 KVM 経由で RPi4 から RPi3 をリモート操作すると、マウスの遅延が発生する場合があり、通常は数秒続きます。
 

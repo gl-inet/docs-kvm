@@ -1,4 +1,4 @@
-# How to fix mouse latency when RPi4 controls RPi3 via KVM
+# How to fix mouse latency when RPi4 controls RPi3 via KVM {#how-to-fix-mouse-latency-when-rpi4-controls-rpi3-via-kvm}
 
 Mouse lag may appear when operating RPi3 remotely from RPi4 over KVM, usually lasting several seconds.
 

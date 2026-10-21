@@ -1,4 +1,4 @@
-# Firmware Ihres KVM aktualisieren
+# Firmware Ihres KVM aktualisieren {#how-to-upgrade-your-kvms-firmware}
 
 Firmware-Upgrades bringen neue Funktionen und verbessern die Gerätestabilität. Führen Sie die folgenden Schritte aus, um das Upgrade abzuschließen.
 

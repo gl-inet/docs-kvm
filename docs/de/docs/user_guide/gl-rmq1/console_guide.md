@@ -1,6 +1,6 @@
-# Comet Q (GL-RMQ1) Konsolenhandbuch
+# Comet Q (GL-RMQ1) Konsolenhandbuch {#comet-q-gl-rmq1-console-guide}
 
-## Settings
+## Settings {#settings}
 
 Navigieren Sie in der Konsole zu **Settings**. Die Einstellungsseite umfasst vier Bereiche:
 
@@ -9,13 +9,13 @@ Navigieren Sie in der Konsole zu **Settings**. Die Einstellungsseite umfasst vie
 - [System](#system)
 - [Network](#network)
 
-### Quick Search
+### Quick Search {#quick-search}
 
 Sie können die gewünschten Einstellungen schnell finden, indem Sie oben auf der Seite **Settings** Schlüsselwörter eingeben.
 
 ![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/quick-search.png){class="glboxshadow"}
 
-### Video
+### Video {#video}
 
 Sie können die Videoeinstellungen in der Konsole anpassen, z. B. EDID, Videoqualität, Videoübertragung und Bildschirmausrichtung.
 
@@ -47,7 +47,7 @@ Sie können die Videoeinstellungen in der Konsole anpassen, z. B. EDID, Videoqua
 
 - **View**: Diese Einstellung bestimmt die Bildschirmskalierung beim Ändern der Größe des Browserfensters. Verfügbare Optionen: Adaptive, Best Picture Quality, Original Pixel.
 
-### Audio&Keyboard&Mouse
+### Audio&Keyboard&Mouse {#audiokeyboardmouse}
 
 Sie können die relevanten Einstellungen für Audio, Tastatur und Maus anpassen.
 
@@ -95,7 +95,7 @@ Sie können die relevanten Einstellungen für Audio, Tastatur und Maus anpassen.
 
 - **Relative Sensitivity**: Ist verfügbar, wenn Mouse Mode auf Relative eingestellt ist.
 
-### System
+### System {#system}
 
 Sie können die Anzeigeeinstellungen des Konsolensystems anpassen oder das Gerät mit einem Klick zurücksetzen.
 
@@ -113,7 +113,7 @@ Sie können die Anzeigeeinstellungen des Konsolensystems anpassen oder das Gerä
 
 - **Reset KVM**: Setzen Sie Ihren KVM mit nur einem Klick auf die Werkseinstellungen zurück.
 
-### Network
+### Network {#network}
 
 Hier können Sie die Netzwerkdetails des Comet Q prüfen und ändern, z. B. Hostname und IP-Adresse.
 
@@ -129,7 +129,7 @@ Hier können Sie die Netzwerkdetails des Comet Q prüfen und ändern, z. B. Host
 
     Wenn Sie ihn mit einem anderen Wi‑Fi-Netzwerk verbinden möchten, klicken Sie auf **Switch Wi-Fi** und wählen Sie ein Wi-Fi aus der Liste der verfügbaren Netzwerke aus.
 
-## Toolbox
+## Toolbox {#toolbox}
 
 Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst drei Bereiche:
 
@@ -137,13 +137,13 @@ Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst drei Ber
 - [Shortcut](#shortcut)
 - [Terminal](#terminal)
 
-### Clipboard
+### Clipboard {#clipboard}
 
 Die Zwischenablage ermöglicht es Ihnen, Text einfach vom steuernden Gerät auf das gesteuerte Gerät einzufügen, ohne Dateien übertragen zu müssen.
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-clipboard.png){class="glboxshadow"}
 
-### Shortcut
+### Shortcut {#shortcut}
 
 Mit Shortcuts können Sie Aktionen schneller ausführen, ohne die virtuelle Tastatur zu verwenden. So arbeiten Sie effizienter und sparen Zeit bei alltäglichen Aufgaben. Hier finden Sie einige häufig verwendete Shortcuts.
 
@@ -153,7 +153,7 @@ Klicken Sie auf **Modify**, um die Shortcut-Optionen nach Bedarf anzupassen.
 
 ![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-shortcut2.png){class="glboxshadow"}
 
-### Terminal
+### Terminal {#terminal}
 
 Sie können auf das Terminal des Comet Q zugreifen, um erweiterte Einstellungen vorzunehmen. Klicken Sie auf **Access**.
 
@@ -163,13 +163,13 @@ Sie werden zum GLKVM-Terminal weitergeleitet.
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-terminal2.png){class="glboxshadow"}
 
-## Virtual Media
+## Virtual Media {#virtual-media}
 
 Navigieren Sie in der Konsole zu **Virtual Media**. Comet Q kann ein les- und beschreibbares USB-Laufwerk emulieren, sodass Sie Dateien zwischen dem steuernden Gerät und dem gesteuerten Gerät freigeben und verwalten können.
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/virtual-media.png){class="glboxshadow"}
 
-### File Sharing
+### File Sharing {#file-sharing}
 
 **Um Dateien vom steuernden Gerät für das gesteuerte Gerät freizugeben, führen Sie die folgenden Schritte aus.**
 
@@ -217,7 +217,7 @@ Navigieren Sie in der Konsole zu **Virtual Media**. Comet Q kann ein les- und be
 
     ![file sharing6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing6.png){class="glboxshadow"}
 
-### Format Disk
+### Format Disk {#format-disk}
 
 Sie können den Datenträger formatieren oder virtuelle Medien mit einem Klick deaktivieren.
 
@@ -227,13 +227,13 @@ Sie können den Datenträger formatieren oder virtuelle Medien mit einem Klick d
 
 - **Disable**: Durch das Deaktivieren der virtuellen Medien wird das KVM-Gerät sofort neu gestartet.
 
-## Apps Center
+## Apps Center {#apps-center}
 
 Navigieren Sie in der Konsole zu **Apps Center**. Die integrierten Anwendungen finden Sie hier.
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} ist ein auf WireGuard basierender Mesh-VPN-Dienst, der verschlüsselte Peer-to-Peer-Privatnetzwerke zwischen Geräten erstellt, ohne Portweiterleitung oder komplexe Firewall-Einrichtung.
 
@@ -245,7 +245,7 @@ Nach dem Binden zeigt die Konsole das verknüpfte Tailscale-Konto an und schalte
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} erstellt verschlüsselte virtuelle Overlay-Netzwerke, um verteilte Geräte weltweit so zu verbinden, als befänden sie sich im selben lokalen Netzwerk.
 
@@ -257,13 +257,13 @@ Nach dem Binden zeigt die Konsole die ZeroTier Network ID und Virtual IP an.
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
-## Help
+## Help {#help}
 
 Navigieren Sie in der Konsole zu **Help**. Hier finden Sie weitere Informationen zu GL.iNet KVM und Hilfedokumentation. Außerdem können Sie Protokolle zur Fehlerbehebung exportieren.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/help.png){class="glboxshadow"}
 
-## Toolbar
+## Toolbar {#toolbar}
 
 Navigieren Sie in der Konsole in die obere rechte Ecke, um auf die folgenden Werkzeuge zuzugreifen:
 
@@ -275,7 +275,7 @@ Navigieren Sie in der Konsole in die obere rechte Ecke, um auf die folgenden Wer
 - Reboot
 - Logout
 
-### Collapse
+### Collapse {#collapse}
 
 Klicken Sie oben rechts auf das Symbol mit dem Aufwärtspfeil, um die Symbolleiste einzuklappen.
 
@@ -285,7 +285,7 @@ Wenn die Symbolleiste eingeklappt ist, klicken Sie oben auf das Symbol mit dem A
 
 ![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/collapse2.png){class="glboxshadow"}
 
-### Fullscreen
+### Fullscreen {#fullscreen}
 
 Klicken Sie oben rechts auf das Vollbildsymbol (quadratisch), um in den Vollbildmodus zu wechseln.
 
@@ -295,7 +295,7 @@ Um den Vollbildmodus zu verlassen, halten Sie die Taste **Esc** gedrückt oder k
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/fullscreen2.png){class="glboxshadow"}
 
-### Upgrade
+### Upgrade {#upgrade}
 
 Klicken Sie oben rechts auf die Firmware-Version, um nach Updates zu suchen.
 
@@ -305,7 +305,7 @@ Im Pop-up-Fenster können Sie ein Online-Upgrade durchführen, wenn eine neuere 
 
 ![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/upgrade2.png){class="glboxshadow"}
 
-### Cloud Service
+### Cloud Service {#cloud-service}
 
 GL.iNet KVM Cloud ermöglicht Ihnen den Fernzugriff auf das gesteuerte Gerät. Details finden Sie [hier](../../faq/remote_access_via_cloud.md){target="_blank"}.
 
@@ -313,7 +313,7 @@ Sobald Ihr Comet Q an die Cloud gebunden ist, zeigt die Konsole den Cloud-Status
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/cloud.png){class="glboxshadow"}
 
-### Security
+### Security {#security}
 
 Unter Security können Sie das Admin-Passwort ändern, die Zwei-Faktor-Authentifizierung aktivieren und ein TLS-Zertifikat anpassen.
 

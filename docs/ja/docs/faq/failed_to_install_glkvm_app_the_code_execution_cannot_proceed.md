@@ -1,4 +1,4 @@
-# Windows への GLKVM アプリのインストールに失敗しました: 「コードの実行を続行できません」
+# Windows への GLKVM アプリのインストールに失敗しました: 「コードの実行を続行できません」 {#failed-to-install-glkvm-app-on-windows-the-code-execution-cannot-proceed}
 
 Windows に GLKVM アプリをインストールすると、「VCRUNTIME140_1.dll が見つからないため、コードの実行を続行できません」というエラーが発生する場合があります。
 

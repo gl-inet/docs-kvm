@@ -1,6 +1,6 @@
-# Comet Qに関するよくある質問
+# Comet Qに関するよくある質問 {#frequently-asked-questions-about-comet-q}
 
-## 全般
+## 全般 {#general}
 
 1. **Q: Comet Q が被制御デバイスに接続したときに、KVM 制御画面に「表示できません」と表示された場合はどうすればよいですか?**
 
@@ -18,7 +18,7 @@
 
     **Tip**: 音声対話アプリが非アクティブな場合、メディア オーディオ (ビデオ、音楽、ゲームなど) は通常、KVM 経由で制御側に送信できます。
 
-## iOS
+## iOS {#ios}
 
 1. **Q: Comet Q に接続した後、iOS デバイスでシステム音量を調整できないのはなぜですか?**
 
@@ -53,7 +53,7 @@
 
     **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** を開き、Mouse Keys をオフにしてください。
 
-## アンドロイド
+## アンドロイド {#android}
 
 1. **Q: 絶対マウス モードでデバイスを制御できないのはなぜですか?**
 

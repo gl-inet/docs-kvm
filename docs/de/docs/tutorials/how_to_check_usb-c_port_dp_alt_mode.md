@@ -1,18 +1,18 @@
-# Pruefen, ob der USB-C-Port Ihres Geraets DP Alt Mode unterstuetzt
+# Pruefen, ob der USB-C-Port Ihres Geraets DP Alt Mode unterstuetzt {#how-to-check-if-your-devices-usb-c-port-supports-dp-alt-mode}
 
-## Was ist DP Alt Mode?
+## Was ist DP Alt Mode? {#what-is-dp-alt-mode}
 
 DP Alt Mode, oder DisplayPort Alternate Mode, ist eine Funktion bestimmter USB-C-Ports. Sie ermoeglicht es, zusaetzlich zu den normalerweise uebertragenen Daten und der Stromversorgung ein hochwertiges Videosignal auszugeben.
 
 Einfach gesagt: Ein einzelnes USB-C-Kabel kann Video von Ihrem Smartphone, Tablet oder Laptop direkt an einen Monitor, Fernseher oder Projektor uebertragen, ohne speziellen Adapter oder Dockingstation. Ohne DP Alt Mode kann der Port nur Daten uebertragen und Strom liefern. Eine Videoausgabe an ein externes Display ist dann nicht moeglich.
 
-## Warum das wichtig ist
+## Warum das wichtig ist {#why-it-matters}
 
 DP Alt Mode ist für **Comet Q** wichtig, da Comet Q darüber das Videosignal von Ihrem Gerät empfängt. Das gesteuerte Gerät muss die native Videoausgabe über seinen USB-C-Port unterstützen. Beachten Sie, dass ein DisplayLink-Adapter diese Fähigkeit für eine direkte Verbindung mit Comet Q möglicherweise nicht bereitstellen kann.
 
 Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur Daten und Strom, andere koennen auch Video ausgeben. Der Anschluss sieht gleich aus, die dahinterliegenden Funktionen koennen sich jedoch unterscheiden. Zwei USB-C-Ports koennen identisch aussehen und sich voellig unterschiedlich verhalten. Deshalb sollten Sie dies pruefen, bevor Sie USB-C-Display-Zubehoer kaufen.
 
-## Allgemeine Methoden zum Pruefen von DP Alt Mode
+## Allgemeine Methoden zum Pruefen von DP Alt Mode {#general-methods-to-verify-dp-alt-mode}
 
 1. **Datenblatt pruefen**.
 
@@ -26,11 +26,11 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 
     Die Systemeinstellungen können helfen, ein angeschlossenes Display zu erkennen. Sie belegen jedoch nicht immer, ob ein bestimmter USB-C-Port natives DP Alt Mode unterstützt. Ziehen Sie zusätzlich die Herstellerangaben heran und testen Sie eine direkte Verbindung. Beachten Sie die plattformspezifischen Anweisungen unten.
 
-    - [Auf Windows pruefen](#auf-windows-pruefen)
-    - [Auf Mac pruefen](#auf-mac-pruefen)
-    - [Auf Android pruefen](#auf-android-pruefen)
-    - [Auf iPhone und iPad pruefen](#auf-iphone-und-ipad-pruefen)
-    - [Handhelds, Tablets und andere Geraete](#handhelds-tablets-und-andere-geraete)
+    - [Auf Windows pruefen](#how-to-check-on-windows)
+    - [Auf Mac pruefen](#how-to-check-on-mac)
+    - [Auf Android pruefen](#how-to-check-on-android)
+    - [Auf iPhone und iPad pruefen](#how-to-check-on-iphone-and-ipad)
+    - [Handhelds, Tablets und andere Geraete](#handhelds-tablets-and-other-devices)
 
 4. **Schnelltest durchfuehren**.
 
@@ -38,7 +38,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 
 ---
 
-## Auf Windows pruefen
+## Auf Windows pruefen {#how-to-check-on-windows}
 
 1. Druecken Sie `Win + X` und oeffnen Sie den **Device Manager**.
 2. Suchen Sie nach Einträgen mit *"USB4"* oder *"Thunderbolt"*. Diese helfen bei der Identifizierung der Hardware, aber der Device Manager allein bestätigt keine DP-Alt-Mode-Unterstützung für einen bestimmten Port.
@@ -51,7 +51,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
 
 2. Wenn Ihr Laptop mehrere USB-C-Ports hat, unterstützen möglicherweise nur einige davon die Videoausgabe. Prüfen Sie jeden Port einzeln.
 
-## Auf Mac pruefen
+## Auf Mac pruefen {#how-to-check-on-mac}
 
 1. Klicken Sie auf das **Apple menu** > **About This Mac** > **More Info**.
 2. Scrollen Sie nach unten und klicken Sie auf **System Report**.
@@ -123,7 +123,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
         - Mac Pro (M2 UItra)
         - Mac Pro (Intel, 2019)
 
-## Auf Android pruefen
+## Auf Android pruefen {#how-to-check-on-android}
 
 1. Oeffnen Sie die **Settings** Ihres Smartphones und suchen Sie nach *"display"*, *"HDMI"* oder *"desktop mode"*.
 2. Suchen Sie nach Funktionen wie **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection** oder *"External display"*. Prüfen Sie in der Herstellerdokumentation, ob das genaue Modell eine **kabelgebundene USB-C-Displayverbindung** unterstützt. Eine drahtlose Displayfunktion allein belegt keine DP-Alt-Mode-Unterstützung.
@@ -168,7 +168,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
         - Galaxy Z Fold4
         - Galaxy Z Fold7
 
-## Auf iPhone und iPad pruefen
+## Auf iPhone und iPad pruefen {#how-to-check-on-iphone-and-ipad}
 
 1. Die iPhone-15-Serie und neuere Modelle (außer iPhone 16e und iPhone 17e) unterstützen DisplayPort Alt Mode über ihren USB-C-Port. Prüfen Sie die Angaben zu Ihrem genauen Modell in [Apples Dokumentation zum Anschluss von Displays](https://support.apple.com/en-ie/105099#displays){target="_blank"}.
 2. iPhone 14 und aeltere Modelle verwenden Lightning und sind nicht kompatibel.
@@ -218,7 +218,7 @@ Nicht jeder USB-C-Port bietet dieselben Funktionen. Einige Ports uebertragen nur
         - iPad Pro 13‑inch (M5)
         - iPad Pro 13‑inch (M4)
 
-## Handhelds, Tablets und andere Geraete
+## Handhelds, Tablets und andere Geraete {#handhelds-tablets-and-other-devices}
 
 1. **Steam Deck**, **ROG Ally** und **Lenovo Legion Go** unterstuetzen alle DP Alt Mode.
 2. **Die meisten Windows-Tablets** mit USB-C, z. B. Surface Pro 8 und neuer, werden unterstuetzt.

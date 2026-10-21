@@ -1,4 +1,4 @@
-# ATX Board (GL-ATXPC) Benutzerhandbuch
+# ATX Board (GL-ATXPC) Benutzerhandbuch {#atx-board-gl-atxpc-user-guide}
 
 Das ATX Board ist optionales Zubehör für GL.iNet KVM-Geräte. Als intelligentes Stromverwaltungsmodul ermöglicht es die Fernsteuerung der Stromversorgung des gesteuerten Geräts, indem es physische Betätigungen des Ein-/Aus-Schalters simuliert (Einschalten/Ausschalten/Neustart).
 
@@ -8,7 +8,7 @@ Das ATX Board wird im Gehäuse des gesteuerten Geräts installiert und bietet da
 
 ![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/rm1-and-atx-borad.jpg){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 ![inside the box](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/inside-the-box.png){class="glboxshadow gl-80-desktop"}
 
@@ -18,7 +18,7 @@ Das ATX Board wird im Gehäuse des gesteuerten Geräts installiert und bietet da
 - 1 x USB-A-auf-Type-C-Kabel
 - 1 x ATX-Halterungssatz
 
-## Pinbelegung
+## Pinbelegung {#pin-out}
 
 ![pinout](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/pinout.jpg){class="glboxshadow gl-80-desktop"}
 
@@ -40,19 +40,19 @@ Diagramm der Schnittstellen 4/5:
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/interface.png){class="glboxshadow gl-60-desktop"}
 
-## Installation
+## Installation {#installation}
 
 Sehen Sie sich dieses Video zur Installation des ATX Board an, oder folgen Sie den Schritten unten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. ATX Board und Halterung verschrauben
+### 1. ATX Board und Halterung verschrauben {#1-screw-atx-board-and-bracket}
 
 Befestigen Sie das ATX Board und den ATX-Halterungssatz mit den mitgelieferten Schrauben.
 
 ![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/screwing.jpg){class="glboxshadow gl-90-desktop"}
 
-### 2. ATX Board im PC-Gehäuse installieren
+### 2. ATX Board im PC-Gehäuse installieren {#2-install-atx-board-into-pc-case}
 
 Verbinden Sie die Schnittstellen 4 und 5 jeweils mit der Steuerleitung und der F_PANEL-Schnittstelle des gesteuerten PCs.
 
@@ -122,7 +122,7 @@ Installieren Sie anschließend die Halterung des ATX Board im Computergehäuse.
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install2.png){class="glboxshadow gl-90-desktop"}
 
-### 3. ATX Board und KVM verbinden
+### 3. ATX Board und KVM verbinden {#3-connect-atx-board-and-kvm}
 
 Verbinden Sie den Type-C-Anschluss des ATX Board über das mitgelieferte USB-Kabel mit dem USB-A-Anschluss des KVM-Geräts (z. B. Comet GL-RM1).
 
@@ -138,7 +138,7 @@ Sie können sich jetzt bei Ihrem KVM anmelden und zu **Accessories** navigieren,
 
 ![atx power](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/atx_power.png){class="glboxshadow gl-90-desktop"}
 
-## FAQ
+## FAQ {#faq}
 
 **F1. Kann ich das GL-ATXPC Board mit KVM-Geräten verwenden, die nicht von GL.iNet stammen?**
 
@@ -175,7 +175,7 @@ Comet X (GL-RM4PE) unterstützt jedoch bis zu vier ATX Boards gleichzeitig. Come
 
 **Hinweis**: Comet Q (GL-RMQ1) funktioniert nicht mit dem ATX Board.
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
  
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 

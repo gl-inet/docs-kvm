@@ -1,14 +1,14 @@
-# Jak wyeksportować logi urządzenia i aplikacji
+# Jak wyeksportować logi urządzenia i aplikacji {#how-to-export-device-logs-and-app-logs}
 
 Ten poradnik wyjaśnia, jak wyeksportować logi urządzenia KVM i aplikacji GLKVM na potrzeby rozwiązywania problemów.
 
-## Logi urządzenia
+## Logi urządzenia {#device-logs}
 
 Zaloguj się do konsoli KVM, kliknij **Help** i wybierz **Export Log Files**.
 
 ![Logi urządzenia](https://static.gl-inet.com/docs/kvm/tutorials/export_device_and_app_logs/device_log.png){class="glboxshadow"}
 
-## Logi aplikacji
+## Logi aplikacji {#app-logs}
 
 Logi aplikacji można eksportować z aplikacji komputerowej i mobilnej.
 

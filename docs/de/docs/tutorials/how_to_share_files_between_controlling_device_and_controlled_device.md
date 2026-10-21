@@ -1,10 +1,10 @@
-# Dateien zwischen steuerndem und gesteuertem Geraet freigeben
+# Dateien zwischen steuerndem und gesteuertem Geraet freigeben {#how-to-share-files-between-controlling-and-controlled-devices}
 
 GL.iNet KVM emuliert ein beschreibbares USB-Laufwerk, mit dem Sie Dateien zwischen dem steuernden und dem gesteuerten Geraet freigeben und verwalten koennen.
 
 In den folgenden Schritten verwenden wir Comet (GL-RM1) als Beispiel. 
 
-## Dateien an das gesteuerte Geraet senden
+## Dateien an das gesteuerte Geraet senden {#send-files-to-controlled-device}
 
 Fuehren Sie die folgenden Schritte aus, um Dateien vom steuernden Geraet fuer das gesteuerte Geraet freizugeben.
 
@@ -38,7 +38,7 @@ Fuehren Sie die folgenden Schritte aus, um Dateien vom steuernden Geraet fuer da
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/tutorials/share_files_via_virtual_media/stop-sharing1.png){class="glboxshadow"}
 
-## Dateien vom gesteuerten Geraet abrufen
+## Dateien vom gesteuerten Geraet abrufen {#get-files-from-controlled-device}
 
 Fuehren Sie die folgenden Schritte aus, um Dateien vom gesteuerten Geraet zu empfangen.
 

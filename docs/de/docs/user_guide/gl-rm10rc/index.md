@@ -1,4 +1,4 @@
-# Comet 5G (GL-RM10RC) Benutzerhandbuch
+# Comet 5G (GL-RM10RC) Benutzerhandbuch {#comet-5g-gl-rm10rc-user-guide}
 
 Comet 5G (GL-RM10RC) ist ein 5G-RedCap-faehiges Remote-KVM, das Mobilfunkkonnektivitaet integriert, um eine vollstaendige Geraetesteuerung auch in Bereichen ohne kabelgebundenen Netzwerkzugang bereitzustellen. Dadurch wird die Flexibilitaet bei der Bereitstellung deutlich erhoeht. Es unterstuetzt 5G RedCap, Wi-Fi 6 und Ethernet-Failover, um die Verbindung unter verschiedenen Netzwerkbedingungen aufrechtzuerhalten.
 

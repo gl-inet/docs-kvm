@@ -1,4 +1,4 @@
-# Panoramica di Comet PoE (GL-RM1PE)
+# Panoramica di Comet PoE (GL-RM1PE) {#comet-poe-gl-rm1pe-overview}
 
 ## Aspetto { #appearance }
 
@@ -8,7 +8,7 @@
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/overview/rm1pe_dimension.png){class="glboxshadow"}
 
-## LED
+## LED {#led}
 
 Sul pannello superiore di Comet PoE è presente un indicatore LED.
 

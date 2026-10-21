@@ -1,4 +1,4 @@
-# Was tun, wenn vom gesteuerten Gerät kein Audio zu hören ist
+# Was tun, wenn vom gesteuerten Gerät kein Audio zu hören ist {#what-should-i-do-if-theres-no-audio-from-the-controlled-device}
 
 Wenn Sie nach dem Verbinden von KVM und gesteuertem Gerät kein Audio vom gesteuerten Gerät hören (z. B. kein Ton beim Abspielen von Videos auf dem Gerät), helfen möglicherweise die folgenden Schritte zur Fehlerbehebung:
 

@@ -1,4 +1,4 @@
-# Come installare un sistema operativo da remoto sul computer controllato tramite Virtual Media
+# Come installare un sistema operativo da remoto sul computer controllato tramite Virtual Media {#how-to-install-an-os-on-the-controlled-computer-remotely-using-virtual-media}
 
 Questo tutorial spiega come installare da remoto un sistema operativo sul computer controllato utilizzando Virtual Media, una funzionalità dei KVM GL.iNet.
 

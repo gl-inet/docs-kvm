@@ -1,10 +1,10 @@
-# Comet 5G (GL-RM10RC) Quick Setup
+# Comet 5G (GL-RM10RC) Quick Setup {#comet-5g-gl-rm10rc-quick-setup}
 
 Watch this video or follow the steps below to set up your Comet 5G.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Connect Devices
+## Connect Devices {#connect-devices}
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
@@ -39,7 +39,7 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 5. Device connection is complete. Now you can access the Comet 5G's console via nearby control, local access, or remote access.
 
-## Nearby Control
+## Nearby Control {#nearby-control}
 
 Nearby Control is perfect for quick setup and management when you are close to the Comet 5G. 
 
@@ -51,13 +51,13 @@ Connect a device to this Wi-Fi SSID, then you can access the Comet 5G's console 
 
 ![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/nearby_access2.png){class="glboxshadow"}
 
-## Local Access
+## Local Access {#local-access}
 
 There are two ways to access Comet 5G on the local network: via domain name or IP address.
 
 Before accessing, ensure your controlling device is on the same LAN as Comet 5G.
 
-### Domain
+### Domain {#domain}
 
 1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
 
@@ -71,7 +71,7 @@ Before accessing, ensure your controlling device is on the same LAN as Comet 5G.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP address
+### IP address {#ip-address}
 
 1. Find Comet 5G's IP address on the touchscreen. In this example, the Comet 5G's IP address is `192.168.8.197`. 
 
@@ -85,11 +85,11 @@ Before accessing, ensure your controlling device is on the same LAN as Comet 5G.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Remote Access
+## Remote Access {#remote-access}
 
 There are multiple ways to access Comet 5G remotely: via Cloud service, GLKVM App, Tailscale, ZeroTier, and NetBird.
 
-### Cloud service
+### Cloud service {#cloud-service}
 
 1. Bind your device to KVM Cloud. This needs to be done on the local network. 
 
@@ -129,7 +129,7 @@ There are multiple ways to access Comet 5G remotely: via Cloud service, GLKVM Ap
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -205,7 +205,7 @@ There are multiple ways to access Comet 5G remotely: via Cloud service, GLKVM Ap
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet 5G integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
@@ -215,7 +215,7 @@ Next, bind your controlling device to the same account. You will then be able to
 
 See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet 5G integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
 
@@ -225,7 +225,7 @@ Next, join both Comet 5G and your controlling device to the same ZeroTier networ
 
 See [here](../../faq/remote_access_via_zerotier.md){target="_blank"} for details.
 
-### NetBird
+### NetBird {#netbird}
 
 Comet 5G integrates with NetBird, allowing you to remotely access it through NetBird virtual network. 
 

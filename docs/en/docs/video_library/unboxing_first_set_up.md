@@ -1,8 +1,8 @@
-# Unboxing & First-Time Setup
+# Unboxing & First-Time Setup {#unboxing-first-time-setup}
 
 Unbox our devices and discover how easy it is to set them up for the first time.
 
-## Comet (GL-RM1)
+## Comet (GL-RM1) {#comet-gl-rm1}
 
 Unboxing Video
 
@@ -12,7 +12,7 @@ Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet PoE (GL-RM1PE)
+## Comet PoE (GL-RM1PE) {#comet-poe-gl-rm1pe}
 
 Unboxing Video
 
@@ -22,7 +22,7 @@ Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsPceu7OKco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet Pro (GL-RM10)
+## Comet Pro (GL-RM10) {#comet-pro-gl-rm10}
 
 Unboxing Video
 
@@ -32,7 +32,7 @@ Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/onxj5EEf9Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet 5G (GL-RM10RC)
+## Comet 5G (GL-RM10RC) {#comet-5g-gl-rm10rc}
 
 Unboxing Video
 
@@ -42,7 +42,7 @@ Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet Q (GL-RMQ1)
+## Comet Q (GL-RMQ1) {#comet-q-gl-rmq1}
 
 Unboxing Video
 
@@ -52,19 +52,19 @@ Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comet X (GL-RM4PE)
+## Comet X (GL-RM4PE) {#comet-x-gl-rm4pe}
 
 Unboxing Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## ATX Board (GL-ATXPC)
+## ATX Board (GL-ATXPC) {#atx-board-gl-atxpc}
 
 Setup Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Fingerbot (FGB-01)
+## Fingerbot (FGB-01) {#fingerbot-fgb-01}
 
 Unboxing Video
 

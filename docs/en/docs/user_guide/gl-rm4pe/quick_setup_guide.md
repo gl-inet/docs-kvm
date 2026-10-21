@@ -1,6 +1,6 @@
-# Comet X (GL-RM4PE) Quick Setup
+# Comet X (GL-RM4PE) Quick Setup {#comet-x-gl-rm4pe-quick-setup}
 
-## Connect Devices
+## Connect Devices {#connect-devices}
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
@@ -24,7 +24,7 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
 5. Connection complete. Now you can access the Comet X's console locally or remotely.
 
-## Rack Mounting
+## Rack Mounting {#rack-mounting}
 
 Mount Comet X onto server rack rails as needed.
 
@@ -36,7 +36,7 @@ Mount Comet X onto server rack rails as needed.
 
     ![install2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/install2.png){class="glboxshadow"}
 
-## Local Control
+## Local Control {#local-control}
 
 Control the device directly via physical cables, no network, IP address or domain name required.
 
@@ -52,13 +52,13 @@ Comet X features an HDMI OUT port and two extra USB ports, ideal for local troub
 
 3. You can now control the connected device(s) with your local keyboard and mouse, while video signals are looped out to the local monitor.
 
-## LAN Access
+## LAN Access {#lan-access}
 
 There are two ways to access Comet X on the local network: via domain name or IP address.
 
 Before accessing, ensure your controlling device is on the same LAN as Comet X.
 
-### Domain
+### Domain {#domain}
 
 1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
 
@@ -72,7 +72,7 @@ Before accessing, ensure your controlling device is on the same LAN as Comet X.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_domain2.png){class="glboxshadow"}
 
-### IP address
+### IP address {#ip-address}
 
 1. Find Comet X's IP address on the touchscreen. In this example, the Comet X's IP address is `192.168.8.197`. 
 
@@ -86,11 +86,11 @@ Before accessing, ensure your controlling device is on the same LAN as Comet X.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_ip2.png){class="glboxshadow"}
 
-## Remote Access
+## Remote Access {#remote-access}
 
 There are multiple ways to access Comet X remotely: via Cloud service, GLKVM App, Tailscale, and ZeroTier.
 
-### Cloud service
+### Cloud service {#cloud-service}
 
 1. Bind your device to KVM Cloud. This needs to be done on the local network. 
 
@@ -132,7 +132,7 @@ There are multiple ways to access Comet X remotely: via Cloud service, GLKVM App
 
     ![cloud access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access2.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -210,7 +210,7 @@ There are multiple ways to access Comet X remotely: via Cloud service, GLKVM App
 
     ![app access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_access2.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet X integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
@@ -220,7 +220,7 @@ Next, bind your controlling device to the same account. You will then be able to
 
 See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet X integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
 

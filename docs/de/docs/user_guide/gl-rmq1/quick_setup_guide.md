@@ -1,10 +1,10 @@
-# Comet Q (GL-RMQ1) Schnellstart
+# Comet Q (GL-RMQ1) Schnellstart {#comet-q-gl-rmq1-quick-setup}
 
 Sehen Sie sich dieses Video an oder folgen Sie den nachstehenden Schritten, um Ihren Comet Q einzurichten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Geraete verbinden
+## Geraete verbinden {#connect-devices}
 
 Zur besseren Verstaendlichkeit bezeichnet Geraet A das steuernde Geraet und Geraet B das gesteuerte Geraet.
 
@@ -26,13 +26,13 @@ Zur besseren Verstaendlichkeit bezeichnet Geraet A das steuernde Geraet und Gera
 
     ![connect 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect4.png){class="glboxshadow"}
 
-## Lokaler Zugriff
+## Lokaler Zugriff {#local-access}
 
 Es gibt zwei Moeglichkeiten, im lokalen Netzwerk auf Comet Q zuzugreifen: ueber den Domainnamen oder ueber die IP-Adresse.
 
 Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LAN wie Comet Q befindet.
 
-### Domain
+### Domain {#domain}
 
 1. Oeffnen Sie auf dem steuernden Geraet einen Browser. Fuer bessere Kompatibilitaet werden Chrome oder Edge empfohlen.
 
@@ -46,7 +46,7 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LA
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP-Adresse
+### IP-Adresse {#ip-address}
 
 1. Verbinden Sie Comet Q mit einem WLAN-Netzwerk und suchen Sie die IP-Adresse auf dem Touchscreen. In diesem Beispiel lautet die IP-Adresse des Comet Q `192.168.8.197`.
 
@@ -60,11 +60,11 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LA
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Fernzugriff
+## Fernzugriff {#remote-access}
 
 Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet Q zuzugreifen: ueber den Cloud-Dienst, die GLKVM App, Tailscale und ZeroTier.
 
-### Cloud-Dienst
+### Cloud-Dienst {#cloud-service}
 
 1. Binden Sie Ihr Geraet an die KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
@@ -104,7 +104,7 @@ Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet Q zuzugreifen: ueber den
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Geraet.
 
@@ -180,7 +180,7 @@ Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet Q zuzugreifen: ueber den
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet Q ist in Tailscale integriert und ermoeglicht Fernzugriff ueber ein virtuelles Tailscale-Netzwerk.
 
@@ -190,7 +190,7 @@ Binden Sie anschliessend Ihr steuerndes Geraet an dasselbe Konto. Danach koennen
 
 Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet Q ist in ZeroTier integriert und ermoeglicht Fernzugriff ueber ein virtuelles ZeroTier-Netzwerk.
 

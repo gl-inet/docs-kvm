@@ -1,8 +1,8 @@
-# Was tun, wenn die Tastatureingabe oder -ausgabe nicht wie erwartet funktioniert
+# Was tun, wenn die Tastatureingabe oder -ausgabe nicht wie erwartet funktioniert {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 Wenn steuerndes und gesteuertes Gerät **unterschiedliche Eingabemethoden oder Tastaturlayouts** verwenden, werden lokal eingegebene Symbole und Zeichen wie "!", "@", "#" auf der Remote-Seite möglicherweise nicht korrekt angezeigt.
 
-## Warum tritt das auf
+## Warum tritt das auf {#why-does-it-happen}
 
 Das KVM wird vom gesteuerten Gerät als Tastatur erkannt. Die Tasten, die Sie auf der Tastatur des steuernden Geräts drücken, werden entsprechend den jeweiligen Tastenpositionen an das KVM übertragen und anschließend dem gesteuerten Gerät zugeordnet.
 
@@ -10,7 +10,7 @@ Wenn Eingabemethode oder Tastaturlayout des steuernden Geräts jedoch nicht mit 
 
 ![US JIS keyboard comparison](https://static.gl-inet.com/docs/kvm/faq/keyboard_input_output_does_not_work_as_expected/apple-keyboards-US-JIS.jpg){class="glboxshadow"}
 
-## Lösungen
+## Lösungen {#solutions}
 
 Installieren Sie auf dem gesteuerten Gerät die Eingabemethode oder Tastatur für die entsprechende Sprache, damit die Tastenzuordnung übereinstimmt.
 

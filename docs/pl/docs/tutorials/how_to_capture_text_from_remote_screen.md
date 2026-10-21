@@ -1,4 +1,4 @@
-# Jak przechwycić tekst ze zdalnego ekranu
+# Jak przechwycić tekst ze zdalnego ekranu {#how-to-capture-text-from-the-remote-screen}
 
 Funkcja rozpoznawania tekstu pozwala zaznaczyć obszar na zdalnym ekranie i łatwo wyodrębnić z niego tekst. Wykorzystuje technologię optycznego rozpoznawania znaków (OCR) i jest dostępna od wersji firmware v1.9.0.
 
@@ -6,7 +6,7 @@ Dzięki tej funkcji możesz przechwycić tekst ze zdalnego ekranu, czyli ze ster
 
 Aby przechwycić tekst ze zdalnego ekranu, wykonaj poniższe kroki.
 
-## Firmware v1.10 i nowszy
+## Firmware v1.10 i nowszy {#firmware-v110-and-above}
 
 1. Zaloguj się do konsoli KVM i przejdź do **Toolbox** -> **OCR**. Kliknij strzałkę w dół, aby wybrać język rozpoznawania: chiński, angielski lub tryb dwujęzyczny (Zh/En).
 
@@ -24,7 +24,7 @@ Aby przechwycić tekst ze zdalnego ekranu, wykonaj poniższe kroki.
 
     ![Rozpoznany tekst](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9.x
+## Firmware v1.9.x {#firmware-v19x}
 
 1. Zaloguj się do konsoli KVM. Kliknij strzałkę w dół, aby wybrać język rozpoznawania: chiński, angielski lub tryb dwujęzyczny (Zh/En).
 

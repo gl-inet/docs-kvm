@@ -1,4 +1,4 @@
-# Datenschutzwarnung beim Zugriff auf KVM per Browser
+# Datenschutzwarnung beim Zugriff auf KVM per Browser {#privacy-error-when-accessing-kvm-via-browser}
 
 Beim Zugriff auf das GL.iNet KVM per Browser kann eine Browserwarnung angezeigt werden: **Your connection isn't private**.
 
@@ -6,7 +6,7 @@ Beim Zugriff auf das GL.iNet KVM per Browser kann eine Browserwarnung angezeigt 
 
 Diese Warnung bedeutet, dass der Browser das vom KVM bereitgestellte SSL/TLS-Zertifikat nicht validieren kann. Beispielsweise wurde es möglicherweise nicht von einer Zertifizierungsstelle ausgestellt, der Ihr Browser vertraut, oder es stimmt nicht mit der IP-Adresse oder dem Hostnamen überein, über den Sie auf die Konsole zugreifen.
 
-## Warum wird diese Warnung angezeigt?
+## Warum wird diese Warnung angezeigt? {#why-do-i-get-this-warning}
 
 Im obigen Beispiel ist **192.168.8.11** die lokale IP-Adresse des KVM, die vom vorgeschalteten Router dynamisch per DHCP zugewiesen wurde.
 
@@ -20,7 +20,7 @@ Das KVM verwendet für den HTTPS-Zugriff per Browser ein Standard-TLS-Zertifikat
 
 Wenn Ihr Browser dem Standardzertifikat nicht vertraut oder dieses die eingegebene lokale IP-Adresse bzw. den Hostnamen nicht abdeckt, zeigt er eine Warnung an. Diese bedeutet nicht, dass das KVM kein Zertifikat besitzt. HTTPS kann die Verbindung weiterhin verschlüsseln, aber der Browser kann die Identität des KVM nicht überprüfen.
 
-## Wie lässt sich die Warnung beheben?
+## Wie lässt sich die Warnung beheben? {#how-to-resolve-the-warning}
 
 Prüfen Sie beim lokalen Zugriff zunächst, ob die Adresse zu Ihrem KVM gehört. Klicken Sie anschließend auf **Advanced** und **Continue to "192.168.8.11"** (der genaue Wortlaut hängt vom Browser ab).
 
@@ -30,7 +30,7 @@ Danach werden Sie zur GL.iNet KVM-Konsole weitergeleitet.
 
 ![local access to kvm admin](https://static.gl-inet.com/docs/kvm/faq/privacy_error_from_your_browser/local_access.png){class="glboxshadow"}
 
-## Kann ich mein eigenes Zertifikat verwenden?
+## Kann ich mein eigenes Zertifikat verwenden? {#can-i-use-my-own-certificate}
 
 Ja. Sie können auf dem KVM Ihr eigenes SSL/TLS-Zertifikat installieren und verwenden. Führen Sie die folgenden Schritte aus.
 

@@ -1,8 +1,8 @@
-# Jak przywrócić działanie KVM za pomocą RKDevTool
+# Jak przywrócić działanie KVM za pomocą RKDevTool {#how-to-unbrick-kvm-via-rkdevtool}
 
 Ten poradnik pokazuje, jak przywrócić działanie GL.iNet KVM za pomocą RKDevTool. Dotyczy sytuacji, gdy KVM jest niesprawny i nie można go odzyskać przez zwykłą aktualizację firmware ani tryb awaryjny U-Boot.
 
-## Przygotowanie
+## Przygotowanie {#preparation}
 
 Przygotuj następujące narzędzia do odzyskiwania urządzenia.
 
@@ -16,7 +16,7 @@ Przygotuj następujące narzędzia do odzyskiwania urządzenia.
 
     Przed rozpoczęciem zalecamy utworzenie kopii zapasowej ważnych danych.
 
-## Kroki odzyskiwania
+## Kroki odzyskiwania {#unbrick-steps}
 
 Aby uniknąć niepowodzenia, wykonaj kroki w podanej kolejności.
 

@@ -1,4 +1,4 @@
-# Come utilizzare la funzione di mosaico degli schermi nel cloud
+# Come utilizzare la funzione di mosaico degli schermi nel cloud {#how-to-use-the-cloud-based-screen-wall-feature}
 
 Il mosaico degli schermi nel cloud è una funzionalità premium che permette di visualizzare gli schermi di più dispositivi in un'unica pagina e di monitorarne facilmente lo stato.
 

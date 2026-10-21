@@ -1,10 +1,10 @@
-# Comet Q (GL-RMQ1) Uebersicht
+# Comet Q (GL-RMQ1) Uebersicht {#comet-q-gl-rmq1-overview}
 
-## Abmessungen
+## Abmessungen {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Beschreibung       |
 | :-------------------------------- | :----------------- |
@@ -17,7 +17,7 @@
 | ![system menu](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/system.png) | **System Menu**<br></br>Wischen Sie auf dem Startbildschirm von oben nach unten, um auf das Systemmenue zuzugreifen, einschliesslich **Rotate**, **Lock Screen** und **Reboot**.|
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/touchscreen/reset.png) | **Factory Reset**<br></br>Fuehren Sie bei eingeschaltetem KVM eine Nadel in die Reset-Oeffnung ein und halten Sie sie **8 Sekunden** lang gedrueckt, um das Geraet auf Werkseinstellungen zurueckzusetzen. Lassen Sie die Nadel innerhalb von 8 Sekunden los, um den Reset abzubrechen. |
 
-## Kompatibilitaet
+## Kompatibilitaet {#compatibility}
 
 Comet Q funktioniert mit jedem Geraet, dessen USB-C-Anschluss **DisplayPort Alt Mode** fuer die Videoausgabe unterstuetzt. Dazu gehoeren unter anderem:
 
@@ -26,7 +26,7 @@ Comet Q funktioniert mit jedem Geraet, dessen USB-C-Anschluss **DisplayPort Alt 
 - **Android-Telefone (Samsung als Beispiel)**: Samsung Galaxy S8 und neuer, Galaxy Note 8 und neuer, Galaxy Z Fold/Flip-Serie sowie Galaxy Tab S-Serie
 - **Laptops und Mini-PCs**: die meisten Modelle mit USB-C-Anschluss, der Videoausgabe unterstuetzt, einschliesslich MacBooks, Mac mini und den meisten modernen Windows-Laptops
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Comet Q (GL-RMQ1)
 - 1 x Benutzerhandbuch

@@ -1,4 +1,4 @@
-# Fingerbot (FGB-01) User Guide
+# Fingerbot (FGB-01) User Guide {#fingerbot-fgb-01-user-guide}
 
 Fingerbot FGB-01 is an accessory for GL.iNet KVM devices to provide additional convenience for remote power management.
 
@@ -8,7 +8,7 @@ As a physical button emulator, the Fingerbot is designed to remotely power the t
 
 ![overview](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/overview.png){class="glboxshadow"}
 
-## Package Contents
+## Package Contents {#package-contents}
 
 ![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_contents.png){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ Check out Fingerbot's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Aeu5yiDEt0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Installation
+## Installation {#installation}
 
 Watch this video or follow the steps below to install Fingerbot.
 
@@ -69,7 +69,7 @@ Watch this video or follow the steps below to install Fingerbot.
     
     ![install 10](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install10.jpg){class="glboxshadow"}
 
-## Setup
+## Setup {#setup}
 
 1. Log in to GL.iNet KVM console.
 
@@ -99,7 +99,7 @@ Watch this video or follow the steps below to install Fingerbot.
 
         3. Press for the third time: Fingerbot retracts.
 
-## FAQ
+## FAQ {#faq}
 
 **Q1. What protocol does the USB receiver of the GL-Fingerbot use?**
 

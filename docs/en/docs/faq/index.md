@@ -4,20 +4,20 @@ hide:
   - toc
 ---
 
-# FAQ
+# FAQ {#faq}
 
 Learn how to use our devices and solve some common problems.
 
 If your question is not listed below, please contact our technical support team for further assistance.
 
-## Quick Start
+## Quick Start {#quick-start}
 
 * [Quick FAQs about GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Firmware upgrade](firmware_upgrade.md)
 * [Download GLKVM app](glkvm_app.md)
 * [What is the WAN Network Detection and Failover logic of Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
-## Local & Remote Access
+## Local & Remote Access {#local-remote-access}
 
 * [How to access KVM locally via browser](local_access_via_browser.md)
 * [How to access KVM remotely via Cloud service](remote_access_via_cloud.md)
@@ -27,7 +27,7 @@ If your question is not listed below, please contact our technical support team 
 * [How to access KVM remotely via NetBird](remote_access_via_netbird.md)
 * [Privacy error when accessing via browser](privacy_error_from_your_browser.md)
 
-## Cloud Service
+## Cloud Service {#cloud-service}
 
 * [How to bind KVM to the Cloud via dynamic code](../tutorials/how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [Which KVM Cloud service plan is right for you](../faq/which_kvm_cloud_service_plan_is_right_for_you.md)
@@ -36,25 +36,25 @@ If your question is not listed below, please contact our technical support team 
 * [How to disable Cloud service](disable_cloud.md)
 * [How to delete Cloud account](delete_cloud_account.md)
 
-## Device Power Issues
+## Device Power Issues {#device-power-issues}
   
 * [What should I do if my KVM does not power on](power_cable_connected_but_device_unpowered.md)
 * [What should I do if my KVM is bricked](debrick.md)
 
-## GLKVM App Issues
+## GLKVM App Issues {#glkvm-app-issues}
 
 * [Failed to find device in the GLKVM app](no_device_is_found_in_the_glkvm_app.md)
 * [Failed to bind device to the GLKVM app](failed_to_bind_device_to_glkvm_app.md)
 * [Failed to connect through GLKVM app](connection_failed_when_remote_access_via_glkvm_app.md)
 * [Failed to install GLKVM app on Windows](failed_to_install_glkvm_app_the_code_execution_cannot_proceed.md)
 
-## Display Issues
+## Display Issues {#display-issues}
 
 * [Remote screen only displays the desktop wallpaper](remote_screen_only_displays_desktop_wallpaper.md)
 * [Remote screen goes blank or shows no HDMI signal](remote_screen_goes_blank_no_hdmi_signal.md)
 * [Remote screen does not show the BIOS interface](remote_screen_does_not_show_bios_interface.md)
 
-## Keyboard & Mouse Issues
+## Keyboard & Mouse Issues {#keyboard-mouse-issues}
 
 * [What should I do if I cannot control the mouse and keyboard](cannot_control_mouse_and_keyboard.md)
 * [What should I do if mouse cursors fail to align](mouse_cursors_fail_to_align.md)
@@ -63,7 +63,7 @@ If your question is not listed below, please contact our technical support team 
 * [What is the difference between Absolute mouse and Relative mouse](difference_between_absolute_and_relative_mouse.md)
 * [How to fix mouse latency when RPi4 controls RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Audio Issues
+## Audio Issues {#audio-issues}
 
 * [What should I do if there's no audio from the controlled device](no_audio_from_the_controlled_device.md)
 * [Why can't I keep my speaker and microphone settings](speaker_microphone_settings_cannot_be_retained.md)

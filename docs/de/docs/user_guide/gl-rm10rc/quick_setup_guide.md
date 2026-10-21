@@ -1,10 +1,10 @@
-# Comet 5G (GL-RM10RC) Schnellstart
+# Comet 5G (GL-RM10RC) Schnellstart {#comet-5g-gl-rm10rc-quick-setup}
 
 Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Ihren Comet 5G einzurichten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Geräte verbinden
+## Geräte verbinden {#connect-devices}
 
 Zur besseren Verständlichkeit bezeichnet Gerät A das steuernde Gerät und Gerät B das gesteuerte Gerät.
 
@@ -39,7 +39,7 @@ Zur besseren Verständlichkeit bezeichnet Gerät A das steuernde Gerät und Ger�
 
 5. Die Geräteverbindung ist abgeschlossen. Sie können nun über Nearby Control, lokalen Zugriff oder Fernzugriff auf die Konsole des Comet 5G zugreifen.
 
-## Nearby Control
+## Nearby Control {#nearby-control}
 
 Nearby Control eignet sich ideal für eine schnelle Einrichtung und Verwaltung, wenn Sie sich in der Nähe des Comet 5G befinden.
 
@@ -51,13 +51,13 @@ Verbinden Sie ein Gerät mit dieser Wi-Fi SSID. Anschließend können Sie über 
 
 ![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/nearby_access2.png){class="glboxshadow"}
 
-## Lokaler Zugriff
+## Lokaler Zugriff {#local-access}
 
 Es gibt zwei Möglichkeiten, im lokalen Netzwerk auf den Comet 5G zuzugreifen: über den Domainnamen oder über die IP-Adresse.
 
 Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LAN wie der Comet 5G befindet.
 
-### Domain
+### Domain {#domain}
 
 1. Starten Sie auf dem steuernden Gerät einen Browser. Für eine bessere Kompatibilität werden Chrome oder Edge empfohlen.
 
@@ -71,7 +71,7 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LA
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP-Adresse
+### IP-Adresse {#ip-address}
 
 1. Ermitteln Sie die IP-Adresse des Comet 5G auf dem Touchscreen. In diesem Beispiel lautet die IP-Adresse des Comet 5G `192.168.8.197`.
 
@@ -85,11 +85,11 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Gerät im selben LA
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Fernzugriff
+## Fernzugriff {#remote-access}
 
 Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet 5G zuzugreifen: über den Cloud-Dienst, die GLKVM App, Tailscale, ZeroTier und NetBird.
 
-### Cloud-Dienst
+### Cloud-Dienst {#cloud-service}
 
 1. Binden Sie Ihr Gerät an KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
@@ -129,7 +129,7 @@ Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet 5G zuzugreifen: ü
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Gerät.
 
@@ -205,7 +205,7 @@ Es gibt mehrere Möglichkeiten, per Fernzugriff auf den Comet 5G zuzugreifen: ü
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet 5G ist in Tailscale integriert, sodass Sie über das virtuelle Netzwerk von Tailscale per Fernzugriff darauf zugreifen können.
 
@@ -215,7 +215,7 @@ Binden Sie anschließend Ihr steuerndes Gerät an dasselbe Konto. Danach können
 
 Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet 5G ist in ZeroTier integriert, sodass Sie über das virtuelle Netzwerk von ZeroTier per Fernzugriff darauf zugreifen können.
 
@@ -225,7 +225,7 @@ Treten Sie anschließend mit dem Comet 5G und Ihrem steuernden Gerät demselben 
 
 Details finden Sie [hier](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 
-### NetBird
+### NetBird {#netbird}
 
 Comet 5G ist in NetBird integriert, sodass Sie über das virtuelle Netzwerk von NetBird per Fernzugriff darauf zugreifen können.
 

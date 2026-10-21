@@ -1,12 +1,12 @@
-# Using U-Boot to unbrick your KVM
+# Using U-Boot to unbrick your KVM {#using-u-boot-to-unbrick-your-kvm}
 
 If you bricked your KVM due to some DIY projects or flashing a wrong firmware, your KVM may not be able to power up properly. In this case, you can re-install the firmware by using U-Boot failsafe.
 
-## Preparation
+## Preparation {#preparation}
 
 Please prepare a computer or laptop with an Ethernet port. If your computer does not have an ethernet port, an additional USB-Ethernet adapter is required.
 
-## Unbrick steps
+## Unbrick steps {#unbrick-steps}
 
 To avoid unbrick failure, please follow the steps below strictly.
 

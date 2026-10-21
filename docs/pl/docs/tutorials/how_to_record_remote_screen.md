@@ -1,4 +1,4 @@
-# Jak nagrać zdalny ekran
+# Jak nagrać zdalny ekran {#how-to-record-remote-screen}
 
 Możesz nagrywać ekran sterowanego urządzenia i zapisywać plik wideo lokalnie na urządzeniu KVM.
 

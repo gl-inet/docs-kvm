@@ -1,4 +1,4 @@
-# Guida alla console di Comet (GL-RM1) V1/V2
+# Guida alla console di Comet (GL-RM1) V1/V2 {#comet-gl-rm1-v1v2-console-guide}
 
 ## Sessione { #session }
 
@@ -9,7 +9,7 @@ Nella console web, aprire **Session**. La pagina delle impostazioni comprende qu
 - [Tastiera](#keyboard)
 - [Mouse](#mouse)
 
-### Video
+### Video {#video}
 
 In Session è possibile personalizzare le impostazioni video, tra cui modalità di visualizzazione, qualità e trasmissione video, orientamento dello schermo ed EDID.
 
@@ -49,7 +49,7 @@ In Session è possibile personalizzare le impostazioni video, tra cui modalità 
 
 - **View**: Determina il ridimensionamento dello schermo quando si modifica la dimensione della finestra del browser. Le opzioni disponibili sono Adaptive, Best Picture Quality e Original Pixel. Questa funzione è stata introdotta nel firmware v1.8.0.
 
-### Audio
+### Audio {#audio}
 È possibile modificare le impostazioni audio e della videocamera per il dispositivo controllato.
 
 ![audio](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
@@ -74,7 +74,7 @@ La sezione Keyboard consente di configurare l'uso della tastiera sul dispositivo
 
 - **Swap Command and Ctrl for MacOS**: Inverte i tasti Cmd e Ctrl per garantire la compatibilità della tastiera tra sistemi operativi diversi.
 
-### Mouse
+### Mouse {#mouse}
 
 È possibile modificare le impostazioni del mouse per migliorare l'uso del dispositivo controllato.
 
@@ -120,7 +120,7 @@ Gli appunti consentono di incollare facilmente testo dal dispositivo di controll
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/toolbox-clipboard.png){class="glboxshadow"}
 
-### OCR
+### OCR {#ocr}
 
 La funzione OCR riconosce il testo e consente di estrarlo facilmente da un'area selezionata dello schermo remoto. Questa funzione è stata introdotta nel firmware v1.9.0.
 
@@ -180,7 +180,7 @@ Per prima cosa, consultare la guida corrispondente per collegare l'accessorio al
 
 Accedere quindi alla console KVM e aprire **Accessories**. Le impostazioni dell'accessorio sono disponibili solo dopo la sua installazione.
 
-### Fingerbot
+### Fingerbot {#fingerbot}
 
 Fingerbot viene fissato al pulsante fisico di accensione del dispositivo controllato per consentirne il controllo da remoto.
 
@@ -323,7 +323,7 @@ Nella console web, aprire **Apps Center** per accedere alle applicazioni integra
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/app_center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} è un servizio VPN mesh basato su WireGuard che crea reti private peer-to-peer crittografate tra dispositivi, senza port forwarding o configurazioni complesse del firewall.
 
@@ -335,7 +335,7 @@ Dopo l'associazione, la console mostra l'account Tailscale collegato e rende dis
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} crea reti virtuali overlay crittografate che collegano dispositivi distribuiti in tutto il mondo come se fossero sulla stessa rete locale.
 
@@ -347,7 +347,7 @@ Dopo l'associazione, la console mostra il Network ID e l'IP virtuale ZeroTier.
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} è una piattaforma di rete open source zero trust che permette di creare reti private sicure per uso domestico e aziendale. Grazie a una rete overlay basata su WireGuard®, NetBird consente di accedere in sicurezza ai propri dispositivi in qualsiasi momento e da qualsiasi luogo.
 
@@ -515,7 +515,7 @@ La sezione Security consente di modificare la password di amministrazione, abili
 
     ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/setting_security_custom.png){class="glboxshadow"}
 
-### Cloud
+### Cloud {#cloud}
 
 La sezione Cloud consente di accedere al dispositivo e gestirlo da remoto tramite i servizi cloud.
 

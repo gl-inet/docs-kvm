@@ -1,4 +1,4 @@
-# デバイスを GLKVM アプリにバインドできなかった場合はどうすればよいですか
+# デバイスを GLKVM アプリにバインドできなかった場合はどうすればよいですか {#what-should-i-do-if-i-failed-to-bind-device-to-the-glkvm-app}
 
 [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を使用すると、コントローラー デバイスから被制御デバイスへのリモート アクセスが可能になります。コントローラーデバイスにアプリをインストールし、GL.iNet KVM デバイスをバインドするだけで、いつでもどこでも制御側デバイスにリモートでアクセスできます。
 

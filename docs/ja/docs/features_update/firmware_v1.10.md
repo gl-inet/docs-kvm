@@ -1,15 +1,15 @@
-# ファームウェア v1.10
+# ファームウェア v1.10 {#firmware-v110}
 
 このリリースでは、ネイティブ WebRTC、リアルタイムのデータ監視、USB デバイスの一元管理、新しい Settings Center が導入されました。また、起動性能、セキュリティ、マイクの安定性も向上し、よりスムーズで信頼性の高いリモート KVM 操作を実現します。
 
 最新のファームウェアは[ファームウェアダウンロードセンター](https://dl.gl-inet.com/kvm){target="_blank"}から入手できます。
 
-## WebRTC (Native) Mode
+## WebRTC (Native) Mode {#webrtc-native-mode}
 このファームウェアでは、**WebRTC (Native) Mode** が導入されました。Google WebRTC Library を使用してストリーミング性能を向上させ、よりスムーズなリアルタイムのリモート操作を実現します。
 
 ![webrtc mode](https://static.gl-inet.com/docs/kvm/features_update/1.10/webrtc_native_mode.png){class="glboxshadow" width=400}
 
-## Connection Stats
+## Connection Stats {#connection-stats}
 
 **Connection Stats** では、ネットワークのレイテンシー、ジッター、パケット損失率、ビットレート、フレームレート、再生遅延など、リアルタイムの接続情報と推移グラフを表示します。
 
@@ -21,11 +21,11 @@
 
 ![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
-## Settings Center
+## Settings Center {#settings-center}
 
 このリリースでは、USB デバイス、環境設定、ネットワーク、セキュリティ、クラウド、システムの設定を一元管理する新しい **Settings Center** が追加されました。ホスト名の設定、クラウド管理、ファームウェアアップグレードなど、既存の設定にも一か所からアクセスしやすくなりました。
 
-### USB Devices
+### USB Devices {#usb-devices}
 
 **USB Devices** では、USB エミュレーションデバイスを一元管理できます。このページから仮想周辺機器を有効または無効にして、被制御デバイスとの互換性を向上させることができます。
 
@@ -35,7 +35,7 @@
 
 - **Device Identity**: 被制御デバイスが認識する KVM の識別情報をカスタマイズまたは変更します。EDID とデバイスの識別情報は常に同期されます。どちらかを変更すると、デバイスが正しく認識されるように、もう一方も自動的に更新されます。
 
-### Preferences
+### Preferences {#preferences}
 
 **Preferences** では、レイアウト設定、システム設定、デバイスの画面設定を管理できます。
 
@@ -49,7 +49,7 @@
 
     **注**: この機能は、ディスプレイを内蔵したモデルでのみ利用できます。
 
-### Network
+### Network {#network}
 
 ホスト名、イーサネット接続、ワイヤレスネットワーク情報など、デバイスのネットワーク設定を確認・管理できます。
 
@@ -63,7 +63,7 @@
 
     **注**: Wireless 機能は、対応モデルでのみ利用できます。
 
-### Security
+### Security {#security}
 
 **Security** では、管理者パスワードの変更、二要素認証の有効化、TLS 証明書のカスタマイズができます。
 
@@ -73,13 +73,13 @@
 
 - **TLS Certificate**: ブラウザーからのアクセスにデフォルトの証明書を使用するか、カスタム証明書と秘密鍵をアップロードします。
 
-### Cloud
+### Cloud {#cloud}
 
 URL またはコードを使用してデバイスをクラウドサービスにバインドし、リモートアクセスと管理を行えます。また、必要に応じてモバイルアプリのダウンロード、接続の管理、デバイスのバインド解除もできます。
 
 ![cloud](https://static.gl-inet.com/docs/kvm/features_update/1.10/settings_cloud.png){class="glboxshadow"}
 
-### System
+### System {#system}
 
 **System** では、システム管理、ファームウェアアップグレード、サポートの各項目にアクセスできます。
 
@@ -91,7 +91,7 @@ URL またはコードを使用してデバイスをクラウドサービスに�
 
 - **Help & Support**: トラブルシューティング用にデバイスのログをエクスポートし、ユーザーガイド、FAQ、その他のサポート文書にアクセスします。
 
-## その他の機能強化
+## その他の機能強化 {#other-enhancements}
 
 - **起動性能**: デバイスの起動速度が向上しました。
 

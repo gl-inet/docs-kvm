@@ -1,12 +1,12 @@
-# USB OTG 経由で KVM を解除する方法
+# USB OTG 経由で KVM を解除する方法 {#how-to-unbrick-kvm-via-usb-otg}
 
 このチュートリアルでは、USB OTG を使用して GL.iNet KVM デバイスのブリックを解除する方法について説明します。この方法は、KVM デバイスがブリックされており、標準のファームウェア アップデートまたは U-Boot セーフ モードでは復元できない状況に適しています。
 
-## サポートされているデバイス
+## サポートされているデバイス {#supported-devices}
 
 - RMQ1
 
-## 前提条件
+## 前提条件 {#prerequisites}
 
 デバイスのブロックを解除するには、次のツールを準備してください。
 
@@ -28,9 +28,9 @@
 
 - 点滅後にデバイスを自動的に再起動する場合は、開始する前に、**Settings** → **Options** → **Reboot to Normal Mode After Download** に移動して有効にします。このオプションが有効になっていない場合は、フラッシュの完了後にデバイスを手動で再起動する必要があります (つまり、電源ケーブルを取り外して再接続することによって)。
 
-## 復旧手順
+## 復旧手順 {#unbrick-steps}
 
-### Windows
+### Windows {#windows}
 
 1. RMQ1 デバイスの U-Boot ファームウェアを[こちら](https://dl.gl-inet.com/kvm/rmq1/stable)からコンピューターにダウンロードします（**DOWNLOAD FOR USB OTG** を選択してください）。
 
@@ -74,7 +74,7 @@
 
       ![axdl-5](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-5.png){class="glboxshadow"}
 
-### macOS / Linux
+### macOS / Linux {#macos-linux}
 
 公式 AXDL ツールは Windows のみです。 macOS および Linux の場合は、Rust で書かれたオープンソースの非公式 Axera イメージ ダウンローダーである axdl-rs を使用できます。
 

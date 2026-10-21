@@ -1,12 +1,12 @@
-# KVM mit U-Boot wiederherstellen
+# KVM mit U-Boot wiederherstellen {#using-u-boot-to-unbrick-your-kvm}
 
 Wenn Ihr KVM durch DIY-Projekte oder das Flashen einer falschen Firmware nicht mehr funktioniert, kann es möglicherweise nicht mehr korrekt starten. In diesem Fall können Sie die Firmware über U-Boot-Failsafe neu installieren.
 
-## Vorbereitung
+## Vorbereitung {#preparation}
 
 Bitte bereiten Sie einen Computer oder Laptop mit Ethernet-Anschluss vor. Wenn Ihr Computer keinen Ethernet-Anschluss hat, benötigen Sie zusätzlich einen USB-Ethernet-Adapter.
 
-## Schritte zur Wiederherstellung
+## Schritte zur Wiederherstellung {#unbrick-steps}
 
 Befolgen Sie die folgenden Schritte genau, um Fehler bei der Wiederherstellung zu vermeiden.
 

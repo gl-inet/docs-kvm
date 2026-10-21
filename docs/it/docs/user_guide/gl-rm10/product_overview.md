@@ -1,4 +1,4 @@
-# Panoramica di Comet Pro (GL-RM10)
+# Panoramica di Comet Pro (GL-RM10) {#comet-pro-gl-rm10-overview}
 
 ## Aspetto { #appearance }
 

@@ -1,14 +1,14 @@
-# How to export device logs and app logs
+# How to export device logs and app logs {#how-to-export-device-logs-and-app-logs}
 
 This tutorial explains how to export logs from your KVM device and the GLKVM app for troubleshooting.
 
-## Device logs
+## Device logs {#device-logs}
 
 Log in to your KVM console, click **Help** and select **Export Log Files**.
 
 ![device log](https://static.gl-inet.com/docs/kvm/tutorials/export_device_and_app_logs/device_log.png){class="glboxshadow"}
 
-## App logs
+## App logs {#app-logs}
 
 You can export app logs from the desktop app or mobile app.
 

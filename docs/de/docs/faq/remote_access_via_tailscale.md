@@ -1,10 +1,10 @@
-# So greifen Sie über Tailscale remote auf KVM zu
+# So greifen Sie über Tailscale remote auf KVM zu {#how-to-access-kvm-remotely-via-tailscale}
 
 GL.iNet KVM integriert Tailscale, sodass Sie es für den Fernzugriff an das virtuelle Tailscale-Netzwerk binden können. Die GLKVM App muss dafür nicht installiert und der Cloud-Dienst nicht verwendet werden. Das ist besonders nützlich, wenn auf Ihrem steuernden Gerät kein Windows, macOS, Android oder iOS läuft und die GLKVM App daher nicht installiert werden kann, oder wenn Sie die GLKVM App beziehungsweise den Cloud-Dienst nicht nutzen möchten.
 
 Führen Sie die folgenden Schritte aus, um über Tailscale remote auf Ihr GL.iNet KVM zuzugreifen.
 
-## KVM an Tailscale binden
+## KVM an Tailscale binden {#bind-kvm-to-tailscale}
 
 **Bevor Sie beginnen, verbinden Sie Ihr KVM und das steuernde Gerät mit demselben lokalen Netzwerk.**
 
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um über Tailscale remote auf Ihr GL.iNe
 
     ![tailscale console 1](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_1.png){class="glboxshadow"}
 
-## Steuerndes Gerät binden
+## Steuerndes Gerät binden {#bind-the-controlling-device}
 
 Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das Tailscale-Netzwerk gebunden wird.
 
@@ -58,7 +58,7 @@ Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das
 
     ![tailscale console 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_tailscale/tailscale_panel_2.png){class="glboxshadow"}
 
-## Fernzugriff über Tailscale
+## Fernzugriff über Tailscale {#remote-access-via-tailscale}
 
 Klicken Sie in der Tailscale-Konsole auf die **Address** des glkvm (`100.104.185.26` in diesem Beispiel).
 

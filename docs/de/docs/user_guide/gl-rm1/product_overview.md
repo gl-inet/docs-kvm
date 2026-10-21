@@ -1,14 +1,14 @@
-# Comet (GL-RM1) V1/V2 Uebersicht
+# Comet (GL-RM1) V1/V2 Uebersicht {#comet-gl-rm1-v1v2-overview}
 
-## Aussehen
+## Aussehen {#appearance}
 
 ![gl-rm1 interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_interface.png){class="glboxshadow"}
 
-## Abmessungen
+## Abmessungen {#dimension}
 
 ![gl-rm1 dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_dimension.png){class="glboxshadow"}
 
-## LED
+## LED {#led}
 
 Auf der Oberseite des Comet befindet sich eine LED-Anzeige.
 
@@ -19,7 +19,7 @@ Auf der Oberseite des Comet befindet sich eine LED-Anzeige.
 | Solid White             | Mit dem Internet verbunden      |
 | Flashing Blue & White   | Firmware-Upgrade laeuft         |
 
-## Taste
+## Taste {#button}
 
 An der Seite des Comet befindet sich eine Taste.
 
@@ -28,7 +28,7 @@ An der Seite des Comet befindet sich eine Taste.
 | U-Boot Flashing Mode aufrufen | Bei eingeschaltetem Geraet die Taste laenger als **3 s** gedrueckt halten und dann loslassen | Beim Druecken der Taste: blau blinkend <br>U-Boot-Modus aufgerufen: dauerhaft blau |
 | Reset                     | Bei eingeschaltetem Geraet die Taste **8-20 s** gedrueckt halten und dann loslassen | Druecken fuer 1-8 s: langsam blinkend <br>Druecken fuer 8-20 s: schnell blinkend |
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Comet (GL-RM1)
 - 1 x Benutzerhandbuch

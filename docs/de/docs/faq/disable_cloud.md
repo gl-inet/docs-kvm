@@ -1,4 +1,4 @@
-# Cloud-Dienst deaktivieren
+# Cloud-Dienst deaktivieren {#how-to-disable-cloud-service}
 
 Der GL.iNet KVM Cloud-Dienst ist standardmäßig aktiviert. Dadurch können Benutzer KVM-Geräte für den Fernzugriff mit ihrem Cloud-Konto binden.
 

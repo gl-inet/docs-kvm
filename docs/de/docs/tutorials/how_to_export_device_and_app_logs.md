@@ -1,14 +1,14 @@
-# Geraete- und App-Protokolle exportieren
+# Geraete- und App-Protokolle exportieren {#how-to-export-device-logs-and-app-logs}
 
 Dieses Tutorial erklaert, wie Sie Protokolle von Ihrem KVM-Geraet und aus der GLKVM App fuer die Fehlerbehebung exportieren.
 
-## Geraeteprotokolle
+## Geraeteprotokolle {#device-logs}
 
 Melden Sie sich an Ihrer KVM-Konsole an, klicken Sie auf **Help** und waehlen Sie **Export Log Files**.
 
 ![device log](https://static.gl-inet.com/docs/kvm/tutorials/export_device_and_app_logs/device_log.png){class="glboxshadow"}
 
-## App-Protokolle
+## App-Protokolle {#app-logs}
 
 Sie koennen App-Protokolle aus der Desktop-App oder der mobilen App exportieren.
 

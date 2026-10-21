@@ -1,4 +1,4 @@
-# Comet PoE (GL-RM1PE) ユーザーガイド
+# Comet PoE (GL-RM1PE) ユーザーガイド {#comet-poe-gl-rm1pe-user-guide}
 
 Comet PoE (GL-RM1PE) は、[Comet (GL-RM1)](../gl-rm1/index.md) の Power-over-Ethernet バージョンで、単一ケーブルのセットアップを簡素化するように設計されています。 PoE モデルは、1 本のイーサネット ケーブルを介して電力とネットワーク接続の両方を提供するため、ケーブルの煩雑さを軽減し、特にアクセスしにくい環境での設置を簡素化します。
 

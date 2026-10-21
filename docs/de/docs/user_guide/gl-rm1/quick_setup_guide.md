@@ -1,10 +1,10 @@
-# Comet (GL-RM1) V1/V2 Schnellstart
+# Comet (GL-RM1) V1/V2 Schnellstart {#comet-gl-rm1-v1v2-quick-setup}
 
 Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Ihren Comet einzurichten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDgflRaIHw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Geraete verbinden
+## Geraete verbinden {#connect-devices}
 
 Zur besseren Verstaendlichkeit bezeichnet Geraet A das steuernde Geraet und Geraet B das gesteuerte Geraet.
 
@@ -28,13 +28,13 @@ Zur besseren Verstaendlichkeit bezeichnet Geraet A das steuernde Geraet und Gera
 
 5. Die Geraeteverbindung ist abgeschlossen. Jetzt koennen Sie lokal oder aus der Ferne auf die Konsole des Comet zugreifen.
 
-## Lokaler Zugriff
+## Lokaler Zugriff {#local-access}
 
 Es gibt zwei Moeglichkeiten, im lokalen Netzwerk auf Comet zuzugreifen: ueber den Domainnamen oder ueber die IP-Adresse.
 
 Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LAN wie Comet befindet.
 
-### Domain
+### Domain {#domain}
 
 1. Oeffnen Sie auf dem steuernden Geraet einen Browser. Fuer bessere Kompatibilitaet werden Chrome oder Edge empfohlen.
 
@@ -48,7 +48,7 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LA
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP-Adresse
+### IP-Adresse {#ip-address}
 
 1. Suchen Sie die IP-Adresse des Comet im uebergeordneten Router.
 
@@ -68,11 +68,11 @@ Stellen Sie vor dem Zugriff sicher, dass sich Ihr steuerndes Geraet im selben LA
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Fernzugriff
+## Fernzugriff {#remote-access}
 
 Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet zuzugreifen: ueber den Cloud-Dienst, die GLKVM App, Tailscale, ZeroTier und NetBird.
 
-### Cloud-Dienst
+### Cloud-Dienst {#cloud-service}
 
 1. Binden Sie Ihr Geraet an die KVM Cloud. Dies muss im lokalen Netzwerk erfolgen.
 
@@ -112,7 +112,7 @@ Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet zuzugreifen: ueber den C
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Installieren Sie die [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} auf Ihrem steuernden Geraet.
 
@@ -188,7 +188,7 @@ Es gibt mehrere Moeglichkeiten, aus der Ferne auf Comet zuzugreifen: ueber den C
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet ist in Tailscale integriert und ermoeglicht Fernzugriff ueber ein virtuelles Tailscale-Netzwerk.
 
@@ -198,7 +198,7 @@ Binden Sie anschliessend Ihr steuerndes Geraet an dasselbe Konto. Danach koennen
 
 Details finden Sie [hier](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet ist in ZeroTier integriert und ermoeglicht Fernzugriff ueber ein virtuelles ZeroTier-Netzwerk.
 
@@ -208,7 +208,7 @@ Treten Sie anschliessend sowohl mit Comet als auch mit Ihrem steuernden Geraet d
 
 Details finden Sie [hier](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 
-### NetBird
+### NetBird {#netbird}
 
 Comet ist in NetBird integriert und ermoeglicht Fernzugriff ueber ein virtuelles NetBird-Netzwerk.
 

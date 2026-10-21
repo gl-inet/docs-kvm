@@ -1,4 +1,4 @@
-# How to use the cloud-based screen wall feature
+# How to use the cloud-based screen wall feature {#how-to-use-the-cloud-based-screen-wall-feature}
 
 The cloud-based screen wall is a premium feature that lets you view screens of multiple devices on a single page and easily keep track of their statuses.
 

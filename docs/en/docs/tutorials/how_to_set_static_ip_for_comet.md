@@ -1,10 +1,10 @@
-# How to set a static IP for KVM
+# How to set a static IP for KVM {#how-to-set-a-static-ip-for-kvm}
 
 This tutorial introduces the steps to set a static IP for your GL.iNet KVM directly on the console when its upstream router can't allocate one. 
 
 Please select the appropriate steps according to your firmware version.
 
-## Firmware v1.9 and earlier
+## Firmware v1.9 and earlier {#firmware-v19-and-earlier}
 
 The following steps take Comet (GL-RM1) as an example.
 
@@ -16,7 +16,7 @@ The following steps take Comet (GL-RM1) as an example.
 
     ![ethernet-settings-static](https://static.gl-inet.com/docs/kvm/tutorials/set_static_ip/ethernet-settings-static.png){class="glboxshadow"}
 
-## Firmware v1.10 and above
+## Firmware v1.10 and above {#firmware-v110-and-above}
 
 The following steps take Comet Pro(GL-RM10) as an example.
 

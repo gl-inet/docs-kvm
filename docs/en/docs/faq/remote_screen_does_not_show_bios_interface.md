@@ -1,12 +1,12 @@
-# What should I do if the remote screen does not show the BIOS interface
+# What should I do if the remote screen does not show the BIOS interface {#what-should-i-do-if-the-remote-screen-does-not-show-the-bios-interface}
 
 When accessing the controlled device through KVM, if the remote screen does not show the BIOS interface (e.g., No HDMI Signal), the reason is that the BIOS interface typically outputs only to the primary monitor. Here are some suggestions.
 
-## Laptop
+## Laptop {#laptop}
 
 If the controlled device is a laptop, its built-in screen serves as the primary display, so the external KVM cannot render the BIOS interface.
 
-## Desktop
+## Desktop {#desktop}
 
 For desktop devices, connect the primary monitor to the DisplayPort port if available. This is because most graphics cards and motherboards prioritize DP output over HDMI during startup.
 

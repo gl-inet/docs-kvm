@@ -1,10 +1,10 @@
-# Comet Q (GL-RMQ1) クイックセットアップ
+# Comet Q (GL-RMQ1) クイックセットアップ {#comet-q-gl-rmq1-quick-setup}
 
 この動画を見るか、以下の手順に従って Comet Q をセットアップしてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## デバイスを接続する
+## デバイスを接続する {#connect-devices}
 
 明確にするために、デバイス A は制御側デバイスを指し、デバイス B は制御側デバイスを指します。
 
@@ -26,13 +26,13 @@
 
     ![connect 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect4.png){class="glboxshadow"}
 
-## ローカル アクセス
+## ローカル アクセス {#local-access}
 
 ローカル ネットワーク上で Comet Q にアクセスするには、ドメイン名または IP アドレスを使用する 2 つの方法があります。
 
 アクセスする前に、制御側デバイスが Comet Q と同じ LAN 上にあることを確認してください。
 
-### ドメイン
+### ドメイン {#domain}
 
 1. 制御側デバイスでブラウザを起動します。互換性を高めるために Chrome または Edge をお勧めします。
 
@@ -46,7 +46,7 @@
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP アドレス
+### IP アドレス {#ip-address}
 
 1. Comet Q を Wi-Fi ネットワークに接続し、タッチスクリーンで IP アドレスを見つけます。この例では、Comet Q の IP アドレスは `192.168.8.197` です。
 
@@ -60,11 +60,11 @@
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## リモート アクセス
+## リモート アクセス {#remote-access}
 
 Comet Q にリモートでアクセスするには、クラウド サービス、GLKVM アプリ、Tailscale、ZeroTier 経由など、複数の方法があります。
 
-### クラウドサービス
+### クラウドサービス {#cloud-service}
 
 1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
@@ -104,7 +104,7 @@ Comet Q にリモートでアクセスするには、クラウド サービス�
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM アプリ
+### GLKVM アプリ {#glkvm-app}
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
@@ -180,7 +180,7 @@ Comet Q にリモートでアクセスするには、クラウド サービス�
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet Q は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -190,7 +190,7 @@ Comet Q は Tailscale と統合され、Tailscale 仮想ネットワーク経由
 
 詳しくは[こちら](../../faq/remote_access_via_tailscale.md){target="_blank"}をご覧ください。
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet Q は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由でリモート アクセスできるようになります。
 

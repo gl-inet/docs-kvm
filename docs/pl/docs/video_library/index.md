@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Biblioteka filmów
+# Biblioteka filmów {#video-library}
 
 Poznaj nasze produkty i naucz się z nich korzystać dzięki filmom.
 
-## Poznaj nasze produkty
+## Poznaj nasze produkty {#meet-our-products}
 
 - [Comet X (GL-RM4PE)](products.md#comet-x-gl-rm4pe)
 - [Comet Q (GL-RMQ1)](products.md#comet-q-gl-rmq1)
@@ -17,7 +17,7 @@ Poznaj nasze produkty i naucz się z nich korzystać dzięki filmom.
 - [Comet PoE (GL-RM1PE)](products.md#comet-poe-gl-rm1pe)
 - [Comet (GL-RM1)](products.md#comet-gl-rm1)
 
-## Rozpakowanie i pierwsza konfiguracja
+## Rozpakowanie i pierwsza konfiguracja {#unboxing-first-time-setup}
 
 - [Comet (GL-RM1)](unboxing_first_set_up.md#comet-gl-rm1)
 - [Comet PoE (GL-RM1PE)](unboxing_first_set_up.md#comet-poe-gl-rm1pe)
@@ -28,7 +28,7 @@ Poznaj nasze produkty i naucz się z nich korzystać dzięki filmom.
 - [ATX Board (GL-ATXPC)](unboxing_first_set_up.md#atx-board-gl-atxpc)
 - [Fingerbot (FGB-01)](unboxing_first_set_up.md#fingerbot-fgb-01)
 
-## Funkcje
+## Funkcje {#features}
 
 - [Dostęp zdalny](features.md#remote-access)
 - [Dźwięk dwukierunkowy](features.md#two-way-audio)

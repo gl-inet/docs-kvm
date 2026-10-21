@@ -1,4 +1,4 @@
-# Jak zdalnie zainstalować system operacyjny na sterowanym komputerze za pomocą Virtual Media
+# Jak zdalnie zainstalować system operacyjny na sterowanym komputerze za pomocą Virtual Media {#how-to-install-an-os-on-the-controlled-computer-remotely-using-virtual-media}
 
 Ten poradnik pokazuje, jak zdalnie zainstalować system operacyjny na sterowanym komputerze za pomocą funkcji Virtual Media w GL.iNet KVM.
 

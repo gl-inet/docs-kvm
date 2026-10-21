@@ -1,8 +1,8 @@
-# GL.iNet KVM に関する簡単なよくある質問
+# GL.iNet KVM に関する簡単なよくある質問 {#quick-faqs-about-glinet-kvm}
 
 これは、GL.iNet KVM の簡単な Q&A コレクションで、一般的な基本的な質問にすぐに答えられるように設計されています。
 
-## 基本情報
+## 基本情報 {#basic-information}
 
 **Q1. GL.iNet KVM はどのようなデバイスを制御できますか?**
 
@@ -134,7 +134,7 @@ Wi-Fi をサポートする KVM をご希望の場合は、次のモデルを検
 
 ---
 
-## 電力制御
+## 電力制御 {#power-control}
 
 **Q1. GL.iNet KVM はターゲット デバイスの電源をリモートでオン/オフできますか?**
 
@@ -154,7 +154,7 @@ A2。 [ATX ボード ユーザーガイド](../user_guide/gl-atx-board/index.md)
 
 ---
 
-## 特長
+## 特長 {#features}
 
 !!! tip
 

@@ -1,14 +1,14 @@
-# デバイスログとアプリログをエクスポートする方法
+# デバイスログとアプリログをエクスポートする方法 {#how-to-export-device-logs-and-app-logs}
 
 このチュートリアルでは、トラブルシューティングのために KVM デバイスと GLKVM アプリからログをエクスポートする方法について説明します。
 
-## デバイスログ
+## デバイスログ {#device-logs}
 
 KVM コンソールにログインし、**Help** をクリックして、**Export Log Files** を選択します。
 
 ![device log](https://static.gl-inet.com/docs/kvm/tutorials/export_device_and_app_logs/device_log.png){class="glboxshadow"}
 
-## アプリのログ
+## アプリのログ {#app-logs}
 
 デスクトップ アプリまたはモバイル アプリからアプリ ログをエクスポートできます。
 

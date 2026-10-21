@@ -1,6 +1,6 @@
-# Comet X (GL-RM4PE) クイックセットアップ
+# Comet X (GL-RM4PE) クイックセットアップ {#comet-x-gl-rm4pe-quick-setup}
 
-## デバイスを接続する
+## デバイスを接続する {#connect-devices}
 
 明確にするために、デバイス A は制御側デバイスを指し、デバイス B は制御側デバイスを指します。
 
@@ -24,7 +24,7 @@
 
 5. 接続が完了しました。これで、Comet X のコンソールにローカルまたはリモートでアクセスできるようになりました。
 
-## ラックマウント
+## ラックマウント {#rack-mounting}
 
 必要に応じて、Comet X をサーバー ラック レールに取り付けます。
 
@@ -36,7 +36,7 @@
 
     ![install2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/install2.png){class="glboxshadow"}
 
-## ローカルコントロール
+## ローカルコントロール {#local-control}
 
 物理ケーブル経由でデバイスを直接制御します。ネットワーク、IP アドレス、ドメイン名は必要ありません。
 
@@ -52,13 +52,13 @@ Comet X は、HDMI OUT ポートと 2 つの追加の USB ポートを備えて�
 
 3. ビデオ信号がローカル モニターにループアウトされている間、ローカルのキーボードとマウスで接続されたデバイスを制御できるようになりました。
 
-## LAN アクセス
+## LAN アクセス {#lan-access}
 
 ローカル ネットワーク上で Comet X にアクセスするには、ドメイン名または IP アドレスを使用する 2 つの方法があります。
 
 アクセスする前に、制御側デバイスが Comet X と同じ LAN 上にあることを確認してください。
 
-### ドメイン
+### ドメイン {#domain}
 
 1. 制御側デバイスでブラウザを起動します。互換性を高めるために Chrome または Edge をお勧めします。
 
@@ -72,7 +72,7 @@ Comet X は、HDMI OUT ポートと 2 つの追加の USB ポートを備えて�
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_domain2.png){class="glboxshadow"}
 
-### IP アドレス
+### IP アドレス {#ip-address}
 
 1. タッチスクリーンで Comet X の IP アドレスを見つけます。この例では、Comet X の IP アドレスは `192.168.8.197` です。
 
@@ -86,11 +86,11 @@ Comet X は、HDMI OUT ポートと 2 つの追加の USB ポートを備えて�
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/local_ip2.png){class="glboxshadow"}
 
-## リモート アクセス
+## リモート アクセス {#remote-access}
 
 Comet X にリモートでアクセスするには、クラウド サービス、GLKVM アプリ、Tailscale、ZeroTier 経由など、複数の方法があります。
 
-### クラウド サービス
+### クラウド サービス {#cloud-service}
 
 1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
@@ -132,7 +132,7 @@ Comet X にリモートでアクセスするには、クラウド サービス�
 
     ![cloud access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/cloud_access2.png){class="glboxshadow"}
 
-### GLKVM アプリ
+### GLKVM アプリ {#glkvm-app}
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
@@ -210,7 +210,7 @@ Comet X にリモートでアクセスするには、クラウド サービス�
 
     ![app access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_access2.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet X は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -220,7 +220,7 @@ Comet X は Tailscale と統合され、Tailscale 仮想ネットワーク経由
 
 詳しくは[こちら](../../faq/remote_access_via_tailscale.md){target="_blank"}をご覧ください。
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet X は ZeroTier と統合されており、ZeroTier 仮想ネットワーク経由でリモート アクセスできるようになります。
 

@@ -1,4 +1,4 @@
-# What should I do if the remote screen goes blank or shows no HDMI signal
+# What should I do if the remote screen goes blank or shows no HDMI signal {#what-should-i-do-if-the-remote-screen-goes-blank-or-shows-no-hdmi-signal}
 
 When accessing the controlled device through KVM, if the remote screen goes blank or shows no HDMI signal, follow the steps below to troubleshoot.
 
@@ -14,7 +14,7 @@ First, check whether this is related to video transmission. Log in to your KVM, 
 
 If the problem persists, check the possible causes listed below one by one.
 
-## Check Hardware Connection
+## Check Hardware Connection {#check-hardware-connection}
 
 1. **Faulty HDMI Cable**
 
@@ -40,7 +40,7 @@ If the problem persists, check the possible causes listed below one by one.
 
     ![adapter comparison](https://static.gl-inet.com/docs/kvm/faq/blank_screen/adapter_comparison.png){class="glboxshadow"}
 
-## Check Browser Settings
+## Check Browser Settings {#check-browser-settings}
 
 If you access the controlled device via a browser and encounter a blank screen issue, try the following methods:
 
@@ -50,7 +50,7 @@ If you access the controlled device via a browser and encounter a blank screen i
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
-## Check Controlled Device Status and Settings
+## Check Controlled Device Status and Settings {#check-controlled-device-status-and-settings}
 
 1. **Device Not Powered On or in Sleep Mode**
 

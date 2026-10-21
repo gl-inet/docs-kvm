@@ -1,14 +1,14 @@
-# Comet 5G (GL-RM10RC) Uebersicht
+# Comet 5G (GL-RM10RC) Uebersicht {#comet-5g-gl-rm10rc-overview}
 
-## Aussehen
+## Aussehen {#appearance}
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_interface.png){class="glboxshadow"}
 
-## Abmessungen
+## Abmessungen {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_dimension.png){class="glboxshadow"}
 
-## Touchscreen
+## Touchscreen {#touchscreen}
 
 | Screen Display                    | Beschreibung       |
 | :-------------------------------- | :----------------- |
@@ -21,7 +21,7 @@
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/time.png) | **Lock screen**<br>Der Sperrbildschirm zeigt Uhrzeit und Datum an. |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/reset.png) | **Factory Reset**<br>Fuehren Sie bei eingeschaltetem KVM eine Nadel in die Reset-Oeffnung ein und halten Sie sie 8 Sekunden lang gedrueckt, um das Geraet auf Werkseinstellungen zurueckzusetzen. Lassen Sie die Nadel innerhalb von 8 Sekunden los, um den Reset abzubrechen. |
 
-## Highlights
+## Highlights {#highlights}
 
 1. **5G RedCap**
 
@@ -63,7 +63,7 @@
 
     **Hinweis**: Optionales Zubehoer ist separat erhaeltlich.
 
-## Frequenzbaender
+## Frequenzbaender {#frequency-bands}
 
 Comet 5G unterstuetzt die folgenden Frequenzbaender.
 
@@ -79,7 +79,7 @@ Comet 5G unterstuetzt die folgenden Frequenzbaender.
 
     B34 / B38 / B39 / B40 / B41 / B42 / B43 / B48
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 - 1 x Comet 5G (GL-RM10RC)
 - 1 x Benutzerhandbuch

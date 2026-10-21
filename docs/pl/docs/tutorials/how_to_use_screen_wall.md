@@ -1,4 +1,4 @@
-# Jak korzystać z funkcji ściany ekranów w chmurze
+# Jak korzystać z funkcji ściany ekranów w chmurze {#how-to-use-the-cloud-based-screen-wall-feature}
 
 Ściana ekranów w chmurze to funkcja premium, która pozwala wyświetlać ekrany wielu urządzeń na jednej stronie i łatwo monitorować ich stan.
 

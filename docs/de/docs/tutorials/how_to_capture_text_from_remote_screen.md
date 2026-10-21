@@ -1,4 +1,4 @@
-# Text vom Remote-Bildschirm erfassen
+# Text vom Remote-Bildschirm erfassen {#how-to-capture-text-from-the-remote-screen}
 
 Mit der Funktion Text Recognition koennen Sie einen Bereich auf dem Remote-Bildschirm auswaehlen und daraus einfach Text extrahieren. Sie basiert auf Optical Character Recognition (OCR) und wurde mit Firmware v1.9.0 eingefuehrt.
 
@@ -6,7 +6,7 @@ Mit dieser Funktion koennen Sie Text vom Remote-Bildschirm, also vom gesteuerten
 
 Fuehren Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfassen.
 
-## Firmware v1.10 und neuer
+## Firmware v1.10 und neuer {#firmware-v110-and-above}
 
 1. Melden Sie sich an Ihrer KVM-Konsole an und navigieren Sie zu **Toolbox** -> **OCR**. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 
@@ -24,7 +24,7 @@ Fuehren Sie die folgenden Schritte aus, um Text vom Remote-Bildschirm zu erfasse
 
     ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9.x
+## Firmware v1.9.x {#firmware-v19x}
 
 1. Melden Sie sich an Ihrer KVM-Konsole an. Klicken Sie auf den Abwaertspfeil, um Ihre bevorzugte Erkennungssprache auszuwaehlen, z. B. Chinesisch, Englisch oder zweisprachig (Zh/En).
 

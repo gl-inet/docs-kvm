@@ -1,4 +1,4 @@
-# How to share KVM devices with others
+# How to share KVM devices with others {#how-to-share-kvm-devices-with-others}
 
 The cloud-based device sharing is a premium feature that lets you grant other users remote access to your KVM devices and manage their access permissions remotely.
 

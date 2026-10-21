@@ -1,6 +1,6 @@
-# Comet PoE (GL-RM1PE) Konsolenhandbuch
+# Comet PoE (GL-RM1PE) Konsolenhandbuch {#comet-poe-gl-rm1pe-console-guide}
 
-## Session
+## Session {#session}
 
 Klicken Sie in der Konsole auf das Symbol Session, um **Session Settings** zu öffnen. Diese Seite umfasst vier Bereiche:
 
@@ -9,7 +9,7 @@ Klicken Sie in der Konsole auf das Symbol Session, um **Session Settings** zu ö
 - [Keyboard](#keyboard)
 - [Mouse](#mouse)
 
-### Video
+### Video {#video}
 
 Sie können unter Session Settings Videoeinstellungen wie Anzeigemodus, Videoqualität, Videoübertragung, Bildschirmausrichtung und EDID anpassen.
 
@@ -65,7 +65,7 @@ Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpass
 
     **Hinweis**: Diese Funktion wurde mit Firmware v1.10.0 eingeführt und wird ausschließlich im Modus WebRTC (FEC) unterstützt. Derzeit ist sie nur über einen Webbrowser verfügbar; App und Desktop-Client werden noch nicht unterstützt.
 
-### Keyboard
+### Keyboard {#keyboard}
 
 Unter Keyboard können Sie die Einstellungen für die Tastaturbedienung des gesteuerten Geräts konfigurieren.
 
@@ -79,7 +79,7 @@ Unter Keyboard können Sie die Einstellungen für die Tastaturbedienung des gest
 
 - **Swap Command and Ctrl for MacOS**: Diese Funktion vertauscht die Tasten Cmd und Ctrl, um die Tastaturkompatibilität zwischen verschiedenen Betriebssystemen sicherzustellen.
 
-### Mouse
+### Mouse {#mouse}
 
 Sie können die Mauseinstellungen anpassen, um das gesteuerte Gerät komfortabler zu bedienen.
 
@@ -109,7 +109,7 @@ Sie können die Mauseinstellungen anpassen, um das gesteuerte Gerät komfortable
 
 - **Primary Button**: Wählen Sie die linke oder rechte Taste als primäre Klicktaste aus. Diese Funktion wurde mit Firmware v1.9.0 eingeführt.
 
-## Toolbox
+## Toolbox {#toolbox}
 
 Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst fünf Bereiche:
 
@@ -119,13 +119,13 @@ Navigieren Sie in der Konsole zu **Toolbox**. Die Toolbox-Seite umfasst fünf Be
 - [Wake on Lan](#wake-on-lan)
 - [Terminal](#terminal)
 
-### Clipboard
+### Clipboard {#clipboard}
 
 Die Zwischenablage ermöglicht es Ihnen, Text einfach vom steuernden Gerät auf das gesteuerte Gerät einzufügen, ohne Dateien übertragen zu müssen.
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox_clipboard.png){class="glboxshadow"}
 
-### OCR
+### OCR {#ocr}
 
 OCR ist eine Texterkennungsfunktion, mit der Sie einen Bereich auf dem Remote-Bildschirm auswählen und den darin enthaltenen Text einfach extrahieren können. Diese Funktion wurde mit Firmware v1.9.0 eingeführt.
 
@@ -139,7 +139,7 @@ Klicken Sie anschließend auf **Capture**. Der Remote-Bildschirm wird abgedunkel
 
 Mit dieser Funktion können Sie Text einfach vom Remote-Bildschirm, also dem gesteuerten Gerät, erfassen und auf das lokale steuernde Gerät kopieren.
 
-### Shortcut
+### Shortcut {#shortcut}
 
 Mit Shortcuts können Sie Aktionen schneller ausführen, ohne die virtuelle Tastatur zu verwenden. So arbeiten Sie effizienter und sparen Zeit bei alltäglichen Aufgaben. Hier finden Sie einige häufig verwendete Shortcuts.
 
@@ -149,7 +149,7 @@ Klicken Sie auf **Modify**, um die Shortcut-Optionen nach Bedarf anzupassen.
 
 ![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox_shortcut_2.png){class="glboxshadow"}
 
-### Wake-on-Lan
+### Wake-on-Lan {#wake-on-lan}
 
 Wake-on-LAN (WOL) ist eine Technologie, mit der das gesteuerte Gerät aus der Ferne eingeschaltet oder aus einem Energiesparzustand geweckt werden kann.
 
@@ -163,7 +163,7 @@ Wenn das Gerät, das Sie hinzufügen möchten, nicht in der Liste enthalten ist,
 
 ![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/wol-add-manually.png){class="glboxshadow" width=500}
 
-### Terminal
+### Terminal {#terminal}
 
 Sie können auf das Terminal des Comet PoE zugreifen, um erweiterte Einstellungen vorzunehmen. Klicken Sie auf **Access**.
 
@@ -173,7 +173,7 @@ Sie werden zum GLKVM-Terminal weitergeleitet.
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox_terminal_2.png){class="glboxshadow"}
 
-## Accessories
+## Accessories {#accessories}
 
 GL.iNet bietet optionales KVM-Zubehör an, um das Ein-/Ausschalten des Geräts aus der Ferne zu steuern.
 
@@ -185,7 +185,7 @@ Lesen Sie zuerst die entsprechende Bedienungsanleitung, um das Zubehör mit dem 
 
 Melden Sie sich anschließend bei der KVM-Konsole an und navigieren Sie zu **Accessories**. Die Zubehöreinstellungen sind erst verfügbar, nachdem das Zubehör installiert wurde.
 
-### Fingerbot
+### Fingerbot {#fingerbot}
 
 Der Fingerbot wird am physischen Ein-/Aus-Schalter des gesteuerten Geräts befestigt, um die Stromversorgung des gesteuerten Geräts aus der Ferne zu steuern.
 
@@ -203,7 +203,7 @@ Er arbeitet entsprechend den Einstellungen in der Konsole.
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
-### ATX Power
+### ATX Power {#atx-power}
 
 Das ATX Board wird im Computergehäuse installiert, um das Ein-/Ausschalten/Neustarten des Geräts aus der Ferne zu steuern.
 
@@ -217,7 +217,7 @@ Er arbeitet entsprechend den Einstellungen in der Konsole.
 
 - **Restart**: Startet das Gerät neu.
 
-## Virtual Media
+## Virtual Media {#virtual-media}
 
 Navigieren Sie in der Konsole zu **Virtual Media**. Hier können Sie die folgenden Vorgänge ausführen:
 
@@ -228,7 +228,7 @@ Navigieren Sie in der Konsole zu **Virtual Media**. Hier können Sie die folgend
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/virtual-media.png){class="glboxshadow"}
 
-### File Sharing
+### File Sharing {#file-sharing}
 
 Comet PoE kann ein les- und beschreibbares USB-Laufwerk emulieren, sodass Sie Dateien zwischen dem steuernden Gerät und dem gesteuerten Gerät freigeben und verwalten können.
 
@@ -278,7 +278,7 @@ Comet PoE kann ein les- und beschreibbares USB-Laufwerk emulieren, sodass Sie Da
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/file-sharing6.png){class="glboxshadow"}
 
-### Image Mounting
+### Image Mounting {#image-mounting}
 
 Comet PoE kann ein schreibgeschütztes virtuelles CD/DVD- oder Festplattenlaufwerk auf dem gesteuerten Gerät simulieren. Sie können während des BIOS- oder UEFI-Startvorgangs auf dieses Laufwerk zugreifen.
 
@@ -306,13 +306,13 @@ Diese Funktion kann Ihnen helfen, das Betriebssystem neu zu installieren, ein IS
 
     ![image mounting 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/image-mounting5.png){class="glboxshadow"}
 
-### Replace Storage Drive
+### Replace Storage Drive {#replace-storage-drive}
 
 Sie können ein USB-Speichergerät in den KVM-USB-Anschluss einstecken, um den internen Speicher zu ersetzen.
 
 ![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/replace-storage.png){class="glboxshadow"}
 
-### Format Disk
+### Format Disk {#format-disk}
 
 Sie können den Datenträger formatieren oder virtuelle Medien mit einem Klick deaktivieren.
 
@@ -322,13 +322,13 @@ Sie können den Datenträger formatieren oder virtuelle Medien mit einem Klick d
 
 - **Disable**: Durch das Deaktivieren der virtuellen Medien wird das KVM-Gerät sofort neu gestartet.
 
-## Apps Center
+## Apps Center {#apps-center}
 
 Navigieren Sie in der Konsole zu **Apps Center**. Die integrierten Anwendungen finden Sie hier.
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} ist ein auf WireGuard basierender Mesh-VPN-Dienst, der verschlüsselte Peer-to-Peer-Privatnetzwerke zwischen Geräten erstellt, ohne Portweiterleitung oder komplexe Firewall-Einrichtung.
 
@@ -340,7 +340,7 @@ Nach dem Binden zeigt die Konsole das verknüpfte Tailscale-Konto an und schalte
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/app-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} erstellt verschlüsselte virtuelle Overlay-Netzwerke, um verteilte Geräte weltweit so zu verbinden, als befänden sie sich im selben lokalen Netzwerk.
 
@@ -352,7 +352,7 @@ Nach dem Binden zeigt die Konsole die ZeroTier Network ID und Virtual IP an.
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/app-zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} ist eine Open-Source-Zero-Trust-Networking-Plattform, mit der Sie sichere private Netzwerke für den Einsatz zu Hause und im Unternehmen aufbauen können. Als WireGuard®-basiertes Overlay-Netzwerk ermöglicht NetBird sicheren Zugriff auf Ihre Geräte jederzeit und überall.
 
@@ -362,13 +362,13 @@ Nach dem Binden zeigt die Konsole die NetBird Virtual IP an.
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/app-netbird-enabled.png){class="glboxshadow"}
 
-## Help
+## Help {#help}
 
 Navigieren Sie in der Konsole zu **Help**. Hier finden Sie weitere Informationen zu GL.iNet KVM und Hilfedokumentation. Außerdem können Sie Protokolle zur Fehlerbehebung exportieren.
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/help.png){class="glboxshadow"}
 
-## Toolbar
+## Toolbar {#toolbar}
 
 Navigieren Sie in der Konsole in die obere rechte Ecke, um auf die folgenden Werkzeuge zuzugreifen:
 
@@ -379,7 +379,7 @@ Navigieren Sie in der Konsole in die obere rechte Ecke, um auf die folgenden Wer
 - [Cloud Service](#cloud-service)
 - [Logout](#logout)
 
-### Collapse
+### Collapse {#collapse}
 
 Klicken Sie oben rechts auf das Symbol mit dem Aufwärtspfeil, um die Symbolleiste einzuklappen.
 
@@ -389,7 +389,7 @@ Wenn die Symbolleiste eingeklappt ist, klicken Sie oben auf das Symbol mit dem A
 
 ![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbar_collapse_2.png){class="glboxshadow"}
 
-### Fullscreen
+### Fullscreen {#fullscreen}
 
 Klicken Sie oben rechts auf das Vollbildsymbol (quadratisch), um in den Vollbildmodus zu wechseln.
 
@@ -399,7 +399,7 @@ Um den Vollbildmodus zu verlassen, halten Sie die Taste **Esc** gedrückt oder k
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbar_fullscreen_2.png){class="glboxshadow"}
 
-### Upgrade
+### Upgrade {#upgrade}
 
 Klicken Sie oben rechts auf die Firmware-Version, um nach Updates zu suchen.
 
@@ -413,7 +413,7 @@ Im Pop-up-Fenster können Sie auf **Local Upgrade** klicken, um eine Firmwaredat
 
 Laden Sie vor einem lokalen Upgrade die neueste Firmware aus dem [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"} herunter.
 
-### Connection Stats
+### Connection Stats {#connection-stats}
 
 Connection Stats enthält ein Data Dashboard, das Latenz, Jitter und weitere Echtzeitmesswerte überwacht.
 
@@ -425,7 +425,7 @@ Klicken Sie auf das Diagrammsymbol, um statistische Daten wie Netzwerklatenz, Ne
 
 ![data dashboard 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbar_data_dashboard_2.png){class="glboxshadow"}
 
-### Cloud Service
+### Cloud Service {#cloud-service}
 
 GL.iNet KVM Cloud ermöglicht Ihnen den Fernzugriff auf das gesteuerte Gerät. Details finden Sie [hier](../../faq/remote_access_via_cloud.md){target="_blank"}.
 
@@ -433,13 +433,13 @@ Sobald Ihr Comet PoE an die Cloud gebunden ist, zeigt die Konsole den Cloud-Stat
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbar_cloud_service.png){class="glboxshadow"}
 
-### Logout
+### Logout {#logout}
 
 Klicken Sie zum Abmelden auf das Symbol Logout.
 
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/logout.png){class="glboxshadow"}
 
-## Settings
+## Settings {#settings}
 
 Klicken Sie in der Konsole in der Navigationsleiste auf das Symbol Settings, um die folgende Einstellungsseite zu öffnen. Diese Funktion wurde mit Firmware v1.10.0 eingeführt.
 
@@ -452,7 +452,7 @@ Klicken Sie in der Konsole in der Navigationsleiste auf das Symbol Settings, um 
 
 ![Settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/settings.png){class="glboxshadow"}
 
-### USB Devices
+### USB Devices {#usb-devices}
 
 Unter USB Device werden alle emulierten USB-Geräte zentral verwaltet. Auf dieser Seite können Sie virtuelle Peripheriegeräte ein- oder ausschalten, um die Kompatibilität mit dem gesteuerten Host zu verbessern.
 
@@ -472,7 +472,7 @@ Unter USB Device werden alle emulierten USB-Geräte zentral verwaltet. Auf diese
 
     ![Device Identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/settings_device_identity.png){class="glboxshadow" width=350}
 
-### Preferences
+### Preferences {#preferences}
 
 Unter Preferences verwalten Sie Layout Preferences, System Settings und Device Screen.
 
@@ -485,7 +485,7 @@ Unter Preferences verwalten Sie Layout Preferences, System Settings und Device S
 
 - **Device Screen**: Sie können den Gerätebildschirm verwalten und in der Vorschau anzeigen. Zu den verfügbaren Einstellungen gehören der Lock Screen-Modus (World Clock, Clock Only oder Wallpaper Only), Time Format, Date Format und Wallpaper.
 
-### Network
+### Network {#network}
 
 Hier können Sie die Netzwerkdetails des Comet PoE prüfen und ändern, z. B. Hostname und IP-Adresse.
 
@@ -505,7 +505,7 @@ Hier können Sie die Netzwerkdetails des Comet PoE prüfen und ändern, z. B. Ho
 
     ![ethernet static](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/setting_network_static.png){class="glboxshadow" width=600}
 
-### Security
+### Security {#security}
 
 Unter Security können Sie das Admin-Passwort ändern, die Zwei-Faktor-Authentifizierung aktivieren und das TLS-Zertifikat anpassen.
 
@@ -525,7 +525,7 @@ Unter Security können Sie das Admin-Passwort ändern, die Zwei-Faktor-Authentif
 
     ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/setting_security_custom.png){class="glboxshadow" width=600}
 
-### Cloud
+### Cloud {#cloud}
 
 Über Cloud können Sie per Cloud-Dienst aus der Ferne auf Ihr Gerät zugreifen und es verwalten.
 
@@ -539,7 +539,7 @@ Nach erfolgreicher Bindung können Sie die Informationen zum gebundenen Cloud-Ko
 
 Alternativ können Sie die oben genannten Verwaltungsvorgänge auch über Cloud Service in der oberen Symbolleiste ausführen.
 
-### System
+### System {#system}
 
 Unter System können Sie Folgendes konfigurieren:
 

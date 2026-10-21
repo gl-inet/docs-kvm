@@ -1,4 +1,4 @@
-# Jak usunąć opóźnienia myszy podczas sterowania RPi3 za pomocą RPi4
+# Jak usunąć opóźnienia myszy podczas sterowania RPi3 za pomocą RPi4 {#how-to-fix-mouse-latency-when-rpi4-controls-rpi3}
 
 Podczas sterowania Raspberry Pi3 za pomocą Raspberry Pi4 przez GL.iNet KVM mogą występować opóźnienia myszy, zwykle trwające kilka sekund.
 

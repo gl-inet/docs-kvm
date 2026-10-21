@@ -1,8 +1,8 @@
-# KVM mit RKDevTool debricken
+# KVM mit RKDevTool debricken {#how-to-unbrick-kvm-via-rkdevtool}
 
 In diesem Tutorial erfahren Sie, wie Sie ein GL.iNet KVM mit RKDevTool debricken. Es gilt fuer Faelle, in denen das KVM nicht mehr startet und weder ueber regulaere Firmware-Updates noch ueber den U-Boot-Failsafe-Modus wiederhergestellt werden kann.
 
-## Vorbereitung
+## Vorbereitung {#preparation}
 
 Bereiten Sie die folgenden Werkzeuge fuer das Debricking vor.
 
@@ -16,7 +16,7 @@ Bereiten Sie die folgenden Werkzeuge fuer das Debricking vor.
 
     Es wird empfohlen, wichtige Daten zu sichern, bevor Sie mit dem Debricking beginnen.
 
-## Debricking-Schritte
+## Debricking-Schritte {#unbrick-steps}
 
 Um Fehler beim Debricking zu vermeiden, fuehren Sie die Schritte bitte der Reihe nach aus.
 

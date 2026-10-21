@@ -1,4 +1,4 @@
-# RPi4 が RPi3 を制御するときにマウスの遅延を修正する方法
+# RPi4 が RPi3 を制御するときにマウスの遅延を修正する方法 {#how-to-fix-mouse-latency-when-rpi4-controls-rpi3}
 
 Raspberry Pi4 を使用して GL.iNet KVM 経由で Raspberry Pi3 を制御すると、マウスの遅延の問題が発生する可能性があり、通常は数秒続きます。
 

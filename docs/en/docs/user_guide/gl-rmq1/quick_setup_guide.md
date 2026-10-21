@@ -1,10 +1,10 @@
-# Comet Q (GL-RMQ1) Quick Setup
+# Comet Q (GL-RMQ1) Quick Setup {#comet-q-gl-rmq1-quick-setup}
 
 Watch this video or follow the steps below to set up your Comet Q.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-f-XFkgYoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Connect Devices
+## Connect Devices {#connect-devices}
 
 For clarity, Device A refers to the controlling device, and Device B the controlled device.
 
@@ -26,13 +26,13 @@ For clarity, Device A refers to the controlling device, and Device B the control
 
     ![connect 4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/quick_setup/connect4.png){class="glboxshadow"}
 
-## Local Access
+## Local Access {#local-access}
 
 There are two ways to access Comet Q on the local network: via domain name or IP address.
 
 Before accessing, ensure your controlling device is on the same LAN as Comet Q.
 
-### Domain
+### Domain {#domain}
 
 1. Launch a browser on the controlling device. Chrome or Edge is recommended for better compatibility.
 
@@ -46,7 +46,7 @@ Before accessing, ensure your controlling device is on the same LAN as Comet Q.
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP address
+### IP address {#ip-address}
 
 1. Connect Comet Q to a Wi-Fi network and find its IP address on the touchscreen. In this example, the Comet Q's IP address is `192.168.8.197`.
 
@@ -60,11 +60,11 @@ Before accessing, ensure your controlling device is on the same LAN as Comet Q.
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## Remote Access
+## Remote Access {#remote-access}
 
 There are multiple ways to access Comet Q remotely: via Cloud service, GLKVM App, Tailscale, and ZeroTier.
 
-### Cloud service
+### Cloud service {#cloud-service}
 
 1. Bind your device to KVM Cloud. This needs to be done on the local network. 
 
@@ -104,7 +104,7 @@ There are multiple ways to access Comet Q remotely: via Cloud service, GLKVM App
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM App
+### GLKVM App {#glkvm-app}
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -180,7 +180,7 @@ There are multiple ways to access Comet Q remotely: via Cloud service, GLKVM App
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet Q integrates with Tailscale, allowing you to remotely access it through Tailscale virtual network.
 
@@ -190,7 +190,7 @@ Next, bind your controlling device to the same account. You will then be able to
 
 See [here](../../faq/remote_access_via_tailscale.md){target="_blank"} for details.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet Q integrates with ZeroTier, allowing you to remotely access it through ZeroTier virtual network.
 

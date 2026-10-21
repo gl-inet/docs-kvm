@@ -1,10 +1,10 @@
-# ブラウザ経由で KVM にローカルでアクセスする方法
+# ブラウザ経由で KVM にローカルでアクセスする方法 {#how-to-access-the-kvm-locally-via-browser}
 
 開始する前に、制御側デバイスと KVM が同じ LAN 上にあることを確認してください。
 
 Web ブラウザーを介してローカルで KVM にアクセスするには、ドメイン名を使用する方法と IP アドレスを使用する方法の 2 つがあります。
 
-## ドメイン経由のローカル アクセス
+## ドメイン経由のローカル アクセス {#local-access-via-domain}
 
 1. 制御側デバイスでブラウザを開きます。互換性を高めるために Chrome または Edge をお勧めします。
 
@@ -16,7 +16,7 @@ Web ブラウザーを介してローカルで KVM にアクセスするには�
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-## IP アドレスによるローカル アクセス
+## IP アドレスによるローカル アクセス {#local-access-via-ip-address}
 
 上流ネットワーク (ルーターなど) で KVM の IP アドレスを見つけて、ブラウザにこの IP アドレスを入力します。これで、KVM にローカルでアクセスできるようになり、被制御デバイスにアクセスできるようになります。
 

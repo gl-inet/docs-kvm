@@ -1,4 +1,4 @@
-# Sicherheitshinweise
+# Sicherheitshinweise {#safety-information}
  
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 

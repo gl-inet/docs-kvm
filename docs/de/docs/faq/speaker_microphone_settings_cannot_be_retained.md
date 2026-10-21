@@ -1,4 +1,4 @@
-# Warum bleiben meine Lautsprecher- und Mikrofoneinstellungen nicht erhalten
+# Warum bleiben meine Lautsprecher- und Mikrofoneinstellungen nicht erhalten {#why-cant-i-keep-my-speaker-and-microphone-settings}
 
 Wenn Sie Speaker oder Microphone in der KVM-Konsole aktivieren (unter Settings -> Remote Device Settings), stellen Sie möglicherweise fest, dass diese Einstellungen nach einem Neustart, einer erneuten Anmeldung am KVM oder dem Aktualisieren der Webseite (bei lokalem Zugriff) nicht erhalten bleiben.
 

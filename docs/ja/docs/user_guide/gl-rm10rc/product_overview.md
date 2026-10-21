@@ -1,14 +1,14 @@
-# Comet 5G (GL-RM10RC) 概要
+# Comet 5G (GL-RM10RC) 概要 {#comet-5g-gl-rm10rc-overview}
 
-## 外観
+## 外観 {#appearance}
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_interface.png){class="glboxshadow"}
 
-## ディメンション
+## ディメンション {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/overview/rm10rc_dimension.png){class="glboxshadow"}
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 |画面表示 |説明 |
 | :-------------------------------- | :------------------ |
@@ -21,7 +21,7 @@
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/time.png) | **ロック画面**<br>ロック画面には時刻と日付が表示されます。 |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/touchscreen/reset.png) | **Factory Reset**<br>KVM の電源が入っている状態で、ピンをリセット ピンホールに挿入し、8 秒間押し続けて工場出荷時設定にリセットします。リセットをキャンセルするには、8 秒以内にピンを放します。 |
 
-## ハイライト
+## ハイライト {#highlights}
 
 1. **5G RedCap**
 
@@ -63,7 +63,7 @@
 
     **Note**: オプションのアクセサリは別売りです。
 
-## 周波数バンド
+## 周波数バンド {#frequency-bands}
 
 Comet 5G は次の周波数帯域をサポートします。
 
@@ -79,7 +79,7 @@ Comet 5G は次の周波数帯域をサポートします。
 
     B34 / B38 / B39 / B40 / B41 / B42 / B43 / B48
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1×Comet 5G (GL-RM10RC)
 - 1 x ユーザーマニュアル

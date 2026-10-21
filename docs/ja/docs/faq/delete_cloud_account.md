@@ -1,4 +1,4 @@
-# クラウド アカウントを削除する方法
+# クラウド アカウントを削除する方法 {#how-to-delete-my-cloud-account}
 
 セキュリティ上の理由から、クラウド アカウントが使用されなくなった場合は削除できます。
 
@@ -14,7 +14,7 @@
 
 必要に応じて、次の手順に従ってクラウド アカウントを削除します。
 
-## GLKVM アプリで削除
+## GLKVM アプリで削除 {#delete-in-glkvm-app}
 
 1. GLKVM アプリにログインし、左上隅にあるプロフィールをクリックして、**Settings** をクリックします。
 
@@ -24,7 +24,7 @@
 
     ![app delete 2](https://static.gl-inet.com/docs/kvm/faq/delete_cloud_account/app_delete2.png){class="glboxshadow"}
 
-## クラウドで削除
+## クラウドで削除 {#delete-in-the-cloud}
 
 1. コンピューターで Web ブラウザーを起動します (互換性を高めるために Chrome または Edge をお勧めします)。アドレスバーに「`glkvm.com`」と入力し、クラウドアカウントでログインします。
 

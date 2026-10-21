@@ -1,4 +1,4 @@
-# Panoramica di Comet Q (GL-RMQ1)
+# Panoramica di Comet Q (GL-RMQ1) {#comet-q-gl-rmq1-overview}
 
 ## Dimensioni { #dimension }
 

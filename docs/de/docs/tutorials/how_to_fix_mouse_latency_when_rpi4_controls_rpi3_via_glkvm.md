@@ -1,4 +1,4 @@
-# Mauslatenz beheben, wenn RPi4 RPi3 steuert
+# Mauslatenz beheben, wenn RPi4 RPi3 steuert {#how-to-fix-mouse-latency-when-rpi4-controls-rpi3}
 
 Wenn Sie einen Raspberry Pi4 verwenden, um einen Raspberry Pi3 ueber GL.iNet KVM zu steuern, koennen Mauslatenzprobleme auftreten, die typischerweise einige Sekunden dauern.
 

@@ -1,15 +1,15 @@
-# Firmware v1.10
+# Firmware v1.10 {#firmware-v110}
 
 This release introduces native WebRTC, real-time data monitoring, centralized USB devices management, and a new Settings Center. It also improves startup performance, security, and microphone stability for a smoother and more reliable remote KVM experience.
 
 Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/kvm){target="_blank"}
 
-## WebRTC (Native) Mode
+## WebRTC (Native) Mode {#webrtc-native-mode}
 This firmware introduces **WebRTC (Native) Mode**. It uses the Google WebRTC Library to improve streaming performance and provide a smoother real-time remote control experience.
 
 ![webrtc mode](https://static.gl-inet.com/docs/kvm/features_update/1.10/webrtc_native_mode.png){class="glboxshadow" width=400}
 
-## Connection Stats
+## Connection Stats {#connection-stats}
 
 **Connection Stats** displays real-time connection information and trend charts, including network latency, jitter, packet loss rate, bitrate, frame rate, and playback delay.
 
@@ -21,11 +21,11 @@ Click the chart icon to view trend charts for network latency, jitter, and packe
 
 ![Connection Stats 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
-## Settings Center
+## Settings Center {#settings-center}
 
 This release adds a new **Settings Center** that centralizes USB device, preference, network, security, cloud, and system settings. Existing options, such as hostname configuration, cloud management, and firmware upgrades, are now easier to access in one place.
 
-### USB Devices
+### USB Devices {#usb-devices}
 
 The **USB Devices** provides centralized management for USB emulation devices. From this page, you can enable or disable virtual peripherals to improve compatibility with the controlled host.
 
@@ -35,7 +35,7 @@ The **USB Devices** provides centralized management for USB emulation devices. F
 
 - **Device Identity**: Customize or modify the KVM's identity recognized by the controlled device. Note that EDID and device identification remain synchronized. Changing either one will automatically update the other to ensure correct device recognition.
 
-### Preferences
+### Preferences {#preferences}
 
 The **Preferences** let you manage layout preferences, system settings, and device screen settings.
 
@@ -49,7 +49,7 @@ The **Preferences** let you manage layout preferences, system settings, and devi
 
     **Note**: This feature is available only on models with a built-in display.
 
-### Network
+### Network {#network}
 
 You can view and manage device network settings, including the hostname, Ethernet connection, and wireless network information.
 
@@ -63,7 +63,7 @@ You can view and manage device network settings, including the hostname, Etherne
 
     **Note**: The Wireless feature is available only on supported models.
 
-### Security
+### Security {#security}
 
 The **Security** lets you change the administrator password, enable two-factor authentication, and customize the TLS certificate.
 
@@ -73,13 +73,13 @@ The **Security** lets you change the administrator password, enable two-factor a
 
 - **TLS Certificate**: Use the default certificate or upload a custom certificate and private key for browser access.
 
-### Cloud
+### Cloud {#cloud}
 
 Devices can be bound to cloud services via URL or code for remote access and management. You can also download the mobile app, manage the connection, or unbind the device as needed.
 
 ![cloud](https://static.gl-inet.com/docs/kvm/features_update/1.10/settings_cloud.png){class="glboxshadow"}
 
-### System
+### System {#system}
 
 In **System**, you can access system management, firmware upgrade, and support options.
 
@@ -91,7 +91,7 @@ In **System**, you can access system management, firmware upgrade, and support o
 
 - **Help & Support**: Export device logs for troubleshooting and access user guides, FAQs, and other support documents.
 
-## Other Enhancements
+## Other Enhancements {#other-enhancements}
 
 - **Startup Performance**: Improved device startup speed.
 

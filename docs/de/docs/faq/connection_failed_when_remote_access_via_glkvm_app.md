@@ -1,4 +1,4 @@
-# Verbindung beim Fernzugriff über die GLKVM App fehlgeschlagen
+# Verbindung beim Fernzugriff über die GLKVM App fehlgeschlagen {#connection-failed-when-remote-access-via-glkvm-app}
 
 Beim Fernzugriff über die GLKVM App kann es vorkommen, dass das KVM-Gerät in der GLKVM App als Online angezeigt wird, nach dem Anklicken jedoch bei "Connecting" hängen bleibt.
 

@@ -1,4 +1,4 @@
-# リモート画面からテキストをキャプチャする方法
+# リモート画面からテキストをキャプチャする方法 {#how-to-capture-text-from-the-remote-screen}
 
 テキスト認識機能を使用すると、リモート画面上の領域を選択してテキストを簡単に抽出できます。これは光学式文字認識 (OCR) テクノロジーによって駆動され、ファームウェア v1.9.0 で導入されました。
 
@@ -6,7 +6,7 @@
 
 リモート画面からテキストをキャプチャするには、次の手順に従います。
 
-## Firmware v1.10 以降
+## Firmware v1.10 以降 {#firmware-v110-and-above}
 
 1. KVM コンソールにログインし、**Toolbox** -> **OCR** に移動します。下向き矢印をクリックし、中国語、英語、バイリンガル（Zh/En）など、使用する認識言語を選択します。
 
@@ -24,7 +24,7 @@
 
     ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9.x
+## Firmware v1.9.x {#firmware-v19x}
 
 1. KVM コンソールにログインします。下向き矢印をクリックして、中国語、英語、バイリンガル (Zh/En) など、優先する認識言語を選択します。
 

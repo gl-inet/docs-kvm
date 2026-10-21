@@ -1,10 +1,10 @@
-# Jak udostępniać pliki między urządzeniem sterującym a sterowanym
+# Jak udostępniać pliki między urządzeniem sterującym a sterowanym {#how-to-share-files-between-controlling-and-controlled-devices}
 
 GL.iNet KVM emuluje dysk USB z możliwością odczytu i zapisu, dzięki czemu można udostępniać pliki i zarządzać nimi między urządzeniem sterującym a sterowanym.
 
 W poniższych krokach użyto Comet (GL-RM1) jako przykładu.
 
-## Wysyłanie plików do sterowanego urządzenia
+## Wysyłanie plików do sterowanego urządzenia {#send-files-to-controlled-device}
 
 Aby udostępnić pliki z urządzenia sterującego urządzeniu sterowanemu, wykonaj poniższe kroki.
 
@@ -38,7 +38,7 @@ Aby udostępnić pliki z urządzenia sterującego urządzeniu sterowanemu, wykon
 
     ![Zatrzymywanie udostępniania](https://static.gl-inet.com/docs/kvm/tutorials/share_files_via_virtual_media/stop-sharing1.png){class="glboxshadow"}
 
-## Pobieranie plików ze sterowanego urządzenia
+## Pobieranie plików ze sterowanego urządzenia {#get-files-from-controlled-device}
 
 Aby odebrać pliki ze sterowanego urządzenia, wykonaj poniższe kroki.
 

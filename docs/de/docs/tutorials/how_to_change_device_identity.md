@@ -1,6 +1,6 @@
-# KVM-Geraeteidentitaet aendern
+# KVM-Geraeteidentitaet aendern {#how-to-change-kvm-device-identity}
 
-## Was ist die KVM-Geraeteidentitaet?
+## Was ist die KVM-Geraeteidentitaet? {#what-is-kvm-device-identity}
 
 Die Geraeteidentitaet eines GL.iNet KVM ist die Kennung, ueber die das KVM bei der Kommunikation vom verbundenen Geraet erkannt und unterschieden wird.
 
@@ -18,7 +18,7 @@ Daher wird das KVM normalerweise als zusammengesetztes Geraet betrachtet, das me
 
     Wenn Eingabemethode oder Tastaturlayout des steuernden Geraets nicht mit dem gesteuerten Geraet uebereinstimmen, koennen einige Symbole oder Buchstaben auf anderen Tasten liegen. Dadurch kann die Ausgabe auf dem gesteuerten Geraet von der Eingabe auf dem steuernden Geraet abweichen. Weitere Informationen finden Sie [hier](../faq/keyboard_does_not_input_output_as_expected.md).
 
-## Warum die Geraeteidentitaet aendern?
+## Warum die Geraeteidentitaet aendern? {#why-change-device-identity}
 
 Da GL.iNet KVM fuer die Benutzerinteraktion mehrere Geraete kombiniert emuliert, wird es beim Anschluss an das gesteuerte Geraet als Gruppe mehrerer Geraete erkannt. Dazu gehoeren ein Monitor, mehrere USB-Geraete wie Maus und Tastatur sowie ein USB-Laufwerk.
 
@@ -51,7 +51,7 @@ In den folgenden Szenarien kann es jedoch erforderlich sein, die KVM-Geraeteiden
 
     Wenn Sie Maus und Tastatur auf dem gesteuerten Geraet nicht ueber KVM steuern koennen, versuchen Sie, die KVM-Geraeteidentitaet zu aendern. Dadurch lassen sich Kompatibilitaetsprobleme vermeiden und die Signaluebertragung zwischen KVM und gesteuertem Geraet kann reibungsloser funktionieren.
 
-## Einschraenkungen der Anpassung der Geraeteidentitaet
+## Einschraenkungen der Anpassung der Geraeteidentitaet {#limitations-of-device-identity-customization}
 
 !!! Warning "Verhaltensbasierte Erkennungssoftware kann KVM weiterhin identifizieren"
 
@@ -61,9 +61,9 @@ In den folgenden Szenarien kann es jedoch erforderlich sein, die KVM-Geraeteiden
 
     Daher reicht das Aendern der Geraeteidentitaet allein **moeglicherweise nicht aus**, um von fortgeschrittener Monitoring- oder verhaltensbasierter Analysesoftware unentdeckt zu bleiben.
 
-## KVM-Geraeteidentitaet aendern
+## KVM-Geraeteidentitaet aendern {#how-to-change-device-identity}
 
-### Firmware v1.10 und neuer
+### Firmware v1.10 und neuer {#firmware-v110-and-above}
 
 1. Melden Sie sich bei Ihrem KVM an und navigieren Sie oben rechts zu **Settings**. Suchen Sie unter **USB Devices** nach **Device Identity** und passen Sie die Identitaet an.
 
@@ -83,7 +83,7 @@ In den folgenden Szenarien kann es jedoch erforderlich sein, die KVM-Geraeteiden
 
     ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize4.png){class="glboxshadow"}
 
-### Firmware v1.9 und aelter
+### Firmware v1.9 und aelter {#firmware-v19-and-earlier}
 
 1. Melden Sie sich bei Ihrem KVM an und navigieren Sie zu **Settings** -> **System** -> **Device Identity**. Waehlen Sie in der Dropdown-Liste eine voreingestellte Identitaet aus.
 

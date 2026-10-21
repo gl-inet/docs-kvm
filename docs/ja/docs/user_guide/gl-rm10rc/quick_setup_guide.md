@@ -1,10 +1,10 @@
-# Comet 5G (GL-RM10RC) クイックセットアップ
+# Comet 5G (GL-RM10RC) クイックセットアップ {#comet-5g-gl-rm10rc-quick-setup}
 
 このビデオを見るか、以下の手順に従って Comet 5G をセットアップしてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whAUMBcIIZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## デバイスを接続する
+## デバイスを接続する {#connect-devices}
 
 明確にするために、デバイス A は制御側デバイスを指し、デバイス B は制御側デバイスを指します。
 
@@ -39,7 +39,7 @@
 
 5. デバイスの接続が完了しました。これで、近くのコントロール、ローカル アクセス、またはリモート アクセスを介して Comet 5G のコンソールにアクセスできるようになります。
 
-## 近くのコントロール
+## 近くのコントロール {#nearby-control}
 
 Nearby Control は、Comet 5G の近くにいるときの素早いセットアップと管理に最適です。
 
@@ -51,13 +51,13 @@ Nearby Control は、Comet 5G の近くにいるときの素早いセットア�
 
 ![nearby access](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10rc/quick_setup/nearby_access2.png){class="glboxshadow"}
 
-## ローカル アクセス
+## ローカル アクセス {#local-access}
 
 ローカル ネットワーク上で Comet 5G にアクセスするには、ドメイン名または IP アドレスを使用する 2 つの方法があります。
 
 アクセスする前に、制御側デバイスが Comet 5G と同じ LAN 上にあることを確認してください。
 
-### ドメイン
+### ドメイン {#domain}
 
 1. 制御側デバイスでブラウザを起動します。互換性を高めるために Chrome または Edge をお勧めします。
 
@@ -71,7 +71,7 @@ Nearby Control は、Comet 5G の近くにいるときの素早いセットア�
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IP アドレス
+### IP アドレス {#ip-address}
 
 1. タッチスクリーンで Comet 5G の IP アドレスを見つけます。この例では、Comet 5G の IP アドレスは `192.168.8.197` です。
 
@@ -85,11 +85,11 @@ Nearby Control は、Comet 5G の近くにいるときの素早いセットア�
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## リモート アクセス
+## リモート アクセス {#remote-access}
 
 Comet 5G にリモートでアクセスするには、クラウド サービス、GLKVM アプリ、Tailscale、ZeroTier、NetBird 経由など、複数の方法があります。
 
-### クラウド サービス
+### クラウド サービス {#cloud-service}
 
 1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
@@ -129,7 +129,7 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM アプリ
+### GLKVM アプリ {#glkvm-app}
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
@@ -205,7 +205,7 @@ Comet 5G にリモートでアクセスするには、クラウド サービス�
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet 5G は Tailscale と統合されており、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -215,7 +215,7 @@ Comet 5G は Tailscale と統合されており、Tailscale 仮想ネットワ�
 
 詳細は[こちら](../../faq/remote_access_via_tailscale.md){target="_blank"}をご参照ください。
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet 5G は ZeroTier と統合されており、ZeroTier 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -225,7 +225,7 @@ Comet 5G は ZeroTier と統合されており、ZeroTier 仮想ネットワー�
 
 詳細は[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご参照ください。
 
-### NetBird
+### NetBird {#netbird}
 
 Comet 5G は NetBird と統合されており、NetBird 仮想ネットワーク経由でリモート アクセスできるようになります。
 

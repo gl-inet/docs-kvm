@@ -1,4 +1,4 @@
-# How to disable Cloud service
+# How to disable Cloud service {#how-to-disable-cloud-service}
 
 GL.iNet KVM Cloud service is enabled by default, allowing users to bind KVM devices to their Cloud account for remote access. 
 

@@ -1,8 +1,8 @@
-# Ausgehende PING/ICMP-Pakete vom KVM deaktivieren
+# Ausgehende PING/ICMP-Pakete vom KVM deaktivieren {#how-to-disable-outgoing-pingicmp-packets-from-kvm}
 
 Das KVM-Geraet sendet regelmaessig PING (ICMP)-Pakete, um die Netzwerkverbindung zu pruefen. Dieses Dokument erklaert, wie Sie dieses Verhalten deaktivieren und welche Nebenwirkungen damit verbunden sind.
 
-## Fuer reine Ethernet-Geraete
+## Fuer reine Ethernet-Geraete {#for-ethernet-only-devices}
 
 Bei Geraeten mit ausschliesslich Ethernet-Verbindung, z. B. Comet (GL-RM1) und Comet PoE (GL-RM1PE), sendet das System PING-Pakete an das Standard-Gateway, um die Internetverbindung zu pruefen. Das Ergebnis wird ueber den LED-Status angezeigt.
 
@@ -14,7 +14,7 @@ Fuehren Sie den folgenden Befehl aus, um dieses Verhalten temporaer zu deaktivie
 
 > **Hinweis:** Wenn dieser Dienst deaktiviert wird, ist auch die **Reset button** nicht verfuegbar.
 
-## Fuer Geraete mit Ethernet und Wi-Fi
+## Fuer Geraete mit Ethernet und Wi-Fi {#for-devices-with-both-ethernet-and-wi-fi}
 
 Bei Geraeten mit Ethernet und Wi-Fi sendet das System PING-Pakete an oeffentliche DNS-Server, um den Internetzugriff fuer jede Netzwerkschnittstelle zu pruefen. Dieser Mechanismus dient dem dynamischen Multi-WAN-Failover und stellt sicher, dass das Geraet zu Wi-Fi wechseln kann, wenn die Ethernet-Verbindung den Internetzugriff verliert.
 

@@ -1,4 +1,4 @@
-# Comet Q (GL-RMQ1) Benutzerhandbuch
+# Comet Q (GL-RMQ1) Benutzerhandbuch {#comet-q-gl-rmq1-user-guide}
 
 Comet Q ist ein handflächengroßes Gerät, das per USB-C mit kompatiblen Mobiltelefonen, Mac-mini-Computern und Laptops verbunden wird (DP-Alt-Mode-Unterstützung erforderlich). Nach dem Anschliessen koennen Sie einen Browser oeffnen und die vollstaendige Kontrolle ueber das Zielgeraet erhalten, ohne zusaetzliche Softwareinstallation oder komplexe Konfiguration. Der integrierte 1,8-Zoll-Touchscreen ermoeglicht die schnelle Einrichtung, Statuspruefung und das direkte Ausloesen von Aktionen am Geraet.
 

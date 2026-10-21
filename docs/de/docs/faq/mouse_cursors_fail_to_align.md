@@ -1,4 +1,4 @@
-# Was tun, wenn die Mauszeiger nicht deckungsgleich sind
+# Was tun, wenn die Mauszeiger nicht deckungsgleich sind {#what-should-i-do-if-mouse-cursors-fail-to-align}
 
 Wenn der Mauszeiger auf dem steuernden Gerät nicht mit dem Mauszeiger auf dem gesteuerten Gerät übereinstimmt, führen Sie die folgenden Schritte zur Fehlerbehebung aus.
 

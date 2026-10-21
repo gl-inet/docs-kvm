@@ -1,18 +1,18 @@
-# How to check if your device's USB-C port supports DP Alt Mode
+# How to check if your device's USB-C port supports DP Alt Mode {#how-to-check-if-your-devices-usb-c-port-supports-dp-alt-mode}
 
-## What is DP Alt Mode
+## What is DP Alt Mode {#what-is-dp-alt-mode}
 
 DP Alt Mode (or DisplayPort Alternate Mode) is a feature built into certain USB-C ports that enables them to transmit a high-quality video signal — in addition to the data and power they normally handle.
 
 In plain terms: it allows a single USB-C cable to transmit video from your phone, tablet, or laptop straight to a monitor, TV, or projector — no special adapter or docking station required. Without DP Alt Mode, the port can only transfer data and supply power; it cannot output video to an external display.
 
-## Why it matters
+## Why it matters {#why-it-matters}
 
 DP Alt Mode matters for **Comet Q**, as Comet Q relies on it to receive video from your device. The controlled device must support native video output through its USB-C port. Note that a DisplayLink adapter may not add this capability for a direct connection to Comet Q.
 
 Not every USB-C port is created equal. Some only carry data and power; others can also output video. The shape of the connector is the same, but the capabilities behind it are not. Two USB-C ports can look identical and behave very differently — which is why it pays to check before buying any USB-C display accessory.
 
-## General methods to verify DP Alt Mode
+## General methods to verify DP Alt Mode {#general-methods-to-verify-dp-alt-mode}
 
 1. **Check the spec sheet**.
 
@@ -38,7 +38,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 ---
 
-## How to check on Windows
+## How to check on Windows {#how-to-check-on-windows}
 
 1. Press `Win + X` and open **Device Manager**.
 2. Look for entries mentioning *"USB4"* or *"Thunderbolt"*. These can help identify the hardware, but Device Manager alone does not confirm DP Alt Mode support on a specific port.
@@ -51,7 +51,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
 
 2. If your laptop has multiple USB-C ports, only some may support video output. Check each port individually.
 
-## How to check on Mac
+## How to check on Mac {#how-to-check-on-mac}
 
 1. Click the **Apple menu** > **About This Mac** > **More Info**.
 2. Scroll down and click **System Report**.
@@ -123,7 +123,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Mac Pro (M2 UItra)
         - Mac Pro (Intel, 2019)
 
-## How to check on Android
+## How to check on Android {#how-to-check-on-android}
 
 1. Open your phone's **Settings** and search for *"display"*, *"HDMI"*, or *"desktop mode"*.
 2. Look for features such as **Samsung DeX**, **Motorola Ready For**, **Huawei EasyProjection**, or *"External display"*. Check the manufacturer's documentation to confirm that the exact model supports a **wired USB-C display connection**; a wireless display feature alone is not proof of DP Alt Mode support.
@@ -168,7 +168,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - Galaxy Z Fold4
         - Galaxy Z Fold7
 
-## How to check on iPhone and iPad
+## How to check on iPhone and iPad {#how-to-check-on-iphone-and-ipad}
 
 1. iPhone 15 series and newer (except iPhone 16e and iPhone 17e) support DisplayPort Alt Mode through their USB-C port. Check [Apple's display connection documentation](https://support.apple.com/en-ie/105099#displays){target="_blank"} for your exact model.
 2. iPhone 14 and earlier use Lightning and are not compatible.
@@ -218,7 +218,7 @@ Not every USB-C port is created equal. Some only carry data and power; others ca
         - iPad Pro 13‑inch (M5)
         - iPad Pro 13‑inch (M4)
 
-## Handhelds, tablets and other devices
+## Handhelds, tablets and other devices {#handhelds-tablets-and-other-devices}
 
 1. **Steam Deck**, **ROG Ally**, **Lenovo Legion Go** — all support DP Alt Mode.
 2. **Most Windows tablets** with USB-C (Surface Pro 8 and newer, etc.) — supported.

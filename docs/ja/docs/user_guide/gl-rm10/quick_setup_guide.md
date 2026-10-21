@@ -1,10 +1,10 @@
-# Comet Pro (GL-RM10) クイックセットアップ
+# Comet Pro (GL-RM10) クイックセットアップ {#comet-pro-gl-rm10-quick-setup}
 
 このビデオを見るか、以下の手順に従って Comet Pro をセットアップしてください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/onxj5EEf9Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## デバイスを接続する
+## デバイスを接続する {#connect-devices}
 
 明確にするために、デバイス A は制御側デバイスを指し、デバイス B は制御側デバイスを指します。
 
@@ -34,13 +34,13 @@
 
 5. デバイスの接続が完了しました。これで、Comet Pro のコンソールにローカルまたはリモートでアクセスできるようになりました。
 
-## ローカル アクセス
+## ローカル アクセス {#local-access}
 
 ローカル ネットワーク上で Comet Pro にアクセスするには、ドメイン名または IP アドレスを使用する 2 つの方法があります。
 
 アクセスする前に、制御側デバイスが Comet Pro と同じ LAN 上にあることを確認してください。
 
-### ドメイン
+### ドメイン {#domain}
 
 1. 制御側デバイスでブラウザを起動します。互換性を高めるために Chrome または Edge をお勧めします。
 
@@ -54,7 +54,7 @@
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-### IPアドレス
+### IPアドレス {#ip-address}
 
 1. タッチスクリーンで Comet Pro の IP アドレスを見つけます。この例では、Comet Pro の IP アドレスは `192.168.8.197` です。
 
@@ -68,11 +68,11 @@
 
     ![local access via ip](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_ip_2.jpg){class="glboxshadow"}
 
-## リモート アクセス
+## リモート アクセス {#remote-access}
 
 Comet Pro にリモートでアクセスするには、クラウド サービス、GLKVM アプリ、Tailscale、ZeroTier、NetBird 経由など、複数の方法があります。
 
-### クラウド サービス
+### クラウド サービス {#cloud-service}
 
 1. デバイスを KVM クラウドにバインドします。これはローカル ネットワーク上で行う必要があります。
 
@@ -112,7 +112,7 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-### GLKVM アプリ
+### GLKVM アプリ {#glkvm-app}
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
@@ -188,7 +188,7 @@ Comet Pro にリモートでアクセスするには、クラウド サービス
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet Pro は Tailscale と統合され、Tailscale 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -198,7 +198,7 @@ Comet Pro は Tailscale と統合され、Tailscale 仮想ネットワーク経�
 
 詳細は[こちら](../../faq/remote_access_via_tailscale.md){target="_blank"}をご参照ください。
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet Pro は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由でリモート アクセスできるようになります。
 
@@ -208,7 +208,7 @@ Comet Pro は ZeroTier と統合され、ZeroTier 仮想ネットワーク経由
 
 詳しくは[こちら](../../faq/remote_access_via_zerotier.md){target="_blank"}をご覧ください。
 
-### NetBird
+### NetBird {#netbird}
 
 Comet Pro は NetBird と統合され、NetBird 仮想ネットワーク経由でリモート アクセスできるようになります。
 

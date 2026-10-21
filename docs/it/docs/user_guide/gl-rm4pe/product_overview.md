@@ -1,4 +1,4 @@
-# Panoramica di Comet X (GL-RM4PE)
+# Panoramica di Comet X (GL-RM4PE) {#comet-x-gl-rm4pe-overview}
 
 ## Aspetto { #appearance }
 

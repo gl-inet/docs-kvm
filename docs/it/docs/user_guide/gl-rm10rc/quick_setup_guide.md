@@ -1,4 +1,4 @@
-# Configurazione rapida di Comet 5G (GL-RM10RC)
+# Configurazione rapida di Comet 5G (GL-RM10RC) {#comet-5g-gl-rm10rc-quick-setup}
 
 Guardare questo video o seguire i passaggi riportati di seguito per configurare Comet 5G.
 
@@ -205,7 +205,7 @@ Prima dell'accesso, verificare che il dispositivo di controllo si trovi sulla st
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet 5G integra Tailscale e consente l'accesso remoto tramite la sua rete virtuale.
 
@@ -215,7 +215,7 @@ Associare quindi il dispositivo di controllo allo stesso account. Sarà possibil
 
 Per i dettagli, consultare [questa guida](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet 5G integra ZeroTier e consente l'accesso remoto tramite la sua rete virtuale.
 
@@ -225,7 +225,7 @@ Collegare quindi Comet 5G e il dispositivo di controllo alla stessa rete ZeroTie
 
 Per i dettagli, consultare [questa guida](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 
-### NetBird
+### NetBird {#netbird}
 
 Comet 5G integra NetBird e consente l'accesso remoto tramite la sua rete virtuale.
 

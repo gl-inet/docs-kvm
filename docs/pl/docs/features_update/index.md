@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Nowości w firmware
+# Nowości w firmware {#features-update}
 
 Poznaj najważniejsze nowe funkcje, usprawnienia i zmiany strukturalne w najnowszej wersji firmware.
 

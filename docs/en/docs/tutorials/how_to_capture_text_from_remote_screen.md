@@ -1,4 +1,4 @@
-# How to capture text from the remote screen
+# How to capture text from the remote screen {#how-to-capture-text-from-the-remote-screen}
 
 The Text Recognition feature allows you to select an area on the remote screen to easily extract text. It is driven by Optical Character Recognition (OCR) technology and was introduced in firmware v1.9.0.
 
@@ -6,7 +6,7 @@ With this feature, you can easily capture text from the remote screen (i.e., the
 
 Follow the steps below to capture text from the remote screen.
 
-## Firmware v1.10 and above
+## Firmware v1.10 and above {#firmware-v110-and-above}
 
 1. Log in your KVM console, and navigate to **Toolbox** -> **OCR**. Click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
 
@@ -24,7 +24,7 @@ Follow the steps below to capture text from the remote screen.
 
     ![OCR recognition 4](https://static.gl-inet.com/docs/kvm/tutorials/text_recognition/ocr_recognition_4.png){class="glboxshadow"}
 
-## Firmware v1.9.x
+## Firmware v1.9.x {#firmware-v19x}
 
 1. Log in to your KVM console. Click the downward arrow to select your preferred recognition language, such as Chinese, English, or bilingual (Zh/En).
 

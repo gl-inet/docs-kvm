@@ -1,4 +1,4 @@
-# ZeroTier 経由で KVM にリモートでアクセスする方法
+# ZeroTier 経由で KVM にリモートでアクセスする方法 {#how-to-access-kvm-remotely-via-zerotier}
 
 > 注: この機能を使用する前に、KVM ファームウェアを v1.8.0 にアップグレードしてください。
 
@@ -6,7 +6,7 @@ GL.iNet KVM は ZeroTier を統合し、リモート アクセスのために Ze
 
 ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の手順に従います。
 
-## ZeroTier を有効にする
+## ZeroTier を有効にする {#enable-zerotier}
 
 **始める前に、KVM と制御側デバイスを同じローカル ネットワークに接続してください。**
 
@@ -24,7 +24,7 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
     ![enable zerotier](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/2_enable_zerotier.png){class="glboxshadow"}
 
-## KVM を ZeroTier にバインド
+## KVM を ZeroTier にバインド {#bind-kvm-to-zerotier}
 
 1. [ZeroTier](https://my.zerotier.com/){target="_blank"} に初めてサインインする場合は、ZeroTier Central を選択する必要がある場合があります。
 
@@ -72,7 +72,7 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
     ![authorized2](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/10_authorized2.png){class="glboxshadow"}
 
-## 制御側デバイスをバインドする
+## 制御側デバイスをバインドする {#bind-the-controlling-device}
 
 以下の例は、Windows ラップトップ (制御側デバイスとして) を ZeroTier ネットワークにバインドする方法を示しています。
 
@@ -98,7 +98,7 @@ ZeroTier 経由で GL.iNet KVM にリモート アクセスするには、次の
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 
-## ZeroTier 経由のリモート アクセス
+## ZeroTier 経由のリモート アクセス {#remote-access-via-zerotier}
 
 以下の例は、ZeroTier IP アドレスを介して KVM コンソールにリモート アクセスする方法を示しています。
 

@@ -1,4 +1,4 @@
-# Jak zmniejszyć częstotliwość wykrywania publicznego adresu IP przez STUN
+# Jak zmniejszyć częstotliwość wykrywania publicznego adresu IP przez STUN {#how-to-reduce-stun-public-ip-detection-frequency}
 
 Urządzenie KVM używa żądań STUN do wykrywania publicznego adresu IP na potrzeby zdalnego dostępu. Domyślnie wysyła je w regularnych odstępach czasu. Jeśli uzyskujesz dostęp do KVM wyłącznie przez sieć lokalną lub VPN, możesz zmienić konfigurację, aby zmniejszyć częstotliwość żądań STUN.
 

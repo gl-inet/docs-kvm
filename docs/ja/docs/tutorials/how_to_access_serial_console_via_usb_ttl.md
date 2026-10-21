@@ -1,4 +1,4 @@
-# USB TTL 経由でシリアル コンソールにアクセスする方法
+# USB TTL 経由でシリアル コンソールにアクセスする方法 {#how-to-access-serial-console-via-usb-ttl}
 
 シリアル デバッグに USB TTL アダプターを使用するには、次の手順に従います。
 

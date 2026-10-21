@@ -1,10 +1,10 @@
-# So greifen Sie lokal per Browser auf das KVM zu
+# So greifen Sie lokal per Browser auf das KVM zu {#how-to-access-the-kvm-locally-via-browser}
 
 Bevor Sie beginnen, stellen Sie bitte sicher, dass sich das steuernde Gerät und das KVM im selben LAN befinden.
 
 Es gibt zwei Möglichkeiten, per Webbrowser lokal auf das KVM zuzugreifen: über einen Domainnamen oder über eine IP-Adresse.
 
-## Lokaler Zugriff per Domain
+## Lokaler Zugriff per Domain {#local-access-via-domain}
 
 1. Öffnen Sie auf dem steuernden Gerät einen Browser. Chrome oder Edge wird wegen besserer Kompatibilität empfohlen.
 
@@ -16,7 +16,7 @@ Es gibt zwei Möglichkeiten, per Webbrowser lokal auf das KVM zuzugreifen: über
 
     ![local access via domain](https://static.gl-inet.com/docs/kvm/faq/local_access_controlled_device_via_browser/local_access_domain_2.jpg){class="glboxshadow"}
 
-## Lokaler Zugriff per IP-Adresse
+## Lokaler Zugriff per IP-Adresse {#local-access-via-ip-address}
 
 Suchen Sie die IP-Adresse Ihres KVM im vorgelagerten Netzwerk (z. B. auf Ihrem Router) und geben Sie diese IP-Adresse im Browser ein. Danach können Sie lokal auf Ihr KVM und damit auf das gesteuerte Gerät zugreifen.
 

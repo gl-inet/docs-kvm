@@ -1,4 +1,4 @@
-# Was tun, wenn der Remote-Bildschirm nur das Desktop-Hintergrundbild anzeigt
+# Was tun, wenn der Remote-Bildschirm nur das Desktop-Hintergrundbild anzeigt {#what-should-i-do-if-the-remote-screen-only-displays-the-desktop-wallpaper}
 
 Wenn Sie beim Zugriff auf das gesteuerte Gerät über KVM nur das Desktop-Hintergrundbild sehen und keine Bedienung reagiert, verwendet Ihr gesteuertes Gerät wahrscheinlich mehrere Monitore im Modus **Extend Displays**.
 

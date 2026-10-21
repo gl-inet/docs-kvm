@@ -1,4 +1,4 @@
-# So greifen Sie per Cloud remote auf KVM zu
+# So greifen Sie per Cloud remote auf KVM zu {#how-to-access-kvm-remotely-via-cloud}
 
 Bevor Sie beginnen, stellen Sie bitte sicher:
 
@@ -10,7 +10,7 @@ Bevor Sie beginnen, stellen Sie bitte sicher:
 
 Führen Sie die folgenden Schritte aus, um über den Cloud-Dienst remote auf Ihr KVM und das gesteuerte Gerät zuzugreifen.
 
-## KVM an die Cloud binden
+## KVM an die Cloud binden {#bind-your-kvm-to-the-cloud}
 
 Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: reguläre Bindung oder Bindung per dynamischem Code.
 
@@ -18,7 +18,7 @@ Es gibt zwei Möglichkeiten, Ihr KVM an die Cloud zu binden: reguläre Bindung o
 
 - **Bindung per dynamischem Code**: Klicken Sie in der KVM-Konsole auf "Bind With Code". Danach wird zufällig ein 8-stelliger dynamischer Code für das Binden des Geräts erzeugt. Melden Sie sich bei Ihrem Cloud-Konto an und geben Sie den Code ein, um das Binden abzuschließen.
 
-### Reguläre Bindung
+### Reguläre Bindung {#regular-binding}
 
 Melden Sie sich lokal per IP-Adresse oder Domain bei Ihrem KVM an und navigieren Sie oben rechts zu **Cloud Service**. Klicken Sie auf **Bind To Cloud**.
 
@@ -36,7 +36,7 @@ Warten Sie kurz, bis Ihr Gerät erfolgreich an Ihr Konto gebunden wurde. Klicken
 
 ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow"}
 
-### Bindung per dynamischem Code
+### Bindung per dynamischem Code {#dynamic-code-binding}
 
 Hinweis: Bitte aktualisieren Sie die Firmware Ihres KVM auf Version 1.7, bevor Sie diese Funktion verwenden.
 
@@ -72,7 +72,7 @@ Hinweis: Bitte aktualisieren Sie die Firmware Ihres KVM auf Version 1.7, bevor S
 
     Anschließend wird das Gerät erfolgreich an Ihr Cloud-Konto gebunden.
 
-## Fernzugriff über die Cloud
+## Fernzugriff über die Cloud {#remote-access-via-cloud}
 
 Öffnen Sie einen Browser (hier Google Chrome als Beispiel) und geben Sie `glkvm.com` in die Adressleiste ein. Sie sehen eine Anmeldeseite. Melden Sie sich mit Ihrem glinet-Konto an.
 

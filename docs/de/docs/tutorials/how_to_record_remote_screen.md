@@ -1,4 +1,4 @@
-# Remote-Bildschirm aufzeichnen
+# Remote-Bildschirm aufzeichnen {#how-to-record-remote-screen}
 
 Sie koennen den Bildschirm des gesteuerten Geraets aufnehmen und die Videodatei lokal auf Ihrem KVM-Geraet speichern.
 

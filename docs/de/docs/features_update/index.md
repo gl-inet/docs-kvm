@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Funktionsupdates
+# Funktionsupdates {#features-update}
 
 Informieren Sie sich ueber die wichtigsten neuen Funktionen, funktionalen Verbesserungen und strukturellen Anpassungen der neuesten Firmware-Version.
 

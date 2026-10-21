@@ -1,4 +1,4 @@
-# Mauslatenz beheben, wenn RPi4 RPi3 über KVM steuert
+# Mauslatenz beheben, wenn RPi4 RPi3 über KVM steuert {#how-to-fix-mouse-latency-when-rpi4-controls-rpi3-via-kvm}
 
 Wenn Sie RPi3 remote von RPi4 über KVM bedienen, kann eine Mausverzoegerung auftreten, die normalerweise mehrere Sekunden dauert.
 

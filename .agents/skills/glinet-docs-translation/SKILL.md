@@ -24,6 +24,7 @@ If a task touches both languages, read both references before editing.
 - Keep product names, model names, protocol names, brand names, standards, firmware versions, IP addresses, URLs, port numbers, file names, and technical values unchanged unless the target language has an official localized form.
 - Preserve actual product UI labels when they appear in screenshots or navigation paths. Do not invent localized UI labels that are not shown in the product.
 - Preserve Markdown structure: headings, admonitions, numbered steps, bullet lists, tables, images, links, custom anchors, and separators.
+- Every heading in every language carries an explicit ID, for example `## Local Access {#local-access}`. Localized headings use the ID of the matching English heading: translate the heading text, never the ID. After adding or editing headings or anchor links, run `python scripts/anchors.py check`.
 - Keep image URLs unchanged. Keep relative links unchanged unless the localized target path intentionally differs.
 - Remove machine-translation artifacts and unintended source-language fragments from localized prose.
 - Check technical words such as `all`, `only`, `must`, `default`, `enabled`, `disabled`, `remote`, `local`, `client`, `host`, and `does not` carefully because they often change device behavior.

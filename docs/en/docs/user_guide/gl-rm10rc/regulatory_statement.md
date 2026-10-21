@@ -1,4 +1,4 @@
-# Regulatory Statement
+# Regulatory Statement {#regulatory-statement}
 
 **FCC ID: 2AFIW-RM10RC**
 

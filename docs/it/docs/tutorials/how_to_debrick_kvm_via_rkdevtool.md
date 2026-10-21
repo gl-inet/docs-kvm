@@ -1,8 +1,8 @@
-# Come ripristinare il KVM tramite RKDevTool
+# Come ripristinare il KVM tramite RKDevTool {#how-to-unbrick-kvm-via-rkdevtool}
 
 Questo tutorial spiega come ripristinare un KVM GL.iNet con RKDevTool. Si applica ai casi in cui il KVM è bloccato e non può essere ripristinato tramite un normale aggiornamento del firmware o la modalità di ripristino U-Boot.
 
-## Preparazione
+## Preparazione {#preparation}
 
 Prepara i seguenti strumenti per il ripristino.
 
@@ -16,7 +16,7 @@ Prepara i seguenti strumenti per il ripristino.
 
     Si consiglia di eseguire il backup dei dati importanti prima di iniziare il ripristino.
 
-## Procedura di ripristino
+## Procedura di ripristino {#unbrick-steps}
 
 Per evitare che il ripristino non riesca, segui i passaggi nell'ordine indicato.
 

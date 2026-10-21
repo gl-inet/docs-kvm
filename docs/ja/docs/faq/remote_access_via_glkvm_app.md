@@ -1,10 +1,10 @@
-# GLKVM アプリ経由で KVM にリモートでアクセスする方法
+# GLKVM アプリ経由で KVM にリモートでアクセスする方法 {#how-to-access-kvm-remotely-via-glkvm-app}
 
 始める前に、被制御デバイスが GL.iNet KVM に正しく接続されており、KVM が安定したネットワークに接続されていることを確認してください。
 
 GLKVM アプリを介して KVM および被制御デバイスにリモートでアクセスするには、以下の手順に従ってください。
 
-## インストールしてログイン
+## インストールしてログイン {#install-and-log-in}
 
 1. [GLKVM アプリ](https://www.gl-inet.com/app-rm/){target="_blank"} を制御側デバイスにインストールします。
 
@@ -16,7 +16,7 @@ GLKVM アプリを介して KVM および被制御デバイスにリモートで
 
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
-## KVM をバインドします
+## KVM をバインドします {#bind-your-kvm}
 
 ログイン後、以下のようなページが表示されます。 「**Add Device**」をクリックします。
 
@@ -24,7 +24,7 @@ KVM をバインドするには、自動検出、S/N コード、および動的
 
 ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-### 自動検出
+### 自動検出 {#auto-discover}
 
 これはローカル ネットワーク内で行う必要があります。 KVM と制御側デバイスが同じ LAN 上にあることを確認してください。
 
@@ -36,7 +36,7 @@ KVM をバインドするには、自動検出、S/N コード、および動的
 
     ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
 
-### S/N コード
+### S/N コード {#sn-code}
 
 この方法は、KVM が検出されない、または同じ LAN 上にないが、シリアル番号 (S/N) はわかっているというシナリオに適用されます。
 
@@ -46,7 +46,7 @@ KVM をバインドするには、自動検出、S/N コード、および動的
 
     ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
 
-### 動的バインディング コード
+### 動的バインディング コード {#dynamic-binding-code}
 
 この機能を使用する前に、KVM ファームウェアを v1.7 にアップグレードしてください。
 
@@ -66,7 +66,7 @@ KVM をバインドするには、自動検出、S/N コード、および動的
 
     ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
-## リモート アクセス
+## リモート アクセス {#remote-access}
 
 KVM デバイスがアカウントにバインドされると、アプリに「オンライン」と表示されます。
 

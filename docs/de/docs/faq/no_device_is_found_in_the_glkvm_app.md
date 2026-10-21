@@ -1,4 +1,4 @@
-# Was kann ich tun, wenn in der GLKVM App kein Gerät gefunden wird
+# Was kann ich tun, wenn in der GLKVM App kein Gerät gefunden wird {#what-should-i-do-if-no-device-is-found-in-the-glkvm-app}
 
 Wenn Sie ein KVM-Gerät zum ersten Mal hinzufügen und **Auto Discover** auswählen, kann die GLKVM App **No device found** anzeigen.
 

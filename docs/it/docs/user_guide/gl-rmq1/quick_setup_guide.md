@@ -1,4 +1,4 @@
-# Configurazione rapida di Comet Q (GL-RMQ1)
+# Configurazione rapida di Comet Q (GL-RMQ1) {#comet-q-gl-rmq1-quick-setup}
 
 Guardare questo video o seguire i passaggi riportati di seguito per configurare Comet Q.
 
@@ -180,7 +180,7 @@ Prima dell'accesso, verificare che il dispositivo di controllo si trovi sulla st
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet Q integra Tailscale e consente l'accesso remoto tramite la sua rete virtuale.
 
@@ -190,7 +190,7 @@ Associare quindi il dispositivo di controllo allo stesso account. Sarà possibil
 
 Per i dettagli, consultare [questa guida](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet Q integra ZeroTier e consente l'accesso remoto tramite la sua rete virtuale.
 

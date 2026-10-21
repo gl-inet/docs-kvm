@@ -1,4 +1,4 @@
-# ATX ボード (GL-ATXPC) ユーザーガイド
+# ATX ボード (GL-ATXPC) ユーザーガイド {#atx-board-gl-atxpc-user-guide}
 
 ATX ボードは、GL.iNet KVM デバイスのオプションのアクセサリです。スマート電源管理モジュールとして、物理的な電源ボタン操作 (電源オン/オフ/再起動) をシミュレートすることで、被制御デバイスの電源を遠隔制御できます。
 
@@ -8,7 +8,7 @@ ATX ボードは被制御デバイスのシャーシに取り付けられ、よ�
 
 ![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/rm1-and-atx-borad.jpg){class="glboxshadow"}
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 ![inside the box](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/inside-the-box.png){class="glboxshadow gl-80-desktop"}
 
@@ -18,7 +18,7 @@ ATX ボードは被制御デバイスのシャーシに取り付けられ、よ�
 - 1 x USB-A - Type-C ケーブル
 - 1 x ATX ブラケット セット
 
-## ピンアウト
+## ピンアウト {#pin-out}
 
 ![pinout](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/pinout.jpg){class="glboxshadow gl-80-desktop"}
 
@@ -40,19 +40,19 @@ ATX ボードは被制御デバイスのシャーシに取り付けられ、よ�
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/interface.png){class="glboxshadow gl-60-desktop"}
 
-## インストール
+## インストール {#installation}
 
 ATX ボードを取り付けるには、このビデオを視聴するか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1。 ATX ボードとブラケットをネジで固定する
+### 1。 ATX ボードとブラケットをネジで固定する {#1-screw-atx-board-and-bracket}
 
 ATX ボードと ATX ブラケット セットを付属のネジで固定します。
 
 ![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/screwing.jpg){class="glboxshadow gl-90-desktop"}
 
-### 2。 ATXボードをPCケースに取り付ける
+### 2。 ATXボードをPCケースに取り付ける {#2-install-atx-board-into-pc-case}
 
 インターフェース 4 と 5 をそれぞれ制御対象 PC の制御ラインと F_PANEL インターフェースに接続します。
 
@@ -122,7 +122,7 @@ ATX パッケージで提供される 9 ピン ワイヤ セットを使用す�
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install2.png){class="glboxshadow gl-90-desktop"}
 
-### 3。 ATXボードとKVMを接続します
+### 3。 ATXボードとKVMを接続します {#3-connect-atx-board-and-kvm}
 
 付属の USB ケーブルを使用して、ATX ボードの Type-C ポートを KVM デバイス (Comet GL-RM1 など) の USB-A ポートに接続します。
 
@@ -138,7 +138,7 @@ ATX パッケージで提供される 9 ピン ワイヤ セットを使用す�
 
 ![atx power](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/atx_power.png){class="glboxshadow gl-90-desktop"}
 
-## FAQ
+## FAQ {#faq}
 
 **Q1. GL-ATXPC ボードを GL.iNet 以外の KVM デバイスで使用できますか?**
 

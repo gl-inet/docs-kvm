@@ -1,4 +1,4 @@
-# How to access KVM remotely via NetBird
+# How to access KVM remotely via NetBird {#how-to-access-kvm-remotely-via-netbird}
 
 > Note: Please upgrade your KVM firmware to v1.9.0 before using this feature.
 
@@ -8,7 +8,7 @@ GL.iNet KVM integrates NetBird, allowing you to bind it to the NetBird virtual n
 
 Follow these steps to remotely access your GL.iNet KVM via NetBird.
 
-## Bind KVM to NetBird
+## Bind KVM to NetBird {#bind-kvm-to-netbird}
 
 **Before you begin, connect your KVM and the controlling device to the same local network.**
 
@@ -32,7 +32,7 @@ Follow these steps to remotely access your GL.iNet KVM via NetBird.
 
     ![netbird dashboard](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/5-dashboard.png){class="glboxshadow"}
 
-## Bind the controlling device
+## Bind the controlling device {#bind-the-controlling-device}
 
 The example below demonstrates how to bind a Windows laptop (as the controlling device) to the NetBird network.
 
@@ -60,7 +60,7 @@ The example below demonstrates how to bind a Windows laptop (as the controlling 
 
     ![netbird dashboard](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_netbird/10-dashboard.png){class="glboxshadow"}
 
-## Remote access via NetBird
+## Remote access via NetBird {#remote-access-via-netbird}
 
 The example below demonstrates how to remotely access the KVM console via the NetBird virtual IP address.
 

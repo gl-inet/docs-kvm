@@ -1,4 +1,4 @@
-# ATX Board (GL-ATXPC) User Guide
+# ATX Board (GL-ATXPC) User Guide {#atx-board-gl-atxpc-user-guide}
 
 The ATX board is an optional accessory for GL.iNet KVM device. As a smart power management module, it enables remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). 
 
@@ -8,7 +8,7 @@ The ATX board will be installed in the controlled device's chassis, providing mo
 
 ![rm1-and-atx-borad](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/rm1-and-atx-borad.jpg){class="glboxshadow"}
 
-## Package Contents
+## Package Contents {#package-contents}
 
 ![inside the box](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/inside-the-box.png){class="glboxshadow gl-80-desktop"}
 
@@ -18,7 +18,7 @@ The ATX board will be installed in the controlled device's chassis, providing mo
 - 1 x USB-A to Type-C cable
 - 1 x ATX Bracket Set
 
-## PIN-OUT
+## PIN-OUT {#pin-out}
 
 ![pinout](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/pinout.jpg){class="glboxshadow gl-80-desktop"}
 
@@ -40,19 +40,19 @@ Interfaces 4/5 diagram:
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/interface.png){class="glboxshadow gl-60-desktop"}
 
-## Installation
+## Installation {#installation}
 
 Watch this video to install ATX board, or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3VEjZgzgI44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Screw ATX Board and Bracket
+### 1. Screw ATX Board and Bracket {#1-screw-atx-board-and-bracket}
 
 Fix the ATX board and the ATX Bracket Set with the screws provided.
 
 ![screwing](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/screwing.jpg){class="glboxshadow gl-90-desktop"}
 
-### 2. Install ATX Board into PC Case
+### 2. Install ATX Board into PC Case {#2-install-atx-board-into-pc-case}
 
 Connect interfaces 4 and 5 respectively to the controlled PC's control line and F_PANEL interface. 
 
@@ -122,7 +122,7 @@ Then install the ATX board bracket into the computer case.
 
 ![atx board install](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/install2.png){class="glboxshadow gl-90-desktop"}
 
-### 3. Connect ATX Board and KVM
+### 3. Connect ATX Board and KVM {#3-connect-atx-board-and-kvm}
 
 Connect the Type-C port of ATX board to the USB-A port of the KVM device (such as Comet GL-RM1) using the included USB cable.
 
@@ -138,7 +138,7 @@ Now you can log in to your KVM, navigate to **Accessories** to control the ATX p
 
 ![atx power](https://static.gl-inet.com/docs/kvm/user_guide/gl-atx-board/atx_power.png){class="glboxshadow gl-90-desktop"}
 
-## FAQ
+## FAQ {#faq}
 
 **Q1. Can I use the GL-ATXPC board with non-GL.iNet KVM devices?**
 

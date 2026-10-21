@@ -1,4 +1,4 @@
-# Cloud-Konto löschen
+# Cloud-Konto löschen {#how-to-delete-my-cloud-account}
 
 Aus Sicherheitsgründen können Sie Ihr Cloud-Konto löschen, wenn es nicht mehr verwendet wird.
 
@@ -14,7 +14,7 @@ Es gibt zwei Möglichkeiten, Ihr Cloud-Konto zu löschen: über die GLKVM App od
 
 Führen Sie bei Bedarf die folgenden Schritte aus, um Ihr Cloud-Konto zu löschen.
 
-## In der GLKVM App löschen
+## In der GLKVM App löschen {#delete-in-glkvm-app}
 
 1. Melden Sie sich in der GLKVM App an, klicken Sie oben links auf Ihr Profil und dann auf **Settings**.
 
@@ -24,7 +24,7 @@ Führen Sie bei Bedarf die folgenden Schritte aus, um Ihr Cloud-Konto zu lösche
 
     ![app delete 2](https://static.gl-inet.com/docs/kvm/faq/delete_cloud_account/app_delete2.png){class="glboxshadow"}
 
-## In der Cloud löschen
+## In der Cloud löschen {#delete-in-the-cloud}
 
 1. Starten Sie einen Webbrowser auf Ihrem Computer; für bessere Kompatibilität werden Chrome oder Edge empfohlen. Geben Sie `glkvm.com` in die Adressleiste ein und melden Sie sich mit Ihrem Cloud-Konto an.
 

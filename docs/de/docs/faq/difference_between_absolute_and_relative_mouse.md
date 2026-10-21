@@ -1,10 +1,10 @@
-# Was ist der Unterschied zwischen absolutem und relativem Mausmodus
+# Was ist der Unterschied zwischen absolutem und relativem Mausmodus {#what-is-the-difference-between-absolute-mouse-and-relative-mouse}
 
 Beim GL.iNet KVM bietet der **Mouse Mode** in der Konsole zwei Optionen: **Absolute** und **Relative**. Diese beiden Modi unterscheiden sich deutlich im Verhalten der Maussteuerung, in den Einsatzszenarien und in der Bedienerfahrung. Die folgenden Erläuterungen helfen Ihnen, den passenden Modus für Ihren Bedarf auszuwählen.
 
 ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/mouse_mode.jpg){class="glboxshadow"}
 
-## Absoluter Mausmodus
+## Absoluter Mausmodus {#absolute-mouse}
 
 Der absolute Mausmodus ist für eine nahtlose und synchronisierte Maussteuerung zwischen lokalem Computer und Zielgerät ausgelegt. Wenn dieser Modus aktiviert ist, werden die Mauszeiger auf dem lokalen Computer und auf dem Zielgerät demselben Koordinatensystem zugeordnet. Sie können den lokalen Mauszeiger flüssig über die KVM-Konsole und den Remote-Bildschirm bewegen. Der Remote-Zeiger folgt der Bewegung des lokalen Zeigers in Echtzeit.
 
@@ -12,7 +12,7 @@ Während der Nutzung kann eine geringe Verzögerung auftreten. Das ist normal un
 
 ![absolute](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/absolute.gif)
 
-## Relativer Mausmodus
+## Relativer Mausmodus {#relative-mouse}
 
 Anders als der absolute Mausmodus synchronisiert der relative Mausmodus die Koordinaten des lokalen und des entfernten Mauszeigers nicht; beide arbeiten in getrennten Ebenen. Bevor Sie das Zielgerät steuern können, müssen Sie zuerst in das Remote-Fenster klicken, um den Zeigerfokus zu erfassen.
 
@@ -24,7 +24,7 @@ Im relativen Modus können Sie die **Relative Sensitivity** im Bereich von 0.1 b
 
 ![relative sensitivity](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/relative_sensitivity.jpg){class="glboxshadow"}
 
-## Wichtige Unterschiede
+## Wichtige Unterschiede {#key-differences}
 
 | Funktionen           | Absolute Mouse                 | Relative Mouse                 |
 | -------------------- | ------------------------------ | -----------------------------  |
@@ -33,7 +33,7 @@ Im relativen Modus können Sie die **Relative Sensitivity** im Bereich von 0.1 b
 | Verzögerung          | Geringe Verzögerung (Netzwerk/Videocodierung) | Nahezu keine Verzögerung (sendet nur Bewegungsinkremente) |
 | Einsatzszenarien     | Flüssige Multi-Screen-Steuerung, häufiges Wechseln, präzise Positionierung (Remote-Arbeit, Grafikdesign) | Ältere Geräte / BIOS / UEFI ohne Unterstützung für Absolute Mouse; Vermeidung versehentlicher Klicks; instabile Netzwerke (geringere Latenz) |
 
-## Zusammenfassung
+## Zusammenfassung {#summary}
 
 Absolute Mouse priorisiert eine flüssige und integrierte Steuerung, während Relative Mouse auf Kompatibilität und Stabilität ausgelegt ist.
 

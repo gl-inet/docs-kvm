@@ -1,10 +1,10 @@
-# Firmware v1.9
+# Firmware v1.9 {#firmware-v19}
 
 Questa versione introduce nuove funzionalità, migliora l'interazione, rafforza la protezione della privacy e rende le connessioni di rete più affidabili, per un'esperienza KVM remota più completa, stabile e sicura.
 
 Scarica il firmware più recente dal [centro download del firmware](https://dl.gl-inet.com/kvm){target="_blank"}
 
-## Modalità di latenza
+## Modalità di latenza {#latency-mode}
 
 Questo firmware introduce **Latency Mode**, che bilancia la reattività dei comandi e la fluidità del video. Puoi impostarla su Lowest Latency o Smooth Display per ottimizzare le prestazioni del controllo remoto.
 
@@ -13,13 +13,13 @@ Questo firmware introduce **Latency Mode**, che bilancia la reattività dei coma
 - Lowest Latency: riduce al minimo la latenza dei comandi per una risposta più rapida di tastiera e mouse.
 - Smooth Display: ottimizza la visualizzazione per eliminare scatti e perdita di fotogrammi e garantire una riproduzione fluida.
 
-## Usabilità del mouse
+## Usabilità del mouse {#mouse-usability}
 
 La nuova opzione **Primary Button** migliora l'usabilità del mouse. Puoi impostare il pulsante sinistro o destro come pulsante principale in base alle tue abitudini.
 
 ![Pulsante principale](https://static.gl-inet.com/docs/kvm/features_update/1.9/primary_button.png){class="glboxshadow" width="360"}
 
-## Schermo del dispositivo
+## Schermo del dispositivo {#screen-display}
 
 Puoi personalizzare le impostazioni **Screen Display** del KVM tramite il touchscreen, tra cui blocco schermo, sfondo, formato dell'ora (24 ore / 12 ore) e formato della data. Questa funzionalità è disponibile esclusivamente sui modelli dotati di touchscreen.
 
@@ -27,19 +27,19 @@ Inoltre, puoi configurare rapidamente strumenti per reti overlay come Tailscale 
 
 ![Schermo del dispositivo](https://static.gl-inet.com/docs/kvm/features_update/1.9/screen_display.png){class="glboxshadow" width="360"}
 
-## Lingua
+## Lingua {#language}
 
 Le versioni precedenti del firmware supportavano solo cinese e inglese; questa versione aggiunge il supporto nativo del **giapponese** per migliorare l'accessibilità per gli utenti giapponesi.
 
 ![Lingua](https://static.gl-inet.com/docs/kvm/features_update/1.9/language.png){class="glboxshadow" width="360"}
 
-## Estensioni
+## Estensioni {#extensions}
 
 Questa versione integra [NetBird](https://netbird.io/){target="_blank"}, una piattaforma di rete zero trust open source per creare reti private sicure in ambito domestico e aziendale. Basata su WireGuard®, questa soluzione overlay consente di accedere in modo sicuro al KVM da qualsiasi luogo tramite reti virtuali NetBird. Consulta [questa guida](../faq/remote_access_via_netbird.md){target="_blank"} per le istruzioni di configurazione.
 
 ![NetBird](https://static.gl-inet.com/docs/kvm/features_update/1.9/netbird.png){class="glboxshadow"}
 
-## Altri miglioramenti
+## Altri miglioramenti {#other-enhancements}
 
 - Programma firmware beta: gli utenti possono aderire al programma beta per provare le funzionalità prima del rilascio.
 

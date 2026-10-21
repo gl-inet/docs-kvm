@@ -4,11 +4,11 @@
   - toc
 ---
 
-# チュートリアル
+# チュートリアル {#tutorials}
 
 デバイスを正しく使用する方法や、詳細な手順でトラブルシューティングを行う方法を学びます。
 
-## ネットワークとシステム
+## ネットワークとシステム {#network-system}
 
 * [KVM](how_to_set_static_ip_for_comet.md) の静的 IP を設定する方法]
 * [KVM ホスト名](how_to_change_kvm_hostname.md) の変更方法]
@@ -19,25 +19,25 @@
 * [KVM](how_to_disable_ping_icmp_packets.md) からの送信 PING/ICMP パケットを無効にする方法
 * [STUN パブリック IP 検出頻度を減らす方法](how_to_reduce_stun_public_ip_detection_frequency.md)
 
-## クラウド サービス
+## クラウド サービス {#cloud-service}
 
 * [動的コード経由で KVM をクラウドにバインドする方法](how_to_bind_kvm_to_the_cloud_via_dynamic_code.md)
 * [クラウドベースのスクリーンウォール機能の使用方法](how_to_use_screen_wall.md)
 * [KVM デバイスをほかのユーザーと共有する方法](how_to_share_kvm_devices_with_others.md)
 
-## 仮想メディア
+## 仮想メディア {#virtual-media}
 
 * [制御側デバイスと被制御デバイス間でファイルを共有する方法](how_to_share_files_between_controlling_device_and_controlled_device.md)
 * [制御対象のコンピュータにオペレーティング システムをリモートでインストールする方法](how_to_install_os_remotely.md)
 * [リモート画面を録画する方法](how_to_record_remote_screen.md)
 
-## アプリ センター
+## アプリ センター {#apps-center}
 
 * [Tailscale](../faq/remote_access_via_tailscale.md) を介して KVM にリモートでアクセスする方法
 * [ZeroTier](../faq/remote_access_via_zerotier.md) を介して KVM にリモートでアクセスする方法
 * [NetBird](../faq/remote_access_via_netbird.md) 経由で KVM にリモートでアクセスする方法
 
-## トラブルシューティング
+## トラブルシューティング {#troubleshooting}
 
 * [U-Boot 経由で KVM をアンブリックする方法](../faq/debrick.md)
 * [RKDevTool 経由で KVM をアンブリックする方法](how_to_debrick_kvm_via_rkdevtool.md)
@@ -45,6 +45,6 @@
 * [セルラーログのエクスポート方法](how_to_export_cellular_logs.md)
 * [RPi4 が RPi3](how_to_fix_mouse_latency_when_rpi4_controls_rpi3_via_glkvm.md) を制御する場合のマウスの遅延を修正する方法
 
-## ハードウェア & USB
+## ハードウェア & USB {#hardware-usb}
 
 * [USB TTL](how_to_access_serial_console_via_usb_ttl.md) 経由でシリアル コンソールにアクセスする方法

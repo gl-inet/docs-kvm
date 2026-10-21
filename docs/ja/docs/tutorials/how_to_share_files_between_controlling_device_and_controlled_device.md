@@ -1,10 +1,10 @@
-# 制御側デバイスと制御側デバイス間でファイルを共有する方法
+# 制御側デバイスと制御側デバイス間でファイルを共有する方法 {#how-to-share-files-between-controlling-and-controlled-devices}
 
 GL.iNet KVM は、読み取り/書き込み USB ドライブをエミュレートし、制御側デバイスと制御側デバイスの間でファイルを共有および管理できるようにします。
 
 次の手順では、Comet (GL-RM1) を例に説明します。
 
-## 被制御デバイスにファイルを送信する
+## 被制御デバイスにファイルを送信する {#send-files-to-controlled-device}
 
 制御側デバイスから被制御デバイスにファイルを共有するには、次の手順に従います。
 
@@ -39,7 +39,7 @@ GL.iNet KVM は、読み取り/書き込み USB ドライブをエミュレー�
 
     ![stop sharing](https://static.gl-inet.com/docs/kvm/tutorials/share_files_via_virtual_media/stop-sharing1.png){class="glboxshadow"}
 
-## 被制御デバイスからファイルを取得する
+## 被制御デバイスからファイルを取得する {#get-files-from-controlled-device}
 
 被制御デバイスからファイルを受信するには、次の手順に従います。
 

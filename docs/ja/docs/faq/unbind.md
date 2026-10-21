@@ -1,8 +1,8 @@
-# KVM デバイスをクラウドからバインド解除する方法
+# KVM デバイスをクラウドからバインド解除する方法 {#how-to-unbind-my-kvm-device-from-the-cloud}
 
 KVM デバイスをクラウドからバインド解除するには、ローカル アクセス、GLKVM アプリ、またはクラウドの 3 つの方法があります。
 
-## ローカル アクセスによるバインド解除
+## ローカル アクセスによるバインド解除 {#unbind-via-local-access}
 
 1. コンピューターが KVM デバイスと同じローカル エリア ネットワーク上にあることを確認します。
 
@@ -12,7 +12,7 @@ KVM デバイスをクラウドからバインド解除するには、ローカ�
 
     ![unbind via local](https://static.gl-inet.com/docs/kvm/faq/unbind/local_unbind.png){class="glboxshadow"}
 
-## GLKVM アプリ経由でバインド解除
+## GLKVM アプリ経由でバインド解除 {#unbind-via-glkvm-app}
 
 1. GLKVM アプリにログインし、デバイスの右上隅にある **Manage** をクリックします。
 
@@ -22,7 +22,7 @@ KVM デバイスをクラウドからバインド解除するには、ローカ�
 
     ![app unbinding](https://static.gl-inet.com/docs/kvm/faq/unbind/app_unbind_2.png){class="glboxshadow"}
 
-## クラウド経由でバインド解除
+## クラウド経由でバインド解除 {#unbind-via-the-cloud}
 
 1. コンピューターで Web ブラウザーを起動します (互換性を高めるために Chrome または Edge をお勧めします)。アドレスバーに「`glkvm.com`」と入力し、クラウドアカウントでログインします。
 

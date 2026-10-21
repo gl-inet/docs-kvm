@@ -1,10 +1,10 @@
-# How to access KVM remotely via GLKVM app
+# How to access KVM remotely via GLKVM app {#how-to-access-kvm-remotely-via-glkvm-app}
 
 Before you begin, please ensure the controlled device has been connected to the GL.iNet KVM correctly, and the KVM is connected to a stable network.
 
 Follow the steps below to access your KVM and the controlled device remotely via GLKVM app.
 
-## Install and log in
+## Install and log in {#install-and-log-in}
 
 1. Install the [GLKVM App](https://www.gl-inet.com/app-rm/){target="_blank"} on your controlling device.
 
@@ -16,7 +16,7 @@ Follow the steps below to access your KVM and the controlled device remotely via
     
     ![sign up](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/app_signup.png){class="glboxshadow"}
 
-## Bind your KVM
+## Bind your KVM {#bind-your-kvm}
 
 After login, the page will display as follows. Click **Add Device**. 
 
@@ -24,7 +24,7 @@ There are three ways to bind your KVM: Auto Discover, S/N Code, and Dynamic Bind
 
 ![add device](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device.png){class="glboxshadow"}
 
-### Auto Discover
+### Auto Discover {#auto-discover}
 
 This needs to be done within the local network. Please ensure that your KVM and the controlling device are on the same LAN.
 
@@ -36,7 +36,7 @@ This needs to be done within the local network. Please ensure that your KVM and 
 
     ![auto discover 2](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_auto_2.png){class="glboxshadow"}
 
-### S/N Code
+### S/N Code {#sn-code}
 
 This method applies to scenarios where your KVM is not detected, or is not on the same LAN, but you have its serial number (S/N).
 
@@ -46,7 +46,7 @@ This method applies to scenarios where your KVM is not detected, or is not on th
 
     ![sn code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_sn_code.png){class="glboxshadow"}
 
-### Dynamic Binding Code
+### Dynamic Binding Code {#dynamic-binding-code}
 
 Please upgrade your KVM firmware to v1.7 before using this feature.
 
@@ -66,7 +66,7 @@ This needs to be done within the local network. Please ensure that your KVM and 
 
     ![dynamic code](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/add_device_dynamic_code.png){class="glboxshadow"}
 
-## Remote access
+## Remote access {#remote-access}
 
 Once your KVM device is bound to your account, it will show "Online" in the app.
 

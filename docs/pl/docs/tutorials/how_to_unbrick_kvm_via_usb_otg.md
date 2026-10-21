@@ -1,12 +1,12 @@
-# Jak przywrócić działanie KVM przez USB OTG
+# Jak przywrócić działanie KVM przez USB OTG {#how-to-unbrick-kvm-via-usb-otg}
 
 Ten poradnik wyjaśnia, jak przywrócić działanie urządzenia GL.iNet KVM przez USB OTG. Metoda jest odpowiednia, gdy KVM jest niesprawny i nie można go odzyskać przez standardową aktualizację firmware ani tryb awaryjny U-Boot.
 
-## Obsługiwane urządzenia
+## Obsługiwane urządzenia {#supported-devices}
 
 - RMQ1
 
-## Wymagania wstępne
+## Wymagania wstępne {#prerequisites}
 
 Przygotuj następujące narzędzia do odzyskiwania urządzenia.
 
@@ -28,9 +28,9 @@ Przygotuj następujące narzędzia do odzyskiwania urządzenia.
 
 - Aby urządzenie uruchomiło się automatycznie ponownie po wgraniu firmware, przed rozpoczęciem przejdź do **Settings** → **Options** → **Reboot to Normal Mode After Download** i włącz tę opcję. Jeśli opcja jest wyłączona, po zakończeniu wgrywania musisz uruchomić urządzenie ponownie ręcznie, odłączając i ponownie podłączając kabel zasilania.
 
-## Kroki odzyskiwania
+## Kroki odzyskiwania {#unbrick-steps}
 
-### Windows
+### Windows {#windows}
 
 1. Pobierz na komputer firmware U-Boot dla RMQ1 [stąd](https://dl.gl-inet.com/kvm/rmq1/stable) (wybierz **DOWNLOAD FOR USB OTG**).
 
@@ -74,7 +74,7 @@ Przygotuj następujące narzędzia do odzyskiwania urządzenia.
 
     ![Wgrywanie zakończone](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-5.png){class="glboxshadow"}
 
-### macOS / Linux
+### macOS / Linux {#macos-linux}
 
 Oficjalne narzędzie AXDL działa wyłącznie w Windows. W macOS i Linux możesz użyć axdl-rs — nieoficjalnego narzędzia open source do wgrywania obrazów Axera, napisanego w Rust.
 

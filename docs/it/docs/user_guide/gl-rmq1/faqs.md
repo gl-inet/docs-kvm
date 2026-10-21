@@ -1,4 +1,4 @@
-# Domande frequenti su Comet Q
+# Domande frequenti su Comet Q {#frequently-asked-questions-about-comet-q}
 
 ## Informazioni generali { #general }
 
@@ -18,7 +18,7 @@
 
     **Suggerimento**: Quando le app per chiamate vocali non sono attive, l'audio multimediale (video, musica, giochi, ecc.) può essere trasmesso normalmente al dispositivo di controllo tramite KVM.
 
-## iOS
+## iOS {#ios}
 
 1. **D: Perché non riesco a regolare il volume di sistema dei dispositivi iOS dopo il collegamento a Comet Q?**
 
@@ -53,7 +53,7 @@
 
     Per risolvere il problema, aprire **Settings** > **Accessibility** > **Touch** > **AssistiveTouch** > **Mouse Keys** e disattivare Mouse Keys.
 
-## Android
+## Android {#android}
 
 1. **D: Perché non riesco a controllare il dispositivo in modalità mouse assoluta?**
 

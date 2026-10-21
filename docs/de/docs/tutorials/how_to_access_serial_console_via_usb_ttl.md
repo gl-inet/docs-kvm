@@ -1,4 +1,4 @@
-# Auf die serielle Konsole ueber USB TTL zugreifen
+# Auf die serielle Konsole ueber USB TTL zugreifen {#how-to-access-serial-console-via-usb-ttl}
 
 Fuehren Sie die folgenden Schritte aus, um den USB TTL-Adapter fuer serielles Debugging zu verwenden:
 

@@ -1,8 +1,8 @@
-# KVM Cloud のプランの選び方
+# KVM Cloud のプランの選び方 {#which-kvm-cloud-service-plan-is-right-for-you}
 
 KVM Cloud サービスには、無料の Standard プランと有料の Advanced プランがあります。スクリーンウォールとデバイス共有は、Advanced プランでのみ利用できるプレミアム機能です。以下の表で各プランの機能を比較できます。必要に応じて Advanced プランにアップグレードしてください。
 
-## 機能比較
+## 機能比較 {#benefits-comparison}
 
 | 主な機能 | Standard | Advanced |
 | ---- | ---- | ---- |

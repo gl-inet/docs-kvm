@@ -1,4 +1,4 @@
-# Configurazione rapida di Comet (GL-RM1) V1/V2
+# Configurazione rapida di Comet (GL-RM1) V1/V2 {#comet-gl-rm1-v1v2-quick-setup}
 
 Guardare questo video o seguire i passaggi riportati di seguito per configurare Comet.
 
@@ -188,7 +188,7 @@ Prima dell'accesso, verificare che il dispositivo di controllo si trovi sulla st
 
     ![connected access](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_glkvm_app/connected_access.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet integra Tailscale e consente l'accesso remoto tramite la sua rete virtuale.
 
@@ -198,7 +198,7 @@ Associare quindi il dispositivo di controllo allo stesso account. Sarà possibil
 
 Per i dettagli, consultare [questa guida](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet integra ZeroTier e consente l'accesso remoto tramite la sua rete virtuale.
 
@@ -208,7 +208,7 @@ Collegare quindi Comet e il dispositivo di controllo alla stessa rete ZeroTier, 
 
 Per i dettagli, consultare [questa guida](../../faq/remote_access_via_zerotier.md){target="_blank"}.
 
-### NetBird
+### NetBird {#netbird}
 
 Comet integra NetBird e consente l'accesso remoto tramite la sua rete virtuale.
 

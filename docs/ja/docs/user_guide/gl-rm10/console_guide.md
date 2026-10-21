@@ -1,6 +1,6 @@
-# Comet Pro (GL-RM10) コンソール ガイド
+# Comet Pro (GL-RM10) コンソール ガイド {#comet-pro-gl-rm10-console-guide}
 
-## セッション
+## セッション {#session}
 
 コンソールで、**Session**に移動します。設定ページには 4 つのセクションが含まれています。
 
@@ -9,7 +9,7 @@
 - [キーボード](#keyboard)
 - [マウス](#mouse)
 
-### ビデオ
+### ビデオ {#video}
 
 表示モード、ビデオ品質、ビデオ送信、画面の向き、EDID など、セッション上のビデオ設定をカスタマイズできます。
 
@@ -67,7 +67,7 @@
 
     **Note**: この機能はファームウェア v1.10.0 で導入され、WebRTC (FEC) モードでのみサポートされます。現時点では、Web ブラウザ経由でのみアクセスできます。アプリとデスクトップ クライアントのサポートはまだ利用できません。
 
-### キーボード
+### キーボード {#keyboard}
 
 キーボードを使用すると、被制御デバイスでのキーボード使用の設定を構成できます。
 
@@ -81,7 +81,7 @@
 
 - **Swap Command and Ctrl for MacOS**: この機能は、Cmd キーと Ctrl キーを交換して、さまざまなオペレーティング システム間でキーボードの互換性を確保します。
 
-### マウス
+### マウス {#mouse}
 
 マウスの設定を調整して、被制御デバイスのエクスペリエンスを向上させることができます。
 
@@ -111,7 +111,7 @@
 
 - **Primary Button**: プライマリ クリックとして左ボタンまたは右ボタンを選択します。この機能はファームウェア v1.9.0 で導入されました。
 
-## ツールボックス
+## ツールボックス {#toolbox}
 
 コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 5 つのセクションが含まれています。
 
@@ -121,13 +121,13 @@
 - [ウェイク オン Lan](#wake-on-lan)
 - [端末](#terminal)
 
-### クリップボード
+### クリップボード {#clipboard}
 
 クリップボードを使用すると、ファイルを転送することなく、制御側デバイスから被制御デバイスにテキストを簡単に貼り付けることができます。
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox_clipboard.png){class="glboxshadow"}
 
-### OCR
+### OCR {#ocr}
 
 OCR はテキスト認識機能で、リモート画面上の領域を選択し、そこからテキストを簡単に抽出できます。この機能はファームウェア v1.9.0 で導入されました。
 
@@ -141,7 +141,7 @@ OCR はテキスト認識機能で、リモート画面上の領域を選択し�
 
 この機能を使用すると、リモート画面 (つまり、被制御デバイス) からテキストを簡単にキャプチャし、それをローカル制御側デバイスにコピーできます。
 
-### ショートカット
+### ショートカット {#shortcut}
 
 ショートカットを使用すると、仮想キーボードを使用せずにアクションをより速く実行できるため、より効率的に作業し、日常業務の時間を節約できます。ここでいくつかの一般的なショートカットを見つけることができます。
 
@@ -151,7 +151,7 @@ OCR はテキスト認識機能で、リモート画面上の領域を選択し�
 
 ![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox_shorcut_modify.png){class="glboxshadow"}
 
-### ウェイク オン ラン
+### ウェイク オン ラン {#wake-on-lan}
 
 Wake-on-LAN (WOL) は、被制御デバイスの電源をリモートでオンにしたり、低電力状態から復帰したりできるようにするテクノロジーです。
 
@@ -165,7 +165,7 @@ Wake-on-LAN (WOL) は、被制御デバイスの電源をリモートでオン�
 
 ![wol-add-manually](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/wol-add-manually.png){class="glboxshadow"}
 
-### ターミナル
+### ターミナル {#terminal}
 
 Comet Pro の端末にアクセスして、詳細な設定を行うことができます。 「**Access**」をクリックします。
 
@@ -175,7 +175,7 @@ GLKVM ターミナルにリダイレクトされます。
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/toolbox-terminal-2.png){class="glboxshadow"}
 
-## アクセサリー
+## アクセサリー {#accessories}
 
 GL.iNet は、デバイスの電源オン/オフをリモート制御するためのオプションの KVM アクセサリを提供します。
 
@@ -187,7 +187,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 2 番目に、KVM コンソールにログインし、**Accessories** に移動します。アクセサリの設定は、アクセサリをインストールした後にのみ使用できます。
 
-### フィンガーボット
+### フィンガーボット {#fingerbot}
 
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
 
@@ -205,7 +205,7 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
-### ATX 電源
+### ATX 電源 {#atx-power}
 
 ATX ボードはコンピューター ケースに取り付けられており、デバイスの電源オン/オフ/再起動をリモートで制御します。
 
@@ -219,7 +219,7 @@ ATX ボードはコンピューター ケースに取り付けられており、
 
 - **Restart**: デバイスを再起動します。
 
-## 仮想メディア
+## 仮想メディア {#virtual-media}
 
 コンソールで、**Virtual Media**に移動します。ここでは次の操作を実行できます。
 
@@ -230,7 +230,7 @@ ATX ボードはコンピューター ケースに取り付けられており、
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/virtual-media.png){class="glboxshadow"}
 
-### ファイル共有
+### ファイル共有 {#file-sharing}
 
 Comet Pro は、読み取り/書き込み USB ドライブをエミュレートし、制御側デバイスと制御側デバイスの間でファイルを共有および管理できるようにします。
 
@@ -281,7 +281,7 @@ Comet Pro は、読み取り/書き込み USB ドライブをエミュレート�
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/file-shared.png){class="glboxshadow"}
 
-### イメージのマウント
+### イメージのマウント {#image-mounting}
 
 Comet Pro は、被制御デバイス上の読み取り専用の仮想 CD/DVD またはディスク ドライブをシミュレートできます。 BIOS または UEFI 起動プロセス中にこのドライブにアクセスできます。
 
@@ -305,13 +305,13 @@ Comet Pro は、被制御デバイス上の読み取り専用の仮想 CD/DVD �
 
     ![image mount4](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/image-mount4.png){class="glboxshadow"}
 
-### ストレージ ドライブを交換する
+### ストレージ ドライブを交換する {#replace-storage-drive}
 
 USB ストレージ デバイスを KVM USB ポートに挿入して、内部ストレージを置き換えることができます。
 
 ![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/replace-storage.png){class="glboxshadow"}
 
-### ディスクをフォーマットします
+### ディスクをフォーマットします {#format-disk}
 
 ワンクリックでディスクをフォーマットしたり、仮想メディアを無効にしたりできます。
 
@@ -321,13 +321,13 @@ USB ストレージ デバイスを KVM USB ポートに挿入して、内部ス
 
 - **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
-## アプリ センター
+## アプリ センター {#apps-center}
 
 コンソールで、**Apps Center**に移動します。統合されたアプリケーションはここにあります。
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} は、ポート転送や複雑なファイアウォール設定を行わずに、デバイス間で暗号化されたピアツーピア プライベート ネットワークを構築する WireGuard ベースのメッシュ VPN サービスです。
 
@@ -339,7 +339,7 @@ Comet Pro と制御側デバイスを同じ Tailscale アカウントにバイ�
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} は、暗号化されたオーバーレイ仮想ネットワークを作成し、分散したデバイスをあたかも同じローカル エリア ネットワーク内にあるかのようにグローバルに接続します。
 
@@ -351,7 +351,7 @@ Comet Pro と制御側デバイスを同じ ZeroTier ネットワークに参加
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} は、家庭用およびビジネス用の安全なプライベート ネットワークを構築できるオープンソースのゼロトラスト ネットワーキング プラットフォームです。 WireGuard® ベースのオーバーレイ ネットワークとして、NetBird は、いつでもどこでもデバイスへの安全なアクセスを可能にします。
 
@@ -361,13 +361,13 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/netbird-enabled.png){class="glboxshadow"}
 
-## ヘルプ
+## ヘルプ {#help}
 
 コンソールで、**Help**に移動します。ここでは、GL.iNet KVM に関する詳細情報とヘルプ ドキュメント、およびトラブルシューティングのためのログをエクスポートできます。
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/help.png){class="glboxshadow"}
 
-## ツールバー
+## ツールバー {#toolbar}
 
 コンソールで、右上隅に移動して次のツールにアクセスします。
 
@@ -378,7 +378,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 - [クラウドサービス](#cloud-service)
 - [ログアウト](#logout)
 
-### 折りたたむ
+### 折りたたむ {#collapse}
 
 右上隅の上向き矢印アイコンをクリックして、ツールバーを折りたたみます。
 
@@ -388,7 +388,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/collapse_2.png){class="glboxshadow"}
 
-### フルスクリーン
+### フルスクリーン {#fullscreen}
 
 右上隅の全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
 
@@ -398,7 +398,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/fullscreen_2.png){class="glboxshadow"}
 
-### アップグレード
+### アップグレード {#upgrade}
 
 右上隅にあるファームウェアのバージョンをクリックして、アップデートを確認します。
 
@@ -412,7 +412,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ローカル アップグレードを実行する前に、[ファームウェア ダウンロード センター](https://dl.gl-inet.com/kvm){target="_blank"}から最新のファームウェアをダウンロードしてください。
 
-### 接続統計
+### 接続統計 {#connection-stats}
 
 接続統計には、遅延、ジッター、その他のリアルタイム メトリックを監視するデータ ダッシュボードが含まれています。
 
@@ -424,7 +424,7 @@ Comet Pro は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![data dashboard 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/data_dashboard_2.png){class="glboxshadow"}
 
-### クラウド サービス
+### クラウド サービス {#cloud-service}
 
 GL.iNet KVM クラウドを使用すると、制御対象のデバイスにリモートからアクセスできます。詳細は[こちら](../../faq/remote_access_via_cloud.md){target="_blank"}をご参照ください。
 
@@ -432,12 +432,12 @@ Comet Pro がクラウドにバインドされると、コンソールには次�
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/cloud.png){class="glboxshadow"}
 
-### ログアウト
+### ログアウト {#logout}
 
 ログアウトするには、「ログアウト」アイコンをクリックします。
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/logout.png){class="glboxshadow"}
 
-## 設定
+## 設定 {#settings}
 コンソールで、ナビゲーション バーの [設定] アイコンをクリックして、次の [設定] ページを開きます。この機能はファームウェア v1.10.0 で導入されました。
 
 - [USB デバイス](#usb-devices)
@@ -449,7 +449,7 @@ Comet Pro がクラウドにバインドされると、コンソールには次�
 
 ![Settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting.png){class="glboxshadow"}
 
-### USB デバイス
+### USB デバイス {#usb-devices}
 
 USB デバイスは、すべての USB エミュレーション デバイスを集中管理します。このページから、制御対象のホストとの互換性を高めるために、仮想ペリフェラルのオンとオフを切り替えることができます。
 
@@ -469,7 +469,7 @@ USB デバイスは、すべての USB エミュレーション デバイスを�
 
     ![Device Identity](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/device_identification.png){class="glboxshadow" width=350}
 
-### 基本設定
+### 基本設定 {#preferences}
 
 基本設定では、レイアウト基本設定、システム設定、およびデバイス画面設定を管理できます。
 
@@ -481,7 +481,7 @@ USB デバイスは、すべての USB エミュレーション デバイスを�
 
 - **Device Screen**: デバイス画面を管理およびプレビューできます。利用可能な設定には、ロック画面モード (世界時計、時計のみ、または壁紙のみ)、時間形式、日付形式、壁紙が含まれます。
 
-### ネットワーク
+### ネットワーク {#network}
 
 Comet Pro のホスト名や IP アドレスなどのネットワークの詳細を確認および変更できます。
 
@@ -509,7 +509,7 @@ Comet Pro のホスト名や IP アドレスなどのネットワークの詳細
 
     ![join wifi](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_network_switch_network.png){class="glboxshadow" width=500}
 
-### セキュリティ
+### セキュリティ {#security}
 
 セキュリティにより、管理者パスワードの変更、2 要素認証の有効化、TLS 証明書のカスタマイズが可能になります。
 
@@ -529,7 +529,7 @@ Comet Pro のホスト名や IP アドレスなどのネットワークの詳細
 
     ![TLS certificate custom](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/setting_security_custom.png){class="glboxshadow"}
 
-### クラウド
+### クラウド {#cloud}
 
 クラウドを使用すると、クラウド サービスを通じてデバイスにリモートでアクセスし、管理できます。
 
@@ -543,7 +543,7 @@ URL を介してデバイスをクラウドにバインドできます。 **More
 
 または、上部のツールバーにあるクラウド サービスを介して上記の管理操作を実行することもできます。
 
-### システム
+### システム {#system}
 
 システム設定では、次の設定を行うことができます。
 

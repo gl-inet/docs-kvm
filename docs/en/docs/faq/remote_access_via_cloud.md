@@ -1,4 +1,4 @@
-# How to access KVM remotely via Cloud
+# How to access KVM remotely via Cloud {#how-to-access-kvm-remotely-via-cloud}
 
 Before you begin, please ensure:
 
@@ -10,7 +10,7 @@ Before you begin, please ensure:
 
 Follow the steps below to access your KVM and the controlled device remotely via Cloud service.
 
-## Bind your KVM to the Cloud
+## Bind your KVM to the Cloud {#bind-your-kvm-to-the-cloud}
 
 There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Code Binding.
 
@@ -18,7 +18,7 @@ There are two ways to bind your KVM to the Cloud: Regular Binding or Dynamic Cod
 
 - **Dynamic Code Binding**: Click "Bind With Code" on the KVM console, then it will generate an 8-digit dynamic code randomly for device binding. Log in to your cloud account, and enter the code to complete the binding.
 
-### Regular Binding
+### Regular Binding {#regular-binding}
 
 Log in to your KVM locally via IP address or domain, and navigate to **Cloud Service** in the upper right corner. Click **Bind To Cloud**.
 
@@ -36,7 +36,7 @@ Wait a second and your device will be bound to your account successfully. Click 
 
 ![bind device success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/bind_device_3.png){class="glboxshadow"}
 
-### Dynamic Code Binding
+### Dynamic Code Binding {#dynamic-code-binding}
 
 Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
@@ -72,7 +72,7 @@ Note: Please upgrade your KVM firmware to version 1.7 before using this feature.
 
     The device will then be successfully bound to your cloud account.
 
-## Remote access via Cloud
+## Remote access via Cloud {#remote-access-via-cloud}
 
 Open a browser (take Google Chrome as an example), and enter `glkvm.com` in the address bar. You will see a login page. Use your glinet account to log in.
 

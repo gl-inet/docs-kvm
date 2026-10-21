@@ -1,4 +1,4 @@
-# So greifen Sie über ZeroTier remote auf KVM zu
+# So greifen Sie über ZeroTier remote auf KVM zu {#how-to-access-kvm-remotely-via-zerotier}
 
 > Hinweis: Bitte aktualisieren Sie die Firmware Ihres KVM auf v1.8.0, bevor Sie diese Funktion verwenden.
 
@@ -6,7 +6,7 @@ GL.iNet KVM integriert ZeroTier, sodass Sie es für den Fernzugriff an das ZeroT
 
 Führen Sie die folgenden Schritte aus, um über ZeroTier remote auf Ihr GL.iNet KVM zuzugreifen.
 
-## ZeroTier aktivieren
+## ZeroTier aktivieren {#enable-zerotier}
 
 **Bevor Sie beginnen, verbinden Sie Ihr KVM und das steuernde Gerät mit demselben lokalen Netzwerk.**
 
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um über ZeroTier remote auf Ihr GL.iNet
 
     ![enable zerotier](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/2_enable_zerotier.png){class="glboxshadow"}
 
-## KVM an ZeroTier binden
+## KVM an ZeroTier binden {#bind-kvm-to-zerotier}
 
 1. Wenn Sie sich zum ersten Mal bei [ZeroTier](https://my.zerotier.com/){target="_blank"} anmelden, müssen Sie möglicherweise ZeroTier Central auswählen.
 
@@ -72,7 +72,7 @@ Führen Sie die folgenden Schritte aus, um über ZeroTier remote auf Ihr GL.iNet
 
     ![authorized2](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/10_authorized2.png){class="glboxshadow"}
 
-## Steuerndes Gerät binden
+## Steuerndes Gerät binden {#bind-the-controlling-device}
 
 Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das ZeroTier-Netzwerk gebunden wird.
 
@@ -98,7 +98,7 @@ Das folgende Beispiel zeigt, wie ein Windows-Laptop als steuerndes Gerät an das
 
     ![same zt network](https://static.gl-inet.com/docs/kvm/faq/remote_access_via_zerotier/14_same_zt_network.png){class="glboxshadow"}
 
-## Fernzugriff über ZeroTier
+## Fernzugriff über ZeroTier {#remote-access-via-zerotier}
 
 Das folgende Beispiel zeigt, wie Sie über die ZeroTier-IP-Adresse remote auf die KVM-Konsole zugreifen.
 

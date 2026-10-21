@@ -1,4 +1,4 @@
-# クラウドベースのスクリーン ウォール機能の使用方法
+# クラウドベースのスクリーン ウォール機能の使用方法 {#how-to-use-the-cloud-based-screen-wall-feature}
 
 クラウドベースのスクリーンウォールは、複数のデバイスの画面を 1 つのページに表示し、状態を確認できるプレミアム機能です。
 
@@ -6,7 +6,7 @@
 
 次の手順でクラウドベースのスクリーンウォールを使用します。
 
-1. KVM デバイスを Cloud にバインドします。詳しくは、[KVM を Cloud にバインドする](../faq/remote_access_via_cloud.md#kvm_1)をご覧ください。
+1. KVM デバイスを Cloud にバインドします。詳しくは、[KVM を Cloud にバインドする](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud)をご覧ください。
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_screen_wall/cloud_login.png){class="glboxshadow"}
 

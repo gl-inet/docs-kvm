@@ -1,10 +1,10 @@
-# 動的コードを介してKVMをクラウドにバインドする方法
+# 動的コードを介してKVMをクラウドにバインドする方法 {#how-to-bind-kvm-to-the-cloud-via-dynamic-code}
 
 > 注: この機能を使用する前に、KVM ファームウェアをバージョン 1.7 にアップグレードしてください。
 
 このチュートリアルでは、動的コードを通じて GL.iNet KVM をクラウドに簡単にバインドする方法を紹介します。
 
-## バインド手順
+## バインド手順 {#binding-steps}
 
 1. ドメインまたは IP アドレスを使用して、ローカルで GL.iNet KVM にログインします。詳細は[こちら](../faq/local_access_via_browser.md)をクリックしてください。
 
@@ -52,7 +52,7 @@
 
     ![remote access success](https://static.gl-inet.com/docs/kvm/faq/remote_access_controlled_device_via_cloud/remote_access_4.png){class="glboxshadow"}
 
-## FAQ
+## FAQ {#faq}
 
 1. **Q: 動的コードの有効期間はどのくらいですか?有効期限が切れたらどうすればよいですか?**
 

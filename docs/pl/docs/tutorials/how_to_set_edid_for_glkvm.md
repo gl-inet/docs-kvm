@@ -1,6 +1,6 @@
-# Jak ustawić EDID w GL.iNet KVM
+# Jak ustawić EDID w GL.iNet KVM {#how-to-set-edid-for-glinet-kvm}
 
-## Czym jest EDID
+## Czym jest EDID {#what-is-edid}
 
 EDID (Extended Display Identification Data) to standardowy format danych opracowany przez Video Electronics Standards Association (VESA). Jest zapisany w pamięci nieulotnej wyświetlacza i zawiera najważniejsze informacje, takie jak producent, maksymalna rozdzielczość czy częstotliwość odświeżania. Urządzenia, np. komputery, mogą odczytywać EDID, aby automatycznie dostosować parametry sygnału wyjściowego i zapewnić optymalny obraz.
 
@@ -8,7 +8,7 @@ Po podłączeniu do wyświetlacza komputery, laptopy i konsole do gier zwykle au
 
 Ustawienia EDID w GL.iNet KVM służą do automatycznego dopasowania optymalnych parametrów wyświetlania. Po podłączeniu GL.iNet KVM do sterowanego urządzenia odczyt EDID wyświetlacza umożliwia automatyczne dostosowanie wyjścia obrazu w celu uzyskania najlepszej jakości.
 
-## Gotowe ustawienia EDID
+## Gotowe ustawienia EDID {#preset-edid}
 
 W konsoli GL.iNet KVM przejdź do **Settings** -> **Video** -> **EDID**. Dostępne są tam gotowe ustawienia EDID.
 
@@ -18,7 +18,7 @@ W konsoli GL.iNet KVM przejdź do **Settings** -> **Video** -> **EDID**. Dostęp
 
 W szczególnych sytuacjach, np. przy konfiguracji UEFI/BIOS lub dostosowywaniu rozdzielczości i częstotliwości odświeżania, możesz wybrać gotowe ustawienie, np. 1920×1280/AUO/60HZ.
 
-## Własne EDID
+## Własne EDID {#custom-edid}
 
 Jeśli nie możesz znaleźć odpowiedniego kodu EDID, skorzystaj z [tego repozytorium](https://github.com/linuxhw/EDID){target="blank"} lub poniższych kroków, aby dostosować konfigurację EDID.
 

@@ -1,10 +1,10 @@
-# 絶対マウスと相対マウスの違いは何ですか
+# 絶対マウスと相対マウスの違いは何ですか {#what-is-the-difference-between-absolute-mouse-and-relative-mouse}
 
 GL.iNet KVM の場合、コンソールの **Mouse Mode** には、**Absolute** と **Relative** の 2 つのオプションがあります。これら 2 つのモードは、マウス コントロールの動作、適用可能なシナリオ、およびユーザー エクスペリエンスにおいて大きく異なります。実際のニーズに基づいて適切なモードを選択するのに役立つように、以下で詳しく説明します。
 
 ![mouse mode](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/mouse_mode.jpg){class="glboxshadow"}
 
-## Absolute マウス
+## Absolute マウス {#absolute-mouse}
 
 絶対モードは、ローカル コンピュータとターゲット デバイス間でシームレスで同期されたマウス制御を実現するように設計されています。このモードが有効な場合、ローカル コンピュータとターゲット デバイスの両方のマウス カーソルが同じ座標系にマッピングされます。 KVM コンソールとリモート画面上でローカル マウス カーソルをスムーズかつシームレスに移動できます。リモート カーソルはローカル カーソルの動きにリアルタイムで追従します。
 
@@ -12,7 +12,7 @@ GL.iNet KVM の場合、コンソールの **Mouse Mode** には、**Absolute** 
 
 ![absolute](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/absolute.gif)
 
-## 相対マウス
+## 相対マウス {#relative-mouse}
 
 絶対モードとは異なり、相対モードはローカルおよびリモートのマウス カーソルの座標を同期しません。それらは別々の層で動作します。ターゲット デバイスを制御するには、まずリモート ウィンドウ内をクリックしてカーソル フォーカスをキャプチャする必要があります。
 
@@ -24,7 +24,7 @@ GL.iNet KVM の場合、コンソールの **Mouse Mode** には、**Absolute** 
 
 ![relative sensitivity](https://static.gl-inet.com/docs/kvm/faq/difference_between_absolute_and_relative_mouse/relative_sensitivity.jpg){class="glboxshadow"}
 
-## 主な違い
+## 主な違い {#key-differences}
 
 |特長 |絶対マウス |親戚のマウス |
 | -------------------- | ------------------------------ | -----------------------------  |
@@ -33,7 +33,7 @@ GL.iNet KVM の場合、コンソールの **Mouse Mode** には、**Absolute** 
 |遅延 |わずかな遅延 (ネットワーク/ビデオ エンコード) |遅延はほとんどありません (動きの増分のみを送信します) |
 |該当するシナリオ |スムーズなマルチスクリーン制御、頻繁な切り替え、正確な位置決め (リモート オフィス、グラフィック デザイン) |絶対マウス モードをサポートしていない古いデバイス / BIOS / UEFI。誤ったクリックを避ける。不安定なネットワーク (低遅延) |
 
-## 概要
+## 概要 {#summary}
 
 Absolute Mouse はスムーズで統合されたコントロール エクスペリエンスを優先しますが、Relative Mouse は互換性と安定性に重点を置いています。
 

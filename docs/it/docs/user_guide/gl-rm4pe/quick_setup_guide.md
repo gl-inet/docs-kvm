@@ -1,4 +1,4 @@
-# Configurazione rapida di Comet X (GL-RM4PE)
+# Configurazione rapida di Comet X (GL-RM4PE) {#comet-x-gl-rm4pe-quick-setup}
 
 ## Collegamento dei dispositivi { #connect-devices }
 
@@ -210,7 +210,7 @@ Prima dell'accesso, verificare che il dispositivo di controllo si trovi sulla st
 
     ![app access2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/quick_setup/app_access2.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 Comet X integra Tailscale e consente l'accesso remoto tramite la sua rete virtuale.
 
@@ -220,7 +220,7 @@ Associare quindi il dispositivo di controllo allo stesso account. Sarà possibil
 
 Per i dettagli, consultare [questa guida](../../faq/remote_access_via_tailscale.md){target="_blank"}.
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 Comet X integra ZeroTier e consente l'accesso remoto tramite la sua rete virtuale.
 

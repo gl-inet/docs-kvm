@@ -1,12 +1,12 @@
-# KVM ueber USB OTG entbricken
+# KVM ueber USB OTG entbricken {#how-to-unbrick-kvm-via-usb-otg}
 
 In dieser Anleitung wird erklaert, wie Sie ein GL.iNet KVM-Geraet ueber USB OTG entbricken. Diese Methode eignet sich, wenn das KVM-Geraet gebrickt ist und nicht ueber ein normales Firmware-Update oder den U-Boot-Safe-Mode wiederhergestellt werden kann.
 
-## Unterstuetzte Geraete
+## Unterstuetzte Geraete {#supported-devices}
 
 - RMQ1
 
-## Voraussetzungen
+## Voraussetzungen {#prerequisites}
 
 Bereiten Sie bitte die folgenden Werkzeuge vor, um das Geraet zu entbricken.
 
@@ -28,9 +28,9 @@ Bereiten Sie bitte die folgenden Werkzeuge vor, um das Geraet zu entbricken.
 
 - Wenn das Geraet nach dem Flashen automatisch neu starten soll, navigieren Sie vor Beginn zu **Settings** -> **Options** -> **Reboot to Normal Mode After Download** und aktivieren Sie diese Option. Wenn diese Option nicht aktiviert ist, muessen Sie das Geraet nach Abschluss des Flashens manuell neu starten, d. h. das Stromkabel trennen und wieder anschliessen.
 
-## Schritte zum Entbricken
+## Schritte zum Entbricken {#unbrick-steps}
 
-### Windows
+### Windows {#windows}
 
 1. Laden Sie die U-Boot-Firmware fuer Ihr RMQ1-Geraet [hier](https://dl.gl-inet.com/kvm/rmq1/stable) auf Ihren Computer herunter (waehlen Sie **DOWNLOAD FOR USB OTG**).
 
@@ -74,7 +74,7 @@ Bereiten Sie bitte die folgenden Werkzeuge vor, um das Geraet zu entbricken.
 
       ![axdl-5](https://static.gl-inet.com/docs/kvm/tutorials/how_to_unbrick_kvm_via_usb_otg/axdl-5.png){class="glboxshadow"}
 
-### macOS / Linux
+### macOS / Linux {#macos-linux}
 
 Das offizielle AXDL-Tool ist nur fuer Windows verfuegbar. Unter macOS und Linux koennen Sie axdl-rs verwenden, einen quelloffenen, inoffiziellen Axera Image Downloader in Rust.
 

@@ -1,6 +1,6 @@
-# Comet Q (GL-RMQ1) コンソール ガイド
+# Comet Q (GL-RMQ1) コンソール ガイド {#comet-q-gl-rmq1-console-guide}
 
-## 設定
+## 設定 {#settings}
 
 コンソールで、**Settings**に移動します。設定ページには 4 つのセクションが含まれています。
 
@@ -9,13 +9,13 @@
 - [システム](#system)
 - [ネットワーク](#network)
 
-### クイック検索
+### クイック検索 {#quick-search}
 
 [設定] ページの上部にキーワードを入力すると、必要な設定をすぐに見つけることができます。
 
 ![quick search](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/quick-search.png){class="glboxshadow"}
 
-### ビデオ
+### ビデオ {#video}
 
 EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソールのビデオ設定をカスタマイズできます。
 
@@ -47,7 +47,7 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 - **View**: この設定は、ブラウザ ウィンドウのサイズを変更するときの画面のスケーリングを決定します。利用可能なオプション: アダプティブ、最高画質、オリジナル ピクセル。
 
-### オーディオ&キーボード&マウス
+### オーディオ&キーボード&マウス {#audiokeyboardmouse}
 
 オーディオ、キーボード、マウスの関連設定を調整できます。
 
@@ -95,7 +95,7 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 - **Relative Sensitivity**: マウス モードが相対の場合に使用できます。
 
-### システム
+### システム {#system}
 
 コンソールのシステム表示設定をカスタマイズしたり、ワンクリックでデバイスをリセットしたりできます。
 
@@ -113,7 +113,7 @@ EDID、ビデオ品質、ビデオ送信、画面の向きなど、コンソー�
 
 - **Reset KVM**: ワンクリックで KVM を工場出荷時設定にリセットします。
 
-### ネットワーク
+### ネットワーク {#network}
 
 Comet Q のホスト名や IP アドレスなどのネットワークの詳細を確認および変更できます。
 
@@ -129,7 +129,7 @@ Comet Q のホスト名や IP アドレスなどのネットワークの詳細�
 
     別の Wi-Fi ネットワークに接続する場合は、**Switch Wi-Fi** をクリックし、利用可能なネットワーク リストから Wi-Fi を選択します。
 
-## ツールボックス
+## ツールボックス {#toolbox}
 
 コンソールで、**Toolbox**に移動します。ツールボックス ページには、次の 3 つのセクションが含まれています。
 
@@ -137,13 +137,13 @@ Comet Q のホスト名や IP アドレスなどのネットワークの詳細�
 - [ショートカット](#shortcut)
 - [端末](#terminal)
 
-### クリップボード
+### クリップボード {#clipboard}
 
 クリップボードを使用すると、ファイルを転送することなく、制御側デバイスから被制御デバイスにテキストを簡単に貼り付けることができます。
 
 ![toolbox-clipboard](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-clipboard.png){class="glboxshadow"}
 
-### ショートカット
+### ショートカット {#shortcut}
 
 ショートカットを使用すると、仮想キーボードを使用せずにアクションをより速く実行できるため、より効率的に作業し、日常業務の時間を節約できます。ここでいくつかの一般的なショートカットを見つけることができます。
 
@@ -153,7 +153,7 @@ Comet Q のホスト名や IP アドレスなどのネットワークの詳細�
 
 ![toolbox-shortcut2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-shortcut2.png){class="glboxshadow"}
 
-### ターミナル
+### ターミナル {#terminal}
 
 Comet Q の端末にアクセスして、詳細な設定を行うことができます。 「**Access**」をクリックします。
 
@@ -163,13 +163,13 @@ GLKVM ターミナルにリダイレクトされます。
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/toolbox-terminal2.png){class="glboxshadow"}
 
-## 仮想メディア
+## 仮想メディア {#virtual-media}
 
 コンソールで、**Virtual Media**に移動します。 Comet Q は、読み取り/書き込み USB ドライブをエミュレートできるため、制御側デバイスと制御側デバイスの間でファイルを共有および管理できます。
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/virtual-media.png){class="glboxshadow"}
 
-### ファイル共有
+### ファイル共有 {#file-sharing}
 
 **制御側デバイスから被制御デバイスにファイルを共有するには、以下の手順に従ってください。**
 
@@ -218,7 +218,7 @@ GLKVM ターミナルにリダイレクトされます。
 
     ![file sharing6](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/file-sharing6.png){class="glboxshadow"}
 
-### ディスクをフォーマットします
+### ディスクをフォーマットします {#format-disk}
 
 ワンクリックでディスクをフォーマットしたり、仮想メディアを無効にしたりできます。
 
@@ -228,13 +228,13 @@ GLKVM ターミナルにリダイレクトされます。
 
 - **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
-## アプリ センター
+## アプリ センター {#apps-center}
 
 コンソールで、**Apps Center**に移動します。統合されたアプリケーションはここにあります。
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} は、ポート転送や複雑なファイアウォールの設定を行わずに、デバイス間で暗号化されたピアツーピア プライベート ネットワークを構築する WireGuard ベースのメッシュ VPN サービスです。
 
@@ -246,7 +246,7 @@ Comet Q と制御側デバイスを同じ Tailscale アカウントにバイン�
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} は、暗号化されたオーバーレイ仮想ネットワークを作成し、分散したデバイスをあたかも同じローカル エリア ネットワーク内にあるかのようにグローバルに接続します。
 
@@ -258,13 +258,13 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/apps-zerotier-enabled.png){class="glboxshadow"}
 
-## ヘルプ
+## ヘルプ {#help}
 
 コンソールで、**Help**に移動します。ここでは、GL.iNet KVM に関する詳細情報とヘルプ ドキュメント、およびトラブルシューティング用のログをエクスポートできます。
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/help.png){class="glboxshadow"}
 
-## ツールバー
+## ツールバー {#toolbar}
 
 コンソールで、右上隅に移動して次のツールにアクセスします。
 
@@ -276,7 +276,7 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 - 再起動
 - ログアウト
 
-### 折りたたむ
+### 折りたたむ {#collapse}
 
 右上隅の上向き矢印アイコンをクリックして、ツールバーを折りたたみます。
 
@@ -286,7 +286,7 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![collapse](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/collapse2.png){class="glboxshadow"}
 
-### フルスクリーン
+### フルスクリーン {#fullscreen}
 
 右上隅の全画面アイコン (四角形) をクリックして、全画面モードに切り替えます。
 
@@ -296,7 +296,7 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![fullscreen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/fullscreen2.png){class="glboxshadow"}
 
-### アップグレード
+### アップグレード {#upgrade}
 
 右上隅にあるファームウェアのバージョンをクリックして、アップデートを確認します。
 
@@ -306,7 +306,7 @@ Comet Q と制御側デバイスを同じ ZeroTier ネットワークに参加�
 
 ![firmware upgrade](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/upgrade2.png){class="glboxshadow"}
 
-### クラウド サービス
+### クラウド サービス {#cloud-service}
 
 GL.iNet KVM クラウドを使用すると、制御対象のデバイスにリモートからアクセスできます。詳細は[こちら](../../faq/remote_access_via_cloud.md){target="_blank"}をご参照ください。
 
@@ -314,7 +314,7 @@ Comet Q がクラウドにバインドされると、コンソールには次の
 
 ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/console/cloud.png){class="glboxshadow"}
 
-### セキュリティ
+### セキュリティ {#security}
 
 セキュリティにより、管理者パスワードの変更、2 要素認証の有効化、TLS 証明書のカスタマイズが可能になります。
 

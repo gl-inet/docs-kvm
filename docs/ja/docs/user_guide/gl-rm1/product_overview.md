@@ -1,14 +1,14 @@
-# Comet (GL-RM1) V1/V2 概要
+# Comet (GL-RM1) V1/V2 概要 {#comet-gl-rm1-v1v2-overview}
 
-## 外観
+## 外観 {#appearance}
 
 ![gl-rm1 interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_interface.png){class="glboxshadow"}
 
-## ディメンション
+## ディメンション {#dimension}
 
 ![gl-rm1 dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/overview/rm1_dimension.png){class="glboxshadow"}
 
-## LED
+## LED {#led}
 
 Comet のトップパネルには LED インジケーターがあります。
 
@@ -19,7 +19,7 @@ Comet のトップパネルには LED インジケーターがあります。
 |ソリッドホワイト |インターネットに接続しています |
 |青と白の点滅 |ファームウェアのアップグレード |
 
-## ボタン
+## ボタン {#button}
 
 Comet のサイドパネルにはボタンがあります。
 
@@ -28,7 +28,7 @@ Comet のサイドパネルにはボタンがあります。
 | U-Boot 点滅モードに入ります |デバイスの電源が入っている状態で、<br> ボタンを **3s** 以上押し続けて、放します |ボタンを押す: 青で点滅 <br> U-Boot モードに入る: 青で点灯 |
 |リセット |デバイスの電源が入っている状態で、<br> **8–20s** のボタンを押したままにしてから、放します | 1 ～ 8 秒間押す: ゆっくり点滅 <br>8 ～ 20 秒間押す: 早く点滅 |
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1×Comet(GL-RM1)
 - 1 x ユーザーマニュアル

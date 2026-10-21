@@ -1,4 +1,4 @@
-# STUN-Erkennung der oeffentlichen IP seltener ausfuehren
+# STUN-Erkennung der oeffentlichen IP seltener ausfuehren {#how-to-reduce-stun-public-ip-detection-frequency}
 
 Das KVM-Geraet verwendet STUN-Anfragen, um seine oeffentliche IP-Adresse fuer den Fernzugriff zu erkennen. Standardmaessig sendet das Geraet in regelmaessigen Abstaenden STUN-Erkennungsanfragen. Wenn Sie nur ueber ein lokales Netzwerk oder VPN auf das KVM zugreifen, koennen Sie die Konfiguration anpassen, um die STUN-Anfragehaeufigkeit zu reduzieren.
 

@@ -1,6 +1,6 @@
-# KVM デバイス ID を変更する方法
+# KVM デバイス ID を変更する方法 {#how-to-change-kvm-device-identity}
 
-## KVM デバイス ID とは
+## KVM デバイス ID とは {#what-is-kvm-device-identity}
 
 GL.iNet KVM のデバイス ID は、通信中に接続されたデバイスが KVM を認識および区別できるようにする識別子を指します。
 
@@ -18,7 +18,7 @@ GL.iNet KVM のデバイス ID は、通信中に接続されたデバイスが 
 
     制御側デバイスの入力方法/キーボードが被制御デバイスの入力方法/キーボードと一致していない場合、一部の記号/文字がキーボード上で異なる位置にある可能性があり、これにより被制御側の出力が制御側の入力と不一致になる可能性があります。詳細は[こちら](../faq/keyboard_does_not_input_output_as_expected.md)をクリックしてください。
 
-## デバイス ID を変更する理由
+## デバイス ID を変更する理由 {#why-change-device-identity}
 
 GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わせてエミュレートするため、被制御デバイスに接続すると、モニター、マウスやキーボードなどの複数の USB デバイス、および USB ドライブを含む一連のデバイスとして認識されます。
 
@@ -51,7 +51,7 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 
     KVM を介して被制御デバイスのマウスとキーボードを制御できない場合は、KVM のデバイス ID を変更して互換性の問題を回避し、KVM と被制御デバイス間のスムーズな信号伝送を可能にしてみてください。
 
-## デバイス ID カスタマイズの制限事項
+## デバイス ID カスタマイズの制限事項 {#limitations-of-device-identity-customization}
 
 !!! warning "行動検出ソフトウェアは依然として KVM を識別する可能性がある"
 
@@ -61,9 +61,9 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 
     したがって、デバイス ID を変更するだけでは、高度な監視ソフトウェアや動作分析ソフトウェアによる検出を回避するには**十分ではない可能性があります**。
 
-## デバイス ID を変更する方法
+## デバイス ID を変更する方法 {#how-to-change-device-identity}
 
-### ファームウェア v1.10 以降
+### ファームウェア v1.10 以降 {#firmware-v110-and-above}
 
 1. KVM にログインし、右上の **Settings** に移動します。**USB Devices** で **Device Identity** を見つけ、カスタマイズします。
 
@@ -83,7 +83,7 @@ GL.iNet KVM は、ユーザー操作用の複数のデバイスを組み合わ�
 
     ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize4.png){class="glboxshadow"}
 
-### ファームウェア v1.9 以前
+### ファームウェア v1.9 以前 {#firmware-v19-and-earlier}
 
 1. KVM にログインし、**Settings** -> **System** -> **Device Identity** に移動します。ドロップダウン リストからプリセット ID を選択します。
 

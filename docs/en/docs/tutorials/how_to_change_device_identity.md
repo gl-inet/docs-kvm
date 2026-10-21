@@ -1,6 +1,6 @@
-# How to change KVM device identity
+# How to change KVM device identity {#how-to-change-kvm-device-identity}
 
-## What is KVM device identity
+## What is KVM device identity {#what-is-kvm-device-identity}
 
 GL.iNet KVM's device identity refers to the identifier that enables the KVM to be recognized and distinguished by the connected device during communication. 
 
@@ -18,7 +18,7 @@ Therefore, the KVM is usually regarded as a composite device, emulating several 
 
     If the input method/keyboard of the controlling device is not consistent with that of the controlled device, some symbols/letters may have different positions on the keyboard, which can cause the output of the controlled end to be inconsistent with the input of the controlling end. Click [here](../faq/keyboard_does_not_input_output_as_expected.md) for details.
 
-## Why change device identity
+## Why change device identity {#why-change-device-identity}
 
 Since GL.iNet KVM works as a combined emulator of several devices for user interaction, when connected to the controlled device, it is recognized as a set of multiple devices, including a monitor, several USB devices such as mouse and keyboard, and USB drive. 
 
@@ -51,7 +51,7 @@ However, users may need to change KVM's device identity in the following scenari
 
     If you fail to control the mouse and keyboard on the controlled device through KVM, try modifying the KVM's device identity to avoid compatibility issues, enabling smooth signal transmission between the KVM and the controlled device.
 
-## Limitations of Device Identity Customization
+## Limitations of Device Identity Customization {#limitations-of-device-identity-customization}
 
 !!! Warning "Behavioral Detection Software May Still Identify KVM"
 
@@ -61,9 +61,9 @@ However, users may need to change KVM's device identity in the following scenari
 
     Therefore, changing the device identity alone **may not be sufficient** to evade detection by advanced monitoring or behavioral analysis software.
 
-## How to change device identity
+## How to change device identity {#how-to-change-device-identity}
 
-### Firmware v1.10 and above
+### Firmware v1.10 and above {#firmware-v110-and-above}
 
 1. Log in to your KVM and navigate to **Settings** in the upper-right. In the **USB Devices**, find the **Device Identity** and customize it.
 
@@ -83,7 +83,7 @@ However, users may need to change KVM's device identity in the following scenari
 
     ![identity customize4](https://static.gl-inet.com/docs/kvm/tutorials/customize_device_identity/1.10_customize4.png){class="glboxshadow"}
 
-### Firmware v1.9 and earlier
+### Firmware v1.9 and earlier {#firmware-v19-and-earlier}
 
 1. Log in to your KVM, and navigate to **Settings** -> **System** -> **Device Identity**. Select a preset identity from the drop-down list.
 

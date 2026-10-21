@@ -1,4 +1,4 @@
-# Was tun, wenn der Remote-Bildschirm leer bleibt oder kein HDMI-Signal angezeigt wird
+# Was tun, wenn der Remote-Bildschirm leer bleibt oder kein HDMI-Signal angezeigt wird {#what-should-i-do-if-the-remote-screen-goes-blank-or-shows-no-hdmi-signal}
 
 Wenn beim Zugriff auf das gesteuerte Gerät über KVM der Remote-Bildschirm leer bleibt oder kein HDMI-Signal angezeigt wird, führen Sie die folgenden Schritte zur Fehlerbehebung aus.
 
@@ -14,7 +14,7 @@ Prüfen Sie zuerst, ob das Problem mit der Videoübertragung zusammenhängt. Mel
 
 Wenn das Problem weiterhin besteht, prüfen Sie die folgenden möglichen Ursachen nacheinander.
 
-## Hardwareverbindung prüfen
+## Hardwareverbindung prüfen {#check-hardware-connection}
 
 1. **Defektes HDMI-Kabel**
 
@@ -40,7 +40,7 @@ Wenn das Problem weiterhin besteht, prüfen Sie die folgenden möglichen Ursache
 
     ![adapter comparison](https://static.gl-inet.com/docs/kvm/faq/blank_screen/adapter_comparison.png){class="glboxshadow"}
 
-## Browsereinstellungen prüfen
+## Browsereinstellungen prüfen {#check-browser-settings}
 
 Wenn Sie über einen Browser auf das gesteuerte Gerät zugreifen und ein leerer Bildschirm angezeigt wird, versuchen Sie die folgenden Methoden:
 
@@ -50,7 +50,7 @@ Wenn Sie über einen Browser auf das gesteuerte Gerät zugreifen und ein leerer 
 
     ![webrtc](https://static.gl-inet.com/docs/kvm/faq/blank_screen/webrtc.png){class="glboxshadow"}
 
-## Status und Einstellungen des gesteuerten Geräts prüfen
+## Status und Einstellungen des gesteuerten Geräts prüfen {#check-controlled-device-status-and-settings}
 
 1. **Gerät ist nicht eingeschaltet oder im Energiesparmodus**
 

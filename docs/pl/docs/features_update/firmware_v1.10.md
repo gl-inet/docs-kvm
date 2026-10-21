@@ -1,16 +1,16 @@
-# Firmware v1.10
+# Firmware v1.10 {#firmware-v110}
 
 Ta wersja wprowadza natywny WebRTC, monitorowanie danych w czasie rzeczywistym, scentralizowane zarządzanie urządzeniami USB i nowe centrum ustawień. Poprawia również szybkość uruchamiania, bezpieczeństwo i stabilność mikrofonu, zapewniając płynniejsze i bardziej niezawodne zdalne sterowanie przez KVM.
 
 Pobierz najnowszy firmware z [centrum pobierania firmware](https://dl.gl-inet.com/kvm){target="_blank"}.
 
-## Tryb WebRTC (Native)
+## Tryb WebRTC (Native) {#webrtc-native-mode}
 
 Ten firmware wprowadza **WebRTC (Native) Mode**. Wykorzystuje bibliotekę Google WebRTC, aby poprawić wydajność strumieniowania i zapewnić płynniejsze zdalne sterowanie w czasie rzeczywistym.
 
 ![Tryb WebRTC](https://static.gl-inet.com/docs/kvm/features_update/1.10/webrtc_native_mode.png){class="glboxshadow" width=400}
 
-## Statystyki połączenia
+## Statystyki połączenia {#connection-stats}
 
 **Connection Stats** wyświetla bieżące informacje o połączeniu i wykresy zmian, w tym opóźnienie sieci, zmienność opóźnienia (jitter), współczynnik utraty pakietów, przepływność, liczbę klatek na sekundę i opóźnienie odtwarzania.
 
@@ -22,11 +22,11 @@ Kliknij ikonę wykresu, aby wyświetlić wykresy zmian opóźnienia sieci, jitte
 
 ![Wykresy statystyk połączenia](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
-## Centrum ustawień
+## Centrum ustawień {#settings-center}
 
 Ta wersja dodaje nowe **Settings Center**, które gromadzi ustawienia urządzeń USB, preferencji, sieci, bezpieczeństwa, chmury i systemu. Istniejące opcje, takie jak konfiguracja nazwy hosta, zarządzanie chmurą i aktualizacje firmware, są teraz łatwiej dostępne w jednym miejscu.
 
-### Urządzenia USB
+### Urządzenia USB {#usb-devices}
 
 **USB Devices** umożliwia scentralizowane zarządzanie emulowanymi urządzeniami USB. Na tej stronie można włączać i wyłączać wirtualne urządzenia peryferyjne, aby poprawić zgodność ze sterowanym hostem.
 
@@ -36,7 +36,7 @@ Ta wersja dodaje nowe **Settings Center**, które gromadzi ustawienia urządzeń
 
 - **Device Identity**: Dostosuj lub zmień tożsamość KVM rozpoznawaną przez sterowane urządzenie. EDID i identyfikacja urządzenia pozostają zsynchronizowane. Zmiana jednej opcji automatycznie aktualizuje drugą, aby zapewnić poprawne rozpoznawanie urządzenia.
 
-### Preferencje
+### Preferencje {#preferences}
 
 **Preferences** pozwala zarządzać preferencjami układu, ustawieniami systemowymi i ustawieniami ekranu urządzenia.
 
@@ -50,7 +50,7 @@ Ta wersja dodaje nowe **Settings Center**, które gromadzi ustawienia urządzeń
 
     **Uwaga**: Ta funkcja jest dostępna tylko w modelach z wbudowanym wyświetlaczem.
 
-### Sieć
+### Sieć {#network}
 
 Możesz przeglądać ustawienia sieciowe urządzenia i zarządzać nimi, w tym nazwą hosta, połączeniem Ethernet i informacjami o sieci bezprzewodowej.
 
@@ -64,7 +64,7 @@ Możesz przeglądać ustawienia sieciowe urządzenia i zarządzać nimi, w tym n
 
     **Uwaga**: Funkcja Wireless jest dostępna tylko w obsługiwanych modelach.
 
-### Bezpieczeństwo
+### Bezpieczeństwo {#security}
 
 **Security** pozwala zmienić hasło administratora, włączyć uwierzytelnianie dwuskładnikowe i dostosować certyfikat TLS.
 
@@ -74,13 +74,13 @@ Możesz przeglądać ustawienia sieciowe urządzenia i zarządzać nimi, w tym n
 
 - **TLS Certificate**: Użyj domyślnego certyfikatu lub prześlij własny certyfikat i klucz prywatny do dostępu przez przeglądarkę.
 
-### Chmura
+### Chmura {#cloud}
 
 Urządzenia można powiązać z usługami chmurowymi za pomocą adresu URL lub kodu, aby uzyskać zdalny dostęp i zarządzać nimi. Możesz też pobrać aplikację mobilną, zarządzać połączeniem lub odłączyć urządzenie od konta w razie potrzeby.
 
 ![Chmura](https://static.gl-inet.com/docs/kvm/features_update/1.10/settings_cloud.png){class="glboxshadow"}
 
-### System
+### System {#system}
 
 W **System** znajdziesz opcje zarządzania systemem, aktualizacji firmware i pomocy technicznej.
 
@@ -92,7 +92,7 @@ W **System** znajdziesz opcje zarządzania systemem, aktualizacji firmware i pom
 
 - **Help & Support**: Wyeksportuj logi urządzenia na potrzeby rozwiązywania problemów i uzyskaj dostęp do instrukcji obsługi, najczęstszych pytań i innych dokumentów pomocy.
 
-## Pozostałe ulepszenia
+## Pozostałe ulepszenia {#other-enhancements}
 
 - **Szybkość uruchamiania**: Skrócono czas uruchamiania urządzenia.
 

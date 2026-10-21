@@ -1,8 +1,8 @@
-# What shoud I do if keyboard does not input or output as expected
+# What shoud I do if keyboard does not input or output as expected {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 If the controlling and controlled devices use **different input methods or keyboard layouts**, symbols and characters such as "!", "@", "#" entered locally may not display correctly on the remote side.
 
-## Why does it happen
+## Why does it happen {#why-does-it-happen}
 
 The KVM is regarded as a keyboard for the controlled device, and the keys you press on the controlling device’s keyboard will be transmitted to KVM according to the corresponding key positions, and then mapped to the controlled device. 
 
@@ -10,7 +10,7 @@ However, if the input method/keyboard of the controlling device is not consisten
 
 ![US JIS keyboard comparison](https://static.gl-inet.com/docs/kvm/faq/keyboard_input_output_does_not_work_as_expected/apple-keyboards-US-JIS.jpg){class="glboxshadow"}
 
-## Solutions
+## Solutions {#solutions}
 
 You can install input method or keyboard for the corresponding language on the controlled device to achieve consistent key mapping.
 

@@ -1,4 +1,4 @@
-# Panoramica di Comet 5G (GL-RM10RC)
+# Panoramica di Comet 5G (GL-RM10RC) {#comet-5g-gl-rm10rc-overview}
 
 ## Aspetto { #appearance }
 

@@ -1,4 +1,4 @@
-# Guida utente della scheda ATX (GL-ATXPC)
+# Guida utente della scheda ATX (GL-ATXPC) {#atx-board-gl-atxpc-user-guide}
 
 La scheda ATX è un accessorio opzionale per i dispositivi KVM GL.iNet. Questo modulo intelligente di gestione dell'alimentazione consente di controllare da remoto l'alimentazione del dispositivo controllato simulando la pressione del pulsante fisico di accensione (accensione/spegnimento/riavvio).
 

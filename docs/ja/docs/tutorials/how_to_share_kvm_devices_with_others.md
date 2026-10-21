@@ -1,4 +1,4 @@
-# KVM デバイスをほかのユーザーと共有する方法
+# KVM デバイスをほかのユーザーと共有する方法 {#how-to-share-kvm-devices-with-others}
 
 クラウド経由のデバイス共有は、ほかのユーザーに KVM デバイスへのリモートアクセスを許可し、アクセス権を遠隔で管理できるプレミアム機能です。
 
@@ -6,7 +6,7 @@
 
 次の手順で KVM デバイスを共有します。
 
-1. KVM デバイスを Cloud にバインドします。詳しくは、[KVM を Cloud にバインドする](../faq/remote_access_via_cloud.md#kvm_1)をご覧ください。
+1. KVM デバイスを Cloud にバインドします。詳しくは、[KVM を Cloud にバインドする](../faq/remote_access_via_cloud.md#bind-your-kvm-to-the-cloud)をご覧ください。
 
     ![cloud login](https://static.gl-inet.com/docs/kvm/tutorials/how_to_use_share_devices/cloud_login.png){class="glboxshadow"}
 

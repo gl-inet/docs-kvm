@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Novità del firmware
+# Novità del firmware {#features-update}
 
 Scopri le principali novità, i miglioramenti delle funzionalità e le modifiche alla struttura dell'ultima versione del firmware.
 

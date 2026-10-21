@@ -1,4 +1,4 @@
-# Connection failed when remote access via GLKVM app
+# Connection failed when remote access via GLKVM app {#connection-failed-when-remote-access-via-glkvm-app}
 
 When accessing remotely through the GLKVM app, sometimes you may encounter a problem where the KVM device displays Online in the GLKVM app, but when clicked, it stucks on "Connecting". 
 

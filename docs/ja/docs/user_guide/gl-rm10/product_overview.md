@@ -1,14 +1,14 @@
-# Comet Pro (GL-RM10) 概要
+# Comet Pro (GL-RM10) 概要 {#comet-pro-gl-rm10-overview}
 
-## 外観
+## 外観 {#appearance}
 
 ![interface](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-interface.png){class="glboxshadow"}
 
-## ディメンション
+## ディメンション {#dimension}
 
 ![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/overview/rm10-dimension.png){class="glboxshadow"}
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 |画面表示 |説明 |
 | :-------------------------------- | :------------------ |
@@ -21,7 +21,7 @@
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/time.png)| **ロック画面**<br>ロック画面には時刻と日付が表示されます。 |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/touchscreen/reset.png)| **Factory Reset**<br>KVM の電源が入っている状態で、ピンをリセット ピンホールに挿入し、8 秒間押し続けて工場出荷時設定にリセットします。リセットをキャンセルするには、8 秒以内にピンを放します。 |
 
-## パッケージ内容
+## パッケージ内容 {#package-contents}
 
 - 1×Comet Pro(GL-RM10)
 - 1 x ユーザーマニュアル

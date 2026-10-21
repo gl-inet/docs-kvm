@@ -1,8 +1,8 @@
-# キーボードが期待どおりに入力または出力しない場合はどうすればよいですか
+# キーボードが期待どおりに入力または出力しない場合はどうすればよいですか {#what-shoud-i-do-if-keyboard-does-not-input-or-output-as-expected}
 
 制御機器と被制御デバイスで**異なる入力方法やキーボードレイアウト**を使用している場合、ローカルで入力された「!」、「@」、「#」などの記号や文字がリモート側で正しく表示されない場合があります。
 
-## なぜそうなるのか
+## なぜそうなるのか {#why-does-it-happen}
 
 KVM は被制御デバイスのキーボードとみなされ、制御側デバイスのキーボードで押したキーは、対応するキーの位置に従って KVM に送信され、被制御デバイスにマッピングされます。
 
@@ -10,7 +10,7 @@ KVM は被制御デバイスのキーボードとみなされ、制御側デバ�
 
 ![US JIS keyboard comparison](https://static.gl-inet.com/docs/kvm/faq/keyboard_input_output_does_not_work_as_expected/apple-keyboards-US-JIS.jpg){class="glboxshadow"}
 
-## ソリューション
+## ソリューション {#solutions}
 
 一貫したキー マッピングを実現するために、被制御デバイスに対応する言語の入力メソッドまたはキーボードをインストールできます。
 

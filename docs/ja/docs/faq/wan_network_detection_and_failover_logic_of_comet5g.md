@@ -1,4 +1,4 @@
-# WAN Comet 5G のネットワーク検出およびフェイルオーバー ロジックとは何ですか
+# WAN Comet 5G のネットワーク検出およびフェイルオーバー ロジックとは何ですか {#what-is-the-wan-network-detection-and-failover-logic-of-comet-5g}
 
 1. システムは ping ベースの検出を使用し、**3 seconds** ごとにすべてのインターフェイスにプローブを送信し、**9 seconds** ごとにフェイルオーバー条件を評価します。
 

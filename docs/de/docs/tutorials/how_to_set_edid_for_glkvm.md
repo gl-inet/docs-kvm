@@ -1,6 +1,6 @@
-# EDID fuer GL.iNet KVM festlegen
+# EDID fuer GL.iNet KVM festlegen {#how-to-set-edid-for-glinet-kvm}
 
-## Was ist EDID
+## Was ist EDID {#what-is-edid}
 
 EDID, also Extended Display Identification Data, ist ein von der Video Electronics Standards Association (VESA) definiertes Standarddatenformat. Es wird im nichtfluechtigen Speicher des Displays abgelegt und enthaelt wichtige Display-Informationen wie Hersteller, maximale Aufloesung, Bildwiederholrate usw. Geraete wie Computer koennen durch Auslesen der EDID die Parameter des Ausgangssignals automatisch anpassen, damit das Display Bilder optimal darstellt.
 
@@ -8,7 +8,7 @@ Wenn Geraete wie Computer, Laptops oder Spielkonsolen mit einem Display verbunde
 
 Die EDID-Einstellungen in GL.iNet KVM dienen dazu, automatisch die optimalen Parameter des Displays abzustimmen. Wenn ein GL.iNet KVM mit dem gesteuerten Geraet verbunden ist, kann es durch Auslesen der EDID des Displays die Anzeigeausgabe automatisch anpassen, um das beste Bild darzustellen.
 
-## Voreingestellte EDID
+## Voreingestellte EDID {#preset-edid}
 
 Navigieren Sie in der GL.iNet KVM-Konsole zu **Settings** -> **Video** -> **EDID**. Dort gibt es einige voreingestellte EDID-Einstellungen.
 
@@ -18,7 +18,7 @@ Navigieren Sie in der GL.iNet KVM-Konsole zu **Settings** -> **Video** -> **EDID
 
 In besonderen Situationen, z. B. zum Konfigurieren von UEFI/BIOS oder zum Anpassen von Aufloesung/Bildwiederholrate, koennen Sie einen voreingestellten Wert auswaehlen, z. B. 1920×1280/AUO/60HZ.
 
-## Benutzerdefinierte EDID
+## Benutzerdefinierte EDID {#custom-edid}
 
 Wenn Sie keinen passenden EDID-Code finden, koennen Sie [diesen Link](https://github.com/linuxhw/EDID){target="blank"} oder die folgenden Schritte verwenden, um die EDID-Konfiguration anzupassen.
 

@@ -1,6 +1,6 @@
-# GL.iNet KVM の EDID の設定方法
+# GL.iNet KVM の EDID の設定方法 {#how-to-set-edid-for-glinet-kvm}
 
-## EDIDとは
+## EDIDとは {#what-is-edid}
 
 EDID、つまり拡張ディスプレイ識別データは、Video Electronics Standards Association (VESA) によって策定された標準データ形式です。これはディスプレイの不揮発性メモリに保存され、製造元、最大解像度、リフレッシュ レートなどのディスプレイの重要な情報が含まれています。コンピュータなどのデバイスは、EDID を読み取ることで出力信号のパラメータを自動的に調整し、ディスプレイに画像が最適な状態で表示されるようにすることができます。
 
@@ -8,7 +8,7 @@ EDID、つまり拡張ディスプレイ識別データは、Video Electronics S
 
 GL.iNet KVM の EDID 設定は、ディスプレイの最適なパラメーターを自動的に一致させることを目的としています。 GL.iNet KVM が被制御デバイスに接続されている場合、ディスプレイの EDID を読み取ることで、ディスプレイ出力を自動的に調整して最高の画像を表示できます。
 
-## プリセット EDID
+## プリセット EDID {#preset-edid}
 
 GL.iNet KVM コンソールで、**Settings** -> **Video** -> **EDID** に移動します。いくつかのプリセット EDID 設定があります。
 
@@ -18,7 +18,7 @@ GL.iNet KVM コンソールで、**Settings** -> **Video** -> **EDID** に移動
 
 UEFI/BIOS の構成や解像度/リフレッシュ レートのカスタマイズなどの特別な状況の場合は、プリセット値 (例: 1920×1280/AUO/60HZ) を選択できます。
 
-## カスタム EDID
+## カスタム EDID {#custom-edid}
 
 適切な EDID コードが見つからない場合は、[このリンク](https://github.com/linuxhw/EDID){target="blank"} または以下の手順を参照して、EDID 構成をカスタマイズしてください。
 

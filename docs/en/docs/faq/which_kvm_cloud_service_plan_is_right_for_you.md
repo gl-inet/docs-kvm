@@ -1,8 +1,8 @@
-# Which KVM Cloud service plan is right for you
+# Which KVM Cloud service plan is right for you {#which-kvm-cloud-service-plan-is-right-for-you}
 
 KVM Cloud Service is available in two plans: the free Standard plan and the paid Advanced plan. Screen Wall and Device Sharing are premium features available only in the Advanced plan. The following table compares the features included in each plan. You can upgrade to the Advanced plan as needed.
 
-## Benefits Comparison
+## Benefits Comparison {#benefits-comparison}
 | Key Function | Standard | Advanced |
 | ---- | ---- | ---- |
 | Basic Connection | ✓ Lifetime basic connection | ✓ Lifetime basic connection |

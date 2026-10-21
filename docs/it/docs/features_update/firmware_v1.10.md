@@ -1,16 +1,16 @@
-# Firmware v1.10
+# Firmware v1.10 {#firmware-v110}
 
 Questa versione introduce WebRTC nativo, il monitoraggio dei dati in tempo reale, la gestione centralizzata dei dispositivi USB e un nuovo Settings Center. Migliora inoltre le prestazioni all'avvio, la sicurezza e la stabilità del microfono, per un'esperienza KVM remota più fluida e affidabile.
 
 Scarica il firmware più recente dal [centro download del firmware](https://dl.gl-inet.com/kvm){target="_blank"}
 
-## Modalità WebRTC (Native)
+## Modalità WebRTC (Native) {#webrtc-native-mode}
 
 Questo firmware introduce la modalità **WebRTC (Native) Mode**. Utilizza la libreria Google WebRTC per migliorare le prestazioni dello streaming e offrire un controllo remoto in tempo reale più fluido.
 
 ![Modalità WebRTC](https://static.gl-inet.com/docs/kvm/features_update/1.10/webrtc_native_mode.png){class="glboxshadow" width=400}
 
-## Statistiche di connessione
+## Statistiche di connessione {#connection-stats}
 
 **Connection Stats** mostra le informazioni sulla connessione in tempo reale e i grafici dell'andamento, tra cui latenza di rete, jitter, percentuale di pacchetti persi, bitrate, frequenza dei fotogrammi e ritardo di riproduzione.
 
@@ -22,11 +22,11 @@ Fai clic sull'icona del grafico per visualizzare l'andamento di latenza di rete,
 
 ![Statistiche di connessione 2](https://static.gl-inet.com/docs/kvm/features_update/1.10/data_dashboard_2.png){class="glboxshadow"}
 
-## Centro impostazioni
+## Centro impostazioni {#settings-center}
 
 Questa versione aggiunge un nuovo **Settings Center** che riunisce le impostazioni dei dispositivi USB, delle preferenze, della rete, della sicurezza, del cloud e del sistema. Le opzioni esistenti, come la configurazione del nome host, la gestione del cloud e gli aggiornamenti del firmware, sono ora più facili da trovare in un unico punto.
 
-### Dispositivi USB
+### Dispositivi USB {#usb-devices}
 
 La pagina **USB Devices** offre la gestione centralizzata dei dispositivi USB emulati. Da questa pagina puoi attivare o disattivare le periferiche virtuali per migliorare la compatibilità con il computer controllato.
 
@@ -36,7 +36,7 @@ La pagina **USB Devices** offre la gestione centralizzata dei dispositivi USB em
 
 - **Device Identity**: personalizza o modifica l'identità con cui il KVM viene riconosciuto dal dispositivo controllato. L'EDID e l'identificazione del dispositivo rimangono sincronizzati: modificando uno dei due, l'altro viene aggiornato automaticamente per garantire il corretto riconoscimento del dispositivo.
 
-### Preferenze
+### Preferenze {#preferences}
 
 La pagina **Preferences** consente di gestire le preferenze di visualizzazione, le impostazioni di sistema e quelle dello schermo del dispositivo.
 
@@ -50,7 +50,7 @@ La pagina **Preferences** consente di gestire le preferenze di visualizzazione, 
 
     **Nota**: questa funzionalità è disponibile solo sui modelli con schermo integrato.
 
-### Rete
+### Rete {#network}
 
 Puoi visualizzare e gestire le impostazioni di rete del dispositivo, tra cui nome host, connessione Ethernet e informazioni sulla rete wireless.
 
@@ -64,7 +64,7 @@ Puoi visualizzare e gestire le impostazioni di rete del dispositivo, tra cui nom
 
     **Nota**: la funzionalità Wireless è disponibile solo sui modelli supportati.
 
-### Sicurezza
+### Sicurezza {#security}
 
 La pagina **Security** consente di modificare la password di amministratore, attivare l'autenticazione a due fattori e personalizzare il certificato TLS.
 
@@ -74,13 +74,13 @@ La pagina **Security** consente di modificare la password di amministratore, att
 
 - **TLS Certificate**: utilizza il certificato predefinito oppure carica un certificato personalizzato e la relativa chiave privata per l'accesso tramite browser.
 
-### Cloud
+### Cloud {#cloud}
 
 I dispositivi possono essere associati ai servizi cloud tramite URL o codice per l'accesso e la gestione da remoto. Puoi anche scaricare l'app mobile, gestire la connessione o rimuovere l'associazione del dispositivo secondo necessità.
 
 ![Cloud](https://static.gl-inet.com/docs/kvm/features_update/1.10/settings_cloud.png){class="glboxshadow"}
 
-### Sistema
+### Sistema {#system}
 
 In **System** puoi accedere alle opzioni di gestione del sistema, aggiornamento del firmware e assistenza.
 
@@ -92,7 +92,7 @@ In **System** puoi accedere alle opzioni di gestione del sistema, aggiornamento 
 
 - **Help & Support**: esporta i log del dispositivo per la risoluzione dei problemi e accedi a guide utente, domande frequenti e altri documenti di supporto.
 
-## Altri miglioramenti
+## Altri miglioramenti {#other-enhancements}
 
 - **Prestazioni all'avvio**: avvio del dispositivo più rapido.
 

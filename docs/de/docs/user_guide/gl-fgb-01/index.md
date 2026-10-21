@@ -1,4 +1,4 @@
-# Fingerbot (FGB-01) Benutzerhandbuch
+# Fingerbot (FGB-01) Benutzerhandbuch {#fingerbot-fgb-01-user-guide}
 
 Fingerbot FGB-01 ist ein Zubehoer fuer GL.iNet KVM-Geraete und bietet zusaetzlichen Komfort fuer die Fernverwaltung der Stromversorgung.
 
@@ -8,7 +8,7 @@ Als physischer Tastenemulator ist der Fingerbot dafuer vorgesehen, das Zielgerae
 
 ![overview](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/overview.png){class="glboxshadow"}
 
-## Lieferumfang
+## Lieferumfang {#package-contents}
 
 ![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/package_contents.png){class="glboxshadow"}
 
@@ -23,7 +23,7 @@ Sehen Sie sich unten das Unboxing-Video des Fingerbot an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Aeu5yiDEt0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Installation
+## Installation {#installation}
 
 Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Fingerbot zu installieren.
 
@@ -69,7 +69,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Fingerbot
 
     ![install 10](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/install10.jpg){class="glboxshadow"}
 
-## Einrichtung
+## Einrichtung {#setup}
 
 1. Melden Sie sich bei der GL.iNet KVM-Konsole an.
 
@@ -99,7 +99,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den Schritten unten, um Fingerbot
 
         3. Drittes Druecken: Fingerbot faehrt zurueck.
 
-## FAQ
+## FAQ {#faq}
 
 **F1. Welches Protokoll verwendet der USB-Empfaenger des GL-Fingerbot?**
 
@@ -140,7 +140,7 @@ A5. Das Add-on ist fuer die Steuerung herkoemmlicher Schalter, z. B. Lichtschalt
 
 Derzeit kann Fingerbot jedoch nur mit einem GL.iNet KVM-Geraet verwendet werden. Nehmen Sie den USB-Bluetooth-Empfaenger aus dem Fingerbot, stecken Sie ihn in den USB-Anschluss des GL.iNet KVM, und Sie koennen Fingerbot aus der Ferne ueber ein GL.iNet KVM steuern.
 
-## Sicherheitshinweise
+## Sicherheitshinweise {#safety-information}
  
 Lesen Sie vor der Verwendung des Geräts alle nachstehenden Sicherheitsinformationen sorgfältig durch. Die nachfolgenden Sicherheitsempfehlungen können nicht sämtliche möglicherweise auftretenden Gefahrensituationen abdecken.
 

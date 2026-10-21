@@ -1,10 +1,10 @@
-# Comet X (GL-RM4PE) 概要
+# Comet X (GL-RM4PE) 概要 {#comet-x-gl-rm4pe-overview}
 
-## 外観
+## 外観 {#appearance}
 
 ![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
 
-## インターフェース
+## インターフェース {#interface}
 
 ![interface1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
 
@@ -14,7 +14,7 @@ Comet X は同時に 4 つのターゲット デバイスに接続できます�
 
 リアパネルに 4 つの独立したチャンネルを備えています。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器 (Fingerbot や ATX ボードなど) 用の USB 2.0 ポートが付属しています。
 
-## タッチスクリーン
+## タッチスクリーン {#touchscreen}
 
 |画面表示 |説明 |
 | :-------------------------------- | :------------------ |

@@ -1,4 +1,4 @@
-# Jak udostępniać urządzenia KVM innym osobom
+# Jak udostępniać urządzenia KVM innym osobom {#how-to-share-kvm-devices-with-others}
 
 Udostępnianie urządzeń przez chmurę to funkcja premium, która pozwala przyznawać innym użytkownikom zdalny dostęp do urządzeń KVM i zdalnie zarządzać ich uprawnieniami.
 

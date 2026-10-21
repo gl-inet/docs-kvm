@@ -1,12 +1,12 @@
-# Was tun, wenn der Remote-Bildschirm die BIOS-Oberfläche nicht anzeigt
+# Was tun, wenn der Remote-Bildschirm die BIOS-Oberfläche nicht anzeigt {#what-should-i-do-if-the-remote-screen-does-not-show-the-bios-interface}
 
 Wenn beim Zugriff auf das gesteuerte Gerät über KVM auf dem Remote-Bildschirm die BIOS-Oberfläche nicht angezeigt wird (z. B. No HDMI Signal), liegt der Grund darin, dass die BIOS-Oberfläche normalerweise nur auf dem primären Monitor ausgegeben wird. Hier einige Vorschläge.
 
-## Laptop
+## Laptop {#laptop}
 
 Wenn das gesteuerte Gerät ein Laptop ist, dient der integrierte Bildschirm als primäre Anzeige. Daher kann das externe KVM die BIOS-Oberfläche nicht darstellen.
 
-## Desktop
+## Desktop {#desktop}
 
 Verbinden Sie bei Desktop-Geräten den primären Monitor mit dem DisplayPort-Anschluss, sofern vorhanden. Der Grund ist, dass die meisten Grafikkarten und Mainboards beim Start die DP-Ausgabe gegenüber HDMI priorisieren.
 

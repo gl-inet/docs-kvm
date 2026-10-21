@@ -1,4 +1,4 @@
-# Jak wyeksportować logi sieci komórkowej
+# Jak wyeksportować logi sieci komórkowej {#how-to-export-cellular-logs}
 
 Ten poradnik przedstawia kroki eksportowania logów związanych z siecią komórkową z urządzenia KVM na potrzeby rozwiązywania problemów.
 

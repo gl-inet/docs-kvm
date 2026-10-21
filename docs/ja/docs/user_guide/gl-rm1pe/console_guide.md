@@ -1,6 +1,6 @@
-# Comet PoE (GL-RM1PE) コンソール ガイド
+# Comet PoE (GL-RM1PE) コンソール ガイド {#comet-poe-gl-rm1pe-console-guide}
 
-## セッション
+## セッション {#session}
 
 コンソールで Session アイコンをクリックし、**Session Settings** を開きます。このページには次の 4 つのセクションがあります。
 
@@ -109,7 +109,7 @@ Session Settings では、表示モード、画質、ビデオ転送方式、画
 
 - **Primary Button**: 主ボタンとして左ボタンまたは右ボタンを選択します。この機能はファームウェア v1.9.0 で導入されました。
 
-## ツールボックス
+## ツールボックス {#toolbox}
 
 コンソールで **Toolbox** に移動します。ツールボックスページには、次の 5 つのセクションがあります。
 
@@ -173,7 +173,7 @@ GLKVM ターミナルにリダイレクトされます。
 
 ![toolbox-terminal2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/toolbox_terminal_2.png){class="glboxshadow"}
 
-## アクセサリー
+## アクセサリー {#accessories}
 
 GL.iNet は、デバイスの電源オン/オフをリモート制御するためのオプションの KVM アクセサリを提供します。
 
@@ -185,7 +185,7 @@ GL.iNet は、デバイスの電源オン/オフをリモート制御するた�
 
 2 番目に、KVM コンソールにログインし、**Accessories** に移動します。アクセサリの設定は、アクセサリをインストールした後にのみ使用できます。
 
-### フィンガーボット
+### フィンガーボット {#fingerbot}
 
 Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付けられ、被制御デバイスの電源の遠隔制御を実現します。
 
@@ -203,7 +203,7 @@ Fingerbot は、被制御デバイスの物理的な電源ボタンに貼り付�
 
     ![press mode](https://static.gl-inet.com/docs/kvm/user_guide/gl-fgb-01/press_mode.png){class="glboxshadow gl-70-desktop"}
 
-### ATX 電源
+### ATX 電源 {#atx-power}
 
 ATX ボードはコンピューター ケースに取り付けられており、デバイスの電源オン/オフ/再起動をリモートで制御します。
 
@@ -217,7 +217,7 @@ ATX ボードはコンピューター ケースに取り付けられており、
 
 - **Restart**: デバイスを再起動します。
 
-## 仮想メディア
+## 仮想メディア {#virtual-media}
 
 コンソールで、**Virtual Media**に移動します。ここでは次の操作を実行できます。
 
@@ -228,7 +228,7 @@ ATX ボードはコンピューター ケースに取り付けられており、
 
 ![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/virtual-media.png){class="glboxshadow"}
 
-### ファイル共有
+### ファイル共有 {#file-sharing}
 
 Comet PoE は、読み取り/書き込み USB ドライブをエミュレートできるため、制御側デバイスと制御側デバイスの間でファイルを共有および管理できます。
 
@@ -279,7 +279,7 @@ Comet PoE は、読み取り/書き込み USB ドライブをエミュレート�
 
     ![file shared](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/file-sharing6.png){class="glboxshadow"}
 
-### イメージのマウント
+### イメージのマウント {#image-mounting}
 
 Comet PoE は、被制御デバイス上の読み取り専用の仮想 CD/DVD またはディスク ドライブをシミュレートできます。このドライブには、BIOS または UEFI の起動プロセス中にアクセスできます。
 
@@ -308,13 +308,13 @@ Comet PoE は、被制御デバイス上の読み取り専用の仮想 CD/DVD �
 
     ![image mounting 5](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/image-mounting5.png){class="glboxshadow"}
 
-### ストレージ ドライブを交換する
+### ストレージ ドライブを交換する {#replace-storage-drive}
 
 USB ストレージ デバイスを KVM USB ポートに挿入して、内部ストレージを置き換えることができます。
 
 ![replace storage drive](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/replace-storage.png){class="glboxshadow"}
 
-### ディスクをフォーマットします
+### ディスクをフォーマットします {#format-disk}
 
 ワンクリックでディスクをフォーマットしたり、仮想メディアを無効にしたりできます。
 
@@ -324,13 +324,13 @@ USB ストレージ デバイスを KVM USB ポートに挿入して、内部ス
 
 - **Disable**: 仮想メディアを無効にすると、KVM デバイスがすぐに再起動されます。
 
-## アプリ センター
+## アプリ センター {#apps-center}
 
 コンソールで、**Apps Center**に移動します。統合されたアプリケーションはここにあります。
 
 ![apps center](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/apps-center.png){class="glboxshadow"}
 
-### Tailscale
+### Tailscale {#tailscale}
 
 [Tailscale](https://tailscale.com/){target="_blank"} は、ポート転送や複雑なファイアウォール設定を行わずに、デバイス間で暗号化されたピアツーピア プライベート ネットワークを構築する WireGuard ベースのメッシュ VPN サービスです。
 
@@ -342,7 +342,7 @@ Comet PoE と制御側デバイスを同じ Tailscale アカウントにバイ�
 
 ![tailscale enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/app-tailscale-enabled.png){class="glboxshadow"}
 
-### ZeroTier
+### ZeroTier {#zerotier}
 
 [ZeroTier](https://www.zerotier.com/){target="_blank"} は、暗号化されたオーバーレイ仮想ネットワークを作成し、分散したデバイスをあたかも同じローカル エリア ネットワーク内にあるかのようにグローバルに接続します。
 
@@ -354,7 +354,7 @@ Comet PoE と制御側デバイスを同じ ZeroTier ネットワークに参加
 
 ![zerotier enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/app-zerotier-enabled.png){class="glboxshadow"}
 
-### NetBird
+### NetBird {#netbird}
 
 [NetBird](https://netbird.io/){target="_blank"} は、家庭用およびビジネス用の安全なプライベート ネットワークを構築できるオープンソースのゼロトラスト ネットワーキング プラットフォームです。 WireGuard® ベースのオーバーレイ ネットワークとして、NetBird は、いつでもどこでもデバイスへの安全なアクセスを可能にします。
 
@@ -364,13 +364,13 @@ Comet PoE は NetBird と統合されており、NetBird 仮想ネットワー�
 
 ![netbird enabled](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/app-netbird-enabled.png){class="glboxshadow"}
 
-## ヘルプ
+## ヘルプ {#help}
 
 コンソールで、**Help** に移動します。ここでは、GL.iNet KVM に関する詳細情報とヘルプ ドキュメント、およびトラブルシューティング用のログをエクスポートできます。
 
 ![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/help.png){class="glboxshadow"}
 
-## ツールバー
+## ツールバー {#toolbar}
 
 コンソールの右上には、次のツールがあります。
 
@@ -441,7 +441,7 @@ Comet PoE をクラウドにバインドすると、コンソールにクラウ�
 
 ![layout](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1pe/console/logout.png){class="glboxshadow"}
 
-## 設定
+## 設定 {#settings}
 
 コンソールでナビゲーションバーの Settings アイコンをクリックすると、次の Settings ページが開きます。この機能はファームウェア v1.10.0 で導入されました。
 
