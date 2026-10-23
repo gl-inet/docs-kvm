@@ -54,7 +54,7 @@ If your question is not listed below, please contact our technical support team 
 * [Remote screen goes blank or shows no HDMI signal](remote_screen_goes_blank_no_hdmi_signal.md)
 * [Remote screen does not show the BIOS interface](remote_screen_does_not_show_bios_interface.md)
 
-## Keyboard & Mouse Issues {#keyboard-mouse-issues}
+## Keyboard & Mouse & Audio Issues {#keyboard-mouse-audio-issues}
 
 * [What should I do if I cannot control the mouse and keyboard](cannot_control_mouse_and_keyboard.md)
 * [What should I do if mouse cursors fail to align](mouse_cursors_fail_to_align.md)
@@ -62,8 +62,9 @@ If your question is not listed below, please contact our technical support team 
 * [What should I do if relative mouse mode does not work on Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md)
 * [What is the difference between Absolute mouse and Relative mouse](difference_between_absolute_and_relative_mouse.md)
 * [How to fix mouse latency when RPi4 controls RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
-
-## Audio Issues {#audio-issues}
-
 * [What should I do if there's no audio from the controlled device](no_audio_from_the_controlled_device.md)
 * [Why can't I keep my speaker and microphone settings](speaker_microphone_settings_cannot_be_retained.md)
+
+## Other Issues {#other-issues}
+
+* [What should I do if I see "Press Failed" when using Fingerbot](fingerbot_fails_to_press.md)
