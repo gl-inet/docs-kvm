@@ -63,8 +63,8 @@ You can adjust the Audio and Camera settings for the controlled device.
 
 - **Camera**: When the camera is enabled on the controlling device, local video frames are transmitted via passthrough to the remote host, where a virtual USB camera is emulated. Applications running on the remote host (e.g., conferencing tools and FaceTime) can consume this video feed, providing the same user experience as a physical camera directly attached to the remote host.
     
-    **Note**: This feature was introduced in firmware v1.10.0 and is supported exclusively in WebRTC (FEC) mode. At present, it is accessible only via a web browser; support for the app and desktop client is not yet available.
-
+    **Note**: This feature was introduced in firmware v1.10.0 and is supported only in WebRTC (FEC) mode. It is currently available through web browsers and the desktop client, but is not yet supported in the mobile app.
+    
 ### Keyboard {#keyboard}
 
 The Keyboard allows you to configure settings for keyboard use on the controlled device.
