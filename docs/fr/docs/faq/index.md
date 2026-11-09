@@ -63,7 +63,7 @@ Si votre question ne figure pas ci-dessous, contactez notre assistance technique
 * [Différence entre souris absolue et relative](difference_between_absolute_and_relative_mouse.md)
 * [Latence de la souris lorsque le RPi4 contrôle le RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Problèmes audio {#audio-issues}
+## Problèmes audio {#audio-camera-issues}
 
 * [Aucun son provenant de l’appareil contrôlé](no_audio_from_the_controlled_device.md)
 * [Les réglages du haut-parleur et du microphone ne sont pas conservés](speaker_microphone_settings_cannot_be_retained.md)

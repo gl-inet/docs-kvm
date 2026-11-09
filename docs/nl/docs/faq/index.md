@@ -63,7 +63,7 @@ Staat uw vraag hieronder niet vermeld? Neem dan contact op met ons technische su
 * [Wat is het verschil tussen de absolute en de relatieve muismodus?](difference_between_absolute_and_relative_mouse.md)
 * [Muisvertraging verhelpen wanneer een RPi4 een RPi3 bestuurt via een KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Problemen met audio {#audio-issues}
+## Problemen met audio {#audio-camera-issues}
 
 * [Wat moet ik doen als er geen geluid van het bestuurde apparaat komt?](no_audio_from_the_controlled_device.md)
 * [Waarom blijven mijn luidspreker- en microfooninstellingen niet bewaard?](speaker_microphone_settings_cannot_be_retained.md)
