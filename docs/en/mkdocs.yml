@@ -237,6 +237,7 @@ nav:
           - No audio from the controlled device: faq/no_audio_from_the_controlled_device.md
           - The speaker and microphone settings cannot be retained: faq/speaker_microphone_settings_cannot_be_retained.md
           - Use camera passthrough for remote meetings: faq/use_camera_passthrough_for_remote_meetings.md
+          - Use two-way audio for remote meetings: faq/use_two_way_audio_for_remote_meetings.md
       - Other Issues:
           - Fingerbot fails to press: faq/fingerbot_fails_to_press.md
   - Tutorials:

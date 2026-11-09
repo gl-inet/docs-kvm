@@ -1,4 +1,4 @@
-# How can I share the local camera with remote meetings? (Camera Passthrough) {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
+# How can I use camera passthrough for remote meetings
 
 **Note**: The Camera feature was introduced in firmware v1.10.0 and is supported only in WebRTC (FEC) mode. It is currently available through web browsers and the desktop client, but is not yet supported in the mobile app.
 
