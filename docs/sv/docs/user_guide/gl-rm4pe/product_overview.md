@@ -2,17 +2,11 @@
 
 ## Utseende {#appearance}
 
-![Utseende](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
-
-## Gränssnitt {#interface}
-
-![Gränssnitt 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
-
-![Gränssnitt 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface2.jpg){class="glboxshadow"}
-
 Comet X kan anslutas till fyra målenheter samtidigt, men endast en enhet åt gången kan styras. Du kan snabbt växla mellan de fyra anslutna enheterna med den fysiska knappen på frontpanelen när du är på plats, eller via fjärrkonsolen när du är på annan plats.
 
 Den har fyra oberoende kanaler på baksidan. Varje kanal har en HDMI-port för överföring av videosignal, en Type-C-port för överföring av tangentbords- och mussignaler och en USB 2.0-port för USB-kringutrustning (t.ex. Fingerbot eller ATX-kort).
+
+![Utseende](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance.png){class="glboxshadow"}
 
 ## Pekskärm {#touchscreen}
 
@@ -27,3 +21,21 @@ Den har fyra oberoende kanaler på baksidan. Varje kanal har en HDMI-port för �
 | ![Systemmeny](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **Systemmeny**<br>Svep nedåt från överkanten på startskärmen för att komma åt systemmenyn, bland annat **Reboot** och **Lock Screen**. |
 | ![Tid](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **Låsskärm**<br>Låsskärmen visar tid och datum. |
 | ![Återställning](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/reset.png)| **Fabriksåterställning**<br>Medan KVM-enheten är påslagen <u>håller du in</u> växlingsknappen på frontpanelen i 8 sekunder för att återställa till fabriksinställningarna. Släpp knappen inom 8 sekunder för att avbryta återställningen. |
+
+## Förpackningens innehåll {#package-contents}
+
+- 1 x Comet X (GL-RM4PE)
+- 1 x Bruksanvisning
+- 1 x Tackkort
+- 2 x Monteringsfästen för 10-tumsrack
+- 2 x Monteringsfästen för 19-tumsrack
+- 1 x Skruvpåse
+- 1 x Ethernet-kabel
+- 4 x HDMI-kablar
+- 4 x USB-kablar (Type-A till Type-C)
+
+![Förpackningens innehåll](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/package_contents.png){class="glboxshadow"}
+
+Se uppackningsvideon nedan.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

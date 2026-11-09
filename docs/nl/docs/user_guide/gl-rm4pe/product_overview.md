@@ -2,17 +2,11 @@
 
 ## Uiterlijk {#appearance}
 
-![Uiterlijk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
-
-## Aansluitingen {#interface}
-
-![Aansluitingen 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
-
-![Aansluitingen 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface2.jpg){class="glboxshadow"}
-
 De Comet X kan tegelijkertijd op vier doelapparaten worden aangesloten, maar u kunt slechts één apparaat tegelijk bedienen. Ter plaatse kunt u met de fysieke knop op het voorpaneel snel tussen de vier aangesloten apparaten wisselen; op afstand doet u dit via de externe console.
 
 Het apparaat heeft vier onafhankelijke kanalen op het achterpaneel. Elk kanaal heeft een HDMI-poort voor de overdracht van videosignalen, een Type-C-poort voor de overdracht van toetsenbord- en muissignalen en een USB 2.0-poort voor USB-randapparaten (bijvoorbeeld een Fingerbot of ATX Board).
+
+![Uiterlijk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance.png){class="glboxshadow"}
 
 ## Touchscreen {#touchscreen}
 
@@ -27,3 +21,21 @@ Het apparaat heeft vier onafhankelijke kanalen op het achterpaneel. Elk kanaal h
 | ![Systeemmenu](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **Systeemmenu**<br>Veeg op het startscherm van boven naar beneden om het systeemmenu te openen, waaronder **Reboot** en **Lock Screen**. |
 | ![Tijd](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **Vergrendelscherm**<br>Het vergrendelscherm toont de tijd en datum. |
 | ![Reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/reset.png)| **Fabrieksreset**<br>Houd bij ingeschakelde KVM de schakelknop op het voorpaneel 8 seconden <u>lang ingedrukt</u> om de fabrieksinstellingen te herstellen. Laat de knop binnen 8 seconden los om de reset te annuleren. |
+
+## Inhoud van de verpakking {#package-contents}
+
+- 1 x Comet X (GL-RM4PE)
+- 1 x Gebruikershandleiding
+- 1 x Bedankkaart
+- 2 x Montagebeugels voor een 10-inch rack
+- 2 x Montagebeugels voor een 19-inch rack
+- 1 x Zakje schroeven
+- 1 x Ethernetkabel
+- 4 x HDMI-kabels
+- 4 x USB-kabels (Type-A naar Type-C)
+
+![Inhoud van de verpakking](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/package_contents.png){class="glboxshadow"}
+
+Bekijk hieronder de uitpakvideo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -63,7 +63,7 @@ Vous pouvez régler les paramètres audio et de caméra de l’appareil contrôl
 
 - **Camera** : lorsque la caméra est activée sur l’appareil de contrôle, les images vidéo locales sont transmises directement à l’hôte distant, sur lequel une caméra USB virtuelle est émulée. Les applications de l’hôte distant, comme les outils de visioconférence et FaceTime, peuvent utiliser ce flux vidéo comme si une caméra physique y était directement connectée.
 
-    **Remarque** : cette fonction a été introduite dans le micrologiciel v1.10.0 et fonctionne uniquement en mode WebRTC (FEC). Elle est actuellement accessible uniquement depuis un navigateur web ; elle n’est pas encore prise en charge dans l’application ni dans le client de bureau.
+    **Remarque** : Cette fonctionnalité a été introduite dans le micrologiciel v1.10.0 et n’est prise en charge qu’en mode WebRTC (FEC). Elle est actuellement disponible dans les navigateurs web et le client de bureau, mais n’est pas encore prise en charge dans l’application mobile.
 
 ### Clavier {#keyboard}
 

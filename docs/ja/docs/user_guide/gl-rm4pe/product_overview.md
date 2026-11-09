@@ -2,17 +2,11 @@
 
 ## 外観 {#appearance}
 
-![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
-
-## インターフェース {#interface}
-
-![interface1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
-
-![interface2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface2.jpg){class="glboxshadow"}
-
 Comet X は同時に 4 つのターゲット デバイスに接続できますが、一度に制御できるデバイスは 1 つだけです。現場にいる場合はフロント パネルの物理ボタンを使用して、または離れている場合はリモート コンソールを使用して、接続された 4 つのデバイスをすばやく切り替えることができます。
 
 リアパネルに 4 つの独立したチャンネルを備えています。各チャンネルには、ビデオ信号送信用の HDMI ポート、キーボードおよびマウス信号送信用の Type-C ポート、および USB 周辺機器（Fingerbot や ATX ボードなど）用の USB 2.0 ポートが付属しています。
+
+![外観](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance.png){class="glboxshadow"}
 
 ## タッチスクリーン {#touchscreen}
 
@@ -27,3 +21,21 @@ Comet X は同時に 4 つのターゲット デバイスに接続できます�
 | ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **System Menu**<br>ホーム画面で上から下にスワイプして、**Reboot** や **Lock Screen** などのシステム メニューにアクセスします。 |
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **ロック画面**<br>ロック画面には時刻と日付が表示されます。 |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/reset.png)| **Factory Reset**<br>KVM の電源が入っている状態で、<u>フロント パネルのスイッチ ボタンを 8 秒間長押しして出荷時設定にリセットします。リセットをキャンセルするには、8 秒以内にボタンを放します。 |
+
+## 同梱物 {#package-contents}
+
+- 1 x Comet X (GL-RM4PE)
+- 1 x ユーザーマニュアル
+- 1 x サンキューカード
+- 2 x 10インチラック取り付けブラケット
+- 2 x 19インチラック取り付けブラケット
+- 1 x ネジ袋
+- 1 x Ethernetケーブル
+- 4 x HDMIケーブル
+- 4 x USBケーブル（Type-AからType-C）
+
+![同梱物](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/package_contents.png){class="glboxshadow"}
+
+以下の開封動画をご覧ください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

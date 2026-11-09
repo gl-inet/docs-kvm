@@ -1,8 +1,8 @@
 # Comet Q (GL-RMQ1) — przegląd produktu {#comet-q-gl-rmq1-overview}
 
-## Wymiary {#dimension}
+## Wygląd {#appearance}
 
-![Wymiary](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
+![Wygląd](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_appearance.png){class="glboxshadow" width="700"}
 
 ## Ekran dotykowy {#touchscreen}
 
@@ -30,7 +30,10 @@ Comet Q współpracuje z dowolnym urządzeniem, którego port USB-C obsługuje *
 
 - 1 x Comet Q (GL-RMQ1)
 - 1 x instrukcja obsługi
+- 1 x Karta z podziękowaniem
 - 1 x pokrowiec ochronny
+
+![Zawartość opakowania](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_package_contents.png){class="glboxshadow" width="700"}
 
 Obejrzyj poniższy film z rozpakowywania urządzenia.
 

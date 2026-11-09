@@ -63,7 +63,7 @@ Możesz dostosować ustawienia dźwięku i kamery sterowanego urządzenia.
 
 - **Camera**: po włączeniu kamery na urządzeniu sterującym lokalny obraz wideo jest przekazywany do zdalnego komputera, na którym emulowana jest wirtualna kamera USB. Aplikacje działające na zdalnym komputerze (np. narzędzia konferencyjne i FaceTime) mogą korzystać z tego obrazu tak samo jak z kamery fizycznie do niego podłączonej.
 
-    **Uwaga**: Tę funkcję wprowadzono w oprogramowaniu układowym v1.10.0 i jest ona obsługiwana wyłącznie w trybie WebRTC (FEC). Obecnie można z niej korzystać tylko w przeglądarce internetowej; aplikacja mobilna i klient na komputer nie są jeszcze obsługiwane.
+    **Uwaga**: Tę funkcję wprowadzono w oprogramowaniu układowym v1.10.0 i jest ona obsługiwana wyłącznie w trybie WebRTC (FEC). Obecnie można z niej korzystać w przeglądarkach internetowych i kliencie na komputer, ale aplikacja mobilna nie jest jeszcze obsługiwana.
 
 ### Klawiatura {#keyboard}
 

@@ -63,7 +63,7 @@ Du kan justera inställningarna för ljud och kamera för den styrda enheten.
 
 - **Camera**: när kameran är aktiverad på den styrande enheten överförs lokala videobilder direkt till fjärrvärden, där en virtuell USB-kamera emuleras. Program som körs på fjärrvärden (t.ex. konferensverktyg och FaceTime) kan använda den här videoströmmen, vilket ger samma användarupplevelse som en fysisk kamera som är direkt ansluten till fjärrvärden.
 
-    **Obs!** Funktionen introducerades i firmware v1.10.0 och stöds endast i läget WebRTC (FEC). För närvarande är den bara tillgänglig via webbläsare. Stöd för appen och skrivbordsklienten finns ännu inte.
+    **Obs!** Funktionen introducerades i firmware v1.10.0 och stöds endast i läget WebRTC (FEC). Den är för närvarande tillgänglig via webbläsare och skrivbordsklienten, men stöds ännu inte i mobilappen.
 
 ### Tangentbord {#keyboard}
 

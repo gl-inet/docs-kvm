@@ -1,8 +1,8 @@
 # Översikt över Comet Q (GL-RMQ1) {#comet-q-gl-rmq1-overview}
 
-## Mått {#dimension}
+## Utseende {#appearance}
 
-![Mått](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
+![Utseende](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_appearance.png){class="glboxshadow" width="700"}
 
 ## Pekskärm {#touchscreen}
 
@@ -30,7 +30,10 @@ Comet Q fungerar med alla enheter vars USB-C-port stöder **DisplayPort Alt Mode
 
 - 1 x Comet Q (GL-RMQ1)
 - 1 x Bruksanvisning
+- 1 x Tackkort
 - 1 x Skyddsfodral
+
+![Förpackningens innehåll](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_package_contents.png){class="glboxshadow" width="700"}
 
 Se uppackningsvideon nedan.
 

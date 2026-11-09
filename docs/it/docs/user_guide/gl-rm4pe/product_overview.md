@@ -2,17 +2,11 @@
 
 ## Aspetto { #appearance }
 
-![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
-
-## Interfacce { #interface }
-
-![interface1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
-
-![interface2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface2.jpg){class="glboxshadow"}
-
 Comet X può collegarsi a quattro dispositivi contemporaneamente, ma è possibile controllarne solo uno alla volta. Per passare rapidamente da un dispositivo all'altro, usare il pulsante fisico sul pannello anteriore quando si è sul posto oppure la console remota quando si è lontani.
 
 Sul pannello posteriore sono presenti quattro canali indipendenti; ciascuno dispone di una porta HDMI per il segnale video, una porta Type-C per i segnali di tastiera e mouse e una porta USB 2.0 per periferiche USB, ad esempio Fingerbot o scheda ATX.
+
+![Aspetto](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance.png){class="glboxshadow"}
 
 ## Touchscreen { #touchscreen }
 
@@ -27,3 +21,21 @@ Sul pannello posteriore sono presenti quattro canali indipendenti; ciascuno disp
 | ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **Menu di sistema**<br>Nella schermata iniziale, scorrere dall'alto verso il basso per accedere al menu di sistema, che include **Reboot** e **Lock Screen**. |
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **Schermata di blocco**<br>La schermata di blocco mostra l'ora e la data. |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/reset.png)| **Ripristino delle impostazioni di fabbrica**<br>Con il KVM acceso, <u>tenere premuto</u> il pulsante di commutazione sul pannello anteriore per 8 secondi per ripristinare le impostazioni di fabbrica. Rilasciarlo prima che trascorrano 8 secondi per annullare il ripristino. |
+
+## Contenuto della confezione {#package-contents}
+
+- 1 x Comet X (GL-RM4PE)
+- 1 x Manuale d'uso
+- 1 x Biglietto di ringraziamento
+- 2 x Staffe per montaggio in rack da 10 pollici
+- 2 x Staffe per montaggio in rack da 19 pollici
+- 1 x Sacchetto di viti
+- 1 x Cavo Ethernet
+- 4 x Cavi HDMI
+- 4 x Cavi USB (da Type-A a Type-C)
+
+![Contenuto della confezione](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/package_contents.png){class="glboxshadow"}
+
+Guarda il video di unboxing qui sotto.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

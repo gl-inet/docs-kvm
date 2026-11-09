@@ -63,7 +63,12 @@ Wenn Ihre Frage unten nicht aufgeführt ist, wenden Sie sich bitte an unser tech
 * [Was ist der Unterschied zwischen absolutem und relativem Mausmodus](difference_between_absolute_and_relative_mouse.md)
 * [Mauslatenz beheben, wenn RPi4 RPi3 über KVM steuert](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Audioprobleme {#audio-camera-issues}
+## Audio- und Kameraprobleme {#audio-camera-issues}
 
 * [Was kann ich tun, wenn vom gesteuerten Gerät kein Ton kommt](no_audio_from_the_controlled_device.md)
 * [Warum bleiben meine Lautsprecher- und Mikrofoneinstellungen nicht erhalten](speaker_microphone_settings_cannot_be_retained.md)
+* [Wie kann ich die lokale Kamera für Remote-Meetings freigeben? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+
+## Sonstige Probleme {#other-issues}
+
+* [Was soll ich tun, wenn bei der Verwendung von Fingerbot „Press Failed“ angezeigt wird?](fingerbot_fails_to_press.md)

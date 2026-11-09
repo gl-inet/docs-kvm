@@ -63,7 +63,12 @@ Se la tua domanda non è presente nell'elenco, contatta il nostro team di assist
 * [Differenza tra mouse assoluto e mouse relativo](difference_between_absolute_and_relative_mouse.md)
 * [Come risolvere il ritardo del mouse quando RPi4 controlla RPi3 tramite KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Problemi audio {#audio-camera-issues}
+## Problemi audio e videocamera {#audio-camera-issues}
 
 * [Cosa fare se il dispositivo controllato non riproduce audio](no_audio_from_the_controlled_device.md)
 * [Perché le impostazioni di altoparlante e microfono non vengono mantenute](speaker_microphone_settings_cannot_be_retained.md)
+* [Come condividere la videocamera locale nelle riunioni remote? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+
+## Altri problemi {#other-issues}
+
+* [Cosa fare se compare "Press Failed" quando usi Fingerbot?](fingerbot_fails_to_press.md)

@@ -63,7 +63,7 @@ Puede ajustar las opciones de audio y cámara del dispositivo controlado.
 
 - **Camera**: Cuando se activa la cámara en el dispositivo de control, los fotogramas de vídeo locales se transmiten directamente al equipo remoto, donde se emula una cámara USB virtual. Las aplicaciones del equipo remoto, como las herramientas de videoconferencia y FaceTime, pueden utilizar este vídeo y ofrecer la misma experiencia que una cámara física conectada directamente al equipo remoto.
 
-    **Nota**: Esta función se incorporó en el firmware v1.10.0 y solo se admite en el modo WebRTC (FEC). Actualmente, solo está disponible a través de un navegador web; todavía no está disponible en la aplicación ni en el cliente de escritorio.
+    **Nota**: Esta función se incorporó en el firmware v1.10.0 y solo se admite en el modo WebRTC (FEC). Actualmente está disponible a través de navegadores web y del cliente de escritorio, pero todavía no se admite en la aplicación móvil.
 
 ### Teclado {#keyboard}
 

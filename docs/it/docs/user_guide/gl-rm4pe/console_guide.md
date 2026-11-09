@@ -63,7 +63,7 @@ In Session Settings è possibile personalizzare le impostazioni video, tra cui m
 
 - **Camera**: Quando la videocamera è abilitata sul dispositivo di controllo, i fotogrammi video locali vengono inoltrati al dispositivo remoto, dove viene emulata una videocamera USB virtuale. Le applicazioni in esecuzione sul dispositivo remoto, ad esempio i programmi per videoconferenze e FaceTime, possono usare questo flusso video come se fosse presente una videocamera fisica collegata direttamente.
 
-    **Nota**: Questa funzione è stata introdotta nel firmware v1.10.0 ed è supportata esclusivamente in modalità WebRTC (FEC). Attualmente è disponibile solo tramite browser web; l'app e il client desktop non la supportano ancora.
+    **Nota**: Questa funzionalità è stata introdotta nel firmware v1.10.0 ed è supportata solo in modalità WebRTC (FEC). Attualmente è disponibile tramite browser web e client desktop, ma non è ancora supportata nell'app mobile.
 
 ### Tastiera { #keyboard }
 

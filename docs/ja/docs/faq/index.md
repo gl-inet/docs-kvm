@@ -63,7 +63,12 @@
 * [絶対マウスと相対マウスの違いは何ですか](difference_between_absolute_and_relative_mouse.md)
 * [RPi4 が KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md) 経由で RPi3 を制御するときにマウスの遅延を修正する方法
 
-## オーディオの問題 {#audio-camera-issues}
+## 音声とカメラの問題 {#audio-camera-issues}
 
 * [被制御デバイスから音声が出ない場合はどうすればよいですか](no_audio_from_the_controlled_device.md)
 * [スピーカーとマイクの設定を維持できないのはなぜですか](speaker_microphone_settings_cannot_be_retained.md)
+* [ローカルカメラをリモート会議で共有するにはどうすればよいですか？（Camera Passthrough）](use_camera_passthrough_for_remote_meetings.md)
+
+## その他の問題 {#other-issues}
+
+* [Fingerbotの使用時に「Press Failed」と表示された場合はどうすればよいですか？](fingerbot_fails_to_press.md)
