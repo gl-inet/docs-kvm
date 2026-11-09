@@ -1,0 +1,276 @@
+name: Incremental documentation translation
+
+on:
+  schedule:
+    # GitHub cron uses UTC: 23:43 Sun-Thu = 07:43 Mon-Fri in Asia/Shanghai.
+    - cron: "43 23 * * 0-4"
+  workflow_dispatch:
+
+concurrency:
+  group: documentation-translation
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      has_delta: ${{ steps.delta.outputs.has_delta }}
+      source_sha: ${{ steps.source.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Record the exact source revision
+        id: source
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = master
+          test -z "$(git status --porcelain)"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10.4"
+      - name: Calculate cache delta
+        id: delta
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/translation_delta.py list --json > "$RUNNER_TEMP/translation-delta.json"
+          has_delta="$(python - "$RUNNER_TEMP/translation-delta.json" <<'PY'
+          import json, sys
+          report = json.load(open(sys.argv[1], encoding="utf-8"))
+          keys = ("cache_missing", "hash_mismatch", "target_missing", "stale_cache_keys")
+          print(str(any(report.get(key) for key in keys)).lower())
+          PY
+          )"
+          echo "has_delta=$has_delta" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: translation-delta
+          path: ${{ runner.temp }}/translation-delta.json
+          if-no-files-found: error
+
+  translate:
+    needs: prepare
+    if: needs.prepare.outputs.has_delta == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    environment: OpenAI
+    outputs:
+      has_changes: ${{ steps.diff.outputs.has_changes }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.prepare.outputs.source_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Restore the master branch at the prepared revision
+        run: git switch -C master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10.4"
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: translation-delta
+          path: .codex-run
+      - name: Exclude temporary run files
+        run: echo '.codex-run/' >> .git/info/exclude
+      - name: Check Codex credentials
+        env:
+          CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+        shell: bash
+        run: |
+          test -n "$CODEX_API_KEY" || { echo '::error::Configure OPENAI_API_KEY in the OpenAI environment.'; exit 1; }
+          test -n "$CODEX_RESPONSES_API_ENDPOINT" || { echo '::error::Configure CODEX_RESPONSES_API_ENDPOINT in the OpenAI environment.'; exit 1; }
+      - name: Run Codex translation
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          responses-api-endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+          prompt-file: .github/codex/prompts/translation.md
+          output-file: codex-output.json
+          output-schema-file: .github/codex/translation-output.schema.json
+          permission-profile: ":workspace"
+          allow-bot-users: github-actions[bot]
+          codex-args: '["--ephemeral"]'
+      - name: Capture translation patch
+        id: diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp codex-output.json "$RUNNER_TEMP/codex-output.json"
+          rm -rf .codex-run codex-output.json
+          git add -N .
+          git diff --binary --no-ext-diff HEAD > "$RUNNER_TEMP/codex.patch"
+          if [ -s "$RUNNER_TEMP/codex.patch" ]; then
+            echo 'has_changes=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'has_changes=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: codex-translation-report
+          path: ${{ runner.temp }}/codex-output.json
+          if-no-files-found: warn
+      - name: Upload patch
+        if: steps.diff.outputs.has_changes == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: codex-translation-patch
+          path: ${{ runner.temp }}/codex.patch
+          if-no-files-found: error
+
+  validate:
+    needs: [prepare, translate]
+    if: needs.translate.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.prepare.outputs.source_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: codex-translation-patch
+          path: ${{ runner.temp }}/translation
+      - uses: actions/download-artifact@v4
+        with:
+          name: codex-translation-report
+          path: ${{ runner.temp }}/translation
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10.4"
+      - name: Apply patch and enforce translation scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Run the original guard, never a file supplied by the patch.
+          cp scripts/translation_guard.py "$RUNNER_TEMP/translation_guard.py"
+          git apply --index "$RUNNER_TEMP/translation/codex.patch"
+          python "$RUNNER_TEMP/translation_guard.py" --report "$RUNNER_TEMP/translation/codex-output.json"
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check localized structure, anchors and cache
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/i18n_check.py
+          python scripts/anchors.py check
+          python scripts/translation_delta.py list --fail-on-delta --json > "$RUNNER_TEMP/validation-delta.json"
+      - name: Build all localized sites strictly
+        shell: bash
+        run: |
+          set -euo pipefail
+          for lang in de es fr it ja nl pl sv; do
+            mkdocs build -f "docs/$lang/mkdocs.yml" --strict --site-dir "$RUNNER_TEMP/site-$lang"
+          done
+
+  publish:
+    needs: [prepare, translate, validate]
+    if: always() && needs.translate.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.prepare.outputs.source_sha }}
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: codex-translation-report
+          path: ${{ runner.temp }}/translation
+      - uses: actions/download-artifact@v4
+        if: needs.validate.result == 'success'
+        with:
+          name: codex-translation-patch
+          path: ${{ runner.temp }}/translation
+      - name: Create translation PR
+        id: pr
+        if: needs.validate.result == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_SHA: ${{ needs.prepare.outputs.source_sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Do not publish an outdated translation if master changed meanwhile.
+          git fetch origin master
+          test "$(git rev-parse origin/master)" = "$SOURCE_SHA" || {
+            echo '::error::master changed during translation. Run the workflow again.'; exit 1;
+          }
+          cp scripts/translation_guard.py "$RUNNER_TEMP/translation_guard.py"
+          git apply --index "$RUNNER_TEMP/translation/codex.patch"
+          python3 "$RUNNER_TEMP/translation_guard.py" --report "$RUNNER_TEMP/translation/codex-output.json"
+          branch="translation/auto-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # No repository hooks are executed with the publishing token.
+          git -c core.hooksPath=/dev/null commit -m 'translation, from en to other' \
+            -m 'Assisted-by: Cindy (https://cindy.app)'
+          git push --set-upstream origin "$branch"
+          {
+            echo '## Automated translation report'
+            echo
+            echo "Run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+            echo '```json'
+            cat "$RUNNER_TEMP/translation/codex-output.json"
+            echo
+            echo '```'
+            echo
+            echo 'Assisted-by: Cindy (https://cindy.app)'
+          } > "$RUNNER_TEMP/translation-pr.md"
+          gh pr create --base master --head "$branch" --title 'Automated translation sync' \
+            --body-file "$RUNNER_TEMP/translation-pr.md"
+          echo 'created=true' >> "$GITHUB_OUTPUT"
+      - name: Report English source problems when no PR was created
+        if: always() && steps.pr.outputs.created != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          report="$RUNNER_TEMP/translation/codex-output.json"
+          if ! jq -e '(.source_issues // []) | length > 0' "$report" >/dev/null; then exit 0; fi
+          {
+            echo "Run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+            echo '```json'
+            cat "$report"
+            echo
+            echo '```'
+          } > "$RUNNER_TEMP/source-issues.md"
+          gh issue create --title "English source issues found by translation run ${GITHUB_RUN_ID}" \
+            --body-file "$RUNNER_TEMP/source-issues.md"
+      - name: Check final translation status
+        if: always()
+        env:
+          HAS_CHANGES: ${{ needs.translate.outputs.has_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          status="$(jq -r '.status' "$RUNNER_TEMP/translation/codex-output.json")"
+          case "$status" in
+            completed) ;;
+            no_changes) test "$HAS_CHANGES" = false ;;
+            *) echo "::error::Translation returned '$status'. Inspect the report artifact."; exit 1 ;;
+          esac
