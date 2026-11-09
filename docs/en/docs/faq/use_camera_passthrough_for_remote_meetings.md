@@ -1,18 +1,18 @@
-# How can I use the controlling device's camera for video meetings on the controlled device?
+# How can I share the local camera with remote meetings? (Camera Passthrough)
 
 **Note**: The Camera feature was introduced in firmware v1.10.0 and is supported only in WebRTC (FEC) mode. It is currently available through web browsers and the desktop client, but is not yet supported in the mobile app.
 
 ---
 
-When working from home, you may use KVM to access your office computer and join a video meeting using an app installed on it, such as Zoom or Microsoft Teams. However, the office computer's camera shows your office instead of you at home.
+When working from home, you can use KVM to access your office computer, where you can join a video meeting in Zoom, Microsoft Teams, or a similar app. But the camera may only show your office, not you.
 
-KVM's **Camera** feature lets you transmit video from your home computer's camera to your office computer as a virtual USB camera.  Select this camera in the meeting app so other participants can see you while you share files or applications from your office computer.
+GL.iNet KVM's **Camera** feature lets you transmit video from your home computer's camera to your office computer as a virtual USB camera. Select this camera in the meeting app so that other participants can see you while you share files or applications from your office computer.
 
 ## Quick setup
 
 Follow the steps below to use the Camera feature, with a Zoom video meeting as an example.
 
-1. Before joining the meeting, log in to your KVM on the controlling computer and go to **Session Settings** -> **Audio & Camera**. Enable Camera, then click the camera icon to start.
+1. Before joining the meeting, log in to your KVM on the controlling computer and go to **Session** -> **Audio & Camera**. Enable Camera, then click the camera icon to start.
 
     ![enable camera 1](https://static.gl-inet.com/docs/kvm/faq/use-camera-for-remote-meeting/enable-camera.png){class="glboxshadow"}
 
@@ -55,3 +55,7 @@ Follow the steps below to use the Camera feature, with a Zoom video meeting as a
     - **Camera usage**: Close other apps or browser tabs that may be using the camera, such as Zoom or Microsoft Teams.
 
     After completing these checks, enable Camera in the KVM console again.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
