@@ -13,7 +13,10 @@ localized files and the cache with a read-only repository token, not a
 publishing token. A separate clean job applies the patch and checks scope,
 approved legal wording/placement, i18n structure, anchors, zero cache delta and
 strict MkDocs builds for all eight languages: `de`, `es`, `fr`, `it`, `ja`,
-`nl`, `pl`, `sv`. English-only regulatory pages remain English-only.
+`nl`, `pl`, `sv`. The `regulatory_statement.md` pages and redirects from legacy
+`fcc_ic_compliance_statements.md` paths remain in English docs only. The legacy
+paths are redirects, not current Markdown files; their pages, navigation,
+redirects and index links are not copied into localized docs.
 
 After validation, publishing rechecks scope and legal wording, refuses an
 outdated source revision and creates a unique branch and PR. It **never merges**
