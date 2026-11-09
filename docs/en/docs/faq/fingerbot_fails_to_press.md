@@ -1,4 +1,4 @@
-# What should I do if I see "Press Failed" when using Fingerbot
+# What should I do if I see "Press Failed" when using Fingerbot {#what-should-i-do-if-i-see-press-failed-when-using-fingerbot}
 
 If the KVM console displays "Press Failed" when you use Fingerbot, there may be a pairing issue between Fingerbot and your KVM device. 
 

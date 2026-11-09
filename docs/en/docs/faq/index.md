@@ -63,7 +63,7 @@ If your question is not listed below, please contact our technical support team 
 * [What is the difference between Absolute mouse and Relative mouse](difference_between_absolute_and_relative_mouse.md)
 * [How to fix mouse latency when RPi4 controls RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Audio & Camera Issues
+## Audio & Camera Issues {#audio-camera-issues}
 
 * [What should I do if there's no audio from the controlled device](no_audio_from_the_controlled_device.md)
 * [Why can't I keep my speaker and microphone settings](speaker_microphone_settings_cannot_be_retained.md)
