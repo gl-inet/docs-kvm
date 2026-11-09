@@ -67,7 +67,7 @@ If your question is not listed below, please contact our technical support team 
 
 * [What should I do if there's no audio from the controlled device](no_audio_from_the_controlled_device.md)
 * [Why can't I keep my speaker and microphone settings](speaker_microphone_settings_cannot_be_retained.md)
-* [How can I use the controlling device's camera for video meetings on the controlled device?](use_camera_passthrough_for_video_meetings.md)
+* [How can I share the local camera with remote meetings? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
 
 ## Other Issues {#other-issues}
 
