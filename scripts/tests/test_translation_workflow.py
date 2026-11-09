@@ -37,6 +37,8 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertIn('translation_delta.py prune', prompt)
         self.assertNotIn('translation_delta.py update', prompt)
         self.assertNotIn('SINGLE source_hash', prompt)
+        self.assertNotIn('docs4.x', prompt)
+        self.assertNotIn('router-specific', prompt)
         skill = (ROOT / '.agents/skills/glinet-docs-translation/SKILL.md').read_text(encoding='utf-8')
         self.assertIn('source_blob', skill)
         self.assertIn('target_hash', skill)
