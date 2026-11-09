@@ -63,7 +63,12 @@ Si su pregunta no aparece a continuación, póngase en contacto con nuestro equi
 * [Diferencias entre el ratón absoluto y el ratón relativo](difference_between_absolute_and_relative_mouse.md)
 * [Solucionar el retardo del ratón al controlar un RPi3 desde un RPi4 mediante KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Problemas de audio {#audio-camera-issues}
+## Problemas de audio y cámara {#audio-camera-issues}
 
 * [Qué hacer si no se escucha el audio del dispositivo controlado](no_audio_from_the_controlled_device.md)
 * [Por qué no se conservan los ajustes del altavoz y del micrófono](speaker_microphone_settings_cannot_be_retained.md)
+* [¿Cómo puedo compartir la cámara local en reuniones remotas? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+
+## Otros problemas {#other-issues}
+
+* [¿Qué debo hacer si aparece "Press Failed" al usar Fingerbot?](fingerbot_fails_to_press.md)

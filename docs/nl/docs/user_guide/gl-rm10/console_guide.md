@@ -65,7 +65,7 @@ U kunt de audio- en camera-instellingen voor het bestuurde apparaat aanpassen.
 
 - **Camera**: wanneer de camera op het besturende apparaat is ingeschakeld, worden lokale videobeelden via passthrough naar de externe host verzonden, waar een virtuele USB-camera wordt geëmuleerd. Toepassingen op de externe host (bijvoorbeeld vergadertools en FaceTime) kunnen deze videofeed gebruiken, met dezelfde gebruikerservaring als een fysieke camera die rechtstreeks op de externe host is aangesloten.
     
-    **Opmerking**: Deze functie is geïntroduceerd in firmware v1.10.0 en wordt uitsluitend ondersteund in de modus WebRTC (FEC). Momenteel is de functie alleen beschikbaar via een webbrowser; de app en de desktopclient worden nog niet ondersteund.
+    **Opmerking**: Deze functie is geïntroduceerd in firmware v1.10.0 en wordt alleen ondersteund in de modus WebRTC (FEC). De functie is momenteel beschikbaar via webbrowsers en de desktopclient, maar wordt nog niet ondersteund in de mobiele app.
 
 ### Toetsenbord {#keyboard}
 

@@ -63,7 +63,7 @@ Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpass
 
 - **Camera**: Wenn die Kamera auf dem steuernden Gerät aktiviert ist, werden die lokalen Videobilder per Passthrough an den Remote-Host übertragen, auf dem eine virtuelle USB-Kamera emuliert wird. Anwendungen auf dem Remote-Host, beispielsweise Konferenzprogramme und FaceTime, können diesen Videostream verwenden und bieten damit dieselbe Nutzererfahrung wie eine direkt angeschlossene physische Kamera.
 
-    **Hinweis**: Diese Funktion wurde mit Firmware v1.10.0 eingeführt und wird ausschließlich im Modus WebRTC (FEC) unterstützt. Derzeit ist sie nur über einen Webbrowser verfügbar; App und Desktop-Client werden noch nicht unterstützt.
+    **Hinweis**: Diese Funktion wurde mit Firmware v1.10.0 eingeführt und wird nur im Modus WebRTC (FEC) unterstützt. Sie ist derzeit über Webbrowser und den Desktop-Client verfügbar, wird aber in der mobilen App noch nicht unterstützt.
 
 ### Keyboard {#keyboard}
 

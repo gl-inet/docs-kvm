@@ -1,8 +1,8 @@
 # Comet Q (GL-RMQ1) – overzicht {#comet-q-gl-rmq1-overview}
 
-## Afmetingen {#dimension}
+## Uiterlijk {#appearance}
 
-![Afmetingen](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
+![Uiterlijk](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_appearance.png){class="glboxshadow" width="700"}
 
 ## Touchscreen {#touchscreen}
 
@@ -30,7 +30,10 @@ De Comet Q werkt met elk apparaat waarvan de USB-C-poort **DisplayPort Alt Mode*
 
 - 1 x Comet Q (GL-RMQ1)
 - 1 x gebruikershandleiding
+- 1 x Bedankkaart
 - 1 x beschermhoes
+
+![Inhoud van de verpakking](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_package_contents.png){class="glboxshadow" width="700"}
 
 Bekijk de unboxingvideo hieronder.
 

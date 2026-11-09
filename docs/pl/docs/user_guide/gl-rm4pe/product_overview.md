@@ -2,17 +2,11 @@
 
 ## Wygląd {#appearance}
 
-![Wygląd urządzenia](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
-
-## Złącza {#interface}
-
-![Złącza — widok 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
-
-![Złącza — widok 2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface2.jpg){class="glboxshadow"}
-
 Do Comet X można podłączyć jednocześnie cztery urządzenia docelowe, jednak sterować można tylko jednym naraz. Na miejscu możesz szybko przełączać się między nimi fizycznym przyciskiem na przednim panelu, a poza miejscem instalacji — przez konsolę zdalną.
 
 Na tylnym panelu znajdują się cztery niezależne kanały. Każdy kanał zawiera port HDMI do przesyłania obrazu, port Type-C do przesyłania sygnałów klawiatury i myszy oraz port USB 2.0 do urządzeń peryferyjnych USB (np. Fingerbot lub płytka ATX).
+
+![Wygląd](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance.png){class="glboxshadow"}
 
 ## Ekran dotykowy {#touchscreen}
 
@@ -27,3 +21,21 @@ Na tylnym panelu znajdują się cztery niezależne kanały. Każdy kanał zawier
 | ![Działania systemowe](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **Menu systemowe**<br>Na ekranie głównym przesuń palcem od góry w dół, aby otworzyć menu systemowe z opcjami **Reboot** i **Lock Screen**. |
 | ![Godzina](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **Ekran blokady**<br>Ekran blokady wyświetla godzinę i datę. |
 | ![Przywracanie ustawień fabrycznych](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/reset.png)| **Przywracanie ustawień fabrycznych**<br>Przy włączonym KVM <u>przytrzymaj</u> przycisk przełączania na przednim panelu przez 8 sekund, aby przywrócić ustawienia fabryczne. Zwolnienie przycisku przed upływem 8 sekund anuluje resetowanie. |
+
+## Zawartość opakowania {#package-contents}
+
+- 1 x Comet X (GL-RM4PE)
+- 1 x Instrukcja obsługi
+- 1 x Karta z podziękowaniem
+- 2 x Uchwyty do montażu w szafie rack 10 cali
+- 2 x Uchwyty do montażu w szafie rack 19 cali
+- 1 x Woreczek ze śrubami
+- 1 x Kabel Ethernet
+- 4 x Kable HDMI
+- 4 x Kable USB (Type-A na Type-C)
+
+![Zawartość opakowania](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/package_contents.png){class="glboxshadow"}
+
+Obejrzyj poniższy film z rozpakowywania urządzenia.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

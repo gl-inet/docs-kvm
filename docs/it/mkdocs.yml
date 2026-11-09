@@ -221,9 +221,12 @@ nav:
           - Il mouse relativo non funziona su Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Differenza tra mouse assoluto e relativo: faq/difference_between_absolute_and_relative_mouse.md
           - Latenza del mouse quando RPi4 controlla RPi3 tramite KVM: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
-      - Problemi audio:
+      - Problemi audio e videocamera:
           - Nessun audio dal dispositivo controllato: faq/no_audio_from_the_controlled_device.md
           - Le impostazioni di altoparlante e microfono non vengono mantenute: faq/speaker_microphone_settings_cannot_be_retained.md
+          - "Come condividere la videocamera locale nelle riunioni remote? (Camera Passthrough)": faq/use_camera_passthrough_for_remote_meetings.md
+      - Altri problemi:
+          - "Cosa fare se compare \"Press Failed\" quando usi Fingerbot?": faq/fingerbot_fails_to_press.md
   - Tutorial:
       - Panoramica: tutorials/index.md
       - Rete e sistema:

@@ -221,9 +221,12 @@ nav:
           - Relativt musläge fungerar inte på Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Skillnaden mellan absolut och relativt musläge: faq/difference_between_absolute_and_relative_mouse.md
           - Musfördröjning när en RPi4 styr en RPi3 via KVM: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
-      - Ljudproblem:
+      - Ljud- och kameraproblem:
           - Inget ljud från den styrda enheten: faq/no_audio_from_the_controlled_device.md
           - Inställningar för högtalare och mikrofon sparas inte: faq/speaker_microphone_settings_cannot_be_retained.md
+          - "Hur delar jag den lokala kameran i fjärrmöten? (Camera Passthrough)": faq/use_camera_passthrough_for_remote_meetings.md
+      - Övriga problem:
+          - "Vad gör jag om \"Press Failed\" visas när jag använder Fingerbot?": faq/fingerbot_fails_to_press.md
   - Guider:
       - Översikt: tutorials/index.md
       - Nätverk och system:

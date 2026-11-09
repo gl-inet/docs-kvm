@@ -63,7 +63,12 @@ Jeśli nie znajdziesz poniżej swojego pytania, skontaktuj się z naszym zespoł
 * [Czym różni się tryb myszy Absolute od Relative](difference_between_absolute_and_relative_mouse.md)
 * [Jak usunąć opóźnienie myszy podczas sterowania RPi3 z RPi4 przez KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Problemy z dźwiękiem {#audio-camera-issues}
+## Problemy z dźwiękiem i kamerą {#audio-camera-issues}
 
 * [Co zrobić, jeśli nie słychać dźwięku z urządzenia docelowego](no_audio_from_the_controlled_device.md)
 * [Dlaczego ustawienia głośnika i mikrofonu nie są zachowywane](speaker_microphone_settings_cannot_be_retained.md)
+* [Jak udostępnić lokalną kamerę podczas spotkań zdalnych? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+
+## Inne problemy {#other-issues}
+
+* [Co zrobić, jeśli podczas korzystania z Fingerbot pojawia się komunikat „Press Failed”?](fingerbot_fails_to_press.md)

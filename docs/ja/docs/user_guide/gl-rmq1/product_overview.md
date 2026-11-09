@@ -1,8 +1,8 @@
 # CometQ (GL-RMQ1) 概要 {#comet-q-gl-rmq1-overview}
 
-## ディメンション {#dimension}
+## 外観 {#appearance}
 
-![dimension](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_dimension.jpg){class="glboxshadow"}
+![外観](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_appearance.png){class="glboxshadow" width="700"}
 
 ## タッチスクリーン {#touchscreen}
 
@@ -30,7 +30,10 @@ Comet Q は、USB-C ポートがビデオ出力用に **DisplayPort Alt Mode** �
 
 - 1×Comet Q(GL-RMQ1)
 - 1 x ユーザーマニュアル
+- 1 x サンキューカード
 - 1 × 保護スリーブ
+
+![同梱物](https://static.gl-inet.com/docs/kvm/user_guide/gl-rmq1/rmq1_package_contents.png){class="glboxshadow" width="700"}
 
 以下の開封ビデオをご覧ください。
 

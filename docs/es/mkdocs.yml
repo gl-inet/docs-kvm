@@ -220,9 +220,12 @@ nav:
           - El modo de ratón relativo no funciona en un NVR Reolink: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Diferencias entre los modos de ratón absoluto y relativo: faq/difference_between_absolute_and_relative_mouse.md
           - Latencia del ratón al controlar una RPi3 desde una RPi4 mediante KVM: faq/fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md
-      - Problemas de audio:
+      - Problemas de audio y cámara:
           - No se recibe audio del dispositivo controlado: faq/no_audio_from_the_controlled_device.md
           - No se conserva la configuración del altavoz y el micrófono: faq/speaker_microphone_settings_cannot_be_retained.md
+          - "¿Cómo puedo compartir la cámara local en reuniones remotas? (Camera Passthrough)": faq/use_camera_passthrough_for_remote_meetings.md
+      - Otros problemas:
+          - "¿Qué debo hacer si aparece \"Press Failed\" al usar Fingerbot?": faq/fingerbot_fails_to_press.md
   - Tutoriales:
       - Descripción general: tutorials/index.md
       - Red y sistema:

@@ -63,7 +63,12 @@ Om din fråga inte finns med nedan kan du kontakta vårt tekniska supportteam f�
 * [Vad är skillnaden mellan absolut och relativt musläge?](difference_between_absolute_and_relative_mouse.md)
 * [Så åtgärdar du musfördröjning när RPi4 styr RPi3 via KVM](fix_mouse_latency_when_rpi4_controls_rpi3_via_kvm.md)
 
-## Ljudproblem {#audio-camera-issues}
+## Ljud- och kameraproblem {#audio-camera-issues}
 
 * [Vad gör jag om det inte kommer något ljud från den styrda enheten?](no_audio_from_the_controlled_device.md)
 * [Varför sparas inte mina inställningar för högtalare och mikrofon?](speaker_microphone_settings_cannot_be_retained.md)
+* [Hur delar jag den lokala kameran i fjärrmöten? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+
+## Övriga problem {#other-issues}
+
+* [Vad gör jag om "Press Failed" visas när jag använder Fingerbot?](fingerbot_fails_to_press.md)
