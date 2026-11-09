@@ -1,4 +1,4 @@
-# How can I share the local camera with remote meetings? (Camera Passthrough)
+# How can I share the local camera with remote meetings? (Camera Passthrough) {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
 
 **Note**: The Camera feature was introduced in firmware v1.10.0 and is supported only in WebRTC (FEC) mode. It is currently available through web browsers and the desktop client, but is not yet supported in the mobile app.
 
@@ -8,7 +8,7 @@ When working from home, you can use KVM to access your office computer, where yo
 
 GL.iNet KVM's **Camera** feature lets you transmit video from your home computer's camera to your office computer as a virtual USB camera. Select this camera in the meeting app so that other participants can see you while you share files or applications from your office computer.
 
-## Quick setup
+## Quick setup {#quick-setup}
 
 Follow the steps below to use the Camera feature, with a Zoom video meeting as an example.
 
@@ -32,7 +32,7 @@ Follow the steps below to use the Camera feature, with a Zoom video meeting as a
 
     **Note**: Ensure a stable network connection for smooth, clear video during the meeting. 
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 ??? note "What should I do if the camera feed does not reach the controlled computer?"
 
