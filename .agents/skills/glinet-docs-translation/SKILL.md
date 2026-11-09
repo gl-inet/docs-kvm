@@ -42,15 +42,36 @@ When `.translation-cache.json` exists, use `scripts/translation_delta.py` to bui
 
 ```powershell
 python scripts/translation_delta.py list
-python scripts/translation_delta.py update --target de
+python scripts/translation_delta.py diff docs/en/docs/faq/index.md --lang de
+python scripts/translation_delta.py mark docs/en/docs/faq/index.md --lang de --model manual-sync
 ```
 
-The cache stores `source_hash` values for files under `docs/en/**`.
+Each English source path has a `targets` object; each language records its own
+`source_hash`,
+`source_blob` (when recoverable), `target_hash` (when the target baseline is
+known), `model`, and `updated_at`. There is no shared top-level `source_hash`.
+
+- `source_hash` identifies the English version synced for that language.
+- `source_blob` identifies that English file's Git blob, used by `diff`. A
+  historical blob must be available in the clone; if not, compare full pages.
+  Only source versions found in committed history reachable from `HEAD` get
+  a blob. An uncommitted version without a matching reachable snapshot is
+  recorded without `source_blob`; `diff` then requires full-page comparison.
+  Commit English source changes before syncing for portable history.
+- `target_hash` identifies the localized file after its recorded sync.
+- `mark` updates only the explicitly named files and languages after validation.
+  Failed languages remain out of date; they cannot be hidden by another
+  language's sync. Never edit the cache manually or bulk-refresh it.
+- Run `python scripts/translation_delta.py migrate` once for a legacy cache.
+  Migration preserves existing hashes and metadata, does not translate files
+  or mark pending work complete, and does not invent missing language records.
+
+Hashing and source selection:
 
 - For text files, calculate `source_hash` as SHA-256 over UTF-8 text after normalizing line endings to LF (`\n`). Do not use raw file-byte hashes on Windows, because CRLF checkout conversion produces false mismatches.
 - Treat these extensions as text: `.md`, `.yml`, `.yaml`, `.html`, `.css`, `.js`, `.svg`, `.txt`, `.json`.
 - For binary files, calculate SHA-256 over raw bytes.
-- Scan all current files under `docs/en/**`; include missing cache entries and hash mismatches in the English change list.
+- Scan all current files under `docs/en/**`; report missing cache entries and hash mismatches per language. JSON `cache_missing` and `hash_mismatch` entries contain `path` and `langs`; `target_missing` entries contain `path` and `missing_targets`.
 - Include cached `docs/en/**` entries whose source file no longer exists as deleted.
 - Treat KVM regulatory and compliance statement pages as English-only unless explicitly requested.
 
@@ -70,8 +91,8 @@ Use this workflow when syncing English changes into localized docs, especially a
    - Create matching localized pages when English adds pages and the user asks to add that target language.
    - Sync localized `mkdocs.yml` changes when English changes nav, redirects, plugins, or path references.
 5. Translate only the changed English portions. Do not retranslate whole pages unless the English page is new or the localized page is unusable and the user agrees.
-6. Work by topic or small batches for large change sets. Avoid one huge patch across unrelated topics.
-7. Inspect diffs for unrelated translation churn, accidental mixed-language fragments, broken anchors, malformed Markdown, and missing matching localized files.
+6. Work by topic or small batches for large change sets. Avoid one huge patch across unrelated topics. Use `python scripts/translation_delta.py diff <en-file> --lang <lang>` to inspect the English changes since each language's last sync; when no snapshot is available, compare the full English and localized files.
+7. Inspect diffs for unrelated translation churn, accidental mixed-language fragments, broken anchors, malformed Markdown, and missing matching localized files. After validating a batch, record only that batch with `python scripts/translation_delta.py mark <en-file> ... --lang <langs> --model <model>`. Only the coordinating agent writes the cache. Use `--no-target-change` only for reviewed English edits requiring no localized change, with languages listed explicitly. Never use it just to bypass a failure. For deleted source files, remove their localized counterparts first, then use `prune` to remove stale cache records; do not remove approved localized-only legal pages.
 8. If you notice an obvious issue in the English source while syncing, fix it only when the user requested source fixes or the correction is clearly in scope; otherwise mention it in the final summary with the file path and suggested correction.
 
 ## Single-File Translation Workflow
