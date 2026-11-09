@@ -23,7 +23,8 @@ This repository contains GL.iNet KVM documentation built with MkDocs. These rule
 - Every Markdown heading in every language, including English, carries an explicit ID, for example `## Local Access {#local-access}`. Always include the `#`; `{local-access}` without `#` does not set an ID.
 - English is the source of heading IDs. A localized heading uses the same ID as the matching English heading: translate the heading text, never the ID.
 - IDs are lowercase ASCII kebab-case and unique within the page. For a new heading, derive the ID from the English heading text. For a heading that exists only in a localized page, derive the ID from an English rendering of that heading, for example `{#safety-information}` for the German safety information.
-- Do not change an existing ID when heading wording changes, because links and bookmarks depend on it. If an ID must change, update it in every language and update every link that uses it.
+- Heading IDs follow the current English heading text. When an English heading changes, update its ID to the lowercase ASCII kebab-case form of the new title, keep it unique within the page, and synchronize the matching ID in every language plus all in-repository anchor links and redirects to that section. This is normal maintenance and needs no separate migration approval. Do not derive shared IDs from localized titles or rename IDs when only a translation's wording changes.
+- Do not preserve an old ID or add an old-anchor alias solely for external links or bookmarks. Existing unchanged headings need no bulk ID rewrite. Approved localized-only legal sections retain their protected wording and IDs.
 - Anchor links use the shared ID in every language, for example `[Lokaler Zugriff](quick_setup_guide.md#local-access)`. Do not add `<a id>` or `<span id>` placeholders for headings.
 - After adding or editing headings or anchor links, run `python scripts/anchors.py check`.
 

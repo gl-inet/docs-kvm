@@ -36,6 +36,35 @@ If a task touches several languages, read each of their references before editin
 - Check technical words such as `all`, `only`, `must`, `default`, `enabled`, `disabled`, `remote`, `local`, `client`, `host`, and `does not` carefully because they often change device behavior.
 - Treat KVM regulatory and compliance statement pages as English-only unless the user explicitly asks to localize them. This includes pages such as `regulatory_statement.md` and legacy `fcc_ic_compliance_statements.md`, plus their corresponding nav entries, redirects, and index links.
 
+## Heading IDs Follow English Titles {#heading-ids-follow-english-titles}
+
+When an English heading changes, its ID follows the current English title in
+lowercase ASCII kebab-case, unique within the page. Synchronizing that change
+is normal translation work and needs no separate approval or migration list.
+The cache is a translation baseline, not an authority for restoring old IDs.
+An ID change relative to the cache alone is not a blocking source issue.
+
+Copy the current English ID to matching localized headings; never derive shared
+IDs from localized titles. Update inbound anchor links and redirects to the
+affected page across all languages, including files outside the initial cache
+delta. Use the old/current pages and surrounding content to match sections; do
+not replace identical IDs on unrelated pages. Do not preserve old IDs or add
+aliases solely for external bookmarks. Do not bulk-rewrite unchanged headings.
+Protected localized-only legal sections retain their wording, placement and IDs.
+
+If the English ID does not follow its changed title, the section mapping is
+ambiguous, or an English link needs correction, report the specific source
+problem instead of editing English outside the task's scope. Unresolved broken
+links still prevent completion. An already-aligned localized ID does not clear
+pending prose changes.
+
+Missing localized pages, sections, links and updated images reported before a
+sync are normally pending translation work when covered by the source set, not
+an automatic reason to stop before editing. Fix them through translation, then
+rerun all required checks. Unrelated backlog or genuine source ambiguity must
+still be reported; do not bypass validation, add allowlist exceptions or advance
+the cache to conceal unresolved errors.
+
 ## Translation Cache
 
 When `.translation-cache.json` exists, use `scripts/translation_delta.py` to build the incremental English change list and to update the cache after syncing.
