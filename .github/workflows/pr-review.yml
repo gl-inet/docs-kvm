@@ -1,0 +1,120 @@
+name: Codex PR review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches: [master]
+    paths: ["docs/**"]
+
+concurrency:
+  group: codex-pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    if: github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: OpenAI
+    steps:
+      - name: Check out trusted tooling and policy
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+
+      - name: Check out PR as data only
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr-data
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Prepare review input with trusted tooling
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 -I trusted/scripts/codex_review.py prepare \
+            --repo "$GITHUB_WORKSPACE/pr-data" --base "$BASE_SHA" --head "$HEAD_SHA" \
+            --event "$GITHUB_EVENT_PATH" --out "$GITHUB_WORKSPACE/trusted/.codex-run"
+
+      - name: Check Codex credentials
+        env:
+          CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+        run: |
+          test -n "$CODEX_API_KEY" || { echo '::error::Configure OPENAI_API_KEY in the OpenAI environment.'; exit 1; }
+          test -n "$CODEX_RESPONSES_API_ENDPOINT" || { echo '::error::Configure CODEX_RESPONSES_API_ENDPOINT in the OpenAI environment.'; exit 1; }
+
+      # Never install PR dependencies or execute PR scripts with API secrets.
+      # Codex's working directory is trusted; PR AGENTS/skills are data, not policy.
+      - name: Run read-only Codex review
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          responses-api-endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+          working-directory: ${{ github.workspace }}/trusted
+          prompt-file: ${{ github.workspace }}/trusted/.github/codex/prompts/pr-review.md
+          output-file: ${{ github.workspace }}/codex-output.json
+          output-schema-file: ${{ github.workspace }}/trusted/.github/codex/pr-review.schema.json
+          permission-profile: ":read-only"
+          allow-bot-users: github-actions[bot]
+          codex-args: '["--ephemeral"]'
+
+      - name: Upload review data only
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: codex-review
+          path: codex-output.json
+          if-no-files-found: ignore
+
+  publish:
+    needs: review
+    if: always() && (needs.review.result == 'success' || needs.review.result == 'failure')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Check out trusted publisher
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+
+      - name: Check out PR as data for independent diff validation
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr-data
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Download review data
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review
+          path: review
+
+      - name: Validate and publish with trusted tooling
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REVIEW_RESULT: ${{ needs.review.result }}
+        run: |
+          python3 -I trusted/scripts/codex_review.py publish \
+            --repo "$GITHUB_WORKSPACE/pr-data" --base "$BASE_SHA" --head "$HEAD_SHA" \
+            --review review/codex-output.json --pr "$PR_NUMBER" --result "$REVIEW_RESULT"
