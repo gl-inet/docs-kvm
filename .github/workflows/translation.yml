@@ -84,19 +84,21 @@ jobs:
           path: .codex-run
       - name: Exclude temporary run files
         run: echo '.codex-run/' >> .git/info/exclude
-      - name: Check Codex credentials
+      - name: Check Codex Responses streaming
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
-        shell: bash
-        run: |
-          test -n "$CODEX_API_KEY" || { echo '::error::Configure OPENAI_API_KEY in the OpenAI environment.'; exit 1; }
-          test -n "$CODEX_RESPONSES_API_ENDPOINT" || { echo '::error::Configure CODEX_RESPONSES_API_ENDPOINT in the OpenAI environment.'; exit 1; }
+          CODEX_MODEL: ${{ vars.CODEX_MODEL || 'gpt-6.1-sol' }}
+        run: python -I scripts/codex_preflight.py
       - name: Run Codex translation
         uses: openai/codex-action@v1
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           responses-api-endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+          # 0.166.0 completed docs4.x syncs; 0.167.0 closed streams at startup.
+          # Upgrade deliberately after testing the configured provider.
+          codex-version: "0.166.0"
+          model: ${{ vars.CODEX_MODEL || 'gpt-6.1-sol' }}
           prompt-file: .github/codex/prompts/translation.md
           output-file: codex-output.json
           output-schema-file: .github/codex/translation-output.schema.json

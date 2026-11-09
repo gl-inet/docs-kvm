@@ -44,13 +44,12 @@ jobs:
             --repo "$GITHUB_WORKSPACE/pr-data" --base "$BASE_SHA" --head "$HEAD_SHA" \
             --event "$GITHUB_EVENT_PATH" --out "$GITHUB_WORKSPACE/trusted/.codex-run"
 
-      - name: Check Codex credentials
+      - name: Check Codex Responses streaming
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CODEX_RESPONSES_API_ENDPOINT: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
-        run: |
-          test -n "$CODEX_API_KEY" || { echo '::error::Configure OPENAI_API_KEY in the OpenAI environment.'; exit 1; }
-          test -n "$CODEX_RESPONSES_API_ENDPOINT" || { echo '::error::Configure CODEX_RESPONSES_API_ENDPOINT in the OpenAI environment.'; exit 1; }
+          CODEX_MODEL: ${{ vars.CODEX_MODEL || 'gpt-6.1-sol' }}
+        run: python3 -I trusted/scripts/codex_preflight.py
 
       # Never install PR dependencies or execute PR scripts with API secrets.
       # Codex's working directory is trusted; PR AGENTS/skills are data, not policy.
@@ -59,6 +58,9 @@ jobs:
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           responses-api-endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
+          # Keep both workflows on the same provider-tested CLI version/model.
+          codex-version: "0.166.0"
+          model: ${{ vars.CODEX_MODEL || 'gpt-6.1-sol' }}
           working-directory: ${{ github.workspace }}/trusted
           prompt-file: ${{ github.workspace }}/trusted/.github/codex/prompts/pr-review.md
           output-file: ${{ github.workspace }}/codex-output.json
