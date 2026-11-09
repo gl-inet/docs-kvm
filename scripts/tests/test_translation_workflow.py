@@ -47,6 +47,56 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertIn('target_hash', skill)
         self.assertNotIn('translation_delta.py update', skill)
 
+    def test_heading_ids_follow_titles_without_separate_approval(self):
+        guidance = ' '.join((ROOT / 'AGENTS.md').read_text(encoding='utf-8').split())
+        self.assertIn('Heading IDs follow the current English heading text.', guidance)
+        self.assertIn('needs no separate migration approval', guidance)
+        self.assertIn('all in-repository anchor links and redirects', guidance)
+        self.assertIn('Do not derive shared IDs from localized titles', guidance)
+        self.assertNotIn('Do not change an existing ID when heading wording changes', guidance)
+        self.assertFalse((ROOT / '.github/codex/approved-heading-migrations.json').exists())
+        review = ' '.join((ROOT / '.github/codex/prompts/pr-review.md').read_text(encoding='utf-8').split())
+        self.assertIn('Do not flag a title-driven ID change solely', review)
+        self.assertNotIn('changed stable IDs', review)
+
+    def test_prompt_syncs_title_ids_and_keeps_validation(self):
+        prompt = ' '.join((ROOT / '.github/codex/prompts/translation.md').read_text(encoding='utf-8').split())
+        for rule in (
+            'The cache is a translation baseline, not a source-correctness authority.',
+            'no separate approval or migration list',
+            'Dimension -> Appearance may change dimension -> appearance',
+            'never derive shared IDs from localized titles',
+            'including files outside the initial cache delta',
+            'Never use a blanket replacement',
+            'Do not preserve old IDs or add aliases solely for external bookmarks',
+            'Protected localized legal sections keep their wording and IDs.',
+            'report that specific source issue rather than editing English',
+            'Unresolved broken links prevent completion.',
+            'An already-aligned localized ID does not mean its pending prose is synchronized.',
+        ):
+            self.assertIn(rule, prompt)
+        self.assertNotIn('approved-heading-migrations.json', prompt)
+        self.assertIn('Initial validation failures', prompt)
+        self.assertIn('not reasons to stop before editing', prompt)
+        self.assertIn('then rerun validation', prompt)
+        self.assertIn('it still prevents completed status if final checks fail', prompt)
+        self.assertIn('Do not edit English sources, scripts, workflows, skills, requirements,', prompt)
+        self.assertIn('ALL checks/builds pass', prompt)
+        self.assertIn('never bypass validation or edit the cache manually', prompt)
+        skill = ' '.join((ROOT / '.agents/skills/glinet-docs-translation/SKILL.md').read_text(encoding='utf-8').split())
+        self.assertIn('needs no separate approval or migration list', skill)
+        self.assertIn('Protected localized-only legal sections retain their wording, placement and IDs.', skill)
+        self.assertNotIn('approved-heading-migrations.json', skill)
+        # Existing workflow gates and edit scope remain independent of model policy.
+        workflow = yaml.load(
+            (ROOT / '.github/workflows/translation.yml').read_text(encoding='utf-8'),
+            Loader=yaml.BaseLoader,
+        )
+        commands = '\n'.join(s.get('run', '') for s in workflow['jobs']['validate']['steps'])
+        for command in ('python scripts/i18n_check.py', 'python scripts/anchors.py check',
+                        'list --fail-on-delta', '--strict'):
+            self.assertIn(command, commands)
+
 
 if __name__ == '__main__':
     unittest.main()
