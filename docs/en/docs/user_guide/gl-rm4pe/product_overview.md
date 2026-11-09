@@ -2,17 +2,11 @@
 
 ## Appearance {#appearance}
 
-![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance1.jpg){class="glboxshadow"}
-
-## Interface {#interface}
-
-![interface1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface1.jpg){class="glboxshadow"}
-
-![interface2](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/interface2.jpg){class="glboxshadow"}
-
 Comet X can connect to four target devices simultaneously, though only one device can be controlled at a time. You can quickly switch between the four connected devices via the physical button on the front panel when on site, or via the remote console when away.
 
 It features four independent channels on the rear panel; each channel comes with an HDMI port for video signal transmission, a Type-C port for keyboard and mouse signal transmission, and a USB 2.0 port for USB peripherals (e.g., Fingerbot or ATX board).
+
+![appearance](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/appearance.png){class="glboxshadow"}
 
 ## Touchscreen {#touchscreen}
 
@@ -27,3 +21,21 @@ It features four independent channels on the rear panel; each channel comes with
 | ![system actions](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/system_menu.png)| **System Menu**<br>On the home screen, swipe down from the top to access system menu, including **Reboot** and **Lock Screen**. |
 | ![time](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/time.png)| **Lock screen**<br>The lock screen displays the time and date. |
 | ![reset](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/touchscreen/reset.png)| **Factory Reset**<br>With the KVM powered on, <u>long press</u> the switch button on the front panel for 8 seconds to factory reset. Release the button within 8 seconds to cancel the reset. |
+
+## Package Contents {#package-contents}
+
+- 1 x Comet X (GL-RM4PE)
+- 1 x User manual
+- 1 x Thank you card
+- 2 x 10-inch rack mount brackets
+- 2 x 19-inch rack mount brackets
+- 1 x Screw bag
+- 1 x Ethernet cable
+- 4 x HDMI cables
+- 4 x USB cables (Type-A to Type-C)
+
+![package contents](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/overview/package_contents.png){class="glboxshadow"}
+
+Watch the unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8YOsuEnNBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
