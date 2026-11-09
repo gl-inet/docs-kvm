@@ -34,7 +34,9 @@ Follow the steps below to use the Camera feature, with a Zoom video meeting as a
 
 ## Troubleshooting
 
-- If the camera feed does not reach the controlled computer, check whether the controlled computer recognizes KVM's virtual camera. 
+??? note "What should I do if the camera feed does not reach the controlled computer?"
+
+    Check whether the controlled computer recognizes KVM's virtual camera. 
 
     On the controlled computer, go to **Settings** -> **Bluetooth & devices** -> **Cameras** and look for UVC Camera under Connected cameras.
 
@@ -42,9 +44,11 @@ Follow the steps below to use the Camera feature, with a Zoom video meeting as a
 
     If it does not appear, the USB data connection between the KVM and the controlled computer may be disconnected or loose.
 
-- If you see a Camera Access Denied message when enabling Camera in the KVM console, check the following on the controlling computer:
+??? note "What should I do if a 'Camera Access Denied' message appears when I enable Camera in the KVM console?"
 
     ![camera access denied](https://static.gl-inet.com/docs/kvm/faq/use-camera-for-remote-meeting/camera-access-denied.png){class="glboxshadow"}
+
+    Check the following on the controlling computer:
 
     - **Camera availability**: Ensure that the camera is connected and working. Test it using the system's camera app, then close the app before retrying.
     
