@@ -183,8 +183,9 @@ def render_ids(lines: list[str]) -> _IdCollector:
     return collector
 
 
-def load_page(lang: str, path: Path) -> Page:
-    lines = path.read_bytes().decode("utf-8").splitlines(keepends=True)
+def load_page(lang: str, path: Path, text: str | None = None) -> Page:
+    """Parse a working-tree page, or supplied text such as its staged version."""
+    lines = (path.read_bytes().decode("utf-8") if text is None else text).splitlines(keepends=True)
     rel = path.relative_to(DOCS_ROOT / lang / "docs").as_posix()
     headings = parse_headings(lines)
     rendered = render_ids(lines)
@@ -256,7 +257,9 @@ def set_heading_id(page: Page, heading: Heading, new_id: str) -> None:
         attr_block = "{#" + new_id + (" " + attrs if attrs else "") + "}"
         body = body[: attr_match.start()].rstrip() + " " + attr_block
     else:
-        body = body.rstrip() + " {#" + new_id + "}"
+        # Optional ATX closing hashes must not become visible heading text when
+        # an attribute block is appended after them.
+        body = re.sub(r"[ \t]+#+[ \t]*$", "", body).rstrip() + " {#" + new_id + "}"
     page.lines[heading.index] = match.group("prefix") + body + eol
     heading.explicit_id = new_id
     page.changed = True

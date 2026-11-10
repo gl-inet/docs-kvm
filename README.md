@@ -94,13 +94,18 @@ Enable the repository's pre-commit hook once per clone:
 git config core.hooksPath .githooks
 ```
 
-The hook checks only the files staged for the commit:
+For fully staged English pages, the hook first adds missing explicit heading IDs using the IDs MkDocs already generates, then stages the fixes. Existing IDs are preserved. Pages with unstaged changes are left untouched; add their missing IDs manually or stage the complete page before committing.
 
-- Heading IDs and anchor links (`scripts/anchors.py`).
+The hook selects checks from the staged changes:
+
+- Heading IDs and anchor links (`scripts/anchors.py`), including broken anchor links elsewhere in each touched language.
 - Localized pages: structure compared with the English page, untranslated English, and language rules such as Japanese full-width punctuation (`scripts/i18n_check.py`).
+- Approved localized legal sections and standalone legal pages: compare `HEAD` with the staged content and reject wording changes or removals, including deleted pages. Renames within the same language are compared with the original file. Unstaged edits cannot hide staged legal changes, and translation allowlist entries do not bypass this protection.
 - `mkdocs.yml` changes and added, renamed, or deleted pages: orphan pages and redirect problems.
 
-Commits that change only English pages are not blocked. To bypass the hook in an emergency, use `git commit --no-verify`.
+English-only commits do not require translations to be updated in the same commit, but heading and anchor errors still block the commit. To bypass the hook in an emergency, use `git commit --no-verify`.
+
+If no Python interpreter with the documentation dependencies is available, the hook prints a warning and skips its checks. Install `requirements.txt` in the documentation virtual environment to enable them.
 
 ## Online View
 
