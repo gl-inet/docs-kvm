@@ -1,8 +1,8 @@
-# How can I use two-way audio for remote meetings
+# How can I use two-way audio for remote meetings {#how-can-i-use-two-way-audio-for-remote-meetings}
 
 When working from home, you can use KVM to access your office computer and join audio meetings using Zoom, Microsoft Teams, or a similar app. GL.iNet KVM's two-way audio feature lets you speak through your local computer's microphone and hear other participants through its speakers or headphones.
 
-## Quick setup
+## Quick setup {#quick-setup}
 
 Follow the steps below to use your local device's microphone and speaker for remote meetings, with a Zoom meeting as an example.
 
@@ -26,7 +26,7 @@ Follow the steps below to use your local device's microphone and speaker for rem
 
     If you also want to share video from your local camera with meeting participants, refer to the [camera passthrough guide](../faq/use_camera_passthrough_for_remote_meetings.md).
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 ??? note "What should I do if other participants cannot hear me?"
 
