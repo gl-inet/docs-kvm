@@ -224,7 +224,8 @@ nav:
       - Problèmes audio et caméra:
           - Aucun son provenant de l’appareil contrôlé: faq/no_audio_from_the_controlled_device.md
           - Les réglages du haut-parleur et du microphone ne sont pas conservés: faq/speaker_microphone_settings_cannot_be_retained.md
-          - "Comment partager la caméra locale lors de réunions à distance ? (Camera Passthrough)": faq/use_camera_passthrough_for_remote_meetings.md
+          - "Transmettre l’image de la caméra locale lors de réunions à distance": faq/use_camera_passthrough_for_remote_meetings.md
+          - "Utiliser l’audio bidirectionnel lors de réunions à distance": faq/use_two_way_audio_for_remote_meetings.md
       - Autres problèmes:
           - "Que faire si « Press Failed » s’affiche lors de l’utilisation de Fingerbot ?": faq/fingerbot_fails_to_press.md
   - Tutoriels:

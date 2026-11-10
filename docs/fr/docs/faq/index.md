@@ -67,7 +67,8 @@ Si votre question ne figure pas ci-dessous, contactez notre assistance technique
 
 * [Aucun son provenant de l’appareil contrôlé](no_audio_from_the_controlled_device.md)
 * [Les réglages du haut-parleur et du microphone ne sont pas conservés](speaker_microphone_settings_cannot_be_retained.md)
-* [Comment partager la caméra locale lors de réunions à distance ? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [Comment transmettre l’image de la caméra locale lors de réunions à distance ?](use_camera_passthrough_for_remote_meetings.md)
+* [Comment utiliser l’audio bidirectionnel lors de réunions à distance ?](use_two_way_audio_for_remote_meetings.md)
 
 ## Autres problèmes {#other-issues}
 

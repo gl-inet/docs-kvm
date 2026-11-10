@@ -1,4 +1,4 @@
-# ¿Cómo puedo compartir la cámara local en reuniones remotas? (Camera Passthrough) {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
+# ¿Cómo puedo reenviar la imagen de la cámara local en reuniones remotas? {#how-can-i-use-camera-passthrough-for-remote-meetings}
 
 **Nota**: Esta función se incorporó en el firmware v1.10.0 y solo se admite en el modo WebRTC (FEC). Actualmente está disponible a través de navegadores web y del cliente de escritorio, pero todavía no se admite en la aplicación móvil.
 

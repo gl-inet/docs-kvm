@@ -67,7 +67,8 @@ Om din fråga inte finns med nedan kan du kontakta vårt tekniska supportteam f�
 
 * [Vad gör jag om det inte kommer något ljud från den styrda enheten?](no_audio_from_the_controlled_device.md)
 * [Varför sparas inte mina inställningar för högtalare och mikrofon?](speaker_microphone_settings_cannot_be_retained.md)
-* [Hur delar jag den lokala kameran i fjärrmöten? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [Så använder du kameragenomkoppling i fjärrmöten](use_camera_passthrough_for_remote_meetings.md)
+* [Så använder du tvåvägsljud i fjärrmöten](use_two_way_audio_for_remote_meetings.md)
 
 ## Övriga problem {#other-issues}
 

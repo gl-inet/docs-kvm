@@ -67,7 +67,8 @@
 
 * [被制御デバイスから音声が出ない場合はどうすればよいですか](no_audio_from_the_controlled_device.md)
 * [スピーカーとマイクの設定を維持できないのはなぜですか](speaker_microphone_settings_cannot_be_retained.md)
-* [ローカルカメラをリモート会議で共有するにはどうすればよいですか？（Camera Passthrough）](use_camera_passthrough_for_remote_meetings.md)
+* [リモート会議でカメラパススルーを使うにはどうすればよいですか？](use_camera_passthrough_for_remote_meetings.md)
+* [リモート会議で双方向オーディオを使うにはどうすればよいですか？](use_two_way_audio_for_remote_meetings.md)
 
 ## その他の問題 {#other-issues}
 
