@@ -1,0 +1,6 @@
+appareil
+bord
+conjonction
+environnement
+limite
+mesure

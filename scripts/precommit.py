@@ -22,16 +22,26 @@ For staged pages, the hook reports:
 English-only commits do not require translations to be updated in the same
 commit. English heading and anchor errors still block the commit.
 
-Bypass in an emergency with ``git commit --no-verify``.
+For PR checks, pass ``--base origin/master`` to check the committed
+merge-base...HEAD diff without auto-fixing IDs or changing the index. All
+associated documentation, redirects and allowlist are read from HEAD, not
+from staged or unstaged work. Approved legal text is compared with the merge
+base. The local hook keeps its existing index-based behavior.
+
+Bypass the local hook in an emergency with ``git commit --no-verify``.
 """
 
 from __future__ import annotations
 
+import argparse
+from contextlib import contextmanager
+import io
 import json
 import pathlib
 import re
 import subprocess
 import sys
+import tempfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
@@ -49,9 +59,10 @@ def git(*args: str) -> str:
     ).stdout
 
 
-def staged_changes() -> list[tuple[str, str | None, str | None]]:
-    """Return (status, old path, new path), preserving rename sources and Unicode paths."""
-    fields = iter(git("diff", "--cached", "--name-status", "--find-renames", "-z").split("\0")[:-1])
+def staged_changes(base: str | None = None) -> list[tuple[str, str | None, str | None]]:
+    """Return index changes, or committed base...HEAD changes, with rename sources."""
+    revisions = [f"{base}...HEAD"] if base else ["--cached"]
+    fields = iter(git("diff", *revisions, "--name-status", "--find-renames", "-z").split("\0")[:-1])
     changes = []
     for status in fields:
         path = next(fields)
@@ -99,8 +110,58 @@ def revision_text(revision: str, path: str) -> str:
     return git("show", f"{revision}:{path}")
 
 
-def checked_pages(lang: str, files: list[tuple[str, str]]) -> dict[str, anchors.Page]:
-    """Use staged text for touched pages, so unstaged fixes cannot hide heading errors."""
+@contextmanager
+def committed_docs(revision: str):
+    """Read all documentation from a disposable snapshot, never the worktree/index.
+
+    Extract only regular docs files and the allowlist. Reject links rather than
+    following repository-controlled symlinks, and never execute snapshot files.
+    The caller continues to run the already imported checkers.
+    """
+    roots = anchors.REPO_ROOT, anchors.DOCS_ROOT, i18n_check.DOCS_ROOT, i18n_check.ALLOWLIST_PATH
+    with tempfile.TemporaryDirectory(prefix="kvm-pr-check-") as directory:
+        root = pathlib.Path(directory)
+        entries = []
+        for entry in git("ls-tree", "-r", "-z", revision, "--", "docs/", "scripts/i18n_allowlist.yml").split("\0"):
+            if not entry:
+                continue
+            metadata, name = entry.split("\t", 1)
+            mode, kind, oid = metadata.split()
+            path = pathlib.PurePosixPath(name)
+            if path.is_absolute() or ".." in path.parts or "\\" in name:
+                raise ValueError(f"unsafe documentation path: {name}")
+            if kind != "blob" or mode not in ("100644", "100755"):
+                raise ValueError(f"documentation must be a regular file: {name}")
+            entries.append((path, oid))
+        # Read raw blobs rather than git archive: export-ignore/export-subst
+        # attributes must not change what the submitted tree actually contains.
+        objects = subprocess.run(
+            ["git", "cat-file", "--batch"],
+            input="".join(f"{oid}\n" for _, oid in entries).encode("ascii"),
+            check=True, capture_output=True,
+        ).stdout
+        stream = io.BytesIO(objects)
+        for path, oid in entries:
+            actual_oid, kind, size = stream.readline().decode("ascii").strip().split()
+            if actual_oid != oid or kind != "blob":
+                raise ValueError(f"cannot read documentation blob: {path}")
+            destination = root.joinpath(*path.parts)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_bytes(stream.read(int(size)))
+            if stream.read(1) != b"\n":
+                raise ValueError(f"invalid documentation blob: {path}")
+        try:
+            anchors.REPO_ROOT = root
+            anchors.DOCS_ROOT = i18n_check.DOCS_ROOT = root / "docs"
+            i18n_check.ALLOWLIST_PATH = root / "scripts/i18n_allowlist.yml"
+            yield
+        finally:
+            (anchors.REPO_ROOT, anchors.DOCS_ROOT,
+             i18n_check.DOCS_ROOT, i18n_check.ALLOWLIST_PATH) = roots
+
+
+def checked_pages(lang: str, files: list[tuple[str, str]], revision: str = "") -> dict[str, anchors.Page]:
+    """Use submitted text for touched pages, so unstaged fixes cannot hide errors."""
     pages = anchors.load_lang(lang)
     prefix = f"docs/{lang}/docs/"
     for status, path in files:
@@ -110,12 +171,13 @@ def checked_pages(lang: str, files: list[tuple[str, str]]) -> dict[str, anchors.
         if status == "D":
             pages.pop(rel, None)
         else:
-            pages[rel] = anchors.load_page(lang, anchors.REPO_ROOT / path, revision_text("", path))
+            pages[rel] = anchors.load_page(lang, anchors.REPO_ROOT / path, revision_text(revision, path))
     return pages
 
 
-def protected_errors(changes: list[tuple[str, str | None, str | None]]) -> list[str]:
-    """Compare HEAD with the index, not the working tree, including whole-page deletions."""
+def protected_errors(changes: list[tuple[str, str | None, str | None]],
+                     before_revision: str = "HEAD", revision: str = "") -> list[str]:
+    """Compare submitted revisions, including whole-page deletions and renames."""
     errors = []
     for _, old, new in changes:
         match = PATH_RE.match(old or "")
@@ -124,19 +186,22 @@ def protected_errors(changes: list[tuple[str, str | None, str | None]]) -> list[
         lang, rest = match.group("lang"), match.group("rest")
         if not rest.startswith("docs/") or not rest.endswith(".md"):
             continue
-        before = revision_text("HEAD", old)
-        after = revision_text("", new) if new and new.startswith(f"docs/{lang}/docs/") and new.endswith(".md") else None
+        before = revision_text(before_revision, old)
+        after = revision_text(revision, new) if new and new.startswith(f"docs/{lang}/docs/") and new.endswith(".md") else None
         errors.extend(str(issue) for issue in i18n_check.check_protected_text(lang, rest[len("docs/"):], before, after))
     return errors
 
 
-def cache_errors(files: list[tuple[str, str]]) -> list[str]:
-    """Require independently recorded baselines for changed translations, using only the index.
+def cache_errors(files: list[tuple[str, str]], base: str | None = None) -> list[str]:
+    """Require independent records for translations, using the index or PR HEAD.
 
     Other languages and English-only commits may remain pending. Existing
     legacy shared hashes are not evidence of an independently marked sync.
     """
-    indexed = set(git("ls-files", "-z").split("\0"))
+    revision = "HEAD" if base else ""
+    snapshot = "committed" if base else "staged"
+    indexed = set((git("ls-tree", "-r", "--name-only", "-z", revision) if base
+                   else git("ls-files", "-z")).split("\0"))
     candidates = []
     for status, path in files:
         match = PATH_RE.match(path)
@@ -150,14 +215,14 @@ def cache_errors(files: list[tuple[str, str]]) -> list[str]:
     if not candidates and not cache_staged:
         return []
     try:
-        raw = translation_delta.git_bytes(["show", f":{translation_delta.CACHE_FILE}"])
+        raw = translation_delta.git_bytes(["show", f"{revision}:{translation_delta.CACHE_FILE}"])
         if raw[0]:
-            raise ValueError("staged cache is missing")
+            raise ValueError(f"{snapshot} .translation-cache.json is missing")
         cache = json.loads(raw[1].decode("utf-8-sig"))
         if not isinstance(cache, dict):
             raise ValueError("cache root must be an object")
     except (ValueError, UnicodeError) as error:
-        return [f"{translation_delta.CACHE_FILE}: invalid staged translation cache: {error}; "
+        return [f"{translation_delta.CACHE_FILE}: invalid {snapshot} translation cache: {error}; "
                 "restore the cache or run translation_delta.py mark and stage the cache"]
 
     errors = []
@@ -171,34 +236,35 @@ def cache_errors(files: list[tuple[str, str]]) -> list[str]:
                           f"python scripts/translation_delta.py mark {source} --lang {lang} "
                           f"and stage {translation_delta.CACHE_FILE}")
             continue
-        source_code, source_bytes = translation_delta.git_bytes(["show", f":{source}"])
-        target_code, target_bytes = translation_delta.git_bytes(["show", f":{path}"])
+        source_code, source_bytes = translation_delta.git_bytes(["show", f"{revision}:{source}"])
+        target_code, target_bytes = translation_delta.git_bytes(["show", f"{revision}:{path}"])
         if source_code or target_code:
-            errors.append(f"{path}: cannot read staged translation/source for cache validation")
+            errors.append(f"{path}: cannot read {snapshot} translation/source for cache validation")
             continue
         try:
             source_hash = translation_delta.hash_bytes(pathlib.Path(source), source_bytes)
             target_hash = translation_delta.hash_bytes(pathlib.Path(path), target_bytes)
         except UnicodeError as error:
-            errors.append(f"{path}: invalid UTF-8 staged text: {error}")
+            errors.append(f"{path}: invalid UTF-8 {snapshot} text: {error}")
             continue
         if record.get("source_hash") != source_hash or record.get("target_hash") != target_hash:
             errors.append(
-                f"{path}: translation cache does not match staged source/target; run "
+                f"{path}: translation cache does not match {snapshot} source/target; run "
                 f"python scripts/translation_delta.py mark {source} --lang {lang} "
                 f"after validation and stage both {path} and {translation_delta.CACHE_FILE}"
             )
     return errors
 
 
-def main() -> int:
-    if hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(encoding="utf-8")
-    changes = staged_changes()
+def check_changes(base: str | None = None) -> int:
+    changes = staged_changes(base)
     files = staged_files(changes)
-    add_missing_ids(files)
-    errors = protected_errors(changes)
-    errors.extend(cache_errors(files))
+    if not base:
+        add_missing_ids(files)
+    revision = "HEAD" if base else ""
+    before = git("merge-base", base, "HEAD").strip() if base else "HEAD"
+    errors = protected_errors(changes, before, revision)
+    errors.extend(cache_errors(files, base))
     pages: dict[str, set[str]] = {}  # lang -> staged pages relative to docs/<lang>/docs
     file_check_langs: set[str] = set()
     for status, path in files:
@@ -215,10 +281,10 @@ def main() -> int:
     if not pages and not file_check_langs and not errors:
         return 0
 
-    en_pages = checked_pages(anchors.SOURCE_LANG, files)
+    en_pages = checked_pages(anchors.SOURCE_LANG, files, revision)
     for lang in sorted(pages):
         report = anchors.Report()
-        lang_pages = en_pages if lang == anchors.SOURCE_LANG else checked_pages(lang, files)
+        lang_pages = en_pages if lang == anchors.SOURCE_LANG else checked_pages(lang, files, revision)
         anchors.check_lang(lang, lang_pages, en_pages, report)
         for error in report.errors:
             rel = error.split(":", 1)[0].split("/", 1)[1]
@@ -238,9 +304,26 @@ def main() -> int:
     for error in errors:
         print(f"ERROR {error}")
     if errors:
-        print(f"pre-commit: {len(errors)} error(s). Fix them, or bypass with git commit --no-verify.")
+        advice = "Fix and commit the changes before retrying." if base else "Fix them, or bypass with git commit --no-verify."
+        print(f"pre-commit: {len(errors)} error(s). {advice}")
         return 1
     return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base", help="check committed BASE...HEAD without editing files or the index")
+    args = parser.parse_args(argv)
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    try:
+        if args.base:
+            with committed_docs("HEAD"):
+                return check_changes(args.base)
+        return check_changes()
+    except (subprocess.CalledProcessError, ValueError, UnicodeError, OSError) as error:
+        print(f"ERROR pre-commit: unable to check submitted documentation: {error}")
+        return 1
 
 
 if __name__ == "__main__":

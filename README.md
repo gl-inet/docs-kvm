@@ -108,6 +108,36 @@ English-only commits do not require translations to be updated in the same commi
 
 If no Python interpreter with the documentation dependencies is available, the hook prints a warning and skips its checks. Install `requirements.txt` in the documentation virtual environment to enable them.
 
+### Pull Request Checks
+
+The `Documentation PR checks` workflow runs for pull requests to `master` that change documentation, checking scripts, dependencies, `.translation-cache.json`, hook or documentation policy files, or the workflow itself. It runs separately from AI review and does not change deployment behavior.
+
+- **Structure:** checking-script regression tests, followed by the same heading, anchor, localized structure, legal protection and `.translation-cache.json` checks as the local hook, selected by the committed PR diff. English-only changes may leave translations pending.
+- **Build:** strict MkDocs builds for the changed languages; changes outside language directories still build English.
+- **Content:** codespell checks added English lines; newly added remote image URLs returning HTTP 404 or 410 fail the check. Grammar, removed heading IDs, suspicious image alt text and repeated Official Website links are warnings. Other image network errors are warnings. LanguageTool unavailability skips grammar checking, not the other content checks.
+
+PR jobs use read-only repository permissions and do not receive publishing tokens or API secrets. Missing heading IDs are reported for manual correction; the workflow does not post one-click suggestions or edit PR files.
+
+To reproduce the structure check locally after committing your changes:
+
+```bash
+git fetch origin master
+python scripts/precommit.py --base origin/master
+```
+
+Unlike local hook mode, `--base` never adds heading IDs or stages changes. It checks committed `HEAD`, including related documentation pages, configuration and the allowlist, regardless of changes in the index or working directory. Legal text is compared with the merge base. A failed check returns a nonzero exit code.
+
+To run the content checks locally:
+
+```bash
+python -m pip install codespell==2.4.1
+python scripts/pr_check.py --base origin/master
+# Optional grammar check against a running LanguageTool server:
+python scripts/pr_check.py --base origin/master --languagetool http://localhost:8081
+```
+
+The content check also reads committed `HEAD`, not uncommitted documentation edits. These workflows do not configure GitHub rulesets or required status checks. Repository administrators must configure required checks separately if failures should prevent merging.
+
 ### Translation cache
 
 The cache records each language separately under `targets.<lang>`: `source_hash` identifies its synchronized English version, `target_hash` identifies the localized content, and `source_blob` stores a reachable English Git snapshot when available. Syncing one language does not mark other languages complete.

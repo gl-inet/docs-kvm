@@ -1,0 +1,155 @@
+name: Documentation PR checks
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - ".translation-cache.json"
+      - "requirements*.txt"
+      - ".githooks/**"
+      - "**/AGENTS.md"
+      - "CLAUDE.md"
+      - ".agents/**"
+      - ".claude/**"
+      - ".github/workflows/pr-check.yml"
+
+concurrency:
+  group: pr-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  LANGUAGETOOL_VERSION: "6.6"
+  CODESPELL_VERSION: "2.4.1"
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run checking-script regression tests
+        run: python -m unittest discover -s scripts/tests
+      # Read-only committed snapshot checks. Fix reported heading IDs manually.
+      - name: Check structure and anchors
+        run: python scripts/precommit.py --base origin/master
+
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Build changed languages strictly
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import subprocess
+
+          paths = subprocess.check_output([
+              "git", "diff", "--name-only", "-z", "origin/master...HEAD", "--", "docs/",
+          ]).decode("utf-8").split("\0")
+          languages = sorted({path.split("/")[1] for path in paths if path.startswith("docs/")})
+          # Script-only and shared configuration changes still need one build.
+          languages = [lang for lang in languages if Path(f"docs/{lang}/mkdocs.yml").is_file()] or ["en"]
+          for lang in languages:
+              print(f"::group::BUILD {lang}", flush=True)
+              subprocess.run([
+                  "mkdocs", "build", "-f", f"docs/{lang}/mkdocs.yml", "--strict",
+                  "--site-dir", str(Path(os.environ["RUNNER_TEMP"]) / f"site-{lang}"),
+              ], check=True)
+              print("::endgroup::", flush=True)
+          PY
+
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.10.4"
+      - name: Install check dependencies
+        run: python -m pip install -r requirements.txt "codespell==${CODESPELL_VERSION}"
+      - name: Run content-check regression tests with codespell
+        run: python -m unittest discover -s scripts/tests -p 'test_pr_check*.py'
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Cache LanguageTool
+        id: languagetool-cache
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.temp }}/LanguageTool-${{ env.LANGUAGETOOL_VERSION }}
+          key: languagetool-${{ env.LANGUAGETOOL_VERSION }}
+      # Grammar is report-only; download/start failures must not block spelling/images.
+      - name: Download LanguageTool
+        if: steps.languagetool-cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/languagetool.zip" \
+            "https://languagetool.org/download/LanguageTool-${LANGUAGETOOL_VERSION}.zip"
+          unzip -q "$RUNNER_TEMP/languagetool.zip" -d "$RUNNER_TEMP"
+      - name: Start LanguageTool server
+        id: languagetool
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/LanguageTool-${LANGUAGETOOL_VERSION}"
+          nohup java -cp languagetool-server.jar org.languagetool.server.HTTPServer \
+            --port 8081 > "$RUNNER_TEMP/languagetool.log" 2>&1 &
+          for _ in $(seq 60); do
+            if curl -fs "http://localhost:8081/v2/languages" > /dev/null; then
+              echo "url=http://localhost:8081" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 2
+          done
+          cat "$RUNNER_TEMP/languagetool.log"
+          echo "::warning::LanguageTool server did not start; the grammar check is skipped."
+          exit 1
+      - name: Check spelling, grammar and images
+        run: python scripts/pr_check.py --base origin/master --languagetool "${{ steps.languagetool.outputs.url }}"
