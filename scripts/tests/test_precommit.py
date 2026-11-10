@@ -1,6 +1,7 @@
 """Pre-commit regression tests in isolated Git repositories."""
 import contextlib
 import io
+import json
 import os
 from pathlib import Path
 import subprocess
@@ -13,6 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import anchors
 import i18n_check
 import precommit
+import translation_delta
 
 
 class PrecommitTests(unittest.TestCase):
@@ -34,6 +36,7 @@ class PrecommitTests(unittest.TestCase):
         self.put(self.legal, "# Sicherheit {#safety-information}\n\nApproved standalone wording.\n")
         for lang in ("en", "de"):
             self.put(f"docs/{lang}/mkdocs.yml", "plugins: []\n")
+        self.update_cache()
         self.git("add", ".")
         self.git("commit", "-qm", "fixture")
         self.patches = [
@@ -58,6 +61,14 @@ class PrecommitTests(unittest.TestCase):
         target = Path(path)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(text.encode("utf-8"))
+
+    def update_cache(self):
+        cache = {self.source: {"targets": {"de": {
+            "source_hash": translation_delta.source_hash(Path(self.source)),
+            "target_hash": translation_delta.target_hash(Path(self.target)),
+        }}}}
+        self.put(translation_delta.CACHE_FILE, json.dumps(cache))
+        self.git("add", translation_delta.CACHE_FILE)
 
     def run_hook(self):
         output = io.StringIO()
@@ -159,6 +170,7 @@ class PrecommitTests(unittest.TestCase):
         staged = approved.replace("Text.", "Anderer Text.")
         self.put(self.target, staged)
         self.git("add", self.target)
+        self.update_cache()
         self.put(self.target, staged.replace("Approved wording", "Unstaged wording"))
         code, output = self.run_hook()
         self.assertEqual(0, code, output)
@@ -197,6 +209,25 @@ class PrecommitTests(unittest.TestCase):
         code, output = self.run_hook()
         self.assertEqual(1, code, output)
         self.assertIn("[protected-section]", output)
+
+    def test_changed_translation_requires_matching_staged_cache(self):
+        approved = Path(self.target).read_text()
+        self.put(self.target, approved.replace("Text.", "Anderer Text."))
+        self.git("add", self.target)
+        code, output = self.run_hook()
+        self.assertEqual(1, code, output)
+        self.assertIn("translation cache does not match staged source/target", output)
+        self.assertIn("translation_delta.py mark", output)
+        self.update_cache()
+        code, output = self.run_hook()
+        self.assertEqual(0, code, output)
+
+    def test_invalid_cache_only_commit_is_blocked(self):
+        self.put(translation_delta.CACHE_FILE, "not valid JSON")
+        self.git("add", translation_delta.CACHE_FILE)
+        code, output = self.run_hook()
+        self.assertEqual(1, code, output)
+        self.assertIn("invalid staged translation cache", output)
 
     def test_empty_index_does_nothing(self):
         self.assertEqual((0, ""), self.run_hook())

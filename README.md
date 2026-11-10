@@ -101,11 +101,34 @@ The hook selects checks from the staged changes:
 - Heading IDs and anchor links (`scripts/anchors.py`), including broken anchor links elsewhere in each touched language.
 - Localized pages: structure compared with the English page, untranslated English, and language rules such as Japanese full-width punctuation (`scripts/i18n_check.py`).
 - Approved localized legal sections and standalone legal pages: compare `HEAD` with the staged content and reject wording changes or removals, including deleted pages. Renames within the same language are compared with the original file. Unstaged edits cannot hide staged legal changes, and translation allowlist entries do not bypass this protection.
+- Changed localized files with a matching English source: independent per-language cache records must match the staged English and localized content. This includes Markdown, configuration, overrides, text assets and binary files. Both the localized file and `.translation-cache.json` must be staged; an unstaged cache update cannot satisfy the check. Other languages may remain pending. English-only regulatory sources and localized-only legal pages have no translation-cache requirement.
 - `mkdocs.yml` changes and added, renamed, or deleted pages: orphan pages and redirect problems.
 
 English-only commits do not require translations to be updated in the same commit, but heading and anchor errors still block the commit. To bypass the hook in an emergency, use `git commit --no-verify`.
 
 If no Python interpreter with the documentation dependencies is available, the hook prints a warning and skips its checks. Install `requirements.txt` in the documentation virtual environment to enable them.
+
+### Translation cache
+
+The cache records each language separately under `targets.<lang>`: `source_hash` identifies its synchronized English version, `target_hash` identifies the localized content, and `source_blob` stores a reachable English Git snapshot when available. Syncing one language does not mark other languages complete.
+
+For a legacy checkout, migrate once without advancing translation baselines:
+
+```bash
+python scripts/translation_delta.py migrate
+```
+
+Migration is idempotent and does not invent missing language records. The current repository cache is already migrated. Do not bulk-refresh it to hide pending translation work.
+
+After translating and validating a file, record only the files and languages actually reviewed, then stage the corresponding localized files and cache:
+
+```bash
+python scripts/translation_delta.py diff docs/en/docs/faq/index.md --lang de
+python scripts/translation_delta.py mark docs/en/docs/faq/index.md --lang de --model manual-sync
+git add docs/de/docs/faq/index.md .translation-cache.json
+```
+
+Use `--no-target-change` with explicitly named languages only after reviewing an English change that requires no localized edit. It does not bypass validation. When a staged source or target differs from the working-tree version used by `mark`, stage the matching versions or mark the intended versions again before committing. For deleted sources, remove their localized counterparts and use `prune`; never remove approved localized-only legal pages.
 
 ## Online View
 
