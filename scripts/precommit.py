@@ -14,6 +14,8 @@ For staged pages, the hook reports:
 - for localized pages: structure and text problems (scripts/i18n_check.py),
   and approved legal sections or pages removed or changed between HEAD and
   the staged version (including deleted and renamed pages);
+- for localized files with a matching English source: a staged per-language
+  translation-cache record matching both the staged source and target hashes;
 - for mkdocs.yml or added, renamed or deleted pages: orphan pages and redirect
   problems.
 
@@ -25,6 +27,7 @@ Bypass in an emergency with ``git commit --no-verify``.
 
 from __future__ import annotations
 
+import json
 import pathlib
 import re
 import subprocess
@@ -34,6 +37,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 import anchors  # noqa: E402
 import i18n_check  # noqa: E402
+import translation_delta  # noqa: E402
 
 LANGS = anchors.LANGS
 PATH_RE = re.compile(r"^docs/(?P<lang>[a-z]{2})/(?P<rest>.+)$")
@@ -126,6 +130,67 @@ def protected_errors(changes: list[tuple[str, str | None, str | None]]) -> list[
     return errors
 
 
+def cache_errors(files: list[tuple[str, str]]) -> list[str]:
+    """Require independently recorded baselines for changed translations, using only the index.
+
+    Other languages and English-only commits may remain pending. Existing
+    legacy shared hashes are not evidence of an independently marked sync.
+    """
+    indexed = set(git("ls-files", "-z").split("\0"))
+    candidates = []
+    for status, path in files:
+        match = PATH_RE.match(path)
+        if status == "D" or not match or match.group("lang") not in translation_delta.DEFAULT_LANGS:
+            continue
+        lang, rest = match.group("lang"), match.group("rest")
+        source = f"docs/en/{rest}"
+        if source in indexed and not translation_delta.is_english_only(source):
+            candidates.append((lang, source, path))
+    cache_staged = any(path == translation_delta.CACHE_FILE for _, path in files)
+    if not candidates and not cache_staged:
+        return []
+    try:
+        raw = translation_delta.git_bytes(["show", f":{translation_delta.CACHE_FILE}"])
+        if raw[0]:
+            raise ValueError("staged cache is missing")
+        cache = json.loads(raw[1].decode("utf-8-sig"))
+        if not isinstance(cache, dict):
+            raise ValueError("cache root must be an object")
+    except (ValueError, UnicodeError) as error:
+        return [f"{translation_delta.CACHE_FILE}: invalid staged translation cache: {error}; "
+                "restore the cache or run translation_delta.py mark and stage the cache"]
+
+    errors = []
+    for lang, source, path in candidates:
+        entry = cache.get(source)
+        targets = entry.get("targets") if isinstance(entry, dict) else None
+        record = targets.get(lang) if isinstance(targets, dict) else None
+        if not isinstance(record, dict) or "source_hash" in entry:
+            errors.append(f"{path}: missing per-language cache baseline; run "
+                          "python scripts/translation_delta.py migrate if using a legacy cache, then "
+                          f"python scripts/translation_delta.py mark {source} --lang {lang} "
+                          f"and stage {translation_delta.CACHE_FILE}")
+            continue
+        source_code, source_bytes = translation_delta.git_bytes(["show", f":{source}"])
+        target_code, target_bytes = translation_delta.git_bytes(["show", f":{path}"])
+        if source_code or target_code:
+            errors.append(f"{path}: cannot read staged translation/source for cache validation")
+            continue
+        try:
+            source_hash = translation_delta.hash_bytes(pathlib.Path(source), source_bytes)
+            target_hash = translation_delta.hash_bytes(pathlib.Path(path), target_bytes)
+        except UnicodeError as error:
+            errors.append(f"{path}: invalid UTF-8 staged text: {error}")
+            continue
+        if record.get("source_hash") != source_hash or record.get("target_hash") != target_hash:
+            errors.append(
+                f"{path}: translation cache does not match staged source/target; run "
+                f"python scripts/translation_delta.py mark {source} --lang {lang} "
+                f"after validation and stage both {path} and {translation_delta.CACHE_FILE}"
+            )
+    return errors
+
+
 def main() -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
@@ -133,6 +198,7 @@ def main() -> int:
     files = staged_files(changes)
     add_missing_ids(files)
     errors = protected_errors(changes)
+    errors.extend(cache_errors(files))
     pages: dict[str, set[str]] = {}  # lang -> staged pages relative to docs/<lang>/docs
     file_check_langs: set[str] = set()
     for status, path in files:

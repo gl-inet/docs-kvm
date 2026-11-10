@@ -87,7 +87,14 @@ known), `model`, and `updated_at`. There is no shared top-level `source_hash`.
   a blob. An uncommitted version without a matching reachable snapshot is
   recorded without `source_blob`; `diff` then requires full-page comparison.
   Commit English source changes before syncing for portable history.
-- `target_hash` identifies the localized file after its recorded sync.
+- `target_hash` identifies the localized file after its recorded sync. The commit
+  hook compares both hashes with the staged English and localized file, using
+  the staged cache rather than an unstaged working-tree update. After `mark`,
+  stage the corresponding localized files and `.translation-cache.json`
+  together. This applies to configuration, overrides and assets as well as
+  Markdown. A missing or stale per-language record blocks the changed file;
+  other languages may remain pending. English-only regulatory sources and
+  localized-only legal pages do not require cache records.
 - `mark` updates only the explicitly named files and languages after validation.
   Failed languages remain out of date; they cannot be hidden by another
   language's sync. Never edit the cache manually or bulk-refresh it.
