@@ -62,6 +62,7 @@ from anchors import (
     front_matter_end,
     load_lang,
     load_page,
+    parse_headings,
     resolve_target,
     translated_headings,
 )
@@ -132,6 +133,79 @@ class Issue:
         if self.section:
             where += f" #{self.section}"
         return f"{where}: [{self.check}] {self.message}"
+
+
+# --------------------------------------------------------------------------
+# protected legal text (HEAD/index API, independent of the allowlist)
+
+
+def protected_sections(page: Page) -> dict[str, tuple[int, str]]:
+    """Return legal roots and their subsections, ignoring root level and trailing spaces."""
+    found = {}
+    for position, heading in enumerate(page.headings):
+        if heading.explicit_id not in LOCALIZED_ONLY_IDS:
+            continue
+        end = next(
+            (h.index for h in page.headings[position + 1:] if h.level <= heading.level),
+            len(page.lines),
+        )
+        body = [line.rstrip() for line in page.lines[heading.index + 1:end]]
+        found[heading.explicit_id] = (
+            heading.index + 1, "\n".join([heading.text, *body]).strip()
+        )
+    return found
+
+
+def check_protected_text(
+    lang: str, rel: str, before: str | None, after: str | None
+) -> list[Issue]:
+    """Compare HEAD/index text without reading files or applying the allowlist.
+
+    None means the file does not exist. Only previously approved localized text
+    is protected; a new legal file/section has no baseline. A legal first heading
+    in HEAD protects the entire page, including pages with no English equivalent.
+    """
+    if lang == SOURCE_LANG or before is None:
+        return []
+
+    def parse(text: str) -> Page:
+        lines = text.splitlines(keepends=True)
+        return Page(lang, rel, DOCS_ROOT / lang / "docs" / rel,
+                    lines, parse_headings(lines), set())
+
+    old_page = parse(before)
+    new_page = parse(after) if after is not None else None
+    if localized_only(old_page):
+        root = old_page.headings[0]
+
+        def whole_text(page: Page) -> str:
+            lines = [line.rstrip() for line in page.lines]
+            # Only the original root's heading level is insignificant. Keep its
+            # ID and all subsection text so ID removal/renaming cannot bypass us.
+            if page.headings and page.headings[0].index == root.index:
+                lines[root.index] = re.sub(r"^\ufeff?[ \t]*#{1,6}[ \t]+", "", lines[root.index])
+            return "\n".join(lines).strip()
+
+        if new_page is None:
+            message = "legal page removed; restore the approved text from HEAD"
+        elif whole_text(old_page) != whole_text(new_page):
+            message = "legal page text changed; restore the approved text from HEAD"
+        else:
+            return []
+        return [Issue(lang, rel, "protected-section", message, root.explicit_id, root.index + 1)]
+
+    current = protected_sections(new_page) if new_page is not None else {}
+    issues = []
+    for section_id, (line, old) in protected_sections(old_page).items():
+        if section_id not in current:
+            issues.append(Issue(lang, rel, "protected-section",
+                                "legal section removed; restore the approved text from HEAD",
+                                section_id, line))
+        elif current[section_id][1] != old:
+            issues.append(Issue(lang, rel, "protected-section",
+                                "legal section text changed; restore the approved text from HEAD",
+                                section_id, current[section_id][0]))
+    return issues
 
 
 # --------------------------------------------------------------------------
