@@ -274,3 +274,5 @@ nav:
       - Übersicht: features_update/index.md
       - Firmware v1.10: features_update/firmware_v1.10.md
       - Firmware v1.9: features_update/firmware_v1.9.md
+  - Downloads:
+      - Übersicht: downloads/index.md
