@@ -268,3 +268,5 @@ nav:
       - Présentation: features_update/index.md
       - Micrologiciel v1.10: features_update/firmware_v1.10.md
       - Micrologiciel v1.9: features_update/firmware_v1.9.md
+  - Téléchargements:
+      - Aperçu: downloads/index.md
