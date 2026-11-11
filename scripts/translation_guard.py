@@ -56,11 +56,16 @@ def protected_sections(text: str) -> list[str]:
     return sections
 
 
-def protected_placements(text: str) -> list[tuple[str, str, str]]:
-    headings = [match[2] for line in text.splitlines() if (match := HEADING.match(line))]
+def heading_ids(text: str) -> list[str]:
+    return [match[2] for line in text.splitlines() if (match := HEADING.match(line))]
+
+
+def protected_placements(text: str, stable_ids: set[str]) -> list[tuple[str, int, str, str]]:
+    headings = heading_ids(text)
     return [
-        (heading, next((h for h in reversed(headings[:index]) if h not in PROTECTED_IDS), ''),
-         next((h for h in headings[index + 1:] if h not in PROTECTED_IDS), ''))
+        (heading, sum(h not in PROTECTED_IDS for h in headings[:index]),
+         next((h for h in reversed(headings[:index]) if h in stable_ids), ''),
+         next((h for h in headings[index + 1:] if h in stable_ids), ''))
         for index, heading in enumerate(headings) if heading in PROTECTED_IDS
     ]
 
@@ -72,9 +77,12 @@ def check_content(path: str, before: str, after: str) -> None:
         pattern = rf'(?<![A-Za-z0-9_-]){stem}(?=$|[^A-Za-z0-9_-])'
         if len(re.findall(pattern, after)) > len(re.findall(pattern, before)):
             raise ValueError(f'Translation added an English-only regulatory reference: {path}')
+    # Neighbor IDs can legitimately change with English titles. Compare heading
+    # positions plus surviving neighbors, not the old spelling of renamed IDs.
+    stable_ids = (set(heading_ids(before)) & set(heading_ids(after))) - PROTECTED_IDS
     if path.endswith('.md') and (
         protected_sections(before) != protected_sections(after)
-        or protected_placements(before) != protected_placements(after)
+        or protected_placements(before, stable_ids) != protected_placements(after, stable_ids)
     ):
         raise ValueError(f'Translation changed approved legal wording or placement: {path}')
 

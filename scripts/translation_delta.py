@@ -212,7 +212,7 @@ def source_arg(value: str, *, absent=False) -> str:
     return rel
 
 
-def protected_parts(text: str) -> tuple[list[str], list[tuple[str, str, str]]]:
+def protected_parts(text: str, stable_ids: set[str]) -> tuple[list[str], list[tuple[str, int, str, str]]]:
     """Own trusted check, independent of the workflow guard and i18n allowlists."""
     lines = text.splitlines(keepends=True)
     headings = [(i, len(m[1]), m[2]) for i, line in enumerate(lines) if (m := HEADING.match(line.rstrip("\r\n")))]
@@ -222,9 +222,10 @@ def protected_parts(text: str) -> tuple[list[str], list[tuple[str, str, str]]]:
             continue
         end = next((j for j in range(index + 1, len(lines)) if (m := re.match(r"^(#{1,6})\s+", lines[j])) and len(m[1]) <= level), len(lines))
         sections.append("".join(lines[index:end]))
-        before = next((h[2] for h in reversed(headings[:pos]) if h[2] not in PROTECTED_IDS), "")
-        after = next((h[2] for h in headings[pos + 1:] if h[2] not in PROTECTED_IDS), "")
-        placements.append((ident, before, after))
+        ordinal = sum(h[2] not in PROTECTED_IDS for h in headings[:pos])
+        before = next((h[2] for h in reversed(headings[:pos]) if h[2] in stable_ids), "")
+        after = next((h[2] for h in headings[pos + 1:] if h[2] in stable_ids), "")
+        placements.append((ident, ordinal, before, after))
     return sections, placements
 
 
@@ -242,8 +243,14 @@ def legal_errors(target: pathlib.Path, after: str) -> list[str]:
     else:
         before = normalized(raw)
     errors = []
-    if target.suffix == ".md" and protected_parts(before) != protected_parts(after):
-        errors.append("Approved legal wording or placement changed since HEAD")
+    if target.suffix == ".md":
+        # Keep this trusted check independent of the workflow guard. Normal title
+        # updates may rename neighboring IDs without moving approved legal text.
+        old_ids = {m[2] for line in before.splitlines() if (m := HEADING.match(line))}
+        new_ids = {m[2] for line in after.splitlines() if (m := HEADING.match(line))}
+        stable_ids = (old_ids & new_ids) - PROTECTED_IDS
+        if protected_parts(before, stable_ids) != protected_parts(after, stable_ids):
+            errors.append("Approved legal wording or placement changed since HEAD")
     for stem in ("regulatory_statement", "fcc_ic_compliance_statements"):
         pattern = rf"(?<![A-Za-z0-9_-]){stem}(?=$|[^A-Za-z0-9_-])"
         if len(re.findall(pattern, after)) > len(re.findall(pattern, before)):
