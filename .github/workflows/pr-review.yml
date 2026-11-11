@@ -75,6 +75,15 @@ jobs:
           path: codex-output.json
           if-no-files-found: ignore
 
+      - name: Upload counts reporter line map
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: codex-review-added-lines
+          path: trusted/.codex-run/added-lines.json
+          include-hidden-files: true
+          if-no-files-found: ignore
+
   publish:
     needs: review
     if: always() && (needs.review.result == 'success' || needs.review.result == 'failure')
@@ -118,3 +127,45 @@ jobs:
           python3 -I trusted/scripts/codex_review.py publish \
             --repo "$GITHUB_WORKSPACE/pr-data" --base "$BASE_SHA" --head "$HEAD_SHA" \
             --review review/codex-output.json --pr "$PR_NUMBER" --result "$REVIEW_RESULT"
+
+  # Read-only counts-only reporting; independent of AI credentials and outcomes.
+  report:
+    needs: [review, publish]
+    if: always() && needs.review.result != 'skipped'
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: Check out trusted reporting script
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          sparse-checkout: scripts/report_review_stats.py
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+      - name: Download review data
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review
+          path: review
+      - name: Download counts reporter line map
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          name: codex-review-added-lines
+          path: review/.codex-run
+      - name: Generate review stats
+        env:
+          STATS_NEEDS: ${{ toJSON(needs) }}
+        run: python3 -I scripts/report_review_stats.py
+      - name: Upload review stats
+        uses: actions/upload-artifact@v6
+        with:
+          name: ai-agent-stats-review-attempt-${{ github.run_attempt }}
+          path: stats/review-run.json
+          retention-days: 30
+          if-no-files-found: error

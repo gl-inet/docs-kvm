@@ -274,3 +274,32 @@ jobs:
             no_changes) test "$HAS_CHANGES" = false ;;
             *) echo "::error::Translation returned '$status'. Inspect the report artifact."; exit 1 ;;
           esac
+
+  # Always reports no-work and failed workflows as well as successful changes.
+  report:
+    needs: [prepare, translate, validate, publish]
+    if: always()
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - name: Check out reporting script
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          sparse-checkout: scripts/report_translation_stats.py
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+      - name: Generate translation stats
+        env:
+          STATS_NEEDS: ${{ toJSON(needs) }}
+        run: python3 -I scripts/report_translation_stats.py
+      - name: Upload translation stats
+        uses: actions/upload-artifact@v6
+        with:
+          name: ai-agent-stats-translation-attempt-${{ github.run_attempt }}
+          path: stats/translation-run.json
+          retention-days: 30
+          if-no-files-found: error
