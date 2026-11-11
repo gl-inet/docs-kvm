@@ -1,4 +1,4 @@
-# Come condividere la videocamera locale nelle riunioni remote? (Camera Passthrough) {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
+# Come trasmettere il video della videocamera locale nelle riunioni a distanza? {#how-can-i-use-camera-passthrough-for-remote-meetings}
 
 **Nota**: Questa funzionalità è stata introdotta nel firmware v1.10.0 ed è supportata solo in modalità WebRTC (FEC). Attualmente è disponibile tramite browser web e client desktop, ma non è ancora supportata nell'app mobile.
 

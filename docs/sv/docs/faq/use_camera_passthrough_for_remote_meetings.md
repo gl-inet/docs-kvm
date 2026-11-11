@@ -1,4 +1,4 @@
-# Hur delar jag den lokala kameran i fjärrmöten? (Camera Passthrough) {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
+# Så använder du kameragenomkoppling i fjärrmöten {#how-can-i-use-camera-passthrough-for-remote-meetings}
 
 **Obs!** Funktionen introducerades i firmware v1.10.0 och stöds endast i läget WebRTC (FEC). Den är för närvarande tillgänglig via webbläsare och skrivbordsklienten, men stöds ännu inte i mobilappen.
 

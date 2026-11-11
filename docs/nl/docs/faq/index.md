@@ -67,7 +67,8 @@ Staat uw vraag hieronder niet vermeld? Neem dan contact op met ons technische su
 
 * [Wat moet ik doen als er geen geluid van het bestuurde apparaat komt?](no_audio_from_the_controlled_device.md)
 * [Waarom blijven mijn luidspreker- en microfooninstellingen niet bewaard?](speaker_microphone_settings_cannot_be_retained.md)
-* [Hoe kan ik de lokale camera delen in vergaderingen op afstand? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [Hoe stuurt u camerabeelden van uw lokale camera door tijdens vergaderingen op afstand?](use_camera_passthrough_for_remote_meetings.md)
+* [Hoe gebruikt u tweerichtingsaudio tijdens vergaderingen op afstand?](use_two_way_audio_for_remote_meetings.md)
 
 ## Overige problemen {#other-issues}
 

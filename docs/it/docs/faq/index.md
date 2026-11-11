@@ -67,7 +67,8 @@ Se la tua domanda non è presente nell'elenco, contatta il nostro team di assist
 
 * [Cosa fare se il dispositivo controllato non riproduce audio](no_audio_from_the_controlled_device.md)
 * [Perché le impostazioni di altoparlante e microfono non vengono mantenute](speaker_microphone_settings_cannot_be_retained.md)
-* [Come condividere la videocamera locale nelle riunioni remote? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [Come trasmettere il video della videocamera locale nelle riunioni a distanza?](use_camera_passthrough_for_remote_meetings.md)
+* [Come usare l'audio bidirezionale nelle riunioni a distanza?](use_two_way_audio_for_remote_meetings.md)
 
 ## Altri problemi {#other-issues}
 

@@ -224,7 +224,8 @@ nav:
       - Problemi audio e videocamera:
           - Nessun audio dal dispositivo controllato: faq/no_audio_from_the_controlled_device.md
           - Le impostazioni di altoparlante e microfono non vengono mantenute: faq/speaker_microphone_settings_cannot_be_retained.md
-          - "Come condividere la videocamera locale nelle riunioni remote? (Camera Passthrough)": faq/use_camera_passthrough_for_remote_meetings.md
+          - "Trasmettere il video della videocamera locale nelle riunioni a distanza": faq/use_camera_passthrough_for_remote_meetings.md
+          - "Usare l'audio bidirezionale nelle riunioni a distanza": faq/use_two_way_audio_for_remote_meetings.md
       - Altri problemi:
           - "Cosa fare se compare \"Press Failed\" quando usi Fingerbot?": faq/fingerbot_fails_to_press.md
   - Tutorial:

@@ -67,7 +67,8 @@ Jeśli nie znajdziesz poniżej swojego pytania, skontaktuj się z naszym zespoł
 
 * [Co zrobić, jeśli nie słychać dźwięku z urządzenia docelowego](no_audio_from_the_controlled_device.md)
 * [Dlaczego ustawienia głośnika i mikrofonu nie są zachowywane](speaker_microphone_settings_cannot_be_retained.md)
-* [Jak udostępnić lokalną kamerę podczas spotkań zdalnych? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [Jak przesyłać obraz z lokalnej kamery podczas spotkań zdalnych?](use_camera_passthrough_for_remote_meetings.md)
+* [Jak używać dźwięku dwukierunkowego podczas spotkań zdalnych?](use_two_way_audio_for_remote_meetings.md)
 
 ## Inne problemy {#other-issues}
 

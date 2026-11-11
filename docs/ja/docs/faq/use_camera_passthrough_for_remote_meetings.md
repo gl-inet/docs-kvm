@@ -1,4 +1,4 @@
-# ローカルカメラをリモート会議で共有するにはどうすればよいですか？（Camera Passthrough） {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
+# リモート会議でカメラパススルーを使うにはどうすればよいですか？ {#how-can-i-use-camera-passthrough-for-remote-meetings}
 
 **注**: この機能はファームウェアv1.10.0で導入され、WebRTC (FEC) モードでのみサポートされています。現在、Webブラウザーとデスクトップクライアントで利用できますが、モバイルアプリではまだサポートされていません。
 

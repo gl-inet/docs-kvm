@@ -67,7 +67,8 @@ Si su pregunta no aparece a continuación, póngase en contacto con nuestro equi
 
 * [Qué hacer si no se escucha el audio del dispositivo controlado](no_audio_from_the_controlled_device.md)
 * [Por qué no se conservan los ajustes del altavoz y del micrófono](speaker_microphone_settings_cannot_be_retained.md)
-* [¿Cómo puedo compartir la cámara local en reuniones remotas? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [¿Cómo puedo reenviar la imagen de la cámara local en reuniones remotas?](use_camera_passthrough_for_remote_meetings.md)
+* [¿Cómo puedo usar el audio bidireccional en reuniones remotas?](use_two_way_audio_for_remote_meetings.md)
 
 ## Otros problemas {#other-issues}
 

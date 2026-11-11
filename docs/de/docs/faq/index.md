@@ -67,7 +67,8 @@ Wenn Ihre Frage unten nicht aufgeführt ist, wenden Sie sich bitte an unser tech
 
 * [Was kann ich tun, wenn vom gesteuerten Gerät kein Ton kommt](no_audio_from_the_controlled_device.md)
 * [Warum bleiben meine Lautsprecher- und Mikrofoneinstellungen nicht erhalten](speaker_microphone_settings_cannot_be_retained.md)
-* [Wie kann ich die lokale Kamera für Remote-Meetings freigeben? (Camera Passthrough)](use_camera_passthrough_for_remote_meetings.md)
+* [Wie kann ich die Kamera für Remote-Meetings durchschleifen?](use_camera_passthrough_for_remote_meetings.md)
+* [Wie kann ich bidirektionales Audio für Remote-Meetings nutzen?](use_two_way_audio_for_remote_meetings.md)
 
 ## Sonstige Probleme {#other-issues}
 

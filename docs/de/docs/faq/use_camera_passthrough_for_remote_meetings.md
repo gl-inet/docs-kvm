@@ -1,4 +1,4 @@
-# Wie kann ich die lokale Kamera für Remote-Meetings freigeben? (Camera Passthrough) {#how-can-i-share-the-local-camera-with-remote-meetings-camera-passthrough}
+# Wie kann ich die Kamera für Remote-Meetings durchschleifen? {#how-can-i-use-camera-passthrough-for-remote-meetings}
 
 **Hinweis**: Diese Funktion wurde mit Firmware v1.10.0 eingeführt und wird nur im Modus WebRTC (FEC) unterstützt. Sie ist derzeit über Webbrowser und den Desktop-Client verfügbar, wird aber in der mobilen App noch nicht unterstützt.
 

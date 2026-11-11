@@ -229,7 +229,8 @@ nav:
       - Audio- und Kameraprobleme:
           - Kein Ton vom gesteuerten Gerät: faq/no_audio_from_the_controlled_device.md
           - Lautsprecher- und Mikrofoneinstellungen bleiben nicht erhalten: faq/speaker_microphone_settings_cannot_be_retained.md
-          - "Wie kann ich die lokale Kamera für Remote-Meetings freigeben? (Camera Passthrough)": faq/use_camera_passthrough_for_remote_meetings.md
+          - "Kamera für Remote-Meetings durchschleifen": faq/use_camera_passthrough_for_remote_meetings.md
+          - "Bidirektionales Audio für Remote-Meetings nutzen": faq/use_two_way_audio_for_remote_meetings.md
       - Sonstige Probleme:
           - "Was soll ich tun, wenn bei der Verwendung von Fingerbot „Press Failed“ angezeigt wird?": faq/fingerbot_fails_to_press.md
   - Tutorials:
