@@ -21,10 +21,12 @@
 
 Comet Q współpracuje z dowolnym urządzeniem, którego port USB-C obsługuje **DisplayPort Alt Mode** do przesyłania obrazu. Obejmuje to między innymi:
 
-- **iPhone'y**: iPhone 15 i nowsze (z wyjątkiem iPhone 16e, 17e i iPhone Air)
-- **iPady**: wszystkie modele iPad Pro (2018 i nowsze), iPad Air (4. generacji i nowsze), iPad mini (6. generacji i nowsze) oraz iPad (10. generacji i nowsze)
-- **Telefony z Androidem (na przykładzie Samsunga)**: Samsung Galaxy S8 i nowsze, Galaxy Note 8 i nowsze, serie Galaxy Z Fold/Flip oraz Galaxy Tab S
-- **Laptopy i minikomputery**: większość modeli z portem USB-C obsługującym przesyłanie obrazu, w tym MacBooki, Mac mini i większość współczesnych laptopów z Windows
+- **iPhone'y**: iPhone 15 i nowsze (z wyjątkiem iPhone 16e, 17e i iPhone Air).
+- **iPady**: wszystkie modele iPad Pro (2018 i nowsze), iPad Air (4. generacji i nowsze), iPad mini (6. generacji i nowsze) oraz iPad (10. generacji i nowsze).
+- **Telefony z Androidem (na przykładzie Samsunga)**: Samsung Galaxy S8 i nowsze, Galaxy Note 8 i nowsze, serie Galaxy Z Fold/Flip oraz Galaxy Tab S.
+- **Laptopy i minikomputery**: większość modeli z portem USB-C obsługującym przesyłanie obrazu, w tym MacBooki, Mac mini i większość współczesnych laptopów z Windows.
+
+**Uwaga:** Jeśli nie masz pewności, czy port USB-C twojego telefonu obsługuje DisplayPort Alt Mode, zapoznaj się z poradnikiem [Jak sprawdzić, czy port USB-C obsługuje DP Alt Mode](../../tutorials/how_to_check_usb-c_port_dp_alt_mode.md).
 
 ## Zawartość opakowania {#package-contents}
 
