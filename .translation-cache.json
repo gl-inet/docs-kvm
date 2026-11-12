@@ -62,60 +62,60 @@
   "docs/en/mkdocs.yml": {
     "targets": {
       "de": {
-        "model": "codex",
-        "updated_at": 1794354725,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "3bc192dce103775ec72db2a8396762cfea6e545a1046c12dc48e74dca6c86e3d",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "model": "reviewed-no-target-change",
+        "updated_at": 1794440848,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "ddf55129274287fe24bbd7d1f4177f6a3800ea54f5a994798a5ae19139486f0e",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "ja": {
         "model": "codex",
-        "updated_at": 1794354730,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "e0fc590b6f36c9828968b8e6acbf364a3e455a2dfc3dc4bac8457567f28eb522",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "updated_at": 1794440844,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "27756e99bd55bf5079cd14f96e2a6b96992677324930b856fa681ca60ba62684",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "es": {
-        "model": "codex",
-        "updated_at": 1794354726,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "505beb91fe6188f2edeb3f8817bb049b1e87afa88fe2a82a9259e17bcdae9397",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "model": "reviewed-no-target-change",
+        "updated_at": 1794440849,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "cb5b7dd9ea1f31a963791d62a14bc568b23b47a651e6ce64dbc3ea8ceb1f78bf",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "fr": {
-        "model": "codex",
-        "updated_at": 1794354728,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "0da3f8fa89bdd31ec5f121913c279da26c233d20299ce5e7cf2701bf938bfd80",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "model": "reviewed-no-target-change",
+        "updated_at": 1794440851,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "39c775a515f77cf185a527a34cbdc19d2b3bd5cab415a6b13d94c223628b18ff",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "it": {
         "model": "codex",
-        "updated_at": 1794354729,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "ea205ab63ec181db8bbf4595a0755fa962c2a28116425b5c4ba33615072ba9ad",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "updated_at": 1794440843,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "0a198b2e43715d2ba28767fad4b8230aa9b951dd544bf42d068559fda23d57a7",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "pl": {
-        "model": "codex",
-        "updated_at": 1794354733,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "a6445cb767f37a3ab0699d17b66e038b2cd249f5050a0ac26b47fd7676c74b23",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "model": "reviewed-no-target-change",
+        "updated_at": 1794440852,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "b74fb21aa0d015e496f91507b25e0e9077ef67577b5668b5266c65502cca5d26",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "nl": {
         "model": "codex",
-        "updated_at": 1794354732,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "f639443b4def3dc80e09f97eeb3433218d0cea151b9ffd160969f88b9fa1171a",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "updated_at": 1794440845,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "f48d93d83295924d7c6f71452e9fa074ce705270d4e5fb04709288376bd3a21a",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       },
       "sv": {
         "model": "codex",
-        "updated_at": 1794354734,
-        "source_hash": "d775dffd154a0c7b61d7fed39433f8f8ff2a0e906c3b74a726502c6d7135a049",
-        "target_hash": "573158125e62b33d91889606521a2ae3fc0fc43b39937e389f362cba5243ea80",
-        "source_blob": "910bec5372db8ca63b63db7bc99f1a50367b4aeb"
+        "updated_at": 1794440847,
+        "source_hash": "8c9515a3264a38d5b6ed78dae7698d6df9359567e7028c6d2382590e8e2b64e6",
+        "target_hash": "235363aa4111145d4dbb7cde1ea0aaafda6149277d86121b2b71f14bacbf2408",
+        "source_blob": "a68520b85602af523f586cb3b2a3bdf3ca579a47"
       }
     }
   },
@@ -6374,6 +6374,66 @@
         "model": "codex",
         "updated_at": 1794354724,
         "source_blob": "2b4e6e12dd6136047d6b00a7016cf45902ad3a19"
+      }
+    }
+  },
+  "docs/en/docs/downloads/index.md": {
+    "targets": {
+      "de": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "6ff3432dd54e3ac982a1c00ec43c79f8d1046e400c3daa66cfdcbae8be0b6c9f",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "es": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "edb9ae6dbe6c1b0922a300aaa5c5a05f3d97ccbfb5bd5e13dacd6b4cbfb86438",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "fr": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "21390dbda16f50168481081def0b96bdc24047369d372e29fa4e729d35d98880",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "it": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "8a8ae789de64d353448f0c677bd2c3d42385f2ab399a311395098dbf626708ae",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "ja": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "22d1078bdb951755475a453c66a987a0232610028b7863b6a0f7b9766e4b34c4",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "nl": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "be491d18ed860dbaf8fe24e3e0fd1907d842ff654636efc76937127fc7d7a803",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "pl": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "0e8a5bd0e865df1f61e956154a29fc550011625cd9791f1f52e0fd004da4cb05",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
+      },
+      "sv": {
+        "source_hash": "8b4505c9e924ef18543cb3d3f6525802db9d0beb3e5d0940fce5d3ac4013a4a0",
+        "target_hash": "5447072f8977fe64bce0d30b63751239d8f1df0477f66128328f18d25d1fc34e",
+        "model": "codex",
+        "updated_at": 1794440841,
+        "source_blob": "69f30e0d6bcbf9bafb42bad2f181e34b850cd660"
       }
     }
   }
