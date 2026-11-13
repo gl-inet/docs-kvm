@@ -21,10 +21,12 @@
 
 Comet Q funziona con qualsiasi dispositivo la cui porta USB-C supporti **DisplayPort Alt Mode** per l'uscita video. Sono inclusi, a titolo di esempio:
 
-- **iPhone**: iPhone 15 e successivi (esclusi iPhone 16e, 17e e iPhone Air)
-- **iPad**: Tutti gli iPad Pro (2018 e successivi), iPad Air (4ª generazione e successive), iPad mini (6ª generazione e successive) e iPad (10ª generazione e successive)
-- **Telefoni Android (Samsung come esempio)**: Samsung Galaxy S8 e successivi, Galaxy Note 8 e successivi, serie Galaxy Z Fold/Flip e serie Galaxy Tab S
-- **Portatili e mini PC**: La maggior parte dei modelli con una porta USB-C che supporta l'uscita video, tra cui MacBook, Mac mini e la maggior parte dei portatili Windows recenti
+- **iPhone**: iPhone 15 e successivi (esclusi iPhone 16e, 17e e iPhone Air).
+- **iPad**: Tutti gli iPad Pro (2018 e successivi), iPad Air (4ª generazione e successive), iPad mini (6ª generazione e successive) e iPad (10ª generazione e successive).
+- **Telefoni Android (Samsung come esempio)**: Samsung Galaxy S8 e successivi, Galaxy Note 8 e successivi, serie Galaxy Z Fold/Flip e serie Galaxy Tab S.
+- **Portatili e mini PC**: La maggior parte dei modelli con una porta USB-C che supporta l'uscita video, tra cui MacBook, Mac mini e la maggior parte dei portatili Windows recenti.
+
+**Nota:** Se non sei sicuro che la porta USB-C del tuo telefono supporti DisplayPort Alt Mode, consulta [Come verificare se una porta USB-C supporta DP Alt Mode](../../tutorials/how_to_check_usb-c_port_dp_alt_mode.md).
 
 ## Contenuto della confezione { #package-contents }
 
