@@ -83,7 +83,8 @@ jobs:
           name: translation-delta
           path: .codex-run
       - name: Exclude temporary run files
-        run: echo '.codex-run/' >> .git/info/exclude
+        run: |
+          printf '%s\n' '/.codex-run/' '/codex-output.json' >> .git/info/exclude
       - name: Check Codex credentials
         env:
           CODEX_API_KEY: ${{ secrets.OPENAI_API_KEY }}
