@@ -1,12 +1,10 @@
-# Cosa fare se i puntatori del mouse non si allineano {#what-should-i-do-if-mouse-cursors-fail-to-align}
+# Cosa fare se il puntatore locale e quello remoto non coincidono? {#what-should-i-do-if-the-local-and-remote-cursors-dont-match}
 
-Se il puntatore del mouse sul dispositivo di controllo non si allinea a quello sul dispositivo controllato, segui i passaggi indicati di seguito.
+Se il puntatore locale (sul dispositivo di controllo) non coincide con quello remoto (sul dispositivo controllato), segui i passaggi qui sotto per risolvere il problema.
 
 ![cursor misalignment](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/mouse_cursor.png){class="glboxshadow"}
 
-1. **Verifica se il problema si presenta quando il mouse è in movimento o fermo.**
-
-    <u>Caso 1</u>. Se i puntatori si allineano correttamente quando il mouse è fermo ma perdono la sincronizzazione durante il movimento, controlla la rete su entrambi i dispositivi e assicurati che la connessione sia stabile.
+1. Se i puntatori si allineano correttamente quando il mouse è fermo ma perdono la sincronizzazione durante il movimento, controlla la rete su entrambi i dispositivi e assicurati che la connessione sia stabile.
 
     Puoi anche nascondere il puntatore locale, in modo che nella schermata di controllo compaia solo quello remoto, evitando il problema del disallineamento.
 
@@ -14,13 +12,11 @@ Se il puntatore del mouse sul dispositivo di controllo non si allinea a quello s
 
     ![hide local cursor](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>Caso 2</u>. Se i puntatori non si allineano nemmeno quando il mouse è fermo, seleziona nuovamente il tipo di dispositivo nella console del KVM; questa opzione è disponibile solo per Comet Q / GL-RMQ1.
+2. Se i puntatori non coincidono nemmeno quando il mouse è fermo e il tuo KVM è un Comet Q (GL-RMQ1), seleziona nuovamente il tipo di dispositivo nella console del KVM. Se il problema persiste, passa al punto successivo.
 
     ![device type](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
 
-    Se il problema persiste, passa al punto successivo.
-
-2. **Se il dispositivo controllato è un portatile, la causa è probabilmente una risoluzione dello schermo errata.**
+3. Se il dispositivo controllato è un portatile, la causa è probabilmente una risoluzione dello schermo errata.
 
     Verifica il rapporto d'aspetto dello schermo del portatile, quindi regola la risoluzione sul portatile controllato oppure modifica l'impostazione EDID del dispositivo KVM.
 
@@ -58,11 +54,11 @@ Se il puntatore del mouse sul dispositivo di controllo non si allinea a quello s
 
     ??? note "Modificare l'impostazione EDID del dispositivo KVM"
 
-        EDID, acronimo di Extended Display Identification Data, consente di selezionare automaticamente i parametri di visualizzazione ottimali. L'EDID predefinito è adatto alla maggior parte delle situazioni e in genere non richiede modifiche. Consulta [questa guida](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} per i dettagli.
+        EDID, acronimo di Extended Display Identification Data, consente di selezionare automaticamente i parametri di visualizzazione ottimali. L'EDID predefinito è adatto alla maggior parte delle situazioni e in genere non richiede modifiche. Consulta [Come configurare l'EDID per un KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} per i dettagli.
 
         Se hai modificato l'EDID ma lo schermo non si aggiorna, prova a riavviare il dispositivo controllato.
 
-3. **Se il dispositivo controllato non è un portatile, ad esempio un PC desktop collegato a un monitor esterno**, verifica il rapporto d'aspetto del suo schermo principale e imposta l'EDID del KVM di conseguenza. Consulta [questa guida](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} per i dettagli.
+4. Se il dispositivo controllato non è un portatile, ad esempio un PC desktop collegato a un monitor esterno, verifica il rapporto d'aspetto del suo schermo principale e imposta l'EDID del KVM di conseguenza. Consulta [Come configurare l'EDID per un KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} per i dettagli.
 
 ---
 

@@ -57,7 +57,7 @@ Wenn Ihre Frage unten nicht aufgeführt ist, wenden Sie sich bitte an unser tech
 ## Tastatur- und Mausprobleme {#keyboard-mouse-issues}
 
 * [Was kann ich tun, wenn ich Maus und Tastatur nicht steuern kann](cannot_control_mouse_and_keyboard.md)
-* [Was kann ich tun, wenn die Mauszeiger nicht übereinstimmen](mouse_cursors_fail_to_align.md)
+* [Was kann ich tun, wenn der lokale und der entfernte Mauszeiger nicht übereinstimmen?](cursor_misalignment.md)
 * [Was kann ich tun, wenn die Tastatur nicht wie erwartet ein- oder ausgibt](keyboard_does_not_input_output_as_expected.md)
 * [Was kann ich tun, wenn der relative Mausmodus auf Reolink NVR nicht funktioniert](relative_mouse_not_working_on_reolink_nvr.md)
 * [Was ist der Unterschied zwischen absolutem und relativem Mausmodus](difference_between_absolute_and_relative_mouse.md)

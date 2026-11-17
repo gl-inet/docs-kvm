@@ -1,5 +1,9 @@
 # Konsolguide för Comet Q (GL-RMQ1) {#comet-q-gl-rmq1-console-guide}
 
+**Obs!** Om du får problem när du använder Comet Q kan du läsa [vanliga frågor om Comet Q](faqs.md) för information om funktionsbegränsningar och felsökning.
+
+---
+
 ## Inställningar {#settings}
 
 Gå till **Settings** i konsolen. Inställningssidan består av fyra avsnitt:
