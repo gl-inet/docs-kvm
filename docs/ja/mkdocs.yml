@@ -268,3 +268,5 @@ nav:
       - 概要: features_update/index.md
       - ファームウェアv1.10: features_update/firmware_v1.10.md
       - ファームウェアv1.9: features_update/firmware_v1.9.md
+  - ダウンロード:
+      - 概要: downloads/index.md
