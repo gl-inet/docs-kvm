@@ -36,7 +36,7 @@ class WorkflowTests(unittest.TestCase):
         for job in self.workflow["jobs"].values():
             for step in job["steps"]:
                 if "uses" in step:
-                    self.assertIn(step["uses"], ["actions/checkout@v6", "actions/setup-python@v6",
+                    self.assertIn(step["uses"], ["actions/checkout@v7.0.1", "actions/setup-python@v7.1.0",
                                                  "actions/setup-java@v6", "actions/cache@v6"])
         self.assertEqual(self.workflow["env"]["CODESPELL_VERSION"], "2.4.1")
         self.assertEqual(self.workflow["env"]["LANGUAGETOOL_VERSION"], "6.6")
