@@ -31,12 +31,12 @@ jobs:
 
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.10.4"
 
@@ -48,7 +48,7 @@ jobs:
         run: mkdocs build --site-dir ../../site/${{ matrix.lang }}
 
       - name: Upload ${{ matrix.lang }} artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: site-${{ matrix.lang }}
           path: site/${{ matrix.lang }}
@@ -65,12 +65,12 @@ jobs:
         lang: ${{ fromJSON(needs.prepare.outputs.langs_json) }}
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.10.4"
 
@@ -88,13 +88,13 @@ jobs:
       - build
     steps:
       - name: Download built site artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8.0.2
         with:
           pattern: site-*
           path: site
 
       - name: Checkout target repo (docs-build)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
         with:
           repository: gl-inet/docs-build
           ssh-key: ${{ secrets.DEPLOY_KEY }}
