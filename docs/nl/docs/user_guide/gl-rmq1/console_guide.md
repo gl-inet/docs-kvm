@@ -1,5 +1,9 @@
 # Comet Q (GL-RMQ1) – consolehandleiding {#comet-q-gl-rmq1-console-guide}
 
+**Opmerking**: Als u problemen ondervindt bij het gebruik van Comet Q, raadpleeg dan de [veelgestelde vragen over Comet Q](faqs.md) voor informatie over functiebeperkingen en probleemoplossing.
+
+---
+
 ## Instellingen {#settings}
 
 Ga in de console naar **Settings**. De instellingenpagina bestaat uit vier onderdelen:
