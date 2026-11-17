@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     outputs:
       has_delta: ${{ steps.delta.outputs.has_delta }}
@@ -60,7 +60,7 @@ jobs:
   translate:
     needs: prepare
     if: needs.prepare.outputs.has_delta == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
     environment: OpenAI
     outputs:
@@ -136,7 +136,7 @@ jobs:
   validate:
     needs: [prepare, translate]
     if: needs.translate.outputs.has_changes == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -183,7 +183,7 @@ jobs:
   publish:
     needs: [prepare, translate, validate]
     if: always() && needs.translate.result == 'success'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
       contents: write
@@ -281,7 +281,7 @@ jobs:
     needs: [prepare, translate, validate, publish]
     if: always()
     continue-on-error: true
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     permissions:
       contents: read
