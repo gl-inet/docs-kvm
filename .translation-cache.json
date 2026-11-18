@@ -6423,16 +6423,16 @@
       },
       "pl": {
         "source_hash": "91f9d1ea2599acb0121e5ab92d56cb90a186ada2bbb6fc7c7978b2414a17ab47",
-        "target_hash": "a46c7cd375542d08b118179ba140d945d7e597476139d05d48cacddbc1293d09",
-        "model": "codex",
-        "updated_at": 1794959395,
+        "target_hash": "685b689561a4fbbd5cedd62ecafa3dab9e3bc3c67037a224af5e86e4e15039d8",
+        "model": "manual-sync",
+        "updated_at": 1794982618,
         "source_blob": "80e9723d20eecbfec89bcd7fd8bb821e6ba7412c"
       },
       "sv": {
         "source_hash": "91f9d1ea2599acb0121e5ab92d56cb90a186ada2bbb6fc7c7978b2414a17ab47",
-        "target_hash": "bde3e2ff22743f8b88adc33046c1f156729b94bc74ed13c2ca1b2d3576c1f48a",
-        "model": "codex",
-        "updated_at": 1794959395,
+        "target_hash": "2318964492f690ce09d51c6bcb482e6612d34f75bcff0ea5ea3e78f303bc010b",
+        "model": "manual-sync",
+        "updated_at": 1794982619,
         "source_blob": "80e9723d20eecbfec89bcd7fd8bb821e6ba7412c"
       }
     }

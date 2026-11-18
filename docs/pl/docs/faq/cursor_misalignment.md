@@ -54,11 +54,11 @@ Jeśli kursor lokalny (na urządzeniu sterującym) nie pokrywa się z kursorem z
 
     ??? note "Zmiana ustawienia EDID urządzenia KVM"
 
-        EDID (Extended Display Identification Data) umożliwia automatyczne dobranie optymalnych parametrów wyświetlania. Domyślne EDID jest odpowiednie w większości sytuacji i zwykle nie wymaga zmiany. Szczegóły znajdziesz [Jak ustawić EDID w urządzeniu KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+        EDID (Extended Display Identification Data) umożliwia automatyczne dobranie optymalnych parametrów wyświetlania. Domyślne EDID jest odpowiednie w większości sytuacji i zwykle nie wymaga zmiany. Szczegóły znajdziesz w poradniku [Jak ustawić EDID w urządzeniu KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
         Jeśli po zmianie EDID obraz się nie aktualizuje, spróbuj ponownie uruchomić urządzenie docelowe.
 
-4. Jeśli urządzenie docelowe nie jest laptopem (np. komputer stacjonarny z monitorem zewnętrznym), sprawdź proporcje jego głównego ekranu, a następnie odpowiednio zmień EDID KVM. Szczegóły znajdziesz [Jak ustawić EDID w urządzeniu KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+4. Jeśli urządzenie docelowe nie jest laptopem (np. komputer stacjonarny z monitorem zewnętrznym), sprawdź proporcje jego głównego ekranu, a następnie odpowiednio zmień EDID KVM. Szczegóły znajdziesz w poradniku [Jak ustawić EDID w urządzeniu KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
 ---
 

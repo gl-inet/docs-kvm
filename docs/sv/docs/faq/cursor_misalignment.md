@@ -54,11 +54,11 @@ Om den lokala muspekaren (på den styrande enheten) inte sammanfaller med fjärr
 
     ??? note "Ändra KVM-enhetens EDID-inställning"
 
-        EDID, förkortning för Extended Display Identification Data, matchar automatiskt de optimala visningsparametrarna. Standard-EDID passar de flesta scenarier och behöver i regel inte ändras. Mer information finns [Så ställer du in EDID för GL.iNet KVM](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+        EDID, förkortning för Extended Display Identification Data, matchar automatiskt de optimala visningsparametrarna. Standard-EDID passar de flesta scenarier och behöver i regel inte ändras. Mer information finns i guiden [Så ställer du in EDID för GL.iNet KVM](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
         Om EDID har ändrats men skärmen inte uppdateras kan du prova att starta om den styrda enheten.
 
-4. Om den styrda enheten inte är en bärbar dator (t.ex. en stationär dator ansluten till en extern skärm) tar du reda på bildförhållandet för den primära skärmen och byter sedan EDID för din KVM i enlighet med det. Mer information finns [Så ställer du in EDID för GL.iNet KVM](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+4. Om den styrda enheten inte är en bärbar dator (t.ex. en stationär dator ansluten till en extern skärm) tar du reda på bildförhållandet för den primära skärmen och byter sedan EDID för din KVM i enlighet med det. Mer information finns i guiden [Så ställer du in EDID för GL.iNet KVM](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
 ---
 
