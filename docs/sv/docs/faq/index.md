@@ -57,7 +57,7 @@ Om din fråga inte finns med nedan kan du kontakta vårt tekniska supportteam f�
 ## Problem med tangentbord och mus {#keyboard-mouse-issues}
 
 * [Vad gör jag om jag inte kan styra musen och tangentbordet?](cannot_control_mouse_and_keyboard.md)
-* [Vad gör jag om muspekarna inte är i linje med varandra?](mouse_cursors_fail_to_align.md)
+* [Vad gör jag om den lokala muspekaren och fjärrpekaren inte sammanfaller?](cursor_misalignment.md)
 * [Vad gör jag om tangentbordet inte matar in eller ut tecken som förväntat?](keyboard_does_not_input_output_as_expected.md)
 * [Vad gör jag om relativt musläge inte fungerar på Reolink NVR?](relative_mouse_not_working_on_reolink_nvr.md)
 * [Vad är skillnaden mellan absolut och relativt musläge?](difference_between_absolute_and_relative_mouse.md)

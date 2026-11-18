@@ -33,7 +33,8 @@ plugins:
         "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
         "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
         "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
-        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/cursor_misalignment.md"
+        "faq/mouse_cursors_fail_to_align.md": "faq/cursor_misalignment.md"
         "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
         "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
         "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
@@ -216,7 +217,7 @@ nav:
           - Extern scherm toont de BIOS-interface niet: faq/remote_screen_does_not_show_bios_interface.md
       - Problemen met toetsenbord en muis:
           - Muis en toetsenbord reageren niet: faq/cannot_control_mouse_and_keyboard.md
-          - Muisaanwijzers vallen niet samen: faq/mouse_cursors_fail_to_align.md
+          - Verschoven muisaanwijzers: faq/cursor_misalignment.md
           - Toetsenbord werkt niet zoals verwacht: faq/keyboard_does_not_input_output_as_expected.md
           - Relatieve muismodus werkt niet op Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Verschil tussen absolute en relatieve muismodus: faq/difference_between_absolute_and_relative_mouse.md

@@ -57,7 +57,7 @@ Staat uw vraag hieronder niet vermeld? Neem dan contact op met ons technische su
 ## Problemen met toetsenbord en muis {#keyboard-mouse-issues}
 
 * [Wat moet ik doen als ik de muis en het toetsenbord niet kan bedienen?](cannot_control_mouse_and_keyboard.md)
-* [Wat moet ik doen als de muisaanwijzers niet samenvallen?](mouse_cursors_fail_to_align.md)
+* [Wat moet ik doen als de lokale en externe muisaanwijzer niet samenvallen?](cursor_misalignment.md)
 * [Wat moet ik doen als het toetsenbord niet de verwachte invoer of uitvoer geeft?](keyboard_does_not_input_output_as_expected.md)
 * [Wat moet ik doen als de relatieve muismodus niet werkt op een Reolink NVR?](relative_mouse_not_working_on_reolink_nvr.md)
 * [Wat is het verschil tussen de absolute en de relatieve muismodus?](difference_between_absolute_and_relative_mouse.md)
