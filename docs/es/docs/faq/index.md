@@ -57,7 +57,7 @@ Si su pregunta no aparece a continuación, póngase en contacto con nuestro equi
 ## Problemas de teclado y ratón {#keyboard-mouse-issues}
 
 * [Qué hacer si no puede controlar el ratón y el teclado](cannot_control_mouse_and_keyboard.md)
-* [Qué hacer si los cursores del ratón no coinciden](mouse_cursors_fail_to_align.md)
+* [¿Qué hacer si el cursor local y el remoto no coinciden?](cursor_misalignment.md)
 * [Qué hacer si el teclado no introduce o muestra los caracteres esperados](keyboard_does_not_input_output_as_expected.md)
 * [Qué hacer si el modo de ratón relativo no funciona en un NVR Reolink](relative_mouse_not_working_on_reolink_nvr.md)
 * [Diferencias entre el ratón absoluto y el ratón relativo](difference_between_absolute_and_relative_mouse.md)

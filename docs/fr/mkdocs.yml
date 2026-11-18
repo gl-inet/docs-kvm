@@ -33,7 +33,8 @@ plugins:
         "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
         "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
         "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
-        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/cursor_misalignment.md"
+        "faq/mouse_cursors_fail_to_align.md": "faq/cursor_misalignment.md"
         "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
         "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
         "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
@@ -216,7 +217,7 @@ nav:
           - Le BIOS ne s’affiche pas sur l’écran distant: faq/remote_screen_does_not_show_bios_interface.md
       - Problèmes de clavier et de souris:
           - Impossible de contrôler la souris et le clavier: faq/cannot_control_mouse_and_keyboard.md
-          - Les pointeurs de souris ne sont pas alignés: faq/mouse_cursors_fail_to_align.md
+          - Pointeurs décalés: faq/cursor_misalignment.md
           - Saisie ou sortie du clavier incorrecte: faq/keyboard_does_not_input_output_as_expected.md
           - La souris relative ne fonctionne pas sur un NVR Reolink: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Différence entre souris absolue et relative: faq/difference_between_absolute_and_relative_mouse.md

@@ -1,5 +1,9 @@
 # Guide de la console du Comet Q (GL-RMQ1) {#comet-q-gl-rmq1-console-guide}
 
+**Remarque :** Si vous rencontrez des problèmes avec le Comet Q, consultez les [questions fréquentes sur le Comet Q](faqs.md) pour connaître les limites des fonctionnalités et les étapes de dépannage.
+
+---
+
 ## Paramètres {#settings}
 
 Dans la console, accédez à **Settings**. La page des paramètres comprend quatre sections :
