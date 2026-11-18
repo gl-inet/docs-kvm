@@ -237,8 +237,6 @@ jobs:
             cat "$RUNNER_TEMP/translation/codex-output.json"
             echo
             echo '```'
-            echo
-            echo 'Assisted-by: Cindy (https://cindy.app)'
           } > "$RUNNER_TEMP/translation-pr.md"
           gh pr create --base master --head "$branch" --title 'Automated translation sync' \
             --body-file "$RUNNER_TEMP/translation-pr.md"

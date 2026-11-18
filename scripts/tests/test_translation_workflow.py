@@ -29,6 +29,22 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertIn('core.hooksPath=/dev/null', commands)
         self.assertNotIn('gh pr merge', commands)
 
+    def test_pr_description_omits_attribution_and_keeps_commit_trailer(self):
+        workflow = yaml.load(
+            (ROOT / '.github/workflows/translation.yml').read_text(encoding='utf-8'),
+            Loader=yaml.BaseLoader,
+        )
+        publish = next(
+            step['run'] for step in workflow['jobs']['publish']['steps']
+            if step.get('name') == 'Create translation PR'
+        )
+        commit, pr_body = publish.split('git push --set-upstream origin "$branch"', 1)
+        self.assertIn("-m 'Assisted-by: Cindy (https://cindy.app)'", commit)
+        self.assertNotIn('Assisted-by:', pr_body)
+        self.assertIn("echo '## Automated translation report'", pr_body)
+        self.assertIn('cat "$RUNNER_TEMP/translation/codex-output.json"', pr_body)
+        self.assertIn('--body-file "$RUNNER_TEMP/translation-pr.md"', pr_body)
+
     def test_prompt_uses_per_language_cache(self):
         prompt = (ROOT / '.github/codex/prompts/translation.md').read_text(encoding='utf-8')
         self.assertIn('objects with path and langs', prompt)
