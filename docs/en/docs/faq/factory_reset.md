@@ -14,11 +14,11 @@ Do not hold the reset button while powering on the KVM. Do not use the reset but
 
 Connect your computer and the KVM to the same local network. Open the KVM's local IP address in a browser and sign in. See [How to access the KVM locally via a web browser](local_access_via_browser.md).
 
-In the KVM console, go to **Settings** in the upper right corner -> **System** -> **Reset Device**. Click **Reset** and confirm, then wait for the KVM to restart automatically. Do not disconnect power during the reset.
+If your KVM is running firmware v1.10 or later, open **Settings** in the upper right corner and go to **System** -> **Reset Device**. Click **Reset** and confirm, then wait for the KVM to restart automatically. Do not disconnect power during the reset.
 
 ![reset 1](https://static.gl-inet.com/docs/kvm/faq/factory_reset/reset1.png){class="glboxshadow"}
 
-If your KVM is running firmware v1.9 or earlier, go to **Settings** in the upper left corner -> **System** -> **Reset KVM**. Click **Reset** and confirm, then wait for the KVM to restart automatically. Do not disconnect power during the reset.
+If your KVM is running firmware v1.9 or earlier, open **Settings** in the upper left corner and go to **System** -> **Reset KVM**. Click **Reset** and confirm, then wait for the KVM to restart automatically. Do not disconnect power during the reset.
 
 ![reset 2](https://static.gl-inet.com/docs/kvm/faq/factory_reset/reset2.png){class="glboxshadow"}
 
