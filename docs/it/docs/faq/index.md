@@ -15,6 +15,7 @@ Se la tua domanda non è presente nell'elenco, contatta il nostro team di assist
 * [Domande frequenti sul KVM GL.iNet](quick_faqs_about_glinet_kvm.md)
 * [Aggiornamento del firmware](firmware_upgrade.md)
 * [Scaricare l'app GLKVM](glkvm_app.md)
+* [Come ripristinare le impostazioni di fabbrica del KVM GL.iNet?](factory_reset.md)
 * [Logica di rilevamento della rete WAN e failover di Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Accesso locale e remoto {#local-remote-access}

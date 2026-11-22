@@ -186,6 +186,7 @@ nav:
           - GL.iNet KVM クイック FAQ: faq/quick_faqs_about_glinet_kvm.md
           - ファームウェアのアップグレード: faq/firmware_upgrade.md
           - GLKVM アプリをダウンロード: faq/glkvm_app.md
+          - 工場出荷時の設定に戻す: faq/factory_reset.md
           - Comet 5G の WAN ネットワーク検出とフェイルオーバーロジック: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - ローカルおよびリモートアクセス:
           - ブラウザ経由のローカルアクセス: faq/local_access_via_browser.md
