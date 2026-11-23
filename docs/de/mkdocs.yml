@@ -192,6 +192,7 @@ nav:
           - Kurze FAQs zu GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Firmware-Upgrade: faq/firmware_upgrade.md
           - GLKVM-App herunterladen: faq/glkvm_app.md
+          - Auf Werkseinstellungen zurücksetzen: faq/factory_reset.md
           - WAN-Netzwerkerkennung und Failover-Logik von Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Lokaler Zugriff und Fernzugriff:
           - Lokaler Zugriff über den Browser: faq/local_access_via_browser.md

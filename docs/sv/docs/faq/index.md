@@ -15,6 +15,7 @@ Om din fr책ga inte finns med nedan kan du kontakta v책rt tekniska supportteam f�
 * [Snabba svar om GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Firmwareuppgradering](firmware_upgrade.md)
 * [Ladda ned GLKVM-appen](glkvm_app.md)
+* [S책 fabriks책terst채ller du din GL.iNet KVM-enhet](factory_reset.md)
 * [Hur fungerar identifiering av WAN-n채tverk och redundans (failover) i Comet 5G?](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Lokal 책tkomst och fj채rr책tkomst {#local-remote-access}

@@ -15,6 +15,7 @@
 * [GL.iNet KVM](quick_faqs_about_glinet_kvm.md) に関する簡単な FAQ
 * [ファームウェアアップグレード](firmware_upgrade.md)
 * [GLKVM アプリをダウンロード](glkvm_app.md)
+* [GL.iNet KVM を工場出荷時の設定に戻す方法](factory_reset.md)
 * [WAN Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md) のネットワーク検出およびフェイルオーバー ロジックとは何ですか
 
 ## ローカルおよびリモート アクセス {#local-remote-access}

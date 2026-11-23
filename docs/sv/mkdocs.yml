@@ -187,6 +187,7 @@ nav:
           - Snabba svar om GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Firmwareuppgradering: faq/firmware_upgrade.md
           - Ladda ned GLKVM-appen: faq/glkvm_app.md
+          - Fabriksåterställning: faq/factory_reset.md
           - WAN-nätverksidentifiering och failoverlogik i Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Lokal åtkomst och fjärråtkomst:
           - Lokal åtkomst via webbläsare: faq/local_access_via_browser.md

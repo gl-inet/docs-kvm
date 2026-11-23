@@ -187,6 +187,7 @@ nav:
           - Podstawowe pytania o GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Aktualizacja firmware: faq/firmware_upgrade.md
           - Pobieranie aplikacji GLKVM: faq/glkvm_app.md
+          - Przywracanie ustawień fabrycznych: faq/factory_reset.md
           - Wykrywanie sieci WAN i przełączanie awaryjne w Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Dostęp lokalny i zdalny:
           - Dostęp lokalny przez przeglądarkę: faq/local_access_via_browser.md

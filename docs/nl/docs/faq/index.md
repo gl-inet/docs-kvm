@@ -15,6 +15,7 @@ Staat uw vraag hieronder niet vermeld? Neem dan contact op met ons technische su
 * [Korte veelgestelde vragen over GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Firmware-upgrade](firmware_upgrade.md)
 * [GLKVM-app downloaden](glkvm_app.md)
+* [De fabrieksinstellingen van uw GL.iNet KVM herstellen](factory_reset.md)
 * [Wat is de logica voor WAN-netwerkdetectie en failover van de Comet 5G?](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Lokale en externe toegang {#local-remote-access}
