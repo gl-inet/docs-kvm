@@ -33,7 +33,8 @@ plugins:
         "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
         "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
         "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
-        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/cursor_misalignment.md"
+        "faq/mouse_cursors_fail_to_align.md": "faq/cursor_misalignment.md"
         "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
         "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
         "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
@@ -186,6 +187,7 @@ nav:
           - Snabba svar om GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Firmwareuppgradering: faq/firmware_upgrade.md
           - Ladda ned GLKVM-appen: faq/glkvm_app.md
+          - Fabriksåterställning: faq/factory_reset.md
           - WAN-nätverksidentifiering och failoverlogik i Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Lokal åtkomst och fjärråtkomst:
           - Lokal åtkomst via webbläsare: faq/local_access_via_browser.md
@@ -216,7 +218,7 @@ nav:
           - Fjärrskärmen visar inte BIOS-gränssnittet: faq/remote_screen_does_not_show_bios_interface.md
       - Problem med tangentbord och mus:
           - Det går inte att styra mus och tangentbord: faq/cannot_control_mouse_and_keyboard.md
-          - Muspekarna sammanfaller inte: faq/mouse_cursors_fail_to_align.md
+          - Förskjutna muspekare: faq/cursor_misalignment.md
           - Tangentbordet fungerar inte som förväntat: faq/keyboard_does_not_input_output_as_expected.md
           - Relativt musläge fungerar inte på Reolink NVR: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Skillnaden mellan absolut och relativt musläge: faq/difference_between_absolute_and_relative_mouse.md

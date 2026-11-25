@@ -1,12 +1,10 @@
-# Qué hacer si los cursores del ratón no coinciden {#what-should-i-do-if-mouse-cursors-fail-to-align}
+# ¿Qué hacer si el cursor local y el remoto no coinciden? {#what-should-i-do-if-the-local-and-remote-cursors-dont-match}
 
-Si el cursor del dispositivo de control no coincide con el del dispositivo controlado, siga estos pasos.
+Si el cursor local (en el dispositivo de control) no coincide con el cursor remoto (en el dispositivo controlado), siga estos pasos para resolver el problema.
 
 ![Cursores desalineados](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/mouse_cursor.png){class="glboxshadow"}
 
-1. **Determine si el problema se produce cuando el ratón se mueve o cuando está quieto.**
-
-    <u>Caso 1</u>. Si los cursores coinciden cuando el ratón está quieto, pero se desincronizan al moverlo, compruebe la red en ambos extremos y asegúrese de que la conexión sea estable.
+1. Si los cursores coinciden cuando el ratón está quieto, pero se desincronizan al moverlo, compruebe la red en ambos extremos y asegúrese de que la conexión sea estable.
 
     También puede ocultar el cursor local para que en la pantalla de control solo aparezca el remoto y evitar la desalineación visual.
 
@@ -14,13 +12,11 @@ Si el cursor del dispositivo de control no coincide con el del dispositivo contr
 
     ![Ocultar el cursor local](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>Caso 2</u>. Si los cursores tampoco coinciden cuando el ratón está quieto, vuelva a seleccionar el tipo de dispositivo en la consola KVM; esta opción solo se aplica a Comet Q / GL-RMQ1.
+2. Si los cursores tampoco coinciden cuando el ratón está quieto y su KVM es un Comet Q (GL-RMQ1), vuelva a seleccionar el tipo de dispositivo en la consola KVM. Si el problema persiste, continúe con el siguiente paso.
 
     ![Tipo de dispositivo](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
 
-    Si el problema persiste, continúe con el siguiente paso.
-
-2. **Si el dispositivo controlado es un portátil, probablemente la resolución de pantalla sea incorrecta.**
+3. Si el dispositivo controlado es un portátil, probablemente la resolución de pantalla sea incorrecta.
 
     Compruebe la relación de aspecto de su pantalla. Después ajuste la resolución del portátil controlado o modifique los ajustes EDID del KVM.
 
@@ -58,11 +54,11 @@ Si el cursor del dispositivo de control no coincide con el del dispositivo contr
 
     ??? note "Modificar los ajustes EDID del KVM"
 
-        EDID significa Extended Display Identification Data y permite seleccionar automáticamente los parámetros de visualización óptimos. El EDID predeterminado es adecuado para la mayoría de los casos y normalmente no necesita modificarse. Consulte los detalles [aquí](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+        EDID significa Extended Display Identification Data y permite seleccionar automáticamente los parámetros de visualización óptimos. El EDID predeterminado es adecuado para la mayoría de los casos y normalmente no necesita modificarse. Consulte [Cómo configurar el EDID para GL.iNet KVM](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
         Si modifica el EDID y la pantalla no se actualiza, pruebe a reiniciar el dispositivo controlado.
 
-3. **Si el dispositivo controlado no es un portátil, por ejemplo un equipo de escritorio con monitor externo**, compruebe la relación de aspecto de su pantalla principal y cambie el EDID del KVM según corresponda. Consulte los detalles [aquí](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+4. Si el dispositivo controlado no es un portátil, por ejemplo un equipo de escritorio con monitor externo, compruebe la relación de aspecto de su pantalla principal y cambie el EDID del KVM según corresponda. Consulte [Cómo configurar el EDID para GL.iNet KVM](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
 ---
 

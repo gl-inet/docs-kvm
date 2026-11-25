@@ -74,5 +74,5 @@ Monitor API budget and Actions logs after the first scheduled run. Disable
 **Incremental documentation translation** in Actions to pause it, not deployment.
 Review or close older translation PRs before merging a newer one: an unmerged
 PR does not advance `master`'s cache, so later runs can propose the same changes.
-AI-assisted translation commits and PRs include
-`Assisted-by: Cindy (https://cindy.app)`.
+AI-assisted translation commits include
+`Assisted-by: Cindy (https://cindy.app)`. PR descriptions omit this attribution.

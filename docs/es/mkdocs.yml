@@ -33,7 +33,8 @@ plugins:
         "faq/cannot_hear_the_audio_from_the_controlled_device.md": "faq/no_audio_from_the_controlled_device.md"
         "faq/can_only_see_desktop_wallpaper_when_using_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
         "faq/only_desktop_wallpaper_displayed_in_glkvm.md": "faq/remote_screen_only_displays_desktop_wallpaper.md"
-        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/mouse_cursors_fail_to_align.md"
+        "faq/mouse_cursors_fail_to_overlap_when_using_glkvm.md": "faq/cursor_misalignment.md"
+        "faq/mouse_cursors_fail_to_align.md": "faq/cursor_misalignment.md"
         "user_guide/gl-rm1/control_panel_guide.md": "user_guide/gl-rm1/console_guide.md"
         "user_guide/gl-rm1pe/control_panel_guide.md": "user_guide/gl-rm1pe/console_guide.md"
         "user_guide/gl-rm10/control_panel_guide.md": "user_guide/gl-rm10/console_guide.md"
@@ -185,6 +186,7 @@ nav:
           - Preguntas frecuentes básicas sobre GL.iNet KVM: faq/quick_faqs_about_glinet_kvm.md
           - Actualización del firmware: faq/firmware_upgrade.md
           - Descargar la aplicación GLKVM: faq/glkvm_app.md
+          - Restablecimiento de fábrica: faq/factory_reset.md
           - Detección de red WAN y conmutación por error de Comet 5G: faq/wan_network_detection_and_failover_logic_of_comet5g.md
       - Acceso local y remoto:
           - Acceso local mediante el navegador: faq/local_access_via_browser.md
@@ -215,7 +217,7 @@ nav:
           - La pantalla remota no muestra la interfaz del BIOS: faq/remote_screen_does_not_show_bios_interface.md
       - Problemas de teclado y ratón:
           - No se pueden controlar el ratón y el teclado: faq/cannot_control_mouse_and_keyboard.md
-          - Los cursores del ratón no se alinean: faq/mouse_cursors_fail_to_align.md
+          - Cursores desalineados: faq/cursor_misalignment.md
           - El teclado no funciona como se espera: faq/keyboard_does_not_input_output_as_expected.md
           - El modo de ratón relativo no funciona en un NVR Reolink: faq/relative_mouse_not_working_on_reolink_nvr.md
           - Diferencias entre los modos de ratón absoluto y relativo: faq/difference_between_absolute_and_relative_mouse.md

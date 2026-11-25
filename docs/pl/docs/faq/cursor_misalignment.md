@@ -1,12 +1,10 @@
-# Co zrobić, jeśli kursory myszy się nie pokrywają {#what-should-i-do-if-mouse-cursors-fail-to-align}
+# Co zrobić, jeśli kursor lokalny i zdalny się nie pokrywają? {#what-should-i-do-if-the-local-and-remote-cursors-dont-match}
 
-Jeśli kursor myszy urządzenia sterującego nie pokrywa się z kursorem urządzenia docelowego, wykonaj poniższe czynności.
+Jeśli kursor lokalny (na urządzeniu sterującym) nie pokrywa się z kursorem zdalnym (na urządzeniu sterowanym), wykonaj poniższe czynności, aby rozwiązać problem.
 
 ![Rozbieżne kursory myszy](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/mouse_cursor.png){class="glboxshadow"}
 
-1. **Sprawdź, czy problem występuje podczas ruchu myszy, czy także w spoczynku.**
-
-    <u>Przypadek 1</u>. Jeśli kursory pokrywają się w spoczynku, ale tracą synchronizację podczas ruchu, sprawdź sieć po obu stronach i zapewnij stabilne połączenie.
+1. Jeśli kursory pokrywają się w spoczynku, ale tracą synchronizację podczas ruchu, sprawdź sieć po obu stronach i zapewnij stabilne połączenie.
 
     Możesz też ukryć kursor lokalny, tak aby na ekranie sterowania widoczny był tylko kursor zdalny. Pozwoli to uniknąć problemu rozbieżnych kursorów.
 
@@ -14,13 +12,11 @@ Jeśli kursor myszy urządzenia sterującego nie pokrywa się z kursorem urządz
 
     ![Ukrywanie kursora lokalnego](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>Przypadek 2</u>. Jeśli kursory nie pokrywają się nawet w spoczynku, ponownie wybierz typ urządzenia w konsoli KVM (tylko dla Comet Q / GL-RMQ1).
+2. Jeśli kursory nie pokrywają się nawet wtedy, gdy mysz jest nieruchoma, a Twoje urządzenie KVM to Comet Q (GL-RMQ1), ponownie wybierz typ urządzenia w konsoli KVM. Jeśli problem nadal występuje, przejdź do następnego kroku.
 
     ![Typ urządzenia](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
 
-    Jeśli problem nadal występuje, przejdź do następnego kroku.
-
-2. **Jeśli urządzeniem docelowym jest laptop, przyczyną jest prawdopodobnie nieprawidłowa rozdzielczość ekranu.**
+3. Jeśli urządzeniem docelowym jest laptop, przyczyną jest prawdopodobnie nieprawidłowa rozdzielczość ekranu.
 
     Sprawdź proporcje ekranu laptopa, a następnie zmień rozdzielczość na laptopie docelowym lub ustawienie EDID urządzenia KVM.
 
@@ -58,11 +54,11 @@ Jeśli kursor myszy urządzenia sterującego nie pokrywa się z kursorem urządz
 
     ??? note "Zmiana ustawienia EDID urządzenia KVM"
 
-        EDID (Extended Display Identification Data) umożliwia automatyczne dobranie optymalnych parametrów wyświetlania. Domyślne EDID jest odpowiednie w większości sytuacji i zwykle nie wymaga zmiany. Szczegóły znajdziesz [tutaj](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+        EDID (Extended Display Identification Data) umożliwia automatyczne dobranie optymalnych parametrów wyświetlania. Domyślne EDID jest odpowiednie w większości sytuacji i zwykle nie wymaga zmiany. Szczegóły znajdziesz w poradniku [Jak ustawić EDID w urządzeniu KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
         Jeśli po zmianie EDID obraz się nie aktualizuje, spróbuj ponownie uruchomić urządzenie docelowe.
 
-3. **Jeśli urządzenie docelowe nie jest laptopem (np. komputer stacjonarny z monitorem zewnętrznym)**, sprawdź proporcje jego głównego ekranu, a następnie odpowiednio zmień EDID KVM. Szczegóły znajdziesz [tutaj](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
+4. Jeśli urządzenie docelowe nie jest laptopem (np. komputer stacjonarny z monitorem zewnętrznym), sprawdź proporcje jego głównego ekranu, a następnie odpowiednio zmień EDID KVM. Szczegóły znajdziesz w poradniku [Jak ustawić EDID w urządzeniu KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"}.
 
 ---
 
