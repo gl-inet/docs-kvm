@@ -51,7 +51,7 @@ Sie können unter Session Settings Videoeinstellungen wie Anzeigemodus, Videoqua
 
 ### Audio {#audio}
 
-Sie können die Audio- und Kameraeinstellungen für das gesteuerte Gerät anpassen.
+Sie können die Audioeinstellungen für das gesteuerte Gerät anpassen.
 
 ![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 
