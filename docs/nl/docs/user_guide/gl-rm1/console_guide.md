@@ -50,7 +50,8 @@ In Session kunt u de video-instellingen aanpassen, zoals de weergavemodus, de vi
 - **View**: deze instelling bepaalt hoe het beeld wordt geschaald wanneer u het browservenster van grootte verandert. Beschikbare opties: Adaptive, Best Picture Quality, Original Pixel. Deze functie is geïntroduceerd in firmware v1.8.0.
 
 ### Audio {#audio}
-U kunt de audio- en camera-instellingen voor het bestuurde apparaat aanpassen.
+
+U kunt de audio-instellingen voor het bestuurde apparaat aanpassen.
 
 ![Audio](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 

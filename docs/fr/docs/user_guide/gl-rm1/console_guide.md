@@ -50,7 +50,8 @@ Dans **Session**, vous pouvez personnaliser les paramètres vidéo : mode d’af
 - **View** : ce paramètre détermine la mise à l’échelle de l’écran lorsque vous redimensionnez la fenêtre du navigateur. Options disponibles : Adaptive, Best Picture Quality et Original Pixel. Cette fonction a été introduite dans le micrologiciel v1.8.0.
 
 ### Audio {#audio}
-Vous pouvez régler les paramètres audio et de caméra de l’appareil contrôlé.
+
+Vous pouvez régler les paramètres audio de l’appareil contrôlé.
 
 ![Audio](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 

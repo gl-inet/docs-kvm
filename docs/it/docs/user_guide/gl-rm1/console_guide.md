@@ -50,7 +50,8 @@ In Session è possibile personalizzare le impostazioni video, tra cui modalità 
 - **View**: Determina il ridimensionamento dello schermo quando si modifica la dimensione della finestra del browser. Le opzioni disponibili sono Adaptive, Best Picture Quality e Original Pixel. Questa funzione è stata introdotta nel firmware v1.8.0.
 
 ### Audio {#audio}
-È possibile modificare le impostazioni audio e della videocamera per il dispositivo controllato.
+
+È possibile modificare le impostazioni audio per il dispositivo controllato.
 
 ![audio](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 

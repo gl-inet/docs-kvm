@@ -50,7 +50,8 @@ Under Session kan du anpassa videoinställningar som visningsläge, videokvalite
 - **View**: inställningen avgör hur bilden skalas när du ändrar storlek på webbläsarfönstret. Tillgängliga alternativ: Adaptive, Best Picture Quality, Original Pixel. Funktionen introducerades i firmware v1.8.0.
 
 ### Ljud {#audio}
-Du kan justera inställningarna för ljud och kamera för den styrda enheten.
+
+Du kan justera inställningarna för ljud för den styrda enheten.
 
 ![Ljud](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 
