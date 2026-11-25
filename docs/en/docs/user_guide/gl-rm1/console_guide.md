@@ -50,7 +50,8 @@ You can customize video settings on the Session, such as display mode, video qua
 - **View**: This setting determines screen scaling when resizing the browser window. Available options: Adaptive, Best Picture Quality, Original Pixel. This feature was introduced in firmware v1.8.0.
 
 ### Audio {#audio}
-You can adjust the Audio and Camera settings for the controlled device.
+
+You can adjust the audio settings for the controlled device.
 
 ![audio](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 

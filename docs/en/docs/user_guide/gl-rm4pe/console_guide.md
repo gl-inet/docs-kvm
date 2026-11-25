@@ -51,7 +51,7 @@ You can customize video settings on the Session settings, such as display mode, 
 
 ### Audio & Camera {#audio-camera}
 
-You can adjust the Audio and Camera settings for the controlled device.
+You can adjust the audio and camera settings for the controlled device.
 
 ![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm4pe/console/session_audio_camera.png){class="glboxshadow"}
 

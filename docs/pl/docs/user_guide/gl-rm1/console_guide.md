@@ -50,7 +50,8 @@ W sekcji Session możesz dostosować ustawienia wideo, takie jak tryb wyświetla
 - **View**: określa sposób skalowania obrazu przy zmianie rozmiaru okna przeglądarki. Dostępne opcje: Adaptive, Best Picture Quality, Original Pixel. Tę funkcję wprowadzono w oprogramowaniu układowym v1.8.0.
 
 ### Dźwięk {#audio}
-Możesz dostosować ustawienia dźwięku i kamery sterowanego urządzenia.
+
+Możesz dostosować ustawienia dźwięku sterowanego urządzenia.
 
 ![Ustawienia dźwięku](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 

@@ -51,7 +51,7 @@ Session Settings では、表示モード、画質、ビデオ転送方式、画
 
 ### オーディオ {#audio}
 
-被制御デバイスのオーディオとカメラの設定を調整できます。
+被制御デバイスのオーディオの設定を調整できます。
 
 ![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/console/session-audio.png){class="glboxshadow"}
 
