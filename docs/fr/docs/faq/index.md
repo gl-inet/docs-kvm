@@ -15,6 +15,7 @@ Si votre question ne figure pas ci-dessous, contactez notre assistance technique
 * [Questions fréquentes sur les KVM GL.iNet](quick_faqs_about_glinet_kvm.md)
 * [Mise à jour du micrologiciel](firmware_upgrade.md)
 * [Télécharger l’application GLKVM](glkvm_app.md)
+* [Comment rétablir les paramètres d’usine de votre KVM GL.iNet ?](factory_reset.md)
 * [Détection des réseaux WAN et basculement du Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Accès local et à distance {#local-remote-access}
@@ -57,7 +58,7 @@ Si votre question ne figure pas ci-dessous, contactez notre assistance technique
 ## Problèmes de clavier et de souris {#keyboard-mouse-issues}
 
 * [Impossible de contrôler la souris et le clavier](cannot_control_mouse_and_keyboard.md)
-* [Les pointeurs de souris ne sont pas alignés](mouse_cursors_fail_to_align.md)
+* [Que faire si le pointeur local et le pointeur distant ne se superposent pas ?](cursor_misalignment.md)
 * [Saisie ou sortie du clavier incorrecte](keyboard_does_not_input_output_as_expected.md)
 * [La souris relative ne fonctionne pas sur un NVR Reolink](relative_mouse_not_working_on_reolink_nvr.md)
 * [Différence entre souris absolue et relative](difference_between_absolute_and_relative_mouse.md)

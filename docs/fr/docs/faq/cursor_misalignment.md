@@ -1,12 +1,10 @@
-# Que faire si les pointeurs de souris ne sont pas alignés ? {#what-should-i-do-if-mouse-cursors-fail-to-align}
+# Que faire si le pointeur local et le pointeur distant ne se superposent pas ? {#what-should-i-do-if-the-local-and-remote-cursors-dont-match}
 
-Si le pointeur de l’appareil de contrôle ne s’aligne pas avec celui de l’appareil contrôlé, suivez les étapes de dépannage ci-dessous.
+Si le pointeur local (sur l’appareil de contrôle) et le pointeur distant (sur l’appareil contrôlé) ne se superposent pas, suivez les étapes de dépannage ci-dessous.
 
 ![Désalignement des curseurs](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/mouse_cursor.png){class="glboxshadow"}
 
-1. **Vérifiez si le problème apparaît lorsque la souris bouge ou reste immobile.**
-
-    <u>Cas 1</u>. Si les pointeurs sont alignés à l’arrêt, mais se désynchronisent pendant les mouvements, vérifiez la stabilité du réseau aux deux extrémités.
+1. Si les pointeurs sont alignés à l’arrêt, mais se désynchronisent pendant les mouvements, vérifiez la stabilité du réseau aux deux extrémités.
 
     Vous pouvez également masquer le pointeur local pour afficher uniquement le pointeur distant sur l’écran de contrôle et éviter les problèmes d’alignement.
 
@@ -14,13 +12,11 @@ Si le pointeur de l’appareil de contrôle ne s’aligne pas avec celui de l’
 
     ![Masquage du curseur local](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/hide_local_cursor.jpg){class="glboxshadow"}
 
-    <u>Cas 2</u>. Si les pointeurs ne s’alignent pas même à l’arrêt, sélectionnez de nouveau le type d’appareil dans la console du KVM (Comet Q / GL-RMQ1 uniquement).
+2. Si les pointeurs ne se superposent pas même lorsque la souris est immobile et que votre KVM est un Comet Q (GL-RMQ1), sélectionnez de nouveau le type d’appareil dans la console du KVM. Si le problème persiste, passez à l’étape suivante.
 
     ![Type d’appareil](https://static.gl-inet.com/docs/kvm/faq/cursor_misalignment/device_type.png){class="glboxshadow"}
 
-    Si le problème persiste, passez à l’étape suivante.
-
-2. **Si l’appareil contrôlé est un ordinateur portable, une résolution d’affichage incorrecte est probablement en cause.**
+3. Si l’appareil contrôlé est un ordinateur portable, une résolution d’affichage incorrecte est probablement en cause.
 
     Vérifiez le format de l’écran du portable. Vous pouvez modifier sa résolution ou le réglage EDID du KVM.
 
@@ -58,11 +54,11 @@ Si le pointeur de l’appareil de contrôle ne s’aligne pas avec celui de l’
 
     ??? note "Modifier le réglage EDID du KVM"
 
-        L’EDID (Extended Display Identification Data) permet d’adapter automatiquement les paramètres d’affichage. L’EDID par défaut convient à la plupart des situations et ne nécessite généralement aucune modification. Consultez [ce tutoriel](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} pour en savoir plus.
+        L’EDID (Extended Display Identification Data) permet d’adapter automatiquement les paramètres d’affichage. L’EDID par défaut convient à la plupart des situations et ne nécessite généralement aucune modification. Consultez [Configurer l’EDID d’un KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} pour en savoir plus.
 
         Si l’écran ne change pas après la modification de l’EDID, essayez de redémarrer l’appareil contrôlé.
 
-3. **Si l’appareil contrôlé n’est pas un ordinateur portable (par exemple un PC de bureau avec un écran externe)**, vérifiez le format de son écran principal, puis adaptez l’EDID du KVM. Consultez [ce tutoriel](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} pour en savoir plus.
+4. Si l’appareil contrôlé n’est pas un ordinateur portable (par exemple un PC de bureau avec un écran externe), vérifiez le format de son écran principal, puis adaptez l’EDID du KVM. Consultez [Configurer l’EDID d’un KVM GL.iNet](../tutorials/how_to_set_edid_for_glkvm.md){target="_blank"} pour en savoir plus.
 
 ---
 

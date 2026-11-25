@@ -15,6 +15,7 @@
 * [GL.iNet KVM](quick_faqs_about_glinet_kvm.md) に関する簡単な FAQ
 * [ファームウェアアップグレード](firmware_upgrade.md)
 * [GLKVM アプリをダウンロード](glkvm_app.md)
+* [GL.iNet KVM を工場出荷時の設定に戻す方法](factory_reset.md)
 * [WAN Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md) のネットワーク検出およびフェイルオーバー ロジックとは何ですか
 
 ## ローカルおよびリモート アクセス {#local-remote-access}
@@ -57,7 +58,7 @@
 ## キーボードとマウスの問題 {#keyboard-mouse-issues}
 
 * [マウスとキーボードを制御できない場合はどうすればよいですか](cannot_control_mouse_and_keyboard.md)
-* [マウス カーソルの位置が合わない場合はどうすればよいですか](mouse_cursors_fail_to_align.md)
+* [ローカルカーソルとリモートカーソルの位置が合わない場合はどうすればよいですか？](cursor_misalignment.md)
 * [キーボードが期待どおりに入力または出力しない場合はどうすればよいですか](keyboard_does_not_input_output_as_expected.md)
 * [Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md) で相対マウス モードが機能しない場合はどうすればよいですか？
 * [絶対マウスと相対マウスの違いは何ですか](difference_between_absolute_and_relative_mouse.md)

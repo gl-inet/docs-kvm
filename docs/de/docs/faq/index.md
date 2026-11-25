@@ -15,6 +15,7 @@ Wenn Ihre Frage unten nicht aufgeführt ist, wenden Sie sich bitte an unser tech
 * [Kurze FAQs zu GL.iNet KVM](quick_faqs_about_glinet_kvm.md)
 * [Firmware-Upgrade](firmware_upgrade.md)
 * [GLKVM-App herunterladen](glkvm_app.md)
+* [So setzen Sie Ihr GL.iNet-KVM auf Werkseinstellungen zurück](factory_reset.md)
 * [Wie funktionieren die WAN-Netzwerkerkennung und die Failover-Logik von Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Lokaler Zugriff und Fernzugriff {#local-remote-access}
@@ -57,7 +58,7 @@ Wenn Ihre Frage unten nicht aufgeführt ist, wenden Sie sich bitte an unser tech
 ## Tastatur- und Mausprobleme {#keyboard-mouse-issues}
 
 * [Was kann ich tun, wenn ich Maus und Tastatur nicht steuern kann](cannot_control_mouse_and_keyboard.md)
-* [Was kann ich tun, wenn die Mauszeiger nicht übereinstimmen](mouse_cursors_fail_to_align.md)
+* [Was kann ich tun, wenn der lokale und der entfernte Mauszeiger nicht übereinstimmen?](cursor_misalignment.md)
 * [Was kann ich tun, wenn die Tastatur nicht wie erwartet ein- oder ausgibt](keyboard_does_not_input_output_as_expected.md)
 * [Was kann ich tun, wenn der relative Mausmodus auf Reolink NVR nicht funktioniert](relative_mouse_not_working_on_reolink_nvr.md)
 * [Was ist der Unterschied zwischen absolutem und relativem Mausmodus](difference_between_absolute_and_relative_mouse.md)

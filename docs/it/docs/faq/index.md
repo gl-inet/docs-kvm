@@ -15,6 +15,7 @@ Se la tua domanda non è presente nell'elenco, contatta il nostro team di assist
 * [Domande frequenti sul KVM GL.iNet](quick_faqs_about_glinet_kvm.md)
 * [Aggiornamento del firmware](firmware_upgrade.md)
 * [Scaricare l'app GLKVM](glkvm_app.md)
+* [Come ripristinare le impostazioni di fabbrica del KVM GL.iNet?](factory_reset.md)
 * [Logica di rilevamento della rete WAN e failover di Comet 5G](wan_network_detection_and_failover_logic_of_comet5g.md)
 
 ## Accesso locale e remoto {#local-remote-access}
@@ -57,7 +58,7 @@ Se la tua domanda non è presente nell'elenco, contatta il nostro team di assist
 ## Problemi con tastiera e mouse {#keyboard-mouse-issues}
 
 * [Cosa fare se non riesci a controllare il mouse e la tastiera](cannot_control_mouse_and_keyboard.md)
-* [Cosa fare se i puntatori del mouse non si allineano](mouse_cursors_fail_to_align.md)
+* [Cosa fare se il puntatore locale e quello remoto non coincidono?](cursor_misalignment.md)
 * [Cosa fare se la tastiera non produce l'input o l'output previsto](keyboard_does_not_input_output_as_expected.md)
 * [Cosa fare se il mouse relativo non funziona su Reolink NVR](relative_mouse_not_working_on_reolink_nvr.md)
 * [Differenza tra mouse assoluto e mouse relativo](difference_between_absolute_and_relative_mouse.md)
