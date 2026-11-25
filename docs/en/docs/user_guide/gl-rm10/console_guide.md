@@ -53,7 +53,7 @@ You can customize video settings on the Session, such as display mode, video qua
 
 ### Audio & Camera {#audio-camera}
 
-You can adjust the Audio and Camera settings for the controlled device.
+You can adjust the audio and camera settings for the controlled device.
 
 ![Audio_Camera](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm10/console/session_audio_camera.png){class="glboxshadow"}
 
