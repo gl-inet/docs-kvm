@@ -1,6 +1,10 @@
 # How can I use camera passthrough for remote meetings {#how-can-i-use-camera-passthrough-for-remote-meetings}
 
-**Note**: The Camera feature was introduced in firmware v1.10.0 and is supported only in WebRTC (FEC) mode. It is currently available through web browsers and the desktop client, but is not yet supported in the mobile app.
+**Note**: 
+
+1. The Camera feature was introduced in firmware v1.10.0 and is supported only in WebRTC (FEC) mode. It is currently available through web browsers and the desktop client, but is not yet supported in the mobile app.
+
+2. Due to hardware limitations, GL-RM1 (Comet) and GL-RMQ1 (Comet Q) do not support this feature. 
 
 ---
 
